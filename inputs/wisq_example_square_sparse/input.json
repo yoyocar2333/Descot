@@ -1,0 +1,203 @@
+{
+  "case": "wisq_example",
+  "layout": "square_sparse",
+  "gates": [
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1
+    ],
+    [
+      2
+    ],
+    [
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1
+    ],
+    [
+      2
+    ],
+    [
+      0
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      0
+    ],
+    [
+      1
+    ],
+    [
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0
+    ],
+    [
+      1
+    ],
+    [
+      2
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "ops": [
+    "cx",
+    "cx",
+    "t",
+    "t",
+    "t",
+    "cx",
+    "cx",
+    "cx",
+    "tdg",
+    "cx",
+    "tdg",
+    "tdg",
+    "t",
+    "cx",
+    "cx",
+    "cx",
+    "t",
+    "t",
+    "t",
+    "cx",
+    "cx",
+    "cx",
+    "tdg",
+    "cx",
+    "tdg",
+    "tdg",
+    "t",
+    "cx",
+    "cx",
+    "cx",
+    "cx"
+  ],
+  "declared_qubits": 16,
+  "active_qubits": 3,
+  "routing_program_depth": 21,
+  "note": "Bundled QASM example. Routing extracts only cx/t/tdg, as upstream does.",
+  "architecture": {
+    "height": 7,
+    "width": 7,
+    "alg_qubits": [
+      16,
+      18,
+      30,
+      32
+    ],
+    "magic_states": [
+      1,
+      3,
+      5,
+      13,
+      27,
+      41,
+      47,
+      45,
+      43,
+      7,
+      21,
+      35
+    ]
+  },
+  "mapping": [
+    [
+      0,
+      30
+    ],
+    [
+      1,
+      16
+    ],
+    [
+      2,
+      32
+    ]
+  ],
+  "mapping_seed": 1001,
+  "mapping_seconds": 0.48406877300021733,
+  "mapping_proxy_cost": 1,
+  "mapping_parameters": {
+    "initial_temp": 100,
+    "cooling_rate": 0.004761904761904762,
+    "termination_temp": 0.047619047619047616
+  },
+  "commit": "97c12a5e22cf16e37288c60a0a5735c58c6fe8ca",
+  "input_sha256": "17a02969abc1614fb37917d6196ed59ffdea16d014e00a1db487ada8428719dc",
+  "split": "development",
+  "origin": "recovered pilot input, mapping retained"
+}

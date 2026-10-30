@@ -1,0 +1,23 @@
+name: Research tests
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install pinned dependencies
+        run: python -m pip install -r requirements-lock.txt
+      - name: Fetch pinned routing source
+        run: |
+          mkdir -p ../external
+          git clone https://github.com/qqq-wisc/wisq.git ../external/wisq
+          git -C ../external/wisq checkout 97c12a5e22cf16e37288c60a0a5735c58c6fe8ca
+      - name: Run tests
+        run: python -m pytest tests -q

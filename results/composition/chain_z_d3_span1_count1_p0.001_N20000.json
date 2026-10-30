@@ -1,0 +1,129 @@
+{
+  "basis": "z",
+  "distance": 3,
+  "bridge_span_blocks": 1,
+  "cnot_count": 1,
+  "expected_logical_action": "CNOT",
+  "external_flows": [
+    "ZIZI",
+    "IZZZ"
+  ],
+  "flow_port_order": [
+    "in_control",
+    "in_target",
+    "out_control",
+    "out_target"
+  ],
+  "tqec_commit": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+  "temporal_factor": 1,
+  "num_qubits": 81,
+  "num_ticks": 83,
+  "num_detectors": 256,
+  "num_observables": 2,
+  "scope": "Continuous same-pair CNOT chain with no intermediate logical readout/reinitialization. Not an arbitrary DASCOT schedule translator.",
+  "validation": {
+    "zero_noise_and_signed_inputs_passed": true,
+    "external_logical_action_passed": true,
+    "signed_inputs": [
+      {
+        "input_signs": [
+          0,
+          0
+        ],
+        "observable_parities": [
+          0,
+          0
+        ],
+        "shots": 128
+      },
+      {
+        "input_signs": [
+          0,
+          1
+        ],
+        "observable_parities": [
+          0,
+          1
+        ],
+        "shots": 128
+      },
+      {
+        "input_signs": [
+          1,
+          0
+        ],
+        "observable_parities": [
+          1,
+          0
+        ],
+        "shots": 128
+      },
+      {
+        "input_signs": [
+          1,
+          1
+        ],
+        "observable_parities": [
+          1,
+          1
+        ],
+        "shots": 128
+      }
+    ],
+    "final_logical_flip_observables": [
+      1,
+      1
+    ]
+  },
+  "name": "chain_z_d3_span1_count1_p0.001_N20000",
+  "physical_p": 0.001,
+  "shots": 20000,
+  "failures_any": 530,
+  "failures_by_observable": [
+    176,
+    466
+  ],
+  "p_fail_any": 0.0265,
+  "wilson95_low": 0.024363292149139563,
+  "wilson95_high": 0.02881856599599151,
+  "seed": 1652684096149426461,
+  "batch_size": 5000,
+  "batches": [
+    {
+      "shots": 5000,
+      "failures_any": 135,
+      "failures_by_observable": [
+        43,
+        121
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 137,
+      "failures_by_observable": [
+        50,
+        121
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 126,
+      "failures_by_observable": [
+        37,
+        111
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 132,
+      "failures_by_observable": [
+        46,
+        113
+      ]
+    }
+  ],
+  "shortest_graphlike_error": 3,
+  "model_id": "tqec_uniform_depolarizing_circuit_v1",
+  "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+  "circuit_sha256": "cc8f27b103fe8f9a8642a1e5901bdd83938939889ce310c82984486287dad907"
+}

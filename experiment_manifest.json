@@ -1,0 +1,86 @@
+{
+  "routing_seed_list": [
+    1,
+    2,
+    3
+  ],
+  "timing_repeats": 3,
+  "front_budget": 48,
+  "conflict_weight": 0.25,
+  "quantum_risk_weight": 0,
+  "parameter_selection": "Fixed before evaluation; conflict breaks integer progress ties only.",
+  "held_out_specs": [
+    [
+      "held_random24_s41",
+      24,
+      10,
+      41,
+      "random"
+    ],
+    [
+      "held_random24_s53",
+      24,
+      14,
+      53,
+      "random"
+    ],
+    [
+      "held_random36_s67",
+      36,
+      10,
+      67,
+      "random"
+    ],
+    [
+      "held_ring24",
+      24,
+      12,
+      0,
+      "ring"
+    ]
+  ],
+  "methods": {
+    "original": null,
+    "limited": null,
+    "saturation": null,
+    "one_budget48": {
+      "mode": "one_step",
+      "budget": 48,
+      "candidate_cap": null,
+      "conflict_weight": 0.25
+    },
+    "two_budget48": {
+      "mode": "two_step",
+      "budget": 48,
+      "candidate_cap": null,
+      "conflict_weight": 0.25
+    },
+    "guided_budget48": {
+      "mode": "two_step_conflict",
+      "budget": 48,
+      "candidate_cap": null,
+      "conflict_weight": 0.25
+    },
+    "one_pool16": {
+      "mode": "one_step",
+      "budget": 48,
+      "candidate_cap": 16,
+      "conflict_weight": 0.25
+    },
+    "two_pool16": {
+      "mode": "two_step",
+      "budget": 48,
+      "candidate_cap": 16,
+      "conflict_weight": 0.25
+    },
+    "random_pool16": {
+      "mode": "random",
+      "budget": 48,
+      "candidate_cap": 16,
+      "conflict_weight": 0.25
+    }
+  },
+  "budget_unit": "One greedy route-order evaluation or one batch of independently routed reference requests. Includes rollouts and reference batches.",
+  "fairness": "Budget-matched primary comparison: one_budget48, two_budget48, guided_budget48. Fixed-pool ablations: one_pool16, two_pool16, guided_budget48, random_pool16. Original/limited/stopping are additional reference methods.",
+  "limitations": "Budget units differ in front size; gate-route calls and wall time are also recorded. This is not a matched wall-time experiment."
+}

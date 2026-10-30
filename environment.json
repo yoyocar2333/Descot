@@ -1,0 +1,13 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+  "wisq_commit": "97c12a5e22cf16e37288c60a0a5735c58c6fe8ca",
+  "packages": {
+    "numpy": "2.5.4",
+    "qiskit": "2.5.2",
+    "rustworkx": "0.18.1",
+    "stim": "1.16.0",
+    "pymatching": "2.4.0",
+    "tqec": "0.2.0"
+  }
+}

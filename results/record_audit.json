@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "routing_configurations": 540,
+  "routing_executions": 1620,
+  "isolated_timing_configurations": 72,
+  "isolated_timing_executions": 216,
+  "cnot_configurations": 32,
+  "cnot_shots": 3200000,
+  "checks": [
+    "route legality",
+    "schedule hashes",
+    "timing medians",
+    "circuit hashes",
+    "batch sums",
+    "summary consistency",
+    "Wilson intervals"
+  ]
+}

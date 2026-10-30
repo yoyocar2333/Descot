@@ -1,0 +1,13 @@
+{
+  "instance": "held_random36_s67_compact",
+  "method": "guided_budget48",
+  "seed": 3,
+  "seconds": [
+    0.8709481409999853,
+    0.8326231170000256,
+    0.823626408999985
+  ],
+  "median_seconds": 0.8326231170000256,
+  "schedule_hash": "649ef46124528b65dd533e86ae455b806f0e70c08e09ffd148763fdb47a147f8",
+  "protocol": "Randomized configuration order, three repeats, no simultaneous local sampling/compilation benchmark; shared host is not exclusively reserved."
+}

@@ -1,0 +1,272 @@
+{
+  "basis": "x",
+  "distance": 3,
+  "bridge_span_blocks": 3,
+  "temporal_factor": 2,
+  "bulk_repetitions_per_block": 3,
+  "external_flows": [
+    "XXXI",
+    "XIXX"
+  ],
+  "flow_port_order": [
+    "in_control",
+    "in_target",
+    "out_control",
+    "out_target"
+  ],
+  "tqec_commit": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+  "tqec_convention": "FIXED_BULK_CONVENTION default",
+  "num_qubits": 137,
+  "num_detectors": 544,
+  "num_observables": 2,
+  "num_ticks": 139,
+  "scope": "One TQEC lattice-surgery CNOT with basis-specific initialization/readout. Not full-process fidelity or arbitrary DASCOT route lowering.",
+  "validation": {
+    "zero_noise_and_signed_inputs_passed": true,
+    "signed_inputs": [
+      {
+        "input_signs": [
+          0,
+          0
+        ],
+        "observable_parities": [
+          0,
+          0
+        ],
+        "shots": 256
+      },
+      {
+        "input_signs": [
+          0,
+          1
+        ],
+        "observable_parities": [
+          1,
+          0
+        ],
+        "shots": 256
+      },
+      {
+        "input_signs": [
+          1,
+          0
+        ],
+        "observable_parities": [
+          1,
+          1
+        ],
+        "shots": 256
+      },
+      {
+        "input_signs": [
+          1,
+          1
+        ],
+        "observable_parities": [
+          0,
+          1
+        ],
+        "shots": 256
+      }
+    ],
+    "final_logical_flip_observables": [
+      1,
+      1
+    ]
+  },
+  "shortest_graphlike_error": 3,
+  "generation_and_validation_seconds": 1.7847196599999506,
+  "name": "cnot_x_d3_span3_tf2_p0.001_N100000",
+  "physical_p": 0.001,
+  "shots": 100000,
+  "failures_any": 5316,
+  "p_fail_any": 0.05316,
+  "wilson95_low": 0.05178656004864148,
+  "wilson95_high": 0.05456776898181174,
+  "failures_by_observable": [
+    4640,
+    4040
+  ],
+  "p_fail_by_observable": [
+    0.0464,
+    0.0404
+  ],
+  "wilson95_by_observable": [
+    [
+      0.045113595160997534,
+      0.047721253214737795
+    ],
+    [
+      0.03919720184493472,
+      0.04163810748815161
+    ]
+  ],
+  "seed": 8135218659022686854,
+  "batch_size": 5000,
+  "batches": [
+    {
+      "shots": 5000,
+      "failures_any": 241,
+      "failures_by_observable": [
+        215,
+        177
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 242,
+      "failures_by_observable": [
+        207,
+        185
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 245,
+      "failures_by_observable": [
+        210,
+        195
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 249,
+      "failures_by_observable": [
+        213,
+        186
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 284,
+      "failures_by_observable": [
+        246,
+        220
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 276,
+      "failures_by_observable": [
+        239,
+        191
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 241,
+      "failures_by_observable": [
+        214,
+        181
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 270,
+      "failures_by_observable": [
+        235,
+        207
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 283,
+      "failures_by_observable": [
+        242,
+        232
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 250,
+      "failures_by_observable": [
+        221,
+        190
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 287,
+      "failures_by_observable": [
+        249,
+        213
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 266,
+      "failures_by_observable": [
+        235,
+        201
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 274,
+      "failures_by_observable": [
+        238,
+        203
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 271,
+      "failures_by_observable": [
+        238,
+        194
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 261,
+      "failures_by_observable": [
+        233,
+        203
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 275,
+      "failures_by_observable": [
+        241,
+        210
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 248,
+      "failures_by_observable": [
+        214,
+        198
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 288,
+      "failures_by_observable": [
+        250,
+        215
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 313,
+      "failures_by_observable": [
+        279,
+        243
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 252,
+      "failures_by_observable": [
+        221,
+        196
+      ]
+    }
+  ],
+  "sampling_decode_seconds": 0.49395605300003353,
+  "model_id": "tqec_uniform_depolarizing_circuit_v1",
+  "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+  "circuit_sha256": "c5b0f0b980ee8e5dbb9b7a532beac30fc599a0863fbed48ad45d894206828fa6"
+}

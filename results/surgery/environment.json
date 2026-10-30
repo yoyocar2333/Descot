@@ -1,0 +1,17 @@
+{
+  "tqec_commit": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+  "model_id": "tqec_uniform_depolarizing_circuit_v1",
+  "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+  "packages": {
+    "stim": "1.16.0",
+    "pymatching": "2.4.0",
+    "tqec": "0.2.0",
+    "tqecd": "0.2.1",
+    "pyzx": "0.10.7",
+    "numpy": "2.5.4"
+  },
+  "noise_definition": "DEPOLARIZE1(p) after 1-qubit Cliffords and on idle qubits per moment; DEPOLARIZE2(p) after 2-qubit Cliffords; reset Pauli flips and measurement-result flips with p. Pinned TQEC NoiseModel source is authoritative.",
+  "scope": "Any failure of two basis-specific logical CNOT correlation observables. Not state/process fidelity.",
+  "comparison_to_old_memory": "Noise definition differs from the previous four-parameter Stim memory generator. Do not pool lookup values across model IDs.",
+  "reproducibility": "Same seed may sample differently with different package versions, SIMD, batch size or sampling call order."
+}

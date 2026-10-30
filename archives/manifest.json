@@ -1,0 +1,12 @@
+{
+  "phase1_snapshot.zip": {
+    "sha256": "2c72a595eac4bd5ffb429750c01ae818937161c2d9f09dd1423bd15da9969444",
+    "bytes": 10690984,
+    "description": "Frozen Phase 1 source and all raw schedules/circuits/records; 2026-10-30. Current development source is at repository root."
+  },
+  "composition_2026-10-30.zip": {
+    "sha256": "da0bbfa4f862bdd45c67a76ba27498f8e93e92d217830347ab518838ec09ce9b",
+    "bytes": 743614,
+    "description": "Frozen 12-setting continuous CNOT chain pilot; all circuits, DEMs, counts and validations; 2026-10-30."
+  }
+}

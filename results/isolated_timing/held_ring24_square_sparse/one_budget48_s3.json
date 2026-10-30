@@ -1,0 +1,13 @@
+{
+  "instance": "held_ring24_square_sparse",
+  "method": "one_budget48",
+  "seed": 3,
+  "seconds": [
+    0.20544474500002252,
+    0.20075496000004023,
+    0.23639774000002944
+  ],
+  "median_seconds": 0.20544474500002252,
+  "schedule_hash": "4fb4d99c39ab03fb8ac167b562b2bfbc18206bef4e704d4479f456a5cb90b07d",
+  "protocol": "Randomized configuration order, three repeats, no simultaneous local sampling/compilation benchmark; shared host is not exclusively reserved."
+}

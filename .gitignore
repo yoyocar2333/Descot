@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.tmp
+results_fresh/
+results/routing/
+results/surgery/*.stim
+results/surgery/*.dem
+results/composition/*.stim
+results/composition/*.dem
+results/*_run.log
+ARTIFACT_MANIFEST.json
+DASCOT_Phase1_Progress_ZH.md
+external/

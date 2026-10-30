@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "configurations": 12,
+  "shots": 240000,
+  "checks": [
+    "circuit hashes",
+    "batch counts",
+    "Wilson intervals",
+    "summary records",
+    "stored logical validation",
+    "stored graphlike distance"
+  ]
+}

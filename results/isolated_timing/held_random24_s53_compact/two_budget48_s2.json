@@ -1,0 +1,13 @@
+{
+  "instance": "held_random24_s53_compact",
+  "method": "two_budget48",
+  "seed": 2,
+  "seconds": [
+    0.47540662399990197,
+    0.4880356490000395,
+    0.5304616009999563
+  ],
+  "median_seconds": 0.4880356490000395,
+  "schedule_hash": "69f67a3196d2e1487951de1b2ecdb9be2fdad330c44971e2e314d65087d13f5a",
+  "protocol": "Randomized configuration order, three repeats, no simultaneous local sampling/compilation benchmark; shared host is not exclusively reserved."
+}
