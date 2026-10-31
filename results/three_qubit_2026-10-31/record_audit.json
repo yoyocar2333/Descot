@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "configurations": 8,
+  "shots": 800000,
+  "checks": [
+    "individual/summary equality",
+    "protocol IDs",
+    "three circuit/DEM hashes per setting",
+    "batch counts",
+    "Wilson intervals",
+    "stored eight-input and three-fault validation",
+    "stored graphlike distance"
+  ],
+  "scope": "Record audit; ideal action was executed by the runner and independent tests, not inferred from filenames."
+}

@@ -9,6 +9,8 @@ results/surgery/*.stim
 results/surgery/*.dem
 results/composition/*.stim
 results/composition/*.dem
+results/three_qubit_2026-10-31/*.stim
+results/three_qubit_2026-10-31/*.dem
 results/*_run.log
 ARTIFACT_MANIFEST.json
 DASCOT_Phase1_Progress_ZH.md

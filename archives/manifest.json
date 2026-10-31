@@ -8,5 +8,11 @@
     "sha256": "da0bbfa4f862bdd45c67a76ba27498f8e93e92d217830347ab518838ec09ce9b",
     "bytes": 743614,
     "description": "Frozen 12-setting continuous CNOT chain pilot; all circuits, DEMs, counts and validations; 2026-10-30."
+  },
+  "three_qubit_2026-10-31.zip": {
+    "sha256": "d2b1d64d0bf7130dd83b575dbafdad8daec2b859bb42a729642511e091114dfd",
+    "bytes": 703580,
+    "result_prefix": "results/three_qubit_2026-10-31",
+    "description": "Frozen three-live-qubit chain and intergate storage pilot; 8 conditions, 800000 shots, all circuits and raw records; 2026-10-31."
   }
 }

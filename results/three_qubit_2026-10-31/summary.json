@@ -1,0 +1,3734 @@
+{
+  "protocol": {
+    "id": "three_qubit_storage_pilot_20261031_v1",
+    "bases": [
+      "x",
+      "z"
+    ],
+    "distance": 3,
+    "spans": [
+      1,
+      3
+    ],
+    "idle_blocks": [
+      0,
+      1
+    ],
+    "p": 0.001,
+    "shots": 100000,
+    "batch_size": 5000,
+    "model_id": "tqec_uniform_depolarizing_circuit_v1",
+    "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+    "logical_gates": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "observable_failure": "Any of three independent logical correlation observables misdecoded",
+    "selection": "All eight conditions fixed before noisy sampling; descriptive paired contrasts, no scheduler tuning.",
+    "mu": 0
+  },
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+    "packages": {
+      "tqec": "0.2.0",
+      "stim": "1.16.0",
+      "pymatching": "2.4.0",
+      "numpy": "2.5.4",
+      "tqecd": "0.2.1",
+      "pyzx": "0.10.7"
+    },
+    "tqec_direct_url": {
+      "url": "file:///workspace/scratch/4680ffcb5b1d/external/tqec",
+      "dir_info": {}
+    },
+    "tqec_verification": {
+      "method": "pinned local Git tree and installed source byte comparison",
+      "commit": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+      "python_files_checked": 177,
+      "source_fingerprint_sha256": "b8ec733c008548994db2dfa30e996b62d5a227d98ef713d02709d4c72817ed61"
+    },
+    "source_head": "f478446f06d30659cae410b38f0b3b640e981be8",
+    "source_files_sha256": {
+      "three_qubit.py": "5bc6127fea501ad4ea2f9a88af08a23e1ddf903724a4fc3a3abb01f6a6b55b0a",
+      "run_three_qubit.py": "e79a31182623826c0aff27eec6eca7c9dd6e2536df44fc3949f636024e3da495",
+      "surgery.py": "ee67e6691f7da5b48dd788b4e886348fbd70fd370154ef5de2ecee9b90d11e0b",
+      "run_surgery.py": "1f4d9227351a14d6f48f7aad80a39b10efcce7ef7b5913c7ff53bd464fe035d3",
+      "memory_calibration_previous.py": "36f0e60b849d48b388eab2b86b5a1086774b58f6fb349b814d404d4ebe839534"
+    }
+  },
+  "configurations": 8,
+  "shots_total": 800000,
+  "records": [
+    {
+      "geometry_id": "three_live_qubit_diagonal_chain_v1",
+      "basis": "x",
+      "distance": 3,
+      "bridge_span_blocks": 1,
+      "idle_blocks": 0,
+      "logical_gates": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "logical_qubits": 3,
+      "external_flows": [
+        "XXIXII",
+        "XXXXIX",
+        "XIXXXI"
+      ],
+      "flow_port_order": [
+        "in_q0",
+        "in_q1",
+        "in_q2",
+        "out_q0",
+        "out_q1",
+        "out_q2"
+      ],
+      "logical_block_xy": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "input_z": 0,
+      "output_z": 6,
+      "spectator_memory": {
+        "q0": "stored through second CNOT",
+        "q2": "stored before second CNOT",
+        "intergate_extra_blocks_all_three_qubits": 0
+      },
+      "num_qubits": 137,
+      "num_ticks": 146,
+      "num_observables": 3,
+      "num_detectors": 632,
+      "tqec_commit": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+      "scope": "Full basis-specific non-cancelling three-qubit CNOT chain, including spectator storage. Not arbitrary DASCOT route lowering or process fidelity.",
+      "name": "three_x_d3_span1_idle0_p0.001_N100000",
+      "protocol_id": "three_qubit_storage_pilot_20261031_v1",
+      "physical_p": 0.001,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "shots": 100000,
+      "seed": 17575513442363837404,
+      "batch_size": 5000,
+      "batches": [
+        {
+          "shots": 5000,
+          "failures_any": 335,
+          "failures_by_observable": [
+            144,
+            231,
+            290
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 366,
+          "failures_by_observable": [
+            183,
+            260,
+            308
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 371,
+          "failures_by_observable": [
+            173,
+            268,
+            312
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 329,
+          "failures_by_observable": [
+            173,
+            244,
+            275
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 366,
+          "failures_by_observable": [
+            180,
+            267,
+            310
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 365,
+          "failures_by_observable": [
+            171,
+            242,
+            310
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 341,
+          "failures_by_observable": [
+            156,
+            247,
+            286
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 381,
+          "failures_by_observable": [
+            179,
+            273,
+            335
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 342,
+          "failures_by_observable": [
+            162,
+            242,
+            302
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 362,
+          "failures_by_observable": [
+            179,
+            260,
+            300
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 382,
+          "failures_by_observable": [
+            191,
+            286,
+            326
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 362,
+          "failures_by_observable": [
+            176,
+            289,
+            295
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 360,
+          "failures_by_observable": [
+            161,
+            253,
+            302
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 355,
+          "failures_by_observable": [
+            177,
+            259,
+            299
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 358,
+          "failures_by_observable": [
+            168,
+            256,
+            295
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 373,
+          "failures_by_observable": [
+            182,
+            278,
+            307
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 332,
+          "failures_by_observable": [
+            158,
+            238,
+            279
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 397,
+          "failures_by_observable": [
+            187,
+            305,
+            342
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 342,
+          "failures_by_observable": [
+            166,
+            242,
+            302
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 393,
+          "failures_by_observable": [
+            186,
+            286,
+            340
+          ]
+        }
+      ],
+      "failures_any": 7212,
+      "failures_by_observable": [
+        3452,
+        5226,
+        6115
+      ],
+      "p_fail_any": 0.07212,
+      "wilson95_low": 0.07053305667147151,
+      "wilson95_high": 0.07373981573375256,
+      "wilson95_by_observable": [
+        [
+          0.03340625951816231,
+          0.03566950155312801
+        ],
+        [
+          0.05089775908163841,
+          0.05365663909241746
+        ],
+        [
+          0.05968172898158647,
+          0.06265198620732768
+        ]
+      ],
+      "validation": {
+        "external_logical_action_passed": true,
+        "all_eight_signed_inputs_passed": true,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0,
+              0
+            ],
+            "output_signs": [
+              0,
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              0,
+              1
+            ],
+            "output_signs": [
+              0,
+              1,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              0
+            ],
+            "output_signs": [
+              1,
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              1,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              1
+            ],
+            "output_signs": [
+              1,
+              0,
+              1
+            ],
+            "observable_parities": [
+              1,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              0
+            ],
+            "output_signs": [
+              1,
+              0,
+              0
+            ],
+            "observable_parities": [
+              1,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              1
+            ],
+            "output_signs": [
+              1,
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              0,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              0
+            ],
+            "output_signs": [
+              0,
+              1,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              1
+            ],
+            "output_signs": [
+              0,
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1,
+              0
+            ],
+            "shots": 128
+          }
+        ],
+        "final_logical_faults": [
+          {
+            "logical_qubit": 0,
+            "observable_flips": [
+              1,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "logical_qubit": 1,
+            "observable_flips": [
+              0,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "logical_qubit": 2,
+            "observable_flips": [
+              0,
+              1,
+              0
+            ],
+            "shots": 128
+          }
+        ],
+        "common_logical_lifetime_block_z": [
+          0,
+          6
+        ]
+      },
+      "shortest_graphlike_error": 3,
+      "circuit_sha256": "19b81d338e19384c01de5d108dc82c3eaa1b11547b9ec641f1cf1d69520e595b",
+      "ideal_circuit_sha256": "6075d7f2f8142d9998e4fe25fec58d0cfaf0567b9aa1d14b728a75f14b5283f0",
+      "dem_sha256": "fdff7ce02941b6a63fc7849890449f0d4e13c6e97c8fc9dcb05d4b1fb65af323"
+    },
+    {
+      "geometry_id": "three_live_qubit_diagonal_chain_v1",
+      "basis": "x",
+      "distance": 3,
+      "bridge_span_blocks": 1,
+      "idle_blocks": 1,
+      "logical_gates": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "logical_qubits": 3,
+      "external_flows": [
+        "XXIXII",
+        "XXXXIX",
+        "XIXXXI"
+      ],
+      "flow_port_order": [
+        "in_q0",
+        "in_q1",
+        "in_q2",
+        "out_q0",
+        "out_q1",
+        "out_q2"
+      ],
+      "logical_block_xy": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "input_z": 0,
+      "output_z": 7,
+      "spectator_memory": {
+        "q0": "stored through second CNOT",
+        "q2": "stored before second CNOT",
+        "intergate_extra_blocks_all_three_qubits": 1
+      },
+      "num_qubits": 137,
+      "num_ticks": 167,
+      "num_observables": 3,
+      "num_detectors": 704,
+      "tqec_commit": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+      "scope": "Full basis-specific non-cancelling three-qubit CNOT chain, including spectator storage. Not arbitrary DASCOT route lowering or process fidelity.",
+      "name": "three_x_d3_span1_idle1_p0.001_N100000",
+      "protocol_id": "three_qubit_storage_pilot_20261031_v1",
+      "physical_p": 0.001,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "shots": 100000,
+      "seed": 6095638059895362702,
+      "batch_size": 5000,
+      "batches": [
+        {
+          "shots": 5000,
+          "failures_any": 381,
+          "failures_by_observable": [
+            176,
+            262,
+            330
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 388,
+          "failures_by_observable": [
+            177,
+            283,
+            338
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 417,
+          "failures_by_observable": [
+            179,
+            291,
+            358
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 404,
+          "failures_by_observable": [
+            174,
+            279,
+            346
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 429,
+          "failures_by_observable": [
+            207,
+            310,
+            356
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 379,
+          "failures_by_observable": [
+            184,
+            278,
+            319
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 385,
+          "failures_by_observable": [
+            171,
+            282,
+            342
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 458,
+          "failures_by_observable": [
+            196,
+            316,
+            396
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 363,
+          "failures_by_observable": [
+            173,
+            267,
+            301
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 406,
+          "failures_by_observable": [
+            178,
+            288,
+            347
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 371,
+          "failures_by_observable": [
+            187,
+            273,
+            328
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 400,
+          "failures_by_observable": [
+            197,
+            288,
+            347
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 415,
+          "failures_by_observable": [
+            191,
+            291,
+            353
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 409,
+          "failures_by_observable": [
+            180,
+            295,
+            355
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 392,
+          "failures_by_observable": [
+            191,
+            278,
+            326
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 397,
+          "failures_by_observable": [
+            188,
+            288,
+            335
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 374,
+          "failures_by_observable": [
+            172,
+            258,
+            324
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 397,
+          "failures_by_observable": [
+            176,
+            282,
+            345
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 420,
+          "failures_by_observable": [
+            194,
+            287,
+            371
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 410,
+          "failures_by_observable": [
+            187,
+            311,
+            346
+          ]
+        }
+      ],
+      "failures_any": 7995,
+      "failures_by_observable": [
+        3678,
+        5707,
+        6863
+      ],
+      "p_fail_any": 0.07995,
+      "wilson95_low": 0.07828510836349888,
+      "wilson95_high": 0.08164716249238214,
+      "wilson95_by_observable": [
+        [
+          0.03563109459520072,
+          0.03796449284882072
+        ],
+        [
+          0.0556491635298698,
+          0.058524865110043026
+        ],
+        [
+          0.06707952279349189,
+          0.070213617735258
+        ]
+      ],
+      "validation": {
+        "external_logical_action_passed": true,
+        "all_eight_signed_inputs_passed": true,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0,
+              0
+            ],
+            "output_signs": [
+              0,
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              0,
+              1
+            ],
+            "output_signs": [
+              0,
+              1,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              0
+            ],
+            "output_signs": [
+              1,
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              1,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              1
+            ],
+            "output_signs": [
+              1,
+              0,
+              1
+            ],
+            "observable_parities": [
+              1,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              0
+            ],
+            "output_signs": [
+              1,
+              0,
+              0
+            ],
+            "observable_parities": [
+              1,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              1
+            ],
+            "output_signs": [
+              1,
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              0,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              0
+            ],
+            "output_signs": [
+              0,
+              1,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              1
+            ],
+            "output_signs": [
+              0,
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1,
+              0
+            ],
+            "shots": 128
+          }
+        ],
+        "final_logical_faults": [
+          {
+            "logical_qubit": 0,
+            "observable_flips": [
+              1,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "logical_qubit": 1,
+            "observable_flips": [
+              0,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "logical_qubit": 2,
+            "observable_flips": [
+              0,
+              1,
+              0
+            ],
+            "shots": 128
+          }
+        ],
+        "common_logical_lifetime_block_z": [
+          0,
+          7
+        ]
+      },
+      "shortest_graphlike_error": 3,
+      "circuit_sha256": "934c65c1229fbdf31ec15e791b4100d4de4b4555fb9df8b26754f9ecfbbae51e",
+      "ideal_circuit_sha256": "b86d7f9f1fc4b6ee0a01a47c9934bd42db54a4a012c2f204fb013ec4ac987422",
+      "dem_sha256": "bac964c15b0a4a36bab0dc63cbb9a2e60306f8159df5b7977be01fadf68335ac"
+    },
+    {
+      "geometry_id": "three_live_qubit_diagonal_chain_v1",
+      "basis": "x",
+      "distance": 3,
+      "bridge_span_blocks": 3,
+      "idle_blocks": 0,
+      "logical_gates": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "logical_qubits": 3,
+      "external_flows": [
+        "XXIXII",
+        "XXXXIX",
+        "XIXXXI"
+      ],
+      "flow_port_order": [
+        "in_q0",
+        "in_q1",
+        "in_q2",
+        "out_q0",
+        "out_q1",
+        "out_q2"
+      ],
+      "logical_block_xy": [
+        [
+          0,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          6,
+          2
+        ]
+      ],
+      "input_z": 0,
+      "output_z": 6,
+      "spectator_memory": {
+        "q0": "stored through second CNOT",
+        "q2": "stored before second CNOT",
+        "intergate_extra_blocks_all_three_qubits": 0
+      },
+      "num_qubits": 249,
+      "num_ticks": 146,
+      "num_observables": 3,
+      "num_detectors": 760,
+      "tqec_commit": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+      "scope": "Full basis-specific non-cancelling three-qubit CNOT chain, including spectator storage. Not arbitrary DASCOT route lowering or process fidelity.",
+      "name": "three_x_d3_span3_idle0_p0.001_N100000",
+      "protocol_id": "three_qubit_storage_pilot_20261031_v1",
+      "physical_p": 0.001,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "shots": 100000,
+      "seed": 17909808397627583948,
+      "batch_size": 5000,
+      "batches": [
+        {
+          "shots": 5000,
+          "failures_any": 453,
+          "failures_by_observable": [
+            223,
+            315,
+            383
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 418,
+          "failures_by_observable": [
+            204,
+            304,
+            371
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 420,
+          "failures_by_observable": [
+            180,
+            278,
+            365
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 429,
+          "failures_by_observable": [
+            210,
+            293,
+            365
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 397,
+          "failures_by_observable": [
+            198,
+            287,
+            338
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 363,
+          "failures_by_observable": [
+            172,
+            256,
+            311
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 409,
+          "failures_by_observable": [
+            200,
+            284,
+            347
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 425,
+          "failures_by_observable": [
+            205,
+            296,
+            363
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 445,
+          "failures_by_observable": [
+            207,
+            324,
+            381
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 407,
+          "failures_by_observable": [
+            189,
+            282,
+            355
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 408,
+          "failures_by_observable": [
+            204,
+            291,
+            345
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 414,
+          "failures_by_observable": [
+            178,
+            273,
+            364
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 447,
+          "failures_by_observable": [
+            211,
+            309,
+            395
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 427,
+          "failures_by_observable": [
+            199,
+            305,
+            377
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 417,
+          "failures_by_observable": [
+            198,
+            275,
+            360
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 419,
+          "failures_by_observable": [
+            202,
+            286,
+            367
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 427,
+          "failures_by_observable": [
+            217,
+            319,
+            360
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 418,
+          "failures_by_observable": [
+            212,
+            299,
+            354
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 418,
+          "failures_by_observable": [
+            181,
+            284,
+            358
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 387,
+          "failures_by_observable": [
+            187,
+            260,
+            340
+          ]
+        }
+      ],
+      "failures_any": 8348,
+      "failures_by_observable": [
+        3977,
+        5820,
+        7199
+      ],
+      "p_fail_any": 0.08348,
+      "wilson95_low": 0.08178156549343465,
+      "wilson95_high": 0.08521043416587154,
+      "wilson95_by_observable": [
+        [
+          0.03857637963917949,
+          0.0409989780944287
+        ],
+        [
+          0.05676582766288445,
+          0.059668114163393945
+        ],
+        [
+          0.0704043949974823,
+          0.07360848739515105
+        ]
+      ],
+      "validation": {
+        "external_logical_action_passed": true,
+        "all_eight_signed_inputs_passed": true,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0,
+              0
+            ],
+            "output_signs": [
+              0,
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              0,
+              1
+            ],
+            "output_signs": [
+              0,
+              1,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              0
+            ],
+            "output_signs": [
+              1,
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              1,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              1
+            ],
+            "output_signs": [
+              1,
+              0,
+              1
+            ],
+            "observable_parities": [
+              1,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              0
+            ],
+            "output_signs": [
+              1,
+              0,
+              0
+            ],
+            "observable_parities": [
+              1,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              1
+            ],
+            "output_signs": [
+              1,
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              0,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              0
+            ],
+            "output_signs": [
+              0,
+              1,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              1
+            ],
+            "output_signs": [
+              0,
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1,
+              0
+            ],
+            "shots": 128
+          }
+        ],
+        "final_logical_faults": [
+          {
+            "logical_qubit": 0,
+            "observable_flips": [
+              1,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "logical_qubit": 1,
+            "observable_flips": [
+              0,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "logical_qubit": 2,
+            "observable_flips": [
+              0,
+              1,
+              0
+            ],
+            "shots": 128
+          }
+        ],
+        "common_logical_lifetime_block_z": [
+          0,
+          6
+        ]
+      },
+      "shortest_graphlike_error": 3,
+      "circuit_sha256": "b246f7bc1367fa98191791b6b0e7470ee63db02228e9ba90ea9fcf6f53dd4ead",
+      "ideal_circuit_sha256": "7ccefe04e28b96d8df1ab6a59988160d471c0dcdd01805095048cbf143b94aa4",
+      "dem_sha256": "f42dfd86531f738613d9b7cec33d2a603a7bdc773b9138626e3679ebca590899"
+    },
+    {
+      "geometry_id": "three_live_qubit_diagonal_chain_v1",
+      "basis": "x",
+      "distance": 3,
+      "bridge_span_blocks": 3,
+      "idle_blocks": 1,
+      "logical_gates": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "logical_qubits": 3,
+      "external_flows": [
+        "XXIXII",
+        "XXXXIX",
+        "XIXXXI"
+      ],
+      "flow_port_order": [
+        "in_q0",
+        "in_q1",
+        "in_q2",
+        "out_q0",
+        "out_q1",
+        "out_q2"
+      ],
+      "logical_block_xy": [
+        [
+          0,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          6,
+          2
+        ]
+      ],
+      "input_z": 0,
+      "output_z": 7,
+      "spectator_memory": {
+        "q0": "stored through second CNOT",
+        "q2": "stored before second CNOT",
+        "intergate_extra_blocks_all_three_qubits": 1
+      },
+      "num_qubits": 249,
+      "num_ticks": 167,
+      "num_observables": 3,
+      "num_detectors": 832,
+      "tqec_commit": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+      "scope": "Full basis-specific non-cancelling three-qubit CNOT chain, including spectator storage. Not arbitrary DASCOT route lowering or process fidelity.",
+      "name": "three_x_d3_span3_idle1_p0.001_N100000",
+      "protocol_id": "three_qubit_storage_pilot_20261031_v1",
+      "physical_p": 0.001,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "shots": 100000,
+      "seed": 13467605109530805466,
+      "batch_size": 5000,
+      "batches": [
+        {
+          "shots": 5000,
+          "failures_any": 436,
+          "failures_by_observable": [
+            202,
+            303,
+            380
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 417,
+          "failures_by_observable": [
+            191,
+            287,
+            357
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 468,
+          "failures_by_observable": [
+            202,
+            308,
+            415
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 426,
+          "failures_by_observable": [
+            198,
+            307,
+            368
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 463,
+          "failures_by_observable": [
+            214,
+            329,
+            393
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 423,
+          "failures_by_observable": [
+            181,
+            274,
+            376
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 431,
+          "failures_by_observable": [
+            208,
+            295,
+            379
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 478,
+          "failures_by_observable": [
+            208,
+            330,
+            412
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 467,
+          "failures_by_observable": [
+            230,
+            328,
+            400
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 442,
+          "failures_by_observable": [
+            201,
+            299,
+            380
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 448,
+          "failures_by_observable": [
+            206,
+            296,
+            385
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 474,
+          "failures_by_observable": [
+            212,
+            316,
+            423
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 489,
+          "failures_by_observable": [
+            229,
+            344,
+            428
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 448,
+          "failures_by_observable": [
+            207,
+            299,
+            386
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 450,
+          "failures_by_observable": [
+            216,
+            310,
+            393
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 428,
+          "failures_by_observable": [
+            188,
+            297,
+            376
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 455,
+          "failures_by_observable": [
+            202,
+            307,
+            404
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 413,
+          "failures_by_observable": [
+            210,
+            291,
+            351
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 445,
+          "failures_by_observable": [
+            208,
+            300,
+            400
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 441,
+          "failures_by_observable": [
+            210,
+            300,
+            385
+          ]
+        }
+      ],
+      "failures_any": 8942,
+      "failures_by_observable": [
+        4123,
+        6120,
+        7791
+      ],
+      "p_fail_any": 0.08942,
+      "wilson95_low": 0.08766715624613994,
+      "wilson95_high": 0.09120438706538878,
+      "wilson95_by_observable": [
+        [
+          0.040015233133957336,
+          0.042480012433362115
+        ],
+        [
+          0.05973115967682618,
+          0.0627025516707767
+        ],
+        [
+          0.07626493051552233,
+          0.07958749706585802
+        ]
+      ],
+      "validation": {
+        "external_logical_action_passed": true,
+        "all_eight_signed_inputs_passed": true,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0,
+              0
+            ],
+            "output_signs": [
+              0,
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              0,
+              1
+            ],
+            "output_signs": [
+              0,
+              1,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              0
+            ],
+            "output_signs": [
+              1,
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              1,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              1
+            ],
+            "output_signs": [
+              1,
+              0,
+              1
+            ],
+            "observable_parities": [
+              1,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              0
+            ],
+            "output_signs": [
+              1,
+              0,
+              0
+            ],
+            "observable_parities": [
+              1,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              1
+            ],
+            "output_signs": [
+              1,
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              0,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              0
+            ],
+            "output_signs": [
+              0,
+              1,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              1
+            ],
+            "output_signs": [
+              0,
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1,
+              0
+            ],
+            "shots": 128
+          }
+        ],
+        "final_logical_faults": [
+          {
+            "logical_qubit": 0,
+            "observable_flips": [
+              1,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "logical_qubit": 1,
+            "observable_flips": [
+              0,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "logical_qubit": 2,
+            "observable_flips": [
+              0,
+              1,
+              0
+            ],
+            "shots": 128
+          }
+        ],
+        "common_logical_lifetime_block_z": [
+          0,
+          7
+        ]
+      },
+      "shortest_graphlike_error": 3,
+      "circuit_sha256": "8bd0101cbd4d0dc066277b04f2b30c7640fc9da38a0db81831ec6eb9a315b690",
+      "ideal_circuit_sha256": "da68858f5228a48f8567b68e5bfeccc079e60b97b1040385d9f9af07327f721d",
+      "dem_sha256": "a46dca6148ff2e0b54fdd24a9ef14e64574d299b01348d77cef66433e7dbc6c0"
+    },
+    {
+      "geometry_id": "three_live_qubit_diagonal_chain_v1",
+      "basis": "z",
+      "distance": 3,
+      "bridge_span_blocks": 1,
+      "idle_blocks": 0,
+      "logical_gates": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "logical_qubits": 3,
+      "external_flows": [
+        "ZIIZII",
+        "IZIZZI",
+        "IIZIZZ"
+      ],
+      "flow_port_order": [
+        "in_q0",
+        "in_q1",
+        "in_q2",
+        "out_q0",
+        "out_q1",
+        "out_q2"
+      ],
+      "logical_block_xy": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "input_z": 0,
+      "output_z": 6,
+      "spectator_memory": {
+        "q0": "stored through second CNOT",
+        "q2": "stored before second CNOT",
+        "intergate_extra_blocks_all_three_qubits": 0
+      },
+      "num_qubits": 137,
+      "num_ticks": 146,
+      "num_observables": 3,
+      "num_detectors": 632,
+      "tqec_commit": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+      "scope": "Full basis-specific non-cancelling three-qubit CNOT chain, including spectator storage. Not arbitrary DASCOT route lowering or process fidelity.",
+      "name": "three_z_d3_span1_idle0_p0.001_N100000",
+      "protocol_id": "three_qubit_storage_pilot_20261031_v1",
+      "physical_p": 0.001,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "shots": 100000,
+      "seed": 6990544947477961012,
+      "batch_size": 5000,
+      "batches": [
+        {
+          "shots": 5000,
+          "failures_any": 346,
+          "failures_by_observable": [
+            95,
+            216,
+            156
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 331,
+          "failures_by_observable": [
+            79,
+            190,
+            163
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 378,
+          "failures_by_observable": [
+            103,
+            232,
+            177
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 324,
+          "failures_by_observable": [
+            85,
+            183,
+            164
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 299,
+          "failures_by_observable": [
+            97,
+            172,
+            143
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 319,
+          "failures_by_observable": [
+            90,
+            175,
+            159
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 324,
+          "failures_by_observable": [
+            99,
+            168,
+            155
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 310,
+          "failures_by_observable": [
+            80,
+            171,
+            158
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 337,
+          "failures_by_observable": [
+            87,
+            203,
+            161
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 334,
+          "failures_by_observable": [
+            93,
+            185,
+            163
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 303,
+          "failures_by_observable": [
+            72,
+            187,
+            139
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 319,
+          "failures_by_observable": [
+            88,
+            168,
+            165
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 322,
+          "failures_by_observable": [
+            78,
+            190,
+            166
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 304,
+          "failures_by_observable": [
+            89,
+            195,
+            135
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 347,
+          "failures_by_observable": [
+            97,
+            203,
+            159
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 354,
+          "failures_by_observable": [
+            92,
+            218,
+            164
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 336,
+          "failures_by_observable": [
+            92,
+            193,
+            171
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 351,
+          "failures_by_observable": [
+            96,
+            219,
+            153
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 331,
+          "failures_by_observable": [
+            95,
+            208,
+            146
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 308,
+          "failures_by_observable": [
+            80,
+            172,
+            161
+          ]
+        }
+      ],
+      "failures_any": 6577,
+      "failures_by_observable": [
+        1787,
+        3848,
+        3158
+      ],
+      "p_fail_any": 0.06577,
+      "wilson95_low": 0.06425027350234967,
+      "wilson95_high": 0.0673230867494042,
+      "wilson95_by_observable": [
+        [
+          0.017067229305431815,
+          0.018709810922507508
+        ],
+        [
+          0.037305431403970725,
+          0.039690025435467936
+        ],
+        [
+          0.03051397289776672,
+          0.03268201404262558
+        ]
+      ],
+      "validation": {
+        "external_logical_action_passed": true,
+        "all_eight_signed_inputs_passed": true,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0,
+              0
+            ],
+            "output_signs": [
+              0,
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              0,
+              1
+            ],
+            "output_signs": [
+              0,
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              0
+            ],
+            "output_signs": [
+              0,
+              1,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              1
+            ],
+            "output_signs": [
+              0,
+              1,
+              0
+            ],
+            "observable_parities": [
+              0,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              0
+            ],
+            "output_signs": [
+              1,
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              0,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              1
+            ],
+            "output_signs": [
+              1,
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              0
+            ],
+            "output_signs": [
+              1,
+              0,
+              0
+            ],
+            "observable_parities": [
+              1,
+              1,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              1
+            ],
+            "output_signs": [
+              1,
+              0,
+              1
+            ],
+            "observable_parities": [
+              1,
+              1,
+              1
+            ],
+            "shots": 128
+          }
+        ],
+        "final_logical_faults": [
+          {
+            "logical_qubit": 0,
+            "observable_flips": [
+              1,
+              1,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "logical_qubit": 1,
+            "observable_flips": [
+              0,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "logical_qubit": 2,
+            "observable_flips": [
+              0,
+              0,
+              1
+            ],
+            "shots": 128
+          }
+        ],
+        "common_logical_lifetime_block_z": [
+          0,
+          6
+        ]
+      },
+      "shortest_graphlike_error": 3,
+      "circuit_sha256": "c04bdedac2c4bba230e17a9c6459694ba43efe0bf3ba748fea0d663b88b35704",
+      "ideal_circuit_sha256": "eea76a90b0cc925497f529e13031faa1bc2c7a4426d26d3d9f75c1603f2ec990",
+      "dem_sha256": "a927270742b820c0e2e3e1cb6f8f09e75e8bdab8aa41d728090ae4db7114e44f"
+    },
+    {
+      "geometry_id": "three_live_qubit_diagonal_chain_v1",
+      "basis": "z",
+      "distance": 3,
+      "bridge_span_blocks": 1,
+      "idle_blocks": 1,
+      "logical_gates": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "logical_qubits": 3,
+      "external_flows": [
+        "ZIIZII",
+        "IZIZZI",
+        "IIZIZZ"
+      ],
+      "flow_port_order": [
+        "in_q0",
+        "in_q1",
+        "in_q2",
+        "out_q0",
+        "out_q1",
+        "out_q2"
+      ],
+      "logical_block_xy": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "input_z": 0,
+      "output_z": 7,
+      "spectator_memory": {
+        "q0": "stored through second CNOT",
+        "q2": "stored before second CNOT",
+        "intergate_extra_blocks_all_three_qubits": 1
+      },
+      "num_qubits": 137,
+      "num_ticks": 167,
+      "num_observables": 3,
+      "num_detectors": 704,
+      "tqec_commit": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+      "scope": "Full basis-specific non-cancelling three-qubit CNOT chain, including spectator storage. Not arbitrary DASCOT route lowering or process fidelity.",
+      "name": "three_z_d3_span1_idle1_p0.001_N100000",
+      "protocol_id": "three_qubit_storage_pilot_20261031_v1",
+      "physical_p": 0.001,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "shots": 100000,
+      "seed": 17620143797756019881,
+      "batch_size": 5000,
+      "batches": [
+        {
+          "shots": 5000,
+          "failures_any": 327,
+          "failures_by_observable": [
+            93,
+            200,
+            143
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 351,
+          "failures_by_observable": [
+            84,
+            213,
+            159
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 373,
+          "failures_by_observable": [
+            103,
+            214,
+            170
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 367,
+          "failures_by_observable": [
+            97,
+            220,
+            165
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 372,
+          "failures_by_observable": [
+            107,
+            212,
+            171
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 367,
+          "failures_by_observable": [
+            91,
+            207,
+            181
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 336,
+          "failures_by_observable": [
+            100,
+            196,
+            158
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 368,
+          "failures_by_observable": [
+            107,
+            218,
+            178
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 344,
+          "failures_by_observable": [
+            83,
+            217,
+            160
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 325,
+          "failures_by_observable": [
+            83,
+            195,
+            149
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 388,
+          "failures_by_observable": [
+            103,
+            233,
+            189
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 381,
+          "failures_by_observable": [
+            104,
+            226,
+            183
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 416,
+          "failures_by_observable": [
+            112,
+            232,
+            192
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 383,
+          "failures_by_observable": [
+            102,
+            213,
+            185
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 391,
+          "failures_by_observable": [
+            108,
+            224,
+            172
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 356,
+          "failures_by_observable": [
+            84,
+            208,
+            181
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 373,
+          "failures_by_observable": [
+            111,
+            227,
+            178
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 371,
+          "failures_by_observable": [
+            101,
+            213,
+            178
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 386,
+          "failures_by_observable": [
+            116,
+            225,
+            174
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 402,
+          "failures_by_observable": [
+            114,
+            236,
+            177
+          ]
+        }
+      ],
+      "failures_any": 7377,
+      "failures_by_observable": [
+        2003,
+        4329,
+        3443
+      ],
+      "p_fail_any": 0.07377,
+      "wilson95_low": 0.07216620038252675,
+      "wilson95_high": 0.0754065452594258,
+      "wilson95_by_observable": [
+        [
+          0.019179907811174412,
+          0.02091696647211855
+        ],
+        [
+          0.042046106248441247,
+          0.04456898105685437
+        ],
+        [
+          0.033317686026409235,
+          0.03557808195924135
+        ]
+      ],
+      "validation": {
+        "external_logical_action_passed": true,
+        "all_eight_signed_inputs_passed": true,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0,
+              0
+            ],
+            "output_signs": [
+              0,
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              0,
+              1
+            ],
+            "output_signs": [
+              0,
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              0
+            ],
+            "output_signs": [
+              0,
+              1,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              1
+            ],
+            "output_signs": [
+              0,
+              1,
+              0
+            ],
+            "observable_parities": [
+              0,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              0
+            ],
+            "output_signs": [
+              1,
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              0,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              1
+            ],
+            "output_signs": [
+              1,
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              0
+            ],
+            "output_signs": [
+              1,
+              0,
+              0
+            ],
+            "observable_parities": [
+              1,
+              1,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              1
+            ],
+            "output_signs": [
+              1,
+              0,
+              1
+            ],
+            "observable_parities": [
+              1,
+              1,
+              1
+            ],
+            "shots": 128
+          }
+        ],
+        "final_logical_faults": [
+          {
+            "logical_qubit": 0,
+            "observable_flips": [
+              1,
+              1,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "logical_qubit": 1,
+            "observable_flips": [
+              0,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "logical_qubit": 2,
+            "observable_flips": [
+              0,
+              0,
+              1
+            ],
+            "shots": 128
+          }
+        ],
+        "common_logical_lifetime_block_z": [
+          0,
+          7
+        ]
+      },
+      "shortest_graphlike_error": 3,
+      "circuit_sha256": "37031c1f99a80459180d5763f99a970c6f68d53b82178f3842e128f93375e40c",
+      "ideal_circuit_sha256": "7c562bc56f95e16b099558209d61815770b476f58ba53fb8aea0bdb39c0ad605",
+      "dem_sha256": "b9790a5f91ca4cc5996c4d67430144bc2649dd01458c83e226470ab5add09ad4"
+    },
+    {
+      "geometry_id": "three_live_qubit_diagonal_chain_v1",
+      "basis": "z",
+      "distance": 3,
+      "bridge_span_blocks": 3,
+      "idle_blocks": 0,
+      "logical_gates": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "logical_qubits": 3,
+      "external_flows": [
+        "ZIIZII",
+        "IZIZZI",
+        "IIZIZZ"
+      ],
+      "flow_port_order": [
+        "in_q0",
+        "in_q1",
+        "in_q2",
+        "out_q0",
+        "out_q1",
+        "out_q2"
+      ],
+      "logical_block_xy": [
+        [
+          0,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          6,
+          2
+        ]
+      ],
+      "input_z": 0,
+      "output_z": 6,
+      "spectator_memory": {
+        "q0": "stored through second CNOT",
+        "q2": "stored before second CNOT",
+        "intergate_extra_blocks_all_three_qubits": 0
+      },
+      "num_qubits": 249,
+      "num_ticks": 146,
+      "num_observables": 3,
+      "num_detectors": 760,
+      "tqec_commit": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+      "scope": "Full basis-specific non-cancelling three-qubit CNOT chain, including spectator storage. Not arbitrary DASCOT route lowering or process fidelity.",
+      "name": "three_z_d3_span3_idle0_p0.001_N100000",
+      "protocol_id": "three_qubit_storage_pilot_20261031_v1",
+      "physical_p": 0.001,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "shots": 100000,
+      "seed": 17118024995340237246,
+      "batch_size": 5000,
+      "batches": [
+        {
+          "shots": 5000,
+          "failures_any": 386,
+          "failures_by_observable": [
+            82,
+            217,
+            193
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 413,
+          "failures_by_observable": [
+            86,
+            219,
+            208
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 367,
+          "failures_by_observable": [
+            74,
+            216,
+            171
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 411,
+          "failures_by_observable": [
+            91,
+            244,
+            182
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 426,
+          "failures_by_observable": [
+            97,
+            255,
+            197
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 415,
+          "failures_by_observable": [
+            94,
+            228,
+            211
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 399,
+          "failures_by_observable": [
+            87,
+            188,
+            228
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 405,
+          "failures_by_observable": [
+            80,
+            228,
+            200
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 406,
+          "failures_by_observable": [
+            100,
+            220,
+            203
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 388,
+          "failures_by_observable": [
+            85,
+            236,
+            173
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 421,
+          "failures_by_observable": [
+            81,
+            254,
+            195
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 388,
+          "failures_by_observable": [
+            88,
+            233,
+            182
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 407,
+          "failures_by_observable": [
+            105,
+            247,
+            177
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 389,
+          "failures_by_observable": [
+            91,
+            210,
+            182
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 402,
+          "failures_by_observable": [
+            92,
+            245,
+            180
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 393,
+          "failures_by_observable": [
+            93,
+            227,
+            180
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 423,
+          "failures_by_observable": [
+            77,
+            229,
+            217
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 378,
+          "failures_by_observable": [
+            79,
+            220,
+            176
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 444,
+          "failures_by_observable": [
+            84,
+            248,
+            219
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 396,
+          "failures_by_observable": [
+            82,
+            219,
+            198
+          ]
+        }
+      ],
+      "failures_any": 8057,
+      "failures_by_observable": [
+        1748,
+        4583,
+        3872
+      ],
+      "p_fail_any": 0.08057,
+      "wilson95_low": 0.07889914854522291,
+      "wilson95_high": 0.08227307467839852,
+      "wilson95_by_observable": [
+        [
+          0.01668608964104601,
+          0.018310980549121128
+        ],
+        [
+          0.04455126135876714,
+          0.04714363080791655
+        ],
+        [
+          0.03754185997982924,
+          0.03993357842131537
+        ]
+      ],
+      "validation": {
+        "external_logical_action_passed": true,
+        "all_eight_signed_inputs_passed": true,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0,
+              0
+            ],
+            "output_signs": [
+              0,
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              0,
+              1
+            ],
+            "output_signs": [
+              0,
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              0
+            ],
+            "output_signs": [
+              0,
+              1,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              1
+            ],
+            "output_signs": [
+              0,
+              1,
+              0
+            ],
+            "observable_parities": [
+              0,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              0
+            ],
+            "output_signs": [
+              1,
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              0,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              1
+            ],
+            "output_signs": [
+              1,
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              0
+            ],
+            "output_signs": [
+              1,
+              0,
+              0
+            ],
+            "observable_parities": [
+              1,
+              1,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              1
+            ],
+            "output_signs": [
+              1,
+              0,
+              1
+            ],
+            "observable_parities": [
+              1,
+              1,
+              1
+            ],
+            "shots": 128
+          }
+        ],
+        "final_logical_faults": [
+          {
+            "logical_qubit": 0,
+            "observable_flips": [
+              1,
+              1,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "logical_qubit": 1,
+            "observable_flips": [
+              0,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "logical_qubit": 2,
+            "observable_flips": [
+              0,
+              0,
+              1
+            ],
+            "shots": 128
+          }
+        ],
+        "common_logical_lifetime_block_z": [
+          0,
+          6
+        ]
+      },
+      "shortest_graphlike_error": 3,
+      "circuit_sha256": "715590b23e5b48d7f2867935f9eefe537f47c9deb77d6c5f5b9ee6857cb21321",
+      "ideal_circuit_sha256": "f704d1a7c5a8fcca1950538ed4cebf302b055e6a350d220cbb95eb00b1273368",
+      "dem_sha256": "d4f5322594dedd212bed6675f6f485cc51324d05060e39e40924f30348404dad"
+    },
+    {
+      "geometry_id": "three_live_qubit_diagonal_chain_v1",
+      "basis": "z",
+      "distance": 3,
+      "bridge_span_blocks": 3,
+      "idle_blocks": 1,
+      "logical_gates": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "logical_qubits": 3,
+      "external_flows": [
+        "ZIIZII",
+        "IZIZZI",
+        "IIZIZZ"
+      ],
+      "flow_port_order": [
+        "in_q0",
+        "in_q1",
+        "in_q2",
+        "out_q0",
+        "out_q1",
+        "out_q2"
+      ],
+      "logical_block_xy": [
+        [
+          0,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          6,
+          2
+        ]
+      ],
+      "input_z": 0,
+      "output_z": 7,
+      "spectator_memory": {
+        "q0": "stored through second CNOT",
+        "q2": "stored before second CNOT",
+        "intergate_extra_blocks_all_three_qubits": 1
+      },
+      "num_qubits": 249,
+      "num_ticks": 167,
+      "num_observables": 3,
+      "num_detectors": 832,
+      "tqec_commit": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+      "scope": "Full basis-specific non-cancelling three-qubit CNOT chain, including spectator storage. Not arbitrary DASCOT route lowering or process fidelity.",
+      "name": "three_z_d3_span3_idle1_p0.001_N100000",
+      "protocol_id": "three_qubit_storage_pilot_20261031_v1",
+      "physical_p": 0.001,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "shots": 100000,
+      "seed": 1555806541886106403,
+      "batch_size": 5000,
+      "batches": [
+        {
+          "shots": 5000,
+          "failures_any": 460,
+          "failures_by_observable": [
+            107,
+            260,
+            228
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 448,
+          "failures_by_observable": [
+            115,
+            271,
+            205
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 452,
+          "failures_by_observable": [
+            116,
+            276,
+            201
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 465,
+          "failures_by_observable": [
+            111,
+            280,
+            202
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 457,
+          "failures_by_observable": [
+            114,
+            262,
+            215
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 448,
+          "failures_by_observable": [
+            102,
+            248,
+            225
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 443,
+          "failures_by_observable": [
+            104,
+            260,
+            204
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 419,
+          "failures_by_observable": [
+            93,
+            241,
+            205
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 445,
+          "failures_by_observable": [
+            114,
+            272,
+            192
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 478,
+          "failures_by_observable": [
+            103,
+            257,
+            236
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 443,
+          "failures_by_observable": [
+            100,
+            247,
+            214
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 426,
+          "failures_by_observable": [
+            107,
+            260,
+            188
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 434,
+          "failures_by_observable": [
+            104,
+            254,
+            196
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 452,
+          "failures_by_observable": [
+            89,
+            268,
+            212
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 431,
+          "failures_by_observable": [
+            103,
+            248,
+            204
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 450,
+          "failures_by_observable": [
+            118,
+            258,
+            220
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 438,
+          "failures_by_observable": [
+            102,
+            247,
+            221
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 431,
+          "failures_by_observable": [
+            105,
+            256,
+            205
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 443,
+          "failures_by_observable": [
+            90,
+            251,
+            207
+          ]
+        },
+        {
+          "shots": 5000,
+          "failures_any": 452,
+          "failures_by_observable": [
+            109,
+            267,
+            203
+          ]
+        }
+      ],
+      "failures_any": 8915,
+      "failures_by_observable": [
+        2106,
+        5183,
+        4183
+      ],
+      "p_fail_any": 0.08915,
+      "wilson95_low": 0.08739957668816872,
+      "wilson95_high": 0.09093198736644076,
+      "wilson95_by_observable": [
+        [
+          0.02018829561578619,
+          0.021968499536494854
+        ],
+        [
+          0.05047314974762385,
+          0.05322128146170885
+        ],
+        [
+          0.040606665834022726,
+          0.04308853363756163
+        ]
+      ],
+      "validation": {
+        "external_logical_action_passed": true,
+        "all_eight_signed_inputs_passed": true,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0,
+              0
+            ],
+            "output_signs": [
+              0,
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              0,
+              1
+            ],
+            "output_signs": [
+              0,
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              0
+            ],
+            "output_signs": [
+              0,
+              1,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              1
+            ],
+            "output_signs": [
+              0,
+              1,
+              0
+            ],
+            "observable_parities": [
+              0,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              0
+            ],
+            "output_signs": [
+              1,
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              0,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              1
+            ],
+            "output_signs": [
+              1,
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              0
+            ],
+            "output_signs": [
+              1,
+              0,
+              0
+            ],
+            "observable_parities": [
+              1,
+              1,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              1
+            ],
+            "output_signs": [
+              1,
+              0,
+              1
+            ],
+            "observable_parities": [
+              1,
+              1,
+              1
+            ],
+            "shots": 128
+          }
+        ],
+        "final_logical_faults": [
+          {
+            "logical_qubit": 0,
+            "observable_flips": [
+              1,
+              1,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "logical_qubit": 1,
+            "observable_flips": [
+              0,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "logical_qubit": 2,
+            "observable_flips": [
+              0,
+              0,
+              1
+            ],
+            "shots": 128
+          }
+        ],
+        "common_logical_lifetime_block_z": [
+          0,
+          7
+        ]
+      },
+      "shortest_graphlike_error": 3,
+      "circuit_sha256": "3a8616c090b0644e6fae5eb789beaca1796b5b020a9ebf700501cd607a221088",
+      "ideal_circuit_sha256": "9748c0bc5dcdc02777b706bbbd5f7124fa4cfbedf916ec2765efd5d94e2d0c2c",
+      "dem_sha256": "3df68397b205ce336788fda2703af6a7171b82dc0a031974dd96de5bff20f2f0"
+    }
+  ]
+}

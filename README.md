@@ -2,14 +2,15 @@
 
 Research implementation for our **2026-11-09** report. The repository is named `Descot`; the underlying compilation method is **DASCOT**.
 
-**中文導覽：** [11/9 前進度規劃](docs/ROADMAP_2026-11-09_ZH.md) · [10/30 新增內容與白話解釋](docs/updates/2026-10-30.md) · [Phase 1 詳細講稿與理解補充](docs/phase1/PROGRESS_ZH.md)
+**中文導覽：** [11/9 前進度規劃](docs/ROADMAP_2026-11-09_ZH.md) · [10/31 三位元與儲存實測](docs/updates/2026-10-31.md) · [10/30 連續 CNOT](docs/updates/2026-10-30.md) · [Phase 1 詳細講稿與理解補充](docs/phase1/PROGRESS_ZH.md)
 
 ## Current results
 
 - **Routing:** bounded two-step lookahead, explicit score/budget accounting and controlled comparisons. 540 configurations / 1,620 executions; all schedules validated. On 24 held-out synthetic input/layout/seed pairs, median routed depth changes by **-3.69%** versus our one-step control with the same per-decision evaluation budget (16 wins, 8 ties, 0 losses). Versus the pinned author original: -2.42% (13/9/2).
 - **Isolated CNOT calibration:** a spatial-bridge extension of pinned TQEC CNOT graphs; 32 settings / **3,200,000 shots**, signed-input/fault checks, graphlike distance diagnostics, counts and 95% Wilson intervals.
 - **Continuous CNOT composition:** same-pair chains of 1/2/3 physical CNOTs, X/Z basis, d=3, spans 1/3 and p=0.001. **12 settings / 240,000 additional shots**; complete circuits sampled and decoded together. Even-length chains have ideal identity action. These deliberately unoptimized circuits are validation fixtures, not application workloads.
-- **Tests:** 27 passed locally. Check the Actions tab for remote CI results.
+- **Three live qubits and storage:** CNOT(0,1) then CNOT(1,2), with aligned input/output times and spectator memory. X/Z, d=3, spans 1/3, zero/one extra storage block: **8 settings / 800,000 additional shots**. Complete-circuit any-observable failure increases in all four matched storage contrasts; counts and Wilson intervals are recorded. This remains a supported geometry, not arbitrary-route lowering.
+- **Tests:** 41 passed locally. Check the Actions tab for remote CI results.
 
 ![Continuous CNOT pilot with 95% Wilson intervals](docs/figures/composition_failure.png)
 
@@ -28,6 +29,7 @@ python verify_results.py
 python run_routing.py --output results_fresh/routing
 python run_surgery.py --output results_fresh/surgery --shots 100000
 python run_composition.py --output results_fresh/composition --shots 20000
+python run_three_qubit.py --output results_fresh/three_qubit
 ```
 
 `setup.sh` installs the pinned dependencies and clones the pinned wisq source into `../external/wisq`. Set `TASK_PYTHON` if your Python 3.12 executable has another path. On Windows, use `py -3.12 -m venv .venv`, install `requirements-lock.txt` with that environment, and clone wisq at the pinned commit into `../external/wisq`.
@@ -40,6 +42,7 @@ Small records, inputs and summaries are directly versioned. Large raw schedules/
 
 - `archives/phase1_snapshot.zip`: frozen Phase 1 source and all 540 routing schedules, 32 CNOT settings and 72 isolated timing records.
 - `archives/composition_2026-10-30.zip`: all 12 continuous-chain settings, ideal/noisy circuits, DEMs and counts.
+- `archives/three_qubit_2026-10-31.zip`: all 8 three-live-qubit storage settings, circuits, DEMs, protocol and source provenance.
 - `archives/manifest.json`: exact archive SHA-256 and byte counts.
 
 `restore_results.py` verifies the archives and restores result files without overwriting different existing files. The Phase 1 snapshot source is historical; the repository root is the current development source. GitHub's **Code → Download ZIP** contains both current source and these complete snapshots.
@@ -52,6 +55,7 @@ Small records, inputs and summaries are directly versioned. Large raw schedules/
 | `run_routing.py`, `validation.py` | Paired abstract-routing experiments and independent legality checks |
 | `surgery.py`, `run_surgery.py` | Isolated TQEC-backed CNOT geometry adapter and Monte Carlo |
 | `composition.py`, `run_composition.py` | Continuous same-pair CNOT chains and logical-action checks |
+| `three_qubit.py`, `run_three_qubit.py`, `report_three_qubit.py` | Non-cancelling three-live-qubit geometry, storage, full-circuit sampling and audit |
 | `qec_lookup.py` | Strict condition-matched isolated-gadget lookup; no extrapolation |
 | `verify_results.py` | Frozen Phase 1 record audit without resampling |
 | `make_composition_report.py` | Audit chain records and regenerate the dated Chinese report/figure |
