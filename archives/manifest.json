@@ -14,5 +14,11 @@
     "bytes": 703580,
     "result_prefix": "results/three_qubit_2026-10-31",
     "description": "Frozen three-live-qubit chain and intergate storage pilot; 8 conditions, 800000 shots, all circuits and raw records; 2026-10-31."
+  },
+  "adapter_2026-11-01.zip": {
+    "sha256": "4db7b2e52126749acaab39f7c3d2165932709503ff09ebc7432cdf0cbdeacf94",
+    "bytes": 149760,
+    "result_prefix": "results/adapter_2026-11-01",
+    "description": "Restricted route-to-circuit validation: 18 source routes, 72 requests, 8 exact prior full-circuit references, 0 new Monte Carlo shots; 2026-11-01."
   }
 }

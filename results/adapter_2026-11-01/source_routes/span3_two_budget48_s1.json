@@ -1,0 +1,85 @@
+{
+  "name": "span3_two_budget48_s1",
+  "method": "two_budget48",
+  "seed": 1,
+  "input": {
+    "gates": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "ops": [
+      "cx",
+      "cx"
+    ],
+    "architecture": {
+      "width": 15,
+      "height": 7,
+      "alg_qubits": [
+        16,
+        52,
+        88
+      ],
+      "magic_states": []
+    },
+    "mapping": [
+      [
+        0,
+        16
+      ],
+      [
+        1,
+        52
+      ],
+      [
+        2,
+        88
+      ]
+    ]
+  },
+  "steps": [
+    [
+      [
+        0,
+        [
+          0,
+          1
+        ],
+        [
+          31,
+          32,
+          33,
+          34,
+          35,
+          50,
+          51
+        ]
+      ]
+    ],
+    [
+      [
+        1,
+        [
+          1,
+          2
+        ],
+        [
+          67,
+          68,
+          69,
+          70,
+          85,
+          86,
+          87
+        ]
+      ]
+    ]
+  ],
+  "source_schedule_sha256": "218b9854a4ae1d463e6647a36525af0c8aa12180a10fd92a04f35155a0713eb3",
+  "source_scope": "Custom declared corridor layout; not an application benchmark or performance comparison."
+}

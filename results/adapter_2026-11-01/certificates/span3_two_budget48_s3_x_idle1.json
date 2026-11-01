@@ -1,0 +1,240 @@
+{
+  "adapter_id": "diagonal_three_qubit_corridor_v1",
+  "request_sha256": "1b5a3b93e36a0e257ab0530583bfbc251cc2afb2e89b5bcdd139a63258465ffa",
+  "source_validation": {
+    "valid": true,
+    "gate_count": 2,
+    "time_steps": 2,
+    "checks": [
+      "gate_identity",
+      "mapping",
+      "per_qubit_dependencies",
+      "path_connectivity",
+      "boundary_orientation",
+      "vertex_disjointness",
+      "data_preservation"
+    ],
+    "scope": "Abstract CNOT/T/TDG routing program. No physical QEC or noise simulation."
+  },
+  "span_from_embedding": 3,
+  "logical_id_to_backend_index": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      2
+    ]
+  ],
+  "source_step_count": 2,
+  "canonical_source_steps": [
+    [
+      [
+        0,
+        [
+          0,
+          1
+        ],
+        [
+          31,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51
+        ]
+      ]
+    ],
+    [
+      [
+        1,
+        [
+          1,
+          2
+        ],
+        [
+          67,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87
+        ]
+      ]
+    ]
+  ],
+  "corridors": [
+    {
+      "gate_id": 0,
+      "reserved_source_vertices": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "chosen_source_vertices": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        50,
+        51
+      ],
+      "normalized_source_vertices": [
+        31,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ]
+    },
+    {
+      "gate_id": 1,
+      "reserved_source_vertices": [
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      "chosen_source_vertices": [
+        67,
+        68,
+        69,
+        70,
+        85,
+        86,
+        87
+      ],
+      "normalized_source_vertices": [
+        67,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87
+      ]
+    }
+  ],
+  "normalization": {
+    "performed": true,
+    "semantics": "reroute within the exclusively reserved empty corridor; source edges are not preserved one-for-one"
+  },
+  "physical_footprints": [
+    {
+      "gate_id": 0,
+      "data_blocks": [
+        [
+          0,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "ancilla_blocks": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "gate_id": 1,
+      "data_blocks": [
+        [
+          3,
+          1
+        ],
+        [
+          6,
+          2
+        ]
+      ],
+      "ancilla_blocks": [
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          2
+        ]
+      ]
+    }
+  ],
+  "logical_block_xy": [
+    [
+      0,
+      0
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      6,
+      2
+    ]
+  ],
+  "gate_block_z": [
+    [
+      0,
+      3
+    ],
+    [
+      4,
+      7
+    ]
+  ],
+  "all_live_qubits_block_z": [
+    0,
+    7
+  ],
+  "timing_policy": "three_block_cnot_with_explicit_storage_v1",
+  "intergate_storage_blocks": 1,
+  "distance": 3,
+  "basis": "x",
+  "mu": 0,
+  "scope": "Certified restricted synthesis. Not arbitrary DASCOT routing, literal edge execution, or scheduler improvement.",
+  "physical_check_key": "x_span3_idle1"
+}

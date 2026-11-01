@@ -1,0 +1,2421 @@
+{
+  "protocol": {
+    "adapter_id": "diagonal_three_qubit_corridor_v1",
+    "source_methods": [
+      "original",
+      "one_budget48",
+      "two_budget48"
+    ],
+    "source_seeds": [
+      1,
+      2,
+      3
+    ],
+    "spans": [
+      1,
+      3
+    ],
+    "bases": [
+      "x",
+      "z"
+    ],
+    "intergate_storage_blocks": [
+      0,
+      1
+    ],
+    "new_monte_carlo_shots": 0,
+    "reuse_policy": "Exact full ideal/noisy circuit hashes, observables, model, decoder, p and distance must match the frozen reference",
+    "timing": "Each CNOT uses three block-z units; intergate storage is explicitly specified, not inferred from source depth",
+    "normalization": "Source edges can change within the fully reserved empty corridor",
+    "mu": 0,
+    "tqec_verification": {
+      "method": "pinned local Git tree and installed source byte comparison",
+      "commit": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+      "python_files_checked": 177,
+      "source_fingerprint_sha256": "b8ec733c008548994db2dfa30e996b62d5a227d98ef713d02709d4c72817ed61"
+    },
+    "reference_summary_sha256": "d6eb7490a1f17b4ba3fa27d29739a7159d8625f9f8a8efdd44322059761f0bb5",
+    "source_base_commit": "9afa2fa0fc789999b24893456fdb62dc8dfda145",
+    "source_files_sha256": {
+      "route_adapter.py": "4921603aa2feb10fb2f7b45f94079285a0dfedc10e45df4c0f271668ab3921bb",
+      "run_adapter_validation.py": "235b9c8d5f295cc1b10d7f03b96fa823687e88c236d7f5d4ef8181db91e0e049",
+      "three_qubit.py": "5bc6127fea501ad4ea2f9a88af08a23e1ddf903724a4fc3a3abb01f6a6b55b0a",
+      "surgery.py": "ee67e6691f7da5b48dd788b4e886348fbd70fd370154ef5de2ecee9b90d11e0b",
+      "lookahead.py": "66a0abd1d24288ba49b3427ce1921548b6760ec86ae56fcb8a49f166b7ab2a21",
+      "saturation.py": "6ab5c2e9d520d2d1fb8d9d0cd2b1ea3250cba8c2cad743fec54b147adab10341",
+      "validation.py": "ffdfb4a56aa55d014c8a4afb8cd79d9e0308557787b25928dce00fe64e8cddd3"
+    }
+  },
+  "source_routing_configurations": 18,
+  "accepted_requests": 72,
+  "unique_physical_circuits": 8,
+  "explicit_negative_cases": 6,
+  "new_monte_carlo_shots": 0,
+  "unique_referenced_shots": 800000,
+  "physical_checks": {
+    "x_span1_idle0": {
+      "key": "x_span1_idle0",
+      "ideal_circuit_sha256": "6075d7f2f8142d9998e4fe25fec58d0cfaf0567b9aa1d14b728a75f14b5283f0",
+      "circuit_sha256": "19b81d338e19384c01de5d108dc82c3eaa1b11547b9ec641f1cf1d69520e595b",
+      "num_qubits": 137,
+      "num_ticks": 146,
+      "block_footprint_verification": {
+        "matched_actual_backend_graph": true,
+        "occupied_block_xy": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "common_lifetime_block_z": [
+          0,
+          6
+        ]
+      },
+      "physical_validation": {
+        "external_logical_action_passed": true,
+        "all_eight_signed_inputs_passed": true,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0,
+              0
+            ],
+            "output_signs": [
+              0,
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              0,
+              1
+            ],
+            "output_signs": [
+              0,
+              1,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              0
+            ],
+            "output_signs": [
+              1,
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              1,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              1
+            ],
+            "output_signs": [
+              1,
+              0,
+              1
+            ],
+            "observable_parities": [
+              1,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              0
+            ],
+            "output_signs": [
+              1,
+              0,
+              0
+            ],
+            "observable_parities": [
+              1,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              1
+            ],
+            "output_signs": [
+              1,
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              0,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              0
+            ],
+            "output_signs": [
+              0,
+              1,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              1
+            ],
+            "output_signs": [
+              0,
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1,
+              0
+            ],
+            "shots": 128
+          }
+        ],
+        "final_logical_faults": [
+          {
+            "logical_qubit": 0,
+            "observable_flips": [
+              1,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "logical_qubit": 1,
+            "observable_flips": [
+              0,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "logical_qubit": 2,
+            "observable_flips": [
+              0,
+              1,
+              0
+            ],
+            "shots": 128
+          }
+        ],
+        "common_logical_lifetime_block_z": [
+          0,
+          6
+        ]
+      },
+      "shortest_graphlike_error": 3,
+      "reference_name": "three_x_d3_span1_idle0_p0.001_N100000",
+      "reference_shots": 100000,
+      "reference_failures_any": 7212,
+      "reference_p_fail_any": 0.07212,
+      "reference_wilson95": [
+        0.07053305667147151,
+        0.07373981573375256
+      ],
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "p": 0.001,
+      "statistics_reused": true,
+      "new_sampling_shots": 0
+    },
+    "x_span1_idle1": {
+      "key": "x_span1_idle1",
+      "ideal_circuit_sha256": "b86d7f9f1fc4b6ee0a01a47c9934bd42db54a4a012c2f204fb013ec4ac987422",
+      "circuit_sha256": "934c65c1229fbdf31ec15e791b4100d4de4b4555fb9df8b26754f9ecfbbae51e",
+      "num_qubits": 137,
+      "num_ticks": 167,
+      "block_footprint_verification": {
+        "matched_actual_backend_graph": true,
+        "occupied_block_xy": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "common_lifetime_block_z": [
+          0,
+          7
+        ]
+      },
+      "physical_validation": {
+        "external_logical_action_passed": true,
+        "all_eight_signed_inputs_passed": true,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0,
+              0
+            ],
+            "output_signs": [
+              0,
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              0,
+              1
+            ],
+            "output_signs": [
+              0,
+              1,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              0
+            ],
+            "output_signs": [
+              1,
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              1,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              1
+            ],
+            "output_signs": [
+              1,
+              0,
+              1
+            ],
+            "observable_parities": [
+              1,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              0
+            ],
+            "output_signs": [
+              1,
+              0,
+              0
+            ],
+            "observable_parities": [
+              1,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              1
+            ],
+            "output_signs": [
+              1,
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              0,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              0
+            ],
+            "output_signs": [
+              0,
+              1,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              1
+            ],
+            "output_signs": [
+              0,
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1,
+              0
+            ],
+            "shots": 128
+          }
+        ],
+        "final_logical_faults": [
+          {
+            "logical_qubit": 0,
+            "observable_flips": [
+              1,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "logical_qubit": 1,
+            "observable_flips": [
+              0,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "logical_qubit": 2,
+            "observable_flips": [
+              0,
+              1,
+              0
+            ],
+            "shots": 128
+          }
+        ],
+        "common_logical_lifetime_block_z": [
+          0,
+          7
+        ]
+      },
+      "shortest_graphlike_error": 3,
+      "reference_name": "three_x_d3_span1_idle1_p0.001_N100000",
+      "reference_shots": 100000,
+      "reference_failures_any": 7995,
+      "reference_p_fail_any": 0.07995,
+      "reference_wilson95": [
+        0.07828510836349888,
+        0.08164716249238214
+      ],
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "p": 0.001,
+      "statistics_reused": true,
+      "new_sampling_shots": 0
+    },
+    "z_span1_idle0": {
+      "key": "z_span1_idle0",
+      "ideal_circuit_sha256": "eea76a90b0cc925497f529e13031faa1bc2c7a4426d26d3d9f75c1603f2ec990",
+      "circuit_sha256": "c04bdedac2c4bba230e17a9c6459694ba43efe0bf3ba748fea0d663b88b35704",
+      "num_qubits": 137,
+      "num_ticks": 146,
+      "block_footprint_verification": {
+        "matched_actual_backend_graph": true,
+        "occupied_block_xy": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "common_lifetime_block_z": [
+          0,
+          6
+        ]
+      },
+      "physical_validation": {
+        "external_logical_action_passed": true,
+        "all_eight_signed_inputs_passed": true,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0,
+              0
+            ],
+            "output_signs": [
+              0,
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              0,
+              1
+            ],
+            "output_signs": [
+              0,
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              0
+            ],
+            "output_signs": [
+              0,
+              1,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              1
+            ],
+            "output_signs": [
+              0,
+              1,
+              0
+            ],
+            "observable_parities": [
+              0,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              0
+            ],
+            "output_signs": [
+              1,
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              0,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              1
+            ],
+            "output_signs": [
+              1,
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              0
+            ],
+            "output_signs": [
+              1,
+              0,
+              0
+            ],
+            "observable_parities": [
+              1,
+              1,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              1
+            ],
+            "output_signs": [
+              1,
+              0,
+              1
+            ],
+            "observable_parities": [
+              1,
+              1,
+              1
+            ],
+            "shots": 128
+          }
+        ],
+        "final_logical_faults": [
+          {
+            "logical_qubit": 0,
+            "observable_flips": [
+              1,
+              1,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "logical_qubit": 1,
+            "observable_flips": [
+              0,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "logical_qubit": 2,
+            "observable_flips": [
+              0,
+              0,
+              1
+            ],
+            "shots": 128
+          }
+        ],
+        "common_logical_lifetime_block_z": [
+          0,
+          6
+        ]
+      },
+      "shortest_graphlike_error": 3,
+      "reference_name": "three_z_d3_span1_idle0_p0.001_N100000",
+      "reference_shots": 100000,
+      "reference_failures_any": 6577,
+      "reference_p_fail_any": 0.06577,
+      "reference_wilson95": [
+        0.06425027350234967,
+        0.0673230867494042
+      ],
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "p": 0.001,
+      "statistics_reused": true,
+      "new_sampling_shots": 0
+    },
+    "z_span1_idle1": {
+      "key": "z_span1_idle1",
+      "ideal_circuit_sha256": "7c562bc56f95e16b099558209d61815770b476f58ba53fb8aea0bdb39c0ad605",
+      "circuit_sha256": "37031c1f99a80459180d5763f99a970c6f68d53b82178f3842e128f93375e40c",
+      "num_qubits": 137,
+      "num_ticks": 167,
+      "block_footprint_verification": {
+        "matched_actual_backend_graph": true,
+        "occupied_block_xy": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "common_lifetime_block_z": [
+          0,
+          7
+        ]
+      },
+      "physical_validation": {
+        "external_logical_action_passed": true,
+        "all_eight_signed_inputs_passed": true,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0,
+              0
+            ],
+            "output_signs": [
+              0,
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              0,
+              1
+            ],
+            "output_signs": [
+              0,
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              0
+            ],
+            "output_signs": [
+              0,
+              1,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              1
+            ],
+            "output_signs": [
+              0,
+              1,
+              0
+            ],
+            "observable_parities": [
+              0,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              0
+            ],
+            "output_signs": [
+              1,
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              0,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              1
+            ],
+            "output_signs": [
+              1,
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              0
+            ],
+            "output_signs": [
+              1,
+              0,
+              0
+            ],
+            "observable_parities": [
+              1,
+              1,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              1
+            ],
+            "output_signs": [
+              1,
+              0,
+              1
+            ],
+            "observable_parities": [
+              1,
+              1,
+              1
+            ],
+            "shots": 128
+          }
+        ],
+        "final_logical_faults": [
+          {
+            "logical_qubit": 0,
+            "observable_flips": [
+              1,
+              1,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "logical_qubit": 1,
+            "observable_flips": [
+              0,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "logical_qubit": 2,
+            "observable_flips": [
+              0,
+              0,
+              1
+            ],
+            "shots": 128
+          }
+        ],
+        "common_logical_lifetime_block_z": [
+          0,
+          7
+        ]
+      },
+      "shortest_graphlike_error": 3,
+      "reference_name": "three_z_d3_span1_idle1_p0.001_N100000",
+      "reference_shots": 100000,
+      "reference_failures_any": 7377,
+      "reference_p_fail_any": 0.07377,
+      "reference_wilson95": [
+        0.07216620038252675,
+        0.0754065452594258
+      ],
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "p": 0.001,
+      "statistics_reused": true,
+      "new_sampling_shots": 0
+    },
+    "x_span3_idle0": {
+      "key": "x_span3_idle0",
+      "ideal_circuit_sha256": "7ccefe04e28b96d8df1ab6a59988160d471c0dcdd01805095048cbf143b94aa4",
+      "circuit_sha256": "b246f7bc1367fa98191791b6b0e7470ee63db02228e9ba90ea9fcf6f53dd4ead",
+      "num_qubits": 249,
+      "num_ticks": 146,
+      "block_footprint_verification": {
+        "matched_actual_backend_graph": true,
+        "occupied_block_xy": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            2
+          ]
+        ],
+        "common_lifetime_block_z": [
+          0,
+          6
+        ]
+      },
+      "physical_validation": {
+        "external_logical_action_passed": true,
+        "all_eight_signed_inputs_passed": true,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0,
+              0
+            ],
+            "output_signs": [
+              0,
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              0,
+              1
+            ],
+            "output_signs": [
+              0,
+              1,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              0
+            ],
+            "output_signs": [
+              1,
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              1,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              1
+            ],
+            "output_signs": [
+              1,
+              0,
+              1
+            ],
+            "observable_parities": [
+              1,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              0
+            ],
+            "output_signs": [
+              1,
+              0,
+              0
+            ],
+            "observable_parities": [
+              1,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              1
+            ],
+            "output_signs": [
+              1,
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              0,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              0
+            ],
+            "output_signs": [
+              0,
+              1,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              1
+            ],
+            "output_signs": [
+              0,
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1,
+              0
+            ],
+            "shots": 128
+          }
+        ],
+        "final_logical_faults": [
+          {
+            "logical_qubit": 0,
+            "observable_flips": [
+              1,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "logical_qubit": 1,
+            "observable_flips": [
+              0,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "logical_qubit": 2,
+            "observable_flips": [
+              0,
+              1,
+              0
+            ],
+            "shots": 128
+          }
+        ],
+        "common_logical_lifetime_block_z": [
+          0,
+          6
+        ]
+      },
+      "shortest_graphlike_error": 3,
+      "reference_name": "three_x_d3_span3_idle0_p0.001_N100000",
+      "reference_shots": 100000,
+      "reference_failures_any": 8348,
+      "reference_p_fail_any": 0.08348,
+      "reference_wilson95": [
+        0.08178156549343465,
+        0.08521043416587154
+      ],
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "p": 0.001,
+      "statistics_reused": true,
+      "new_sampling_shots": 0
+    },
+    "x_span3_idle1": {
+      "key": "x_span3_idle1",
+      "ideal_circuit_sha256": "da68858f5228a48f8567b68e5bfeccc079e60b97b1040385d9f9af07327f721d",
+      "circuit_sha256": "8bd0101cbd4d0dc066277b04f2b30c7640fc9da38a0db81831ec6eb9a315b690",
+      "num_qubits": 249,
+      "num_ticks": 167,
+      "block_footprint_verification": {
+        "matched_actual_backend_graph": true,
+        "occupied_block_xy": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            2
+          ]
+        ],
+        "common_lifetime_block_z": [
+          0,
+          7
+        ]
+      },
+      "physical_validation": {
+        "external_logical_action_passed": true,
+        "all_eight_signed_inputs_passed": true,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0,
+              0
+            ],
+            "output_signs": [
+              0,
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              0,
+              1
+            ],
+            "output_signs": [
+              0,
+              1,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              0
+            ],
+            "output_signs": [
+              1,
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              1,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              1
+            ],
+            "output_signs": [
+              1,
+              0,
+              1
+            ],
+            "observable_parities": [
+              1,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              0
+            ],
+            "output_signs": [
+              1,
+              0,
+              0
+            ],
+            "observable_parities": [
+              1,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              1
+            ],
+            "output_signs": [
+              1,
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              0,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              0
+            ],
+            "output_signs": [
+              0,
+              1,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              1
+            ],
+            "output_signs": [
+              0,
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1,
+              0
+            ],
+            "shots": 128
+          }
+        ],
+        "final_logical_faults": [
+          {
+            "logical_qubit": 0,
+            "observable_flips": [
+              1,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "logical_qubit": 1,
+            "observable_flips": [
+              0,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "logical_qubit": 2,
+            "observable_flips": [
+              0,
+              1,
+              0
+            ],
+            "shots": 128
+          }
+        ],
+        "common_logical_lifetime_block_z": [
+          0,
+          7
+        ]
+      },
+      "shortest_graphlike_error": 3,
+      "reference_name": "three_x_d3_span3_idle1_p0.001_N100000",
+      "reference_shots": 100000,
+      "reference_failures_any": 8942,
+      "reference_p_fail_any": 0.08942,
+      "reference_wilson95": [
+        0.08766715624613994,
+        0.09120438706538878
+      ],
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "p": 0.001,
+      "statistics_reused": true,
+      "new_sampling_shots": 0
+    },
+    "z_span3_idle0": {
+      "key": "z_span3_idle0",
+      "ideal_circuit_sha256": "f704d1a7c5a8fcca1950538ed4cebf302b055e6a350d220cbb95eb00b1273368",
+      "circuit_sha256": "715590b23e5b48d7f2867935f9eefe537f47c9deb77d6c5f5b9ee6857cb21321",
+      "num_qubits": 249,
+      "num_ticks": 146,
+      "block_footprint_verification": {
+        "matched_actual_backend_graph": true,
+        "occupied_block_xy": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            2
+          ]
+        ],
+        "common_lifetime_block_z": [
+          0,
+          6
+        ]
+      },
+      "physical_validation": {
+        "external_logical_action_passed": true,
+        "all_eight_signed_inputs_passed": true,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0,
+              0
+            ],
+            "output_signs": [
+              0,
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              0,
+              1
+            ],
+            "output_signs": [
+              0,
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              0
+            ],
+            "output_signs": [
+              0,
+              1,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              1
+            ],
+            "output_signs": [
+              0,
+              1,
+              0
+            ],
+            "observable_parities": [
+              0,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              0
+            ],
+            "output_signs": [
+              1,
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              0,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              1
+            ],
+            "output_signs": [
+              1,
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              0
+            ],
+            "output_signs": [
+              1,
+              0,
+              0
+            ],
+            "observable_parities": [
+              1,
+              1,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              1
+            ],
+            "output_signs": [
+              1,
+              0,
+              1
+            ],
+            "observable_parities": [
+              1,
+              1,
+              1
+            ],
+            "shots": 128
+          }
+        ],
+        "final_logical_faults": [
+          {
+            "logical_qubit": 0,
+            "observable_flips": [
+              1,
+              1,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "logical_qubit": 1,
+            "observable_flips": [
+              0,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "logical_qubit": 2,
+            "observable_flips": [
+              0,
+              0,
+              1
+            ],
+            "shots": 128
+          }
+        ],
+        "common_logical_lifetime_block_z": [
+          0,
+          6
+        ]
+      },
+      "shortest_graphlike_error": 3,
+      "reference_name": "three_z_d3_span3_idle0_p0.001_N100000",
+      "reference_shots": 100000,
+      "reference_failures_any": 8057,
+      "reference_p_fail_any": 0.08057,
+      "reference_wilson95": [
+        0.07889914854522291,
+        0.08227307467839852
+      ],
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "p": 0.001,
+      "statistics_reused": true,
+      "new_sampling_shots": 0
+    },
+    "z_span3_idle1": {
+      "key": "z_span3_idle1",
+      "ideal_circuit_sha256": "9748c0bc5dcdc02777b706bbbd5f7124fa4cfbedf916ec2765efd5d94e2d0c2c",
+      "circuit_sha256": "3a8616c090b0644e6fae5eb789beaca1796b5b020a9ebf700501cd607a221088",
+      "num_qubits": 249,
+      "num_ticks": 167,
+      "block_footprint_verification": {
+        "matched_actual_backend_graph": true,
+        "occupied_block_xy": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            2
+          ]
+        ],
+        "common_lifetime_block_z": [
+          0,
+          7
+        ]
+      },
+      "physical_validation": {
+        "external_logical_action_passed": true,
+        "all_eight_signed_inputs_passed": true,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0,
+              0
+            ],
+            "output_signs": [
+              0,
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              0,
+              1
+            ],
+            "output_signs": [
+              0,
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              0
+            ],
+            "output_signs": [
+              0,
+              1,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              1
+            ],
+            "output_signs": [
+              0,
+              1,
+              0
+            ],
+            "observable_parities": [
+              0,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              0
+            ],
+            "output_signs": [
+              1,
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              0,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              1
+            ],
+            "output_signs": [
+              1,
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              0,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              0
+            ],
+            "output_signs": [
+              1,
+              0,
+              0
+            ],
+            "observable_parities": [
+              1,
+              1,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              1
+            ],
+            "output_signs": [
+              1,
+              0,
+              1
+            ],
+            "observable_parities": [
+              1,
+              1,
+              1
+            ],
+            "shots": 128
+          }
+        ],
+        "final_logical_faults": [
+          {
+            "logical_qubit": 0,
+            "observable_flips": [
+              1,
+              1,
+              0
+            ],
+            "shots": 128
+          },
+          {
+            "logical_qubit": 1,
+            "observable_flips": [
+              0,
+              1,
+              1
+            ],
+            "shots": 128
+          },
+          {
+            "logical_qubit": 2,
+            "observable_flips": [
+              0,
+              0,
+              1
+            ],
+            "shots": 128
+          }
+        ],
+        "common_logical_lifetime_block_z": [
+          0,
+          7
+        ]
+      },
+      "shortest_graphlike_error": 3,
+      "reference_name": "three_z_d3_span3_idle1_p0.001_N100000",
+      "reference_shots": 100000,
+      "reference_failures_any": 8915,
+      "reference_p_fail_any": 0.08915,
+      "reference_wilson95": [
+        0.08739957668816872,
+        0.09093198736644076
+      ],
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "p": 0.001,
+      "statistics_reused": true,
+      "new_sampling_shots": 0
+    }
+  },
+  "accepted": [
+    {
+      "case": "span1_original_s1_x_idle0",
+      "physical_check_key": "x_span1_idle0",
+      "request_sha256": "2582d3e6a535d18c46e3556e45f75ff0c8fb2c6e4c1fb50593bb95c9363f692b",
+      "normalized": true
+    },
+    {
+      "case": "span1_original_s1_x_idle1",
+      "physical_check_key": "x_span1_idle1",
+      "request_sha256": "62f1fc774a419ad4fee75bc26a45ee818b4c1e59f82417590f361140c98fa721",
+      "normalized": true
+    },
+    {
+      "case": "span1_original_s1_z_idle0",
+      "physical_check_key": "z_span1_idle0",
+      "request_sha256": "d6be6bef4c9aa3c3c079e202f1646b42ccc66f4185307cc097ef7e04b73f8fc3",
+      "normalized": true
+    },
+    {
+      "case": "span1_original_s1_z_idle1",
+      "physical_check_key": "z_span1_idle1",
+      "request_sha256": "45c6fbfe256743716b9d4c53f65df4d09d868590226e7259dbbc25b732600dc3",
+      "normalized": true
+    },
+    {
+      "case": "span1_original_s2_x_idle0",
+      "physical_check_key": "x_span1_idle0",
+      "request_sha256": "2582d3e6a535d18c46e3556e45f75ff0c8fb2c6e4c1fb50593bb95c9363f692b",
+      "normalized": true
+    },
+    {
+      "case": "span1_original_s2_x_idle1",
+      "physical_check_key": "x_span1_idle1",
+      "request_sha256": "62f1fc774a419ad4fee75bc26a45ee818b4c1e59f82417590f361140c98fa721",
+      "normalized": true
+    },
+    {
+      "case": "span1_original_s2_z_idle0",
+      "physical_check_key": "z_span1_idle0",
+      "request_sha256": "d6be6bef4c9aa3c3c079e202f1646b42ccc66f4185307cc097ef7e04b73f8fc3",
+      "normalized": true
+    },
+    {
+      "case": "span1_original_s2_z_idle1",
+      "physical_check_key": "z_span1_idle1",
+      "request_sha256": "45c6fbfe256743716b9d4c53f65df4d09d868590226e7259dbbc25b732600dc3",
+      "normalized": true
+    },
+    {
+      "case": "span1_original_s3_x_idle0",
+      "physical_check_key": "x_span1_idle0",
+      "request_sha256": "2582d3e6a535d18c46e3556e45f75ff0c8fb2c6e4c1fb50593bb95c9363f692b",
+      "normalized": true
+    },
+    {
+      "case": "span1_original_s3_x_idle1",
+      "physical_check_key": "x_span1_idle1",
+      "request_sha256": "62f1fc774a419ad4fee75bc26a45ee818b4c1e59f82417590f361140c98fa721",
+      "normalized": true
+    },
+    {
+      "case": "span1_original_s3_z_idle0",
+      "physical_check_key": "z_span1_idle0",
+      "request_sha256": "d6be6bef4c9aa3c3c079e202f1646b42ccc66f4185307cc097ef7e04b73f8fc3",
+      "normalized": true
+    },
+    {
+      "case": "span1_original_s3_z_idle1",
+      "physical_check_key": "z_span1_idle1",
+      "request_sha256": "45c6fbfe256743716b9d4c53f65df4d09d868590226e7259dbbc25b732600dc3",
+      "normalized": true
+    },
+    {
+      "case": "span1_one_budget48_s1_x_idle0",
+      "physical_check_key": "x_span1_idle0",
+      "request_sha256": "2582d3e6a535d18c46e3556e45f75ff0c8fb2c6e4c1fb50593bb95c9363f692b",
+      "normalized": true
+    },
+    {
+      "case": "span1_one_budget48_s1_x_idle1",
+      "physical_check_key": "x_span1_idle1",
+      "request_sha256": "62f1fc774a419ad4fee75bc26a45ee818b4c1e59f82417590f361140c98fa721",
+      "normalized": true
+    },
+    {
+      "case": "span1_one_budget48_s1_z_idle0",
+      "physical_check_key": "z_span1_idle0",
+      "request_sha256": "d6be6bef4c9aa3c3c079e202f1646b42ccc66f4185307cc097ef7e04b73f8fc3",
+      "normalized": true
+    },
+    {
+      "case": "span1_one_budget48_s1_z_idle1",
+      "physical_check_key": "z_span1_idle1",
+      "request_sha256": "45c6fbfe256743716b9d4c53f65df4d09d868590226e7259dbbc25b732600dc3",
+      "normalized": true
+    },
+    {
+      "case": "span1_one_budget48_s2_x_idle0",
+      "physical_check_key": "x_span1_idle0",
+      "request_sha256": "2582d3e6a535d18c46e3556e45f75ff0c8fb2c6e4c1fb50593bb95c9363f692b",
+      "normalized": true
+    },
+    {
+      "case": "span1_one_budget48_s2_x_idle1",
+      "physical_check_key": "x_span1_idle1",
+      "request_sha256": "62f1fc774a419ad4fee75bc26a45ee818b4c1e59f82417590f361140c98fa721",
+      "normalized": true
+    },
+    {
+      "case": "span1_one_budget48_s2_z_idle0",
+      "physical_check_key": "z_span1_idle0",
+      "request_sha256": "d6be6bef4c9aa3c3c079e202f1646b42ccc66f4185307cc097ef7e04b73f8fc3",
+      "normalized": true
+    },
+    {
+      "case": "span1_one_budget48_s2_z_idle1",
+      "physical_check_key": "z_span1_idle1",
+      "request_sha256": "45c6fbfe256743716b9d4c53f65df4d09d868590226e7259dbbc25b732600dc3",
+      "normalized": true
+    },
+    {
+      "case": "span1_one_budget48_s3_x_idle0",
+      "physical_check_key": "x_span1_idle0",
+      "request_sha256": "2582d3e6a535d18c46e3556e45f75ff0c8fb2c6e4c1fb50593bb95c9363f692b",
+      "normalized": true
+    },
+    {
+      "case": "span1_one_budget48_s3_x_idle1",
+      "physical_check_key": "x_span1_idle1",
+      "request_sha256": "62f1fc774a419ad4fee75bc26a45ee818b4c1e59f82417590f361140c98fa721",
+      "normalized": true
+    },
+    {
+      "case": "span1_one_budget48_s3_z_idle0",
+      "physical_check_key": "z_span1_idle0",
+      "request_sha256": "d6be6bef4c9aa3c3c079e202f1646b42ccc66f4185307cc097ef7e04b73f8fc3",
+      "normalized": true
+    },
+    {
+      "case": "span1_one_budget48_s3_z_idle1",
+      "physical_check_key": "z_span1_idle1",
+      "request_sha256": "45c6fbfe256743716b9d4c53f65df4d09d868590226e7259dbbc25b732600dc3",
+      "normalized": true
+    },
+    {
+      "case": "span1_two_budget48_s1_x_idle0",
+      "physical_check_key": "x_span1_idle0",
+      "request_sha256": "2582d3e6a535d18c46e3556e45f75ff0c8fb2c6e4c1fb50593bb95c9363f692b",
+      "normalized": true
+    },
+    {
+      "case": "span1_two_budget48_s1_x_idle1",
+      "physical_check_key": "x_span1_idle1",
+      "request_sha256": "62f1fc774a419ad4fee75bc26a45ee818b4c1e59f82417590f361140c98fa721",
+      "normalized": true
+    },
+    {
+      "case": "span1_two_budget48_s1_z_idle0",
+      "physical_check_key": "z_span1_idle0",
+      "request_sha256": "d6be6bef4c9aa3c3c079e202f1646b42ccc66f4185307cc097ef7e04b73f8fc3",
+      "normalized": true
+    },
+    {
+      "case": "span1_two_budget48_s1_z_idle1",
+      "physical_check_key": "z_span1_idle1",
+      "request_sha256": "45c6fbfe256743716b9d4c53f65df4d09d868590226e7259dbbc25b732600dc3",
+      "normalized": true
+    },
+    {
+      "case": "span1_two_budget48_s2_x_idle0",
+      "physical_check_key": "x_span1_idle0",
+      "request_sha256": "2582d3e6a535d18c46e3556e45f75ff0c8fb2c6e4c1fb50593bb95c9363f692b",
+      "normalized": true
+    },
+    {
+      "case": "span1_two_budget48_s2_x_idle1",
+      "physical_check_key": "x_span1_idle1",
+      "request_sha256": "62f1fc774a419ad4fee75bc26a45ee818b4c1e59f82417590f361140c98fa721",
+      "normalized": true
+    },
+    {
+      "case": "span1_two_budget48_s2_z_idle0",
+      "physical_check_key": "z_span1_idle0",
+      "request_sha256": "d6be6bef4c9aa3c3c079e202f1646b42ccc66f4185307cc097ef7e04b73f8fc3",
+      "normalized": true
+    },
+    {
+      "case": "span1_two_budget48_s2_z_idle1",
+      "physical_check_key": "z_span1_idle1",
+      "request_sha256": "45c6fbfe256743716b9d4c53f65df4d09d868590226e7259dbbc25b732600dc3",
+      "normalized": true
+    },
+    {
+      "case": "span1_two_budget48_s3_x_idle0",
+      "physical_check_key": "x_span1_idle0",
+      "request_sha256": "2582d3e6a535d18c46e3556e45f75ff0c8fb2c6e4c1fb50593bb95c9363f692b",
+      "normalized": true
+    },
+    {
+      "case": "span1_two_budget48_s3_x_idle1",
+      "physical_check_key": "x_span1_idle1",
+      "request_sha256": "62f1fc774a419ad4fee75bc26a45ee818b4c1e59f82417590f361140c98fa721",
+      "normalized": true
+    },
+    {
+      "case": "span1_two_budget48_s3_z_idle0",
+      "physical_check_key": "z_span1_idle0",
+      "request_sha256": "d6be6bef4c9aa3c3c079e202f1646b42ccc66f4185307cc097ef7e04b73f8fc3",
+      "normalized": true
+    },
+    {
+      "case": "span1_two_budget48_s3_z_idle1",
+      "physical_check_key": "z_span1_idle1",
+      "request_sha256": "45c6fbfe256743716b9d4c53f65df4d09d868590226e7259dbbc25b732600dc3",
+      "normalized": true
+    },
+    {
+      "case": "span3_original_s1_x_idle0",
+      "physical_check_key": "x_span3_idle0",
+      "request_sha256": "9a45befd55e9675a87c03d0c0b21e3fbd7d4c2082231a69b89ded0a6127e3480",
+      "normalized": true
+    },
+    {
+      "case": "span3_original_s1_x_idle1",
+      "physical_check_key": "x_span3_idle1",
+      "request_sha256": "1b5a3b93e36a0e257ab0530583bfbc251cc2afb2e89b5bcdd139a63258465ffa",
+      "normalized": true
+    },
+    {
+      "case": "span3_original_s1_z_idle0",
+      "physical_check_key": "z_span3_idle0",
+      "request_sha256": "5c679352de83ae3b4334f29ff3e25a41704a8143b87fe494cf56749d8853b584",
+      "normalized": true
+    },
+    {
+      "case": "span3_original_s1_z_idle1",
+      "physical_check_key": "z_span3_idle1",
+      "request_sha256": "a68fa9835fbd2fbed1ead6b2f6e3aa05541fba7acb1862d2a98bbb64a461df5b",
+      "normalized": true
+    },
+    {
+      "case": "span3_original_s2_x_idle0",
+      "physical_check_key": "x_span3_idle0",
+      "request_sha256": "9a45befd55e9675a87c03d0c0b21e3fbd7d4c2082231a69b89ded0a6127e3480",
+      "normalized": true
+    },
+    {
+      "case": "span3_original_s2_x_idle1",
+      "physical_check_key": "x_span3_idle1",
+      "request_sha256": "1b5a3b93e36a0e257ab0530583bfbc251cc2afb2e89b5bcdd139a63258465ffa",
+      "normalized": true
+    },
+    {
+      "case": "span3_original_s2_z_idle0",
+      "physical_check_key": "z_span3_idle0",
+      "request_sha256": "5c679352de83ae3b4334f29ff3e25a41704a8143b87fe494cf56749d8853b584",
+      "normalized": true
+    },
+    {
+      "case": "span3_original_s2_z_idle1",
+      "physical_check_key": "z_span3_idle1",
+      "request_sha256": "a68fa9835fbd2fbed1ead6b2f6e3aa05541fba7acb1862d2a98bbb64a461df5b",
+      "normalized": true
+    },
+    {
+      "case": "span3_original_s3_x_idle0",
+      "physical_check_key": "x_span3_idle0",
+      "request_sha256": "9a45befd55e9675a87c03d0c0b21e3fbd7d4c2082231a69b89ded0a6127e3480",
+      "normalized": true
+    },
+    {
+      "case": "span3_original_s3_x_idle1",
+      "physical_check_key": "x_span3_idle1",
+      "request_sha256": "1b5a3b93e36a0e257ab0530583bfbc251cc2afb2e89b5bcdd139a63258465ffa",
+      "normalized": true
+    },
+    {
+      "case": "span3_original_s3_z_idle0",
+      "physical_check_key": "z_span3_idle0",
+      "request_sha256": "5c679352de83ae3b4334f29ff3e25a41704a8143b87fe494cf56749d8853b584",
+      "normalized": true
+    },
+    {
+      "case": "span3_original_s3_z_idle1",
+      "physical_check_key": "z_span3_idle1",
+      "request_sha256": "a68fa9835fbd2fbed1ead6b2f6e3aa05541fba7acb1862d2a98bbb64a461df5b",
+      "normalized": true
+    },
+    {
+      "case": "span3_one_budget48_s1_x_idle0",
+      "physical_check_key": "x_span3_idle0",
+      "request_sha256": "9a45befd55e9675a87c03d0c0b21e3fbd7d4c2082231a69b89ded0a6127e3480",
+      "normalized": true
+    },
+    {
+      "case": "span3_one_budget48_s1_x_idle1",
+      "physical_check_key": "x_span3_idle1",
+      "request_sha256": "1b5a3b93e36a0e257ab0530583bfbc251cc2afb2e89b5bcdd139a63258465ffa",
+      "normalized": true
+    },
+    {
+      "case": "span3_one_budget48_s1_z_idle0",
+      "physical_check_key": "z_span3_idle0",
+      "request_sha256": "5c679352de83ae3b4334f29ff3e25a41704a8143b87fe494cf56749d8853b584",
+      "normalized": true
+    },
+    {
+      "case": "span3_one_budget48_s1_z_idle1",
+      "physical_check_key": "z_span3_idle1",
+      "request_sha256": "a68fa9835fbd2fbed1ead6b2f6e3aa05541fba7acb1862d2a98bbb64a461df5b",
+      "normalized": true
+    },
+    {
+      "case": "span3_one_budget48_s2_x_idle0",
+      "physical_check_key": "x_span3_idle0",
+      "request_sha256": "9a45befd55e9675a87c03d0c0b21e3fbd7d4c2082231a69b89ded0a6127e3480",
+      "normalized": true
+    },
+    {
+      "case": "span3_one_budget48_s2_x_idle1",
+      "physical_check_key": "x_span3_idle1",
+      "request_sha256": "1b5a3b93e36a0e257ab0530583bfbc251cc2afb2e89b5bcdd139a63258465ffa",
+      "normalized": true
+    },
+    {
+      "case": "span3_one_budget48_s2_z_idle0",
+      "physical_check_key": "z_span3_idle0",
+      "request_sha256": "5c679352de83ae3b4334f29ff3e25a41704a8143b87fe494cf56749d8853b584",
+      "normalized": true
+    },
+    {
+      "case": "span3_one_budget48_s2_z_idle1",
+      "physical_check_key": "z_span3_idle1",
+      "request_sha256": "a68fa9835fbd2fbed1ead6b2f6e3aa05541fba7acb1862d2a98bbb64a461df5b",
+      "normalized": true
+    },
+    {
+      "case": "span3_one_budget48_s3_x_idle0",
+      "physical_check_key": "x_span3_idle0",
+      "request_sha256": "9a45befd55e9675a87c03d0c0b21e3fbd7d4c2082231a69b89ded0a6127e3480",
+      "normalized": true
+    },
+    {
+      "case": "span3_one_budget48_s3_x_idle1",
+      "physical_check_key": "x_span3_idle1",
+      "request_sha256": "1b5a3b93e36a0e257ab0530583bfbc251cc2afb2e89b5bcdd139a63258465ffa",
+      "normalized": true
+    },
+    {
+      "case": "span3_one_budget48_s3_z_idle0",
+      "physical_check_key": "z_span3_idle0",
+      "request_sha256": "5c679352de83ae3b4334f29ff3e25a41704a8143b87fe494cf56749d8853b584",
+      "normalized": true
+    },
+    {
+      "case": "span3_one_budget48_s3_z_idle1",
+      "physical_check_key": "z_span3_idle1",
+      "request_sha256": "a68fa9835fbd2fbed1ead6b2f6e3aa05541fba7acb1862d2a98bbb64a461df5b",
+      "normalized": true
+    },
+    {
+      "case": "span3_two_budget48_s1_x_idle0",
+      "physical_check_key": "x_span3_idle0",
+      "request_sha256": "9a45befd55e9675a87c03d0c0b21e3fbd7d4c2082231a69b89ded0a6127e3480",
+      "normalized": true
+    },
+    {
+      "case": "span3_two_budget48_s1_x_idle1",
+      "physical_check_key": "x_span3_idle1",
+      "request_sha256": "1b5a3b93e36a0e257ab0530583bfbc251cc2afb2e89b5bcdd139a63258465ffa",
+      "normalized": true
+    },
+    {
+      "case": "span3_two_budget48_s1_z_idle0",
+      "physical_check_key": "z_span3_idle0",
+      "request_sha256": "5c679352de83ae3b4334f29ff3e25a41704a8143b87fe494cf56749d8853b584",
+      "normalized": true
+    },
+    {
+      "case": "span3_two_budget48_s1_z_idle1",
+      "physical_check_key": "z_span3_idle1",
+      "request_sha256": "a68fa9835fbd2fbed1ead6b2f6e3aa05541fba7acb1862d2a98bbb64a461df5b",
+      "normalized": true
+    },
+    {
+      "case": "span3_two_budget48_s2_x_idle0",
+      "physical_check_key": "x_span3_idle0",
+      "request_sha256": "9a45befd55e9675a87c03d0c0b21e3fbd7d4c2082231a69b89ded0a6127e3480",
+      "normalized": true
+    },
+    {
+      "case": "span3_two_budget48_s2_x_idle1",
+      "physical_check_key": "x_span3_idle1",
+      "request_sha256": "1b5a3b93e36a0e257ab0530583bfbc251cc2afb2e89b5bcdd139a63258465ffa",
+      "normalized": true
+    },
+    {
+      "case": "span3_two_budget48_s2_z_idle0",
+      "physical_check_key": "z_span3_idle0",
+      "request_sha256": "5c679352de83ae3b4334f29ff3e25a41704a8143b87fe494cf56749d8853b584",
+      "normalized": true
+    },
+    {
+      "case": "span3_two_budget48_s2_z_idle1",
+      "physical_check_key": "z_span3_idle1",
+      "request_sha256": "a68fa9835fbd2fbed1ead6b2f6e3aa05541fba7acb1862d2a98bbb64a461df5b",
+      "normalized": true
+    },
+    {
+      "case": "span3_two_budget48_s3_x_idle0",
+      "physical_check_key": "x_span3_idle0",
+      "request_sha256": "9a45befd55e9675a87c03d0c0b21e3fbd7d4c2082231a69b89ded0a6127e3480",
+      "normalized": true
+    },
+    {
+      "case": "span3_two_budget48_s3_x_idle1",
+      "physical_check_key": "x_span3_idle1",
+      "request_sha256": "1b5a3b93e36a0e257ab0530583bfbc251cc2afb2e89b5bcdd139a63258465ffa",
+      "normalized": true
+    },
+    {
+      "case": "span3_two_budget48_s3_z_idle0",
+      "physical_check_key": "z_span3_idle0",
+      "request_sha256": "5c679352de83ae3b4334f29ff3e25a41704a8143b87fe494cf56749d8853b584",
+      "normalized": true
+    },
+    {
+      "case": "span3_two_budget48_s3_z_idle1",
+      "physical_check_key": "z_span3_idle1",
+      "request_sha256": "a68fa9835fbd2fbed1ead6b2f6e3aa05541fba7acb1862d2a98bbb64a461df5b",
+      "normalized": true
+    }
+  ],
+  "frozen_phase1_supported": 0,
+  "frozen_phase1_records": 540
+}

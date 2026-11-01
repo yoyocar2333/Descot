@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "source_routing_configurations": 18,
+  "requests_checked": 72,
+  "unique_full_circuit_references": 8,
+  "new_monte_carlo_shots": 0,
+  "unique_existing_shots_referenced": 800000,
+  "explicit_rejections": 6,
+  "local_test_count": 63,
+  "checks": [
+    "source hashes",
+    "recomputed certificates",
+    "exact ideal/noisy circuit hash references",
+    "reference counts/CI/model/decoder",
+    "stored backend footprint and physical validation",
+    "negative cases"
+  ],
+  "scope": "Record reconciliation; physical circuits were generated and validated by the runner, no Monte Carlo run by this audit."
+}

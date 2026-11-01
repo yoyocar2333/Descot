@@ -1,0 +1,233 @@
+{
+  "key": "z_span1_idle0",
+  "ideal_circuit_sha256": "eea76a90b0cc925497f529e13031faa1bc2c7a4426d26d3d9f75c1603f2ec990",
+  "circuit_sha256": "c04bdedac2c4bba230e17a9c6459694ba43efe0bf3ba748fea0d663b88b35704",
+  "num_qubits": 137,
+  "num_ticks": 146,
+  "block_footprint_verification": {
+    "matched_actual_backend_graph": true,
+    "occupied_block_xy": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "common_lifetime_block_z": [
+      0,
+      6
+    ]
+  },
+  "physical_validation": {
+    "external_logical_action_passed": true,
+    "all_eight_signed_inputs_passed": true,
+    "signed_inputs": [
+      {
+        "input_signs": [
+          0,
+          0,
+          0
+        ],
+        "output_signs": [
+          0,
+          0,
+          0
+        ],
+        "observable_parities": [
+          0,
+          0,
+          0
+        ],
+        "shots": 128
+      },
+      {
+        "input_signs": [
+          0,
+          0,
+          1
+        ],
+        "output_signs": [
+          0,
+          0,
+          1
+        ],
+        "observable_parities": [
+          0,
+          0,
+          1
+        ],
+        "shots": 128
+      },
+      {
+        "input_signs": [
+          0,
+          1,
+          0
+        ],
+        "output_signs": [
+          0,
+          1,
+          1
+        ],
+        "observable_parities": [
+          0,
+          1,
+          0
+        ],
+        "shots": 128
+      },
+      {
+        "input_signs": [
+          0,
+          1,
+          1
+        ],
+        "output_signs": [
+          0,
+          1,
+          0
+        ],
+        "observable_parities": [
+          0,
+          1,
+          1
+        ],
+        "shots": 128
+      },
+      {
+        "input_signs": [
+          1,
+          0,
+          0
+        ],
+        "output_signs": [
+          1,
+          1,
+          1
+        ],
+        "observable_parities": [
+          1,
+          0,
+          0
+        ],
+        "shots": 128
+      },
+      {
+        "input_signs": [
+          1,
+          0,
+          1
+        ],
+        "output_signs": [
+          1,
+          1,
+          0
+        ],
+        "observable_parities": [
+          1,
+          0,
+          1
+        ],
+        "shots": 128
+      },
+      {
+        "input_signs": [
+          1,
+          1,
+          0
+        ],
+        "output_signs": [
+          1,
+          0,
+          0
+        ],
+        "observable_parities": [
+          1,
+          1,
+          0
+        ],
+        "shots": 128
+      },
+      {
+        "input_signs": [
+          1,
+          1,
+          1
+        ],
+        "output_signs": [
+          1,
+          0,
+          1
+        ],
+        "observable_parities": [
+          1,
+          1,
+          1
+        ],
+        "shots": 128
+      }
+    ],
+    "final_logical_faults": [
+      {
+        "logical_qubit": 0,
+        "observable_flips": [
+          1,
+          1,
+          0
+        ],
+        "shots": 128
+      },
+      {
+        "logical_qubit": 1,
+        "observable_flips": [
+          0,
+          1,
+          1
+        ],
+        "shots": 128
+      },
+      {
+        "logical_qubit": 2,
+        "observable_flips": [
+          0,
+          0,
+          1
+        ],
+        "shots": 128
+      }
+    ],
+    "common_logical_lifetime_block_z": [
+      0,
+      6
+    ]
+  },
+  "shortest_graphlike_error": 3,
+  "reference_name": "three_z_d3_span1_idle0_p0.001_N100000",
+  "reference_shots": 100000,
+  "reference_failures_any": 6577,
+  "reference_p_fail_any": 0.06577,
+  "reference_wilson95": [
+    0.06425027350234967,
+    0.0673230867494042
+  ],
+  "model_id": "tqec_uniform_depolarizing_circuit_v1",
+  "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+  "p": 0.001,
+  "statistics_reused": true,
+  "new_sampling_shots": 0
+}

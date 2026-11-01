@@ -1,0 +1,85 @@
+{
+  "schema_id": "dascot_restricted_request_v1",
+  "gates": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "ops": [
+    "cx",
+    "cx"
+  ],
+  "architecture": {
+    "width": 15,
+    "height": 7,
+    "alg_qubits": [
+      16,
+      52,
+      88
+    ],
+    "magic_states": []
+  },
+  "mapping": [
+    [
+      0,
+      16
+    ],
+    [
+      1,
+      52
+    ],
+    [
+      2,
+      88
+    ]
+  ],
+  "steps": [
+    [
+      [
+        0,
+        [
+          0,
+          1
+        ],
+        [
+          31,
+          32,
+          33,
+          34,
+          35,
+          50,
+          51
+        ]
+      ]
+    ],
+    [
+      [
+        1,
+        [
+          1,
+          2
+        ],
+        [
+          67,
+          68,
+          69,
+          70,
+          85,
+          86,
+          87
+        ]
+      ]
+    ]
+  ],
+  "basis": "x",
+  "distance": 3,
+  "timing": {
+    "policy": "three_block_cnot_with_explicit_storage_v1",
+    "intergate_storage_blocks": 0
+  }
+}

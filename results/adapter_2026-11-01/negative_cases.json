@@ -1,0 +1,506 @@
+[
+  {
+    "name": "legal_detour",
+    "expected_code": "corridor",
+    "observed_code": "corridor",
+    "message": "Route must enter below control and exit left of target inside the reserved corridor",
+    "request": {
+      "schema_id": "dascot_restricted_request_v1",
+      "gates": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "ops": [
+        "cx",
+        "cx"
+      ],
+      "architecture": {
+        "width": 7,
+        "height": 7,
+        "alg_qubits": [
+          8,
+          24,
+          40
+        ],
+        "magic_states": []
+      },
+      "mapping": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          24
+        ],
+        [
+          2,
+          40
+        ]
+      ],
+      "steps": [
+        [
+          [
+            0,
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2,
+              9,
+              16,
+              23
+            ]
+          ]
+        ],
+        [
+          [
+            1,
+            [
+              1,
+              2
+            ],
+            [
+              31,
+              32,
+              39
+            ]
+          ]
+        ]
+      ],
+      "basis": "z",
+      "distance": 3,
+      "timing": {
+        "policy": "three_block_cnot_with_explicit_storage_v1",
+        "intergate_storage_blocks": 0
+      }
+    }
+  },
+  {
+    "name": "legal_right_entry",
+    "expected_code": "corridor",
+    "observed_code": "corridor",
+    "message": "Route must enter below control and exit left of target inside the reserved corridor",
+    "request": {
+      "schema_id": "dascot_restricted_request_v1",
+      "gates": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "ops": [
+        "cx",
+        "cx"
+      ],
+      "architecture": {
+        "width": 7,
+        "height": 7,
+        "alg_qubits": [
+          8,
+          24,
+          40
+        ],
+        "magic_states": []
+      },
+      "mapping": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          24
+        ],
+        [
+          2,
+          40
+        ]
+      ],
+      "steps": [
+        [
+          [
+            0,
+            [
+              0,
+              1
+            ],
+            [
+              15,
+              16,
+              17,
+              18,
+              25
+            ]
+          ]
+        ],
+        [
+          [
+            1,
+            [
+              1,
+              2
+            ],
+            [
+              31,
+              32,
+              39
+            ]
+          ]
+        ]
+      ],
+      "basis": "z",
+      "distance": 3,
+      "timing": {
+        "policy": "three_block_cnot_with_explicit_storage_v1",
+        "intergate_storage_blocks": 0
+      }
+    }
+  },
+  {
+    "name": "unmodelled_defect",
+    "expected_code": "architecture",
+    "observed_code": "architecture",
+    "message": "Unknown architecture/defect/chiplet fields require separate support",
+    "request": {
+      "schema_id": "dascot_restricted_request_v1",
+      "gates": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "ops": [
+        "cx",
+        "cx"
+      ],
+      "architecture": {
+        "width": 7,
+        "height": 7,
+        "alg_qubits": [
+          8,
+          24,
+          40
+        ],
+        "magic_states": [],
+        "disabled_vertices": [
+          16
+        ]
+      },
+      "mapping": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          24
+        ],
+        [
+          2,
+          40
+        ]
+      ],
+      "steps": [
+        [
+          [
+            0,
+            [
+              0,
+              1
+            ],
+            [
+              15,
+              16,
+              23
+            ]
+          ]
+        ],
+        [
+          [
+            1,
+            [
+              1,
+              2
+            ],
+            [
+              31,
+              32,
+              39
+            ]
+          ]
+        ]
+      ],
+      "basis": "z",
+      "distance": 3,
+      "timing": {
+        "policy": "three_block_cnot_with_explicit_storage_v1",
+        "intergate_storage_blocks": 0
+      }
+    }
+  },
+  {
+    "name": "non_clifford_operation",
+    "expected_code": "operations",
+    "observed_code": "operations",
+    "message": "Only two Clifford CNOTs are supported",
+    "request": {
+      "schema_id": "dascot_restricted_request_v1",
+      "gates": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "ops": [
+        "cx",
+        "t"
+      ],
+      "architecture": {
+        "width": 7,
+        "height": 7,
+        "alg_qubits": [
+          8,
+          24,
+          40
+        ],
+        "magic_states": []
+      },
+      "mapping": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          24
+        ],
+        [
+          2,
+          40
+        ]
+      ],
+      "steps": [
+        [
+          [
+            0,
+            [
+              0,
+              1
+            ],
+            [
+              15,
+              16,
+              23
+            ]
+          ]
+        ],
+        [
+          [
+            1,
+            [
+              1,
+              2
+            ],
+            [
+              31,
+              32,
+              39
+            ]
+          ]
+        ]
+      ],
+      "basis": "z",
+      "distance": 3,
+      "timing": {
+        "policy": "three_block_cnot_with_explicit_storage_v1",
+        "intergate_storage_blocks": 0
+      }
+    }
+  },
+  {
+    "name": "unjustified_time_conversion",
+    "expected_code": "timing",
+    "observed_code": "timing",
+    "message": "An explicit physical template timing policy is required",
+    "request": {
+      "schema_id": "dascot_restricted_request_v1",
+      "gates": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "ops": [
+        "cx",
+        "cx"
+      ],
+      "architecture": {
+        "width": 7,
+        "height": 7,
+        "alg_qubits": [
+          8,
+          24,
+          40
+        ],
+        "magic_states": []
+      },
+      "mapping": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          24
+        ],
+        [
+          2,
+          40
+        ]
+      ],
+      "steps": [
+        [
+          [
+            0,
+            [
+              0,
+              1
+            ],
+            [
+              15,
+              16,
+              23
+            ]
+          ]
+        ],
+        [
+          [
+            1,
+            [
+              1,
+              2
+            ],
+            [
+              31,
+              32,
+              39
+            ]
+          ]
+        ]
+      ],
+      "basis": "z",
+      "distance": 3,
+      "timing": {
+        "policy": "infer_from_hops",
+        "intergate_storage_blocks": 0
+      }
+    }
+  },
+  {
+    "name": "disconnected_route",
+    "expected_code": "route_legality",
+    "observed_code": "route_legality",
+    "message": "Path contains a non-grid edge",
+    "request": {
+      "schema_id": "dascot_restricted_request_v1",
+      "gates": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "ops": [
+        "cx",
+        "cx"
+      ],
+      "architecture": {
+        "width": 7,
+        "height": 7,
+        "alg_qubits": [
+          8,
+          24,
+          40
+        ],
+        "magic_states": []
+      },
+      "mapping": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          24
+        ],
+        [
+          2,
+          40
+        ]
+      ],
+      "steps": [
+        [
+          [
+            0,
+            [
+              0,
+              1
+            ],
+            [
+              15,
+              23
+            ]
+          ]
+        ],
+        [
+          [
+            1,
+            [
+              1,
+              2
+            ],
+            [
+              31,
+              32,
+              39
+            ]
+          ]
+        ]
+      ],
+      "basis": "z",
+      "distance": 3,
+      "timing": {
+        "policy": "three_block_cnot_with_explicit_storage_v1",
+        "intergate_storage_blocks": 0
+      }
+    }
+  }
+]

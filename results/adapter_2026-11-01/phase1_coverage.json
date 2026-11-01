@@ -1,0 +1,10 @@
+{
+  "source": "Frozen full Phase 1 schedules",
+  "records": 540,
+  "input_layouts": 20,
+  "supported": 0,
+  "rejections": {
+    "program": 540
+  },
+  "scope": "Whole-program compatibility only; 540 records share 20 input/layout definitions, not 540 independent workloads."
+}

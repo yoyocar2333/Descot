@@ -2,7 +2,7 @@
 
 Research implementation for our **2026-11-09** report. The repository is named `Descot`; the underlying compilation method is **DASCOT**.
 
-**中文導覽：** [11/9 前進度規劃](docs/ROADMAP_2026-11-09_ZH.md) · [10/31 三位元與儲存實測](docs/updates/2026-10-31.md) · [10/30 連續 CNOT](docs/updates/2026-10-30.md) · [Phase 1 詳細講稿與理解補充](docs/phase1/PROGRESS_ZH.md)
+**中文導覽：** [11/9 前進度規劃](docs/ROADMAP_2026-11-09_ZH.md) · [11/1 受限路由轉譯](docs/updates/2026-11-01.md) · [10/31 三位元與儲存實測](docs/updates/2026-10-31.md) · [10/30 連續 CNOT](docs/updates/2026-10-30.md) · [Phase 1 詳細講稿與理解補充](docs/phase1/PROGRESS_ZH.md)
 
 ## Current results
 
@@ -10,7 +10,8 @@ Research implementation for our **2026-11-09** report. The repository is named `
 - **Isolated CNOT calibration:** a spatial-bridge extension of pinned TQEC CNOT graphs; 32 settings / **3,200,000 shots**, signed-input/fault checks, graphlike distance diagnostics, counts and 95% Wilson intervals.
 - **Continuous CNOT composition:** same-pair chains of 1/2/3 physical CNOTs, X/Z basis, d=3, spans 1/3 and p=0.001. **12 settings / 240,000 additional shots**; complete circuits sampled and decoded together. Even-length chains have ideal identity action. These deliberately unoptimized circuits are validation fixtures, not application workloads.
 - **Three live qubits and storage:** CNOT(0,1) then CNOT(1,2), with aligned input/output times and spectator memory. X/Z, d=3, spans 1/3, zero/one extra storage block: **8 settings / 800,000 additional shots**. Complete-circuit any-observable failure increases in all four matched storage contrasts; counts and Wilson intervals are recorded. This remains a supported geometry, not arbitrary-route lowering.
-- **Tests:** 41 passed locally. Check the Actions tab for remote CI results.
+- **Restricted route-to-circuit adapter:** 18 real-router configurations on declared custom layouts produce 72 supported requests and 8 unique validated physical circuits. Source paths may be normalized inside exclusively reserved empty corridors. Timing is an explicit template policy. Exact ideal/noisy circuit hashes permit reuse of the Oct 31 full-circuit calibration; **zero new Monte Carlo shots**. The full Phase 1 workloads remain outside this two-gate profile (0/540 records; 20 input/layout definitions). This is contract validation, not a scheduler-performance result.
+- **Tests:** 63 passed locally. Check the Actions tab for remote CI results.
 
 ![Continuous CNOT pilot with 95% Wilson intervals](docs/figures/composition_failure.png)
 
@@ -43,6 +44,7 @@ Small records, inputs and summaries are directly versioned. Large raw schedules/
 - `archives/phase1_snapshot.zip`: frozen Phase 1 source and all 540 routing schedules, 32 CNOT settings and 72 isolated timing records.
 - `archives/composition_2026-10-30.zip`: all 12 continuous-chain settings, ideal/noisy circuits, DEMs and counts.
 - `archives/three_qubit_2026-10-31.zip`: all 8 three-live-qubit storage settings, circuits, DEMs, protocol and source provenance.
+- `archives/adapter_2026-11-01.zip`: source routes, 72 requests/certificates, exact full-circuit reference checks, rejection and coverage records; no duplicate sampling.
 - `archives/manifest.json`: exact archive SHA-256 and byte counts.
 
 `restore_results.py` verifies the archives and restores result files without overwriting different existing files. The Phase 1 snapshot source is historical; the repository root is the current development source. GitHub's **Code → Download ZIP** contains both current source and these complete snapshots.
@@ -56,6 +58,7 @@ Small records, inputs and summaries are directly versioned. Large raw schedules/
 | `surgery.py`, `run_surgery.py` | Isolated TQEC-backed CNOT geometry adapter and Monte Carlo |
 | `composition.py`, `run_composition.py` | Continuous same-pair CNOT chains and logical-action checks |
 | `three_qubit.py`, `run_three_qubit.py`, `report_three_qubit.py` | Non-cancelling three-live-qubit geometry, storage, full-circuit sampling and audit |
+| `route_adapter.py`, `run_adapter_validation.py`, `report_adapter.py` | Fail-closed restricted synthesis, actual-router interoperability and exact full-circuit reuse |
 | `qec_lookup.py` | Strict condition-matched isolated-gadget lookup; no extrapolation |
 | `verify_results.py` | Frozen Phase 1 record audit without resampling |
 | `make_composition_report.py` | Audit chain records and regenerate the dated Chinese report/figure |
