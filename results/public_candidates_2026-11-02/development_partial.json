@@ -1,0 +1,3624 @@
+[
+  {
+    "record_id": "development_p00",
+    "sample_id": "sample_6dc5cea34bd8787ab736292ca710f958ea1ae609e37ae9ef8acd3adcb4a9d05e",
+    "mode": "serial",
+    "spacing_blocks": 3,
+    "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "ideal_circuit_sha256": "0113e802724d02b34a3c35e6d7a24ee33bc2dfdda87810e1aa43c213dc42e446",
+    "noisy_circuit_sha256": "6dc5cea34bd8787ab736292ca710f958ea1ae609e37ae9ef8acd3adcb4a9d05e",
+    "dem_sha256": "313ae58d0071bd3e2159165485229203327f97549b5cf53b70ace7f1d240ff6a",
+    "model_id": "tqec_uniform_depolarizing_circuit_v1",
+    "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+    "distance": 3,
+    "physical_p": 0.001,
+    "num_qubits": 620,
+    "num_ticks": 1112,
+    "num_detectors": 5852,
+    "num_observables": 4,
+    "source_operation_counts": {
+      "cx": 4,
+      "h": 20,
+      "measure": 4,
+      "x": 4
+    },
+    "cx_routing_steps": 4,
+    "logical_h_layers": 12,
+    "template_block_z": 48,
+    "qec_rounds": null,
+    "qec_rounds_note": "Not equated with routing/block-z/TICK; ordinary block bulk repetitions=1 at k=1, temporal-H realignment adds compiler-specific layers. No round count inferred.",
+    "data_patch_reservation_block_z": 192,
+    "ancilla_reservation_block_z": 60,
+    "shots": 100000,
+    "seed": 1644728673371550601,
+    "batch_size": 5000,
+    "batches": [
+      {
+        "shots": 5000,
+        "failures_any": 3017,
+        "failures_by_observable": [
+          1052,
+          1029,
+          1030,
+          1044
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2975,
+        "failures_by_observable": [
+          1018,
+          1042,
+          1002,
+          1002
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2982,
+        "failures_by_observable": [
+          1054,
+          1041,
+          958,
+          1002
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2995,
+        "failures_by_observable": [
+          1103,
+          1062,
+          988,
+          1013
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 3036,
+        "failures_by_observable": [
+          1074,
+          1079,
+          992,
+          984
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 3028,
+        "failures_by_observable": [
+          1042,
+          1058,
+          983,
+          1030
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2936,
+        "failures_by_observable": [
+          1042,
+          1013,
+          995,
+          954
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 3020,
+        "failures_by_observable": [
+          1084,
+          1097,
+          974,
+          1033
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2945,
+        "failures_by_observable": [
+          1014,
+          1034,
+          981,
+          1021
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2973,
+        "failures_by_observable": [
+          1063,
+          1061,
+          969,
+          1027
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2950,
+        "failures_by_observable": [
+          1026,
+          1029,
+          1022,
+          1018
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2977,
+        "failures_by_observable": [
+          1063,
+          1031,
+          1016,
+          1008
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2994,
+        "failures_by_observable": [
+          1047,
+          1036,
+          1042,
+          1021
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 3048,
+        "failures_by_observable": [
+          1056,
+          1104,
+          1011,
+          1048
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2936,
+        "failures_by_observable": [
+          978,
+          1017,
+          990,
+          1024
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2982,
+        "failures_by_observable": [
+          1026,
+          1031,
+          1015,
+          985
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 3006,
+        "failures_by_observable": [
+          1073,
+          1011,
+          1019,
+          1011
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 3008,
+        "failures_by_observable": [
+          1090,
+          1044,
+          1058,
+          1011
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2985,
+        "failures_by_observable": [
+          1022,
+          1025,
+          990,
+          1051
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 3001,
+        "failures_by_observable": [
+          1078,
+          1048,
+          1009,
+          1011
+        ]
+      }
+    ],
+    "failures_any": 59794,
+    "failures_by_observable": [
+      21005,
+      20892,
+      20044,
+      20298
+    ],
+    "p_fail_any": 0.59794,
+    "wilson95_low": 0.5948973524375075,
+    "wilson95_high": 0.6009751232019999,
+    "sampling_decode_seconds": 0.0,
+    "shortest_graphlike_error": 3,
+    "candidate_id": "p00",
+    "stage": "development",
+    "features": {
+      "physical_layers": 16,
+      "template_block_z": 48,
+      "cx_routing_steps": 4,
+      "logical_h_layers": 12,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 192,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          18,
+          12
+        ],
+        [
+          12,
+          9
+        ],
+        [
+          15,
+          15,
+          3
+        ],
+        [
+          12,
+          9
+        ]
+      ],
+      "total_protected_idle_block_z": 108,
+      "max_protected_idle_block_z": 18,
+      "squared_protected_idle_block_z2": 1386,
+      "cx_recurrence_separations_block_z": [
+        21,
+        18
+      ],
+      "cx_gap_squared_block_z2": 765,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "reused_from": "results/public_hs4_2026-11-02/samples/sample_6dc5cea34bd8787ab736292ca710f958ea1ae609e37ae9ef8acd3adcb4a9d05e.json",
+    "new_shots": 0,
+    "generation_and_validation_seconds": 0.0
+  },
+  {
+    "ideal_circuit_sha256": "0fd9500d8e189715305f67460b93c34e5d0e788b76a37a094ae41dadfda1957e",
+    "noisy_circuit_sha256": "50082f3e22eecb98fca4ecaa89d8db47eef96f9bfc6344ca8d7d2f0485218fd2",
+    "dem_sha256": "da48154ab2285c6a102491f0bc3d1e61a219b5adecd0eb9e9dc92e8e23b82e6d",
+    "shots": 100000,
+    "seed": 12946395828794868071,
+    "batch_size": 5000,
+    "batches": [
+      {
+        "shots": 5000,
+        "failures_any": 2989,
+        "failures_by_observable": [
+          1092,
+          1143,
+          960,
+          916
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2963,
+        "failures_by_observable": [
+          1144,
+          1095,
+          917,
+          952
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 3018,
+        "failures_by_observable": [
+          1142,
+          1131,
+          931,
+          941
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2994,
+        "failures_by_observable": [
+          1119,
+          1112,
+          914,
+          955
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 3020,
+        "failures_by_observable": [
+          1138,
+          1099,
+          942,
+          968
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2973,
+        "failures_by_observable": [
+          1109,
+          1154,
+          947,
+          902
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2955,
+        "failures_by_observable": [
+          1107,
+          1121,
+          907,
+          905
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 3021,
+        "failures_by_observable": [
+          1091,
+          1191,
+          983,
+          878
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 3021,
+        "failures_by_observable": [
+          1139,
+          1153,
+          948,
+          956
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 3052,
+        "failures_by_observable": [
+          1158,
+          1137,
+          944,
+          922
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2960,
+        "failures_by_observable": [
+          1069,
+          1070,
+          919,
+          937
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 3013,
+        "failures_by_observable": [
+          1138,
+          1169,
+          915,
+          917
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2962,
+        "failures_by_observable": [
+          1094,
+          1135,
+          920,
+          931
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2943,
+        "failures_by_observable": [
+          1074,
+          1139,
+          926,
+          898
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2978,
+        "failures_by_observable": [
+          1137,
+          1130,
+          895,
+          918
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2950,
+        "failures_by_observable": [
+          1122,
+          1061,
+          915,
+          919
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2987,
+        "failures_by_observable": [
+          1084,
+          1127,
+          897,
+          972
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2957,
+        "failures_by_observable": [
+          1042,
+          1121,
+          925,
+          955
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2917,
+        "failures_by_observable": [
+          1070,
+          1096,
+          922,
+          939
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 3054,
+        "failures_by_observable": [
+          1125,
+          1139,
+          1001,
+          944
+        ]
+      }
+    ],
+    "failures_any": 59727,
+    "failures_by_observable": [
+      22194,
+      22523,
+      18628,
+      18625
+    ],
+    "p_fail_any": 0.59727,
+    "wilson95_low": 0.5942265516867522,
+    "wilson95_high": 0.6003059754263258,
+    "shortest_graphlike_error": 3,
+    "record_id": "development_p01",
+    "candidate_id": "p01",
+    "stage": "development",
+    "features": {
+      "physical_layers": 16,
+      "template_block_z": 48,
+      "cx_routing_steps": 4,
+      "logical_h_layers": 12,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 192,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          27,
+          3
+        ],
+        [
+          21
+        ],
+        [
+          15,
+          6,
+          12
+        ],
+        [
+          12,
+          9
+        ]
+      ],
+      "total_protected_idle_block_z": 108,
+      "max_protected_idle_block_z": 27,
+      "squared_protected_idle_block_z2": 1818,
+      "cx_recurrence_separations_block_z": [
+        30,
+        9
+      ],
+      "cx_gap_squared_block_z2": 981,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "model_id": "tqec_uniform_depolarizing_circuit_v1",
+    "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+    "distance": 3,
+    "physical_p": 0.001,
+    "num_qubits": 620,
+    "num_ticks": 1112,
+    "num_detectors": 5852,
+    "num_observables": 4,
+    "sample_id": "sample_50082f3e22eecb98fca4ecaa89d8db47eef96f9bfc6344ca8d7d2f0485218fd2",
+    "reused_from": null,
+    "new_shots": 100000,
+    "generation_and_validation_seconds": 232.08981603400025,
+    "sampling_decode_seconds": 8.661530554000365
+  },
+  {
+    "ideal_circuit_sha256": "d90d7fc9295d3652ac69f413fc76e8cfdbc27c3e54ee59e1917be0d726055e22",
+    "noisy_circuit_sha256": "34c3830e6c65cdf22744fe01f5d0252a76ff5cdd32380abd9d2d29cf5870f56c",
+    "dem_sha256": "27bc07959c95d1c889ba8df6444747414481dc32cca5d58f0a0ec4038c28255d",
+    "shots": 100000,
+    "seed": 10444647857140422823,
+    "batch_size": 5000,
+    "batches": [
+      {
+        "shots": 5000,
+        "failures_any": 2718,
+        "failures_by_observable": [
+          963,
+          972,
+          840,
+          828
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2682,
+        "failures_by_observable": [
+          960,
+          942,
+          864,
+          774
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2707,
+        "failures_by_observable": [
+          980,
+          956,
+          808,
+          804
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2689,
+        "failures_by_observable": [
+          923,
+          994,
+          800,
+          824
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2685,
+        "failures_by_observable": [
+          920,
+          967,
+          814,
+          838
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2718,
+        "failures_by_observable": [
+          930,
+          956,
+          855,
+          862
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2751,
+        "failures_by_observable": [
+          959,
+          942,
+          899,
+          846
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2729,
+        "failures_by_observable": [
+          977,
+          928,
+          853,
+          866
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2718,
+        "failures_by_observable": [
+          970,
+          1018,
+          784,
+          867
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2750,
+        "failures_by_observable": [
+          992,
+          993,
+          795,
+          838
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2726,
+        "failures_by_observable": [
+          961,
+          999,
+          848,
+          824
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2720,
+        "failures_by_observable": [
+          952,
+          914,
+          833,
+          855
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2756,
+        "failures_by_observable": [
+          996,
+          959,
+          851,
+          798
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2731,
+        "failures_by_observable": [
+          952,
+          950,
+          797,
+          840
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2724,
+        "failures_by_observable": [
+          937,
+          961,
+          834,
+          879
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2659,
+        "failures_by_observable": [
+          961,
+          934,
+          858,
+          774
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2743,
+        "failures_by_observable": [
+          946,
+          980,
+          828,
+          871
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2725,
+        "failures_by_observable": [
+          972,
+          937,
+          869,
+          835
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2719,
+        "failures_by_observable": [
+          962,
+          966,
+          822,
+          825
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2708,
+        "failures_by_observable": [
+          911,
+          975,
+          869,
+          846
+        ]
+      }
+    ],
+    "failures_any": 54358,
+    "failures_by_observable": [
+      19124,
+      19243,
+      16721,
+      16694
+    ],
+    "p_fail_any": 0.54358,
+    "wilson95_low": 0.5404912033262085,
+    "wilson95_high": 0.5466654485868986,
+    "shortest_graphlike_error": 3,
+    "record_id": "development_p02",
+    "candidate_id": "p02",
+    "stage": "development",
+    "features": {
+      "physical_layers": 13,
+      "template_block_z": 39,
+      "cx_routing_steps": 3,
+      "logical_h_layers": 10,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 156,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          18,
+          3
+        ],
+        [
+          12
+        ],
+        [
+          15,
+          6,
+          3
+        ],
+        [
+          12
+        ]
+      ],
+      "total_protected_idle_block_z": 72,
+      "max_protected_idle_block_z": 18,
+      "squared_protected_idle_block_z2": 900,
+      "cx_recurrence_separations_block_z": [
+        21,
+        9
+      ],
+      "cx_gap_squared_block_z2": 522,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "model_id": "tqec_uniform_depolarizing_circuit_v1",
+    "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+    "distance": 3,
+    "physical_p": 0.001,
+    "num_qubits": 620,
+    "num_ticks": 909,
+    "num_detectors": 4924,
+    "num_observables": 4,
+    "sample_id": "sample_34c3830e6c65cdf22744fe01f5d0252a76ff5cdd32380abd9d2d29cf5870f56c",
+    "reused_from": null,
+    "new_shots": 100000,
+    "generation_and_validation_seconds": 193.02208920700014,
+    "sampling_decode_seconds": 7.157534450000185
+  },
+  {
+    "ideal_circuit_sha256": "836468fcc2c81fbe889597241c025d2163f7dae3370a02491b4e94d10f407c0f",
+    "noisy_circuit_sha256": "c8dc96457db44d238549250884f920f590d711629116859a0c8ab64984a49c87",
+    "dem_sha256": "7cacaf219000b85ace4fc0d3226166f346330fa00856f2cdcc3d5a719e92c7b5",
+    "shots": 100000,
+    "seed": 13985469387588712842,
+    "batch_size": 5000,
+    "batches": [
+      {
+        "shots": 5000,
+        "failures_any": 2847,
+        "failures_by_observable": [
+          953,
+          937,
+          946,
+          968
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2792,
+        "failures_by_observable": [
+          902,
+          935,
+          929,
+          958
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2735,
+        "failures_by_observable": [
+          904,
+          903,
+          897,
+          916
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2810,
+        "failures_by_observable": [
+          966,
+          927,
+          968,
+          922
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2841,
+        "failures_by_observable": [
+          939,
+          932,
+          935,
+          955
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2808,
+        "failures_by_observable": [
+          933,
+          987,
+          940,
+          949
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2836,
+        "failures_by_observable": [
+          929,
+          921,
+          944,
+          957
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2771,
+        "failures_by_observable": [
+          893,
+          940,
+          933,
+          929
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2811,
+        "failures_by_observable": [
+          944,
+          921,
+          955,
+          957
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2825,
+        "failures_by_observable": [
+          917,
+          961,
+          931,
+          948
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2762,
+        "failures_by_observable": [
+          895,
+          985,
+          932,
+          857
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2764,
+        "failures_by_observable": [
+          898,
+          946,
+          885,
+          899
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2764,
+        "failures_by_observable": [
+          938,
+          935,
+          906,
+          901
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2804,
+        "failures_by_observable": [
+          918,
+          923,
+          1003,
+          916
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2764,
+        "failures_by_observable": [
+          941,
+          939,
+          936,
+          881
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2783,
+        "failures_by_observable": [
+          888,
+          941,
+          947,
+          940
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2830,
+        "failures_by_observable": [
+          929,
+          1002,
+          899,
+          933
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2761,
+        "failures_by_observable": [
+          974,
+          956,
+          875,
+          886
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2788,
+        "failures_by_observable": [
+          933,
+          928,
+          892,
+          954
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2823,
+        "failures_by_observable": [
+          935,
+          927,
+          955,
+          928
+        ]
+      }
+    ],
+    "failures_any": 55919,
+    "failures_by_observable": [
+      18529,
+      18846,
+      18608,
+      18554
+    ],
+    "p_fail_any": 0.55919,
+    "wilson95_low": 0.556110600288565,
+    "wilson95_high": 0.5622648523671674,
+    "shortest_graphlike_error": 3,
+    "record_id": "development_p03",
+    "candidate_id": "p03",
+    "stage": "development",
+    "features": {
+      "physical_layers": 16,
+      "template_block_z": 48,
+      "cx_routing_steps": 4,
+      "logical_h_layers": 12,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 192,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          6,
+          24
+        ],
+        [
+          21
+        ],
+        [
+          24,
+          6,
+          3
+        ],
+        [
+          21
+        ]
+      ],
+      "total_protected_idle_block_z": 108,
+      "max_protected_idle_block_z": 24,
+      "squared_protected_idle_block_z2": 2124,
+      "cx_recurrence_separations_block_z": [
+        9,
+        9
+      ],
+      "cx_gap_squared_block_z2": 162,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "model_id": "tqec_uniform_depolarizing_circuit_v1",
+    "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+    "distance": 3,
+    "physical_p": 0.001,
+    "num_qubits": 620,
+    "num_ticks": 1112,
+    "num_detectors": 5852,
+    "num_observables": 4,
+    "sample_id": "sample_c8dc96457db44d238549250884f920f590d711629116859a0c8ab64984a49c87",
+    "reused_from": null,
+    "new_shots": 100000,
+    "generation_and_validation_seconds": 230.84738455800016,
+    "sampling_decode_seconds": 8.83354041299981
+  },
+  {
+    "ideal_circuit_sha256": "c26261060504a00edc306ee58f492a6dbb4f908024af97cea77e7f3f19353971",
+    "noisy_circuit_sha256": "f4bc3d304b8a378930e6fe3d06ef1b50dad03953402ba81d7aba9e074ca14107",
+    "dem_sha256": "040623eb1b232ee6fe0cc2bfdd998c754a12f0819bf8500716d538430dadb169",
+    "shots": 100000,
+    "seed": 4253968513602565061,
+    "batch_size": 5000,
+    "batches": [
+      {
+        "shots": 5000,
+        "failures_any": 2568,
+        "failures_by_observable": [
+          860,
+          830,
+          786,
+          839
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2538,
+        "failures_by_observable": [
+          825,
+          816,
+          833,
+          804
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2587,
+        "failures_by_observable": [
+          869,
+          842,
+          820,
+          817
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2569,
+        "failures_by_observable": [
+          839,
+          865,
+          823,
+          796
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2641,
+        "failures_by_observable": [
+          829,
+          850,
+          871,
+          893
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2622,
+        "failures_by_observable": [
+          871,
+          845,
+          870,
+          809
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2607,
+        "failures_by_observable": [
+          823,
+          835,
+          868,
+          852
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2592,
+        "failures_by_observable": [
+          858,
+          847,
+          786,
+          843
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2601,
+        "failures_by_observable": [
+          824,
+          826,
+          878,
+          839
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2531,
+        "failures_by_observable": [
+          826,
+          845,
+          834,
+          791
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2622,
+        "failures_by_observable": [
+          876,
+          843,
+          882,
+          833
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2576,
+        "failures_by_observable": [
+          829,
+          852,
+          847,
+          797
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2624,
+        "failures_by_observable": [
+          822,
+          828,
+          895,
+          841
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2636,
+        "failures_by_observable": [
+          827,
+          849,
+          884,
+          851
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2551,
+        "failures_by_observable": [
+          837,
+          797,
+          830,
+          840
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2576,
+        "failures_by_observable": [
+          809,
+          858,
+          778,
+          875
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2555,
+        "failures_by_observable": [
+          856,
+          812,
+          796,
+          856
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2605,
+        "failures_by_observable": [
+          832,
+          865,
+          839,
+          854
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2573,
+        "failures_by_observable": [
+          848,
+          830,
+          843,
+          833
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2583,
+        "failures_by_observable": [
+          812,
+          905,
+          793,
+          851
+        ]
+      }
+    ],
+    "failures_any": 51757,
+    "failures_by_observable": [
+      16772,
+      16840,
+      16756,
+      16714
+    ],
+    "p_fail_any": 0.51757,
+    "wilson95_low": 0.5144723232596563,
+    "wilson95_high": 0.5206663269035675,
+    "shortest_graphlike_error": 3,
+    "record_id": "development_p04",
+    "candidate_id": "p04",
+    "stage": "development",
+    "features": {
+      "physical_layers": 13,
+      "template_block_z": 39,
+      "cx_routing_steps": 3,
+      "logical_h_layers": 10,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 156,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          6,
+          15
+        ],
+        [
+          12
+        ],
+        [
+          15,
+          6,
+          3
+        ],
+        [
+          12
+        ]
+      ],
+      "total_protected_idle_block_z": 72,
+      "max_protected_idle_block_z": 15,
+      "squared_protected_idle_block_z2": 828,
+      "cx_recurrence_separations_block_z": [
+        9,
+        9
+      ],
+      "cx_gap_squared_block_z2": 162,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "model_id": "tqec_uniform_depolarizing_circuit_v1",
+    "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+    "distance": 3,
+    "physical_p": 0.001,
+    "num_qubits": 620,
+    "num_ticks": 909,
+    "num_detectors": 4924,
+    "num_observables": 4,
+    "sample_id": "sample_f4bc3d304b8a378930e6fe3d06ef1b50dad03953402ba81d7aba9e074ca14107",
+    "reused_from": null,
+    "new_shots": 100000,
+    "generation_and_validation_seconds": 219.20321333599986,
+    "sampling_decode_seconds": 8.479634372999953
+  },
+  {
+    "ideal_circuit_sha256": "3c74dfa38923dc5a23d839dce7a7f7ac6a827fbb0399eca97bc3f8f247735462",
+    "noisy_circuit_sha256": "7d84dd1fc8f786b348991eb6e08c4cde65ba164dffc5140ea120134249ef457d",
+    "dem_sha256": "c0f7d37a0b9743b28bb044d1bf8cd003f2919840a79cfa1802b257a26f83c0be",
+    "shots": 100000,
+    "seed": 3452422080628780207,
+    "batch_size": 5000,
+    "batches": [
+      {
+        "shots": 5000,
+        "failures_any": 3036,
+        "failures_by_observable": [
+          941,
+          975,
+          1112,
+          1144
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 3019,
+        "failures_by_observable": [
+          938,
+          907,
+          1156,
+          1159
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2959,
+        "failures_by_observable": [
+          930,
+          905,
+          1129,
+          1109
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 3025,
+        "failures_by_observable": [
+          969,
+          930,
+          1093,
+          1157
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 3019,
+        "failures_by_observable": [
+          924,
+          931,
+          1140,
+          1154
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2991,
+        "failures_by_observable": [
+          914,
+          928,
+          1097,
+          1180
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2994,
+        "failures_by_observable": [
+          942,
+          903,
+          1051,
+          1147
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2961,
+        "failures_by_observable": [
+          920,
+          939,
+          1061,
+          1162
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2999,
+        "failures_by_observable": [
+          919,
+          925,
+          1151,
+          1131
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2979,
+        "failures_by_observable": [
+          956,
+          885,
+          1080,
+          1152
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2984,
+        "failures_by_observable": [
+          965,
+          940,
+          1126,
+          1099
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2998,
+        "failures_by_observable": [
+          895,
+          920,
+          1168,
+          1141
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2983,
+        "failures_by_observable": [
+          961,
+          956,
+          1085,
+          1137
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2989,
+        "failures_by_observable": [
+          923,
+          929,
+          1153,
+          1070
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2980,
+        "failures_by_observable": [
+          927,
+          951,
+          1083,
+          1126
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 3057,
+        "failures_by_observable": [
+          894,
+          932,
+          1149,
+          1196
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2954,
+        "failures_by_observable": [
+          897,
+          902,
+          1147,
+          1154
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2991,
+        "failures_by_observable": [
+          923,
+          918,
+          1150,
+          1123
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 3019,
+        "failures_by_observable": [
+          987,
+          903,
+          1115,
+          1176
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 3000,
+        "failures_by_observable": [
+          969,
+          932,
+          1122,
+          1113
+        ]
+      }
+    ],
+    "failures_any": 59937,
+    "failures_by_observable": [
+      18694,
+      18511,
+      22368,
+      22830
+    ],
+    "p_fail_any": 0.59937,
+    "wilson95_low": 0.5963290812449533,
+    "wilson95_high": 0.6024032845330518,
+    "shortest_graphlike_error": 3,
+    "record_id": "development_p05",
+    "candidate_id": "p05",
+    "stage": "development",
+    "features": {
+      "physical_layers": 16,
+      "template_block_z": 48,
+      "cx_routing_steps": 4,
+      "logical_h_layers": 12,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 192,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          15,
+          6,
+          12
+        ],
+        [
+          12,
+          9
+        ],
+        [
+          3,
+          27,
+          3
+        ],
+        [
+          21
+        ]
+      ],
+      "total_protected_idle_block_z": 108,
+      "max_protected_idle_block_z": 27,
+      "squared_protected_idle_block_z2": 1818,
+      "cx_recurrence_separations_block_z": [
+        30,
+        9
+      ],
+      "cx_gap_squared_block_z2": 981,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "model_id": "tqec_uniform_depolarizing_circuit_v1",
+    "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+    "distance": 3,
+    "physical_p": 0.001,
+    "num_qubits": 620,
+    "num_ticks": 1112,
+    "num_detectors": 5852,
+    "num_observables": 4,
+    "sample_id": "sample_7d84dd1fc8f786b348991eb6e08c4cde65ba164dffc5140ea120134249ef457d",
+    "reused_from": null,
+    "new_shots": 100000,
+    "generation_and_validation_seconds": 277.4683868090001,
+    "sampling_decode_seconds": 8.753898856999967
+  },
+  {
+    "ideal_circuit_sha256": "ce1ddf2f6b64f60e86ef767e6cc95dad497f93fc481c139fa460ee71f2f7422b",
+    "noisy_circuit_sha256": "baa13d86b918da045124e98caed6f26ca59a783fc91cc522430e06ecea20cce6",
+    "dem_sha256": "4508f77dbb1b7b689d5d03f9db7c3ff49890cd46e5fb27fa9b66e1cced6cacbd",
+    "shots": 100000,
+    "seed": 15934669017163066103,
+    "batch_size": 5000,
+    "batches": [
+      {
+        "shots": 5000,
+        "failures_any": 2963,
+        "failures_by_observable": [
+          972,
+          1029,
+          1031,
+          1029
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2915,
+        "failures_by_observable": [
+          989,
+          951,
+          1048,
+          972
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 3000,
+        "failures_by_observable": [
+          1006,
+          993,
+          1088,
+          1064
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 3023,
+        "failures_by_observable": [
+          971,
+          1037,
+          1077,
+          1025
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 3007,
+        "failures_by_observable": [
+          1021,
+          958,
+          1016,
+          1088
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 3080,
+        "failures_by_observable": [
+          1038,
+          1054,
+          1091,
+          1068
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2976,
+        "failures_by_observable": [
+          998,
+          1042,
+          998,
+          1033
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2979,
+        "failures_by_observable": [
+          995,
+          1020,
+          1040,
+          1033
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 3012,
+        "failures_by_observable": [
+          1024,
+          1008,
+          1094,
+          1023
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 3056,
+        "failures_by_observable": [
+          1064,
+          1016,
+          1041,
+          1042
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2964,
+        "failures_by_observable": [
+          1020,
+          975,
+          1092,
+          1006
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 3038,
+        "failures_by_observable": [
+          989,
+          1024,
+          1099,
+          1077
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 3021,
+        "failures_by_observable": [
+          1046,
+          1031,
+          1072,
+          1015
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 3006,
+        "failures_by_observable": [
+          1007,
+          1019,
+          1026,
+          1075
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 3057,
+        "failures_by_observable": [
+          1034,
+          1044,
+          1089,
+          1050
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2963,
+        "failures_by_observable": [
+          1052,
+          980,
+          1079,
+          1004
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2958,
+        "failures_by_observable": [
+          985,
+          1016,
+          984,
+          1037
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 3034,
+        "failures_by_observable": [
+          1068,
+          977,
+          1096,
+          1072
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2984,
+        "failures_by_observable": [
+          1026,
+          1032,
+          1064,
+          1077
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2967,
+        "failures_by_observable": [
+          1025,
+          969,
+          1045,
+          1041
+        ]
+      }
+    ],
+    "failures_any": 60003,
+    "failures_by_observable": [
+      20330,
+      20175,
+      21170,
+      20831
+    ],
+    "p_fail_any": 0.60003,
+    "wilson95_low": 0.5969898882348519,
+    "wilson95_high": 0.6030624268378446,
+    "shortest_graphlike_error": 3,
+    "record_id": "development_p06",
+    "candidate_id": "p06",
+    "stage": "development",
+    "features": {
+      "physical_layers": 16,
+      "template_block_z": 48,
+      "cx_routing_steps": 4,
+      "logical_h_layers": 12,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 192,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          15,
+          15,
+          3
+        ],
+        [
+          12,
+          9
+        ],
+        [
+          3,
+          18,
+          12
+        ],
+        [
+          12,
+          9
+        ]
+      ],
+      "total_protected_idle_block_z": 108,
+      "max_protected_idle_block_z": 18,
+      "squared_protected_idle_block_z2": 1386,
+      "cx_recurrence_separations_block_z": [
+        21,
+        18
+      ],
+      "cx_gap_squared_block_z2": 765,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "model_id": "tqec_uniform_depolarizing_circuit_v1",
+    "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+    "distance": 3,
+    "physical_p": 0.001,
+    "num_qubits": 620,
+    "num_ticks": 1112,
+    "num_detectors": 5852,
+    "num_observables": 4,
+    "sample_id": "sample_baa13d86b918da045124e98caed6f26ca59a783fc91cc522430e06ecea20cce6",
+    "reused_from": null,
+    "new_shots": 100000,
+    "generation_and_validation_seconds": 279.1643273750001,
+    "sampling_decode_seconds": 9.231743089000247
+  },
+  {
+    "ideal_circuit_sha256": "f0cafa836c98e17758406d5f424fdafe8922e6720320fb5ab0531f6e671a1825",
+    "noisy_circuit_sha256": "f30ec9dd44953a4e1971bff1dc57f052ea77b102101673c5ff6300123ab00688",
+    "dem_sha256": "5ea30436c8dc6b0bc1552f5831513dbb4bd07142eafb7c4c5f34cecf9c267055",
+    "shots": 100000,
+    "seed": 10135331490316160765,
+    "batch_size": 5000,
+    "batches": [
+      {
+        "shots": 5000,
+        "failures_any": 2749,
+        "failures_by_observable": [
+          858,
+          814,
+          993,
+          948
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2702,
+        "failures_by_observable": [
+          839,
+          825,
+          933,
+          954
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2707,
+        "failures_by_observable": [
+          794,
+          804,
+          962,
+          979
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2704,
+        "failures_by_observable": [
+          795,
+          808,
+          968,
+          987
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2764,
+        "failures_by_observable": [
+          858,
+          850,
+          953,
+          994
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2724,
+        "failures_by_observable": [
+          831,
+          833,
+          971,
+          939
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2755,
+        "failures_by_observable": [
+          888,
+          820,
+          941,
+          1010
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2781,
+        "failures_by_observable": [
+          858,
+          889,
+          983,
+          994
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2673,
+        "failures_by_observable": [
+          791,
+          834,
+          965,
+          968
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2680,
+        "failures_by_observable": [
+          821,
+          819,
+          967,
+          964
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2697,
+        "failures_by_observable": [
+          812,
+          815,
+          937,
+          950
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2717,
+        "failures_by_observable": [
+          817,
+          826,
+          926,
+          1002
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2698,
+        "failures_by_observable": [
+          829,
+          830,
+          959,
+          953
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2664,
+        "failures_by_observable": [
+          825,
+          822,
+          909,
+          922
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2675,
+        "failures_by_observable": [
+          829,
+          810,
+          907,
+          967
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2685,
+        "failures_by_observable": [
+          818,
+          816,
+          910,
+          934
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2718,
+        "failures_by_observable": [
+          805,
+          823,
+          957,
+          971
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2728,
+        "failures_by_observable": [
+          789,
+          835,
+          977,
+          1013
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2681,
+        "failures_by_observable": [
+          883,
+          823,
+          936,
+          921
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2662,
+        "failures_by_observable": [
+          793,
+          848,
+          938,
+          988
+        ]
+      }
+    ],
+    "failures_any": 54164,
+    "failures_by_observable": [
+      16533,
+      16544,
+      18992,
+      19358
+    ],
+    "p_fail_any": 0.54164,
+    "wilson95_low": 0.538550249476532,
+    "wilson95_high": 0.5447265514794521,
+    "shortest_graphlike_error": 3,
+    "record_id": "development_p07",
+    "candidate_id": "p07",
+    "stage": "development",
+    "features": {
+      "physical_layers": 13,
+      "template_block_z": 39,
+      "cx_routing_steps": 3,
+      "logical_h_layers": 10,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 156,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          15,
+          6,
+          3
+        ],
+        [
+          12
+        ],
+        [
+          3,
+          18,
+          3
+        ],
+        [
+          12
+        ]
+      ],
+      "total_protected_idle_block_z": 72,
+      "max_protected_idle_block_z": 18,
+      "squared_protected_idle_block_z2": 900,
+      "cx_recurrence_separations_block_z": [
+        21,
+        9
+      ],
+      "cx_gap_squared_block_z2": 522,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "model_id": "tqec_uniform_depolarizing_circuit_v1",
+    "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+    "distance": 3,
+    "physical_p": 0.001,
+    "num_qubits": 620,
+    "num_ticks": 909,
+    "num_detectors": 4924,
+    "num_observables": 4,
+    "sample_id": "sample_f30ec9dd44953a4e1971bff1dc57f052ea77b102101673c5ff6300123ab00688",
+    "reused_from": null,
+    "new_shots": 100000,
+    "generation_and_validation_seconds": 230.19389814399983,
+    "sampling_decode_seconds": 8.267293362000146
+  },
+  {
+    "record_id": "development_p08",
+    "sample_id": "sample_16d2dc4a4793e2173d6bd2936d503ef7d91824a8a74233de7286afa578f6d34f",
+    "mode": "serial_reverse",
+    "spacing_blocks": 3,
+    "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "ideal_circuit_sha256": "f2ade782b5faa0e8ccb64a283b8dcdf328eee0032eba69d53f30105389deb9c4",
+    "noisy_circuit_sha256": "16d2dc4a4793e2173d6bd2936d503ef7d91824a8a74233de7286afa578f6d34f",
+    "dem_sha256": "2c1c4e7b25c5a4c11631bbf940f07e4f0c690d46327cb14ca23d483d31c209d5",
+    "model_id": "tqec_uniform_depolarizing_circuit_v1",
+    "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+    "distance": 3,
+    "physical_p": 0.001,
+    "num_qubits": 620,
+    "num_ticks": 1112,
+    "num_detectors": 5852,
+    "num_observables": 4,
+    "source_operation_counts": {
+      "cx": 4,
+      "h": 20,
+      "measure": 4,
+      "x": 4
+    },
+    "cx_routing_steps": 4,
+    "logical_h_layers": 12,
+    "template_block_z": 48,
+    "qec_rounds": null,
+    "qec_rounds_note": "Not equated with routing/block-z/TICK; ordinary block bulk repetitions=1 at k=1, temporal-H realignment adds compiler-specific layers. No round count inferred.",
+    "data_patch_reservation_block_z": 192,
+    "ancilla_reservation_block_z": 60,
+    "shots": 100000,
+    "seed": 8602686926511132146,
+    "batch_size": 5000,
+    "batches": [
+      {
+        "shots": 5000,
+        "failures_any": 2813,
+        "failures_by_observable": [
+          931,
+          938,
+          995,
+          981
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2758,
+        "failures_by_observable": [
+          918,
+          926,
+          897,
+          903
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2787,
+        "failures_by_observable": [
+          940,
+          953,
+          902,
+          922
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2730,
+        "failures_by_observable": [
+          891,
+          934,
+          887,
+          903
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2851,
+        "failures_by_observable": [
+          944,
+          938,
+          967,
+          936
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2793,
+        "failures_by_observable": [
+          947,
+          903,
+          926,
+          952
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2798,
+        "failures_by_observable": [
+          906,
+          955,
+          921,
+          910
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2857,
+        "failures_by_observable": [
+          953,
+          968,
+          953,
+          994
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2771,
+        "failures_by_observable": [
+          981,
+          920,
+          873,
+          917
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2758,
+        "failures_by_observable": [
+          921,
+          896,
+          923,
+          939
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2853,
+        "failures_by_observable": [
+          977,
+          961,
+          978,
+          907
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2847,
+        "failures_by_observable": [
+          912,
+          908,
+          999,
+          957
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2767,
+        "failures_by_observable": [
+          934,
+          887,
+          951,
+          936
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2792,
+        "failures_by_observable": [
+          920,
+          916,
+          981,
+          939
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2792,
+        "failures_by_observable": [
+          919,
+          952,
+          903,
+          926
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2807,
+        "failures_by_observable": [
+          934,
+          945,
+          951,
+          887
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2846,
+        "failures_by_observable": [
+          923,
+          957,
+          924,
+          1008
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2807,
+        "failures_by_observable": [
+          943,
+          927,
+          936,
+          939
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2821,
+        "failures_by_observable": [
+          930,
+          896,
+          905,
+          968
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2826,
+        "failures_by_observable": [
+          869,
+          945,
+          1002,
+          949
+        ]
+      }
+    ],
+    "failures_any": 56074,
+    "failures_by_observable": [
+      18593,
+      18625,
+      18774,
+      18773
+    ],
+    "p_fail_any": 0.56074,
+    "wilson95_low": 0.5576617012050095,
+    "wilson95_high": 0.5638136323700741,
+    "sampling_decode_seconds": 0.0,
+    "shortest_graphlike_error": 3,
+    "candidate_id": "p08",
+    "stage": "development",
+    "features": {
+      "physical_layers": 16,
+      "template_block_z": 48,
+      "cx_routing_steps": 4,
+      "logical_h_layers": 12,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 192,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          24,
+          6,
+          3
+        ],
+        [
+          21
+        ],
+        [
+          3,
+          6,
+          24
+        ],
+        [
+          21
+        ]
+      ],
+      "total_protected_idle_block_z": 108,
+      "max_protected_idle_block_z": 24,
+      "squared_protected_idle_block_z2": 2124,
+      "cx_recurrence_separations_block_z": [
+        9,
+        9
+      ],
+      "cx_gap_squared_block_z2": 162,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "reused_from": "results/public_hs4_2026-11-02/samples/sample_16d2dc4a4793e2173d6bd2936d503ef7d91824a8a74233de7286afa578f6d34f.json",
+    "new_shots": 0,
+    "generation_and_validation_seconds": 0.0
+  },
+  {
+    "ideal_circuit_sha256": "6a7eaa5a7e61257955ba3413fa753229493815b845fbd58cbbf7dba9c3eb8f73",
+    "noisy_circuit_sha256": "ef9f787041050be281e0a13dd43ec12efd2130fb4e9f0e4de60e0f73d4bc1bce",
+    "dem_sha256": "4ffa3842cff835573ca0fa32162e46a8da4fbe1fb1de5202360cb3f733c0342b",
+    "shots": 100000,
+    "seed": 10263128394765418008,
+    "batch_size": 5000,
+    "batches": [
+      {
+        "shots": 5000,
+        "failures_any": 2545,
+        "failures_by_observable": [
+          769,
+          850,
+          824,
+          820
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2537,
+        "failures_by_observable": [
+          821,
+          810,
+          834,
+          830
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2549,
+        "failures_by_observable": [
+          847,
+          848,
+          797,
+          807
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2597,
+        "failures_by_observable": [
+          831,
+          850,
+          846,
+          816
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2554,
+        "failures_by_observable": [
+          825,
+          845,
+          814,
+          873
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2602,
+        "failures_by_observable": [
+          848,
+          879,
+          813,
+          853
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2616,
+        "failures_by_observable": [
+          795,
+          867,
+          870,
+          903
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2640,
+        "failures_by_observable": [
+          874,
+          870,
+          859,
+          860
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2565,
+        "failures_by_observable": [
+          835,
+          826,
+          840,
+          819
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2589,
+        "failures_by_observable": [
+          827,
+          879,
+          866,
+          805
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2593,
+        "failures_by_observable": [
+          833,
+          893,
+          872,
+          816
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2660,
+        "failures_by_observable": [
+          846,
+          881,
+          882,
+          853
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2606,
+        "failures_by_observable": [
+          859,
+          810,
+          849,
+          832
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2550,
+        "failures_by_observable": [
+          810,
+          792,
+          841,
+          835
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2606,
+        "failures_by_observable": [
+          841,
+          831,
+          833,
+          865
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2587,
+        "failures_by_observable": [
+          833,
+          846,
+          808,
+          861
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2605,
+        "failures_by_observable": [
+          844,
+          823,
+          853,
+          862
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2537,
+        "failures_by_observable": [
+          783,
+          861,
+          861,
+          796
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2555,
+        "failures_by_observable": [
+          800,
+          800,
+          883,
+          833
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2576,
+        "failures_by_observable": [
+          828,
+          824,
+          881,
+          861
+        ]
+      }
+    ],
+    "failures_any": 51669,
+    "failures_by_observable": [
+      16549,
+      16885,
+      16926,
+      16800
+    ],
+    "p_fail_any": 0.51669,
+    "wilson95_low": 0.5135921701033751,
+    "wilson95_high": 0.5197865476669269,
+    "shortest_graphlike_error": 3,
+    "record_id": "development_p09",
+    "candidate_id": "p09",
+    "stage": "development",
+    "features": {
+      "physical_layers": 13,
+      "template_block_z": 39,
+      "cx_routing_steps": 3,
+      "logical_h_layers": 10,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 156,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          15,
+          6,
+          3
+        ],
+        [
+          12
+        ],
+        [
+          3,
+          6,
+          15
+        ],
+        [
+          12
+        ]
+      ],
+      "total_protected_idle_block_z": 72,
+      "max_protected_idle_block_z": 15,
+      "squared_protected_idle_block_z2": 828,
+      "cx_recurrence_separations_block_z": [
+        9,
+        9
+      ],
+      "cx_gap_squared_block_z2": 162,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "model_id": "tqec_uniform_depolarizing_circuit_v1",
+    "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+    "distance": 3,
+    "physical_p": 0.001,
+    "num_qubits": 620,
+    "num_ticks": 909,
+    "num_detectors": 4924,
+    "num_observables": 4,
+    "sample_id": "sample_ef9f787041050be281e0a13dd43ec12efd2130fb4e9f0e4de60e0f73d4bc1bce",
+    "reused_from": null,
+    "new_shots": 100000,
+    "generation_and_validation_seconds": 226.6674563460001,
+    "sampling_decode_seconds": 6.733167672000036
+  },
+  {
+    "ideal_circuit_sha256": "4095b63203248f6bb39d536fea0b065d5186465d8507095cf25b8f1a420ba411",
+    "noisy_circuit_sha256": "4ff9e3f6d19ad65d21de226e7096ae9db7653220a8f8c7e8fff8590064546971",
+    "dem_sha256": "16b98bbb9339ea9882ece489e83005b2a9b70299ad8201225a5e2461c1029610",
+    "shots": 100000,
+    "seed": 3185240263477486999,
+    "batch_size": 5000,
+    "batches": [
+      {
+        "shots": 5000,
+        "failures_any": 2640,
+        "failures_by_observable": [
+          835,
+          861,
+          877,
+          852
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2536,
+        "failures_by_observable": [
+          786,
+          792,
+          858,
+          901
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2608,
+        "failures_by_observable": [
+          773,
+          816,
+          854,
+          887
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2616,
+        "failures_by_observable": [
+          837,
+          810,
+          900,
+          898
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2609,
+        "failures_by_observable": [
+          807,
+          794,
+          906,
+          960
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2676,
+        "failures_by_observable": [
+          824,
+          813,
+          943,
+          961
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2653,
+        "failures_by_observable": [
+          790,
+          799,
+          910,
+          949
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2656,
+        "failures_by_observable": [
+          807,
+          839,
+          871,
+          933
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2602,
+        "failures_by_observable": [
+          820,
+          814,
+          850,
+          893
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2582,
+        "failures_by_observable": [
+          801,
+          787,
+          877,
+          897
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2597,
+        "failures_by_observable": [
+          794,
+          795,
+          882,
+          931
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2664,
+        "failures_by_observable": [
+          827,
+          796,
+          949,
+          865
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2612,
+        "failures_by_observable": [
+          821,
+          800,
+          889,
+          888
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2580,
+        "failures_by_observable": [
+          840,
+          770,
+          881,
+          877
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2608,
+        "failures_by_observable": [
+          824,
+          815,
+          863,
+          854
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2629,
+        "failures_by_observable": [
+          815,
+          819,
+          923,
+          896
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2595,
+        "failures_by_observable": [
+          787,
+          773,
+          902,
+          884
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2630,
+        "failures_by_observable": [
+          783,
+          816,
+          984,
+          865
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2659,
+        "failures_by_observable": [
+          838,
+          836,
+          868,
+          928
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2604,
+        "failures_by_observable": [
+          806,
+          828,
+          863,
+          903
+        ]
+      }
+    ],
+    "failures_any": 52356,
+    "failures_by_observable": [
+      16215,
+      16173,
+      17850,
+      18022
+    ],
+    "p_fail_any": 0.52356,
+    "wilson95_low": 0.5204636213786968,
+    "wilson95_high": 0.5266545685954382,
+    "shortest_graphlike_error": 3,
+    "record_id": "development_p10",
+    "candidate_id": "p10",
+    "stage": "development",
+    "features": {
+      "physical_layers": 12,
+      "template_block_z": 36,
+      "cx_routing_steps": 3,
+      "logical_h_layers": 9,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 144,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          6,
+          12
+        ],
+        [
+          9
+        ],
+        [
+          3,
+          15,
+          3
+        ],
+        [
+          9
+        ]
+      ],
+      "total_protected_idle_block_z": 60,
+      "max_protected_idle_block_z": 15,
+      "squared_protected_idle_block_z2": 594,
+      "cx_recurrence_separations_block_z": [
+        9,
+        18
+      ],
+      "cx_gap_squared_block_z2": 405,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "model_id": "tqec_uniform_depolarizing_circuit_v1",
+    "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+    "distance": 3,
+    "physical_p": 0.001,
+    "num_qubits": 620,
+    "num_ticks": 839,
+    "num_detectors": 4604,
+    "num_observables": 4,
+    "sample_id": "sample_4ff9e3f6d19ad65d21de226e7096ae9db7653220a8f8c7e8fff8590064546971",
+    "reused_from": null,
+    "new_shots": 100000,
+    "generation_and_validation_seconds": 213.13463504399988,
+    "sampling_decode_seconds": 6.499972271999923
+  },
+  {
+    "ideal_circuit_sha256": "606ffcbf564d1645a1ee7ac62409c5bca6d31cd250ee212b9f3c531800f7aaa2",
+    "noisy_circuit_sha256": "50d2489632e43d8c145409bb5dcd73c768f6c685d4eb70f8d720a9f6c6208ba8",
+    "dem_sha256": "739010364575ef119c4bef77cfba10835a94213038a24d32371751367fcb387f",
+    "shots": 100000,
+    "seed": 9839339260655577947,
+    "batch_size": 5000,
+    "batches": [
+      {
+        "shots": 5000,
+        "failures_any": 2646,
+        "failures_by_observable": [
+          912,
+          905,
+          776,
+          801
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2561,
+        "failures_by_observable": [
+          838,
+          919,
+          794,
+          807
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2627,
+        "failures_by_observable": [
+          940,
+          866,
+          783,
+          807
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2580,
+        "failures_by_observable": [
+          946,
+          885,
+          764,
+          814
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2655,
+        "failures_by_observable": [
+          914,
+          945,
+          811,
+          826
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2624,
+        "failures_by_observable": [
+          866,
+          934,
+          809,
+          844
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2635,
+        "failures_by_observable": [
+          885,
+          911,
+          829,
+          836
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2519,
+        "failures_by_observable": [
+          900,
+          879,
+          756,
+          776
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2592,
+        "failures_by_observable": [
+          908,
+          937,
+          779,
+          806
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2621,
+        "failures_by_observable": [
+          903,
+          895,
+          779,
+          839
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2646,
+        "failures_by_observable": [
+          903,
+          915,
+          773,
+          850
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2638,
+        "failures_by_observable": [
+          877,
+          932,
+          795,
+          824
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2695,
+        "failures_by_observable": [
+          926,
+          913,
+          842,
+          835
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2594,
+        "failures_by_observable": [
+          896,
+          900,
+          799,
+          797
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2644,
+        "failures_by_observable": [
+          908,
+          894,
+          833,
+          825
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2603,
+        "failures_by_observable": [
+          948,
+          860,
+          829,
+          791
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2610,
+        "failures_by_observable": [
+          849,
+          915,
+          825,
+          800
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2691,
+        "failures_by_observable": [
+          942,
+          933,
+          847,
+          831
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2631,
+        "failures_by_observable": [
+          903,
+          938,
+          823,
+          807
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2683,
+        "failures_by_observable": [
+          902,
+          916,
+          847,
+          824
+        ]
+      }
+    ],
+    "failures_any": 52495,
+    "failures_by_observable": [
+      18066,
+      18192,
+      16093,
+      16340
+    ],
+    "p_fail_any": 0.52495,
+    "wilson95_low": 0.521853986374321,
+    "wilson95_high": 0.5280440968113611,
+    "shortest_graphlike_error": 3,
+    "record_id": "development_p11",
+    "candidate_id": "p11",
+    "stage": "development",
+    "features": {
+      "physical_layers": 12,
+      "template_block_z": 36,
+      "cx_routing_steps": 3,
+      "logical_h_layers": 9,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 144,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          15,
+          3
+        ],
+        [
+          9
+        ],
+        [
+          3,
+          6,
+          12
+        ],
+        [
+          9
+        ]
+      ],
+      "total_protected_idle_block_z": 60,
+      "max_protected_idle_block_z": 15,
+      "squared_protected_idle_block_z2": 594,
+      "cx_recurrence_separations_block_z": [
+        18,
+        9
+      ],
+      "cx_gap_squared_block_z2": 405,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "model_id": "tqec_uniform_depolarizing_circuit_v1",
+    "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+    "distance": 3,
+    "physical_p": 0.001,
+    "num_qubits": 620,
+    "num_ticks": 839,
+    "num_detectors": 4604,
+    "num_observables": 4,
+    "sample_id": "sample_50d2489632e43d8c145409bb5dcd73c768f6c685d4eb70f8d720a9f6c6208ba8",
+    "reused_from": null,
+    "new_shots": 100000,
+    "generation_and_validation_seconds": 163.78573929100003,
+    "sampling_decode_seconds": 6.061006446000192
+  },
+  {
+    "record_id": "development_p12",
+    "sample_id": "sample_70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222",
+    "mode": "parallel",
+    "spacing_blocks": 3,
+    "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "ideal_circuit_sha256": "d7eaa95e6785c8a622ea10f1569a0ceb562ae09bf7e84ffef3ac0a2311f7cef7",
+    "noisy_circuit_sha256": "70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222",
+    "dem_sha256": "f1ab439fe76ae1565684e089ce8d1e51f822131682d14d820acd09b168015a90",
+    "model_id": "tqec_uniform_depolarizing_circuit_v1",
+    "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+    "distance": 3,
+    "physical_p": 0.001,
+    "num_qubits": 620,
+    "num_ticks": 636,
+    "num_detectors": 3676,
+    "num_observables": 4,
+    "source_operation_counts": {
+      "cx": 4,
+      "h": 20,
+      "measure": 4,
+      "x": 4
+    },
+    "cx_routing_steps": 2,
+    "logical_h_layers": 7,
+    "template_block_z": 27,
+    "qec_rounds": null,
+    "qec_rounds_note": "Not equated with routing/block-z/TICK; ordinary block bulk repetitions=1 at k=1, temporal-H realignment adds compiler-specific layers. No round count inferred.",
+    "data_patch_reservation_block_z": 108,
+    "ancilla_reservation_block_z": 60,
+    "shots": 100000,
+    "seed": 5709826116486467069,
+    "batch_size": 5000,
+    "batches": [
+      {
+        "shots": 5000,
+        "failures_any": 2280,
+        "failures_by_observable": [
+          720,
+          708,
+          691,
+          730
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2227,
+        "failures_by_observable": [
+          711,
+          709,
+          704,
+          736
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2270,
+        "failures_by_observable": [
+          701,
+          700,
+          675,
+          736
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2301,
+        "failures_by_observable": [
+          693,
+          679,
+          742,
+          719
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2273,
+        "failures_by_observable": [
+          708,
+          691,
+          725,
+          713
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2250,
+        "failures_by_observable": [
+          713,
+          721,
+          685,
+          690
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2293,
+        "failures_by_observable": [
+          726,
+          737,
+          711,
+          701
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2293,
+        "failures_by_observable": [
+          741,
+          674,
+          722,
+          705
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2305,
+        "failures_by_observable": [
+          737,
+          710,
+          703,
+          740
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2283,
+        "failures_by_observable": [
+          666,
+          747,
+          723,
+          716
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2215,
+        "failures_by_observable": [
+          685,
+          693,
+          674,
+          704
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2263,
+        "failures_by_observable": [
+          712,
+          693,
+          682,
+          732
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2282,
+        "failures_by_observable": [
+          694,
+          700,
+          712,
+          739
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2337,
+        "failures_by_observable": [
+          703,
+          722,
+          761,
+          721
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2248,
+        "failures_by_observable": [
+          708,
+          730,
+          678,
+          660
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2273,
+        "failures_by_observable": [
+          709,
+          715,
+          701,
+          724
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2321,
+        "failures_by_observable": [
+          737,
+          710,
+          766,
+          706
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2254,
+        "failures_by_observable": [
+          729,
+          689,
+          718,
+          694
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2316,
+        "failures_by_observable": [
+          732,
+          726,
+          736,
+          717
+        ]
+      },
+      {
+        "shots": 5000,
+        "failures_any": 2222,
+        "failures_by_observable": [
+          690,
+          730,
+          656,
+          707
+        ]
+      }
+    ],
+    "failures_any": 45506,
+    "failures_by_observable": [
+      14215,
+      14184,
+      14165,
+      14290
+    ],
+    "p_fail_any": 0.45506,
+    "wilson95_low": 0.4519753527068933,
+    "wilson95_high": 0.45814809986366584,
+    "sampling_decode_seconds": 0.0,
+    "shortest_graphlike_error": 3,
+    "candidate_id": "p12",
+    "stage": "development",
+    "features": {
+      "physical_layers": 9,
+      "template_block_z": 27,
+      "cx_routing_steps": 2,
+      "logical_h_layers": 7,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 108,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          6,
+          3
+        ],
+        [],
+        [
+          3,
+          6,
+          3
+        ],
+        []
+      ],
+      "total_protected_idle_block_z": 24,
+      "max_protected_idle_block_z": 6,
+      "squared_protected_idle_block_z2": 108,
+      "cx_recurrence_separations_block_z": [
+        9,
+        9
+      ],
+      "cx_gap_squared_block_z2": 162,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "reused_from": "results/public_hs4_2026-11-02/samples/sample_70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222.json",
+    "new_shots": 0,
+    "generation_and_validation_seconds": 0.0
+  }
+]

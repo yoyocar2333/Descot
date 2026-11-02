@@ -1,0 +1,35 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+  "packages": {
+    "tqec": "0.2.0",
+    "stim": "1.16.0",
+    "pymatching": "2.4.0",
+    "numpy": "2.5.4",
+    "qiskit": "2.5.2"
+  },
+  "source_head": "df27a6acce58b33325de0b1d09eb4a0890cde4e2",
+  "source_files_sha256": {
+    "public_candidate_pool.py": "6a00e45d4b8fa8f70581c3cf7ed6b6bcd1bd47aa7195e03432eb8a8c625c802a",
+    "run_public_candidates.py": "ed7ff5bfc53d81d4234440964d43fb1341caeffd15a637556ef2013643ca67c0",
+    "public_clifford.py": "4a2b306615902bede26189073f8dc6b56c4551ed95a0cdc18ff63ed12ff7f470",
+    "public_readout.py": "33b47dc4dc42860aa89e3b25b0d66628b6edc802f474396654d2d7cbb352c78a",
+    "run_public_audit.py": "0d8d5ff8a7fa2de8a9584db6a39a278c0aaa9814d7a2e7d8a0af868625eb4a31",
+    "schedule_circuit.py": "86508aa305ac346a04ff9d931bcfb17cc3f3976dbd16694d7a850584c4d63a60",
+    "surgery.py": "ee67e6691f7da5b48dd788b4e886348fbd70fd370154ef5de2ecee9b90d11e0b",
+    "run_surgery.py": "1f4d9227351a14d6f48f7aad80a39b10efcce7ef7b5913c7ff53bd464fe035d3",
+    "run_three_qubit.py": "e79a31182623826c0aff27eec6eca7c9dd6e2536df44fc3949f636024e3da495",
+    "memory_calibration_previous.py": "36f0e60b849d48b388eab2b86b5a1086774b58f6fb349b814d404d4ebe839534",
+    "requirements-lock.txt": "140e7ad5273ee3ac59347cd775c49bdcd2b1e978936e56bc7e1ab205eccaebf9"
+  },
+  "tqec_verification": {
+    "method": "pinned local Git tree and installed source byte comparison",
+    "commit": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+    "python_files_checked": 177,
+    "source_fingerprint_sha256": "b8ec733c008548994db2dfa30e996b62d5a227d98ef713d02709d4c72817ed61"
+  },
+  "tqec_direct_url": {
+    "url": "file:///workspace/scratch/4680ffcb5b1d/external/tqec",
+    "dir_info": {}
+  }
+}

@@ -1,6 +1,7 @@
 """Restore frozen result snapshots, preserving existing different files."""
 import hashlib
 import json
+import subprocess
 from pathlib import Path
 import zipfile
 
@@ -43,6 +44,18 @@ def main():
     extra=[(name,info) for name,info in metadata.items()
            if name not in ['phase1_snapshot.zip','composition_2026-10-30.zip']]
     for archive_name,info in extra:
+        # A connector-published research branch may use a new remote commit.
+        # Preserve the exact local pre-test commit as an incremental bundle;
+        # import objects only, never move a working branch or replace files.
+        proof=info.get('source_bundle')
+        if proof:
+            if Path(proof['path']).name!=proof['path']:raise ValueError('Unsafe source bundle name')
+            bundle=ROOT/'archives'/proof['path']
+            assert hashlib.sha256(bundle.read_bytes()).hexdigest()==proof['sha256'], 'Source bundle hash mismatch'
+            present=subprocess.run(['git','-C',str(ROOT),'cat-file','-e',proof['commit']+'^{commit}'],capture_output=True)
+            if present.returncode:
+                subprocess.run(['git','-C',str(ROOT),'fetch','--no-tags',str(bundle),'refs/heads/main'],check=True,capture_output=True)
+            subprocess.run(['git','-C',str(ROOT),'cat-file','-e',proof['commit']+'^{commit}'],check=True,capture_output=True)
         if Path(archive_name).name!=archive_name:raise ValueError('Unsafe archive name')
         prefix=Path(info['result_prefix'])
         if prefix.is_absolute() or '..' in prefix.parts or prefix.parts[0]!='results':

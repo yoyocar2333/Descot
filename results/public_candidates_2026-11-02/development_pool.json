@@ -1,0 +1,5489 @@
+[
+  {
+    "candidate_id": "p00",
+    "plan": {
+      "mode": "exact_h_first_pool_v1",
+      "spacing": 3,
+      "layers": [
+        {
+          "operation_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            4,
+            5
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            6,
+            7
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            8
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            12
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            10,
+            14
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            15
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            18
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            9
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            13
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            11,
+            16
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            17
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            19
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            20
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            22,
+            24
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            28
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            25
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            29
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            21
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            23,
+            26
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            30
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            27
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            31
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "features": {
+      "physical_layers": 16,
+      "template_block_z": 48,
+      "cx_routing_steps": 4,
+      "logical_h_layers": 12,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 192,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          18,
+          12
+        ],
+        [
+          12,
+          9
+        ],
+        [
+          15,
+          15,
+          3
+        ],
+        [
+          12,
+          9
+        ]
+      ],
+      "total_protected_idle_block_z": 108,
+      "max_protected_idle_block_z": 18,
+      "squared_protected_idle_block_z2": 1386,
+      "cx_recurrence_separations_block_z": [
+        21,
+        18
+      ],
+      "cx_gap_squared_block_z2": 765,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    }
+  },
+  {
+    "candidate_id": "p01",
+    "plan": {
+      "mode": "exact_h_first_pool_v1",
+      "spacing": 3,
+      "layers": [
+        {
+          "operation_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            4,
+            5
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            6,
+            7
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            8
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            12
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            10,
+            14
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            15
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            18
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            9
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            13
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            11,
+            16
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            17
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            19
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            21
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            23,
+            26
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            30
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            27
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            31
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            20
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            22,
+            24
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            28
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            25
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            29
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "features": {
+      "physical_layers": 16,
+      "template_block_z": 48,
+      "cx_routing_steps": 4,
+      "logical_h_layers": 12,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 192,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          27,
+          3
+        ],
+        [
+          21
+        ],
+        [
+          15,
+          6,
+          12
+        ],
+        [
+          12,
+          9
+        ]
+      ],
+      "total_protected_idle_block_z": 108,
+      "max_protected_idle_block_z": 27,
+      "squared_protected_idle_block_z2": 1818,
+      "cx_recurrence_separations_block_z": [
+        30,
+        9
+      ],
+      "cx_gap_squared_block_z2": 981,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    }
+  },
+  {
+    "candidate_id": "p02",
+    "plan": {
+      "mode": "exact_h_first_pool_v1",
+      "spacing": 3,
+      "layers": [
+        {
+          "operation_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            4,
+            5
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            6,
+            7
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            8
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            12
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            10,
+            14
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            15
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            18
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            9
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            13
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            11,
+            16
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            17
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            19
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            20,
+            21
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            22,
+            23,
+            24,
+            26
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            28,
+            30
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            25,
+            27
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            29,
+            31
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "features": {
+      "physical_layers": 13,
+      "template_block_z": 39,
+      "cx_routing_steps": 3,
+      "logical_h_layers": 10,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 156,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          18,
+          3
+        ],
+        [
+          12
+        ],
+        [
+          15,
+          6,
+          3
+        ],
+        [
+          12
+        ]
+      ],
+      "total_protected_idle_block_z": 72,
+      "max_protected_idle_block_z": 18,
+      "squared_protected_idle_block_z2": 900,
+      "cx_recurrence_separations_block_z": [
+        21,
+        9
+      ],
+      "cx_gap_squared_block_z2": 522,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    }
+  },
+  {
+    "candidate_id": "p03",
+    "plan": {
+      "mode": "exact_h_first_pool_v1",
+      "spacing": 3,
+      "layers": [
+        {
+          "operation_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            4,
+            5
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            6,
+            7
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            8
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            12
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            10,
+            14
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            15
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            18
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            20
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            22,
+            24
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            28
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            25
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            29
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            9
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            13
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            11,
+            16
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            17
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            19
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            21
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            23,
+            26
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            30
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            27
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            31
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "features": {
+      "physical_layers": 16,
+      "template_block_z": 48,
+      "cx_routing_steps": 4,
+      "logical_h_layers": 12,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 192,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          6,
+          24
+        ],
+        [
+          21
+        ],
+        [
+          24,
+          6,
+          3
+        ],
+        [
+          21
+        ]
+      ],
+      "total_protected_idle_block_z": 108,
+      "max_protected_idle_block_z": 24,
+      "squared_protected_idle_block_z2": 2124,
+      "cx_recurrence_separations_block_z": [
+        9,
+        9
+      ],
+      "cx_gap_squared_block_z2": 162,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    }
+  },
+  {
+    "candidate_id": "p04",
+    "plan": {
+      "mode": "exact_h_first_pool_v1",
+      "spacing": 3,
+      "layers": [
+        {
+          "operation_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            4,
+            5
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            6,
+            7
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            8
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            12
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            10,
+            14
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            15
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            18
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            9,
+            20
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            13
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            11,
+            16,
+            22,
+            24
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            28
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            17,
+            25
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            29
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            19
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            21
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            23,
+            26
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            30
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            27
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            31
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "features": {
+      "physical_layers": 13,
+      "template_block_z": 39,
+      "cx_routing_steps": 3,
+      "logical_h_layers": 10,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 156,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          6,
+          15
+        ],
+        [
+          12
+        ],
+        [
+          15,
+          6,
+          3
+        ],
+        [
+          12
+        ]
+      ],
+      "total_protected_idle_block_z": 72,
+      "max_protected_idle_block_z": 15,
+      "squared_protected_idle_block_z2": 828,
+      "cx_recurrence_separations_block_z": [
+        9,
+        9
+      ],
+      "cx_gap_squared_block_z2": 162,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    }
+  },
+  {
+    "candidate_id": "p05",
+    "plan": {
+      "mode": "exact_h_first_pool_v1",
+      "spacing": 3,
+      "layers": [
+        {
+          "operation_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            4,
+            5
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            6,
+            7
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            9
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            13
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            11,
+            16
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            17
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            19
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            8
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            12
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            10,
+            14
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            15
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            18
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            20
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            22,
+            24
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            28
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            25
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            29
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            21
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            23,
+            26
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            30
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            27
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            31
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "features": {
+      "physical_layers": 16,
+      "template_block_z": 48,
+      "cx_routing_steps": 4,
+      "logical_h_layers": 12,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 192,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          15,
+          6,
+          12
+        ],
+        [
+          12,
+          9
+        ],
+        [
+          3,
+          27,
+          3
+        ],
+        [
+          21
+        ]
+      ],
+      "total_protected_idle_block_z": 108,
+      "max_protected_idle_block_z": 27,
+      "squared_protected_idle_block_z2": 1818,
+      "cx_recurrence_separations_block_z": [
+        30,
+        9
+      ],
+      "cx_gap_squared_block_z2": 981,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    }
+  },
+  {
+    "candidate_id": "p06",
+    "plan": {
+      "mode": "exact_h_first_pool_v1",
+      "spacing": 3,
+      "layers": [
+        {
+          "operation_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            4,
+            5
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            6,
+            7
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            9
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            13
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            11,
+            16
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            17
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            19
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            8
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            12
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            10,
+            14
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            15
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            18
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            21
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            23,
+            26
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            30
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            27
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            31
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            20
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            22,
+            24
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            28
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            25
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            29
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "features": {
+      "physical_layers": 16,
+      "template_block_z": 48,
+      "cx_routing_steps": 4,
+      "logical_h_layers": 12,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 192,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          15,
+          15,
+          3
+        ],
+        [
+          12,
+          9
+        ],
+        [
+          3,
+          18,
+          12
+        ],
+        [
+          12,
+          9
+        ]
+      ],
+      "total_protected_idle_block_z": 108,
+      "max_protected_idle_block_z": 18,
+      "squared_protected_idle_block_z2": 1386,
+      "cx_recurrence_separations_block_z": [
+        21,
+        18
+      ],
+      "cx_gap_squared_block_z2": 765,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    }
+  },
+  {
+    "candidate_id": "p07",
+    "plan": {
+      "mode": "exact_h_first_pool_v1",
+      "spacing": 3,
+      "layers": [
+        {
+          "operation_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            4,
+            5
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            6,
+            7
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            9
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            13
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            11,
+            16
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            17
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            19
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            8
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            12
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            10,
+            14
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            15
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            18
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            20,
+            21
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            22,
+            23,
+            24,
+            26
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            28,
+            30
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            25,
+            27
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            29,
+            31
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "features": {
+      "physical_layers": 13,
+      "template_block_z": 39,
+      "cx_routing_steps": 3,
+      "logical_h_layers": 10,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 156,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          15,
+          6,
+          3
+        ],
+        [
+          12
+        ],
+        [
+          3,
+          18,
+          3
+        ],
+        [
+          12
+        ]
+      ],
+      "total_protected_idle_block_z": 72,
+      "max_protected_idle_block_z": 18,
+      "squared_protected_idle_block_z2": 900,
+      "cx_recurrence_separations_block_z": [
+        21,
+        9
+      ],
+      "cx_gap_squared_block_z2": 522,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    }
+  },
+  {
+    "candidate_id": "p08",
+    "plan": {
+      "mode": "exact_h_first_pool_v1",
+      "spacing": 3,
+      "layers": [
+        {
+          "operation_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            4,
+            5
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            6,
+            7
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            9
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            13
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            11,
+            16
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            17
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            19
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            21
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            23,
+            26
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            30
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            27
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            31
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            8
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            12
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            10,
+            14
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            15
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            18
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            20
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            22,
+            24
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            28
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            25
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            29
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "features": {
+      "physical_layers": 16,
+      "template_block_z": 48,
+      "cx_routing_steps": 4,
+      "logical_h_layers": 12,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 192,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          24,
+          6,
+          3
+        ],
+        [
+          21
+        ],
+        [
+          3,
+          6,
+          24
+        ],
+        [
+          21
+        ]
+      ],
+      "total_protected_idle_block_z": 108,
+      "max_protected_idle_block_z": 24,
+      "squared_protected_idle_block_z2": 2124,
+      "cx_recurrence_separations_block_z": [
+        9,
+        9
+      ],
+      "cx_gap_squared_block_z2": 162,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    }
+  },
+  {
+    "candidate_id": "p09",
+    "plan": {
+      "mode": "exact_h_first_pool_v1",
+      "spacing": 3,
+      "layers": [
+        {
+          "operation_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            4,
+            5
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            6,
+            7
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            9
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            13
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            11,
+            16
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            17
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            19
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            8,
+            21
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            12
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            10,
+            14,
+            23,
+            26
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            30
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            15,
+            27
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            31
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "orientation_after": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            18
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            20
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            22,
+            24
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            28
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            25
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            29
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "features": {
+      "physical_layers": 13,
+      "template_block_z": 39,
+      "cx_routing_steps": 3,
+      "logical_h_layers": 10,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 156,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          15,
+          6,
+          3
+        ],
+        [
+          12
+        ],
+        [
+          3,
+          6,
+          15
+        ],
+        [
+          12
+        ]
+      ],
+      "total_protected_idle_block_z": 72,
+      "max_protected_idle_block_z": 15,
+      "squared_protected_idle_block_z2": 828,
+      "cx_recurrence_separations_block_z": [
+        9,
+        9
+      ],
+      "cx_gap_squared_block_z2": 162,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    }
+  },
+  {
+    "candidate_id": "p10",
+    "plan": {
+      "mode": "exact_h_first_pool_v1",
+      "spacing": 3,
+      "layers": [
+        {
+          "operation_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            4,
+            5
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            6,
+            7
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            8,
+            9
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            12,
+            13
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            10,
+            11,
+            14,
+            16
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            15,
+            17
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            18,
+            19
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            20
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            22,
+            24
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            28
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            25
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            29
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            21
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            23,
+            26
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            30
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            27
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            31
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "features": {
+      "physical_layers": 12,
+      "template_block_z": 36,
+      "cx_routing_steps": 3,
+      "logical_h_layers": 9,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 144,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          6,
+          12
+        ],
+        [
+          9
+        ],
+        [
+          3,
+          15,
+          3
+        ],
+        [
+          9
+        ]
+      ],
+      "total_protected_idle_block_z": 60,
+      "max_protected_idle_block_z": 15,
+      "squared_protected_idle_block_z2": 594,
+      "cx_recurrence_separations_block_z": [
+        9,
+        18
+      ],
+      "cx_gap_squared_block_z2": 405,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    }
+  },
+  {
+    "candidate_id": "p11",
+    "plan": {
+      "mode": "exact_h_first_pool_v1",
+      "spacing": 3,
+      "layers": [
+        {
+          "operation_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            4,
+            5
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            6,
+            7
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            8,
+            9
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            12,
+            13
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            10,
+            11,
+            14,
+            16
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            15,
+            17
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            18,
+            19
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            21
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            23,
+            26
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            30
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            27
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            31
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            20
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            22,
+            24
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            28
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            25
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            29
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "features": {
+      "physical_layers": 12,
+      "template_block_z": 36,
+      "cx_routing_steps": 3,
+      "logical_h_layers": 9,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 144,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          15,
+          3
+        ],
+        [
+          9
+        ],
+        [
+          3,
+          6,
+          12
+        ],
+        [
+          9
+        ]
+      ],
+      "total_protected_idle_block_z": 60,
+      "max_protected_idle_block_z": 15,
+      "squared_protected_idle_block_z2": 594,
+      "cx_recurrence_separations_block_z": [
+        18,
+        9
+      ],
+      "cx_gap_squared_block_z2": 405,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    }
+  },
+  {
+    "candidate_id": "p12",
+    "plan": {
+      "mode": "exact_h_first_pool_v1",
+      "spacing": 3,
+      "layers": [
+        {
+          "operation_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            4,
+            5
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            6,
+            7
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            8,
+            9
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            12,
+            13
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            10,
+            11,
+            14,
+            16
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            15,
+            17
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            18,
+            19
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            20,
+            21
+          ],
+          "kind": "cx",
+          "orientation_before": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            22,
+            23,
+            24,
+            26
+          ],
+          "kind": "h",
+          "orientation_before": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            28,
+            30
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "operation_ids": [
+            25,
+            27
+          ],
+          "kind": "h",
+          "orientation_before": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "operation_ids": [
+            29,
+            31
+          ],
+          "kind": "virtual_or_readout",
+          "orientation_before": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "features": {
+      "physical_layers": 9,
+      "template_block_z": 27,
+      "cx_routing_steps": 2,
+      "logical_h_layers": 7,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 108,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          6,
+          3
+        ],
+        [],
+        [
+          3,
+          6,
+          3
+        ],
+        []
+      ],
+      "total_protected_idle_block_z": 24,
+      "max_protected_idle_block_z": 6,
+      "squared_protected_idle_block_z2": 108,
+      "cx_recurrence_separations_block_z": [
+        9,
+        9
+      ],
+      "cx_gap_squared_block_z2": 162,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    }
+  }
+]

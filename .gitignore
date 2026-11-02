@@ -20,3 +20,5 @@ external/
 
 results/public_hs4_2026-11-02/samples/*.stim
 results/public_hs4_2026-11-02/samples/*.dem
+results/public_candidates_2026-11-02/samples/*.stim
+results/public_candidates_2026-11-02/samples/*.dem

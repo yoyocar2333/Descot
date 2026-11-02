@@ -1,0 +1,5699 @@
+{
+  "protocol_sha256": "aebbf8356b6c2d8ac77fa69d24a110f31915f46683f73dbf374e47108ee2c4ce",
+  "frozen_utc": "2026-11-02T11:57:49.366437+00:00",
+  "development_summary_sha256": "bbf09d707ab40f3958aa60a0e5137295cb3e6320f339bf0a7816f9391fd05c8f",
+  "models": {
+    "depth_only": {
+      "fields": [
+        "physical_layers"
+      ],
+      "center": [
+        13.923076923076923
+      ],
+      "scale": [
+        2.16480727376466
+      ],
+      "beta": [
+        0.19801447273298298,
+        0.1450126567079666
+      ],
+      "ridge_lambda": 1.0,
+      "loo_max_abs_logit_residual": 0.11578633681362294,
+      "loo_logit_residuals": [
+        0.06968718522577849,
+        0.06643739529459547,
+        0.04239232464675555,
+        -0.11578633681362294,
+        -0.07238034607856761,
+        0.07662925736932907,
+        0.07983605507023961,
+        0.03380339332213447,
+        -0.10844911935242277,
+        -0.07625260309274774,
+        0.028976752928397242,
+        0.03540689042132049,
+        -0.08756114867955095
+      ],
+      "calibration_ids": [
+        "p00",
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p05",
+        "p06",
+        "p07",
+        "p08",
+        "p09",
+        "p10",
+        "p11",
+        "p12"
+      ],
+      "envelope_note": "Empirical LOO sensitivity, not statistical prediction coverage; geometry extrapolation is uncalibrated."
+    },
+    "depth_wait": {
+      "fields": [
+        "physical_layers",
+        "cx_gap_squared_block_z2"
+      ],
+      "center": [
+        13.923076923076923,
+        473.53846153846155
+      ],
+      "scale": [
+        2.16480727376466,
+        301.8286868622957
+      ],
+      "beta": [
+        0.19801447273298298,
+        0.1140441861740519,
+        0.06576553865313872
+      ],
+      "ridge_lambda": 1.0,
+      "loo_max_abs_logit_residual": 0.09218149043473346,
+      "loo_logit_residuals": [
+        0.031148394774427546,
+        -0.03326101579606522,
+        0.016497528139943207,
+        -0.0025558720801191204,
+        -0.013224340940644466,
+        -0.02110131751431127,
+        0.04159251378751677,
+        0.007793989674071217,
+        0.0070445568595421115,
+        -0.017386736826809468,
+        0.014522305445011763,
+        0.02097744092454651,
+        -0.09218149043473346
+      ],
+      "calibration_ids": [
+        "p00",
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p05",
+        "p06",
+        "p07",
+        "p08",
+        "p09",
+        "p10",
+        "p11",
+        "p12"
+      ],
+      "envelope_note": "Empirical LOO sensitivity, not statistical prediction coverage; geometry extrapolation is uncalibrated."
+    }
+  },
+  "heldout_pool": [
+    {
+      "candidate_id": "p00",
+      "plan": {
+        "mode": "exact_h_first_pool_v1",
+        "spacing": 5,
+        "layers": [
+          {
+            "operation_ids": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              4,
+              5
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              6,
+              7
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              8
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              12
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              10,
+              14
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              15
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              18
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              9
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              13
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              11,
+              16
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              17
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              19
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              20
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              22,
+              24
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              28
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              25
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              29
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              21
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              23,
+              26
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              30
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              27
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              31
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "features": {
+        "physical_layers": 16,
+        "template_block_z": 48,
+        "cx_routing_steps": 4,
+        "logical_h_layers": 12,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 192,
+        "ancilla_reservation_block_z": 108,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            18,
+            12
+          ],
+          [
+            12,
+            9
+          ],
+          [
+            15,
+            15,
+            3
+          ],
+          [
+            12,
+            9
+          ]
+        ],
+        "total_protected_idle_block_z": 108,
+        "max_protected_idle_block_z": 18,
+        "squared_protected_idle_block_z2": 1386,
+        "cx_recurrence_separations_block_z": [
+          21,
+          18
+        ],
+        "cx_gap_squared_block_z2": 765,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      }
+    },
+    {
+      "candidate_id": "p01",
+      "plan": {
+        "mode": "exact_h_first_pool_v1",
+        "spacing": 5,
+        "layers": [
+          {
+            "operation_ids": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              4,
+              5
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              6,
+              7
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              8
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              12
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              10,
+              14
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              15
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              18
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              9
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              13
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              11,
+              16
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              17
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              19
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              21
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              23,
+              26
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              30
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              27
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              31
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              20
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              22,
+              24
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              28
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              25
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              29
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "features": {
+        "physical_layers": 16,
+        "template_block_z": 48,
+        "cx_routing_steps": 4,
+        "logical_h_layers": 12,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 192,
+        "ancilla_reservation_block_z": 108,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            27,
+            3
+          ],
+          [
+            21
+          ],
+          [
+            15,
+            6,
+            12
+          ],
+          [
+            12,
+            9
+          ]
+        ],
+        "total_protected_idle_block_z": 108,
+        "max_protected_idle_block_z": 27,
+        "squared_protected_idle_block_z2": 1818,
+        "cx_recurrence_separations_block_z": [
+          30,
+          9
+        ],
+        "cx_gap_squared_block_z2": 981,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      }
+    },
+    {
+      "candidate_id": "p02",
+      "plan": {
+        "mode": "exact_h_first_pool_v1",
+        "spacing": 5,
+        "layers": [
+          {
+            "operation_ids": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              4,
+              5
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              6,
+              7
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              8
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              12
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              10,
+              14
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              15
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              18
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              9
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              13
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              11,
+              16
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              17
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              19
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              20,
+              21
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              22,
+              23,
+              24,
+              26
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              28,
+              30
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              25,
+              27
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              29,
+              31
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "features": {
+        "physical_layers": 13,
+        "template_block_z": 39,
+        "cx_routing_steps": 3,
+        "logical_h_layers": 10,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 156,
+        "ancilla_reservation_block_z": 108,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            18,
+            3
+          ],
+          [
+            12
+          ],
+          [
+            15,
+            6,
+            3
+          ],
+          [
+            12
+          ]
+        ],
+        "total_protected_idle_block_z": 72,
+        "max_protected_idle_block_z": 18,
+        "squared_protected_idle_block_z2": 900,
+        "cx_recurrence_separations_block_z": [
+          21,
+          9
+        ],
+        "cx_gap_squared_block_z2": 522,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      }
+    },
+    {
+      "candidate_id": "p03",
+      "plan": {
+        "mode": "exact_h_first_pool_v1",
+        "spacing": 5,
+        "layers": [
+          {
+            "operation_ids": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              4,
+              5
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              6,
+              7
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              8
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              12
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              10,
+              14
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              15
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              18
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              20
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              22,
+              24
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              28
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              25
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              29
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              9
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              13
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              11,
+              16
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              17
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              19
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              1,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              21
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              23,
+              26
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              30
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              27
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              31
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "features": {
+        "physical_layers": 16,
+        "template_block_z": 48,
+        "cx_routing_steps": 4,
+        "logical_h_layers": 12,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 192,
+        "ancilla_reservation_block_z": 108,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            24
+          ],
+          [
+            21
+          ],
+          [
+            24,
+            6,
+            3
+          ],
+          [
+            21
+          ]
+        ],
+        "total_protected_idle_block_z": 108,
+        "max_protected_idle_block_z": 24,
+        "squared_protected_idle_block_z2": 2124,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      }
+    },
+    {
+      "candidate_id": "p04",
+      "plan": {
+        "mode": "exact_h_first_pool_v1",
+        "spacing": 5,
+        "layers": [
+          {
+            "operation_ids": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              4,
+              5
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              6,
+              7
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              8
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              12
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              10,
+              14
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              15
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              18
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              9,
+              20
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              13
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              11,
+              16,
+              22,
+              24
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              28
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              17,
+              25
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              29
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              19
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              1,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              21
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              23,
+              26
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              30
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              27
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              31
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "features": {
+        "physical_layers": 13,
+        "template_block_z": 39,
+        "cx_routing_steps": 3,
+        "logical_h_layers": 10,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 156,
+        "ancilla_reservation_block_z": 108,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            15
+          ],
+          [
+            12
+          ],
+          [
+            15,
+            6,
+            3
+          ],
+          [
+            12
+          ]
+        ],
+        "total_protected_idle_block_z": 72,
+        "max_protected_idle_block_z": 15,
+        "squared_protected_idle_block_z2": 828,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      }
+    },
+    {
+      "candidate_id": "p05",
+      "plan": {
+        "mode": "exact_h_first_pool_v1",
+        "spacing": 5,
+        "layers": [
+          {
+            "operation_ids": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              4,
+              5
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              6,
+              7
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              9
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              13
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              11,
+              16
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              17
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              19
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              8
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              12
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              10,
+              14
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              15
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              18
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              20
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              22,
+              24
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              28
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              25
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              29
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              21
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              23,
+              26
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              30
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              27
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              31
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "features": {
+        "physical_layers": 16,
+        "template_block_z": 48,
+        "cx_routing_steps": 4,
+        "logical_h_layers": 12,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 192,
+        "ancilla_reservation_block_z": 108,
+        "protected_idle_intervals_block_z": [
+          [
+            15,
+            6,
+            12
+          ],
+          [
+            12,
+            9
+          ],
+          [
+            3,
+            27,
+            3
+          ],
+          [
+            21
+          ]
+        ],
+        "total_protected_idle_block_z": 108,
+        "max_protected_idle_block_z": 27,
+        "squared_protected_idle_block_z2": 1818,
+        "cx_recurrence_separations_block_z": [
+          30,
+          9
+        ],
+        "cx_gap_squared_block_z2": 981,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      }
+    },
+    {
+      "candidate_id": "p06",
+      "plan": {
+        "mode": "exact_h_first_pool_v1",
+        "spacing": 5,
+        "layers": [
+          {
+            "operation_ids": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              4,
+              5
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              6,
+              7
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              9
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              13
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              11,
+              16
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              17
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              19
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              8
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              12
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              10,
+              14
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              15
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              18
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              21
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              23,
+              26
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              30
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              27
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              31
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              20
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              22,
+              24
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              28
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              25
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              29
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "features": {
+        "physical_layers": 16,
+        "template_block_z": 48,
+        "cx_routing_steps": 4,
+        "logical_h_layers": 12,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 192,
+        "ancilla_reservation_block_z": 108,
+        "protected_idle_intervals_block_z": [
+          [
+            15,
+            15,
+            3
+          ],
+          [
+            12,
+            9
+          ],
+          [
+            3,
+            18,
+            12
+          ],
+          [
+            12,
+            9
+          ]
+        ],
+        "total_protected_idle_block_z": 108,
+        "max_protected_idle_block_z": 18,
+        "squared_protected_idle_block_z2": 1386,
+        "cx_recurrence_separations_block_z": [
+          21,
+          18
+        ],
+        "cx_gap_squared_block_z2": 765,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      }
+    },
+    {
+      "candidate_id": "p07",
+      "plan": {
+        "mode": "exact_h_first_pool_v1",
+        "spacing": 5,
+        "layers": [
+          {
+            "operation_ids": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              4,
+              5
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              6,
+              7
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              9
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              13
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              11,
+              16
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              17
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              19
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              8
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              12
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              10,
+              14
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              15
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              18
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              20,
+              21
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              22,
+              23,
+              24,
+              26
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              28,
+              30
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              25,
+              27
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              29,
+              31
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "features": {
+        "physical_layers": 13,
+        "template_block_z": 39,
+        "cx_routing_steps": 3,
+        "logical_h_layers": 10,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 156,
+        "ancilla_reservation_block_z": 108,
+        "protected_idle_intervals_block_z": [
+          [
+            15,
+            6,
+            3
+          ],
+          [
+            12
+          ],
+          [
+            3,
+            18,
+            3
+          ],
+          [
+            12
+          ]
+        ],
+        "total_protected_idle_block_z": 72,
+        "max_protected_idle_block_z": 18,
+        "squared_protected_idle_block_z2": 900,
+        "cx_recurrence_separations_block_z": [
+          21,
+          9
+        ],
+        "cx_gap_squared_block_z2": 522,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      }
+    },
+    {
+      "candidate_id": "p08",
+      "plan": {
+        "mode": "exact_h_first_pool_v1",
+        "spacing": 5,
+        "layers": [
+          {
+            "operation_ids": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              4,
+              5
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              6,
+              7
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              9
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              13
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              11,
+              16
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              17
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              19
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              21
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              23,
+              26
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              30
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              27
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              31
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              8
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              12
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              10,
+              14
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              15
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              0,
+              0,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              18
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              20
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              22,
+              24
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              28
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              25
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              29
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "features": {
+        "physical_layers": 16,
+        "template_block_z": 48,
+        "cx_routing_steps": 4,
+        "logical_h_layers": 12,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 192,
+        "ancilla_reservation_block_z": 108,
+        "protected_idle_intervals_block_z": [
+          [
+            24,
+            6,
+            3
+          ],
+          [
+            21
+          ],
+          [
+            3,
+            6,
+            24
+          ],
+          [
+            21
+          ]
+        ],
+        "total_protected_idle_block_z": 108,
+        "max_protected_idle_block_z": 24,
+        "squared_protected_idle_block_z2": 2124,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      }
+    },
+    {
+      "candidate_id": "p09",
+      "plan": {
+        "mode": "exact_h_first_pool_v1",
+        "spacing": 5,
+        "layers": [
+          {
+            "operation_ids": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              4,
+              5
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              6,
+              7
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              9
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              13
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              11,
+              16
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              17
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              19
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              8,
+              21
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              12
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              10,
+              14,
+              23,
+              26
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              30
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              15,
+              27
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              0,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              31
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "orientation_after": [
+              0,
+              0,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              18
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              20
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              22,
+              24
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              28
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              25
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              29
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "features": {
+        "physical_layers": 13,
+        "template_block_z": 39,
+        "cx_routing_steps": 3,
+        "logical_h_layers": 10,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 156,
+        "ancilla_reservation_block_z": 108,
+        "protected_idle_intervals_block_z": [
+          [
+            15,
+            6,
+            3
+          ],
+          [
+            12
+          ],
+          [
+            3,
+            6,
+            15
+          ],
+          [
+            12
+          ]
+        ],
+        "total_protected_idle_block_z": 72,
+        "max_protected_idle_block_z": 15,
+        "squared_protected_idle_block_z2": 828,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      }
+    },
+    {
+      "candidate_id": "p10",
+      "plan": {
+        "mode": "exact_h_first_pool_v1",
+        "spacing": 5,
+        "layers": [
+          {
+            "operation_ids": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              4,
+              5
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              6,
+              7
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              8,
+              9
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              12,
+              13
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              10,
+              11,
+              14,
+              16
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              15,
+              17
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              18,
+              19
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              20
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              22,
+              24
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              28
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              25
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              29
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              21
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              23,
+              26
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              30
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              27
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              31
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "features": {
+        "physical_layers": 12,
+        "template_block_z": 36,
+        "cx_routing_steps": 3,
+        "logical_h_layers": 9,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 144,
+        "ancilla_reservation_block_z": 108,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            12
+          ],
+          [
+            9
+          ],
+          [
+            3,
+            15,
+            3
+          ],
+          [
+            9
+          ]
+        ],
+        "total_protected_idle_block_z": 60,
+        "max_protected_idle_block_z": 15,
+        "squared_protected_idle_block_z2": 594,
+        "cx_recurrence_separations_block_z": [
+          9,
+          18
+        ],
+        "cx_gap_squared_block_z2": 405,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      }
+    },
+    {
+      "candidate_id": "p11",
+      "plan": {
+        "mode": "exact_h_first_pool_v1",
+        "spacing": 5,
+        "layers": [
+          {
+            "operation_ids": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              4,
+              5
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              6,
+              7
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              8,
+              9
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              12,
+              13
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              10,
+              11,
+              14,
+              16
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              15,
+              17
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              18,
+              19
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              21
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              23,
+              26
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              30
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              27
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              31
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              20
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              22,
+              24
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              28
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              25
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              29
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "features": {
+        "physical_layers": 12,
+        "template_block_z": 36,
+        "cx_routing_steps": 3,
+        "logical_h_layers": 9,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 144,
+        "ancilla_reservation_block_z": 108,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            15,
+            3
+          ],
+          [
+            9
+          ],
+          [
+            3,
+            6,
+            12
+          ],
+          [
+            9
+          ]
+        ],
+        "total_protected_idle_block_z": 60,
+        "max_protected_idle_block_z": 15,
+        "squared_protected_idle_block_z2": 594,
+        "cx_recurrence_separations_block_z": [
+          18,
+          9
+        ],
+        "cx_gap_squared_block_z2": 405,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      }
+    },
+    {
+      "candidate_id": "p12",
+      "plan": {
+        "mode": "exact_h_first_pool_v1",
+        "spacing": 5,
+        "layers": [
+          {
+            "operation_ids": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              4,
+              5
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              6,
+              7
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              8,
+              9
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              12,
+              13
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              10,
+              11,
+              14,
+              16
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              15,
+              17
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              18,
+              19
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              20,
+              21
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              22,
+              23,
+              24,
+              26
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              28,
+              30
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              25,
+              27
+            ],
+            "kind": "h",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "operation_ids": [
+              29,
+              31
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "features": {
+        "physical_layers": 9,
+        "template_block_z": 27,
+        "cx_routing_steps": 2,
+        "logical_h_layers": 7,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 108,
+        "ancilla_reservation_block_z": 108,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            3
+          ],
+          [],
+          [
+            3,
+            6,
+            3
+          ],
+          []
+        ],
+        "total_protected_idle_block_z": 24,
+        "max_protected_idle_block_z": 6,
+        "squared_protected_idle_block_z2": 108,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      }
+    }
+  ],
+  "heldout_sample_ids": [
+    "p00",
+    "p01",
+    "p03",
+    "p05",
+    "p06",
+    "p08",
+    "p12"
+  ],
+  "decisions": [
+    {
+      "method": "depth_only",
+      "pool": "all",
+      "candidate_id": "p12",
+      "baseline_candidate_id": "p12",
+      "shortlist_size": 1,
+      "pool_size": 13,
+      "guarded": false,
+      "switch_from_baseline": false,
+      "baseline_minus_best_logit": 0.0,
+      "guard_threshold": 0.23157267362724587,
+      "feature_evaluations": 13,
+      "model_evaluations": 1,
+      "policy": "Hard minimum physical-layer depth first; fixed ridge risk only within depth ties. Offline selection; scheduler mu=0."
+    },
+    {
+      "method": "depth_only",
+      "pool": "serial_matched",
+      "candidate_id": "p00",
+      "baseline_candidate_id": "p00",
+      "shortlist_size": 6,
+      "pool_size": 6,
+      "guarded": false,
+      "switch_from_baseline": false,
+      "baseline_minus_best_logit": 0.0,
+      "guard_threshold": 0.23157267362724587,
+      "feature_evaluations": 13,
+      "model_evaluations": 6,
+      "policy": "Hard minimum physical-layer depth first; fixed ridge risk only within depth ties. Offline selection; scheduler mu=0."
+    },
+    {
+      "method": "depth_wait",
+      "pool": "all",
+      "candidate_id": "p12",
+      "baseline_candidate_id": "p12",
+      "shortlist_size": 1,
+      "pool_size": 13,
+      "guarded": false,
+      "switch_from_baseline": false,
+      "baseline_minus_best_logit": 0.0,
+      "guard_threshold": 0.18436298086946692,
+      "feature_evaluations": 13,
+      "model_evaluations": 1,
+      "policy": "Hard minimum physical-layer depth first; fixed ridge risk only within depth ties. Offline selection; scheduler mu=0."
+    },
+    {
+      "method": "depth_wait",
+      "pool": "serial_matched",
+      "candidate_id": "p03",
+      "baseline_candidate_id": "p00",
+      "shortlist_size": 6,
+      "pool_size": 6,
+      "guarded": false,
+      "switch_from_baseline": true,
+      "baseline_minus_best_logit": 0.13138784195796246,
+      "guard_threshold": 0.18436298086946692,
+      "feature_evaluations": 13,
+      "model_evaluations": 6,
+      "policy": "Hard minimum physical-layer depth first; fixed ridge risk only within depth ties. Offline selection; scheduler mu=0."
+    },
+    {
+      "method": "depth_wait_guard",
+      "pool": "all",
+      "candidate_id": "p12",
+      "baseline_candidate_id": "p12",
+      "shortlist_size": 1,
+      "pool_size": 13,
+      "guarded": true,
+      "switch_from_baseline": false,
+      "baseline_minus_best_logit": 0.0,
+      "guard_threshold": 0.18436298086946692,
+      "feature_evaluations": 13,
+      "model_evaluations": 1,
+      "policy": "Hard minimum physical-layer depth first; fixed ridge risk only within depth ties. Offline selection; scheduler mu=0."
+    },
+    {
+      "method": "depth_wait_guard",
+      "pool": "serial_matched",
+      "candidate_id": "p00",
+      "baseline_candidate_id": "p00",
+      "shortlist_size": 6,
+      "pool_size": 6,
+      "guarded": true,
+      "switch_from_baseline": false,
+      "baseline_minus_best_logit": 0.13138784195796246,
+      "guard_threshold": 0.18436298086946692,
+      "feature_evaluations": 13,
+      "model_evaluations": 6,
+      "policy": "Hard minimum physical-layer depth first; fixed ridge risk only within depth ties. Offline selection; scheduler mu=0."
+    }
+  ],
+  "evaluation_scope": "One complete public source, held-out geometry only; all matched serial controls and unique minimum-depth plan sampled. No unseen-workload claim.",
+  "mu": 0
+}
