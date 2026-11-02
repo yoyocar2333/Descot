@@ -1,0 +1,49 @@
+{
+  "steps": [
+    [
+      [
+        1,
+        [
+          2,
+          3
+        ],
+        [
+          59,
+          68,
+          69
+        ]
+      ]
+    ],
+    [
+      [
+        0,
+        [
+          0,
+          1
+        ],
+        [
+          19,
+          28,
+          29
+        ]
+      ]
+    ],
+    [
+      [
+        2,
+        [
+          1,
+          2
+        ],
+        [
+          39,
+          48,
+          49
+        ]
+      ]
+    ]
+  ],
+  "time_steps": 3,
+  "method": "serial_reordered",
+  "scope": "Explicit structural control schedule, not a routing algorithm result."
+}

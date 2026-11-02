@@ -1,0 +1,37 @@
+compile parallel_control_parallel_x
+sample parallel_control_parallel_x: 9480/100000, 146 TICKs, 193 qubits
+compile parallel_control_parallel_z
+sample parallel_control_parallel_z: 8876/100000, 146 TICKs, 193 qubits
+compile parallel_control_serial_x
+sample parallel_control_serial_x: 12515/100000, 209 TICKs, 193 qubits
+compile parallel_control_serial_z
+sample parallel_control_serial_z: 12005/100000, 209 TICKs, 193 qubits
+compile parallel_control_serial_reordered_x
+sample parallel_control_serial_reordered_x: 12778/100000, 209 TICKs, 193 qubits
+compile parallel_control_serial_reordered_z
+sample parallel_control_serial_reordered_z: 11695/100000, 209 TICKs, 193 qubits
+compile two_shorter_author_profile_x
+sample two_shorter_author_profile_x: 48054/100000, 587 TICKs, 575 qubits
+compile two_shorter_author_profile_z
+sample two_shorter_author_profile_z: 46013/100000, 587 TICKs, 575 qubits
+compile two_shorter_one_step_x
+sample two_shorter_one_step_x: 50582/100000, 650 TICKs, 575 qubits
+compile two_shorter_one_step_z
+sample two_shorter_one_step_z: 48694/100000, 650 TICKs, 575 qubits
+compile two_shorter_two_step_x
+reuse exact full circuit two_shorter_two_step_x
+compile two_shorter_two_step_z
+reuse exact full circuit two_shorter_two_step_z
+compile two_longer_author_profile_x
+sample two_longer_author_profile_x: 48720/100000, 587 TICKs, 603 qubits
+compile two_longer_author_profile_z
+sample two_longer_author_profile_z: 46408/100000, 587 TICKs, 603 qubits
+compile two_longer_one_step_x
+reuse exact full circuit two_longer_one_step_x
+compile two_longer_one_step_z
+reuse exact full circuit two_longer_one_step_z
+compile two_longer_two_step_x
+sample two_longer_two_step_x: 51492/100000, 650 TICKs, 603 qubits
+compile two_longer_two_step_z
+sample two_longer_two_step_z: 49183/100000, 650 TICKs, 603 qubits
+{"source_configurations": 9, "physical_requests": 18, "unique_sampled_full_circuits": 14, "new_monte_carlo_shots": 1400000}

@@ -1,0 +1,2 @@
+# Preserve pinned upstream benchmark bytes, including their original line endings.
+benchmarks/public_2026-11-02/qasmbench/** -text

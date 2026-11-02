@@ -53,3 +53,9 @@
 | [Efficient and high-performance routing of lattice-surgery paths on three-dimensional lattice](https://arxiv.org/abs/2401.15829)（Quantum 2026） | 操作切分、排程及 3D path embedding | 一般「空間加時間路由」不是新方法；需比較 restricted profile、解碼目標與搜尋成本 |
 
 11/4 交付要補讀方法並列出相同、不同、尚未比較之處與 pilot 證據。本次搜尋不能證明不存在相同方法；報告先稱「我們提出並驗證的候選方法」，可投稿的新意需更完整的比較確認。
+
+## 11/2 實作進度補充
+
+已將七份完整 QASMBench 電路及 license/notice 固定在 `benchmarks/public_2026-11-02/`，並以 `run_public_audit.py` 建立保留全部指令與 classical dependencies 的 DAG；詳見 [完整實作進度](updates/2026-11-02.md)。選定 `hs4_n4` 為優先完整轉譯目標：4 CX、20 H、4 X、4 次量測，含兩個同時 ready 的 CX。完整 physical support 目前仍為 0/7，H/X/readout 將保留並繼續實作。
+
+`error_correctiond3_n5` 的 ASAP fronts 最多只有一個 CX，但 DAG 仍有 3 對互不可達的 CX，因此不能將 ASAP ready 數誤當全部可選排程的上限。另完成 2–6 位元的受限 CNOT layer backend、全部 live memory 與 footprint 檢查，以及 140 萬 noisy shots 的正反開發 fixture 比較；這些 fixture 不取代完整公開 benchmark、held-out、風險校準與 ablation。

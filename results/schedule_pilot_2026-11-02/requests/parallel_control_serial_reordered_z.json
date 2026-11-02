@@ -1,0 +1,100 @@
+{
+  "schema_id": "dascot_forward_layer_request_v1",
+  "gates": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "ops": [
+    "cx",
+    "cx",
+    "cx"
+  ],
+  "architecture": {
+    "width": 9,
+    "height": 9,
+    "alg_qubits": [
+      10,
+      30,
+      50,
+      70
+    ],
+    "magic_states": []
+  },
+  "mapping": [
+    [
+      0,
+      10
+    ],
+    [
+      1,
+      30
+    ],
+    [
+      2,
+      50
+    ],
+    [
+      3,
+      70
+    ]
+  ],
+  "steps": [
+    [
+      [
+        1,
+        [
+          2,
+          3
+        ],
+        [
+          59,
+          68,
+          69
+        ]
+      ]
+    ],
+    [
+      [
+        0,
+        [
+          0,
+          1
+        ],
+        [
+          19,
+          28,
+          29
+        ]
+      ]
+    ],
+    [
+      [
+        2,
+        [
+          1,
+          2
+        ],
+        [
+          39,
+          48,
+          49
+        ]
+      ]
+    ]
+  ],
+  "basis": "z",
+  "distance": 3,
+  "timing": {
+    "policy": "three_block_z_per_source_step_v1"
+  }
+}

@@ -20,5 +20,11 @@
     "bytes": 149760,
     "result_prefix": "results/adapter_2026-11-01",
     "description": "Restricted route-to-circuit validation: 18 source routes, 72 requests, 8 exact prior full-circuit references, 0 new Monte Carlo shots; 2026-11-01."
+  },
+  "schedule_pilot_2026-11-02.zip": {
+    "sha256": "9f0f2469a0e3aa6a1e3638680207b946f9866e54afdbbcd7ec8756d90faab8b2",
+    "bytes": 6225048,
+    "result_prefix": "results/schedule_pilot_2026-11-02",
+    "description": "Frozen full-schedule development pilot: 9 source configurations, 18 requests, 14 unique complete circuits, 1400000 noisy shots, full raw circuits/DEMs, pre-noise positive/negative selection, separate routing timing, audit and 96-test log; 2026-11-02."
   }
 }

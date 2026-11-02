@@ -1,0 +1,232 @@
+{
+  "sample_id": "sample_8c8dd7e5c7570cb1379f78f0e12b59d38514a0c9d0e6fe7465fcc085031c509e",
+  "ideal_circuit_sha256": "7d80d71f5be72a2d3f6081e850d3d80e8b527c48e860e4b2d57f30b454e6866e",
+  "noisy_circuit_sha256": "b6c850cf945cc7f0998bd19362aa6b547fb0ebb9a75c57f80292bd601c76323d",
+  "dem_sha256": "2bed798add8bc736732c7acfc5eb00fd882f88862303aecc5d800c9c1dc73fa9",
+  "basis": "z",
+  "distance": 3,
+  "physical_p": 0.001,
+  "model_id": "tqec_uniform_depolarizing_circuit_v1",
+  "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+  "num_qubits": 193,
+  "num_ticks": 146,
+  "num_detectors": 864,
+  "num_observables": 4,
+  "shots": 100000,
+  "seed": 2405993215624234264,
+  "batch_size": 5000,
+  "batches": [
+    {
+      "shots": 5000,
+      "failures_any": 426,
+      "failures_by_observable": [
+        83,
+        190,
+        157,
+        130
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 437,
+      "failures_by_observable": [
+        85,
+        200,
+        151,
+        138
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 468,
+      "failures_by_observable": [
+        102,
+        212,
+        153,
+        137
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 452,
+      "failures_by_observable": [
+        105,
+        202,
+        144,
+        138
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 433,
+      "failures_by_observable": [
+        90,
+        198,
+        144,
+        136
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 476,
+      "failures_by_observable": [
+        106,
+        224,
+        164,
+        127
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 455,
+      "failures_by_observable": [
+        84,
+        198,
+        174,
+        153
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 443,
+      "failures_by_observable": [
+        96,
+        210,
+        162,
+        107
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 431,
+      "failures_by_observable": [
+        84,
+        179,
+        163,
+        131
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 427,
+      "failures_by_observable": [
+        82,
+        190,
+        129,
+        146
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 453,
+      "failures_by_observable": [
+        91,
+        187,
+        153,
+        144
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 450,
+      "failures_by_observable": [
+        95,
+        204,
+        147,
+        150
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 431,
+      "failures_by_observable": [
+        99,
+        200,
+        154,
+        125
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 457,
+      "failures_by_observable": [
+        97,
+        198,
+        139,
+        152
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 431,
+      "failures_by_observable": [
+        85,
+        195,
+        140,
+        138
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 444,
+      "failures_by_observable": [
+        90,
+        186,
+        154,
+        150
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 431,
+      "failures_by_observable": [
+        84,
+        182,
+        148,
+        141
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 436,
+      "failures_by_observable": [
+        77,
+        181,
+        145,
+        151
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 454,
+      "failures_by_observable": [
+        86,
+        181,
+        166,
+        138
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 441,
+      "failures_by_observable": [
+        74,
+        190,
+        148,
+        162
+      ]
+    }
+  ],
+  "failures_any": 8876,
+  "failures_by_observable": [
+    1795,
+    3907,
+    3035,
+    2794
+  ],
+  "p_fail_any": 0.08876,
+  "wilson95_low": 0.08701308150410449,
+  "wilson95_high": 0.09053851251273283,
+  "shortest_graphlike_error": 3,
+  "sampling_decode_seconds": 0.718581001000075
+}

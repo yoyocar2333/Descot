@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "physical_requests": 18,
+  "unique_sampled_full_circuits": 14,
+  "new_monte_carlo_shots": 1400000,
+  "checks": [
+    "source requests and certificates",
+    "complete selected programs",
+    "canonical ideal/noisy/DEM hashes",
+    "basis/distance/noise/decoder/shot/batch conditions",
+    "unique shot accounting",
+    "batch counts and intervals",
+    "complete input/output observable rank",
+    "stored signed-input/fault/distance validation",
+    "stored complete memory and physical footprint",
+    "experiment source hashes"
+  ],
+  "scope": "Record reconciliation without resampling or rerunning the physical compiler."
+}

@@ -1,0 +1,692 @@
+{
+  "steps": [
+    [
+      [
+        0,
+        [
+          3,
+          4
+        ],
+        [
+          111,
+          124,
+          125
+        ]
+      ],
+      [
+        3,
+        [
+          1,
+          5
+        ],
+        [
+          55,
+          68,
+          81,
+          94,
+          107,
+          120,
+          133,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153
+        ]
+      ]
+    ],
+    [
+      [
+        1,
+        [
+          0,
+          3
+        ],
+        [
+          27,
+          40,
+          53,
+          66,
+          79,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97
+        ]
+      ]
+    ],
+    [
+      [
+        4,
+        [
+          3,
+          5
+        ],
+        [
+          111,
+          124,
+          137,
+          150,
+          151,
+          152,
+          153
+        ]
+      ]
+    ],
+    [
+      [
+        2,
+        [
+          2,
+          4
+        ],
+        [
+          83,
+          96,
+          109,
+          122,
+          123,
+          124,
+          125
+        ]
+      ],
+      [
+        5,
+        [
+          0,
+          5
+        ],
+        [
+          27,
+          40,
+          53,
+          66,
+          79,
+          92,
+          105,
+          118,
+          131,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153
+        ]
+      ]
+    ],
+    [
+      [
+        6,
+        [
+          4,
+          5
+        ],
+        [
+          139,
+          152,
+          153
+        ]
+      ],
+      [
+        8,
+        [
+          1,
+          2
+        ],
+        [
+          55,
+          68,
+          69
+        ]
+      ]
+    ],
+    [
+      [
+        7,
+        [
+          0,
+          5
+        ],
+        [
+          27,
+          40,
+          53,
+          66,
+          79,
+          92,
+          105,
+          118,
+          131,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153
+        ]
+      ]
+    ],
+    [
+      [
+        9,
+        [
+          0,
+          2
+        ],
+        [
+          27,
+          40,
+          53,
+          66,
+          67,
+          68,
+          69
+        ]
+      ]
+    ],
+    [
+      [
+        10,
+        [
+          2,
+          4
+        ],
+        [
+          83,
+          96,
+          109,
+          122,
+          123,
+          124,
+          125
+        ]
+      ]
+    ],
+    [
+      [
+        11,
+        [
+          4,
+          5
+        ],
+        [
+          139,
+          152,
+          153
+        ]
+      ]
+    ]
+  ],
+  "time_steps": 9,
+  "fronts": [
+    {
+      "ready": 2,
+      "chosen": {
+        "ids": [
+          0,
+          3
+        ],
+        "order": [
+          0,
+          1
+        ],
+        "now": 17,
+        "future": 0,
+        "progress": 17,
+        "conflict": 0.0,
+        "score": 17.0
+      },
+      "candidates": [
+        {
+          "ids": [
+            0,
+            3
+          ],
+          "order": [
+            0,
+            1
+          ],
+          "now": 17,
+          "future": 0,
+          "progress": 17,
+          "conflict": 0.0,
+          "score": 17.0
+        },
+        {
+          "ids": [
+            3,
+            0
+          ],
+          "order": [
+            1,
+            0
+          ],
+          "now": 17,
+          "future": 0,
+          "progress": 17,
+          "conflict": 0.0,
+          "score": 17.0
+        }
+      ],
+      "cost": {
+        "front_evaluations": 2,
+        "order_evaluations": 2,
+        "reference_batches": 0,
+        "gate_route_calls": 4
+      },
+      "budget": 48,
+      "candidate_cap": 16
+    },
+    {
+      "ready": 2,
+      "chosen": {
+        "ids": [
+          1
+        ],
+        "order": [
+          0,
+          1
+        ],
+        "now": 8,
+        "future": 0,
+        "progress": 8,
+        "conflict": 0.0,
+        "score": 8.0
+      },
+      "candidates": [
+        {
+          "ids": [
+            1
+          ],
+          "order": [
+            0,
+            1
+          ],
+          "now": 8,
+          "future": 0,
+          "progress": 8,
+          "conflict": 0.0,
+          "score": 8.0
+        },
+        {
+          "ids": [
+            2
+          ],
+          "order": [
+            1,
+            0
+          ],
+          "now": 6,
+          "future": 0,
+          "progress": 6,
+          "conflict": 0.0,
+          "score": 6.0
+        }
+      ],
+      "cost": {
+        "front_evaluations": 2,
+        "order_evaluations": 2,
+        "reference_batches": 0,
+        "gate_route_calls": 4
+      },
+      "budget": 48,
+      "candidate_cap": 16
+    },
+    {
+      "ready": 2,
+      "chosen": {
+        "ids": [
+          4
+        ],
+        "order": [
+          1,
+          0
+        ],
+        "now": 7,
+        "future": 0,
+        "progress": 7,
+        "conflict": 0.0,
+        "score": 7.0
+      },
+      "candidates": [
+        {
+          "ids": [
+            4
+          ],
+          "order": [
+            1,
+            0
+          ],
+          "now": 7,
+          "future": 0,
+          "progress": 7,
+          "conflict": 0.0,
+          "score": 7.0
+        },
+        {
+          "ids": [
+            2
+          ],
+          "order": [
+            0,
+            1
+          ],
+          "now": 6,
+          "future": 0,
+          "progress": 6,
+          "conflict": 0.0,
+          "score": 6.0
+        }
+      ],
+      "cost": {
+        "front_evaluations": 2,
+        "order_evaluations": 2,
+        "reference_batches": 0,
+        "gate_route_calls": 4
+      },
+      "budget": 48,
+      "candidate_cap": 16
+    },
+    {
+      "ready": 2,
+      "chosen": {
+        "ids": [
+          2,
+          5
+        ],
+        "order": [
+          0,
+          1
+        ],
+        "now": 12,
+        "future": 0,
+        "progress": 12,
+        "conflict": 0.0,
+        "score": 12.0
+      },
+      "candidates": [
+        {
+          "ids": [
+            2,
+            5
+          ],
+          "order": [
+            0,
+            1
+          ],
+          "now": 12,
+          "future": 0,
+          "progress": 12,
+          "conflict": 0.0,
+          "score": 12.0
+        },
+        {
+          "ids": [
+            5,
+            2
+          ],
+          "order": [
+            1,
+            0
+          ],
+          "now": 12,
+          "future": 0,
+          "progress": 12,
+          "conflict": 0.0,
+          "score": 12.0
+        }
+      ],
+      "cost": {
+        "front_evaluations": 2,
+        "order_evaluations": 2,
+        "reference_batches": 0,
+        "gate_route_calls": 4
+      },
+      "budget": 48,
+      "candidate_cap": 16
+    },
+    {
+      "ready": 2,
+      "chosen": {
+        "ids": [
+          6,
+          8
+        ],
+        "order": [
+          0,
+          1
+        ],
+        "now": 9,
+        "future": 0,
+        "progress": 9,
+        "conflict": 0.0,
+        "score": 9.0
+      },
+      "candidates": [
+        {
+          "ids": [
+            6,
+            8
+          ],
+          "order": [
+            0,
+            1
+          ],
+          "now": 9,
+          "future": 0,
+          "progress": 9,
+          "conflict": 0.0,
+          "score": 9.0
+        },
+        {
+          "ids": [
+            8,
+            6
+          ],
+          "order": [
+            1,
+            0
+          ],
+          "now": 9,
+          "future": 0,
+          "progress": 9,
+          "conflict": 0.0,
+          "score": 9.0
+        }
+      ],
+      "cost": {
+        "front_evaluations": 2,
+        "order_evaluations": 2,
+        "reference_batches": 0,
+        "gate_route_calls": 4
+      },
+      "budget": 48,
+      "candidate_cap": 16
+    },
+    {
+      "ready": 1,
+      "chosen": {
+        "ids": [
+          7
+        ],
+        "order": [
+          0
+        ],
+        "now": 4,
+        "future": 0,
+        "progress": 4,
+        "conflict": 0.0,
+        "score": 4.0
+      },
+      "candidates": [
+        {
+          "ids": [
+            7
+          ],
+          "order": [
+            0
+          ],
+          "now": 4,
+          "future": 0,
+          "progress": 4,
+          "conflict": 0.0,
+          "score": 4.0
+        }
+      ],
+      "cost": {
+        "front_evaluations": 1,
+        "order_evaluations": 1,
+        "reference_batches": 0,
+        "gate_route_calls": 1
+      },
+      "budget": 48,
+      "candidate_cap": 16
+    },
+    {
+      "ready": 1,
+      "chosen": {
+        "ids": [
+          9
+        ],
+        "order": [
+          0
+        ],
+        "now": 3,
+        "future": 0,
+        "progress": 3,
+        "conflict": 0.0,
+        "score": 3.0
+      },
+      "candidates": [
+        {
+          "ids": [
+            9
+          ],
+          "order": [
+            0
+          ],
+          "now": 3,
+          "future": 0,
+          "progress": 3,
+          "conflict": 0.0,
+          "score": 3.0
+        }
+      ],
+      "cost": {
+        "front_evaluations": 1,
+        "order_evaluations": 1,
+        "reference_batches": 0,
+        "gate_route_calls": 1
+      },
+      "budget": 48,
+      "candidate_cap": 16
+    },
+    {
+      "ready": 1,
+      "chosen": {
+        "ids": [
+          10
+        ],
+        "order": [
+          0
+        ],
+        "now": 2,
+        "future": 0,
+        "progress": 2,
+        "conflict": 0.0,
+        "score": 2.0
+      },
+      "candidates": [
+        {
+          "ids": [
+            10
+          ],
+          "order": [
+            0
+          ],
+          "now": 2,
+          "future": 0,
+          "progress": 2,
+          "conflict": 0.0,
+          "score": 2.0
+        }
+      ],
+      "cost": {
+        "front_evaluations": 1,
+        "order_evaluations": 1,
+        "reference_batches": 0,
+        "gate_route_calls": 1
+      },
+      "budget": 48,
+      "candidate_cap": 16
+    },
+    {
+      "ready": 1,
+      "chosen": {
+        "ids": [
+          11
+        ],
+        "order": [
+          0
+        ],
+        "now": 1,
+        "future": 0,
+        "progress": 1,
+        "conflict": 0.0,
+        "score": 1.0
+      },
+      "candidates": [
+        {
+          "ids": [
+            11
+          ],
+          "order": [
+            0
+          ],
+          "now": 1,
+          "future": 0,
+          "progress": 1,
+          "conflict": 0.0,
+          "score": 1.0
+        }
+      ],
+      "cost": {
+        "front_evaluations": 1,
+        "order_evaluations": 1,
+        "reference_batches": 0,
+        "gate_route_calls": 1
+      },
+      "budget": 48,
+      "candidate_cap": 16
+    }
+  ],
+  "cost": {
+    "front_evaluations": 14,
+    "order_evaluations": 14,
+    "reference_batches": 0,
+    "gate_route_calls": 24
+  },
+  "routing_seconds": 0.0003766549998545088,
+  "config": {
+    "mode": "one_step",
+    "budget": 48,
+    "candidate_cap": 16,
+    "conflict_weight": 0.25
+  },
+  "quantum_risk_weight": 0,
+  "scope": "Abstract routing; QEC lookup is not applied to DASCOT paths yet."
+}

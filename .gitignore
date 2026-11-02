@@ -11,6 +11,8 @@ results/composition/*.stim
 results/composition/*.dem
 results/three_qubit_2026-10-31/*.stim
 results/three_qubit_2026-10-31/*.dem
+results/schedule_pilot_2026-11-02/samples/*.stim
+results/schedule_pilot_2026-11-02/samples/*.dem
 results/*_run.log
 ARTIFACT_MANIFEST.json
 DASCOT_Phase1_Progress_ZH.md

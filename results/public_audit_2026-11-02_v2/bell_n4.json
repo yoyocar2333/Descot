@@ -1,0 +1,786 @@
+{
+  "name": "bell_n4",
+  "logical_qubits": 4,
+  "classical_bits": 4,
+  "expanded_custom_gates": [],
+  "operation_counts": {
+    "cx": 7,
+    "h": 3,
+    "measure": 4,
+    "rx": 7,
+    "ry": 6,
+    "rz": 2,
+    "u3": 8
+  },
+  "operations": [
+    {
+      "id": 0,
+      "name": "h",
+      "qubits": [
+        0
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": []
+    },
+    {
+      "id": 1,
+      "name": "h",
+      "qubits": [
+        1
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": []
+    },
+    {
+      "id": 2,
+      "name": "h",
+      "qubits": [
+        3
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": []
+    },
+    {
+      "id": 3,
+      "name": "cx",
+      "qubits": [
+        0,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        0
+      ]
+    },
+    {
+      "id": 4,
+      "name": "rx",
+      "qubits": [
+        0
+      ],
+      "clbits": [],
+      "params": [
+        "-0.7853981633974483"
+      ],
+      "predecessors": [
+        3
+      ]
+    },
+    {
+      "id": 5,
+      "name": "ry",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [
+        "-1.5707963267948966"
+      ],
+      "predecessors": [
+        3
+      ]
+    },
+    {
+      "id": 6,
+      "name": "u3",
+      "qubits": [
+        3
+      ],
+      "clbits": [],
+      "params": [
+        "1.5707963267948966",
+        "0.0",
+        "2.356194490192345"
+      ],
+      "predecessors": [
+        2
+      ]
+    },
+    {
+      "id": 7,
+      "name": "u3",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [
+        "1.5707963267948966",
+        "0.0",
+        "0.7853981633974483"
+      ],
+      "predecessors": [
+        5
+      ]
+    },
+    {
+      "id": 8,
+      "name": "rx",
+      "qubits": [
+        3
+      ],
+      "clbits": [],
+      "params": [
+        "1.5707963267948966"
+      ],
+      "predecessors": [
+        6
+      ]
+    },
+    {
+      "id": 9,
+      "name": "cx",
+      "qubits": [
+        3,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": 10,
+      "name": "rx",
+      "qubits": [
+        3
+      ],
+      "clbits": [],
+      "params": [
+        "0.7853981633974483"
+      ],
+      "predecessors": [
+        9
+      ]
+    },
+    {
+      "id": 11,
+      "name": "ry",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [
+        "1.5707963267948966"
+      ],
+      "predecessors": [
+        9
+      ]
+    },
+    {
+      "id": 12,
+      "name": "cx",
+      "qubits": [
+        2,
+        3
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        10,
+        11
+      ]
+    },
+    {
+      "id": 13,
+      "name": "rx",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [
+        "-1.5707963267948966"
+      ],
+      "predecessors": [
+        12
+      ]
+    },
+    {
+      "id": 14,
+      "name": "rz",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [
+        "1.5707963267948966"
+      ],
+      "predecessors": [
+        13
+      ]
+    },
+    {
+      "id": 15,
+      "name": "cx",
+      "qubits": [
+        3,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        12,
+        14
+      ]
+    },
+    {
+      "id": 16,
+      "name": "u3",
+      "qubits": [
+        3
+      ],
+      "clbits": [],
+      "params": [
+        "1.5707963267948966",
+        "1.5707963267948966",
+        "3.141592653589793"
+      ],
+      "predecessors": [
+        15
+      ]
+    },
+    {
+      "id": 17,
+      "name": "u3",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [
+        "1.5707963267948966",
+        "3.141592653589793",
+        "3.141592653589793"
+      ],
+      "predecessors": [
+        15
+      ]
+    },
+    {
+      "id": 18,
+      "name": "ry",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [
+        "1.5707963267948966"
+      ],
+      "predecessors": [
+        17
+      ]
+    },
+    {
+      "id": 19,
+      "name": "ry",
+      "qubits": [
+        0
+      ],
+      "clbits": [],
+      "params": [
+        "-1.5707963267948966"
+      ],
+      "predecessors": [
+        4
+      ]
+    },
+    {
+      "id": 20,
+      "name": "u3",
+      "qubits": [
+        1
+      ],
+      "clbits": [],
+      "params": [
+        "1.5707963267948966",
+        "0.0",
+        "2.356194490192345"
+      ],
+      "predecessors": [
+        1
+      ]
+    },
+    {
+      "id": 21,
+      "name": "u3",
+      "qubits": [
+        0
+      ],
+      "clbits": [],
+      "params": [
+        "1.5707963267948966",
+        "0.0",
+        "0.7853981633974483"
+      ],
+      "predecessors": [
+        19
+      ]
+    },
+    {
+      "id": 22,
+      "name": "rx",
+      "qubits": [
+        1
+      ],
+      "clbits": [],
+      "params": [
+        "1.5707963267948966"
+      ],
+      "predecessors": [
+        20
+      ]
+    },
+    {
+      "id": 23,
+      "name": "cx",
+      "qubits": [
+        1,
+        0
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        21,
+        22
+      ]
+    },
+    {
+      "id": 24,
+      "name": "rx",
+      "qubits": [
+        1
+      ],
+      "clbits": [],
+      "params": [
+        "0.7853981633974483"
+      ],
+      "predecessors": [
+        23
+      ]
+    },
+    {
+      "id": 25,
+      "name": "ry",
+      "qubits": [
+        0
+      ],
+      "clbits": [],
+      "params": [
+        "1.5707963267948966"
+      ],
+      "predecessors": [
+        23
+      ]
+    },
+    {
+      "id": 26,
+      "name": "cx",
+      "qubits": [
+        0,
+        1
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        24,
+        25
+      ]
+    },
+    {
+      "id": 27,
+      "name": "rx",
+      "qubits": [
+        0
+      ],
+      "clbits": [],
+      "params": [
+        "-1.5707963267948966"
+      ],
+      "predecessors": [
+        26
+      ]
+    },
+    {
+      "id": 28,
+      "name": "rz",
+      "qubits": [
+        0
+      ],
+      "clbits": [],
+      "params": [
+        "1.5707963267948966"
+      ],
+      "predecessors": [
+        27
+      ]
+    },
+    {
+      "id": 29,
+      "name": "cx",
+      "qubits": [
+        1,
+        0
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        26,
+        28
+      ]
+    },
+    {
+      "id": 30,
+      "name": "u3",
+      "qubits": [
+        1
+      ],
+      "clbits": [],
+      "params": [
+        "1.5707963267948966",
+        "1.5707963267948966",
+        "3.141592653589793"
+      ],
+      "predecessors": [
+        29
+      ]
+    },
+    {
+      "id": 31,
+      "name": "u3",
+      "qubits": [
+        0
+      ],
+      "clbits": [],
+      "params": [
+        "1.5707963267948966",
+        "3.141592653589793",
+        "3.141592653589793"
+      ],
+      "predecessors": [
+        29
+      ]
+    },
+    {
+      "id": 32,
+      "name": "ry",
+      "qubits": [
+        0
+      ],
+      "clbits": [],
+      "params": [
+        "1.5707963267948966"
+      ],
+      "predecessors": [
+        31
+      ]
+    },
+    {
+      "id": 33,
+      "name": "measure",
+      "qubits": [
+        2
+      ],
+      "clbits": [
+        0
+      ],
+      "params": [],
+      "predecessors": [
+        18
+      ]
+    },
+    {
+      "id": 34,
+      "name": "measure",
+      "qubits": [
+        3
+      ],
+      "clbits": [
+        1
+      ],
+      "params": [],
+      "predecessors": [
+        16
+      ]
+    },
+    {
+      "id": 35,
+      "name": "measure",
+      "qubits": [
+        0
+      ],
+      "clbits": [
+        2
+      ],
+      "params": [],
+      "predecessors": [
+        32
+      ]
+    },
+    {
+      "id": 36,
+      "name": "measure",
+      "qubits": [
+        1
+      ],
+      "clbits": [
+        3
+      ],
+      "params": [],
+      "predecessors": [
+        30
+      ]
+    }
+  ],
+  "dag_fronts": [
+    {
+      "operation_ids": [
+        0,
+        1,
+        2
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        3,
+        6,
+        20
+      ],
+      "cx_ids": [
+        3
+      ],
+      "cx_pairs": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        4,
+        5,
+        8,
+        22
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        7,
+        19
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        9,
+        21
+      ],
+      "cx_ids": [
+        9
+      ],
+      "cx_pairs": [
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        10,
+        11,
+        23
+      ],
+      "cx_ids": [
+        23
+      ],
+      "cx_pairs": [
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        12,
+        24,
+        25
+      ],
+      "cx_ids": [
+        12
+      ],
+      "cx_pairs": [
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        13,
+        26
+      ],
+      "cx_ids": [
+        26
+      ],
+      "cx_pairs": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        14,
+        27
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        15,
+        28
+      ],
+      "cx_ids": [
+        15
+      ],
+      "cx_pairs": [
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        16,
+        17,
+        29
+      ],
+      "cx_ids": [
+        29
+      ],
+      "cx_pairs": [
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        18,
+        30,
+        31,
+        34
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        32,
+        33,
+        36
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        35
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    }
+  ],
+  "dag_depth_unit": "One original logical instruction, including retained barriers and measurements; not routing steps, QEC cycles, or physical TICKs.",
+  "strict_instruction_depth": 14,
+  "max_ready_cx": 1,
+  "front_metric_scope": "Ready-CX count in the recorded ASAP instruction fronts; not the maximum over all delayed schedules. Incomparable CX pairs separately capture other legal choices.",
+  "incomparable_cx_pairs": [
+    [
+      9,
+      23
+    ],
+    [
+      9,
+      26
+    ],
+    [
+      9,
+      29
+    ],
+    [
+      12,
+      23
+    ],
+    [
+      12,
+      26
+    ],
+    [
+      12,
+      29
+    ],
+    [
+      15,
+      23
+    ],
+    [
+      15,
+      26
+    ],
+    [
+      15,
+      29
+    ]
+  ],
+  "terminal_readout": [
+    {
+      "qubit": 2,
+      "classical_bit": 0
+    },
+    {
+      "qubit": 3,
+      "classical_bit": 1
+    },
+    {
+      "qubit": 0,
+      "classical_bit": 2
+    },
+    {
+      "qubit": 1,
+      "classical_bit": 3
+    }
+  ],
+  "all_unitaries_clifford": false,
+  "non_clifford_operation_names": [
+    "rx",
+    "u3"
+  ],
+  "dynamic_or_opaque_names": [],
+  "full_physical_profile_supported": false,
+  "physical_rejection_reasons": [
+    "Current homogeneous-basis CNOT profile does not preserve these original operations: h, rx, ry, rz, u3",
+    "Fixed diagonal embedding does not support reverse CNOTs",
+    "Non-Clifford operations: rx, u3"
+  ],
+  "source_sha256": "1f3a1115385d87f6a444189776e521d6bba1d300f96454e85cb58bb3e297bf81",
+  "semantics_policy": "All original operations and classical dependencies retained; custom definitions expanded without deleting gates. No CNOT-only projection is called a full benchmark.",
+  "upstream_path": "small/bell_n4/bell_n4.qasm",
+  "upstream_blob_sha": "de3f32d4c21145c3efb65d230199a9e326aab8fd"
+}

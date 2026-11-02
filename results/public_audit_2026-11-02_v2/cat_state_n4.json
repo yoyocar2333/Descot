@@ -1,0 +1,213 @@
+{
+  "name": "cat_state_n4",
+  "logical_qubits": 4,
+  "classical_bits": 4,
+  "expanded_custom_gates": [],
+  "operation_counts": {
+    "cx": 3,
+    "h": 1,
+    "measure": 4
+  },
+  "operations": [
+    {
+      "id": 0,
+      "name": "h",
+      "qubits": [
+        0
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": []
+    },
+    {
+      "id": 1,
+      "name": "cx",
+      "qubits": [
+        0,
+        1
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        0
+      ]
+    },
+    {
+      "id": 2,
+      "name": "cx",
+      "qubits": [
+        1,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "name": "cx",
+      "qubits": [
+        2,
+        3
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        2
+      ]
+    },
+    {
+      "id": 4,
+      "name": "measure",
+      "qubits": [
+        0
+      ],
+      "clbits": [
+        0
+      ],
+      "params": [],
+      "predecessors": [
+        1
+      ]
+    },
+    {
+      "id": 5,
+      "name": "measure",
+      "qubits": [
+        1
+      ],
+      "clbits": [
+        1
+      ],
+      "params": [],
+      "predecessors": [
+        2
+      ]
+    },
+    {
+      "id": 6,
+      "name": "measure",
+      "qubits": [
+        2
+      ],
+      "clbits": [
+        2
+      ],
+      "params": [],
+      "predecessors": [
+        3
+      ]
+    },
+    {
+      "id": 7,
+      "name": "measure",
+      "qubits": [
+        3
+      ],
+      "clbits": [
+        3
+      ],
+      "params": [],
+      "predecessors": [
+        3
+      ]
+    }
+  ],
+  "dag_fronts": [
+    {
+      "operation_ids": [
+        0
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        1
+      ],
+      "cx_ids": [
+        1
+      ],
+      "cx_pairs": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        2,
+        4
+      ],
+      "cx_ids": [
+        2
+      ],
+      "cx_pairs": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        3,
+        5
+      ],
+      "cx_ids": [
+        3
+      ],
+      "cx_pairs": [
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        6,
+        7
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    }
+  ],
+  "dag_depth_unit": "One original logical instruction, including retained barriers and measurements; not routing steps, QEC cycles, or physical TICKs.",
+  "strict_instruction_depth": 5,
+  "max_ready_cx": 1,
+  "front_metric_scope": "Ready-CX count in the recorded ASAP instruction fronts; not the maximum over all delayed schedules. Incomparable CX pairs separately capture other legal choices.",
+  "incomparable_cx_pairs": [],
+  "terminal_readout": [
+    {
+      "qubit": 0,
+      "classical_bit": 0
+    },
+    {
+      "qubit": 1,
+      "classical_bit": 1
+    },
+    {
+      "qubit": 2,
+      "classical_bit": 2
+    },
+    {
+      "qubit": 3,
+      "classical_bit": 3
+    }
+  ],
+  "all_unitaries_clifford": true,
+  "non_clifford_operation_names": [],
+  "dynamic_or_opaque_names": [],
+  "full_physical_profile_supported": false,
+  "physical_rejection_reasons": [
+    "Current homogeneous-basis CNOT profile does not preserve these original operations: h"
+  ],
+  "source_sha256": "caa882935bb73087db2edbee2aa77133965bdda3aec9687166f9e96b9a2ef8ff",
+  "semantics_policy": "All original operations and classical dependencies retained; custom definitions expanded without deleting gates. No CNOT-only projection is called a full benchmark.",
+  "upstream_path": "small/cat_state_n4/cat_state_n4.qasm",
+  "upstream_blob_sha": "394ba7e47b74a8d95f7de27170004220859a4e49"
+}

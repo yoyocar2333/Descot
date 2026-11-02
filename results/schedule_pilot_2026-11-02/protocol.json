@@ -1,0 +1,24 @@
+{
+  "id": "full_schedule_development_pilot_20261102_v1",
+  "bases": [
+    "x",
+    "z"
+  ],
+  "distance": 3,
+  "x_spacing_blocks": 1,
+  "physical_p": 0.001,
+  "shots_per_unique_circuit": 100000,
+  "batch_size": 5000,
+  "model_id": "tqec_uniform_depolarizing_circuit_v1",
+  "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+  "routing_seed": 1,
+  "front_evaluation_budget": 48,
+  "candidate_cap": 16,
+  "timing_repetitions": 25,
+  "timing_warmups": 3,
+  "selection": "Pre-noise structural control plus first two-step shorter/longer development fixtures. No held-out or general algorithm-improvement claim.",
+  "observable_failure": "Any of n independent, complete basis-specific input-output logical correlation observables is misdecoded.",
+  "sampling_reuse": "Reuse counts only for identical ideal/noisy circuit hashes, basis/distance/noise/decoder and shot conditions. Count each unique sample once.",
+  "timing_scope": "Routing-only pass before compilation, Monte Carlo or decoder work; no other research job launched by this runner during timing. Host may be shared.",
+  "mu": 0
+}

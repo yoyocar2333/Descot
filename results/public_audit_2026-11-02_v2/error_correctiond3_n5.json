@@ -1,0 +1,2525 @@
+{
+  "name": "error_correctiond3_n5",
+  "logical_qubits": 5,
+  "classical_bits": 5,
+  "expanded_custom_gates": [],
+  "operation_counts": {
+    "cx": 49,
+    "h": 62,
+    "id": 1,
+    "measure": 5,
+    "sdg": 2
+  },
+  "operations": [
+    {
+      "id": 0,
+      "name": "h",
+      "qubits": [
+        0
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": []
+    },
+    {
+      "id": 1,
+      "name": "h",
+      "qubits": [
+        1
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": []
+    },
+    {
+      "id": 2,
+      "name": "id",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": []
+    },
+    {
+      "id": 3,
+      "name": "h",
+      "qubits": [
+        3
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": []
+    },
+    {
+      "id": 4,
+      "name": "h",
+      "qubits": [
+        4
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": []
+    },
+    {
+      "id": 5,
+      "name": "cx",
+      "qubits": [
+        1,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 6,
+      "name": "h",
+      "qubits": [
+        1
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        5
+      ]
+    },
+    {
+      "id": 7,
+      "name": "h",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        5
+      ]
+    },
+    {
+      "id": 8,
+      "name": "cx",
+      "qubits": [
+        1,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        6,
+        7
+      ]
+    },
+    {
+      "id": 9,
+      "name": "h",
+      "qubits": [
+        1
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        8
+      ]
+    },
+    {
+      "id": 10,
+      "name": "h",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        8
+      ]
+    },
+    {
+      "id": 11,
+      "name": "cx",
+      "qubits": [
+        1,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": 12,
+      "name": "cx",
+      "qubits": [
+        4,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        4,
+        11
+      ]
+    },
+    {
+      "id": 13,
+      "name": "cx",
+      "qubits": [
+        1,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        11,
+        12
+      ]
+    },
+    {
+      "id": 14,
+      "name": "h",
+      "qubits": [
+        1
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        13
+      ]
+    },
+    {
+      "id": 15,
+      "name": "h",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        13
+      ]
+    },
+    {
+      "id": 16,
+      "name": "cx",
+      "qubits": [
+        1,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        14,
+        15
+      ]
+    },
+    {
+      "id": 17,
+      "name": "h",
+      "qubits": [
+        1
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        16
+      ]
+    },
+    {
+      "id": 18,
+      "name": "h",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        16
+      ]
+    },
+    {
+      "id": 19,
+      "name": "cx",
+      "qubits": [
+        1,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        17,
+        18
+      ]
+    },
+    {
+      "id": 20,
+      "name": "sdg",
+      "qubits": [
+        4
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        12
+      ]
+    },
+    {
+      "id": 21,
+      "name": "cx",
+      "qubits": [
+        4,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        19,
+        20
+      ]
+    },
+    {
+      "id": 22,
+      "name": "h",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        21
+      ]
+    },
+    {
+      "id": 23,
+      "name": "cx",
+      "qubits": [
+        4,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        21,
+        22
+      ]
+    },
+    {
+      "id": 24,
+      "name": "h",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        23
+      ]
+    },
+    {
+      "id": 25,
+      "name": "cx",
+      "qubits": [
+        0,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        0,
+        24
+      ]
+    },
+    {
+      "id": 26,
+      "name": "h",
+      "qubits": [
+        0
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        25
+      ]
+    },
+    {
+      "id": 27,
+      "name": "h",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        25
+      ]
+    },
+    {
+      "id": 28,
+      "name": "cx",
+      "qubits": [
+        0,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        26,
+        27
+      ]
+    },
+    {
+      "id": 29,
+      "name": "h",
+      "qubits": [
+        0
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        28
+      ]
+    },
+    {
+      "id": 30,
+      "name": "h",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        28
+      ]
+    },
+    {
+      "id": 31,
+      "name": "cx",
+      "qubits": [
+        0,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        29,
+        30
+      ]
+    },
+    {
+      "id": 32,
+      "name": "cx",
+      "qubits": [
+        3,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        3,
+        31
+      ]
+    },
+    {
+      "id": 33,
+      "name": "cx",
+      "qubits": [
+        0,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        31,
+        32
+      ]
+    },
+    {
+      "id": 34,
+      "name": "h",
+      "qubits": [
+        0
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        33
+      ]
+    },
+    {
+      "id": 35,
+      "name": "h",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        33
+      ]
+    },
+    {
+      "id": 36,
+      "name": "cx",
+      "qubits": [
+        0,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        34,
+        35
+      ]
+    },
+    {
+      "id": 37,
+      "name": "h",
+      "qubits": [
+        0
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        36
+      ]
+    },
+    {
+      "id": 38,
+      "name": "h",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        36
+      ]
+    },
+    {
+      "id": 39,
+      "name": "cx",
+      "qubits": [
+        0,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        37,
+        38
+      ]
+    },
+    {
+      "id": 40,
+      "name": "cx",
+      "qubits": [
+        1,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        19,
+        39
+      ]
+    },
+    {
+      "id": 41,
+      "name": "h",
+      "qubits": [
+        1
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        40
+      ]
+    },
+    {
+      "id": 42,
+      "name": "h",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        40
+      ]
+    },
+    {
+      "id": 43,
+      "name": "cx",
+      "qubits": [
+        1,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        41,
+        42
+      ]
+    },
+    {
+      "id": 44,
+      "name": "h",
+      "qubits": [
+        1
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        43
+      ]
+    },
+    {
+      "id": 45,
+      "name": "h",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        43
+      ]
+    },
+    {
+      "id": 46,
+      "name": "cx",
+      "qubits": [
+        1,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        44,
+        45
+      ]
+    },
+    {
+      "id": 47,
+      "name": "cx",
+      "qubits": [
+        3,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        32,
+        46
+      ]
+    },
+    {
+      "id": 48,
+      "name": "cx",
+      "qubits": [
+        1,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        46,
+        47
+      ]
+    },
+    {
+      "id": 49,
+      "name": "h",
+      "qubits": [
+        1
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        48
+      ]
+    },
+    {
+      "id": 50,
+      "name": "h",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        48
+      ]
+    },
+    {
+      "id": 51,
+      "name": "cx",
+      "qubits": [
+        1,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        49,
+        50
+      ]
+    },
+    {
+      "id": 52,
+      "name": "h",
+      "qubits": [
+        1
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        51
+      ]
+    },
+    {
+      "id": 53,
+      "name": "h",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        51
+      ]
+    },
+    {
+      "id": 54,
+      "name": "cx",
+      "qubits": [
+        1,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        52,
+        53
+      ]
+    },
+    {
+      "id": 55,
+      "name": "cx",
+      "qubits": [
+        3,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        47,
+        54
+      ]
+    },
+    {
+      "id": 56,
+      "name": "cx",
+      "qubits": [
+        0,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        39,
+        55
+      ]
+    },
+    {
+      "id": 57,
+      "name": "h",
+      "qubits": [
+        3
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        55
+      ]
+    },
+    {
+      "id": 58,
+      "name": "h",
+      "qubits": [
+        4
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        23
+      ]
+    },
+    {
+      "id": 59,
+      "name": "cx",
+      "qubits": [
+        3,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        56,
+        57
+      ]
+    },
+    {
+      "id": 60,
+      "name": "h",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        59
+      ]
+    },
+    {
+      "id": 61,
+      "name": "h",
+      "qubits": [
+        3
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        59
+      ]
+    },
+    {
+      "id": 62,
+      "name": "cx",
+      "qubits": [
+        3,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        60,
+        61
+      ]
+    },
+    {
+      "id": 63,
+      "name": "h",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        62
+      ]
+    },
+    {
+      "id": 64,
+      "name": "h",
+      "qubits": [
+        3
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        62
+      ]
+    },
+    {
+      "id": 65,
+      "name": "cx",
+      "qubits": [
+        3,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        63,
+        64
+      ]
+    },
+    {
+      "id": 66,
+      "name": "cx",
+      "qubits": [
+        0,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        56,
+        65
+      ]
+    },
+    {
+      "id": 67,
+      "name": "cx",
+      "qubits": [
+        3,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        65,
+        66
+      ]
+    },
+    {
+      "id": 68,
+      "name": "h",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        67
+      ]
+    },
+    {
+      "id": 69,
+      "name": "h",
+      "qubits": [
+        3
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        67
+      ]
+    },
+    {
+      "id": 70,
+      "name": "cx",
+      "qubits": [
+        3,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        68,
+        69
+      ]
+    },
+    {
+      "id": 71,
+      "name": "h",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        70
+      ]
+    },
+    {
+      "id": 72,
+      "name": "h",
+      "qubits": [
+        3
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        70
+      ]
+    },
+    {
+      "id": 73,
+      "name": "cx",
+      "qubits": [
+        3,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        71,
+        72
+      ]
+    },
+    {
+      "id": 74,
+      "name": "cx",
+      "qubits": [
+        4,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        58,
+        73
+      ]
+    },
+    {
+      "id": 75,
+      "name": "h",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        74
+      ]
+    },
+    {
+      "id": 76,
+      "name": "h",
+      "qubits": [
+        4
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        74
+      ]
+    },
+    {
+      "id": 77,
+      "name": "cx",
+      "qubits": [
+        4,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        75,
+        76
+      ]
+    },
+    {
+      "id": 78,
+      "name": "h",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        77
+      ]
+    },
+    {
+      "id": 79,
+      "name": "h",
+      "qubits": [
+        4
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        77
+      ]
+    },
+    {
+      "id": 80,
+      "name": "cx",
+      "qubits": [
+        4,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        78,
+        79
+      ]
+    },
+    {
+      "id": 81,
+      "name": "cx",
+      "qubits": [
+        0,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        66,
+        80
+      ]
+    },
+    {
+      "id": 82,
+      "name": "cx",
+      "qubits": [
+        4,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        80,
+        81
+      ]
+    },
+    {
+      "id": 83,
+      "name": "h",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        82
+      ]
+    },
+    {
+      "id": 84,
+      "name": "h",
+      "qubits": [
+        4
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        82
+      ]
+    },
+    {
+      "id": 85,
+      "name": "cx",
+      "qubits": [
+        4,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        83,
+        84
+      ]
+    },
+    {
+      "id": 86,
+      "name": "h",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        85
+      ]
+    },
+    {
+      "id": 87,
+      "name": "h",
+      "qubits": [
+        4
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        85
+      ]
+    },
+    {
+      "id": 88,
+      "name": "cx",
+      "qubits": [
+        4,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        86,
+        87
+      ]
+    },
+    {
+      "id": 89,
+      "name": "cx",
+      "qubits": [
+        1,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        54,
+        88
+      ]
+    },
+    {
+      "id": 90,
+      "name": "h",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        89
+      ]
+    },
+    {
+      "id": 91,
+      "name": "cx",
+      "qubits": [
+        1,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        89,
+        90
+      ]
+    },
+    {
+      "id": 92,
+      "name": "h",
+      "qubits": [
+        1
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        91
+      ]
+    },
+    {
+      "id": 93,
+      "name": "cx",
+      "qubits": [
+        4,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        88,
+        91
+      ]
+    },
+    {
+      "id": 94,
+      "name": "cx",
+      "qubits": [
+        0,
+        1
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        81,
+        92
+      ]
+    },
+    {
+      "id": 95,
+      "name": "h",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        93
+      ]
+    },
+    {
+      "id": 96,
+      "name": "h",
+      "qubits": [
+        4
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        93
+      ]
+    },
+    {
+      "id": 97,
+      "name": "h",
+      "qubits": [
+        1
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        94
+      ]
+    },
+    {
+      "id": 98,
+      "name": "cx",
+      "qubits": [
+        4,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        95,
+        96
+      ]
+    },
+    {
+      "id": 99,
+      "name": "h",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        98
+      ]
+    },
+    {
+      "id": 100,
+      "name": "h",
+      "qubits": [
+        4
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        98
+      ]
+    },
+    {
+      "id": 101,
+      "name": "cx",
+      "qubits": [
+        4,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        99,
+        100
+      ]
+    },
+    {
+      "id": 102,
+      "name": "cx",
+      "qubits": [
+        1,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        97,
+        101
+      ]
+    },
+    {
+      "id": 103,
+      "name": "cx",
+      "qubits": [
+        4,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        101,
+        102
+      ]
+    },
+    {
+      "id": 104,
+      "name": "h",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        103
+      ]
+    },
+    {
+      "id": 105,
+      "name": "h",
+      "qubits": [
+        4
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        103
+      ]
+    },
+    {
+      "id": 106,
+      "name": "cx",
+      "qubits": [
+        4,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        104,
+        105
+      ]
+    },
+    {
+      "id": 107,
+      "name": "h",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        106
+      ]
+    },
+    {
+      "id": 108,
+      "name": "h",
+      "qubits": [
+        4
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        106
+      ]
+    },
+    {
+      "id": 109,
+      "name": "cx",
+      "qubits": [
+        4,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        107,
+        108
+      ]
+    },
+    {
+      "id": 110,
+      "name": "sdg",
+      "qubits": [
+        1
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        102
+      ]
+    },
+    {
+      "id": 111,
+      "name": "h",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        109
+      ]
+    },
+    {
+      "id": 112,
+      "name": "h",
+      "qubits": [
+        3
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        73
+      ]
+    },
+    {
+      "id": 113,
+      "name": "h",
+      "qubits": [
+        4
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        109
+      ]
+    },
+    {
+      "id": 114,
+      "name": "measure",
+      "qubits": [
+        0
+      ],
+      "clbits": [
+        0
+      ],
+      "params": [],
+      "predecessors": [
+        94
+      ]
+    },
+    {
+      "id": 115,
+      "name": "measure",
+      "qubits": [
+        1
+      ],
+      "clbits": [
+        1
+      ],
+      "params": [],
+      "predecessors": [
+        110
+      ]
+    },
+    {
+      "id": 116,
+      "name": "measure",
+      "qubits": [
+        2
+      ],
+      "clbits": [
+        2
+      ],
+      "params": [],
+      "predecessors": [
+        111
+      ]
+    },
+    {
+      "id": 117,
+      "name": "measure",
+      "qubits": [
+        3
+      ],
+      "clbits": [
+        3
+      ],
+      "params": [],
+      "predecessors": [
+        112
+      ]
+    },
+    {
+      "id": 118,
+      "name": "measure",
+      "qubits": [
+        4
+      ],
+      "clbits": [
+        4
+      ],
+      "params": [],
+      "predecessors": [
+        113
+      ]
+    }
+  ],
+  "dag_fronts": [
+    {
+      "operation_ids": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        5
+      ],
+      "cx_ids": [
+        5
+      ],
+      "cx_pairs": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        6,
+        7
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        8
+      ],
+      "cx_ids": [
+        8
+      ],
+      "cx_pairs": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        9,
+        10
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        11
+      ],
+      "cx_ids": [
+        11
+      ],
+      "cx_pairs": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        12
+      ],
+      "cx_ids": [
+        12
+      ],
+      "cx_pairs": [
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        13,
+        20
+      ],
+      "cx_ids": [
+        13
+      ],
+      "cx_pairs": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        14,
+        15
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        16
+      ],
+      "cx_ids": [
+        16
+      ],
+      "cx_pairs": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        17,
+        18
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        19
+      ],
+      "cx_ids": [
+        19
+      ],
+      "cx_pairs": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        21
+      ],
+      "cx_ids": [
+        21
+      ],
+      "cx_pairs": [
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        22
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        23
+      ],
+      "cx_ids": [
+        23
+      ],
+      "cx_pairs": [
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        24,
+        58
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        25
+      ],
+      "cx_ids": [
+        25
+      ],
+      "cx_pairs": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        26,
+        27
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        28
+      ],
+      "cx_ids": [
+        28
+      ],
+      "cx_pairs": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        29,
+        30
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        31
+      ],
+      "cx_ids": [
+        31
+      ],
+      "cx_pairs": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        32
+      ],
+      "cx_ids": [
+        32
+      ],
+      "cx_pairs": [
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        33
+      ],
+      "cx_ids": [
+        33
+      ],
+      "cx_pairs": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        34,
+        35
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        36
+      ],
+      "cx_ids": [
+        36
+      ],
+      "cx_pairs": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        37,
+        38
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        39
+      ],
+      "cx_ids": [
+        39
+      ],
+      "cx_pairs": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        40
+      ],
+      "cx_ids": [
+        40
+      ],
+      "cx_pairs": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        41,
+        42
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        43
+      ],
+      "cx_ids": [
+        43
+      ],
+      "cx_pairs": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        44,
+        45
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        46
+      ],
+      "cx_ids": [
+        46
+      ],
+      "cx_pairs": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        47
+      ],
+      "cx_ids": [
+        47
+      ],
+      "cx_pairs": [
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        48
+      ],
+      "cx_ids": [
+        48
+      ],
+      "cx_pairs": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        49,
+        50
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        51
+      ],
+      "cx_ids": [
+        51
+      ],
+      "cx_pairs": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        52,
+        53
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        54
+      ],
+      "cx_ids": [
+        54
+      ],
+      "cx_pairs": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        55
+      ],
+      "cx_ids": [
+        55
+      ],
+      "cx_pairs": [
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        56,
+        57
+      ],
+      "cx_ids": [
+        56
+      ],
+      "cx_pairs": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        59
+      ],
+      "cx_ids": [
+        59
+      ],
+      "cx_pairs": [
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        60,
+        61
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        62
+      ],
+      "cx_ids": [
+        62
+      ],
+      "cx_pairs": [
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        63,
+        64
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        65
+      ],
+      "cx_ids": [
+        65
+      ],
+      "cx_pairs": [
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        66
+      ],
+      "cx_ids": [
+        66
+      ],
+      "cx_pairs": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        67
+      ],
+      "cx_ids": [
+        67
+      ],
+      "cx_pairs": [
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        68,
+        69
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        70
+      ],
+      "cx_ids": [
+        70
+      ],
+      "cx_pairs": [
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        71,
+        72
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        73
+      ],
+      "cx_ids": [
+        73
+      ],
+      "cx_pairs": [
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        74,
+        112
+      ],
+      "cx_ids": [
+        74
+      ],
+      "cx_pairs": [
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        75,
+        76,
+        117
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        77
+      ],
+      "cx_ids": [
+        77
+      ],
+      "cx_pairs": [
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        78,
+        79
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        80
+      ],
+      "cx_ids": [
+        80
+      ],
+      "cx_pairs": [
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        81
+      ],
+      "cx_ids": [
+        81
+      ],
+      "cx_pairs": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        82
+      ],
+      "cx_ids": [
+        82
+      ],
+      "cx_pairs": [
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        83,
+        84
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        85
+      ],
+      "cx_ids": [
+        85
+      ],
+      "cx_pairs": [
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        86,
+        87
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        88
+      ],
+      "cx_ids": [
+        88
+      ],
+      "cx_pairs": [
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        89
+      ],
+      "cx_ids": [
+        89
+      ],
+      "cx_pairs": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        90
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        91
+      ],
+      "cx_ids": [
+        91
+      ],
+      "cx_pairs": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        92,
+        93
+      ],
+      "cx_ids": [
+        93
+      ],
+      "cx_pairs": [
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        94,
+        95,
+        96
+      ],
+      "cx_ids": [
+        94
+      ],
+      "cx_pairs": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        97,
+        98,
+        114
+      ],
+      "cx_ids": [
+        98
+      ],
+      "cx_pairs": [
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        99,
+        100
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        101
+      ],
+      "cx_ids": [
+        101
+      ],
+      "cx_pairs": [
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        102
+      ],
+      "cx_ids": [
+        102
+      ],
+      "cx_pairs": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        103,
+        110
+      ],
+      "cx_ids": [
+        103
+      ],
+      "cx_pairs": [
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        104,
+        105,
+        115
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        106
+      ],
+      "cx_ids": [
+        106
+      ],
+      "cx_pairs": [
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        107,
+        108
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        109
+      ],
+      "cx_ids": [
+        109
+      ],
+      "cx_pairs": [
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        111,
+        113
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        116,
+        118
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    }
+  ],
+  "dag_depth_unit": "One original logical instruction, including retained barriers and measurements; not routing steps, QEC cycles, or physical TICKs.",
+  "strict_instruction_depth": 78,
+  "max_ready_cx": 1,
+  "front_metric_scope": "Ready-CX count in the recorded ASAP instruction fronts; not the maximum over all delayed schedules. Incomparable CX pairs separately capture other legal choices.",
+  "incomparable_cx_pairs": [
+    [
+      93,
+      94
+    ],
+    [
+      94,
+      98
+    ],
+    [
+      94,
+      101
+    ]
+  ],
+  "terminal_readout": [
+    {
+      "qubit": 0,
+      "classical_bit": 0
+    },
+    {
+      "qubit": 1,
+      "classical_bit": 1
+    },
+    {
+      "qubit": 2,
+      "classical_bit": 2
+    },
+    {
+      "qubit": 3,
+      "classical_bit": 3
+    },
+    {
+      "qubit": 4,
+      "classical_bit": 4
+    }
+  ],
+  "all_unitaries_clifford": true,
+  "non_clifford_operation_names": [],
+  "dynamic_or_opaque_names": [],
+  "full_physical_profile_supported": false,
+  "physical_rejection_reasons": [
+    "Current homogeneous-basis CNOT profile does not preserve these original operations: h, id, sdg",
+    "Fixed diagonal embedding does not support reverse CNOTs"
+  ],
+  "source_sha256": "c33b5a03491bceb26ca6d494632936614df035a352d437369eca28087ae72ff5",
+  "semantics_policy": "All original operations and classical dependencies retained; custom definitions expanded without deleting gates. No CNOT-only projection is called a full benchmark.",
+  "upstream_path": "small/error_correctiond3_n5/error_correctiond3_n5.qasm",
+  "upstream_blob_sha": "ca69255273ef890803a130d2464f40c7d8e8cd16"
+}

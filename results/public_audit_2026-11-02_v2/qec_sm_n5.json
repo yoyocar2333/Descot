@@ -1,0 +1,374 @@
+{
+  "name": "qec_sm_n5",
+  "logical_qubits": 5,
+  "classical_bits": 5,
+  "expanded_custom_gates": [
+    "syndrome"
+  ],
+  "operation_counts": {
+    "barrier": 1,
+    "cx": 4,
+    "if_else": 3,
+    "measure": 5,
+    "x": 1
+  },
+  "operations": [
+    {
+      "id": 0,
+      "name": "x",
+      "qubits": [
+        0
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": []
+    },
+    {
+      "id": 1,
+      "name": "barrier",
+      "qubits": [
+        0,
+        1,
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        0
+      ]
+    },
+    {
+      "id": 2,
+      "name": "cx",
+      "qubits": [
+        0,
+        3
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "name": "cx",
+      "qubits": [
+        1,
+        3
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 4,
+      "name": "cx",
+      "qubits": [
+        1,
+        4
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        3
+      ]
+    },
+    {
+      "id": 5,
+      "name": "cx",
+      "qubits": [
+        2,
+        4
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": 6,
+      "name": "measure",
+      "qubits": [
+        3
+      ],
+      "clbits": [
+        3
+      ],
+      "params": [],
+      "predecessors": [
+        3
+      ]
+    },
+    {
+      "id": 7,
+      "name": "measure",
+      "qubits": [
+        4
+      ],
+      "clbits": [
+        4
+      ],
+      "params": [],
+      "predecessors": [
+        5
+      ]
+    },
+    {
+      "id": 8,
+      "name": "if_else",
+      "qubits": [
+        0
+      ],
+      "clbits": [
+        3,
+        4
+      ],
+      "params": [
+        "       \u250c\u2500\u2500\u2500\u2510\n    0: \u2524 X \u251c\n       \u2514\u2500\u2500\u2500\u2518\nsyn: 2/\u2550\u2550\u2550\u2550\u2550\n            ",
+        "None"
+      ],
+      "predecessors": [
+        2,
+        6,
+        7
+      ]
+    },
+    {
+      "id": 9,
+      "name": "measure",
+      "qubits": [
+        0
+      ],
+      "clbits": [
+        0
+      ],
+      "params": [],
+      "predecessors": [
+        8
+      ]
+    },
+    {
+      "id": 10,
+      "name": "if_else",
+      "qubits": [
+        2
+      ],
+      "clbits": [
+        3,
+        4
+      ],
+      "params": [
+        "       \u250c\u2500\u2500\u2500\u2510\n    0: \u2524 X \u251c\n       \u2514\u2500\u2500\u2500\u2518\nsyn: 2/\u2550\u2550\u2550\u2550\u2550\n            ",
+        "None"
+      ],
+      "predecessors": [
+        5,
+        8
+      ]
+    },
+    {
+      "id": 11,
+      "name": "if_else",
+      "qubits": [
+        1
+      ],
+      "clbits": [
+        3,
+        4
+      ],
+      "params": [
+        "       \u250c\u2500\u2500\u2500\u2510\n    0: \u2524 X \u251c\n       \u2514\u2500\u2500\u2500\u2518\nsyn: 2/\u2550\u2550\u2550\u2550\u2550\n            ",
+        "None"
+      ],
+      "predecessors": [
+        4,
+        10
+      ]
+    },
+    {
+      "id": 12,
+      "name": "measure",
+      "qubits": [
+        1
+      ],
+      "clbits": [
+        1
+      ],
+      "params": [],
+      "predecessors": [
+        11
+      ]
+    },
+    {
+      "id": 13,
+      "name": "measure",
+      "qubits": [
+        2
+      ],
+      "clbits": [
+        2
+      ],
+      "params": [],
+      "predecessors": [
+        10
+      ]
+    }
+  ],
+  "dag_fronts": [
+    {
+      "operation_ids": [
+        0
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        1
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        2
+      ],
+      "cx_ids": [
+        2
+      ],
+      "cx_pairs": [
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        3
+      ],
+      "cx_ids": [
+        3
+      ],
+      "cx_pairs": [
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        4,
+        6
+      ],
+      "cx_ids": [
+        4
+      ],
+      "cx_pairs": [
+        [
+          1,
+          4
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        5
+      ],
+      "cx_ids": [
+        5
+      ],
+      "cx_pairs": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        7
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        8
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        9,
+        10
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        11,
+        13
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        12
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    }
+  ],
+  "dag_depth_unit": "One original logical instruction, including retained barriers and measurements; not routing steps, QEC cycles, or physical TICKs.",
+  "strict_instruction_depth": 11,
+  "max_ready_cx": 1,
+  "front_metric_scope": "Ready-CX count in the recorded ASAP instruction fronts; not the maximum over all delayed schedules. Incomparable CX pairs separately capture other legal choices.",
+  "incomparable_cx_pairs": [],
+  "terminal_readout": [
+    {
+      "qubit": 3,
+      "classical_bit": 3
+    },
+    {
+      "qubit": 4,
+      "classical_bit": 4
+    },
+    {
+      "qubit": 0,
+      "classical_bit": 0
+    },
+    {
+      "qubit": 1,
+      "classical_bit": 1
+    },
+    {
+      "qubit": 2,
+      "classical_bit": 2
+    }
+  ],
+  "all_unitaries_clifford": false,
+  "non_clifford_operation_names": [],
+  "dynamic_or_opaque_names": [
+    "if_else"
+  ],
+  "full_physical_profile_supported": false,
+  "physical_rejection_reasons": [
+    "Current homogeneous-basis CNOT profile does not preserve these original operations: barrier, if_else, x",
+    "Dynamic or opaque operations: if_else"
+  ],
+  "source_sha256": "dcf8d069188a5cf96a04aaaed23ff6f78e3663523c429609676e066a90332598",
+  "semantics_policy": "All original operations and classical dependencies retained; custom definitions expanded without deleting gates. No CNOT-only projection is called a full benchmark.",
+  "upstream_path": "small/qec_sm_n5/qec_sm_n5.qasm",
+  "upstream_blob_sha": "1cf21012876190fa48157b9a35d9b250439b1409"
+}

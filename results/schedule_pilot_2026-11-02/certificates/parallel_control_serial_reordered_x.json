@@ -1,0 +1,744 @@
+{
+  "profile_id": "diagonal_forward_cnot_layers_v1",
+  "request_sha256": "b783270a75d85fdf63d2aeae87f95b32424ddec93ccb0fb3055a25add09a8bea",
+  "source_validation": {
+    "valid": true,
+    "gate_count": 3,
+    "time_steps": 3,
+    "checks": [
+      "gate_identity",
+      "mapping",
+      "per_qubit_dependencies",
+      "path_connectivity",
+      "boundary_orientation",
+      "vertex_disjointness",
+      "data_preservation"
+    ],
+    "scope": "Abstract CNOT/T/TDG routing program. No physical QEC or noise simulation."
+  },
+  "basis": "x",
+  "distance": 3,
+  "logical_qubits": 4,
+  "x_spacing_blocks": 1,
+  "layers": [
+    [
+      1
+    ],
+    [
+      0
+    ],
+    [
+      2
+    ]
+  ],
+  "logical_block_xy": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      3
+    ]
+  ],
+  "gate_footprints": [
+    {
+      "data": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "ancillas": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "data": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "ancillas": [
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "data": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "ancillas": [
+        [
+          1,
+          2
+        ]
+      ]
+    }
+  ],
+  "gate_block_z": [
+    {
+      "gate_id": 0,
+      "source_layer": 1,
+      "block_z": [
+        3,
+        6
+      ]
+    },
+    {
+      "gate_id": 1,
+      "source_layer": 0,
+      "block_z": [
+        0,
+        3
+      ]
+    },
+    {
+      "gate_id": 2,
+      "source_layer": 2,
+      "block_z": [
+        6,
+        9
+      ]
+    }
+  ],
+  "timing_policy": "three_block_z_per_source_step_v1",
+  "source_step_count": 3,
+  "all_live_qubits_block_z": [
+    0,
+    9
+  ],
+  "lifetimes": [
+    {
+      "logical_qubit": 0,
+      "lifetime_block_z": [
+        0,
+        9
+      ],
+      "active_layers": [
+        1
+      ],
+      "memory_layers": [
+        0,
+        2
+      ]
+    },
+    {
+      "logical_qubit": 1,
+      "lifetime_block_z": [
+        0,
+        9
+      ],
+      "active_layers": [
+        1,
+        2
+      ],
+      "memory_layers": [
+        0
+      ]
+    },
+    {
+      "logical_qubit": 2,
+      "lifetime_block_z": [
+        0,
+        9
+      ],
+      "active_layers": [
+        0,
+        2
+      ],
+      "memory_layers": [
+        1
+      ]
+    },
+    {
+      "logical_qubit": 3,
+      "lifetime_block_z": [
+        0,
+        9
+      ],
+      "active_layers": [
+        0
+      ],
+      "memory_layers": [
+        1,
+        2
+      ]
+    }
+  ],
+  "conservative_ancilla_reservation_block_z": 9,
+  "data_reservation_block_z": 36,
+  "mu": 0,
+  "scope": "Restricted layer synthesis with full footprint reservations; not arbitrary route support or algorithm-performance evidence.",
+  "physical_validation": {
+    "all_signed_inputs_passed": true,
+    "signed_inputs": [
+      {
+        "input_signs": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "output_signs": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "observable_parities": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "shots": 32
+      },
+      {
+        "input_signs": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "output_signs": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "observable_parities": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "shots": 32
+      },
+      {
+        "input_signs": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "output_signs": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "observable_parities": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "shots": 32
+      },
+      {
+        "input_signs": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "output_signs": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "observable_parities": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "shots": 32
+      },
+      {
+        "input_signs": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "output_signs": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "observable_parities": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "shots": 32
+      },
+      {
+        "input_signs": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "output_signs": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "observable_parities": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "shots": 32
+      },
+      {
+        "input_signs": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "output_signs": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "observable_parities": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "shots": 32
+      },
+      {
+        "input_signs": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "output_signs": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "observable_parities": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "shots": 32
+      },
+      {
+        "input_signs": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "output_signs": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "observable_parities": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "shots": 32
+      },
+      {
+        "input_signs": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "output_signs": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "observable_parities": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "shots": 32
+      },
+      {
+        "input_signs": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "output_signs": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "observable_parities": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "shots": 32
+      },
+      {
+        "input_signs": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "output_signs": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "observable_parities": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "shots": 32
+      },
+      {
+        "input_signs": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "output_signs": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "observable_parities": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "shots": 32
+      },
+      {
+        "input_signs": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "output_signs": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "observable_parities": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "shots": 32
+      },
+      {
+        "input_signs": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "output_signs": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "observable_parities": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "shots": 32
+      },
+      {
+        "input_signs": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "output_signs": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "observable_parities": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "shots": 32
+      }
+    ],
+    "final_logical_faults": [
+      {
+        "logical_qubit": 0,
+        "observable_flips": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "shots": 32
+      },
+      {
+        "logical_qubit": 1,
+        "observable_flips": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "shots": 32
+      },
+      {
+        "logical_qubit": 2,
+        "observable_flips": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "shots": 32
+      },
+      {
+        "logical_qubit": 3,
+        "observable_flips": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "shots": 32
+      }
+    ],
+    "common_lifetime_block_z": [
+      0,
+      9
+    ]
+  },
+  "occupied_block_xy": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      3
+    ]
+  ],
+  "block_footprint_matches_backend": true,
+  "all_live_memory_verified": true,
+  "backend_meta": {
+    "profile_id": "diagonal_forward_cnot_layers_v1",
+    "basis": "x",
+    "distance": 3,
+    "logical_gates": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "layers": [
+      [
+        1
+      ],
+      [
+        0
+      ],
+      [
+        2
+      ]
+    ],
+    "logical_qubits": 4,
+    "logical_block_xy": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "x_spacing_blocks": 1,
+    "input_z": 0,
+    "output_z": 9,
+    "external_flows": [
+      "XXIIXIII",
+      "XXXXXIXI",
+      "XXIXXIIX",
+      "XIXXXXII"
+    ],
+    "gate_footprints": [
+      {
+        "data": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "ancillas": [
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "data": [
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "ancillas": [
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "data": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "ancillas": [
+          [
+            1,
+            2
+          ]
+        ]
+      }
+    ],
+    "num_qubits": 193,
+    "num_ticks": 209,
+    "num_observables": 4,
+    "num_detectors": 1152,
+    "tqec_commit": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+    "scope": "Restricted full CNOT schedule with common lifetime and protected spectator memory; not arbitrary routes or process fidelity."
+  },
+  "ideal_circuit_sha256": "66e874b82fb0dd849ceb9c09bf1be3bf91ed3105816cb7df0bbf2205d72e6896",
+  "num_qubits": 193,
+  "num_ticks": 209
+}

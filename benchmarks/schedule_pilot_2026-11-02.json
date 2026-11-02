@@ -1,0 +1,423 @@
+{
+  "id": "schedule_development_fixtures_20261102_v1",
+  "search_seed": 204,
+  "routing_seed": 1,
+  "trials_limit": 3000,
+  "trials_visited": 35,
+  "logical_qubits": 6,
+  "forward_cnot_count_range": [
+    8,
+    16
+  ],
+  "candidate_cap": 16,
+  "front_evaluation_budget": 48,
+  "selection": "First shorter and first longer two-step routed depth, before any noisy sampling. Deliberately selected development fixtures, never held-out performance evidence.",
+  "trials": [
+    {
+      "index": 0,
+      "program_sha256": "50fb7f455fa0c4f9efbf8e700e6829fea0c07ef90cc9f17be871250841f6eaa6",
+      "gate_count": 14,
+      "one_depth": 8,
+      "two_depth": 8
+    },
+    {
+      "index": 1,
+      "program_sha256": "7f549ee061ed50ffc3542f2f204dfc4a83f9d13449f49f4751323b6a39dafd0d",
+      "gate_count": 14,
+      "one_depth": 9,
+      "two_depth": 9
+    },
+    {
+      "index": 2,
+      "program_sha256": "cccad2ef262b102ee3867a2f4f39e0146063fb1eec145b78470ba1e125ece9d1",
+      "gate_count": 15,
+      "one_depth": 12,
+      "two_depth": 12
+    },
+    {
+      "index": 3,
+      "program_sha256": "52808ce01a48416e165174ab2f2376eaad8287b4c1297a7e0897e326ab8c2346",
+      "gate_count": 16,
+      "one_depth": 10,
+      "two_depth": 10
+    },
+    {
+      "index": 4,
+      "program_sha256": "f6bbf3144f90d45820062eb6f9cd11bf39eb9d937b7f849c0281a568016eca16",
+      "gate_count": 12,
+      "one_depth": 9,
+      "two_depth": 10
+    },
+    {
+      "index": 5,
+      "program_sha256": "1f6c1d7c4a5a330b32518e3abd15da835a8e61c04fd18702b4c14cd234b0bdf6",
+      "gate_count": 15,
+      "one_depth": 12,
+      "two_depth": 12
+    },
+    {
+      "index": 6,
+      "program_sha256": "e8b0318b6509b971c9cf0cb36b09f3f79c3749754cce273dd876aea52ebeda2d",
+      "gate_count": 15,
+      "one_depth": 9,
+      "two_depth": 9
+    },
+    {
+      "index": 7,
+      "program_sha256": "eed319a18420899a697ecf9df54ef4fb9860968464a2dd1797956a0dd444f75c",
+      "gate_count": 12,
+      "one_depth": 9,
+      "two_depth": 9
+    },
+    {
+      "index": 8,
+      "program_sha256": "c9e3188a1597dd05f6f504aa86bdf40865307b54f58689ee489a8f184043d67e",
+      "gate_count": 14,
+      "one_depth": 9,
+      "two_depth": 9
+    },
+    {
+      "index": 9,
+      "program_sha256": "924f0df9d421a8a62666dadfdb7f698127eda725962b026a694e353d58512d3c",
+      "gate_count": 11,
+      "one_depth": 8,
+      "two_depth": 8
+    },
+    {
+      "index": 10,
+      "program_sha256": "1ff8184ea89fc9a6ef38076199e3d840af5cd8b9f0e9cc4d8474a20f4899b447",
+      "gate_count": 15,
+      "one_depth": 14,
+      "two_depth": 14
+    },
+    {
+      "index": 11,
+      "program_sha256": "a571233b59122aa4119bcee6093578d700831937e00b833f494043e089802616",
+      "gate_count": 11,
+      "one_depth": 8,
+      "two_depth": 8
+    },
+    {
+      "index": 12,
+      "program_sha256": "6ace287dfe90f2ebc9577bc502dfd2f02b5060b97d7eab370c30ffcf2cd95a80",
+      "gate_count": 12,
+      "one_depth": 10,
+      "two_depth": 10
+    },
+    {
+      "index": 13,
+      "program_sha256": "2820a7bc16ce340909afad5d6cd2da103bd4daae8243970bddf665391b929763",
+      "gate_count": 11,
+      "one_depth": 7,
+      "two_depth": 7
+    },
+    {
+      "index": 14,
+      "program_sha256": "31124cdebcfb408a4010892d07fb883d059120c58f0275ba146fdb6da0ac8f05",
+      "gate_count": 15,
+      "one_depth": 8,
+      "two_depth": 8
+    },
+    {
+      "index": 15,
+      "program_sha256": "532f41543fc1a5085f7469379d476cdeeffc69d10cd1bb6b746793f038edc37c",
+      "gate_count": 13,
+      "one_depth": 11,
+      "two_depth": 11
+    },
+    {
+      "index": 16,
+      "program_sha256": "12db958fb893ff685421b911a63814688550ef1c8c841e34b0394621246bf908",
+      "gate_count": 15,
+      "one_depth": 10,
+      "two_depth": 11
+    },
+    {
+      "index": 17,
+      "program_sha256": "c70e4018df216ac37a0e0f88f5d92f1ddde5a5a5bbe906364cf26a105a59f689",
+      "gate_count": 15,
+      "one_depth": 12,
+      "two_depth": 12
+    },
+    {
+      "index": 18,
+      "program_sha256": "21f71b0693f2e3498289edc6a6704597b8ed6debdd7a5a0a280079c2b7361e1d",
+      "gate_count": 10,
+      "one_depth": 6,
+      "two_depth": 6
+    },
+    {
+      "index": 19,
+      "program_sha256": "a3d7f373123c42a1f3856e7951f648b191e25ffef380e6df73bec97c236252e9",
+      "gate_count": 16,
+      "one_depth": 12,
+      "two_depth": 12
+    },
+    {
+      "index": 20,
+      "program_sha256": "5e18a6b0e2cece82d40c38ab5d16ec6e813339a5691bd73438818d0454b6e053",
+      "gate_count": 8,
+      "skipped": "not all six logical qubits used"
+    },
+    {
+      "index": 21,
+      "program_sha256": "2500473d9f5a8ffcca90acb374ff08540aeabf0dded24dc644d57ae0435b74d4",
+      "gate_count": 8,
+      "skipped": "not all six logical qubits used"
+    },
+    {
+      "index": 22,
+      "program_sha256": "356667c1e2d2db8a078ac16f089507440c5788a0e73247bfc03326e10f01a4de",
+      "gate_count": 15,
+      "one_depth": 10,
+      "two_depth": 10
+    },
+    {
+      "index": 23,
+      "program_sha256": "2bad1a04951be47a6465096540f87020aa01776f6ec2292b77985246caddec55",
+      "gate_count": 9,
+      "one_depth": 6,
+      "two_depth": 6
+    },
+    {
+      "index": 24,
+      "program_sha256": "5520bdc6b7c7a4f0960304c3bffe8bedca337febe90a7219846468f06e2ee700",
+      "gate_count": 9,
+      "one_depth": 7,
+      "two_depth": 7
+    },
+    {
+      "index": 25,
+      "program_sha256": "6d8cd255d58930aab23a0b547f431e34540953d9816117ffeaed02fa973dd865",
+      "gate_count": 8,
+      "one_depth": 6,
+      "two_depth": 6
+    },
+    {
+      "index": 26,
+      "program_sha256": "4d6ae84963ee0df5016c1c81e2601d0da99b59595542da46af4274cd116969d7",
+      "gate_count": 11,
+      "one_depth": 9,
+      "two_depth": 9
+    },
+    {
+      "index": 27,
+      "program_sha256": "d95f53953b77ebe0653e7c7301de8948f40b8928faa892c5fc61dbc3952034be",
+      "gate_count": 8,
+      "one_depth": 5,
+      "two_depth": 5
+    },
+    {
+      "index": 28,
+      "program_sha256": "5187cb6c3933998f45f2d61f1fc1ee545a90defdc45dafa3a03c55e5acb9383d",
+      "gate_count": 9,
+      "one_depth": 7,
+      "two_depth": 7
+    },
+    {
+      "index": 29,
+      "program_sha256": "ca7b9d2f1ad9ed9c53be2b245981cd46f1b84f37b4503713a80f612b7d8a87cc",
+      "gate_count": 16,
+      "one_depth": 11,
+      "two_depth": 11
+    },
+    {
+      "index": 30,
+      "program_sha256": "d05c92a828e46caa12c71ee7eb0ada11420cc9a0aa41c02a16fc0260a87956c1",
+      "gate_count": 14,
+      "one_depth": 10,
+      "two_depth": 10
+    },
+    {
+      "index": 31,
+      "program_sha256": "3235c423db5c6ea6bc868a227a1c8d8aa0b4ef780d4b9381fd5dd0558069864d",
+      "gate_count": 14,
+      "one_depth": 11,
+      "two_depth": 11
+    },
+    {
+      "index": 32,
+      "program_sha256": "96384a8acf9c707ec816c1da8df1692adce36960569c12f6f467da949659066a",
+      "gate_count": 16,
+      "one_depth": 12,
+      "two_depth": 12
+    },
+    {
+      "index": 33,
+      "program_sha256": "d91dfe4be7cb20e6b25c429c38f9cbec2933a58e68479913eef1a82fb0ce301e",
+      "gate_count": 16,
+      "one_depth": 11,
+      "two_depth": 11
+    },
+    {
+      "index": 34,
+      "program_sha256": "7baf0afdbccfce93af3da6e1f7774e6299d5efeb9946adc6508d0d828ae63e5f",
+      "gate_count": 11,
+      "one_depth": 10,
+      "two_depth": 9
+    }
+  ],
+  "fixtures": {
+    "two_longer": {
+      "case_id": "two_longer",
+      "development_index": 4,
+      "logical_qubits": 6,
+      "gates": [
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "one_depth": 9,
+      "two_depth": 10
+    },
+    "two_shorter": {
+      "case_id": "two_shorter",
+      "development_index": 34,
+      "logical_qubits": 6,
+      "gates": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "one_depth": 10,
+      "two_depth": 9
+    }
+  },
+  "control": {
+    "case_id": "parallel_control",
+    "logical_qubits": 4,
+    "gates": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "layers": {
+      "parallel": [
+        [
+          0,
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "serial": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "serial_reordered": [
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          2
+        ]
+      ]
+    }
+  }
+}

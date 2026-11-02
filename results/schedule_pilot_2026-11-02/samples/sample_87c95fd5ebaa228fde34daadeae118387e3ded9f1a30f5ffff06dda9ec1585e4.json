@@ -1,0 +1,232 @@
+{
+  "sample_id": "sample_87c95fd5ebaa228fde34daadeae118387e3ded9f1a30f5ffff06dda9ec1585e4",
+  "ideal_circuit_sha256": "d3faf436bb13dd89fb567bc8e07b7f5f562248c0964ab02ca0ba0d51ccdc1755",
+  "noisy_circuit_sha256": "d02a6b10a2dce57a02b64e3a68a204389dc9c5f07c820323da4d3349cf291ab0",
+  "dem_sha256": "aa3032ea9a7fe113412dc528ae7699db97c928f9a107a215c2494daf08c9c8ff",
+  "basis": "z",
+  "distance": 3,
+  "physical_p": 0.001,
+  "model_id": "tqec_uniform_depolarizing_circuit_v1",
+  "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+  "num_qubits": 193,
+  "num_ticks": 209,
+  "num_detectors": 1152,
+  "num_observables": 4,
+  "shots": 100000,
+  "seed": 1292391651929214757,
+  "batch_size": 5000,
+  "batches": [
+    {
+      "shots": 5000,
+      "failures_any": 615,
+      "failures_by_observable": [
+        147,
+        276,
+        202,
+        224
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 613,
+      "failures_by_observable": [
+        134,
+        288,
+        173,
+        242
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 560,
+      "failures_by_observable": [
+        129,
+        271,
+        166,
+        202
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 561,
+      "failures_by_observable": [
+        128,
+        251,
+        182,
+        206
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 603,
+      "failures_by_observable": [
+        129,
+        268,
+        207,
+        215
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 583,
+      "failures_by_observable": [
+        148,
+        279,
+        184,
+        207
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 621,
+      "failures_by_observable": [
+        159,
+        303,
+        198,
+        220
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 577,
+      "failures_by_observable": [
+        142,
+        275,
+        187,
+        210
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 594,
+      "failures_by_observable": [
+        136,
+        278,
+        183,
+        218
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 578,
+      "failures_by_observable": [
+        115,
+        252,
+        203,
+        203
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 587,
+      "failures_by_observable": [
+        123,
+        264,
+        188,
+        211
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 621,
+      "failures_by_observable": [
+        122,
+        271,
+        188,
+        236
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 609,
+      "failures_by_observable": [
+        130,
+        247,
+        204,
+        235
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 555,
+      "failures_by_observable": [
+        118,
+        241,
+        192,
+        218
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 598,
+      "failures_by_observable": [
+        142,
+        276,
+        204,
+        215
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 663,
+      "failures_by_observable": [
+        123,
+        317,
+        211,
+        228
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 662,
+      "failures_by_observable": [
+        139,
+        304,
+        208,
+        237
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 606,
+      "failures_by_observable": [
+        125,
+        257,
+        189,
+        237
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 611,
+      "failures_by_observable": [
+        144,
+        284,
+        193,
+        223
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 588,
+      "failures_by_observable": [
+        113,
+        263,
+        194,
+        213
+      ]
+    }
+  ],
+  "failures_any": 12005,
+  "failures_by_observable": [
+    2646,
+    5465,
+    3856,
+    4400
+  ],
+  "p_fail_any": 0.12005,
+  "wilson95_low": 0.11805012309487178,
+  "wilson95_high": 0.1220790670293801,
+  "shortest_graphlike_error": 3,
+  "sampling_decode_seconds": 0.9798858780000046
+}

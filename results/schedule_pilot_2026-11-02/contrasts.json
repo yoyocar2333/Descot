@@ -1,0 +1,170 @@
+[
+  {
+    "case_id": "parallel_control",
+    "basis": "x",
+    "first": "parallel",
+    "second": "serial",
+    "difference": 0.030350000000000016,
+    "ci95": [
+      0.02761130373808625,
+      0.033089623439477016
+    ],
+    "method": "Newcombe hybrid score interval for independent binomial samples; pointwise, exploratory, no familywise adjustment"
+  },
+  {
+    "case_id": "parallel_control",
+    "basis": "x",
+    "first": "parallel",
+    "second": "serial_reordered",
+    "difference": 0.03298000000000001,
+    "ci95": [
+      0.030227580006275352,
+      0.035733382301912614
+    ],
+    "method": "Newcombe hybrid score interval for independent binomial samples; pointwise, exploratory, no familywise adjustment"
+  },
+  {
+    "case_id": "parallel_control",
+    "basis": "x",
+    "first": "serial",
+    "second": "serial_reordered",
+    "difference": 0.0026299999999999935,
+    "ci95": [
+      -0.0002833653304732909,
+      0.005543402899072255
+    ],
+    "method": "Newcombe hybrid score interval for independent binomial samples; pointwise, exploratory, no familywise adjustment"
+  },
+  {
+    "case_id": "parallel_control",
+    "basis": "z",
+    "first": "parallel",
+    "second": "serial",
+    "difference": 0.03129,
+    "ci95": [
+      0.02861369389015149,
+      0.033967468438846515
+    ],
+    "method": "Newcombe hybrid score interval for independent binomial samples; pointwise, exploratory, no familywise adjustment"
+  },
+  {
+    "case_id": "parallel_control",
+    "basis": "z",
+    "first": "parallel",
+    "second": "serial_reordered",
+    "difference": 0.028189999999999993,
+    "ci95": [
+      0.025530686093909,
+      0.030850413139674716
+    ],
+    "method": "Newcombe hybrid score interval for independent binomial samples; pointwise, exploratory, no familywise adjustment"
+  },
+  {
+    "case_id": "parallel_control",
+    "basis": "z",
+    "first": "serial",
+    "second": "serial_reordered",
+    "difference": -0.0031000000000000055,
+    "ci95": [
+      -0.005933011948950993,
+      -0.0002670542754727432
+    ],
+    "method": "Newcombe hybrid score interval for independent binomial samples; pointwise, exploratory, no familywise adjustment"
+  },
+  {
+    "case_id": "two_shorter",
+    "basis": "x",
+    "first": "one_step",
+    "second": "two_step",
+    "difference": -0.025280000000000025,
+    "ci95": [
+      -0.029660033633898547,
+      -0.020898593302458558
+    ],
+    "method": "Newcombe hybrid score interval for independent binomial samples; pointwise, exploratory, no familywise adjustment"
+  },
+  {
+    "case_id": "two_shorter",
+    "basis": "x",
+    "first": "author_profile",
+    "second": "two_step",
+    "difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "method": "identical circuit and reused sample: difference identically zero"
+  },
+  {
+    "case_id": "two_shorter",
+    "basis": "z",
+    "first": "one_step",
+    "second": "two_step",
+    "difference": -0.02681,
+    "ci95": [
+      -0.031184082048542866,
+      -0.022434465611918114
+    ],
+    "method": "Newcombe hybrid score interval for independent binomial samples; pointwise, exploratory, no familywise adjustment"
+  },
+  {
+    "case_id": "two_shorter",
+    "basis": "z",
+    "first": "author_profile",
+    "second": "two_step",
+    "difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "method": "identical circuit and reused sample: difference identically zero"
+  },
+  {
+    "case_id": "two_longer",
+    "basis": "x",
+    "first": "one_step",
+    "second": "two_step",
+    "difference": 0.027720000000000022,
+    "ci95": [
+      0.023338412415074932,
+      0.03210008172086318
+    ],
+    "method": "Newcombe hybrid score interval for independent binomial samples; pointwise, exploratory, no familywise adjustment"
+  },
+  {
+    "case_id": "two_longer",
+    "basis": "x",
+    "first": "author_profile",
+    "second": "two_step",
+    "difference": 0.027720000000000022,
+    "ci95": [
+      0.023338412415074932,
+      0.03210008172086318
+    ],
+    "method": "Newcombe hybrid score interval for independent binomial samples; pointwise, exploratory, no familywise adjustment"
+  },
+  {
+    "case_id": "two_longer",
+    "basis": "z",
+    "first": "one_step",
+    "second": "two_step",
+    "difference": 0.027749999999999997,
+    "ci95": [
+      0.023372669910616373,
+      0.032125825528343234
+    ],
+    "method": "Newcombe hybrid score interval for independent binomial samples; pointwise, exploratory, no familywise adjustment"
+  },
+  {
+    "case_id": "two_longer",
+    "basis": "z",
+    "first": "author_profile",
+    "second": "two_step",
+    "difference": 0.027749999999999997,
+    "ci95": [
+      0.023372669910616373,
+      0.032125825528343234
+    ],
+    "method": "Newcombe hybrid score interval for independent binomial samples; pointwise, exploratory, no familywise adjustment"
+  }
+]
