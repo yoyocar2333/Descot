@@ -49,3 +49,20 @@ def test_guard_ablation_and_hard_depth_constraint_use_no_test_labels():
     guarded=select(blind,{**model,'loo_max_abs_logit_residual':1e6},pool='serial_matched',guarded=True)
     assert guarded['candidate_id']==guarded['baseline_candidate_id']=='p00'
     assert fit_model(rows,False)['fields']==['physical_layers']
+
+
+def test_interval_metadata_cannot_overwrite_selector_name():
+    from memory_calibration_previous import wilson_interval
+    from report_public_candidates import evaluate_decisions
+    observed={}
+    for name,k in [('p00',62000),('p03',59000)]:
+        lo,hi=wilson_interval(k,100000)
+        observed[name]={'sample_id':name,'shots':100000,'failures_any':k,'p_fail_any':k/100000,
+                        'wilson95_low':lo,'wilson95_high':hi}
+    decisions=[{'method':'depth_wait','candidate_id':'p03','baseline_candidate_id':'p00'},
+               {'method':'depth_wait_guard','candidate_id':'p00','baseline_candidate_id':'p00'}]
+    rows=evaluate_decisions(observed,decisions)
+    assert [r['method'] for r in rows]==['depth_wait','depth_wait_guard']
+    assert rows[0]['difference']==pytest.approx(-.03)
+    assert 'Newcombe' in rows[0]['interval_method']
+    assert rows[1]['difference']==0 and rows[1]['ci95']==[0,0]

@@ -106,12 +106,20 @@ def audit(folder):
     return stages,frozen
 
 
-def report(folder):
-    stages,frozen=audit(folder);observed={r['candidate_id']:r for r in stages['heldout']['records']};evaluations=[]
-    for d in frozen['decisions']:
+def evaluate_decisions(observed,decisions):
+    evaluations=[]
+    for d in decisions:
         first=observed[d['baseline_candidate_id']];second=observed[d['candidate_id']]
+        interval=contrast(first,second)
+        interval['interval_method']=interval.pop('method')
         evaluations.append({**d,'baseline_failures':first['failures_any'],'selected_failures':second['failures_any'],
-             'shots_each':100000,**contrast(first,second)})
+             'shots_each':first['shots'],**interval})
+    return evaluations
+
+
+def report(folder):
+    stages,frozen=audit(folder);observed={r['candidate_id']:r for r in stages['heldout']['records']}
+    evaluations=evaluate_decisions(observed,frozen['decisions'])
     # Pairwise matched-serial contrasts are descriptive, with Holm-adjusted p
     # intentionally not inferred from the individual score CIs.
     serial=[r for r in stages['heldout']['records'] if r['features']['cx_routing_steps']==4]
