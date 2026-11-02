@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "full_original_operations": {
+    "cx": 4,
+    "h": 20,
+    "measure": 4,
+    "x": 4
+  },
+  "conditions": 4,
+  "unique_sampled_circuits": 4,
+  "new_monte_carlo_shots": 400000,
+  "checks": [
+    "fixed complete source and instruction DAG",
+    "all H/X/CX/readout trace and original classical mapping",
+    "source and circuit/DEM hashes",
+    "all signed inputs and final faults",
+    "conjugate X-generator physical validation and frame propagation",
+    "batch counts, intervals, comparison conditions and unique shot count"
+  ],
+  "scope": "Audit uses stored physical-validation records; no new sampling or compiler execution"
+}

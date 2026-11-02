@@ -26,5 +26,11 @@
     "bytes": 6225048,
     "result_prefix": "results/schedule_pilot_2026-11-02",
     "description": "Frozen full-schedule development pilot: 9 source configurations, 18 requests, 14 unique complete circuits, 1400000 noisy shots, full raw circuits/DEMs, pre-noise positive/negative selection, separate routing timing, audit and 96-test log; 2026-11-02."
+  },
+  "public_hs4_2026-11-02.zip": {
+    "sha256": "78d53a6940053675b725c657c7e110dd0fabea3a0af8fe30dced87f0e7e629a4",
+    "bytes": 2129672,
+    "result_prefix": "results/public_hs4_2026-11-02",
+    "description": "Complete public hs4_n4 with all original H/X/CX/readout, oriented patches and exact virtual Pauli frame: four conditions, 400000 new shots, all circuits/DEMs/counts, signed/conjugate physical checks, original classical readout, isolated timing, audit and 109-test log; 2026-11-02."
   }
 }

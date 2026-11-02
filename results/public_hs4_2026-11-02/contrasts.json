@@ -1,0 +1,45 @@
+{
+  "method": "Newcombe independent binomial score; exploratory pointwise 95%, no familywise correction",
+  "comparisons": [
+    {
+      "first": "hs4_parallel_spacing3",
+      "second": "hs4_serial_spacing3",
+      "difference": 0.14288,
+      "ci95": [
+        0.13854478778402782,
+        0.1472074729085447
+      ],
+      "method": "Newcombe hybrid score interval for independent binomial samples; pointwise, exploratory, no familywise adjustment"
+    },
+    {
+      "first": "hs4_parallel_spacing3",
+      "second": "hs4_serial_reverse_spacing3",
+      "difference": 0.10568,
+      "ci95": [
+        0.10131969218526797,
+        0.11003456827587278
+      ],
+      "method": "Newcombe hybrid score interval for independent binomial samples; pointwise, exploratory, no familywise adjustment"
+    },
+    {
+      "first": "hs4_parallel_spacing3",
+      "second": "hs4_parallel_spacing4",
+      "difference": 0.026319999999999955,
+      "ci95": [
+        0.02194714143786882,
+        0.030691434551037112
+      ],
+      "method": "Newcombe hybrid score interval for independent binomial samples; pointwise, exploratory, no familywise adjustment"
+    },
+    {
+      "first": "hs4_serial_spacing3",
+      "second": "hs4_serial_reverse_spacing3",
+      "difference": -0.03720000000000001,
+      "ci95": [
+        -0.04152294995605525,
+        -0.03287508148794585
+      ],
+      "method": "Newcombe hybrid score interval for independent binomial samples; pointwise, exploratory, no familywise adjustment"
+    }
+  ]
+}

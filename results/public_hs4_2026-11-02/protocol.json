@@ -1,0 +1,40 @@
+{
+  "id": "complete_public_hs4_20261102_v1",
+  "source": "hs4_n4",
+  "conditions": [
+    {
+      "mode": "parallel",
+      "spacing_blocks": 3
+    },
+    {
+      "mode": "serial",
+      "spacing_blocks": 3
+    },
+    {
+      "mode": "serial_reverse",
+      "spacing_blocks": 3
+    },
+    {
+      "mode": "parallel",
+      "spacing_blocks": 4
+    }
+  ],
+  "input": "Original |0000> preparation",
+  "readout": "All four original terminal Z measurements with original classical destinations; Pauli-frame XOR retained",
+  "distance": 3,
+  "physical_p": 0.001,
+  "shots_per_condition": 100000,
+  "batch_size": 5000,
+  "model_id": "tqec_uniform_depolarizing_circuit_v1",
+  "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+  "observable_failure": "Any of four complete independent Z-correlation observables misdecoded, equivalent to any corrected output bit wrong for this deterministic-output program",
+  "x_policy": "All four original X instructions execute virtually, zero time/no added physical noise; exact Pauli frame propagation through every retained H/CX, XOR at original classical outputs",
+  "h_policy": "All 20 original H instructions physically represented; no cancellation or gate dropping",
+  "timing_policy": "3 block-z per physical H/CX layer; virtual X takes zero. TQEC fixed-bulk H realignment has additional physical extent. Stim TICKs counted from compiled circuit, QEC rounds not inferred from block-z or TICKs",
+  "selection": "Predeclared parallel/serial/serial-reverse controls at spacing3 plus parallel at spacing4. No noisy selection, held-out or new scheduler-improvement claim",
+  "timing_repetitions": 25,
+  "timing_warmups": 3,
+  "timing_scope": "Full-instruction DAG scheduler only, before any compilation/sampling; distinct from DASCOT routing and Monte Carlo",
+  "validation": "16 signed Z inputs, four final logical faults, complete Z-correlation rank and full source tableau/frame; four additional mixed-boundary physical X-generator experiments per condition; graphlike distance3",
+  "mu": 0
+}

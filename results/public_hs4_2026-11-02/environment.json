@@ -1,0 +1,111 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+  "packages": {
+    "tqec": "0.2.0",
+    "stim": "1.16.0",
+    "pymatching": "2.4.0",
+    "qiskit": "2.5.2",
+    "numpy": "2.5.4"
+  },
+  "source_head": "60aea6faf5ec7871267b8a8e235fbbd0639b82ad",
+  "source_files_sha256": {
+    "public_clifford.py": "4a2b306615902bede26189073f8dc6b56c4551ed95a0cdc18ff63ed12ff7f470",
+    "run_public_clifford.py": "b1ba3582e7d52258189692ff92d2325dd65126791e5e0f4631d717c4808d7db5",
+    "run_public_audit.py": "0d8d5ff8a7fa2de8a9584db6a39a278c0aaa9814d7a2e7d8a0af868625eb4a31",
+    "schedule_circuit.py": "86508aa305ac346a04ff9d931bcfb17cc3f3976dbd16694d7a850584c4d63a60",
+    "surgery.py": "ee67e6691f7da5b48dd788b4e886348fbd70fd370154ef5de2ecee9b90d11e0b",
+    "run_surgery.py": "1f4d9227351a14d6f48f7aad80a39b10efcce7ef7b5913c7ff53bd464fe035d3",
+    "run_three_qubit.py": "e79a31182623826c0aff27eec6eca7c9dd6e2536df44fc3949f636024e3da495",
+    "memory_calibration_previous.py": "36f0e60b849d48b388eab2b86b5a1086774b58f6fb349b814d404d4ebe839534",
+    "requirements-lock.txt": "140e7ad5273ee3ac59347cd775c49bdcd2b1e978936e56bc7e1ab205eccaebf9"
+  },
+  "tqec_direct_url": {
+    "url": "file:///workspace/scratch/4680ffcb5b1d/external/tqec",
+    "dir_info": {}
+  },
+  "tqec_verification": {
+    "method": "pinned local Git tree and installed source byte comparison",
+    "commit": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+    "python_files_checked": 177,
+    "source_fingerprint_sha256": "b8ec733c008548994db2dfa30e996b62d5a227d98ef713d02709d4c72817ed61"
+  },
+  "upstream_source": {
+    "path": "benchmarks/public_2026-11-02/qasmbench/hs4_n4.qasm",
+    "upstream_path": "small/hs4_n4/hs4_n4.qasm",
+    "git_blob_sha": "e39b6b1a46ecbb98ebf2766f660f43b75f7d2318",
+    "sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "bytes": 394
+  },
+  "upstream_manifest": {
+    "repository": "https://github.com/pnnl/QASMBench",
+    "commit": "357b942396d5c2b7cbc1c229c585a6ef5ccaebac",
+    "retrieved_date": "2026-11-02",
+    "source_policy": "Exact complete upstream files, including license and notice; no gate deletion or parameter changes.",
+    "files": [
+      {
+        "path": "benchmarks/public_2026-11-02/qasmbench/qec_sm_n5.qasm",
+        "upstream_path": "small/qec_sm_n5/qec_sm_n5.qasm",
+        "git_blob_sha": "1cf21012876190fa48157b9a35d9b250439b1409",
+        "sha256": "dcf8d069188a5cf96a04aaaed23ff6f78e3663523c429609676e066a90332598",
+        "bytes": 377
+      },
+      {
+        "path": "benchmarks/public_2026-11-02/qasmbench/qec_en_n5.qasm",
+        "upstream_path": "small/qec_en_n5/qec_en_n5.qasm",
+        "git_blob_sha": "2aac2f47c6ea62ae5f9891efe1b69eba1af893be",
+        "sha256": "d7b95967326b65050c5e645c180f2361f8cb3513dae7936de0e0cf53a63fec58",
+        "bytes": 530
+      },
+      {
+        "path": "benchmarks/public_2026-11-02/qasmbench/cat_state_n4.qasm",
+        "upstream_path": "small/cat_state_n4/cat_state_n4.qasm",
+        "git_blob_sha": "394ba7e47b74a8d95f7de27170004220859a4e49",
+        "sha256": "caa882935bb73087db2edbee2aa77133965bdda3aec9687166f9e96b9a2ef8ff",
+        "bytes": 234
+      },
+      {
+        "path": "benchmarks/public_2026-11-02/qasmbench/error_correctiond3_n5.qasm",
+        "upstream_path": "small/error_correctiond3_n5/error_correctiond3_n5.qasm",
+        "git_blob_sha": "ca69255273ef890803a130d2464f40c7d8e8cd16",
+        "sha256": "c33b5a03491bceb26ca6d494632936614df035a352d437369eca28087ae72ff5",
+        "bytes": 1517
+      },
+      {
+        "path": "benchmarks/public_2026-11-02/qasmbench/hs4_n4.qasm",
+        "upstream_path": "small/hs4_n4/hs4_n4.qasm",
+        "git_blob_sha": "e39b6b1a46ecbb98ebf2766f660f43b75f7d2318",
+        "sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+        "bytes": 394
+      },
+      {
+        "path": "benchmarks/public_2026-11-02/qasmbench/bell_n4.qasm",
+        "upstream_path": "small/bell_n4/bell_n4.qasm",
+        "git_blob_sha": "de3f32d4c21145c3efb65d230199a9e326aab8fd",
+        "sha256": "1f3a1115385d87f6a444189776e521d6bba1d300f96454e85cb58bb3e297bf81",
+        "bytes": 932
+      },
+      {
+        "path": "benchmarks/public_2026-11-02/qasmbench/simon_n6.qasm",
+        "upstream_path": "small/simon_n6/simon_n6.qasm",
+        "git_blob_sha": "4f3fbc26538ffa072aad76a0d37d5ca58476b25b",
+        "sha256": "756eee6bf939d1b5879da3ff1bae66cfd2599b9b96515f336ecde6f9ca512fc9",
+        "bytes": 631
+      },
+      {
+        "path": "benchmarks/public_2026-11-02/qasmbench/LICENSE",
+        "upstream_path": "LICENSE",
+        "git_blob_sha": "549995917dc83b4faae2362e4508d9ddc1a75b04",
+        "sha256": "3ba843379e9d16d4cc80e971f530c20053afbbb8da94de3c5e945d3212d91cd3",
+        "bytes": 2066
+      },
+      {
+        "path": "benchmarks/public_2026-11-02/qasmbench/NOTICE",
+        "upstream_path": "NOTICE",
+        "git_blob_sha": "a2602b5f1b556b1e2fc776cb30739f13657a2ba5",
+        "sha256": "ea24d219a4d59c01a8b3a27a4d92ed3ffcdcccbc8aae7096e54bd4721cd1be7b",
+        "bytes": 1285
+      }
+    ]
+  }
+}

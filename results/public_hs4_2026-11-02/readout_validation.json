@@ -1,0 +1,1351 @@
+{
+  "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+  "readout_helper_sha256": "33b47dc4dc42860aa89e3b25b0d66628b6edc802f474396654d2d7cbb352c78a",
+  "all_original_classical_outputs_passed": true,
+  "records": [
+    {
+      "record_id": "hs4_parallel_spacing3",
+      "input_signs": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "classical_bits_c0_first": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "reference": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "record_id": "hs4_parallel_spacing3",
+      "input_signs": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "classical_bits_c0_first": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "reference": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "record_id": "hs4_parallel_spacing3",
+      "input_signs": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "classical_bits_c0_first": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "reference": [
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "record_id": "hs4_parallel_spacing3",
+      "input_signs": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "classical_bits_c0_first": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "reference": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "record_id": "hs4_parallel_spacing3",
+      "input_signs": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "classical_bits_c0_first": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "reference": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "record_id": "hs4_parallel_spacing3",
+      "input_signs": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "classical_bits_c0_first": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "reference": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "record_id": "hs4_parallel_spacing3",
+      "input_signs": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "classical_bits_c0_first": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "reference": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "record_id": "hs4_parallel_spacing3",
+      "input_signs": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "classical_bits_c0_first": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "reference": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "record_id": "hs4_parallel_spacing3",
+      "input_signs": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "classical_bits_c0_first": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "reference": [
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "record_id": "hs4_parallel_spacing3",
+      "input_signs": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "classical_bits_c0_first": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "reference": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "record_id": "hs4_parallel_spacing3",
+      "input_signs": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "classical_bits_c0_first": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "record_id": "hs4_parallel_spacing3",
+      "input_signs": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "classical_bits_c0_first": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "reference": [
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "record_id": "hs4_parallel_spacing3",
+      "input_signs": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "classical_bits_c0_first": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "reference": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "record_id": "hs4_parallel_spacing3",
+      "input_signs": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "classical_bits_c0_first": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "reference": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "record_id": "hs4_parallel_spacing3",
+      "input_signs": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "classical_bits_c0_first": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "reference": [
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "record_id": "hs4_parallel_spacing3",
+      "input_signs": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "classical_bits_c0_first": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "reference": [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "record_id": "hs4_serial_spacing3",
+      "input_signs": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "classical_bits_c0_first": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "reference": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "record_id": "hs4_serial_spacing3",
+      "input_signs": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "classical_bits_c0_first": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "reference": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "record_id": "hs4_serial_spacing3",
+      "input_signs": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "classical_bits_c0_first": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "reference": [
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "record_id": "hs4_serial_spacing3",
+      "input_signs": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "classical_bits_c0_first": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "reference": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "record_id": "hs4_serial_spacing3",
+      "input_signs": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "classical_bits_c0_first": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "reference": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "record_id": "hs4_serial_spacing3",
+      "input_signs": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "classical_bits_c0_first": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "reference": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "record_id": "hs4_serial_spacing3",
+      "input_signs": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "classical_bits_c0_first": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "reference": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "record_id": "hs4_serial_spacing3",
+      "input_signs": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "classical_bits_c0_first": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "reference": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "record_id": "hs4_serial_spacing3",
+      "input_signs": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "classical_bits_c0_first": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "reference": [
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "record_id": "hs4_serial_spacing3",
+      "input_signs": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "classical_bits_c0_first": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "reference": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "record_id": "hs4_serial_spacing3",
+      "input_signs": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "classical_bits_c0_first": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "record_id": "hs4_serial_spacing3",
+      "input_signs": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "classical_bits_c0_first": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "reference": [
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "record_id": "hs4_serial_spacing3",
+      "input_signs": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "classical_bits_c0_first": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "reference": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "record_id": "hs4_serial_spacing3",
+      "input_signs": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "classical_bits_c0_first": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "reference": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "record_id": "hs4_serial_spacing3",
+      "input_signs": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "classical_bits_c0_first": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "reference": [
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "record_id": "hs4_serial_spacing3",
+      "input_signs": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "classical_bits_c0_first": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "reference": [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "record_id": "hs4_serial_reverse_spacing3",
+      "input_signs": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "classical_bits_c0_first": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "reference": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "record_id": "hs4_serial_reverse_spacing3",
+      "input_signs": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "classical_bits_c0_first": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "reference": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "record_id": "hs4_serial_reverse_spacing3",
+      "input_signs": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "classical_bits_c0_first": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "reference": [
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "record_id": "hs4_serial_reverse_spacing3",
+      "input_signs": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "classical_bits_c0_first": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "reference": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "record_id": "hs4_serial_reverse_spacing3",
+      "input_signs": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "classical_bits_c0_first": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "reference": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "record_id": "hs4_serial_reverse_spacing3",
+      "input_signs": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "classical_bits_c0_first": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "reference": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "record_id": "hs4_serial_reverse_spacing3",
+      "input_signs": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "classical_bits_c0_first": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "reference": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "record_id": "hs4_serial_reverse_spacing3",
+      "input_signs": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "classical_bits_c0_first": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "reference": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "record_id": "hs4_serial_reverse_spacing3",
+      "input_signs": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "classical_bits_c0_first": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "reference": [
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "record_id": "hs4_serial_reverse_spacing3",
+      "input_signs": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "classical_bits_c0_first": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "reference": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "record_id": "hs4_serial_reverse_spacing3",
+      "input_signs": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "classical_bits_c0_first": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "record_id": "hs4_serial_reverse_spacing3",
+      "input_signs": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "classical_bits_c0_first": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "reference": [
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "record_id": "hs4_serial_reverse_spacing3",
+      "input_signs": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "classical_bits_c0_first": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "reference": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "record_id": "hs4_serial_reverse_spacing3",
+      "input_signs": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "classical_bits_c0_first": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "reference": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "record_id": "hs4_serial_reverse_spacing3",
+      "input_signs": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "classical_bits_c0_first": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "reference": [
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "record_id": "hs4_serial_reverse_spacing3",
+      "input_signs": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "classical_bits_c0_first": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "reference": [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "record_id": "hs4_parallel_spacing4",
+      "input_signs": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "classical_bits_c0_first": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "reference": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "record_id": "hs4_parallel_spacing4",
+      "input_signs": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "classical_bits_c0_first": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "reference": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "record_id": "hs4_parallel_spacing4",
+      "input_signs": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "classical_bits_c0_first": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "reference": [
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "record_id": "hs4_parallel_spacing4",
+      "input_signs": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "classical_bits_c0_first": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "reference": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "record_id": "hs4_parallel_spacing4",
+      "input_signs": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "classical_bits_c0_first": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "reference": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "record_id": "hs4_parallel_spacing4",
+      "input_signs": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "classical_bits_c0_first": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "reference": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "record_id": "hs4_parallel_spacing4",
+      "input_signs": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "classical_bits_c0_first": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "reference": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "record_id": "hs4_parallel_spacing4",
+      "input_signs": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "classical_bits_c0_first": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "reference": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "record_id": "hs4_parallel_spacing4",
+      "input_signs": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "classical_bits_c0_first": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "reference": [
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "record_id": "hs4_parallel_spacing4",
+      "input_signs": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "classical_bits_c0_first": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "reference": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "record_id": "hs4_parallel_spacing4",
+      "input_signs": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "classical_bits_c0_first": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "record_id": "hs4_parallel_spacing4",
+      "input_signs": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "classical_bits_c0_first": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "reference": [
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "record_id": "hs4_parallel_spacing4",
+      "input_signs": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "classical_bits_c0_first": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "reference": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "record_id": "hs4_parallel_spacing4",
+      "input_signs": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "classical_bits_c0_first": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "reference": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "record_id": "hs4_parallel_spacing4",
+      "input_signs": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "classical_bits_c0_first": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "reference": [
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "record_id": "hs4_parallel_spacing4",
+      "input_signs": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "classical_bits_c0_first": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "reference": [
+        0,
+        1,
+        0,
+        1
+      ]
+    }
+  ]
+}

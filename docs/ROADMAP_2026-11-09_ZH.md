@@ -31,8 +31,9 @@
 | 三位元非抵銷 CNOT 與 storage | 8 設定、80 萬 shots；共同生命週期、8 種輸入、3 種 final fault 與距離檢查 | 10/31 完成 |
 | 受限 route-to-circuit synthesis | 18 組來源路由、72 份請求、8 個完整電路 hash 相符；新 shots=0 | 11/1 完成小模板；完整 Phase 1 覆蓋率 0/540 |
 | 含多種排程選擇的完整電路比較 | 9 份來源排程、18 請求、14 不同完整電路、140 萬新 shots；含並行／串行控制與 two-step 正反開發例 | 11/2 完成 bounded pilot，非 held-out 證據 |
-| 公開 benchmark 完整來源與相依分析 | 7 份固定原始碼、license/notice、DAG 與支援稽核；選定 hs4_n4，完整 physical support 仍為 0/7 | 11/2 完成來源／DAG；完整 H/X/readout 轉譯繼續推進 |
-| 程式驗證 | 96 項本地測試通過；CI 以本次提交為準 | 截至 11/2 |
+| 公開 benchmark 完整來源與相依分析 | 7 份固定原始碼、license/notice、DAG 與支援稽核；選定 hs4_n4，完整 physical support 已為 1/7（hs4_n4） | 11/2 完成來源／DAG；完整 hs4_n4 的 H/X/readout 轉譯與 40 萬 shots 已完成；其餘六份保留稽核邊界 |
+| 完整公開 hs4_n4 的物理整合 | 全部 32 指令／原始 classical outputs；4 完整電路／40 萬 shots；16 Z 輸入、4 X-generator mixed-basis checks／條件、distance3 | 11/2 完成；[完整說明](updates/2026-11-02-public-hs4.md)；μ 仍為 0 |
+| 程式驗證 | 109 項本地測試通過；CI 以本次提交為準 | 截至 11/2 |
 | 公開電路完整整合與風險方法 | 保留完整 benchmark、held-out、校準、ablation 及相關文獻比較 | 按原定內容繼續完成，μ 仍為 0 |
 
 ## 提前後的交付與驗收
@@ -48,7 +49,7 @@
 | 11/6–11/8 | 使用者閱讀、演練及提出修正 | 已交付的固定版本 | 不將必要開發、實驗、報告製作留到這三天；只依明確回饋修正 |
 | 11/9 | 正式報告 | 使用上述固定版本 | 清楚區分實測、proxy、支援範圍與未來方向 |
 
-11/2 的公開電路檢查與 backend 擴充持續推進。先用 fixture 驗證並行、footprint 與完整 memory，再保留公開電路的全部 gate／量測／classical dependencies 完成整合；兩條工作都要交付。不能把 fixture 或抽取的 CNOT kernel 標為完整公開應用結果，也不能因提前日期省略公平對照、held-out 或 ablation。
+11/2 的公開電路檢查與 backend 擴充持續推進。已用 fixture 驗證並行、footprint 與完整 memory，並完成一份公開 hs4_n4 的全部 gate／量測／classical dependencies 整合；兩條工作都要交付。不能把 fixture 或抽取的 CNOT kernel 標為完整公開應用結果，也不能因提前日期省略公平對照、held-out 或 ablation。
 
 ## 時間、資源與實驗規則
 

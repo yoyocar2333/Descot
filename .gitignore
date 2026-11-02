@@ -17,3 +17,6 @@ results/*_run.log
 ARTIFACT_MANIFEST.json
 DASCOT_Phase1_Progress_ZH.md
 external/
+
+results/public_hs4_2026-11-02/samples/*.stim
+results/public_hs4_2026-11-02/samples/*.dem
