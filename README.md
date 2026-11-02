@@ -2,7 +2,9 @@
 
 Research implementation for our **2026-11-09** report. The repository is named `Descot`; the underlying compilation method is **DASCOT**.
 
-**中文導覽：** [11/9 前進度規劃](docs/ROADMAP_2026-11-09_ZH.md) · [11/1 受限路由轉譯](docs/updates/2026-11-01.md) · [10/31 三位元與儲存實測](docs/updates/2026-10-31.md) · [10/30 連續 CNOT](docs/updates/2026-10-30.md) · [Phase 1 詳細講稿與理解補充](docs/phase1/PROGRESS_ZH.md)
+**中文導覽：** [11/6 前完成、11/9 報告的進度規劃](docs/ROADMAP_2026-11-09_ZH.md) · [11/2 助教回饋與提前交付](docs/updates/2026-11-02-plan.md) · [公開 benchmark 與創新候選](docs/BENCHMARK_AND_NOVELTY_PLAN_ZH.md) · [11/1 受限路由轉譯](docs/updates/2026-11-01.md) · [10/31 三位元與儲存實測](docs/updates/2026-10-31.md) · [10/30 連續 CNOT](docs/updates/2026-10-30.md) · [Phase 1 詳細講稿與理解補充](docs/phase1/PROGRESS_ZH.md)
+
+**Completion deadline:** all planned research deliverables and final presentation materials are due **2026-11-05 23:59 Asia/Taipei**, before Nov 6. The formal presentation remains Nov 9; Nov 6-8 are reserved for rehearsal and explicit corrections. See the roadmap for evidence gates and acceptance criteria.
 
 ## Current results
 
