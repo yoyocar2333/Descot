@@ -1,6 +1,8 @@
 # 公開 benchmark 篩選與創新候選
 
-日期：2026-11-02。下方初篩與研究設計保留歷史範圍；後續已完成 [完整 hs4_n4 物理整合](updates/2026-11-02-public-hs4.md)：保留全部 H/X/CX/readout，4 完整電路、40 萬新 shots，公開來源完整驗證覆蓋率為 1/7。風險方法／held-out／ablation 仍保留為後續必要工作，μ=0。
+日期：2026-11-02。最新已完成 [13 候選／新幾何風險 pilot](updates/2026-11-02-risk-pilot.md) 及 [候選規格與文獻差異表](PUBLIC_CANDIDATE_SELECTOR_SPEC_ZH.md)：170萬新 shots；原方法同預算整合與跨 workload held-out 仍保留。μ=0。下方初篩／「待實作」描述保留當時歷史，不作最新完成狀態。
+
+下方初篩與研究設計保留歷史範圍；後續已完成 [完整 hs4_n4 物理整合](updates/2026-11-02-public-hs4.md)：保留全部 H/X/CX/readout，4 完整電路、40 萬新 shots，公開來源完整驗證覆蓋率為 1/7。風險方法／held-out／ablation 仍保留為後續必要工作，μ=0。
 
 ## 公開來源與初篩
 
@@ -59,3 +61,7 @@
 已將七份完整 QASMBench 電路及 license/notice 固定在 `benchmarks/public_2026-11-02/`，並以 `run_public_audit.py` 建立保留全部指令與 classical dependencies 的 DAG；詳見 [完整實作進度](updates/2026-11-02.md)。選定 `hs4_n4` 為優先完整轉譯目標：4 CX、20 H、4 X、4 次量測，含兩個同時 ready 的 CX。完整 physical support 目前仍為 0/7，H/X/readout 將保留並繼續實作。
 
 `error_correctiond3_n5` 的 ASAP fronts 最多只有一個 CX，但 DAG 仍有 3 對互不可達的 CX，因此不能將 ASAP ready 數誤當全部可選排程的上限。另完成 2–6 位元的受限 CNOT layer backend、全部 live memory 與 footprint 檢查，以及 140 萬 noisy shots 的正反開發 fixture 比較；這些 fixture 不取代完整公開 benchmark、held-out、風險校準與 ablation。
+
+## 11/3 完整公開 DAG 對照補充
+
+已將作者受限搜尋及 one/two-step 接回 hs4_n4 全部 H/X/CX/readout 指令與 oriented footprint，30 個條件均選相同並行 p12；不是將串行控制標成 one-step。完成同候選／同預算上限檢查、兩種完整電路重編譯及精確既有 counts 重用。這是觀察既有案例後的開發整合，沒有新增 held-out workload 或 noisy shots，μ=0。跨 workload 風險驗證、多幾何校準及 online 風險選擇仍保留；詳見 [11/3 進度](updates/2026-11-03.md)。

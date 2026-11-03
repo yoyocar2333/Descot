@@ -1,0 +1,188 @@
+{
+  "files": [
+    {
+      "path": "results/public_lookahead_2026-11-03/environment.json",
+      "sha256": "915cb43428660bf83d4b2359839ada545054836e188cf6d95658ac14f04bd0d1",
+      "bytes": 651
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/protocol.json",
+      "sha256": "f87c692e63f139d34a347511e92ce189134e85df44cbe998b95866cb6a88f6d0",
+      "bytes": 1701
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/record_audit.json",
+      "sha256": "222150c3f2ad8c14a77ebf757b32564e6dd9c98e12c5c3c8851033c9c8b5bc80",
+      "bytes": 617
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/routes/spacing3_author_profile_s1.json",
+      "sha256": "d677620b92235778c5cd4fcd67b6193511b1c33b406bd18534bba7317b75af08",
+      "bytes": 5502
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/routes/spacing3_author_profile_s2.json",
+      "sha256": "7800bc8e2960585fc3d7517894de56ca67036276ab72b4c99bc769c89a037220",
+      "bytes": 5502
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/routes/spacing3_author_profile_s3.json",
+      "sha256": "8c93b2918e5ab388cee83ad37da7712e47e526b8ecdafffe308a0e5ebdef7a0c",
+      "bytes": 5502
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/routes/spacing3_one_budget48_s1.json",
+      "sha256": "48596ffc0c8c457070ad052caded812d7ada6ba07ec9e7e99ae4c260c6309821",
+      "bytes": 6679
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/routes/spacing3_one_budget48_s2.json",
+      "sha256": "06192103f2176d0960bc17e295f53b27fb80f1c62e9ffcca6970a95783966ed1",
+      "bytes": 6679
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/routes/spacing3_one_budget48_s3.json",
+      "sha256": "d03c96a2186f8f49e7ede6f5450bbf0c67a2d2dd86a01429c316dc1f6e1c99a7",
+      "bytes": 6679
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/routes/spacing3_one_pool16_s1.json",
+      "sha256": "534167c78056f6407ae2bf75b42efe7bb6e67c3056ef29dd6242a7866a509b2a",
+      "bytes": 6677
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/routes/spacing3_one_pool16_s2.json",
+      "sha256": "56fbef0be829f05562409d101fb1eaf7db21285f14a9e8d63644a2d4f06627f2",
+      "bytes": 6677
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/routes/spacing3_one_pool16_s3.json",
+      "sha256": "dce2262dc595a746e88408a3808d355a7bf3f2fdcd0a7ed8dfd57df9f98353a1",
+      "bytes": 6677
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/routes/spacing3_two_budget48_s1.json",
+      "sha256": "0869c386a387a058f03b427ecf0c18bccf7c718a8b89b1930157ce0a44145cfc",
+      "bytes": 6680
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/routes/spacing3_two_budget48_s2.json",
+      "sha256": "219110cb0fdc05ad040275efcd0f38434b2d36a080bd431e966ffcef30f97b49",
+      "bytes": 6680
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/routes/spacing3_two_budget48_s3.json",
+      "sha256": "09a7bed5a299c68ad5883a61f0780e290bf185f51a8b6b7bce588582c401d1cb",
+      "bytes": 6680
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/routes/spacing3_two_pool16_s1.json",
+      "sha256": "db37dcf71ffe9889463decd1cc49473209fa8234f3a49fa60b9fafb152cf6a34",
+      "bytes": 6678
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/routes/spacing3_two_pool16_s2.json",
+      "sha256": "b46b0d2163598b73f192bc2a11f4eef789aa95f3c1996247f5a47739f7b8b1f8",
+      "bytes": 6678
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/routes/spacing3_two_pool16_s3.json",
+      "sha256": "6fe7341a24bf91db65ecb2f437d395ee4d3d2c972254f4e2464b780dd8c35b70",
+      "bytes": 6678
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/routes/spacing5_author_profile_s1.json",
+      "sha256": "ebdd00a850ca5214751c3522fba61429f7456d0ce7fb0161bc2a82ecc191aa40",
+      "bytes": 5502
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/routes/spacing5_author_profile_s2.json",
+      "sha256": "15c955150dd65b4ca82031dbcbffa3168bda46c7da4d93b8b8566dba37e39b13",
+      "bytes": 5502
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/routes/spacing5_author_profile_s3.json",
+      "sha256": "4e2de3f71b508dfde84b4eaf65d5b98fd7b438621bdaf1bfdee368b1c16951ba",
+      "bytes": 5502
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/routes/spacing5_one_budget48_s1.json",
+      "sha256": "4a483c3728e481d6c0ad1d0a41a3c3c94d1b1bbb6c16f52561745980035cbaf8",
+      "bytes": 6679
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/routes/spacing5_one_budget48_s2.json",
+      "sha256": "9ce744cc88b8463ee3902a5c1a856fe4b073c493d3607136126cbe0df2f0aec9",
+      "bytes": 6679
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/routes/spacing5_one_budget48_s3.json",
+      "sha256": "a11994c23f6b59cad82ae95ac4421d86137d502f0f304cec94629b0f14732846",
+      "bytes": 6679
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/routes/spacing5_one_pool16_s1.json",
+      "sha256": "4aaaf634b5b65893aa6fe08842fbf3680db35b1a87d862ee1c4e35696f949e86",
+      "bytes": 6677
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/routes/spacing5_one_pool16_s2.json",
+      "sha256": "286682d103795a2c711696f3b01c310b5a6986a5a59573241b74c39a74cab351",
+      "bytes": 6677
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/routes/spacing5_one_pool16_s3.json",
+      "sha256": "e91708146bc6369db05c30ee5b92d250348d277194ebaf1dbe133de384086c3d",
+      "bytes": 6677
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/routes/spacing5_two_budget48_s1.json",
+      "sha256": "c09365ae5c66d4cd25bb1aa81b0f32f54ec38f698016b896e2bb804163e639d7",
+      "bytes": 6680
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/routes/spacing5_two_budget48_s2.json",
+      "sha256": "68cbd133b90a13f5c11d82dda1079dbd358fb1cec7fef117ceb7c384425712c3",
+      "bytes": 6680
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/routes/spacing5_two_budget48_s3.json",
+      "sha256": "1d219420077e50af518fc6adb40888945c560d2be997b9887c8f0dff8db8acbb",
+      "bytes": 6680
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/routes/spacing5_two_pool16_s1.json",
+      "sha256": "61ec3d3cf0b7607ebcf79affa9f49e24591cfcc61f65300438c18ff1638ae307",
+      "bytes": 6678
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/routes/spacing5_two_pool16_s2.json",
+      "sha256": "bf68fad89c180a5c4e53339d3e68803bbee309b55d8e9f147df63df07d1c700c",
+      "bytes": 6678
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/routes/spacing5_two_pool16_s3.json",
+      "sha256": "ff3e9d10f3942df0b9827cb18834c28c1c959e1c5226f190e03d326bf7a563c9",
+      "bytes": 6678
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/routing_timing_isolated.json",
+      "sha256": "4d228613b97f36458c0bc061ce6849af3fe4b8566eaf0e0035020c3e2e78e997",
+      "bytes": 27619
+    },
+    {
+      "path": "results/public_lookahead_2026-11-03/summary.json",
+      "sha256": "f45e8c5c122cd1dc92e9ae60c435401c79a17608b250d3e752b81dab03759427",
+      "bytes": 72579
+    }
+  ],
+  "source_files_sha256": {
+    "public_lookahead.py": "927bf3b2e23ae6f480aa909a0b0c515a45a8aaa83637aedd1747e9cbaacbba3e",
+    "run_public_lookahead.py": "081a23414595374f821c18062246102444e594664d1c3fc2495ac48add3c2026",
+    "report_public_lookahead.py": "797150defcf53dc696a646c74cb83fc4c9cdf349b65fbca5a4691ac887489e10",
+    "tests/test_public_lookahead.py": "967610aed93976cf4a0051dbfa4ea827f06b639f9326b43d009c77d44f4c492b",
+    "lookahead.py": "66a0abd1d24288ba49b3427ce1921548b6760ec86ae56fcb8a49f166b7ab2a21",
+    "requirements-lock.txt": "140e7ad5273ee3ac59347cd775c49bdcd2b1e978936e56bc7e1ab205eccaebf9"
+  },
+  "scope": "30 full-source schedule configurations, two exact physical compiler replays, zero new noisy shots. Prior raw circuits/DEMs in separate frozen public_candidates archive."
+}

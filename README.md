@@ -2,7 +2,7 @@
 
 Research implementation for our **2026-11-09** report. The repository is named `Descot`; the underlying compilation method is **DASCOT**.
 
-**中文導覽：** [11/2 完整公開 hs4_n4 整合](docs/updates/2026-11-02-public-hs4.md) · [11/6 前完成、11/9 報告的進度規劃](docs/ROADMAP_2026-11-09_ZH.md) · [11/2 不同排程的完整電路比較](docs/updates/2026-11-02.md) · [11/2 助教回饋與提前交付](docs/updates/2026-11-02-plan.md) · [公開 benchmark 與創新候選](docs/BENCHMARK_AND_NOVELTY_PLAN_ZH.md) · [11/1 受限路由轉譯](docs/updates/2026-11-01.md) · [10/31 三位元與儲存實測](docs/updates/2026-10-31.md) · [10/30 連續 CNOT](docs/updates/2026-10-30.md) · [Phase 1 詳細講稿與理解補充](docs/phase1/PROGRESS_ZH.md)
+**中文導覽：** [11/2 完整候選與新幾何風險 pilot](docs/updates/2026-11-02-risk-pilot.md) · [11/2 完整公開 hs4_n4 整合](docs/updates/2026-11-02-public-hs4.md) · [11/6 前完成、11/9 報告的進度規劃](docs/ROADMAP_2026-11-09_ZH.md) · [11/2 不同排程的完整電路比較](docs/updates/2026-11-02.md) · [11/2 助教回饋與提前交付](docs/updates/2026-11-02-plan.md) · [公開 benchmark 與創新候選](docs/BENCHMARK_AND_NOVELTY_PLAN_ZH.md) · [11/1 受限路由轉譯](docs/updates/2026-11-01.md) · [10/31 三位元與儲存實測](docs/updates/2026-10-31.md) · [10/30 連續 CNOT](docs/updates/2026-10-30.md) · [Phase 1 詳細講稿與理解補充](docs/phase1/PROGRESS_ZH.md)
 
 **Completion deadline:** all planned research deliverables and final presentation materials are due **2026-11-05 23:59 Asia/Taipei**, before Nov 6. The formal presentation remains Nov 9; Nov 6-8 are reserved for rehearsal and explicit corrections. See the roadmap for evidence gates and acceptance criteria.
 
@@ -15,7 +15,9 @@ Research implementation for our **2026-11-09** report. The repository is named `
 - **Restricted route-to-circuit adapter:** 18 real-router configurations on declared custom layouts produce 72 supported requests and 8 unique validated physical circuits. Source paths may be normalized inside exclusively reserved empty corridors. Timing is an explicit template policy. Exact ideal/noisy circuit hashes permit reuse of the Oct 31 full-circuit calibration; **zero new Monte Carlo shots**. The full Phase 1 workloads remain outside this two-gate profile (0/540 records; 20 input/layout definitions). This is contract validation, not a scheduler-performance result.
 - **Full-schedule pilot:** a conservative forward-CNOT layer profile supports parallel operations, stretched L bridges and protected live memory. Nine source schedules / 18 requests / 14 unique complete circuits / **1,400,000 new shots**. Both a shorter and a longer two-step development fixture are retained; these deliberately selected cases are not held-out algorithm-performance evidence. The author-search comparison uses the same new reservation primitive, not the unmodified author router.
 - **Public workloads:** seven complete pinned QASMBench sources, expanded custom definitions, retained classical/measurement dependencies, and reproducible DAG/support audit. Complete `hs4_n4` now retains all 20 H, 4 virtual-X frame updates, 4 CX and 4 original terminal measurements. Four predeclared full-circuit controls / **400,000 new shots**; signed Z inputs, conjugate-X physical validation, original classical outputs and distance-3 checks. Validated public-source coverage is **1/7**; remaining sources keep explicit boundaries. These controls are not held-out scheduler-performance evidence.
-- **Tests:** 109 passed locally. Check the Actions tab for remote CI results.
+- **Offline candidate selector:** all 13 complete hs4 candidates at development spacing3, pre-test-frozen choices and 7 geometry-held-out spacing5 controls; 17 newly sampled circuits / **1,700,000 additional shots**, plus 300k reused development shots. The unguarded waiting feature reduces error by 3.642 percentage points within matched serial controls; the guarded selector ties and all unrestricted selectors choose the same parallel plan. This is not unseen-workload or online DASCOT performance evidence; mu=0. See the linked update for exact scope, CIs, counts and remaining work.
+- **Tests:** initial 113-test suite passed locally; final regression suite and CI are recorded in the newest update.
+- **Current increment branch:** `research/2026-11-02-public-risk-pilot`; default `main` is unchanged pending explicit authorization. The exact pre-test local commit is retained in a hash-verified Git bundle.
 
 ![Full-schedule development pilot with 95% Wilson intervals](docs/figures/full_schedule_pilot.png)
 
@@ -56,6 +58,8 @@ Small records, inputs and summaries are directly versioned. Large raw schedules/
 - `archives/adapter_2026-11-01.zip`: source routes, 72 requests/certificates, exact full-circuit reference checks, rejection and coverage records; no duplicate sampling.
 - `archives/schedule_pilot_2026-11-02.zip`: all 18 requests/certificates, 14 complete ideal/noisy circuits and DEMs, 1.4M sampled shots, pre-noise fixture selection, isolated routing timing, record audit and test log.
 - `archives/public_hs4_2026-11-02.zip`: complete public source integration, four ideal/noisy circuits and DEMs, 400k shots, signed/conjugate-generator validation, original classical readout, provenance, timing and audit.
+- `archives/public_candidates_2026-11-02.zip`: exact candidate pool, complete development/geometry-held-out circuits, frozen choices, raw counts, certificates, selector timing and audits.
+- `archives/public_candidates_pretest_2026-11-02.bundle`: exact pre-test Git objects; restoration imports evidence without moving a working branch.
 - `archives/manifest.json`: exact archive SHA-256 and byte counts.
 
 `restore_results.py` verifies the archives and restores result files without overwriting different existing files. The Phase 1 snapshot source is historical; the repository root is the current development source. GitHub's **Code → Download ZIP** contains both current source and these complete snapshots.
@@ -95,3 +99,7 @@ Stim samples complete circuit faults. Decoding uses ordinary uncorrelated PyMatc
 - [PyMatching documentation](https://pymatching.readthedocs.io/en/stable/toric-code-example.html).
 
 Third-party license texts accompany the repository. The [frozen Phase 1 reproduction notes](docs/phase1/REPRODUCTION.md) describe that milestone separately.
+
+### 2026-11-03 complete-public-DAG controls
+
+See [the Traditional Chinese update](docs/updates/2026-11-03.md). Author-profile search, one-step and two-step now retain the entire original hs4_n4 instruction DAG and oriented full footprints. All 30 configurations select the same parallel circuit; two geometries recompile to exact prior circuit hashes, so new noisy shots are zero. Prior risk-pilot raw artifacts and provenance are restored; cross-workload risk validation and multi-geometry calibration remain open. Publication is on `research/2026-11-02-public-risk-pilot`; main is unchanged.

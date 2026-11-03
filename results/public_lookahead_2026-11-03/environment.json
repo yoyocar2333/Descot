@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14",
+  "wisq_commit": "97c12a5e22cf16e37288c60a0a5735c58c6fe8ca",
+  "source_head": "9491e6c33caa59a9e80d4b855581f4f7277b9cea",
+  "source_files_sha256": {
+    "public_lookahead.py": "927bf3b2e23ae6f480aa909a0b0c515a45a8aaa83637aedd1747e9cbaacbba3e",
+    "run_public_lookahead.py": "081a23414595374f821c18062246102444e594664d1c3fc2495ac48add3c2026",
+    "public_clifford.py": "4a2b306615902bede26189073f8dc6b56c4551ed95a0cdc18ff63ed12ff7f470",
+    "lookahead.py": "66a0abd1d24288ba49b3427ce1921548b6760ec86ae56fcb8a49f166b7ab2a21",
+    "requirements-lock.txt": "140e7ad5273ee3ac59347cd775c49bdcd2b1e978936e56bc7e1ab205eccaebf9"
+  }
+}

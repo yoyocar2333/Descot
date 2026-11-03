@@ -32,5 +32,23 @@
     "bytes": 2129672,
     "result_prefix": "results/public_hs4_2026-11-02",
     "description": "Complete public hs4_n4 with all original H/X/CX/readout, oriented patches and exact virtual Pauli frame: four conditions, 400000 new shots, all circuits/DEMs/counts, signed/conjugate physical checks, original classical readout, isolated timing, audit and 109-test log; 2026-11-02."
+  },
+  "public_candidates_2026-11-02.zip": {
+    "sha256": "7cec53f661b43ee4a240c0e6b54452c1f65091a6fa1edbd78037a56b968107e6",
+    "bytes": 12277075,
+    "result_prefix": "results/public_candidates_2026-11-02",
+    "source_bundle": {
+      "path": "public_candidates_pretest_2026-11-02.bundle",
+      "sha256": "3e80a14669c0a3c354366020c99cf26c89f2f5ce5646b6f86b4079121dd3a0dc",
+      "commit": "e30cc1dc89a1c5f21e5b6078dff5c340934850db",
+      "base_commit": "b1cd78433fe4e6d6b946d8056182924db3638c34"
+    },
+    "description": "Complete public hs4 candidate-pool pilot: 13 development + 7 geometry-held-out full circuits; 1700000 new and 300000 reused shots; pre-test frozen models/decisions, ablations, all raw circuits/DEMs/counts/certificates, isolated timing, audit and source provenance. Final suite/replay validation stored separately in docs/validation."
+  },
+  "public_lookahead_2026-11-03.zip": {
+    "sha256": "c543b9b91b01fce2a9a1536cb5f9bad23c1b7ce441527dd50a7413f6b81080bb",
+    "bytes": 47132,
+    "result_prefix": "results/public_lookahead_2026-11-03",
+    "description": "2026-11-03 complete original hs4 source DAG algorithm controls:30 schedules, fixed-pool/budget checks, two complete compiler replays, prior exact counts reused with0 new shots, isolated routing timing, audit and hashes."
   }
 }

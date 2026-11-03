@@ -1,0 +1,50 @@
+{
+  "source_commit": "dc01f88",
+  "method": "Fresh local Git clone, restore_results.py, report_public_candidates.py, report_public_lookahead.py; no inherited results caches",
+  "restore": {
+    "restored": 797,
+    "unchanged": 518,
+    "archives_verified": 8
+  },
+  "risk_pilot_audit": {
+    "passed": true,
+    "complete_original_instructions": {
+      "cx": 4,
+      "h": 20,
+      "measure": 4,
+      "x": 4
+    },
+    "development_candidates": 13,
+    "heldout_sampled": 7,
+    "heldout_complete_candidate_pool": 13,
+    "unique_circuits": 20,
+    "new_shots": 1700000,
+    "reused_shots": 300000,
+    "signed_classical_output_checks": 320,
+    "pretest_frozen_commit": "e30cc1dc89a1c5f21e5b6078dff5c340934850db",
+    "checks": [
+      "complete source and dependency/footprint plans",
+      "original classical outputs and full Clifford validation records",
+      "raw circuits and DEM hashes",
+      "batch counts and Wilson intervals",
+      "development-only fit, pretest commit and exact frozen decisions",
+      "unique new vs reused sample count"
+    ]
+  },
+  "full_dag_controls_audit": {
+    "passed": true,
+    "source_conditions": 30,
+    "complete_source_instructions": 32,
+    "unique_recompiled_complete_circuits": 2,
+    "new_shots": 0,
+    "unique_reused_shots": 200000,
+    "distance": 3,
+    "physical_p": 0.001,
+    "model_id": "tqec_uniform_depolarizing_circuit_v1",
+    "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+    "all_select_p12": true,
+    "same_observed_fixed_pools": true,
+    "mu": 0,
+    "scope": "Development integration/replay of previously observed geometries, not fresh held-out evaluation. Exact same full circuit means shared counts and identically zero algorithm contrasts."
+  }
+}

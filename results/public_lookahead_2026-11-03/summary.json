@@ -1,0 +1,2513 @@
+{
+  "protocol": {
+    "id": "complete_public_dag_lookahead_controls_20261103_v1",
+    "source": "complete pinned hs4_n4, all 32 instructions",
+    "spacings": [
+      3,
+      5
+    ],
+    "seeds": [
+      1,
+      2,
+      3
+    ],
+    "front_budget": 48,
+    "methods": {
+      "author_profile": [
+        "author_profile",
+        null
+      ],
+      "one_budget48": [
+        "one_step",
+        null
+      ],
+      "two_budget48": [
+        "two_step",
+        null
+      ],
+      "one_pool16": [
+        "one_step",
+        16
+      ],
+      "two_pool16": [
+        "two_step",
+        16
+      ]
+    },
+    "mu": 0,
+    "metric": "Any of four independent terminal Z-correlation observables misdecoded, not fidelity",
+    "status": "Post-pilot development integration; spacing5 is already observed, not new held-out evidence",
+    "time_policy": "H and CX layer:3 block-z; X:virtual Pauli frame; all readout deferred to common end. TICKs from compiler; QEC rounds null.",
+    "fairness": "Same order generator/physical footprint; fixed-pool one/two cap16 plus same ceiling48. Equal ceiling does not imply equal actual work. Author pinned search is an additional unmatched-cost reference.",
+    "rollout": "Drain full ready X/readout and H closure after candidate before next CX rollout; track orientation. H duration counted in final schedule, not in the CX-progress score. Not a two-physical-layer lookahead.",
+    "physical_policy": "Exact full-layer source signature and geometry; recompile complete ideal/noisy/DEM once per distinct output. Prior counts and complete validation reused only if exact hashes match.",
+    "timing": "After physics and full tests:3 warmups,25 repeats, rotated method order; source scheduling only, no model fit/physical compiler/MC/MWPM. Shared host possible."
+  },
+  "records": [
+    {
+      "id": "spacing3_author_profile_s1",
+      "spacing": 3,
+      "method": "author_profile",
+      "seed": 1,
+      "candidate_id": "p12",
+      "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+      "features": {
+        "physical_layers": 9,
+        "template_block_z": 27,
+        "cx_routing_steps": 2,
+        "logical_h_layers": 7,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 108,
+        "ancilla_reservation_block_z": 60,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            3
+          ],
+          [],
+          [
+            3,
+            6,
+            3
+          ],
+          []
+        ],
+        "total_protected_idle_block_z": 24,
+        "max_protected_idle_block_z": 6,
+        "squared_protected_idle_block_z2": 108,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      },
+      "noisy_circuit_sha256": "70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222",
+      "reference_record": "results/public_candidates_2026-11-02/samples/sample_70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222.json",
+      "new_shots": 0,
+      "reused_sample_shots": 100000,
+      "failures_any": 45506,
+      "wilson95": [
+        0.4519753527068933,
+        0.45814809986366584
+      ],
+      "num_ticks": 636,
+      "num_qubits": 620,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "cost": {
+        "front_evaluations": 6,
+        "gate_route_calls": 12,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "id": "spacing3_one_budget48_s1",
+      "spacing": 3,
+      "method": "one_budget48",
+      "seed": 1,
+      "candidate_id": "p12",
+      "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+      "features": {
+        "physical_layers": 9,
+        "template_block_z": 27,
+        "cx_routing_steps": 2,
+        "logical_h_layers": 7,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 108,
+        "ancilla_reservation_block_z": 60,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            3
+          ],
+          [],
+          [
+            3,
+            6,
+            3
+          ],
+          []
+        ],
+        "total_protected_idle_block_z": 24,
+        "max_protected_idle_block_z": 6,
+        "squared_protected_idle_block_z2": 108,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      },
+      "noisy_circuit_sha256": "70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222",
+      "reference_record": "results/public_candidates_2026-11-02/samples/sample_70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222.json",
+      "new_shots": 0,
+      "reused_sample_shots": 100000,
+      "failures_any": 45506,
+      "wilson95": [
+        0.4519753527068933,
+        0.45814809986366584
+      ],
+      "num_ticks": 636,
+      "num_qubits": 620,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "cost": {
+        "front_evaluations": 4,
+        "gate_route_calls": 8,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "id": "spacing3_two_budget48_s1",
+      "spacing": 3,
+      "method": "two_budget48",
+      "seed": 1,
+      "candidate_id": "p12",
+      "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+      "features": {
+        "physical_layers": 9,
+        "template_block_z": 27,
+        "cx_routing_steps": 2,
+        "logical_h_layers": 7,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 108,
+        "ancilla_reservation_block_z": 60,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            3
+          ],
+          [],
+          [
+            3,
+            6,
+            3
+          ],
+          []
+        ],
+        "total_protected_idle_block_z": 24,
+        "max_protected_idle_block_z": 6,
+        "squared_protected_idle_block_z2": 108,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      },
+      "noisy_circuit_sha256": "70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222",
+      "reference_record": "results/public_candidates_2026-11-02/samples/sample_70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222.json",
+      "new_shots": 0,
+      "reused_sample_shots": 100000,
+      "failures_any": 45506,
+      "wilson95": [
+        0.4519753527068933,
+        0.45814809986366584
+      ],
+      "num_ticks": 636,
+      "num_qubits": 620,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "cost": {
+        "front_evaluations": 6,
+        "gate_route_calls": 12,
+        "closure_evaluations": 4
+      }
+    },
+    {
+      "id": "spacing3_one_pool16_s1",
+      "spacing": 3,
+      "method": "one_pool16",
+      "seed": 1,
+      "candidate_id": "p12",
+      "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+      "features": {
+        "physical_layers": 9,
+        "template_block_z": 27,
+        "cx_routing_steps": 2,
+        "logical_h_layers": 7,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 108,
+        "ancilla_reservation_block_z": 60,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            3
+          ],
+          [],
+          [
+            3,
+            6,
+            3
+          ],
+          []
+        ],
+        "total_protected_idle_block_z": 24,
+        "max_protected_idle_block_z": 6,
+        "squared_protected_idle_block_z2": 108,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      },
+      "noisy_circuit_sha256": "70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222",
+      "reference_record": "results/public_candidates_2026-11-02/samples/sample_70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222.json",
+      "new_shots": 0,
+      "reused_sample_shots": 100000,
+      "failures_any": 45506,
+      "wilson95": [
+        0.4519753527068933,
+        0.45814809986366584
+      ],
+      "num_ticks": 636,
+      "num_qubits": 620,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "cost": {
+        "front_evaluations": 4,
+        "gate_route_calls": 8,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "id": "spacing3_two_pool16_s1",
+      "spacing": 3,
+      "method": "two_pool16",
+      "seed": 1,
+      "candidate_id": "p12",
+      "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+      "features": {
+        "physical_layers": 9,
+        "template_block_z": 27,
+        "cx_routing_steps": 2,
+        "logical_h_layers": 7,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 108,
+        "ancilla_reservation_block_z": 60,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            3
+          ],
+          [],
+          [
+            3,
+            6,
+            3
+          ],
+          []
+        ],
+        "total_protected_idle_block_z": 24,
+        "max_protected_idle_block_z": 6,
+        "squared_protected_idle_block_z2": 108,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      },
+      "noisy_circuit_sha256": "70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222",
+      "reference_record": "results/public_candidates_2026-11-02/samples/sample_70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222.json",
+      "new_shots": 0,
+      "reused_sample_shots": 100000,
+      "failures_any": 45506,
+      "wilson95": [
+        0.4519753527068933,
+        0.45814809986366584
+      ],
+      "num_ticks": 636,
+      "num_qubits": 620,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "cost": {
+        "front_evaluations": 6,
+        "gate_route_calls": 12,
+        "closure_evaluations": 4
+      }
+    },
+    {
+      "id": "spacing3_author_profile_s2",
+      "spacing": 3,
+      "method": "author_profile",
+      "seed": 2,
+      "candidate_id": "p12",
+      "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+      "features": {
+        "physical_layers": 9,
+        "template_block_z": 27,
+        "cx_routing_steps": 2,
+        "logical_h_layers": 7,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 108,
+        "ancilla_reservation_block_z": 60,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            3
+          ],
+          [],
+          [
+            3,
+            6,
+            3
+          ],
+          []
+        ],
+        "total_protected_idle_block_z": 24,
+        "max_protected_idle_block_z": 6,
+        "squared_protected_idle_block_z2": 108,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      },
+      "noisy_circuit_sha256": "70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222",
+      "reference_record": "results/public_candidates_2026-11-02/samples/sample_70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222.json",
+      "new_shots": 0,
+      "reused_sample_shots": 100000,
+      "failures_any": 45506,
+      "wilson95": [
+        0.4519753527068933,
+        0.45814809986366584
+      ],
+      "num_ticks": 636,
+      "num_qubits": 620,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "cost": {
+        "front_evaluations": 6,
+        "gate_route_calls": 12,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "id": "spacing3_one_budget48_s2",
+      "spacing": 3,
+      "method": "one_budget48",
+      "seed": 2,
+      "candidate_id": "p12",
+      "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+      "features": {
+        "physical_layers": 9,
+        "template_block_z": 27,
+        "cx_routing_steps": 2,
+        "logical_h_layers": 7,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 108,
+        "ancilla_reservation_block_z": 60,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            3
+          ],
+          [],
+          [
+            3,
+            6,
+            3
+          ],
+          []
+        ],
+        "total_protected_idle_block_z": 24,
+        "max_protected_idle_block_z": 6,
+        "squared_protected_idle_block_z2": 108,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      },
+      "noisy_circuit_sha256": "70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222",
+      "reference_record": "results/public_candidates_2026-11-02/samples/sample_70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222.json",
+      "new_shots": 0,
+      "reused_sample_shots": 100000,
+      "failures_any": 45506,
+      "wilson95": [
+        0.4519753527068933,
+        0.45814809986366584
+      ],
+      "num_ticks": 636,
+      "num_qubits": 620,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "cost": {
+        "front_evaluations": 4,
+        "gate_route_calls": 8,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "id": "spacing3_two_budget48_s2",
+      "spacing": 3,
+      "method": "two_budget48",
+      "seed": 2,
+      "candidate_id": "p12",
+      "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+      "features": {
+        "physical_layers": 9,
+        "template_block_z": 27,
+        "cx_routing_steps": 2,
+        "logical_h_layers": 7,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 108,
+        "ancilla_reservation_block_z": 60,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            3
+          ],
+          [],
+          [
+            3,
+            6,
+            3
+          ],
+          []
+        ],
+        "total_protected_idle_block_z": 24,
+        "max_protected_idle_block_z": 6,
+        "squared_protected_idle_block_z2": 108,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      },
+      "noisy_circuit_sha256": "70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222",
+      "reference_record": "results/public_candidates_2026-11-02/samples/sample_70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222.json",
+      "new_shots": 0,
+      "reused_sample_shots": 100000,
+      "failures_any": 45506,
+      "wilson95": [
+        0.4519753527068933,
+        0.45814809986366584
+      ],
+      "num_ticks": 636,
+      "num_qubits": 620,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "cost": {
+        "front_evaluations": 6,
+        "gate_route_calls": 12,
+        "closure_evaluations": 4
+      }
+    },
+    {
+      "id": "spacing3_one_pool16_s2",
+      "spacing": 3,
+      "method": "one_pool16",
+      "seed": 2,
+      "candidate_id": "p12",
+      "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+      "features": {
+        "physical_layers": 9,
+        "template_block_z": 27,
+        "cx_routing_steps": 2,
+        "logical_h_layers": 7,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 108,
+        "ancilla_reservation_block_z": 60,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            3
+          ],
+          [],
+          [
+            3,
+            6,
+            3
+          ],
+          []
+        ],
+        "total_protected_idle_block_z": 24,
+        "max_protected_idle_block_z": 6,
+        "squared_protected_idle_block_z2": 108,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      },
+      "noisy_circuit_sha256": "70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222",
+      "reference_record": "results/public_candidates_2026-11-02/samples/sample_70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222.json",
+      "new_shots": 0,
+      "reused_sample_shots": 100000,
+      "failures_any": 45506,
+      "wilson95": [
+        0.4519753527068933,
+        0.45814809986366584
+      ],
+      "num_ticks": 636,
+      "num_qubits": 620,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "cost": {
+        "front_evaluations": 4,
+        "gate_route_calls": 8,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "id": "spacing3_two_pool16_s2",
+      "spacing": 3,
+      "method": "two_pool16",
+      "seed": 2,
+      "candidate_id": "p12",
+      "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+      "features": {
+        "physical_layers": 9,
+        "template_block_z": 27,
+        "cx_routing_steps": 2,
+        "logical_h_layers": 7,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 108,
+        "ancilla_reservation_block_z": 60,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            3
+          ],
+          [],
+          [
+            3,
+            6,
+            3
+          ],
+          []
+        ],
+        "total_protected_idle_block_z": 24,
+        "max_protected_idle_block_z": 6,
+        "squared_protected_idle_block_z2": 108,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      },
+      "noisy_circuit_sha256": "70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222",
+      "reference_record": "results/public_candidates_2026-11-02/samples/sample_70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222.json",
+      "new_shots": 0,
+      "reused_sample_shots": 100000,
+      "failures_any": 45506,
+      "wilson95": [
+        0.4519753527068933,
+        0.45814809986366584
+      ],
+      "num_ticks": 636,
+      "num_qubits": 620,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "cost": {
+        "front_evaluations": 6,
+        "gate_route_calls": 12,
+        "closure_evaluations": 4
+      }
+    },
+    {
+      "id": "spacing3_author_profile_s3",
+      "spacing": 3,
+      "method": "author_profile",
+      "seed": 3,
+      "candidate_id": "p12",
+      "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+      "features": {
+        "physical_layers": 9,
+        "template_block_z": 27,
+        "cx_routing_steps": 2,
+        "logical_h_layers": 7,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 108,
+        "ancilla_reservation_block_z": 60,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            3
+          ],
+          [],
+          [
+            3,
+            6,
+            3
+          ],
+          []
+        ],
+        "total_protected_idle_block_z": 24,
+        "max_protected_idle_block_z": 6,
+        "squared_protected_idle_block_z2": 108,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      },
+      "noisy_circuit_sha256": "70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222",
+      "reference_record": "results/public_candidates_2026-11-02/samples/sample_70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222.json",
+      "new_shots": 0,
+      "reused_sample_shots": 100000,
+      "failures_any": 45506,
+      "wilson95": [
+        0.4519753527068933,
+        0.45814809986366584
+      ],
+      "num_ticks": 636,
+      "num_qubits": 620,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "cost": {
+        "front_evaluations": 6,
+        "gate_route_calls": 12,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "id": "spacing3_one_budget48_s3",
+      "spacing": 3,
+      "method": "one_budget48",
+      "seed": 3,
+      "candidate_id": "p12",
+      "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+      "features": {
+        "physical_layers": 9,
+        "template_block_z": 27,
+        "cx_routing_steps": 2,
+        "logical_h_layers": 7,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 108,
+        "ancilla_reservation_block_z": 60,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            3
+          ],
+          [],
+          [
+            3,
+            6,
+            3
+          ],
+          []
+        ],
+        "total_protected_idle_block_z": 24,
+        "max_protected_idle_block_z": 6,
+        "squared_protected_idle_block_z2": 108,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      },
+      "noisy_circuit_sha256": "70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222",
+      "reference_record": "results/public_candidates_2026-11-02/samples/sample_70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222.json",
+      "new_shots": 0,
+      "reused_sample_shots": 100000,
+      "failures_any": 45506,
+      "wilson95": [
+        0.4519753527068933,
+        0.45814809986366584
+      ],
+      "num_ticks": 636,
+      "num_qubits": 620,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "cost": {
+        "front_evaluations": 4,
+        "gate_route_calls": 8,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "id": "spacing3_two_budget48_s3",
+      "spacing": 3,
+      "method": "two_budget48",
+      "seed": 3,
+      "candidate_id": "p12",
+      "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+      "features": {
+        "physical_layers": 9,
+        "template_block_z": 27,
+        "cx_routing_steps": 2,
+        "logical_h_layers": 7,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 108,
+        "ancilla_reservation_block_z": 60,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            3
+          ],
+          [],
+          [
+            3,
+            6,
+            3
+          ],
+          []
+        ],
+        "total_protected_idle_block_z": 24,
+        "max_protected_idle_block_z": 6,
+        "squared_protected_idle_block_z2": 108,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      },
+      "noisy_circuit_sha256": "70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222",
+      "reference_record": "results/public_candidates_2026-11-02/samples/sample_70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222.json",
+      "new_shots": 0,
+      "reused_sample_shots": 100000,
+      "failures_any": 45506,
+      "wilson95": [
+        0.4519753527068933,
+        0.45814809986366584
+      ],
+      "num_ticks": 636,
+      "num_qubits": 620,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "cost": {
+        "front_evaluations": 6,
+        "gate_route_calls": 12,
+        "closure_evaluations": 4
+      }
+    },
+    {
+      "id": "spacing3_one_pool16_s3",
+      "spacing": 3,
+      "method": "one_pool16",
+      "seed": 3,
+      "candidate_id": "p12",
+      "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+      "features": {
+        "physical_layers": 9,
+        "template_block_z": 27,
+        "cx_routing_steps": 2,
+        "logical_h_layers": 7,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 108,
+        "ancilla_reservation_block_z": 60,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            3
+          ],
+          [],
+          [
+            3,
+            6,
+            3
+          ],
+          []
+        ],
+        "total_protected_idle_block_z": 24,
+        "max_protected_idle_block_z": 6,
+        "squared_protected_idle_block_z2": 108,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      },
+      "noisy_circuit_sha256": "70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222",
+      "reference_record": "results/public_candidates_2026-11-02/samples/sample_70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222.json",
+      "new_shots": 0,
+      "reused_sample_shots": 100000,
+      "failures_any": 45506,
+      "wilson95": [
+        0.4519753527068933,
+        0.45814809986366584
+      ],
+      "num_ticks": 636,
+      "num_qubits": 620,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "cost": {
+        "front_evaluations": 4,
+        "gate_route_calls": 8,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "id": "spacing3_two_pool16_s3",
+      "spacing": 3,
+      "method": "two_pool16",
+      "seed": 3,
+      "candidate_id": "p12",
+      "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+      "features": {
+        "physical_layers": 9,
+        "template_block_z": 27,
+        "cx_routing_steps": 2,
+        "logical_h_layers": 7,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 108,
+        "ancilla_reservation_block_z": 60,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            3
+          ],
+          [],
+          [
+            3,
+            6,
+            3
+          ],
+          []
+        ],
+        "total_protected_idle_block_z": 24,
+        "max_protected_idle_block_z": 6,
+        "squared_protected_idle_block_z2": 108,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      },
+      "noisy_circuit_sha256": "70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222",
+      "reference_record": "results/public_candidates_2026-11-02/samples/sample_70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222.json",
+      "new_shots": 0,
+      "reused_sample_shots": 100000,
+      "failures_any": 45506,
+      "wilson95": [
+        0.4519753527068933,
+        0.45814809986366584
+      ],
+      "num_ticks": 636,
+      "num_qubits": 620,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "cost": {
+        "front_evaluations": 6,
+        "gate_route_calls": 12,
+        "closure_evaluations": 4
+      }
+    },
+    {
+      "id": "spacing5_author_profile_s1",
+      "spacing": 5,
+      "method": "author_profile",
+      "seed": 1,
+      "candidate_id": "p12",
+      "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+      "features": {
+        "physical_layers": 9,
+        "template_block_z": 27,
+        "cx_routing_steps": 2,
+        "logical_h_layers": 7,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 108,
+        "ancilla_reservation_block_z": 108,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            3
+          ],
+          [],
+          [
+            3,
+            6,
+            3
+          ],
+          []
+        ],
+        "total_protected_idle_block_z": 24,
+        "max_protected_idle_block_z": 6,
+        "squared_protected_idle_block_z2": 108,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      },
+      "noisy_circuit_sha256": "445b9e8f5cc5e3ebac3008b0438fb89425a8724bc9f1655cee8f7c3785d30cdd",
+      "reference_record": "results/public_candidates_2026-11-02/samples/sample_445b9e8f5cc5e3ebac3008b0438fb89425a8724bc9f1655cee8f7c3785d30cdd.json",
+      "new_shots": 0,
+      "reused_sample_shots": 100000,
+      "failures_any": 50678,
+      "wilson95": [
+        0.5036811088253266,
+        0.5098783702928669
+      ],
+      "num_ticks": 636,
+      "num_qubits": 1068,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "cost": {
+        "front_evaluations": 6,
+        "gate_route_calls": 12,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "id": "spacing5_one_budget48_s1",
+      "spacing": 5,
+      "method": "one_budget48",
+      "seed": 1,
+      "candidate_id": "p12",
+      "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+      "features": {
+        "physical_layers": 9,
+        "template_block_z": 27,
+        "cx_routing_steps": 2,
+        "logical_h_layers": 7,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 108,
+        "ancilla_reservation_block_z": 108,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            3
+          ],
+          [],
+          [
+            3,
+            6,
+            3
+          ],
+          []
+        ],
+        "total_protected_idle_block_z": 24,
+        "max_protected_idle_block_z": 6,
+        "squared_protected_idle_block_z2": 108,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      },
+      "noisy_circuit_sha256": "445b9e8f5cc5e3ebac3008b0438fb89425a8724bc9f1655cee8f7c3785d30cdd",
+      "reference_record": "results/public_candidates_2026-11-02/samples/sample_445b9e8f5cc5e3ebac3008b0438fb89425a8724bc9f1655cee8f7c3785d30cdd.json",
+      "new_shots": 0,
+      "reused_sample_shots": 100000,
+      "failures_any": 50678,
+      "wilson95": [
+        0.5036811088253266,
+        0.5098783702928669
+      ],
+      "num_ticks": 636,
+      "num_qubits": 1068,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "cost": {
+        "front_evaluations": 4,
+        "gate_route_calls": 8,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "id": "spacing5_two_budget48_s1",
+      "spacing": 5,
+      "method": "two_budget48",
+      "seed": 1,
+      "candidate_id": "p12",
+      "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+      "features": {
+        "physical_layers": 9,
+        "template_block_z": 27,
+        "cx_routing_steps": 2,
+        "logical_h_layers": 7,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 108,
+        "ancilla_reservation_block_z": 108,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            3
+          ],
+          [],
+          [
+            3,
+            6,
+            3
+          ],
+          []
+        ],
+        "total_protected_idle_block_z": 24,
+        "max_protected_idle_block_z": 6,
+        "squared_protected_idle_block_z2": 108,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      },
+      "noisy_circuit_sha256": "445b9e8f5cc5e3ebac3008b0438fb89425a8724bc9f1655cee8f7c3785d30cdd",
+      "reference_record": "results/public_candidates_2026-11-02/samples/sample_445b9e8f5cc5e3ebac3008b0438fb89425a8724bc9f1655cee8f7c3785d30cdd.json",
+      "new_shots": 0,
+      "reused_sample_shots": 100000,
+      "failures_any": 50678,
+      "wilson95": [
+        0.5036811088253266,
+        0.5098783702928669
+      ],
+      "num_ticks": 636,
+      "num_qubits": 1068,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "cost": {
+        "front_evaluations": 6,
+        "gate_route_calls": 12,
+        "closure_evaluations": 4
+      }
+    },
+    {
+      "id": "spacing5_one_pool16_s1",
+      "spacing": 5,
+      "method": "one_pool16",
+      "seed": 1,
+      "candidate_id": "p12",
+      "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+      "features": {
+        "physical_layers": 9,
+        "template_block_z": 27,
+        "cx_routing_steps": 2,
+        "logical_h_layers": 7,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 108,
+        "ancilla_reservation_block_z": 108,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            3
+          ],
+          [],
+          [
+            3,
+            6,
+            3
+          ],
+          []
+        ],
+        "total_protected_idle_block_z": 24,
+        "max_protected_idle_block_z": 6,
+        "squared_protected_idle_block_z2": 108,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      },
+      "noisy_circuit_sha256": "445b9e8f5cc5e3ebac3008b0438fb89425a8724bc9f1655cee8f7c3785d30cdd",
+      "reference_record": "results/public_candidates_2026-11-02/samples/sample_445b9e8f5cc5e3ebac3008b0438fb89425a8724bc9f1655cee8f7c3785d30cdd.json",
+      "new_shots": 0,
+      "reused_sample_shots": 100000,
+      "failures_any": 50678,
+      "wilson95": [
+        0.5036811088253266,
+        0.5098783702928669
+      ],
+      "num_ticks": 636,
+      "num_qubits": 1068,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "cost": {
+        "front_evaluations": 4,
+        "gate_route_calls": 8,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "id": "spacing5_two_pool16_s1",
+      "spacing": 5,
+      "method": "two_pool16",
+      "seed": 1,
+      "candidate_id": "p12",
+      "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+      "features": {
+        "physical_layers": 9,
+        "template_block_z": 27,
+        "cx_routing_steps": 2,
+        "logical_h_layers": 7,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 108,
+        "ancilla_reservation_block_z": 108,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            3
+          ],
+          [],
+          [
+            3,
+            6,
+            3
+          ],
+          []
+        ],
+        "total_protected_idle_block_z": 24,
+        "max_protected_idle_block_z": 6,
+        "squared_protected_idle_block_z2": 108,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      },
+      "noisy_circuit_sha256": "445b9e8f5cc5e3ebac3008b0438fb89425a8724bc9f1655cee8f7c3785d30cdd",
+      "reference_record": "results/public_candidates_2026-11-02/samples/sample_445b9e8f5cc5e3ebac3008b0438fb89425a8724bc9f1655cee8f7c3785d30cdd.json",
+      "new_shots": 0,
+      "reused_sample_shots": 100000,
+      "failures_any": 50678,
+      "wilson95": [
+        0.5036811088253266,
+        0.5098783702928669
+      ],
+      "num_ticks": 636,
+      "num_qubits": 1068,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "cost": {
+        "front_evaluations": 6,
+        "gate_route_calls": 12,
+        "closure_evaluations": 4
+      }
+    },
+    {
+      "id": "spacing5_author_profile_s2",
+      "spacing": 5,
+      "method": "author_profile",
+      "seed": 2,
+      "candidate_id": "p12",
+      "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+      "features": {
+        "physical_layers": 9,
+        "template_block_z": 27,
+        "cx_routing_steps": 2,
+        "logical_h_layers": 7,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 108,
+        "ancilla_reservation_block_z": 108,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            3
+          ],
+          [],
+          [
+            3,
+            6,
+            3
+          ],
+          []
+        ],
+        "total_protected_idle_block_z": 24,
+        "max_protected_idle_block_z": 6,
+        "squared_protected_idle_block_z2": 108,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      },
+      "noisy_circuit_sha256": "445b9e8f5cc5e3ebac3008b0438fb89425a8724bc9f1655cee8f7c3785d30cdd",
+      "reference_record": "results/public_candidates_2026-11-02/samples/sample_445b9e8f5cc5e3ebac3008b0438fb89425a8724bc9f1655cee8f7c3785d30cdd.json",
+      "new_shots": 0,
+      "reused_sample_shots": 100000,
+      "failures_any": 50678,
+      "wilson95": [
+        0.5036811088253266,
+        0.5098783702928669
+      ],
+      "num_ticks": 636,
+      "num_qubits": 1068,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "cost": {
+        "front_evaluations": 6,
+        "gate_route_calls": 12,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "id": "spacing5_one_budget48_s2",
+      "spacing": 5,
+      "method": "one_budget48",
+      "seed": 2,
+      "candidate_id": "p12",
+      "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+      "features": {
+        "physical_layers": 9,
+        "template_block_z": 27,
+        "cx_routing_steps": 2,
+        "logical_h_layers": 7,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 108,
+        "ancilla_reservation_block_z": 108,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            3
+          ],
+          [],
+          [
+            3,
+            6,
+            3
+          ],
+          []
+        ],
+        "total_protected_idle_block_z": 24,
+        "max_protected_idle_block_z": 6,
+        "squared_protected_idle_block_z2": 108,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      },
+      "noisy_circuit_sha256": "445b9e8f5cc5e3ebac3008b0438fb89425a8724bc9f1655cee8f7c3785d30cdd",
+      "reference_record": "results/public_candidates_2026-11-02/samples/sample_445b9e8f5cc5e3ebac3008b0438fb89425a8724bc9f1655cee8f7c3785d30cdd.json",
+      "new_shots": 0,
+      "reused_sample_shots": 100000,
+      "failures_any": 50678,
+      "wilson95": [
+        0.5036811088253266,
+        0.5098783702928669
+      ],
+      "num_ticks": 636,
+      "num_qubits": 1068,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "cost": {
+        "front_evaluations": 4,
+        "gate_route_calls": 8,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "id": "spacing5_two_budget48_s2",
+      "spacing": 5,
+      "method": "two_budget48",
+      "seed": 2,
+      "candidate_id": "p12",
+      "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+      "features": {
+        "physical_layers": 9,
+        "template_block_z": 27,
+        "cx_routing_steps": 2,
+        "logical_h_layers": 7,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 108,
+        "ancilla_reservation_block_z": 108,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            3
+          ],
+          [],
+          [
+            3,
+            6,
+            3
+          ],
+          []
+        ],
+        "total_protected_idle_block_z": 24,
+        "max_protected_idle_block_z": 6,
+        "squared_protected_idle_block_z2": 108,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      },
+      "noisy_circuit_sha256": "445b9e8f5cc5e3ebac3008b0438fb89425a8724bc9f1655cee8f7c3785d30cdd",
+      "reference_record": "results/public_candidates_2026-11-02/samples/sample_445b9e8f5cc5e3ebac3008b0438fb89425a8724bc9f1655cee8f7c3785d30cdd.json",
+      "new_shots": 0,
+      "reused_sample_shots": 100000,
+      "failures_any": 50678,
+      "wilson95": [
+        0.5036811088253266,
+        0.5098783702928669
+      ],
+      "num_ticks": 636,
+      "num_qubits": 1068,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "cost": {
+        "front_evaluations": 6,
+        "gate_route_calls": 12,
+        "closure_evaluations": 4
+      }
+    },
+    {
+      "id": "spacing5_one_pool16_s2",
+      "spacing": 5,
+      "method": "one_pool16",
+      "seed": 2,
+      "candidate_id": "p12",
+      "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+      "features": {
+        "physical_layers": 9,
+        "template_block_z": 27,
+        "cx_routing_steps": 2,
+        "logical_h_layers": 7,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 108,
+        "ancilla_reservation_block_z": 108,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            3
+          ],
+          [],
+          [
+            3,
+            6,
+            3
+          ],
+          []
+        ],
+        "total_protected_idle_block_z": 24,
+        "max_protected_idle_block_z": 6,
+        "squared_protected_idle_block_z2": 108,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      },
+      "noisy_circuit_sha256": "445b9e8f5cc5e3ebac3008b0438fb89425a8724bc9f1655cee8f7c3785d30cdd",
+      "reference_record": "results/public_candidates_2026-11-02/samples/sample_445b9e8f5cc5e3ebac3008b0438fb89425a8724bc9f1655cee8f7c3785d30cdd.json",
+      "new_shots": 0,
+      "reused_sample_shots": 100000,
+      "failures_any": 50678,
+      "wilson95": [
+        0.5036811088253266,
+        0.5098783702928669
+      ],
+      "num_ticks": 636,
+      "num_qubits": 1068,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "cost": {
+        "front_evaluations": 4,
+        "gate_route_calls": 8,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "id": "spacing5_two_pool16_s2",
+      "spacing": 5,
+      "method": "two_pool16",
+      "seed": 2,
+      "candidate_id": "p12",
+      "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+      "features": {
+        "physical_layers": 9,
+        "template_block_z": 27,
+        "cx_routing_steps": 2,
+        "logical_h_layers": 7,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 108,
+        "ancilla_reservation_block_z": 108,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            3
+          ],
+          [],
+          [
+            3,
+            6,
+            3
+          ],
+          []
+        ],
+        "total_protected_idle_block_z": 24,
+        "max_protected_idle_block_z": 6,
+        "squared_protected_idle_block_z2": 108,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      },
+      "noisy_circuit_sha256": "445b9e8f5cc5e3ebac3008b0438fb89425a8724bc9f1655cee8f7c3785d30cdd",
+      "reference_record": "results/public_candidates_2026-11-02/samples/sample_445b9e8f5cc5e3ebac3008b0438fb89425a8724bc9f1655cee8f7c3785d30cdd.json",
+      "new_shots": 0,
+      "reused_sample_shots": 100000,
+      "failures_any": 50678,
+      "wilson95": [
+        0.5036811088253266,
+        0.5098783702928669
+      ],
+      "num_ticks": 636,
+      "num_qubits": 1068,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "cost": {
+        "front_evaluations": 6,
+        "gate_route_calls": 12,
+        "closure_evaluations": 4
+      }
+    },
+    {
+      "id": "spacing5_author_profile_s3",
+      "spacing": 5,
+      "method": "author_profile",
+      "seed": 3,
+      "candidate_id": "p12",
+      "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+      "features": {
+        "physical_layers": 9,
+        "template_block_z": 27,
+        "cx_routing_steps": 2,
+        "logical_h_layers": 7,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 108,
+        "ancilla_reservation_block_z": 108,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            3
+          ],
+          [],
+          [
+            3,
+            6,
+            3
+          ],
+          []
+        ],
+        "total_protected_idle_block_z": 24,
+        "max_protected_idle_block_z": 6,
+        "squared_protected_idle_block_z2": 108,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      },
+      "noisy_circuit_sha256": "445b9e8f5cc5e3ebac3008b0438fb89425a8724bc9f1655cee8f7c3785d30cdd",
+      "reference_record": "results/public_candidates_2026-11-02/samples/sample_445b9e8f5cc5e3ebac3008b0438fb89425a8724bc9f1655cee8f7c3785d30cdd.json",
+      "new_shots": 0,
+      "reused_sample_shots": 100000,
+      "failures_any": 50678,
+      "wilson95": [
+        0.5036811088253266,
+        0.5098783702928669
+      ],
+      "num_ticks": 636,
+      "num_qubits": 1068,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "cost": {
+        "front_evaluations": 6,
+        "gate_route_calls": 12,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "id": "spacing5_one_budget48_s3",
+      "spacing": 5,
+      "method": "one_budget48",
+      "seed": 3,
+      "candidate_id": "p12",
+      "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+      "features": {
+        "physical_layers": 9,
+        "template_block_z": 27,
+        "cx_routing_steps": 2,
+        "logical_h_layers": 7,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 108,
+        "ancilla_reservation_block_z": 108,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            3
+          ],
+          [],
+          [
+            3,
+            6,
+            3
+          ],
+          []
+        ],
+        "total_protected_idle_block_z": 24,
+        "max_protected_idle_block_z": 6,
+        "squared_protected_idle_block_z2": 108,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      },
+      "noisy_circuit_sha256": "445b9e8f5cc5e3ebac3008b0438fb89425a8724bc9f1655cee8f7c3785d30cdd",
+      "reference_record": "results/public_candidates_2026-11-02/samples/sample_445b9e8f5cc5e3ebac3008b0438fb89425a8724bc9f1655cee8f7c3785d30cdd.json",
+      "new_shots": 0,
+      "reused_sample_shots": 100000,
+      "failures_any": 50678,
+      "wilson95": [
+        0.5036811088253266,
+        0.5098783702928669
+      ],
+      "num_ticks": 636,
+      "num_qubits": 1068,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "cost": {
+        "front_evaluations": 4,
+        "gate_route_calls": 8,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "id": "spacing5_two_budget48_s3",
+      "spacing": 5,
+      "method": "two_budget48",
+      "seed": 3,
+      "candidate_id": "p12",
+      "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+      "features": {
+        "physical_layers": 9,
+        "template_block_z": 27,
+        "cx_routing_steps": 2,
+        "logical_h_layers": 7,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 108,
+        "ancilla_reservation_block_z": 108,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            3
+          ],
+          [],
+          [
+            3,
+            6,
+            3
+          ],
+          []
+        ],
+        "total_protected_idle_block_z": 24,
+        "max_protected_idle_block_z": 6,
+        "squared_protected_idle_block_z2": 108,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      },
+      "noisy_circuit_sha256": "445b9e8f5cc5e3ebac3008b0438fb89425a8724bc9f1655cee8f7c3785d30cdd",
+      "reference_record": "results/public_candidates_2026-11-02/samples/sample_445b9e8f5cc5e3ebac3008b0438fb89425a8724bc9f1655cee8f7c3785d30cdd.json",
+      "new_shots": 0,
+      "reused_sample_shots": 100000,
+      "failures_any": 50678,
+      "wilson95": [
+        0.5036811088253266,
+        0.5098783702928669
+      ],
+      "num_ticks": 636,
+      "num_qubits": 1068,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "cost": {
+        "front_evaluations": 6,
+        "gate_route_calls": 12,
+        "closure_evaluations": 4
+      }
+    },
+    {
+      "id": "spacing5_one_pool16_s3",
+      "spacing": 5,
+      "method": "one_pool16",
+      "seed": 3,
+      "candidate_id": "p12",
+      "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+      "features": {
+        "physical_layers": 9,
+        "template_block_z": 27,
+        "cx_routing_steps": 2,
+        "logical_h_layers": 7,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 108,
+        "ancilla_reservation_block_z": 108,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            3
+          ],
+          [],
+          [
+            3,
+            6,
+            3
+          ],
+          []
+        ],
+        "total_protected_idle_block_z": 24,
+        "max_protected_idle_block_z": 6,
+        "squared_protected_idle_block_z2": 108,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      },
+      "noisy_circuit_sha256": "445b9e8f5cc5e3ebac3008b0438fb89425a8724bc9f1655cee8f7c3785d30cdd",
+      "reference_record": "results/public_candidates_2026-11-02/samples/sample_445b9e8f5cc5e3ebac3008b0438fb89425a8724bc9f1655cee8f7c3785d30cdd.json",
+      "new_shots": 0,
+      "reused_sample_shots": 100000,
+      "failures_any": 50678,
+      "wilson95": [
+        0.5036811088253266,
+        0.5098783702928669
+      ],
+      "num_ticks": 636,
+      "num_qubits": 1068,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "cost": {
+        "front_evaluations": 4,
+        "gate_route_calls": 8,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "id": "spacing5_two_pool16_s3",
+      "spacing": 5,
+      "method": "two_pool16",
+      "seed": 3,
+      "candidate_id": "p12",
+      "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+      "features": {
+        "physical_layers": 9,
+        "template_block_z": 27,
+        "cx_routing_steps": 2,
+        "logical_h_layers": 7,
+        "qec_rounds": null,
+        "stim_ticks": null,
+        "data_reservation_block_z": 108,
+        "ancilla_reservation_block_z": 108,
+        "protected_idle_intervals_block_z": [
+          [
+            3,
+            6,
+            3
+          ],
+          [],
+          [
+            3,
+            6,
+            3
+          ],
+          []
+        ],
+        "total_protected_idle_block_z": 24,
+        "max_protected_idle_block_z": 6,
+        "squared_protected_idle_block_z2": 108,
+        "cx_recurrence_separations_block_z": [
+          9,
+          9
+        ],
+        "cx_gap_squared_block_z2": 162,
+        "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+      },
+      "noisy_circuit_sha256": "445b9e8f5cc5e3ebac3008b0438fb89425a8724bc9f1655cee8f7c3785d30cdd",
+      "reference_record": "results/public_candidates_2026-11-02/samples/sample_445b9e8f5cc5e3ebac3008b0438fb89425a8724bc9f1655cee8f7c3785d30cdd.json",
+      "new_shots": 0,
+      "reused_sample_shots": 100000,
+      "failures_any": 50678,
+      "wilson95": [
+        0.5036811088253266,
+        0.5098783702928669
+      ],
+      "num_ticks": 636,
+      "num_qubits": 1068,
+      "model_id": "tqec_uniform_depolarizing_circuit_v1",
+      "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+      "cost": {
+        "front_evaluations": 6,
+        "gate_route_calls": 12,
+        "closure_evaluations": 4
+      }
+    }
+  ],
+  "compile_replays": [
+    {
+      "spacing": 3,
+      "reference_record": "development_p12",
+      "ideal_circuit_sha256": "d7eaa95e6785c8a622ea10f1569a0ceb562ae09bf7e84ffef3ac0a2311f7cef7",
+      "noisy_circuit_sha256": "70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222",
+      "dem_sha256": "f1ab439fe76ae1565684e089ce8d1e51f822131682d14d820acd09b168015a90",
+      "signed_z_validation": {
+        "logical_relations": [
+          {
+            "input": "+Z___",
+            "physical_output": "+_Z__",
+            "full_original_output": "+_Z__",
+            "readout_frame_parity": 0
+          },
+          {
+            "input": "+_Z__",
+            "physical_output": "+Z___",
+            "full_original_output": "-Z___",
+            "readout_frame_parity": 1
+          },
+          {
+            "input": "+__Z_",
+            "physical_output": "+___Z",
+            "full_original_output": "+___Z",
+            "readout_frame_parity": 0
+          },
+          {
+            "input": "+___Z",
+            "physical_output": "+__Z_",
+            "full_original_output": "-__Z_",
+            "readout_frame_parity": 1
+          }
+        ],
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "shots": 8
+          },
+          {
+            "input_signs": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "shots": 8
+          },
+          {
+            "input_signs": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "shots": 8
+          },
+          {
+            "input_signs": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "observable_parities": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "shots": 8
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "shots": 8
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "shots": 8
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "observable_parities": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "shots": 8
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "shots": 8
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "observable_parities": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "shots": 8
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "observable_parities": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "shots": 8
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "shots": 8
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              0,
+              1,
+              1
+            ],
+            "shots": 8
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              0,
+              0
+            ],
+            "observable_parities": [
+              1,
+              1,
+              0,
+              0
+            ],
+            "shots": 8
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              0,
+              1
+            ],
+            "observable_parities": [
+              1,
+              1,
+              0,
+              1
+            ],
+            "shots": 8
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              1,
+              1,
+              0
+            ],
+            "shots": 8
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "shots": 8
+          }
+        ],
+        "final_faults": [
+          {
+            "qubit": 0,
+            "observable_flips": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "shots": 8
+          },
+          {
+            "qubit": 1,
+            "observable_flips": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "shots": 8
+          },
+          {
+            "qubit": 2,
+            "observable_flips": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "shots": 8
+          },
+          {
+            "qubit": 3,
+            "observable_flips": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "shots": 8
+          }
+        ],
+        "all_signed_inputs_passed": true,
+        "full_source_tableau_including_frame_passed": true
+      },
+      "complete_original_instructions": 32,
+      "shortest_graphlike_error": 3,
+      "prior_conjugate_x_generator_validation": "Reused only for exact complete ideal/noisy circuit identity; original certificates archived.",
+      "compiler_replay_validation_seconds": 30.404746998999997
+    },
+    {
+      "spacing": 5,
+      "reference_record": "heldout_p12",
+      "ideal_circuit_sha256": "8f57dba761911cb11a1787cea6cb1d7024315f6225d56177971c250550394055",
+      "noisy_circuit_sha256": "445b9e8f5cc5e3ebac3008b0438fb89425a8724bc9f1655cee8f7c3785d30cdd",
+      "dem_sha256": "f9f30dba6aeb853b3ccf823d820bd664a12ab4433d39276ecb20576d67cce20f",
+      "signed_z_validation": {
+        "logical_relations": [
+          {
+            "input": "+Z___",
+            "physical_output": "+_Z__",
+            "full_original_output": "+_Z__",
+            "readout_frame_parity": 0
+          },
+          {
+            "input": "+_Z__",
+            "physical_output": "+Z___",
+            "full_original_output": "-Z___",
+            "readout_frame_parity": 1
+          },
+          {
+            "input": "+__Z_",
+            "physical_output": "+___Z",
+            "full_original_output": "+___Z",
+            "readout_frame_parity": 0
+          },
+          {
+            "input": "+___Z",
+            "physical_output": "+__Z_",
+            "full_original_output": "-__Z_",
+            "readout_frame_parity": 1
+          }
+        ],
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "shots": 8
+          },
+          {
+            "input_signs": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "shots": 8
+          },
+          {
+            "input_signs": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "shots": 8
+          },
+          {
+            "input_signs": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "observable_parities": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "shots": 8
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "shots": 8
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "shots": 8
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "observable_parities": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "shots": 8
+          },
+          {
+            "input_signs": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "shots": 8
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "observable_parities": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "shots": 8
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "observable_parities": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "shots": 8
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "shots": 8
+          },
+          {
+            "input_signs": [
+              1,
+              0,
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              0,
+              1,
+              1
+            ],
+            "shots": 8
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              0,
+              0
+            ],
+            "observable_parities": [
+              1,
+              1,
+              0,
+              0
+            ],
+            "shots": 8
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              0,
+              1
+            ],
+            "observable_parities": [
+              1,
+              1,
+              0,
+              1
+            ],
+            "shots": 8
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              1,
+              1,
+              0
+            ],
+            "shots": 8
+          },
+          {
+            "input_signs": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "shots": 8
+          }
+        ],
+        "final_faults": [
+          {
+            "qubit": 0,
+            "observable_flips": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "shots": 8
+          },
+          {
+            "qubit": 1,
+            "observable_flips": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "shots": 8
+          },
+          {
+            "qubit": 2,
+            "observable_flips": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "shots": 8
+          },
+          {
+            "qubit": 3,
+            "observable_flips": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "shots": 8
+          }
+        ],
+        "all_signed_inputs_passed": true,
+        "full_source_tableau_including_frame_passed": true
+      },
+      "complete_original_instructions": 32,
+      "shortest_graphlike_error": 3,
+      "prior_conjugate_x_generator_validation": "Reused only for exact complete ideal/noisy circuit identity; original certificates archived.",
+      "compiler_replay_validation_seconds": 38.40165778900001
+    }
+  ],
+  "fixed_pool_checks": [
+    {
+      "spacing": 3,
+      "seed": 1,
+      "same_evaluated_candidate_pools": true,
+      "fronts": 2
+    },
+    {
+      "spacing": 3,
+      "seed": 2,
+      "same_evaluated_candidate_pools": true,
+      "fronts": 2
+    },
+    {
+      "spacing": 3,
+      "seed": 3,
+      "same_evaluated_candidate_pools": true,
+      "fronts": 2
+    },
+    {
+      "spacing": 5,
+      "seed": 1,
+      "same_evaluated_candidate_pools": true,
+      "fronts": 2
+    },
+    {
+      "spacing": 5,
+      "seed": 2,
+      "same_evaluated_candidate_pools": true,
+      "fronts": 2
+    },
+    {
+      "spacing": 5,
+      "seed": 3,
+      "same_evaluated_candidate_pools": true,
+      "fronts": 2
+    }
+  ],
+  "source_conditions": 30,
+  "unique_complete_circuits": 2,
+  "new_shots": 0,
+  "reused_shots_unique": 200000,
+  "conclusion": "All methods select existing p12 parallel schedule. Algorithm and extra-risk gains on this source are zero; no artificial serial one-step baseline."
+}

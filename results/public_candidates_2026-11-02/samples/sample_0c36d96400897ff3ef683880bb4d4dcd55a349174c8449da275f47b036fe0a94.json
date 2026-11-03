@@ -1,0 +1,275 @@
+{
+  "ideal_circuit_sha256": "9bbef95447dd9a0419f6a44064f387da713a8189effd8b3317eee14b8825c284",
+  "noisy_circuit_sha256": "0c36d96400897ff3ef683880bb4d4dcd55a349174c8449da275f47b036fe0a94",
+  "dem_sha256": "f1f7ba576072bc28f28e0d6728c088b923a7e0c8798464235f278d7bfcfbdea1",
+  "shots": 100000,
+  "seed": 7713595463537009026,
+  "batch_size": 5000,
+  "batches": [
+    {
+      "shots": 5000,
+      "failures_any": 3003,
+      "failures_by_observable": [
+        972,
+        1033,
+        1038,
+        1041
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 2992,
+      "failures_by_observable": [
+        1010,
+        1053,
+        1037,
+        1059
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 2954,
+      "failures_by_observable": [
+        1071,
+        979,
+        974,
+        989
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 2972,
+      "failures_by_observable": [
+        1048,
+        1033,
+        1025,
+        1019
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 2989,
+      "failures_by_observable": [
+        1018,
+        1030,
+        1027,
+        1040
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 2967,
+      "failures_by_observable": [
+        954,
+        1042,
+        1011,
+        1015
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 2981,
+      "failures_by_observable": [
+        1019,
+        971,
+        1017,
+        1028
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 3011,
+      "failures_by_observable": [
+        1022,
+        1047,
+        1008,
+        1028
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 2979,
+      "failures_by_observable": [
+        1007,
+        1026,
+        1046,
+        1030
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 2977,
+      "failures_by_observable": [
+        1044,
+        1003,
+        1024,
+        1035
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 3013,
+      "failures_by_observable": [
+        1071,
+        982,
+        1039,
+        1027
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 2959,
+      "failures_by_observable": [
+        1014,
+        1005,
+        1017,
+        1024
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 3003,
+      "failures_by_observable": [
+        1049,
+        1023,
+        1017,
+        994
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 2983,
+      "failures_by_observable": [
+        1097,
+        995,
+        1040,
+        998
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 2975,
+      "failures_by_observable": [
+        1066,
+        996,
+        1053,
+        992
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 2984,
+      "failures_by_observable": [
+        1041,
+        982,
+        1037,
+        1011
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 2988,
+      "failures_by_observable": [
+        1064,
+        996,
+        986,
+        1009
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 2964,
+      "failures_by_observable": [
+        1000,
+        976,
+        1029,
+        1090
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 2978,
+      "failures_by_observable": [
+        1046,
+        993,
+        1051,
+        996
+      ]
+    },
+    {
+      "shots": 5000,
+      "failures_any": 2973,
+      "failures_by_observable": [
+        1025,
+        977,
+        1003,
+        1034
+      ]
+    }
+  ],
+  "failures_any": 59645,
+  "failures_by_observable": [
+    20638,
+    20142,
+    20479,
+    20459
+  ],
+  "p_fail_any": 0.59645,
+  "wilson95_low": 0.5934055796862989,
+  "wilson95_high": 0.599487010424284,
+  "shortest_graphlike_error": 3,
+  "record_id": "heldout_p08",
+  "candidate_id": "p08",
+  "stage": "heldout",
+  "features": {
+    "physical_layers": 16,
+    "template_block_z": 48,
+    "cx_routing_steps": 4,
+    "logical_h_layers": 12,
+    "qec_rounds": null,
+    "stim_ticks": null,
+    "data_reservation_block_z": 192,
+    "ancilla_reservation_block_z": 108,
+    "protected_idle_intervals_block_z": [
+      [
+        24,
+        6,
+        3
+      ],
+      [
+        21
+      ],
+      [
+        3,
+        6,
+        24
+      ],
+      [
+        21
+      ]
+    ],
+    "total_protected_idle_block_z": 108,
+    "max_protected_idle_block_z": 24,
+    "squared_protected_idle_block_z2": 2124,
+    "cx_recurrence_separations_block_z": [
+      9,
+      9
+    ],
+    "cx_gap_squared_block_z2": 162,
+    "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+  },
+  "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+  "model_id": "tqec_uniform_depolarizing_circuit_v1",
+  "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+  "distance": 3,
+  "physical_p": 0.001,
+  "num_qubits": 1068,
+  "num_ticks": 1112,
+  "num_detectors": 6364,
+  "num_observables": 4,
+  "sample_id": "sample_0c36d96400897ff3ef683880bb4d4dcd55a349174c8449da275f47b036fe0a94",
+  "reused_from": null,
+  "new_shots": 100000,
+  "generation_and_validation_seconds": 290.5814821969998,
+  "sampling_decode_seconds": 11.31361288900007
+}

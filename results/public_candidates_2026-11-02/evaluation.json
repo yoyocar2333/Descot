@@ -1,0 +1,202 @@
+{
+  "decisions": [
+    {
+      "method": "depth_only",
+      "pool": "all",
+      "candidate_id": "p12",
+      "baseline_candidate_id": "p12",
+      "shortlist_size": 1,
+      "pool_size": 13,
+      "guarded": false,
+      "switch_from_baseline": false,
+      "baseline_minus_best_logit": 0.0,
+      "guard_threshold": 0.23157267362724587,
+      "feature_evaluations": 13,
+      "model_evaluations": 1,
+      "policy": "Hard minimum physical-layer depth first; fixed ridge risk only within depth ties. Offline selection; scheduler mu=0.",
+      "baseline_failures": 50678,
+      "selected_failures": 50678,
+      "shots_each": 100000,
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "interval_method": "identical circuit and reused sample: difference identically zero"
+    },
+    {
+      "method": "depth_only",
+      "pool": "serial_matched",
+      "candidate_id": "p00",
+      "baseline_candidate_id": "p00",
+      "shortlist_size": 6,
+      "pool_size": 6,
+      "guarded": false,
+      "switch_from_baseline": false,
+      "baseline_minus_best_logit": 0.0,
+      "guard_threshold": 0.23157267362724587,
+      "feature_evaluations": 13,
+      "model_evaluations": 6,
+      "policy": "Hard minimum physical-layer depth first; fixed ridge risk only within depth ties. Offline selection; scheduler mu=0.",
+      "baseline_failures": 62990,
+      "selected_failures": 62990,
+      "shots_each": 100000,
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "interval_method": "identical circuit and reused sample: difference identically zero"
+    },
+    {
+      "method": "depth_wait",
+      "pool": "all",
+      "candidate_id": "p12",
+      "baseline_candidate_id": "p12",
+      "shortlist_size": 1,
+      "pool_size": 13,
+      "guarded": false,
+      "switch_from_baseline": false,
+      "baseline_minus_best_logit": 0.0,
+      "guard_threshold": 0.18436298086946692,
+      "feature_evaluations": 13,
+      "model_evaluations": 1,
+      "policy": "Hard minimum physical-layer depth first; fixed ridge risk only within depth ties. Offline selection; scheduler mu=0.",
+      "baseline_failures": 50678,
+      "selected_failures": 50678,
+      "shots_each": 100000,
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "interval_method": "identical circuit and reused sample: difference identically zero"
+    },
+    {
+      "method": "depth_wait",
+      "pool": "serial_matched",
+      "candidate_id": "p03",
+      "baseline_candidate_id": "p00",
+      "shortlist_size": 6,
+      "pool_size": 6,
+      "guarded": false,
+      "switch_from_baseline": true,
+      "baseline_minus_best_logit": 0.13138784195796246,
+      "guard_threshold": 0.18436298086946692,
+      "feature_evaluations": 13,
+      "model_evaluations": 6,
+      "policy": "Hard minimum physical-layer depth first; fixed ridge risk only within depth ties. Offline selection; scheduler mu=0.",
+      "baseline_failures": 62990,
+      "selected_failures": 59348,
+      "shots_each": 100000,
+      "difference": -0.03642000000000001,
+      "ci95": [
+        -0.04068787698225185,
+        -0.03215024865360218
+      ],
+      "interval_method": "Newcombe hybrid score interval for independent binomial samples; pointwise, exploratory, no familywise adjustment"
+    },
+    {
+      "method": "depth_wait_guard",
+      "pool": "all",
+      "candidate_id": "p12",
+      "baseline_candidate_id": "p12",
+      "shortlist_size": 1,
+      "pool_size": 13,
+      "guarded": true,
+      "switch_from_baseline": false,
+      "baseline_minus_best_logit": 0.0,
+      "guard_threshold": 0.18436298086946692,
+      "feature_evaluations": 13,
+      "model_evaluations": 1,
+      "policy": "Hard minimum physical-layer depth first; fixed ridge risk only within depth ties. Offline selection; scheduler mu=0.",
+      "baseline_failures": 50678,
+      "selected_failures": 50678,
+      "shots_each": 100000,
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "interval_method": "identical circuit and reused sample: difference identically zero"
+    },
+    {
+      "method": "depth_wait_guard",
+      "pool": "serial_matched",
+      "candidate_id": "p00",
+      "baseline_candidate_id": "p00",
+      "shortlist_size": 6,
+      "pool_size": 6,
+      "guarded": true,
+      "switch_from_baseline": false,
+      "baseline_minus_best_logit": 0.13138784195796246,
+      "guard_threshold": 0.18436298086946692,
+      "feature_evaluations": 13,
+      "model_evaluations": 6,
+      "policy": "Hard minimum physical-layer depth first; fixed ridge risk only within depth ties. Offline selection; scheduler mu=0.",
+      "baseline_failures": 62990,
+      "selected_failures": 62990,
+      "shots_each": 100000,
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "interval_method": "identical circuit and reused sample: difference identically zero"
+    }
+  ],
+  "matched_serial_vs_p00": [
+    {
+      "first": "p00",
+      "second": "p01",
+      "difference": 0.0009799999999999809,
+      "ci95": [
+        -0.0032509197502822345,
+        0.00521087039702723
+      ],
+      "method": "Newcombe hybrid score interval for independent binomial samples; pointwise, exploratory, no familywise adjustment"
+    },
+    {
+      "first": "p00",
+      "second": "p03",
+      "difference": -0.03642000000000001,
+      "ci95": [
+        -0.04068787698225185,
+        -0.03215024865360218
+      ],
+      "method": "Newcombe hybrid score interval for independent binomial samples; pointwise, exploratory, no familywise adjustment"
+    },
+    {
+      "first": "p00",
+      "second": "p05",
+      "difference": -0.0007300000000000084,
+      "ci95": [
+        -0.004962894728188667,
+        0.003502931531874803
+      ],
+      "method": "Newcombe hybrid score interval for independent binomial samples; pointwise, exploratory, no familywise adjustment"
+    },
+    {
+      "first": "p00",
+      "second": "p06",
+      "difference": 0.003290000000000015,
+      "ci95": [
+        -0.0009382079356258658,
+        0.007518042499232674
+      ],
+      "method": "Newcombe hybrid score interval for independent binomial samples; pointwise, exploratory, no familywise adjustment"
+    },
+    {
+      "first": "p00",
+      "second": "p08",
+      "difference": -0.03344999999999998,
+      "ci95": [
+        -0.03771541619374813,
+        -0.029182864959654317
+      ],
+      "method": "Newcombe hybrid score interval for independent binomial samples; pointwise, exploratory, no familywise adjustment"
+    }
+  ],
+  "interval_note": "Newcombe pointwise95 independent-binomial contrasts. Identical selected circuit reuses identical sample and has exact0 difference. Six predeclared method/pool contrasts; no familywise claim.",
+  "scope": "Same public circuit, unseen geometry only. Matched-serial controls do not establish superiority over unrestricted parallel scheduling."
+}

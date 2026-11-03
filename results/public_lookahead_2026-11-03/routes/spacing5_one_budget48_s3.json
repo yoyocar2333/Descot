@@ -1,0 +1,421 @@
+{
+  "plan": {
+    "mode": "one_step",
+    "spacing": 5,
+    "layers": [
+      {
+        "operation_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "kind": "h",
+        "orientation_before": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "orientation_after": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "operation_ids": [
+          4,
+          5
+        ],
+        "kind": "virtual_or_readout",
+        "orientation_before": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "orientation_after": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "operation_ids": [
+          6,
+          7
+        ],
+        "kind": "h",
+        "orientation_before": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "orientation_after": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "operation_ids": [
+          8,
+          9
+        ],
+        "kind": "cx",
+        "orientation_before": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "orientation_after": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "operation_ids": [
+          12,
+          13
+        ],
+        "kind": "virtual_or_readout",
+        "orientation_before": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "orientation_after": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "operation_ids": [
+          10,
+          11,
+          14,
+          16
+        ],
+        "kind": "h",
+        "orientation_before": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "orientation_after": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "operation_ids": [
+          15,
+          17
+        ],
+        "kind": "h",
+        "orientation_before": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "orientation_after": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "operation_ids": [
+          18,
+          19
+        ],
+        "kind": "h",
+        "orientation_before": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "orientation_after": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "operation_ids": [
+          20,
+          21
+        ],
+        "kind": "cx",
+        "orientation_before": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "orientation_after": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "operation_ids": [
+          22,
+          23,
+          24,
+          26
+        ],
+        "kind": "h",
+        "orientation_before": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "orientation_after": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "operation_ids": [
+          28,
+          30
+        ],
+        "kind": "virtual_or_readout",
+        "orientation_before": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "orientation_after": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "operation_ids": [
+          25,
+          27
+        ],
+        "kind": "h",
+        "orientation_before": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "orientation_after": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "operation_ids": [
+          29,
+          31
+        ],
+        "kind": "virtual_or_readout",
+        "orientation_before": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "orientation_after": [
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  "fronts": [
+    {
+      "ready_ids": [
+        8,
+        9
+      ],
+      "chosen_ids": [
+        8,
+        9
+      ],
+      "candidate_orders": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "candidates": [
+        {
+          "order": [
+            0,
+            1
+          ],
+          "ids": [
+            8,
+            9
+          ],
+          "now": 4,
+          "future": 0,
+          "progress": 4,
+          "rollout_h_layers": 0
+        },
+        {
+          "order": [
+            1,
+            0
+          ],
+          "ids": [
+            9,
+            8
+          ],
+          "now": 4,
+          "future": 0,
+          "progress": 4,
+          "rollout_h_layers": 0
+        }
+      ],
+      "orders_tried": 2,
+      "cost": {
+        "front_evaluations": 2,
+        "gate_route_calls": 4,
+        "closure_evaluations": 0
+      },
+      "budget": 48
+    },
+    {
+      "ready_ids": [
+        20,
+        21
+      ],
+      "chosen_ids": [
+        20,
+        21
+      ],
+      "candidate_orders": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "candidates": [
+        {
+          "order": [
+            0,
+            1
+          ],
+          "ids": [
+            20,
+            21
+          ],
+          "now": 2,
+          "future": 0,
+          "progress": 2,
+          "rollout_h_layers": 0
+        },
+        {
+          "order": [
+            1,
+            0
+          ],
+          "ids": [
+            21,
+            20
+          ],
+          "now": 2,
+          "future": 0,
+          "progress": 2,
+          "rollout_h_layers": 0
+        }
+      ],
+      "orders_tried": 2,
+      "cost": {
+        "front_evaluations": 2,
+        "gate_route_calls": 4,
+        "closure_evaluations": 0
+      },
+      "budget": 48
+    }
+  ],
+  "cost": {
+    "front_evaluations": 4,
+    "gate_route_calls": 8,
+    "closure_evaluations": 0
+  },
+  "mu": 0,
+  "criticality": {
+    "31": 0,
+    "30": 0,
+    "29": 0,
+    "28": 0,
+    "27": 0,
+    "26": 0,
+    "25": 0,
+    "24": 0,
+    "23": 0,
+    "22": 0,
+    "21": 1,
+    "20": 1,
+    "19": 1,
+    "18": 1,
+    "17": 1,
+    "16": 1,
+    "15": 1,
+    "14": 1,
+    "13": 1,
+    "12": 1,
+    "11": 1,
+    "10": 1,
+    "9": 2,
+    "8": 2,
+    "7": 2,
+    "6": 2,
+    "5": 2,
+    "4": 2,
+    "3": 2,
+    "2": 2,
+    "1": 2,
+    "0": 2
+  },
+  "seed": 3,
+  "candidate_cap": null,
+  "budget": 48,
+  "scope": "Full-DAG/H-first and oriented-footprint adaptation. Author search uses the pinned search function; additional reference, not budget matched. Rollout crosses H closure, not a fixed physical time horizon."
+}

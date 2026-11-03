@@ -1,0 +1,44 @@
+{
+  "id": "complete_public_dag_lookahead_controls_20261103_v1",
+  "source": "complete pinned hs4_n4, all 32 instructions",
+  "spacings": [
+    3,
+    5
+  ],
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "front_budget": 48,
+  "methods": {
+    "author_profile": [
+      "author_profile",
+      null
+    ],
+    "one_budget48": [
+      "one_step",
+      null
+    ],
+    "two_budget48": [
+      "two_step",
+      null
+    ],
+    "one_pool16": [
+      "one_step",
+      16
+    ],
+    "two_pool16": [
+      "two_step",
+      16
+    ]
+  },
+  "mu": 0,
+  "metric": "Any of four independent terminal Z-correlation observables misdecoded, not fidelity",
+  "status": "Post-pilot development integration; spacing5 is already observed, not new held-out evidence",
+  "time_policy": "H and CX layer:3 block-z; X:virtual Pauli frame; all readout deferred to common end. TICKs from compiler; QEC rounds null.",
+  "fairness": "Same order generator/physical footprint; fixed-pool one/two cap16 plus same ceiling48. Equal ceiling does not imply equal actual work. Author pinned search is an additional unmatched-cost reference.",
+  "rollout": "Drain full ready X/readout and H closure after candidate before next CX rollout; track orientation. H duration counted in final schedule, not in the CX-progress score. Not a two-physical-layer lookahead.",
+  "physical_policy": "Exact full-layer source signature and geometry; recompile complete ideal/noisy/DEM once per distinct output. Prior counts and complete validation reused only if exact hashes match.",
+  "timing": "After physics and full tests:3 warmups,25 repeats, rotated method order; source scheduling only, no model fit/physical compiler/MC/MWPM. Shared host possible."
+}

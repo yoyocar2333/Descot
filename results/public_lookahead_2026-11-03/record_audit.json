@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "source_conditions": 30,
+  "complete_source_instructions": 32,
+  "unique_recompiled_complete_circuits": 2,
+  "new_shots": 0,
+  "unique_reused_shots": 200000,
+  "distance": 3,
+  "physical_p": 0.001,
+  "model_id": "tqec_uniform_depolarizing_circuit_v1",
+  "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+  "all_select_p12": true,
+  "same_observed_fixed_pools": true,
+  "mu": 0,
+  "scope": "Development integration/replay of previously observed geometries, not fresh held-out evaluation. Exact same full circuit means shared counts and identically zero algorithm contrasts."
+}

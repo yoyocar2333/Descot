@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "complete_original_instructions": {
+    "cx": 4,
+    "h": 20,
+    "measure": 4,
+    "x": 4
+  },
+  "development_candidates": 13,
+  "heldout_sampled": 7,
+  "heldout_complete_candidate_pool": 13,
+  "unique_circuits": 20,
+  "new_shots": 1700000,
+  "reused_shots": 300000,
+  "signed_classical_output_checks": 320,
+  "pretest_frozen_commit": "e30cc1dc89a1c5f21e5b6078dff5c340934850db",
+  "checks": [
+    "complete source and dependency/footprint plans",
+    "original classical outputs and full Clifford validation records",
+    "raw circuits and DEM hashes",
+    "batch counts and Wilson intervals",
+    "development-only fit, pretest commit and exact frozen decisions",
+    "unique new vs reused sample count"
+  ]
+}
