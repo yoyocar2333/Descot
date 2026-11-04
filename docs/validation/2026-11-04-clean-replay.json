@@ -1,0 +1,55 @@
+{
+  "source_commit": "2a7f5e325a7f0ff8835841d5f796fd3d7d60af2f",
+  "method": "Fresh remote clone of published research branch, restore all nine archives and missing pre-label Git objects, replay Bell report, verify all60 archived artifact hashes",
+  "prelabel_commit_absent_before_restore": true,
+  "restore": {
+    "restored": 809,
+    "unchanged": 567,
+    "archives_verified": 9
+  },
+  "replay": {
+    "audit": {
+      "passed": true,
+      "unique_circuits": 4,
+      "new_shots": 400000,
+      "original_instructions": 13,
+      "physical_signed_boundary_settings": 3328,
+      "source_freeze_commit": "4978c9f2d323382649c8b2261113eda4d34ce84c",
+      "checks": [
+        "pre-test frozen source/design",
+        "all original gate/barrier/classical dependencies",
+        "all 12 Clifford generators per circuit",
+        "complete original random Z-output subgroup",
+        "known final faults and graphlike distance3",
+        "full circuit and DEM hashes",
+        "raw batches, Wilson95 and unique-shot accounting"
+      ]
+    },
+    "contrasts": [
+      {
+        "spacing": 3,
+        "first": "bell6_serial_spacing3",
+        "second": "bell6_parallel_spacing3",
+        "difference": -0.06215999999999999,
+        "ci95": [
+          -0.06534420407392322,
+          -0.0589754346482306
+        ],
+        "method": "Newcombe hybrid score interval for independent binomial samples; pointwise, exploratory, no familywise adjustment"
+      },
+      {
+        "spacing": 5,
+        "first": "bell6_serial_spacing5",
+        "second": "bell6_parallel_spacing5",
+        "difference": -0.05912999999999999,
+        "ci95": [
+          -0.0625672016647318,
+          -0.055691585246010145
+        ],
+        "method": "Newcombe hybrid score interval for independent binomial samples; pointwise, exploratory, no familywise adjustment"
+      }
+    ]
+  },
+  "all_snapshot_artifact_hashes_passed": true,
+  "snapshot_files_checked": 60
+}
