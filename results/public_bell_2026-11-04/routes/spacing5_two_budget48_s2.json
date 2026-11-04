@@ -1,0 +1,281 @@
+{
+  "plan": {
+    "mode": "two_step",
+    "spacing": 5,
+    "layers": [
+      {
+        "operation_ids": [
+          0,
+          2,
+          4
+        ],
+        "kind": "h",
+        "orientation_before": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "orientation_after": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "operation_ids": [
+          1,
+          3,
+          5
+        ],
+        "kind": "cx",
+        "orientation_before": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "orientation_after": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "operation_ids": [
+          6
+        ],
+        "kind": "virtual_or_readout",
+        "orientation_before": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "orientation_after": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "operation_ids": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "kind": "virtual_or_readout",
+        "orientation_before": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "orientation_after": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      }
+    ]
+  },
+  "fronts": [
+    {
+      "ready_ids": [
+        1,
+        3,
+        5
+      ],
+      "chosen_ids": [
+        1,
+        3,
+        5
+      ],
+      "candidate_orders": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "candidates": [
+        {
+          "order": [
+            0,
+            1,
+            2
+          ],
+          "ids": [
+            1,
+            3,
+            5
+          ],
+          "now": 3,
+          "future": 0,
+          "progress": 3,
+          "rollout_h_layers": 0
+        },
+        {
+          "order": [
+            2,
+            1,
+            0
+          ],
+          "ids": [
+            5,
+            3,
+            1
+          ],
+          "now": 3,
+          "future": 0,
+          "progress": 3,
+          "rollout_h_layers": 0
+        },
+        {
+          "order": [
+            1,
+            2,
+            0
+          ],
+          "ids": [
+            3,
+            5,
+            1
+          ],
+          "now": 3,
+          "future": 0,
+          "progress": 3,
+          "rollout_h_layers": 0
+        },
+        {
+          "order": [
+            2,
+            0,
+            1
+          ],
+          "ids": [
+            5,
+            1,
+            3
+          ],
+          "now": 3,
+          "future": 0,
+          "progress": 3,
+          "rollout_h_layers": 0
+        },
+        {
+          "order": [
+            1,
+            0,
+            2
+          ],
+          "ids": [
+            3,
+            1,
+            5
+          ],
+          "now": 3,
+          "future": 0,
+          "progress": 3,
+          "rollout_h_layers": 0
+        },
+        {
+          "order": [
+            0,
+            2,
+            1
+          ],
+          "ids": [
+            1,
+            5,
+            3
+          ],
+          "now": 3,
+          "future": 0,
+          "progress": 3,
+          "rollout_h_layers": 0
+        }
+      ],
+      "orders_tried": 6,
+      "cost": {
+        "front_evaluations": 6,
+        "gate_route_calls": 18,
+        "closure_evaluations": 6
+      },
+      "budget": 48
+    }
+  ],
+  "cost": {
+    "front_evaluations": 6,
+    "gate_route_calls": 18,
+    "closure_evaluations": 6
+  },
+  "mu": 0,
+  "criticality": {
+    "12": 0,
+    "11": 0,
+    "10": 0,
+    "9": 0,
+    "8": 0,
+    "7": 0,
+    "6": 0,
+    "5": 1,
+    "4": 1,
+    "3": 1,
+    "2": 1,
+    "1": 1,
+    "0": 1
+  },
+  "seed": 2,
+  "candidate_cap": null,
+  "budget": 48,
+  "scope": "Full-DAG/H-first and oriented-footprint adaptation. Author search uses the pinned search function; additional reference, not budget matched. Rollout crosses H closure, not a fixed physical time horizon."
+}

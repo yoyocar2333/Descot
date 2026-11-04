@@ -29,7 +29,7 @@ def close(program, done, orientation):
     while len(done)<len(program['operations']):
         front=ready(program,done)
         if not front: raise ValueError('Invalid complete source DAG')
-        instant=[o for o in front if o['name'] in ('x','measure')]
+        instant=[o for o in front if o['name'] in ('x','measure','barrier')]
         hs=[o for o in front if o['name']=='h']
         if not instant and not hs: break
         chosen=instant or hs

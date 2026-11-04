@@ -27,7 +27,7 @@ def load_program(path):
     ops = audit["operations"]
     if not 2 <= audit["logical_qubits"] <= 6 or audit["classical_bits"] != audit["logical_qubits"]:
         raise ValueError("Require 2..6 qubits and one classical bit per qubit")
-    if set(audit["operation_counts"]) - {"h", "x", "cx", "measure"}:
+    if set(audit["operation_counts"]) - {"h", "x", "cx", "measure", "barrier"}:
         raise ValueError("Unsupported instructions: preserve source and reject")
     measured = [op for op in ops if op["name"] == "measure"]
     n = audit["logical_qubits"]
@@ -82,7 +82,7 @@ def schedule_program(program, mode="parallel", spacing=3):
         if not ready:
             raise ValueError("Invalid instruction DAG")
         # Virtual frame updates and deferred terminal readout consume no block.
-        instant = [op for op in ready if op["name"] in ("x", "measure")]
+        instant = [op for op in ready if op["name"] in ("x", "measure", "barrier")]
         if instant:
             chosen = instant
         elif any(op["name"] == "h" for op in ready):
@@ -124,7 +124,7 @@ def validate_plan(program, plan):
             op = program["operations"][i]
             if not set(op["predecessors"]) <= done:
                 raise ValueError("Original quantum/classical dependency changed")
-            expected_kind = "virtual_or_readout" if op["name"] in ("x", "measure") else op["name"]
+            expected_kind = "virtual_or_readout" if op["name"] in ("x", "measure", "barrier") else op["name"]
             if expected_kind != layer["kind"]: raise ValueError("Mixed layer kinds")
             footprint = cnot_paths(*op["qubits"], positions, orientations)[2] if op["name"] == "cx" else {positions[q] for q in op["qubits"]}
             if reserved & footprint: raise ValueError("Full template reservation overlaps")
@@ -194,7 +194,7 @@ def graph_program(program, plan, input_bases=None, output_bases=None):
             elif op["name"]=="cx":
                 c,t=qs; frame_x[t]^=frame_x[c]; frame_z[c]^=frame_z[t]
             trace.append({**op,"start_block_z":start,"end_block_z":z,
-                          "implementation":"Pauli frame (zero physical time)" if op["name"]=="x" else "terminal readout at common end" if op["name"]=="measure" else "TQEC physical graph",
+                          "implementation":"Pauli frame (zero physical time)" if op["name"]=="x" else "terminal readout at common end" if op["name"]=="measure" else "synchronization fence (zero physical time)" if op["name"]=="barrier" else "TQEC physical graph",
                           "frame_x_after":list(frame_x),"frame_z_after":list(frame_z)})
     if graph is None: raise ValueError("No physical program")
     for entry in trace:
@@ -236,7 +236,7 @@ def generate_program(program,plan,input_bases=None,output_bases=None):
 def logical_circuit(program, include_x=True):
     circuit=stim.Circuit()
     for op in program["operations"]:
-        if op["name"] != "measure" and (include_x or op["name"] != "x"):
+        if op["name"] not in ("measure", "barrier") and (include_x or op["name"] != "x"):
             circuit.append(op["name"].upper(),op["qubits"])
     return circuit
 
@@ -311,20 +311,20 @@ def validate_physical(circuit,meta,program,shots=16,complete_z=False):
             "all_signed_inputs_passed":True,"full_source_tableau_including_frame_passed":True}
 
 
-def validate_x_generators(program,plan,shots=8):
+def _validate_generators(program,plan,shots=8,axes="x"):
     """Physical mixed-boundary experiments test each conjugate X generator.
 
     Z-boundary measurements alone do not validate phases of a Clifford unitary.
     These separate circuits are validation only; benchmark readout remains Z.
     """
     n=program["logical_qubits"]; tableau=stim.Tableau.from_circuit(logical_circuit(program,False)); records=[]
-    for q in range(n):
-        pauli=tableau.x_output(q)
-        axes=str(pauli)[1:].replace("_","Z").lower()
-        if set(axes)-set("xz"): raise ValueError("Y output needs an extended boundary profile")
-        inputs="z"*q+"x"+"z"*(n-q-1)
-        circuit,meta=generate_program(program,plan,inputs,axes)
-        target="I"*q+"X"+"I"*(n-q-1)+str(pauli)[1:].replace("_","I")
+    for axis,q in ((axis,q) for axis in axes for q in range(n)):
+        pauli=tableau.x_output(q) if axis=="x" else tableau.z_output(q)
+        outputs=str(pauli)[1:].replace("_","Z").lower()
+        if set(outputs)-set("xz"): raise ValueError("Y output needs an extended boundary profile")
+        inputs="z"*q+axis+"z"*(n-q-1)
+        circuit,meta=generate_program(program,plan,inputs,outputs)
+        target="I"*q+axis.upper()+"I"*(n-q-1)+str(pauli)[1:].replace("_","I")
         # Check that the desired relation belongs to the complete generated basis.
         flows=meta["external_flows"]; combination=None
         for mask in range(1,1<<len(flows)):
@@ -335,7 +335,16 @@ def validate_x_generators(program,plan,shots=8):
             if "".join(row)==target: combination=[i for i in range(len(flows)) if (mask>>i)&1]; break
         if combination is None: raise AssertionError("Conjugate generator missing from physical observable span")
         validation=validate_physical(circuit,meta,program,shots)
-        records.append({"input_generator":"X"+str(q),"target_flow":target,"observable_combination":combination,
-                        "input_bases":inputs,"output_bases":axes,"ideal_circuit_sha256":hashlib.sha256(str(circuit).encode()).hexdigest(),
+        records.append({"input_generator":axis.upper()+str(q),"target_flow":target,"observable_combination":combination,
+                        "input_bases":inputs,"output_bases":outputs,"ideal_circuit_sha256":hashlib.sha256(str(circuit).encode()).hexdigest(),
                         "num_ticks":circuit.num_ticks,"validation":validation})
     return records
+
+
+def validate_x_generators(program,plan,shots=8):
+    return _validate_generators(program,plan,shots,"x")
+
+
+def validate_clifford_generators(program,plan,shots=4):
+    """All 2n independent generators, including random-output programs."""
+    return _validate_generators(program,plan,shots,"xz")

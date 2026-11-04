@@ -1,0 +1,55 @@
+{
+  "id": "complete_mqt_bell6_new_workload_20261104_v1",
+  "source": "Exact MQT Bench create_circuit(6); original H/CX/barrier/readout retained",
+  "spacings": [
+    3,
+    5
+  ],
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "front_budget": 48,
+  "methods": {
+    "author_profile": [
+      "author_profile",
+      null
+    ],
+    "one_budget48": [
+      "one_step",
+      null
+    ],
+    "two_budget48": [
+      "two_step",
+      null
+    ],
+    "one_pool16": [
+      "one_step",
+      16
+    ],
+    "two_pool16": [
+      "two_step",
+      16
+    ]
+  },
+  "controls": [
+    "parallel",
+    "serial"
+  ],
+  "distance": 3,
+  "physical_p": 0.001,
+  "shots_per_unique_circuit": 100000,
+  "batch_size": 5000,
+  "model_id": "tqec_uniform_depolarizing_circuit_v1",
+  "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+  "metric": "Any of three independent original terminal ZZ-correlation observables misdecoded. Individual outputs are random; not full-bitstring error or fidelity.",
+  "validation": "64 signed Z inputs; all 12 X/Z Clifford generators via separate mixed boundaries; six known final logical faults; complete terminal Z subgroup; source statevector distribution; graphlike distance3.",
+  "timing_policy": "H/CX layer=3 template block-z; barrier is zero-time synchronization fence preserving full DAG; terminal readout at common end; compiler TICK counted; QEC rounds null.",
+  "fairness": "Same full-footprint source primitive and DAG closure; one/two-step budget48 and fixed-pool cap16 controls. Author search is a separate unmatched-cost reference. Structural serial control is not one-step.",
+  "selection": "All algorithm routes and all13 exact-pool features fixed before new labels; four physical controls (2 geometries x parallel/serial), deduplicate exact physical identity.",
+  "heldout_scope": "Prospective new-workload test, selected for backend support without looking at its noisy counts. No tuning on this workload. Single new family, not a broad generalization study.",
+  "risk_transfer": "Prior hs4 absolute any-error fit has four observables and four qubits; Bell has three and six. Abstain on target/domain mismatch, retain baseline, mu=0. No absolute-risk transfer or held-out risk benefit claimed.",
+  "timing": "After all physics/tests:3 warmups,25 repetitions, rotated method order; scheduler only. No MC, compiler, training or exact offline pool enumeration.",
+  "mu": 0
+}

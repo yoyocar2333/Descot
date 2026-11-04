@@ -1,0 +1,295 @@
+{
+  "name": "bell_n6",
+  "logical_qubits": 6,
+  "classical_bits": 6,
+  "expanded_custom_gates": [],
+  "operation_counts": {
+    "barrier": 1,
+    "cx": 3,
+    "h": 3,
+    "measure": 6
+  },
+  "operations": [
+    {
+      "id": 0,
+      "name": "h",
+      "qubits": [
+        0
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": []
+    },
+    {
+      "id": 1,
+      "name": "cx",
+      "qubits": [
+        0,
+        1
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        0
+      ]
+    },
+    {
+      "id": 2,
+      "name": "h",
+      "qubits": [
+        2
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": []
+    },
+    {
+      "id": 3,
+      "name": "cx",
+      "qubits": [
+        2,
+        3
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        2
+      ]
+    },
+    {
+      "id": 4,
+      "name": "h",
+      "qubits": [
+        4
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": []
+    },
+    {
+      "id": 5,
+      "name": "cx",
+      "qubits": [
+        4,
+        5
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        4
+      ]
+    },
+    {
+      "id": 6,
+      "name": "barrier",
+      "qubits": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "id": 7,
+      "name": "measure",
+      "qubits": [
+        0
+      ],
+      "clbits": [
+        0
+      ],
+      "params": [],
+      "predecessors": [
+        6
+      ]
+    },
+    {
+      "id": 8,
+      "name": "measure",
+      "qubits": [
+        1
+      ],
+      "clbits": [
+        1
+      ],
+      "params": [],
+      "predecessors": [
+        6
+      ]
+    },
+    {
+      "id": 9,
+      "name": "measure",
+      "qubits": [
+        2
+      ],
+      "clbits": [
+        2
+      ],
+      "params": [],
+      "predecessors": [
+        6
+      ]
+    },
+    {
+      "id": 10,
+      "name": "measure",
+      "qubits": [
+        3
+      ],
+      "clbits": [
+        3
+      ],
+      "params": [],
+      "predecessors": [
+        6
+      ]
+    },
+    {
+      "id": 11,
+      "name": "measure",
+      "qubits": [
+        4
+      ],
+      "clbits": [
+        4
+      ],
+      "params": [],
+      "predecessors": [
+        6
+      ]
+    },
+    {
+      "id": 12,
+      "name": "measure",
+      "qubits": [
+        5
+      ],
+      "clbits": [
+        5
+      ],
+      "params": [],
+      "predecessors": [
+        6
+      ]
+    }
+  ],
+  "dag_fronts": [
+    {
+      "operation_ids": [
+        0,
+        2,
+        4
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        1,
+        3,
+        5
+      ],
+      "cx_ids": [
+        1,
+        3,
+        5
+      ],
+      "cx_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        6
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    }
+  ],
+  "dag_depth_unit": "One original logical instruction, including retained barriers and measurements; not routing steps, QEC cycles, or physical TICKs.",
+  "strict_instruction_depth": 4,
+  "max_ready_cx": 3,
+  "front_metric_scope": "Ready-CX count in the recorded ASAP instruction fronts; not the maximum over all delayed schedules. Incomparable CX pairs separately capture other legal choices.",
+  "incomparable_cx_pairs": [
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      3,
+      5
+    ]
+  ],
+  "terminal_readout": [
+    {
+      "qubit": 0,
+      "classical_bit": 0
+    },
+    {
+      "qubit": 1,
+      "classical_bit": 1
+    },
+    {
+      "qubit": 2,
+      "classical_bit": 2
+    },
+    {
+      "qubit": 3,
+      "classical_bit": 3
+    },
+    {
+      "qubit": 4,
+      "classical_bit": 4
+    },
+    {
+      "qubit": 5,
+      "classical_bit": 5
+    }
+  ],
+  "all_unitaries_clifford": true,
+  "non_clifford_operation_names": [],
+  "dynamic_or_opaque_names": [],
+  "full_physical_profile_supported": false,
+  "physical_rejection_reasons": [
+    "Current homogeneous-basis CNOT profile does not preserve these original operations: barrier, h"
+  ],
+  "source_sha256": "c7c2dced1dfb179111e6dba367fb1f6a4f78634850afe615f2edfd1934e486c9",
+  "semantics_policy": "All original operations and classical dependencies retained; custom definitions expanded without deleting gates. No CNOT-only projection is called a full benchmark."
+}

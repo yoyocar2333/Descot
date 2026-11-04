@@ -1,0 +1,25 @@
+{
+  "repository": "https://github.com/munich-quantum-toolkit/bench",
+  "commit": "8f919416457d76b256930443078334021634236f",
+  "files": [
+    {
+      "path": "benchmarks/public_2026-11-04/mqt/bell.py",
+      "upstream_path": "src/mqt/bench/benchmarks/bell.py",
+      "git_blob_sha": "9471d32080bec246ed293b4a100fb5eac4c0fc12",
+      "sha256": "547dc4b500a92bffda4eadd266df8f10ef0e7e4aeb86789ef169c7072c9f6c88"
+    },
+    {
+      "path": "benchmarks/public_2026-11-04/mqt/LICENSE",
+      "upstream_path": "LICENSE",
+      "git_blob_sha": "8eada1fb94843ab037cb58655c95c2501c8f8ca6",
+      "sha256": "42c32f77c8dcde761998d41ff3c05384dc468dee388866c5876a94966a5f9236"
+    },
+    {
+      "path": "benchmarks/public_2026-11-04/mqt/bell_n6.qasm",
+      "upstream_path": null,
+      "git_blob_sha": null,
+      "sha256": "c7c2dced1dfb179111e6dba367fb1f6a4f78634850afe615f2edfd1934e486c9"
+    }
+  ],
+  "generation": "Exact create_circuit(6) function body from pinned bell.py; registry decorator omitted as metadata only; qiskit 2.5.2 qasm2.dumps. All H/CX/barrier/measure preserved."
+}

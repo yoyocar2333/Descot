@@ -40,7 +40,7 @@ def enumerate_plans(program, spacing=3, cap=256):
         ready = [o for o in ops if o['id'] not in done and set(o['predecessors']) <= done]
         if not ready:
             raise ValueError('Invalid instruction DAG')
-        instant = [o for o in ready if o['name'] in ('x', 'measure')]
+        instant = [o for o in ready if o['name'] in ('x', 'measure', 'barrier')]
         hs = [o for o in ready if o['name'] == 'h']
         if instant:
             choices = [instant]; kind = 'virtual_or_readout'

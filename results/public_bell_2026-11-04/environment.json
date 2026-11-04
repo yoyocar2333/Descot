@@ -1,0 +1,63 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+  "packages": {
+    "tqec": "0.2.0",
+    "stim": "1.16.0",
+    "pymatching": "2.4.0",
+    "qiskit": "2.5.2",
+    "numpy": "2.5.4"
+  },
+  "tqec_direct_url": {
+    "url": "file:///workspace/scratch/4680ffcb5b1d/external/tqec",
+    "dir_info": {}
+  },
+  "tqec_verification": {
+    "method": "pinned local Git tree and installed source byte comparison",
+    "commit": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+    "python_files_checked": 177,
+    "source_fingerprint_sha256": "b8ec733c008548994db2dfa30e996b62d5a227d98ef713d02709d4c72817ed61"
+  },
+  "wisq_commit": "97c12a5e22cf16e37288c60a0a5735c58c6fe8ca",
+  "source_files_sha256": {
+    "bell_benchmark.py": "0891dfb90aa49cc473a4b9383801f61fa27e2b2eb714c65643e86b62aa8e9dea",
+    "run_bell_benchmark.py": "bb11e0dc6362a39430b692dfb6326fefcfdba43d50378cf87149395181b31510",
+    "public_clifford.py": "bc3c68c183ec07cc95dea32fdf14f2290d0c082bd005d86b8a5a01296bce7ee5",
+    "public_candidate_pool.py": "4696ded929e46dc3ce34042d53fb3ca6b5d72c3635f9ab287c8d34589350d6e3",
+    "public_lookahead.py": "b3e20326bd4ad5862a9d208808bf58ed198faacd0b2c9e86555323d5cf39db10",
+    "lookahead.py": "66a0abd1d24288ba49b3427ce1921548b6760ec86ae56fcb8a49f166b7ab2a21",
+    "run_public_lookahead.py": "081a23414595374f821c18062246102444e594664d1c3fc2495ac48add3c2026",
+    "run_public_audit.py": "0d8d5ff8a7fa2de8a9584db6a39a278c0aaa9814d7a2e7d8a0af868625eb4a31",
+    "schedule_circuit.py": "86508aa305ac346a04ff9d931bcfb17cc3f3976dbd16694d7a850584c4d63a60",
+    "surgery.py": "ee67e6691f7da5b48dd788b4e886348fbd70fd370154ef5de2ecee9b90d11e0b",
+    "run_surgery.py": "1f4d9227351a14d6f48f7aad80a39b10efcce7ef7b5913c7ff53bd464fe035d3",
+    "run_three_qubit.py": "e79a31182623826c0aff27eec6eca7c9dd6e2536df44fc3949f636024e3da495",
+    "memory_calibration_previous.py": "36f0e60b849d48b388eab2b86b5a1086774b58f6fb349b814d404d4ebe839534",
+    "requirements-lock.txt": "140e7ad5273ee3ac59347cd775c49bdcd2b1e978936e56bc7e1ab205eccaebf9"
+  },
+  "upstream_manifest": {
+    "repository": "https://github.com/munich-quantum-toolkit/bench",
+    "commit": "8f919416457d76b256930443078334021634236f",
+    "files": [
+      {
+        "path": "benchmarks/public_2026-11-04/mqt/bell.py",
+        "upstream_path": "src/mqt/bench/benchmarks/bell.py",
+        "git_blob_sha": "9471d32080bec246ed293b4a100fb5eac4c0fc12",
+        "sha256": "547dc4b500a92bffda4eadd266df8f10ef0e7e4aeb86789ef169c7072c9f6c88"
+      },
+      {
+        "path": "benchmarks/public_2026-11-04/mqt/LICENSE",
+        "upstream_path": "LICENSE",
+        "git_blob_sha": "8eada1fb94843ab037cb58655c95c2501c8f8ca6",
+        "sha256": "42c32f77c8dcde761998d41ff3c05384dc468dee388866c5876a94966a5f9236"
+      },
+      {
+        "path": "benchmarks/public_2026-11-04/mqt/bell_n6.qasm",
+        "upstream_path": null,
+        "git_blob_sha": null,
+        "sha256": "c7c2dced1dfb179111e6dba367fb1f6a4f78634850afe615f2edfd1934e486c9"
+      }
+    ],
+    "generation": "Exact create_circuit(6) function body from pinned bell.py; registry decorator omitted as metadata only; qiskit 2.5.2 qasm2.dumps. All H/CX/barrier/measure preserved."
+  }
+}
