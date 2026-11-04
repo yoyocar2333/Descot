@@ -1,0 +1,71 @@
+{
+  "serial_to_parallel": [
+    {
+      "spacing": 3,
+      "first": "bell6_serial_spacing3",
+      "second": "bell6_parallel_spacing3",
+      "difference": -0.06215999999999999,
+      "ci95": [
+        -0.06534420407392322,
+        -0.0589754346482306
+      ],
+      "method": "Newcombe hybrid score interval for independent binomial samples; pointwise, exploratory, no familywise adjustment"
+    },
+    {
+      "spacing": 5,
+      "first": "bell6_serial_spacing5",
+      "second": "bell6_parallel_spacing5",
+      "difference": -0.05912999999999999,
+      "ci95": [
+        -0.0625672016647318,
+        -0.055691585246010145
+      ],
+      "method": "Newcombe hybrid score interval for independent binomial samples; pointwise, exploratory, no familywise adjustment"
+    }
+  ],
+  "algorithm_gain": 0,
+  "resources": [
+    {
+      "record_id": "bell6_parallel_spacing3",
+      "peak_ancilla_reserved_xy_blocks": 15,
+      "peak_data_plus_ancilla_reserved_xy_blocks": 21,
+      "compiled_unique_physical_qubits": 579,
+      "template_block_z": 6,
+      "total_protected_idle_block_z": 9,
+      "data_reservation_block_z": 36,
+      "ancilla_reservation_block_z": 45
+    },
+    {
+      "record_id": "bell6_parallel_spacing5",
+      "peak_ancilla_reserved_xy_blocks": 27,
+      "peak_data_plus_ancilla_reserved_xy_blocks": 33,
+      "compiled_unique_physical_qubits": 915,
+      "template_block_z": 6,
+      "total_protected_idle_block_z": 9,
+      "data_reservation_block_z": 36,
+      "ancilla_reservation_block_z": 81
+    },
+    {
+      "record_id": "bell6_serial_spacing3",
+      "peak_ancilla_reserved_xy_blocks": 5,
+      "peak_data_plus_ancilla_reserved_xy_blocks": 11,
+      "compiled_unique_physical_qubits": 579,
+      "template_block_z": 12,
+      "total_protected_idle_block_z": 45,
+      "data_reservation_block_z": 72,
+      "ancilla_reservation_block_z": 45
+    },
+    {
+      "record_id": "bell6_serial_spacing5",
+      "peak_ancilla_reserved_xy_blocks": 9,
+      "peak_data_plus_ancilla_reserved_xy_blocks": 15,
+      "compiled_unique_physical_qubits": 915,
+      "template_block_z": 12,
+      "total_protected_idle_block_z": 45,
+      "data_reservation_block_z": 72,
+      "ancilla_reservation_block_z": 81
+    }
+  ],
+  "interpretation": "Serial is a structural control, not a one-step algorithm. All source algorithms select the same parallel circuit; exact zero difference using shared counts.",
+  "ci_policy": "Wilson95 rates; pointwise independent-binomial Newcombe95 for parallel minus serial, not simultaneous familywise intervals. Cross-geometry resources differ."
+}

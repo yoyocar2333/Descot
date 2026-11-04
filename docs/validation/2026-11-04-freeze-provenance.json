@@ -1,0 +1,7 @@
+{
+  "local_source_freeze_commit": "4978c9f2d323382649c8b2261113eda4d34ce84c",
+  "published_source_freeze_commit": "d3bce22e9404eb5899a1ee9aa161361b4159d9b9",
+  "exact_tree_sha": "0578cf05dcfcce1b7d878de452bb8896a4151e86",
+  "same_tree": true,
+  "reason": "GitHub connector writes preserve exact source tree but use server commit metadata; local pre-label commit retained in a bundle. Neither moves main."
+}

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "unique_circuits": 4,
+  "new_shots": 400000,
+  "original_instructions": 13,
+  "physical_signed_boundary_settings": 3328,
+  "source_freeze_commit": "4978c9f2d323382649c8b2261113eda4d34ce84c",
+  "checks": [
+    "pre-test frozen source/design",
+    "all original gate/barrier/classical dependencies",
+    "all 12 Clifford generators per circuit",
+    "complete original random Z-output subgroup",
+    "known final faults and graphlike distance3",
+    "full circuit and DEM hashes",
+    "raw batches, Wilson95 and unique-shot accounting"
+  ]
+}

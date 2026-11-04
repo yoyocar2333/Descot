@@ -65,3 +65,12 @@
 ## 11/3 完整公開 DAG 對照補充
 
 已將作者受限搜尋及 one/two-step 接回 hs4_n4 全部 H/X/CX/readout 指令與 oriented footprint，30 個條件均選相同並行 p12；不是將串行控制標成 one-step。完成同候選／同預算上限檢查、兩種完整電路重編譯及精確既有 counts 重用。這是觀察既有案例後的開發整合，沒有新增 held-out workload 或 noisy shots，μ=0。跨 workload 風險驗證、多幾何校準及 online 風險選擇仍保留；詳見 [11/3 進度](updates/2026-11-03.md)。
+
+
+## 11/4 完整第二來源與方法界線
+
+新增固定來源 `MQT Bench create_circuit(6)`，上游 commit `8f919416457d76b256930443078334021634236f`；原始 generator、MIT license、完整生成的 QASM 及 SHA-256 都在 `benchmarks/public_2026-11-04/manifest.json`。保留 3 H、3 CX、1 barrier、6 次原始 Z 量測，有 13 份合法 H-first CX-subset 排程。它是公開生成器的完整固定實例，不是從大電路擷取的 CX kernel。
+
+Bell 原始輸出含 8 種等機率字串，主要指標為三個獨立 ZZ correlations 的任一解碼錯誤；不能用 hs4 的四個完整輸出 observables 當相同 target。全 Clifford 作用另用 12 個 X/Z generators 驗證；不把只有 ZZ checks 當完整 unitary 驗證。現有 source algorithms 若均選同一排程，公平結果就是持平，串行 structural control 另列。
+
+新增 [文獻差異表](RELATED_WORK_2026-11-04_ZH.md)與[實測進度](updates/2026-11-04.md)。舊模型到新來源的絕對風險轉移暫停套用；跨 workload calibration／held-out／online risk 決策仍為必要未完成工作，`mu=0`。

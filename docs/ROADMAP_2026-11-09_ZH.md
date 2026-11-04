@@ -1,6 +1,6 @@
 # 11/9 正式報告：11/6 前完成全部交付
 
-更新日期：2026-11-03；時區：Asia/Taipei（UTC+8）。正式報告仍為 2026-11-09。
+更新日期：2026-11-04；時區：Asia/Taipei（UTC+8）。正式報告仍為 2026-11-09。
 
 **依使用者最新要求，全部交付提前到 11/5 23:59 前完成，亦即進入 11/6 前完成。** 包含開發、實驗、圖表、正式英文簡報／PDF、分開的中文可朗讀講稿與理解補充、問答及可重現快照。不再將講稿排到 11/7、簡報排到 11/8；11/6–11/8 留給使用者熟悉內容、演練及提出修正。
 
@@ -83,3 +83,20 @@ GitHub 為主要版本；日常進度寫在 `docs/updates/`，先用白話說明
 ## 報告時的貢獻界線
 
 TQEC 提供原 CNOT graph、graph composition 與 physical compiler；Stim 與 PyMatching 提供抽樣及解碼。我們的工作是 bounded lookahead 與公平控制、幾何延伸、串接／路由介面、驗證、量測與受限風險整合。4.21x 是先前某組 Sparse/Compact 的 routing-step 比值，不能寫成保真度改善。
+
+
+## 11/4 狀態更新（依實際驗證記錄，不改交付內容）
+
+本輪進度、完整原始紀錄與圖表見 [11/4 更新](updates/2026-11-04.md)。新增第二份完整公開 MQT Bench Bell(6) workload，固定上游 generator／commit／hash，保留全部 H/CX/barrier/measurement 與原始 classical mapping。完整 source 支援從 QASMBench 的 1/7 擴至兩來源集合的 2/8；新增分母是一份 MQT 來源，不能寫成原 QASMBench 已達 2/7。
+
+| 必要內容 | 11/4 狀態 | 接下來的具體工作 |
+|---|---|---|
+| 完整公開電路物理整合 | hs4 與 Bell(6)；原始語意、完整 memory、footprint 及 X/Z 作用檢查 | 擴充能產生等進度但不同 footprint／等待的完整 workload；其餘六份保留拒絕原因 |
+| 公平 one-step／two-step／作者參考與獨立計時 | 兩份來源均有完整 DAG、同 pool／預算設定；作者另列 unmatched reference | 保留持平結果；不能用人工串行控制替代 one-step 的實際結果 |
+| 完整解碼、幾何／等待／資源分析 | 本輪兩幾何的並行／串行全電路結果與 raw shots 分帳，圖表與差值 CI | 各同幾何內比較；跨幾何實體資源不同，分開描述 trade-off |
+| 受限風險 calibration／held-out／ablation | 原 hs4 同來源新幾何 pilot／ablation 已保存；Bell 與舊模型目標不同，暫停絕對風險轉移 | **跨 workload 匹配目標的校準與風險排序 held-out，仍未完成**；不得將暫停套用標成風險改善 |
+| Online 風險平手決策 | **仍未完成，mu=0**；Bell 的 progress 方法均自然選到並行 | 實作匹配支援範圍的等 progress 候選決策與分項移除；未見 labels 前凍結 |
+| 文獻差異 | [11/4 方法對照](RELATED_WORK_2026-11-04_ZH.md)，補入近期 PureMagic／Patchwork | 已區分讀方法與只核對摘要；尚非完整排重，不宣稱首創 |
+| 英文 PPTX/PDF、獨立中文講稿、詳細教學、Q&A | **本輪尚未製成正式交付** | 11/5 完成、render 檢查、姓名可編輯、結果一致、附固定快照 |
+
+上述未完成項目全部保留；11/5 23:59 Asia/Taipei 的截止目標不變，沒有將必要內容排到 11/6–11/8。風險方法的證據不足時清楚列出支援範圍及尚未完成項目，不用持平 benchmark 或相容性檢查冒充完成。

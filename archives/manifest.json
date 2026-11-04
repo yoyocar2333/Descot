@@ -50,5 +50,18 @@
     "bytes": 47132,
     "result_prefix": "results/public_lookahead_2026-11-03",
     "description": "2026-11-03 complete original hs4 source DAG algorithm controls:30 schedules, fixed-pool/budget checks, two complete compiler replays, prior exact counts reused with0 new shots, isolated routing timing, audit and hashes."
+  },
+  "public_bell_2026-11-04.zip": {
+    "sha256": "0bfcd5f7a8c8293a0ff4e5836e5ef1a9e62eed1da1308a6d2af2edb8b774890d",
+    "bytes": 1166499,
+    "result_prefix": "results/public_bell_2026-11-04",
+    "source_bundle": {
+      "path": "public_bell_pretest_2026-11-04.bundle",
+      "ref": "HEAD",
+      "sha256": "5227b0fbe8681a691704f0c514c8ce3ff29c50822d8c909d7f810644d43d6cc3",
+      "commit": "4978c9f2d323382649c8b2261113eda4d34ce84c",
+      "base_commit": "ba77e98574c0c7104027ff03ec56189334fc7cb7"
+    },
+    "description": "Complete pinned MQT Bell(6), all H/CX/barrier/readout retained;30 prospective source settings,4 unique complete circuits,400000 new noisy shots;all12 X/Z physical generators,random-output subgroup,signed inputs,faults,distance3,raw counts/CI,isolated timing and source-freeze evidence."
   }
 }

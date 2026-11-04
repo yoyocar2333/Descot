@@ -54,7 +54,9 @@ def main():
             assert hashlib.sha256(bundle.read_bytes()).hexdigest()==proof['sha256'], 'Source bundle hash mismatch'
             present=subprocess.run(['git','-C',str(ROOT),'cat-file','-e',proof['commit']+'^{commit}'],capture_output=True)
             if present.returncode:
-                subprocess.run(['git','-C',str(ROOT),'fetch','--no-tags',str(bundle),'refs/heads/main'],check=True,capture_output=True)
+                ref=proof.get('ref','refs/heads/main')
+                if ref!='HEAD' and not ref.startswith('refs/heads/'):raise ValueError('Unsafe source bundle ref')
+                subprocess.run(['git','-C',str(ROOT),'fetch','--no-tags',str(bundle),ref],check=True,capture_output=True)
             subprocess.run(['git','-C',str(ROOT),'cat-file','-e',proof['commit']+'^{commit}'],check=True,capture_output=True)
         if Path(archive_name).name!=archive_name:raise ValueError('Unsafe archive name')
         prefix=Path(info['result_prefix'])

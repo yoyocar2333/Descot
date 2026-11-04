@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "reference": "hs4_parallel_spacing3",
+  "hashes": {
+    "ideal_circuit_sha256": "d7eaa95e6785c8a622ea10f1569a0ceb562ae09bf7e84ffef3ac0a2311f7cef7",
+    "noisy_circuit_sha256": "70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222",
+    "dem_sha256": "f1ab439fe76ae1565684e089ce8d1e51f822131682d14d820acd09b168015a90"
+  },
+  "new_shots": 0,
+  "note": "Fresh complete hs4 compile after barrier/generator extension; exact frozen ideal/noisy/DEM identity."
+}
