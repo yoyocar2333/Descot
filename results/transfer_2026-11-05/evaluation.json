@@ -1,0 +1,5270 @@
+{
+  "freeze_replay": "0fe2004cd43575b085828292aca7c0b8ac8a1812",
+  "unique_circuits": 8,
+  "new_shots": 800000,
+  "contrasts": [
+    {
+      "spacing": 3,
+      "method": "progress",
+      "selected": "bell4_s3_anchor_first",
+      "difference_and_newcombe95": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "spacing": 3,
+      "method": "depth_only",
+      "selected": "bell4_s3_anchor_first",
+      "difference_and_newcombe95": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "spacing": 3,
+      "method": "no_geometry",
+      "selected": "bell4_s3_anchor_last",
+      "difference_and_newcombe95": [
+        -0.007429999999999999,
+        -0.00944695254654157,
+        -0.005414147892693089
+      ]
+    },
+    {
+      "spacing": 3,
+      "method": "no_wait",
+      "selected": "bell4_s3_anchor_first",
+      "difference_and_newcombe95": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "spacing": 3,
+      "method": "full",
+      "selected": "bell4_s3_anchor_last",
+      "difference_and_newcombe95": [
+        -0.007429999999999999,
+        -0.00944695254654157,
+        -0.005414147892693089
+      ]
+    },
+    {
+      "spacing": 3,
+      "method": "guarded",
+      "selected": "bell4_s3_anchor_first",
+      "difference_and_newcombe95": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "spacing": 5,
+      "method": "progress",
+      "selected": "bell4_s5_anchor_first",
+      "difference_and_newcombe95": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "spacing": 5,
+      "method": "depth_only",
+      "selected": "bell4_s5_anchor_first",
+      "difference_and_newcombe95": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "spacing": 5,
+      "method": "no_geometry",
+      "selected": "bell4_s5_anchor_last",
+      "difference_and_newcombe95": [
+        -0.00578999999999999,
+        -0.008009181544648226,
+        -0.0035714167012962533
+      ]
+    },
+    {
+      "spacing": 5,
+      "method": "no_wait",
+      "selected": "bell4_s5_anchor_first",
+      "difference_and_newcombe95": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "spacing": 5,
+      "method": "full",
+      "selected": "bell4_s5_anchor_last",
+      "difference_and_newcombe95": [
+        -0.00578999999999999,
+        -0.008009181544648226,
+        -0.0035714167012962533
+      ]
+    },
+    {
+      "spacing": 5,
+      "method": "guarded",
+      "selected": "bell4_s5_anchor_first",
+      "difference_and_newcombe95": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "unconstrained_routes": [
+    {
+      "workload": "bell4",
+      "spacing": 3,
+      "seed": 1,
+      "method": "author_profile",
+      "shared_circuit": "baee5966ad019fcebc1afac80012ad1682f819c1a7ed82eabde1399bc5067b49",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1,
+            3
+          ],
+          "chosen_ids": [
+            1,
+            3
+          ],
+          "candidate_orders": null,
+          "candidates": [],
+          "orders_tried": 3,
+          "cost": {
+            "front_evaluations": 3,
+            "gate_route_calls": 6,
+            "closure_evaluations": 0
+          },
+          "budget": null
+        }
+      ],
+      "cost": {
+        "front_evaluations": 3,
+        "gate_route_calls": 6,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "bell4",
+      "spacing": 3,
+      "seed": 1,
+      "method": "one_budget48",
+      "shared_circuit": "baee5966ad019fcebc1afac80012ad1682f819c1a7ed82eabde1399bc5067b49",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1,
+            3
+          ],
+          "chosen_ids": [
+            1,
+            3
+          ],
+          "candidate_orders": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0,
+                1
+              ],
+              "ids": [
+                1,
+                3
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            },
+            {
+              "order": [
+                1,
+                0
+              ],
+              "ids": [
+                3,
+                1
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 2,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 4,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 2,
+        "gate_route_calls": 4,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "bell4",
+      "spacing": 3,
+      "seed": 1,
+      "method": "two_budget48",
+      "shared_circuit": "baee5966ad019fcebc1afac80012ad1682f819c1a7ed82eabde1399bc5067b49",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1,
+            3
+          ],
+          "chosen_ids": [
+            1,
+            3
+          ],
+          "candidate_orders": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0,
+                1
+              ],
+              "ids": [
+                1,
+                3
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            },
+            {
+              "order": [
+                1,
+                0
+              ],
+              "ids": [
+                3,
+                1
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 2,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 4,
+            "closure_evaluations": 2
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 2,
+        "gate_route_calls": 4,
+        "closure_evaluations": 2
+      }
+    },
+    {
+      "workload": "bell4",
+      "spacing": 3,
+      "seed": 1,
+      "method": "one_pool16",
+      "shared_circuit": "baee5966ad019fcebc1afac80012ad1682f819c1a7ed82eabde1399bc5067b49",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1,
+            3
+          ],
+          "chosen_ids": [
+            1,
+            3
+          ],
+          "candidate_orders": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0,
+                1
+              ],
+              "ids": [
+                1,
+                3
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            },
+            {
+              "order": [
+                1,
+                0
+              ],
+              "ids": [
+                3,
+                1
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 2,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 4,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 2,
+        "gate_route_calls": 4,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "bell4",
+      "spacing": 3,
+      "seed": 1,
+      "method": "two_pool16",
+      "shared_circuit": "baee5966ad019fcebc1afac80012ad1682f819c1a7ed82eabde1399bc5067b49",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1,
+            3
+          ],
+          "chosen_ids": [
+            1,
+            3
+          ],
+          "candidate_orders": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0,
+                1
+              ],
+              "ids": [
+                1,
+                3
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            },
+            {
+              "order": [
+                1,
+                0
+              ],
+              "ids": [
+                3,
+                1
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 2,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 4,
+            "closure_evaluations": 2
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 2,
+        "gate_route_calls": 4,
+        "closure_evaluations": 2
+      }
+    },
+    {
+      "workload": "bell4",
+      "spacing": 3,
+      "seed": 2,
+      "method": "author_profile",
+      "shared_circuit": "baee5966ad019fcebc1afac80012ad1682f819c1a7ed82eabde1399bc5067b49",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1,
+            3
+          ],
+          "chosen_ids": [
+            1,
+            3
+          ],
+          "candidate_orders": null,
+          "candidates": [],
+          "orders_tried": 3,
+          "cost": {
+            "front_evaluations": 3,
+            "gate_route_calls": 6,
+            "closure_evaluations": 0
+          },
+          "budget": null
+        }
+      ],
+      "cost": {
+        "front_evaluations": 3,
+        "gate_route_calls": 6,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "bell4",
+      "spacing": 3,
+      "seed": 2,
+      "method": "one_budget48",
+      "shared_circuit": "baee5966ad019fcebc1afac80012ad1682f819c1a7ed82eabde1399bc5067b49",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1,
+            3
+          ],
+          "chosen_ids": [
+            1,
+            3
+          ],
+          "candidate_orders": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0,
+                1
+              ],
+              "ids": [
+                1,
+                3
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            },
+            {
+              "order": [
+                1,
+                0
+              ],
+              "ids": [
+                3,
+                1
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 2,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 4,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 2,
+        "gate_route_calls": 4,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "bell4",
+      "spacing": 3,
+      "seed": 2,
+      "method": "two_budget48",
+      "shared_circuit": "baee5966ad019fcebc1afac80012ad1682f819c1a7ed82eabde1399bc5067b49",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1,
+            3
+          ],
+          "chosen_ids": [
+            1,
+            3
+          ],
+          "candidate_orders": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0,
+                1
+              ],
+              "ids": [
+                1,
+                3
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            },
+            {
+              "order": [
+                1,
+                0
+              ],
+              "ids": [
+                3,
+                1
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 2,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 4,
+            "closure_evaluations": 2
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 2,
+        "gate_route_calls": 4,
+        "closure_evaluations": 2
+      }
+    },
+    {
+      "workload": "bell4",
+      "spacing": 3,
+      "seed": 2,
+      "method": "one_pool16",
+      "shared_circuit": "baee5966ad019fcebc1afac80012ad1682f819c1a7ed82eabde1399bc5067b49",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1,
+            3
+          ],
+          "chosen_ids": [
+            1,
+            3
+          ],
+          "candidate_orders": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0,
+                1
+              ],
+              "ids": [
+                1,
+                3
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            },
+            {
+              "order": [
+                1,
+                0
+              ],
+              "ids": [
+                3,
+                1
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 2,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 4,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 2,
+        "gate_route_calls": 4,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "bell4",
+      "spacing": 3,
+      "seed": 2,
+      "method": "two_pool16",
+      "shared_circuit": "baee5966ad019fcebc1afac80012ad1682f819c1a7ed82eabde1399bc5067b49",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1,
+            3
+          ],
+          "chosen_ids": [
+            1,
+            3
+          ],
+          "candidate_orders": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0,
+                1
+              ],
+              "ids": [
+                1,
+                3
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            },
+            {
+              "order": [
+                1,
+                0
+              ],
+              "ids": [
+                3,
+                1
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 2,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 4,
+            "closure_evaluations": 2
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 2,
+        "gate_route_calls": 4,
+        "closure_evaluations": 2
+      }
+    },
+    {
+      "workload": "bell4",
+      "spacing": 3,
+      "seed": 3,
+      "method": "author_profile",
+      "shared_circuit": "baee5966ad019fcebc1afac80012ad1682f819c1a7ed82eabde1399bc5067b49",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1,
+            3
+          ],
+          "chosen_ids": [
+            1,
+            3
+          ],
+          "candidate_orders": null,
+          "candidates": [],
+          "orders_tried": 3,
+          "cost": {
+            "front_evaluations": 3,
+            "gate_route_calls": 6,
+            "closure_evaluations": 0
+          },
+          "budget": null
+        }
+      ],
+      "cost": {
+        "front_evaluations": 3,
+        "gate_route_calls": 6,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "bell4",
+      "spacing": 3,
+      "seed": 3,
+      "method": "one_budget48",
+      "shared_circuit": "baee5966ad019fcebc1afac80012ad1682f819c1a7ed82eabde1399bc5067b49",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1,
+            3
+          ],
+          "chosen_ids": [
+            1,
+            3
+          ],
+          "candidate_orders": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0,
+                1
+              ],
+              "ids": [
+                1,
+                3
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            },
+            {
+              "order": [
+                1,
+                0
+              ],
+              "ids": [
+                3,
+                1
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 2,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 4,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 2,
+        "gate_route_calls": 4,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "bell4",
+      "spacing": 3,
+      "seed": 3,
+      "method": "two_budget48",
+      "shared_circuit": "baee5966ad019fcebc1afac80012ad1682f819c1a7ed82eabde1399bc5067b49",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1,
+            3
+          ],
+          "chosen_ids": [
+            1,
+            3
+          ],
+          "candidate_orders": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0,
+                1
+              ],
+              "ids": [
+                1,
+                3
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            },
+            {
+              "order": [
+                1,
+                0
+              ],
+              "ids": [
+                3,
+                1
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 2,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 4,
+            "closure_evaluations": 2
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 2,
+        "gate_route_calls": 4,
+        "closure_evaluations": 2
+      }
+    },
+    {
+      "workload": "bell4",
+      "spacing": 3,
+      "seed": 3,
+      "method": "one_pool16",
+      "shared_circuit": "baee5966ad019fcebc1afac80012ad1682f819c1a7ed82eabde1399bc5067b49",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1,
+            3
+          ],
+          "chosen_ids": [
+            1,
+            3
+          ],
+          "candidate_orders": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0,
+                1
+              ],
+              "ids": [
+                1,
+                3
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            },
+            {
+              "order": [
+                1,
+                0
+              ],
+              "ids": [
+                3,
+                1
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 2,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 4,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 2,
+        "gate_route_calls": 4,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "bell4",
+      "spacing": 3,
+      "seed": 3,
+      "method": "two_pool16",
+      "shared_circuit": "baee5966ad019fcebc1afac80012ad1682f819c1a7ed82eabde1399bc5067b49",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1,
+            3
+          ],
+          "chosen_ids": [
+            1,
+            3
+          ],
+          "candidate_orders": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0,
+                1
+              ],
+              "ids": [
+                1,
+                3
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            },
+            {
+              "order": [
+                1,
+                0
+              ],
+              "ids": [
+                3,
+                1
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 2,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 4,
+            "closure_evaluations": 2
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 2,
+        "gate_route_calls": 4,
+        "closure_evaluations": 2
+      }
+    },
+    {
+      "workload": "bell4",
+      "spacing": 5,
+      "seed": 1,
+      "method": "author_profile",
+      "shared_circuit": "ca19a57b3200431918eff28e994dad99a197d5d5fdc8c6a26da3c135d2d2c6f6",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1,
+            3
+          ],
+          "chosen_ids": [
+            1,
+            3
+          ],
+          "candidate_orders": null,
+          "candidates": [],
+          "orders_tried": 3,
+          "cost": {
+            "front_evaluations": 3,
+            "gate_route_calls": 6,
+            "closure_evaluations": 0
+          },
+          "budget": null
+        }
+      ],
+      "cost": {
+        "front_evaluations": 3,
+        "gate_route_calls": 6,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "bell4",
+      "spacing": 5,
+      "seed": 1,
+      "method": "one_budget48",
+      "shared_circuit": "ca19a57b3200431918eff28e994dad99a197d5d5fdc8c6a26da3c135d2d2c6f6",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1,
+            3
+          ],
+          "chosen_ids": [
+            1,
+            3
+          ],
+          "candidate_orders": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0,
+                1
+              ],
+              "ids": [
+                1,
+                3
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            },
+            {
+              "order": [
+                1,
+                0
+              ],
+              "ids": [
+                3,
+                1
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 2,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 4,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 2,
+        "gate_route_calls": 4,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "bell4",
+      "spacing": 5,
+      "seed": 1,
+      "method": "two_budget48",
+      "shared_circuit": "ca19a57b3200431918eff28e994dad99a197d5d5fdc8c6a26da3c135d2d2c6f6",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1,
+            3
+          ],
+          "chosen_ids": [
+            1,
+            3
+          ],
+          "candidate_orders": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0,
+                1
+              ],
+              "ids": [
+                1,
+                3
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            },
+            {
+              "order": [
+                1,
+                0
+              ],
+              "ids": [
+                3,
+                1
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 2,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 4,
+            "closure_evaluations": 2
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 2,
+        "gate_route_calls": 4,
+        "closure_evaluations": 2
+      }
+    },
+    {
+      "workload": "bell4",
+      "spacing": 5,
+      "seed": 1,
+      "method": "one_pool16",
+      "shared_circuit": "ca19a57b3200431918eff28e994dad99a197d5d5fdc8c6a26da3c135d2d2c6f6",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1,
+            3
+          ],
+          "chosen_ids": [
+            1,
+            3
+          ],
+          "candidate_orders": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0,
+                1
+              ],
+              "ids": [
+                1,
+                3
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            },
+            {
+              "order": [
+                1,
+                0
+              ],
+              "ids": [
+                3,
+                1
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 2,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 4,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 2,
+        "gate_route_calls": 4,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "bell4",
+      "spacing": 5,
+      "seed": 1,
+      "method": "two_pool16",
+      "shared_circuit": "ca19a57b3200431918eff28e994dad99a197d5d5fdc8c6a26da3c135d2d2c6f6",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1,
+            3
+          ],
+          "chosen_ids": [
+            1,
+            3
+          ],
+          "candidate_orders": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0,
+                1
+              ],
+              "ids": [
+                1,
+                3
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            },
+            {
+              "order": [
+                1,
+                0
+              ],
+              "ids": [
+                3,
+                1
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 2,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 4,
+            "closure_evaluations": 2
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 2,
+        "gate_route_calls": 4,
+        "closure_evaluations": 2
+      }
+    },
+    {
+      "workload": "bell4",
+      "spacing": 5,
+      "seed": 2,
+      "method": "author_profile",
+      "shared_circuit": "ca19a57b3200431918eff28e994dad99a197d5d5fdc8c6a26da3c135d2d2c6f6",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1,
+            3
+          ],
+          "chosen_ids": [
+            1,
+            3
+          ],
+          "candidate_orders": null,
+          "candidates": [],
+          "orders_tried": 3,
+          "cost": {
+            "front_evaluations": 3,
+            "gate_route_calls": 6,
+            "closure_evaluations": 0
+          },
+          "budget": null
+        }
+      ],
+      "cost": {
+        "front_evaluations": 3,
+        "gate_route_calls": 6,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "bell4",
+      "spacing": 5,
+      "seed": 2,
+      "method": "one_budget48",
+      "shared_circuit": "ca19a57b3200431918eff28e994dad99a197d5d5fdc8c6a26da3c135d2d2c6f6",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1,
+            3
+          ],
+          "chosen_ids": [
+            1,
+            3
+          ],
+          "candidate_orders": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0,
+                1
+              ],
+              "ids": [
+                1,
+                3
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            },
+            {
+              "order": [
+                1,
+                0
+              ],
+              "ids": [
+                3,
+                1
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 2,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 4,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 2,
+        "gate_route_calls": 4,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "bell4",
+      "spacing": 5,
+      "seed": 2,
+      "method": "two_budget48",
+      "shared_circuit": "ca19a57b3200431918eff28e994dad99a197d5d5fdc8c6a26da3c135d2d2c6f6",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1,
+            3
+          ],
+          "chosen_ids": [
+            1,
+            3
+          ],
+          "candidate_orders": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0,
+                1
+              ],
+              "ids": [
+                1,
+                3
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            },
+            {
+              "order": [
+                1,
+                0
+              ],
+              "ids": [
+                3,
+                1
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 2,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 4,
+            "closure_evaluations": 2
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 2,
+        "gate_route_calls": 4,
+        "closure_evaluations": 2
+      }
+    },
+    {
+      "workload": "bell4",
+      "spacing": 5,
+      "seed": 2,
+      "method": "one_pool16",
+      "shared_circuit": "ca19a57b3200431918eff28e994dad99a197d5d5fdc8c6a26da3c135d2d2c6f6",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1,
+            3
+          ],
+          "chosen_ids": [
+            1,
+            3
+          ],
+          "candidate_orders": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0,
+                1
+              ],
+              "ids": [
+                1,
+                3
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            },
+            {
+              "order": [
+                1,
+                0
+              ],
+              "ids": [
+                3,
+                1
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 2,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 4,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 2,
+        "gate_route_calls": 4,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "bell4",
+      "spacing": 5,
+      "seed": 2,
+      "method": "two_pool16",
+      "shared_circuit": "ca19a57b3200431918eff28e994dad99a197d5d5fdc8c6a26da3c135d2d2c6f6",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1,
+            3
+          ],
+          "chosen_ids": [
+            1,
+            3
+          ],
+          "candidate_orders": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0,
+                1
+              ],
+              "ids": [
+                1,
+                3
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            },
+            {
+              "order": [
+                1,
+                0
+              ],
+              "ids": [
+                3,
+                1
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 2,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 4,
+            "closure_evaluations": 2
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 2,
+        "gate_route_calls": 4,
+        "closure_evaluations": 2
+      }
+    },
+    {
+      "workload": "bell4",
+      "spacing": 5,
+      "seed": 3,
+      "method": "author_profile",
+      "shared_circuit": "ca19a57b3200431918eff28e994dad99a197d5d5fdc8c6a26da3c135d2d2c6f6",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1,
+            3
+          ],
+          "chosen_ids": [
+            1,
+            3
+          ],
+          "candidate_orders": null,
+          "candidates": [],
+          "orders_tried": 3,
+          "cost": {
+            "front_evaluations": 3,
+            "gate_route_calls": 6,
+            "closure_evaluations": 0
+          },
+          "budget": null
+        }
+      ],
+      "cost": {
+        "front_evaluations": 3,
+        "gate_route_calls": 6,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "bell4",
+      "spacing": 5,
+      "seed": 3,
+      "method": "one_budget48",
+      "shared_circuit": "ca19a57b3200431918eff28e994dad99a197d5d5fdc8c6a26da3c135d2d2c6f6",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1,
+            3
+          ],
+          "chosen_ids": [
+            1,
+            3
+          ],
+          "candidate_orders": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0,
+                1
+              ],
+              "ids": [
+                1,
+                3
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            },
+            {
+              "order": [
+                1,
+                0
+              ],
+              "ids": [
+                3,
+                1
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 2,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 4,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 2,
+        "gate_route_calls": 4,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "bell4",
+      "spacing": 5,
+      "seed": 3,
+      "method": "two_budget48",
+      "shared_circuit": "ca19a57b3200431918eff28e994dad99a197d5d5fdc8c6a26da3c135d2d2c6f6",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1,
+            3
+          ],
+          "chosen_ids": [
+            1,
+            3
+          ],
+          "candidate_orders": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0,
+                1
+              ],
+              "ids": [
+                1,
+                3
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            },
+            {
+              "order": [
+                1,
+                0
+              ],
+              "ids": [
+                3,
+                1
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 2,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 4,
+            "closure_evaluations": 2
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 2,
+        "gate_route_calls": 4,
+        "closure_evaluations": 2
+      }
+    },
+    {
+      "workload": "bell4",
+      "spacing": 5,
+      "seed": 3,
+      "method": "one_pool16",
+      "shared_circuit": "ca19a57b3200431918eff28e994dad99a197d5d5fdc8c6a26da3c135d2d2c6f6",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1,
+            3
+          ],
+          "chosen_ids": [
+            1,
+            3
+          ],
+          "candidate_orders": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0,
+                1
+              ],
+              "ids": [
+                1,
+                3
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            },
+            {
+              "order": [
+                1,
+                0
+              ],
+              "ids": [
+                3,
+                1
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 2,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 4,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 2,
+        "gate_route_calls": 4,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "bell4",
+      "spacing": 5,
+      "seed": 3,
+      "method": "two_pool16",
+      "shared_circuit": "ca19a57b3200431918eff28e994dad99a197d5d5fdc8c6a26da3c135d2d2c6f6",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1,
+            3
+          ],
+          "chosen_ids": [
+            1,
+            3
+          ],
+          "candidate_orders": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0,
+                1
+              ],
+              "ids": [
+                1,
+                3
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            },
+            {
+              "order": [
+                1,
+                0
+              ],
+              "ids": [
+                3,
+                1
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 2,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 4,
+            "closure_evaluations": 2
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 2,
+        "gate_route_calls": 4,
+        "closure_evaluations": 2
+      }
+    },
+    {
+      "workload": "cat4",
+      "spacing": 3,
+      "seed": 1,
+      "method": "author_profile",
+      "shared_circuit": "123543fbecfafed65eab57d08ebc7f577c3fb3ee70f8396d111d0573e389bd13",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1
+          ],
+          "chosen_ids": [
+            1
+          ],
+          "candidate_orders": null,
+          "candidates": [],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": null
+        },
+        {
+          "ready_ids": [
+            2
+          ],
+          "chosen_ids": [
+            2
+          ],
+          "candidate_orders": null,
+          "candidates": [],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": null
+        },
+        {
+          "ready_ids": [
+            3
+          ],
+          "chosen_ids": [
+            3
+          ],
+          "candidate_orders": null,
+          "candidates": [],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": null
+        }
+      ],
+      "cost": {
+        "front_evaluations": 3,
+        "gate_route_calls": 3,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "cat4",
+      "spacing": 3,
+      "seed": 1,
+      "method": "one_budget48",
+      "shared_circuit": "123543fbecfafed65eab57d08ebc7f577c3fb3ee70f8396d111d0573e389bd13",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1
+          ],
+          "chosen_ids": [
+            1
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                1
+              ],
+              "now": 3,
+              "future": 0,
+              "progress": 3,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            2
+          ],
+          "chosen_ids": [
+            2
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                2
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            3
+          ],
+          "chosen_ids": [
+            3
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                3
+              ],
+              "now": 1,
+              "future": 0,
+              "progress": 1,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 3,
+        "gate_route_calls": 3,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "cat4",
+      "spacing": 3,
+      "seed": 1,
+      "method": "two_budget48",
+      "shared_circuit": "123543fbecfafed65eab57d08ebc7f577c3fb3ee70f8396d111d0573e389bd13",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1
+          ],
+          "chosen_ids": [
+            1
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                1
+              ],
+              "now": 3,
+              "future": 2,
+              "progress": 5,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 2,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            2
+          ],
+          "chosen_ids": [
+            2
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                2
+              ],
+              "now": 2,
+              "future": 1,
+              "progress": 3,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 2,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            3
+          ],
+          "chosen_ids": [
+            3
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                3
+              ],
+              "now": 1,
+              "future": 0,
+              "progress": 1,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 5,
+        "gate_route_calls": 5,
+        "closure_evaluations": 3
+      }
+    },
+    {
+      "workload": "cat4",
+      "spacing": 3,
+      "seed": 1,
+      "method": "one_pool16",
+      "shared_circuit": "123543fbecfafed65eab57d08ebc7f577c3fb3ee70f8396d111d0573e389bd13",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1
+          ],
+          "chosen_ids": [
+            1
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                1
+              ],
+              "now": 3,
+              "future": 0,
+              "progress": 3,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            2
+          ],
+          "chosen_ids": [
+            2
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                2
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            3
+          ],
+          "chosen_ids": [
+            3
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                3
+              ],
+              "now": 1,
+              "future": 0,
+              "progress": 1,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 3,
+        "gate_route_calls": 3,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "cat4",
+      "spacing": 3,
+      "seed": 1,
+      "method": "two_pool16",
+      "shared_circuit": "123543fbecfafed65eab57d08ebc7f577c3fb3ee70f8396d111d0573e389bd13",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1
+          ],
+          "chosen_ids": [
+            1
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                1
+              ],
+              "now": 3,
+              "future": 2,
+              "progress": 5,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 2,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            2
+          ],
+          "chosen_ids": [
+            2
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                2
+              ],
+              "now": 2,
+              "future": 1,
+              "progress": 3,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 2,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            3
+          ],
+          "chosen_ids": [
+            3
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                3
+              ],
+              "now": 1,
+              "future": 0,
+              "progress": 1,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 5,
+        "gate_route_calls": 5,
+        "closure_evaluations": 3
+      }
+    },
+    {
+      "workload": "cat4",
+      "spacing": 3,
+      "seed": 2,
+      "method": "author_profile",
+      "shared_circuit": "123543fbecfafed65eab57d08ebc7f577c3fb3ee70f8396d111d0573e389bd13",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1
+          ],
+          "chosen_ids": [
+            1
+          ],
+          "candidate_orders": null,
+          "candidates": [],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": null
+        },
+        {
+          "ready_ids": [
+            2
+          ],
+          "chosen_ids": [
+            2
+          ],
+          "candidate_orders": null,
+          "candidates": [],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": null
+        },
+        {
+          "ready_ids": [
+            3
+          ],
+          "chosen_ids": [
+            3
+          ],
+          "candidate_orders": null,
+          "candidates": [],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": null
+        }
+      ],
+      "cost": {
+        "front_evaluations": 3,
+        "gate_route_calls": 3,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "cat4",
+      "spacing": 3,
+      "seed": 2,
+      "method": "one_budget48",
+      "shared_circuit": "123543fbecfafed65eab57d08ebc7f577c3fb3ee70f8396d111d0573e389bd13",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1
+          ],
+          "chosen_ids": [
+            1
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                1
+              ],
+              "now": 3,
+              "future": 0,
+              "progress": 3,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            2
+          ],
+          "chosen_ids": [
+            2
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                2
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            3
+          ],
+          "chosen_ids": [
+            3
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                3
+              ],
+              "now": 1,
+              "future": 0,
+              "progress": 1,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 3,
+        "gate_route_calls": 3,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "cat4",
+      "spacing": 3,
+      "seed": 2,
+      "method": "two_budget48",
+      "shared_circuit": "123543fbecfafed65eab57d08ebc7f577c3fb3ee70f8396d111d0573e389bd13",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1
+          ],
+          "chosen_ids": [
+            1
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                1
+              ],
+              "now": 3,
+              "future": 2,
+              "progress": 5,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 2,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            2
+          ],
+          "chosen_ids": [
+            2
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                2
+              ],
+              "now": 2,
+              "future": 1,
+              "progress": 3,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 2,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            3
+          ],
+          "chosen_ids": [
+            3
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                3
+              ],
+              "now": 1,
+              "future": 0,
+              "progress": 1,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 5,
+        "gate_route_calls": 5,
+        "closure_evaluations": 3
+      }
+    },
+    {
+      "workload": "cat4",
+      "spacing": 3,
+      "seed": 2,
+      "method": "one_pool16",
+      "shared_circuit": "123543fbecfafed65eab57d08ebc7f577c3fb3ee70f8396d111d0573e389bd13",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1
+          ],
+          "chosen_ids": [
+            1
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                1
+              ],
+              "now": 3,
+              "future": 0,
+              "progress": 3,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            2
+          ],
+          "chosen_ids": [
+            2
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                2
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            3
+          ],
+          "chosen_ids": [
+            3
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                3
+              ],
+              "now": 1,
+              "future": 0,
+              "progress": 1,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 3,
+        "gate_route_calls": 3,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "cat4",
+      "spacing": 3,
+      "seed": 2,
+      "method": "two_pool16",
+      "shared_circuit": "123543fbecfafed65eab57d08ebc7f577c3fb3ee70f8396d111d0573e389bd13",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1
+          ],
+          "chosen_ids": [
+            1
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                1
+              ],
+              "now": 3,
+              "future": 2,
+              "progress": 5,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 2,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            2
+          ],
+          "chosen_ids": [
+            2
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                2
+              ],
+              "now": 2,
+              "future": 1,
+              "progress": 3,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 2,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            3
+          ],
+          "chosen_ids": [
+            3
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                3
+              ],
+              "now": 1,
+              "future": 0,
+              "progress": 1,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 5,
+        "gate_route_calls": 5,
+        "closure_evaluations": 3
+      }
+    },
+    {
+      "workload": "cat4",
+      "spacing": 3,
+      "seed": 3,
+      "method": "author_profile",
+      "shared_circuit": "123543fbecfafed65eab57d08ebc7f577c3fb3ee70f8396d111d0573e389bd13",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1
+          ],
+          "chosen_ids": [
+            1
+          ],
+          "candidate_orders": null,
+          "candidates": [],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": null
+        },
+        {
+          "ready_ids": [
+            2
+          ],
+          "chosen_ids": [
+            2
+          ],
+          "candidate_orders": null,
+          "candidates": [],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": null
+        },
+        {
+          "ready_ids": [
+            3
+          ],
+          "chosen_ids": [
+            3
+          ],
+          "candidate_orders": null,
+          "candidates": [],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": null
+        }
+      ],
+      "cost": {
+        "front_evaluations": 3,
+        "gate_route_calls": 3,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "cat4",
+      "spacing": 3,
+      "seed": 3,
+      "method": "one_budget48",
+      "shared_circuit": "123543fbecfafed65eab57d08ebc7f577c3fb3ee70f8396d111d0573e389bd13",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1
+          ],
+          "chosen_ids": [
+            1
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                1
+              ],
+              "now": 3,
+              "future": 0,
+              "progress": 3,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            2
+          ],
+          "chosen_ids": [
+            2
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                2
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            3
+          ],
+          "chosen_ids": [
+            3
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                3
+              ],
+              "now": 1,
+              "future": 0,
+              "progress": 1,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 3,
+        "gate_route_calls": 3,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "cat4",
+      "spacing": 3,
+      "seed": 3,
+      "method": "two_budget48",
+      "shared_circuit": "123543fbecfafed65eab57d08ebc7f577c3fb3ee70f8396d111d0573e389bd13",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1
+          ],
+          "chosen_ids": [
+            1
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                1
+              ],
+              "now": 3,
+              "future": 2,
+              "progress": 5,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 2,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            2
+          ],
+          "chosen_ids": [
+            2
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                2
+              ],
+              "now": 2,
+              "future": 1,
+              "progress": 3,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 2,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            3
+          ],
+          "chosen_ids": [
+            3
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                3
+              ],
+              "now": 1,
+              "future": 0,
+              "progress": 1,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 5,
+        "gate_route_calls": 5,
+        "closure_evaluations": 3
+      }
+    },
+    {
+      "workload": "cat4",
+      "spacing": 3,
+      "seed": 3,
+      "method": "one_pool16",
+      "shared_circuit": "123543fbecfafed65eab57d08ebc7f577c3fb3ee70f8396d111d0573e389bd13",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1
+          ],
+          "chosen_ids": [
+            1
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                1
+              ],
+              "now": 3,
+              "future": 0,
+              "progress": 3,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            2
+          ],
+          "chosen_ids": [
+            2
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                2
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            3
+          ],
+          "chosen_ids": [
+            3
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                3
+              ],
+              "now": 1,
+              "future": 0,
+              "progress": 1,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 3,
+        "gate_route_calls": 3,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "cat4",
+      "spacing": 3,
+      "seed": 3,
+      "method": "two_pool16",
+      "shared_circuit": "123543fbecfafed65eab57d08ebc7f577c3fb3ee70f8396d111d0573e389bd13",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1
+          ],
+          "chosen_ids": [
+            1
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                1
+              ],
+              "now": 3,
+              "future": 2,
+              "progress": 5,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 2,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            2
+          ],
+          "chosen_ids": [
+            2
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                2
+              ],
+              "now": 2,
+              "future": 1,
+              "progress": 3,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 2,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            3
+          ],
+          "chosen_ids": [
+            3
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                3
+              ],
+              "now": 1,
+              "future": 0,
+              "progress": 1,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 5,
+        "gate_route_calls": 5,
+        "closure_evaluations": 3
+      }
+    },
+    {
+      "workload": "cat4",
+      "spacing": 5,
+      "seed": 1,
+      "method": "author_profile",
+      "shared_circuit": "4d5bad191b9713b4cd75fed49a7dd393a742b430bb5a88f66a94a93460016db4",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1
+          ],
+          "chosen_ids": [
+            1
+          ],
+          "candidate_orders": null,
+          "candidates": [],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": null
+        },
+        {
+          "ready_ids": [
+            2
+          ],
+          "chosen_ids": [
+            2
+          ],
+          "candidate_orders": null,
+          "candidates": [],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": null
+        },
+        {
+          "ready_ids": [
+            3
+          ],
+          "chosen_ids": [
+            3
+          ],
+          "candidate_orders": null,
+          "candidates": [],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": null
+        }
+      ],
+      "cost": {
+        "front_evaluations": 3,
+        "gate_route_calls": 3,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "cat4",
+      "spacing": 5,
+      "seed": 1,
+      "method": "one_budget48",
+      "shared_circuit": "4d5bad191b9713b4cd75fed49a7dd393a742b430bb5a88f66a94a93460016db4",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1
+          ],
+          "chosen_ids": [
+            1
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                1
+              ],
+              "now": 3,
+              "future": 0,
+              "progress": 3,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            2
+          ],
+          "chosen_ids": [
+            2
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                2
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            3
+          ],
+          "chosen_ids": [
+            3
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                3
+              ],
+              "now": 1,
+              "future": 0,
+              "progress": 1,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 3,
+        "gate_route_calls": 3,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "cat4",
+      "spacing": 5,
+      "seed": 1,
+      "method": "two_budget48",
+      "shared_circuit": "4d5bad191b9713b4cd75fed49a7dd393a742b430bb5a88f66a94a93460016db4",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1
+          ],
+          "chosen_ids": [
+            1
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                1
+              ],
+              "now": 3,
+              "future": 2,
+              "progress": 5,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 2,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            2
+          ],
+          "chosen_ids": [
+            2
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                2
+              ],
+              "now": 2,
+              "future": 1,
+              "progress": 3,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 2,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            3
+          ],
+          "chosen_ids": [
+            3
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                3
+              ],
+              "now": 1,
+              "future": 0,
+              "progress": 1,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 5,
+        "gate_route_calls": 5,
+        "closure_evaluations": 3
+      }
+    },
+    {
+      "workload": "cat4",
+      "spacing": 5,
+      "seed": 1,
+      "method": "one_pool16",
+      "shared_circuit": "4d5bad191b9713b4cd75fed49a7dd393a742b430bb5a88f66a94a93460016db4",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1
+          ],
+          "chosen_ids": [
+            1
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                1
+              ],
+              "now": 3,
+              "future": 0,
+              "progress": 3,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            2
+          ],
+          "chosen_ids": [
+            2
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                2
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            3
+          ],
+          "chosen_ids": [
+            3
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                3
+              ],
+              "now": 1,
+              "future": 0,
+              "progress": 1,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 3,
+        "gate_route_calls": 3,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "cat4",
+      "spacing": 5,
+      "seed": 1,
+      "method": "two_pool16",
+      "shared_circuit": "4d5bad191b9713b4cd75fed49a7dd393a742b430bb5a88f66a94a93460016db4",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1
+          ],
+          "chosen_ids": [
+            1
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                1
+              ],
+              "now": 3,
+              "future": 2,
+              "progress": 5,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 2,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            2
+          ],
+          "chosen_ids": [
+            2
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                2
+              ],
+              "now": 2,
+              "future": 1,
+              "progress": 3,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 2,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            3
+          ],
+          "chosen_ids": [
+            3
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                3
+              ],
+              "now": 1,
+              "future": 0,
+              "progress": 1,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 5,
+        "gate_route_calls": 5,
+        "closure_evaluations": 3
+      }
+    },
+    {
+      "workload": "cat4",
+      "spacing": 5,
+      "seed": 2,
+      "method": "author_profile",
+      "shared_circuit": "4d5bad191b9713b4cd75fed49a7dd393a742b430bb5a88f66a94a93460016db4",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1
+          ],
+          "chosen_ids": [
+            1
+          ],
+          "candidate_orders": null,
+          "candidates": [],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": null
+        },
+        {
+          "ready_ids": [
+            2
+          ],
+          "chosen_ids": [
+            2
+          ],
+          "candidate_orders": null,
+          "candidates": [],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": null
+        },
+        {
+          "ready_ids": [
+            3
+          ],
+          "chosen_ids": [
+            3
+          ],
+          "candidate_orders": null,
+          "candidates": [],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": null
+        }
+      ],
+      "cost": {
+        "front_evaluations": 3,
+        "gate_route_calls": 3,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "cat4",
+      "spacing": 5,
+      "seed": 2,
+      "method": "one_budget48",
+      "shared_circuit": "4d5bad191b9713b4cd75fed49a7dd393a742b430bb5a88f66a94a93460016db4",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1
+          ],
+          "chosen_ids": [
+            1
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                1
+              ],
+              "now": 3,
+              "future": 0,
+              "progress": 3,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            2
+          ],
+          "chosen_ids": [
+            2
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                2
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            3
+          ],
+          "chosen_ids": [
+            3
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                3
+              ],
+              "now": 1,
+              "future": 0,
+              "progress": 1,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 3,
+        "gate_route_calls": 3,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "cat4",
+      "spacing": 5,
+      "seed": 2,
+      "method": "two_budget48",
+      "shared_circuit": "4d5bad191b9713b4cd75fed49a7dd393a742b430bb5a88f66a94a93460016db4",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1
+          ],
+          "chosen_ids": [
+            1
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                1
+              ],
+              "now": 3,
+              "future": 2,
+              "progress": 5,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 2,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            2
+          ],
+          "chosen_ids": [
+            2
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                2
+              ],
+              "now": 2,
+              "future": 1,
+              "progress": 3,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 2,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            3
+          ],
+          "chosen_ids": [
+            3
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                3
+              ],
+              "now": 1,
+              "future": 0,
+              "progress": 1,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 5,
+        "gate_route_calls": 5,
+        "closure_evaluations": 3
+      }
+    },
+    {
+      "workload": "cat4",
+      "spacing": 5,
+      "seed": 2,
+      "method": "one_pool16",
+      "shared_circuit": "4d5bad191b9713b4cd75fed49a7dd393a742b430bb5a88f66a94a93460016db4",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1
+          ],
+          "chosen_ids": [
+            1
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                1
+              ],
+              "now": 3,
+              "future": 0,
+              "progress": 3,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            2
+          ],
+          "chosen_ids": [
+            2
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                2
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            3
+          ],
+          "chosen_ids": [
+            3
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                3
+              ],
+              "now": 1,
+              "future": 0,
+              "progress": 1,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 3,
+        "gate_route_calls": 3,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "cat4",
+      "spacing": 5,
+      "seed": 2,
+      "method": "two_pool16",
+      "shared_circuit": "4d5bad191b9713b4cd75fed49a7dd393a742b430bb5a88f66a94a93460016db4",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1
+          ],
+          "chosen_ids": [
+            1
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                1
+              ],
+              "now": 3,
+              "future": 2,
+              "progress": 5,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 2,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            2
+          ],
+          "chosen_ids": [
+            2
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                2
+              ],
+              "now": 2,
+              "future": 1,
+              "progress": 3,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 2,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            3
+          ],
+          "chosen_ids": [
+            3
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                3
+              ],
+              "now": 1,
+              "future": 0,
+              "progress": 1,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 5,
+        "gate_route_calls": 5,
+        "closure_evaluations": 3
+      }
+    },
+    {
+      "workload": "cat4",
+      "spacing": 5,
+      "seed": 3,
+      "method": "author_profile",
+      "shared_circuit": "4d5bad191b9713b4cd75fed49a7dd393a742b430bb5a88f66a94a93460016db4",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1
+          ],
+          "chosen_ids": [
+            1
+          ],
+          "candidate_orders": null,
+          "candidates": [],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": null
+        },
+        {
+          "ready_ids": [
+            2
+          ],
+          "chosen_ids": [
+            2
+          ],
+          "candidate_orders": null,
+          "candidates": [],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": null
+        },
+        {
+          "ready_ids": [
+            3
+          ],
+          "chosen_ids": [
+            3
+          ],
+          "candidate_orders": null,
+          "candidates": [],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": null
+        }
+      ],
+      "cost": {
+        "front_evaluations": 3,
+        "gate_route_calls": 3,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "cat4",
+      "spacing": 5,
+      "seed": 3,
+      "method": "one_budget48",
+      "shared_circuit": "4d5bad191b9713b4cd75fed49a7dd393a742b430bb5a88f66a94a93460016db4",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1
+          ],
+          "chosen_ids": [
+            1
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                1
+              ],
+              "now": 3,
+              "future": 0,
+              "progress": 3,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            2
+          ],
+          "chosen_ids": [
+            2
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                2
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            3
+          ],
+          "chosen_ids": [
+            3
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                3
+              ],
+              "now": 1,
+              "future": 0,
+              "progress": 1,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 3,
+        "gate_route_calls": 3,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "cat4",
+      "spacing": 5,
+      "seed": 3,
+      "method": "two_budget48",
+      "shared_circuit": "4d5bad191b9713b4cd75fed49a7dd393a742b430bb5a88f66a94a93460016db4",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1
+          ],
+          "chosen_ids": [
+            1
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                1
+              ],
+              "now": 3,
+              "future": 2,
+              "progress": 5,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 2,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            2
+          ],
+          "chosen_ids": [
+            2
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                2
+              ],
+              "now": 2,
+              "future": 1,
+              "progress": 3,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 2,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            3
+          ],
+          "chosen_ids": [
+            3
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                3
+              ],
+              "now": 1,
+              "future": 0,
+              "progress": 1,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 5,
+        "gate_route_calls": 5,
+        "closure_evaluations": 3
+      }
+    },
+    {
+      "workload": "cat4",
+      "spacing": 5,
+      "seed": 3,
+      "method": "one_pool16",
+      "shared_circuit": "4d5bad191b9713b4cd75fed49a7dd393a742b430bb5a88f66a94a93460016db4",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1
+          ],
+          "chosen_ids": [
+            1
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                1
+              ],
+              "now": 3,
+              "future": 0,
+              "progress": 3,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            2
+          ],
+          "chosen_ids": [
+            2
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                2
+              ],
+              "now": 2,
+              "future": 0,
+              "progress": 2,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            3
+          ],
+          "chosen_ids": [
+            3
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                3
+              ],
+              "now": 1,
+              "future": 0,
+              "progress": 1,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 0
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 3,
+        "gate_route_calls": 3,
+        "closure_evaluations": 0
+      }
+    },
+    {
+      "workload": "cat4",
+      "spacing": 5,
+      "seed": 3,
+      "method": "two_pool16",
+      "shared_circuit": "4d5bad191b9713b4cd75fed49a7dd393a742b430bb5a88f66a94a93460016db4",
+      "new_shots": 0,
+      "fronts": [
+        {
+          "ready_ids": [
+            1
+          ],
+          "chosen_ids": [
+            1
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                1
+              ],
+              "now": 3,
+              "future": 2,
+              "progress": 5,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 2,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            2
+          ],
+          "chosen_ids": [
+            2
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                2
+              ],
+              "now": 2,
+              "future": 1,
+              "progress": 3,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 2,
+            "gate_route_calls": 2,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        },
+        {
+          "ready_ids": [
+            3
+          ],
+          "chosen_ids": [
+            3
+          ],
+          "candidate_orders": [
+            [
+              0
+            ]
+          ],
+          "candidates": [
+            {
+              "order": [
+                0
+              ],
+              "ids": [
+                3
+              ],
+              "now": 1,
+              "future": 0,
+              "progress": 1,
+              "rollout_h_layers": 0
+            }
+          ],
+          "orders_tried": 1,
+          "cost": {
+            "front_evaluations": 1,
+            "gate_route_calls": 1,
+            "closure_evaluations": 1
+          },
+          "budget": 48
+        }
+      ],
+      "cost": {
+        "front_evaluations": 5,
+        "gate_route_calls": 5,
+        "closure_evaluations": 3
+      }
+    }
+  ],
+  "cat_geometry_contrast": [
+    0.013509999999999994,
+    0.011157283906598732,
+    0.015863795397992746
+  ]
+}

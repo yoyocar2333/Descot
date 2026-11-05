@@ -1,0 +1,248 @@
+{
+  "id": "bell4_s3_parallel",
+  "source": "bell4",
+  "source_sha256": "b421437dbd7b8ebebdd6e4de780a277ebf9da3b28fa6dfb57a90cb1432fa638d",
+  "features": {
+    "layers": 2,
+    "bridge_blocks": 5,
+    "pre_idle": 1,
+    "post_idle": 0,
+    "other_incident_cx": 0
+  },
+  "spacing": 3,
+  "logit_predictions": {
+    "depth_only": -2.923975136265751,
+    "no_geometry": -2.9308181173724845,
+    "no_wait": -3.0273071865576027,
+    "full": -3.034150167664336
+  },
+  "domain_supported": true,
+  "shots": 100000,
+  "errors": 4501,
+  "rate": 0.04501,
+  "wilson95": [
+    0.043742386715806804,
+    0.04631256844838152
+  ],
+  "any_errors": 8710,
+  "parity_mask": 1,
+  "batch_size": 5000,
+  "batches": [
+    {
+      "shots": 5000,
+      "parity_errors": 246,
+      "any_errors": 444,
+      "per_observable_errors": [
+        246,
+        218
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 232,
+      "any_errors": 435,
+      "per_observable_errors": [
+        232,
+        222
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 197,
+      "any_errors": 403,
+      "per_observable_errors": [
+        197,
+        216
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 217,
+      "any_errors": 434,
+      "per_observable_errors": [
+        217,
+        232
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 256,
+      "any_errors": 464,
+      "per_observable_errors": [
+        256,
+        222
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 215,
+      "any_errors": 434,
+      "per_observable_errors": [
+        215,
+        228
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 215,
+      "any_errors": 432,
+      "per_observable_errors": [
+        215,
+        224
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 238,
+      "any_errors": 439,
+      "per_observable_errors": [
+        238,
+        217
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 229,
+      "any_errors": 444,
+      "per_observable_errors": [
+        229,
+        226
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 229,
+      "any_errors": 430,
+      "per_observable_errors": [
+        229,
+        212
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 203,
+      "any_errors": 413,
+      "per_observable_errors": [
+        203,
+        217
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 238,
+      "any_errors": 462,
+      "per_observable_errors": [
+        238,
+        233
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 212,
+      "any_errors": 407,
+      "per_observable_errors": [
+        212,
+        207
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 224,
+      "any_errors": 440,
+      "per_observable_errors": [
+        224,
+        228
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 227,
+      "any_errors": 447,
+      "per_observable_errors": [
+        227,
+        228
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 227,
+      "any_errors": 441,
+      "per_observable_errors": [
+        227,
+        226
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 240,
+      "any_errors": 463,
+      "per_observable_errors": [
+        240,
+        235
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 247,
+      "any_errors": 444,
+      "per_observable_errors": [
+        247,
+        208
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 192,
+      "any_errors": 406,
+      "per_observable_errors": [
+        192,
+        225
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 217,
+      "any_errors": 428,
+      "per_observable_errors": [
+        217,
+        217
+      ]
+    }
+  ],
+  "seed": 11689274680563248122,
+  "ideal_sha256": "8314c96ddbe1ae229b72531b8e318ef92c101fdb7c95958e9674482ec59e0a73",
+  "noisy_sha256": "baee5966ad019fcebc1afac80012ad1682f819c1a7ed82eabde1399bc5067b49",
+  "dem_sha256": "ec889eb514659541053769cf5150157d61a5e883c589acf5416d7c7292ffa6e2",
+  "distance": 3,
+  "p": 0.001,
+  "model_id": "tqec_uniform_depolarizing_circuit_v1",
+  "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+  "ticks": 153,
+  "physical_qubits": 386,
+  "timing_and_resources": {
+    "physical_layers": 2,
+    "template_block_z": 6,
+    "cx_routing_steps": 1,
+    "logical_h_layers": 1,
+    "qec_rounds": null,
+    "stim_ticks": null,
+    "data_reservation_block_z": 24,
+    "ancilla_reservation_block_z": 30,
+    "protected_idle_intervals_block_z": [
+      [],
+      [
+        3
+      ],
+      [],
+      [
+        3
+      ]
+    ],
+    "total_protected_idle_block_z": 6,
+    "max_protected_idle_block_z": 3,
+    "squared_protected_idle_block_z2": 18,
+    "cx_recurrence_separations_block_z": [],
+    "cx_gap_squared_block_z2": 0,
+    "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+  }
+}

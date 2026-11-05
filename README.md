@@ -8,6 +8,7 @@ Research implementation for our **2026-11-09** report. The repository is named `
 
 ## Current results
 
+- **Nov 9 report:** [Final evidence and delivery index](docs/updates/2026-11-05.md). The matched parity pilot freezes Bell(6) calibration before eight new complete Bell(4) and QASMBench cat(4) circuits. It tests a capped first-front choice and explicitly abstains on the distinct chain topology.
 - **Routing:** bounded two-step lookahead, explicit score/budget accounting and controlled comparisons. 540 configurations / 1,620 executions; all schedules validated. On 24 held-out synthetic input/layout/seed pairs, median routed depth changes by **-3.69%** versus our one-step control with the same per-decision evaluation budget (16 wins, 8 ties, 0 losses). Versus the pinned author original: -2.42% (13/9/2).
 - **Isolated CNOT calibration:** a spatial-bridge extension of pinned TQEC CNOT graphs; 32 settings / **3,200,000 shots**, signed-input/fault checks, graphlike distance diagnostics, counts and 95% Wilson intervals.
 - **Continuous CNOT composition:** same-pair chains of 1/2/3 physical CNOTs, X/Z basis, d=3, spans 1/3 and p=0.001. **12 settings / 240,000 additional shots**; complete circuits sampled and decoded together. Even-length chains have ideal identity action. These deliberately unoptimized circuits are validation fixtures, not application workloads.

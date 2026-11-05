@@ -63,5 +63,18 @@
       "base_commit": "ba77e98574c0c7104027ff03ec56189334fc7cb7"
     },
     "description": "Complete pinned MQT Bell(6), all H/CX/barrier/readout retained;30 prospective source settings,4 unique complete circuits,400000 new noisy shots;all12 X/Z physical generators,random-output subgroup,signed inputs,faults,distance3,raw counts/CI,isolated timing and source-freeze evidence."
+  },
+  "transfer_2026-11-05.zip": {
+    "sha256": "19232e16b3124a7e46e9f468df27244d54b8a5b68edc6b0060a9fe6901b5f970",
+    "bytes": 1512312,
+    "result_prefix": "results/transfer_2026-11-05",
+    "source_bundle": {
+      "path": "transfer_pretest_2026-11-05.bundle",
+      "ref": "HEAD",
+      "sha256": "7fd118957a3347ae8d70b4f39e311e23ddcaab6a942f63013737716b949b45e8",
+      "commit": "0fe2004cd43575b085828292aca7c0b8ac8a1812",
+      "base_commit": "2009762a24ccd052feae8e81d2e57ca76aeb33ed"
+    },
+    "description": "Prospective matched marginal parity pilot, eight complete Bell(4) and cat(4) circuits, 800000 new shots; frozen decision ablations, Stim, DEM, counts, physical checks and standalone scoring timings."
   }
 }

@@ -1,0 +1,1424 @@
+{
+  "development": [
+    {
+      "sample_id": "sample_210ba0a02b313e1fb53347299a1b795b3f18e1eae9ab2792cd0054ea7e298c00",
+      "pair": [
+        0,
+        1
+      ],
+      "features": {
+        "layers": 2,
+        "bridge_blocks": 5,
+        "pre_idle": 1,
+        "post_idle": 0,
+        "other_incident_cx": 0
+      },
+      "shots": 100000,
+      "errors": 4477,
+      "certificate_sha256": "d13c40f5e5954befb25309dc45526171efc97d60dd86a94a07b6c7ad31ec12c7"
+    },
+    {
+      "sample_id": "sample_210ba0a02b313e1fb53347299a1b795b3f18e1eae9ab2792cd0054ea7e298c00",
+      "pair": [
+        2,
+        3
+      ],
+      "features": {
+        "layers": 2,
+        "bridge_blocks": 5,
+        "pre_idle": 1,
+        "post_idle": 0,
+        "other_incident_cx": 0
+      },
+      "shots": 100000,
+      "errors": 4361,
+      "certificate_sha256": "d13c40f5e5954befb25309dc45526171efc97d60dd86a94a07b6c7ad31ec12c7"
+    },
+    {
+      "sample_id": "sample_210ba0a02b313e1fb53347299a1b795b3f18e1eae9ab2792cd0054ea7e298c00",
+      "pair": [
+        4,
+        5
+      ],
+      "features": {
+        "layers": 2,
+        "bridge_blocks": 5,
+        "pre_idle": 1,
+        "post_idle": 0,
+        "other_incident_cx": 0
+      },
+      "shots": 100000,
+      "errors": 4446,
+      "certificate_sha256": "d13c40f5e5954befb25309dc45526171efc97d60dd86a94a07b6c7ad31ec12c7"
+    },
+    {
+      "sample_id": "sample_e879a7760b43c8bec1b88af5d686bda3cada12b1ace5b8038f850ec645d8c620",
+      "pair": [
+        0,
+        1
+      ],
+      "features": {
+        "layers": 2,
+        "bridge_blocks": 9,
+        "pre_idle": 1,
+        "post_idle": 0,
+        "other_incident_cx": 0
+      },
+      "shots": 100000,
+      "errors": 5641,
+      "certificate_sha256": "01424ab8baf31b971835208f29256c9edba60abe637ac82a8d489dea863ba512"
+    },
+    {
+      "sample_id": "sample_e879a7760b43c8bec1b88af5d686bda3cada12b1ace5b8038f850ec645d8c620",
+      "pair": [
+        2,
+        3
+      ],
+      "features": {
+        "layers": 2,
+        "bridge_blocks": 9,
+        "pre_idle": 1,
+        "post_idle": 0,
+        "other_incident_cx": 0
+      },
+      "shots": 100000,
+      "errors": 5783,
+      "certificate_sha256": "01424ab8baf31b971835208f29256c9edba60abe637ac82a8d489dea863ba512"
+    },
+    {
+      "sample_id": "sample_e879a7760b43c8bec1b88af5d686bda3cada12b1ace5b8038f850ec645d8c620",
+      "pair": [
+        4,
+        5
+      ],
+      "features": {
+        "layers": 2,
+        "bridge_blocks": 9,
+        "pre_idle": 1,
+        "post_idle": 0,
+        "other_incident_cx": 0
+      },
+      "shots": 100000,
+      "errors": 5659,
+      "certificate_sha256": "01424ab8baf31b971835208f29256c9edba60abe637ac82a8d489dea863ba512"
+    },
+    {
+      "sample_id": "sample_c1d38f026cf69dae5b2e9520b9996392ce8cd8ea58a0b1d0389706d495e43bc5",
+      "pair": [
+        0,
+        1
+      ],
+      "features": {
+        "layers": 4,
+        "bridge_blocks": 5,
+        "pre_idle": 1,
+        "post_idle": 4,
+        "other_incident_cx": 0
+      },
+      "shots": 100000,
+      "errors": 7471,
+      "certificate_sha256": "134e8d3f6e726ddb0b7d39b16a5e8dd7cd21552b450dede3bceb29bf63dab3ef"
+    },
+    {
+      "sample_id": "sample_c1d38f026cf69dae5b2e9520b9996392ce8cd8ea58a0b1d0389706d495e43bc5",
+      "pair": [
+        2,
+        3
+      ],
+      "features": {
+        "layers": 4,
+        "bridge_blocks": 5,
+        "pre_idle": 3,
+        "post_idle": 2,
+        "other_incident_cx": 0
+      },
+      "shots": 100000,
+      "errors": 6674,
+      "certificate_sha256": "134e8d3f6e726ddb0b7d39b16a5e8dd7cd21552b450dede3bceb29bf63dab3ef"
+    },
+    {
+      "sample_id": "sample_c1d38f026cf69dae5b2e9520b9996392ce8cd8ea58a0b1d0389706d495e43bc5",
+      "pair": [
+        4,
+        5
+      ],
+      "features": {
+        "layers": 4,
+        "bridge_blocks": 5,
+        "pre_idle": 5,
+        "post_idle": 0,
+        "other_incident_cx": 0
+      },
+      "shots": 100000,
+      "errors": 6121,
+      "certificate_sha256": "134e8d3f6e726ddb0b7d39b16a5e8dd7cd21552b450dede3bceb29bf63dab3ef"
+    },
+    {
+      "sample_id": "sample_46e11afcd72dad5ef34eb271621ac79deb1b9226945369e667a1936526150789",
+      "pair": [
+        0,
+        1
+      ],
+      "features": {
+        "layers": 4,
+        "bridge_blocks": 9,
+        "pre_idle": 1,
+        "post_idle": 4,
+        "other_incident_cx": 0
+      },
+      "shots": 100000,
+      "errors": 8673,
+      "certificate_sha256": "1d2a3fb5190a7277d926a99b0d4f9b811e33f5710b4e43d3acc20ce6fa07b158"
+    },
+    {
+      "sample_id": "sample_46e11afcd72dad5ef34eb271621ac79deb1b9226945369e667a1936526150789",
+      "pair": [
+        2,
+        3
+      ],
+      "features": {
+        "layers": 4,
+        "bridge_blocks": 9,
+        "pre_idle": 3,
+        "post_idle": 2,
+        "other_incident_cx": 0
+      },
+      "shots": 100000,
+      "errors": 8021,
+      "certificate_sha256": "1d2a3fb5190a7277d926a99b0d4f9b811e33f5710b4e43d3acc20ce6fa07b158"
+    },
+    {
+      "sample_id": "sample_46e11afcd72dad5ef34eb271621ac79deb1b9226945369e667a1936526150789",
+      "pair": [
+        4,
+        5
+      ],
+      "features": {
+        "layers": 4,
+        "bridge_blocks": 9,
+        "pre_idle": 5,
+        "post_idle": 0,
+        "other_incident_cx": 0
+      },
+      "shots": 100000,
+      "errors": 7296,
+      "certificate_sha256": "1d2a3fb5190a7277d926a99b0d4f9b811e33f5710b4e43d3acc20ce6fa07b158"
+    }
+  ],
+  "models": {
+    "depth_only": {
+      "fields": [
+        "layers"
+      ],
+      "center": [
+        3.0
+      ],
+      "scale": [
+        1.0
+      ],
+      "beta": [
+        -2.7380741495328436,
+        0.18590098673290767
+      ],
+      "bounds": {
+        "layers": [
+          2.0,
+          4.0
+        ]
+      },
+      "group_loo_abs_logit": {
+        "sample_210ba0a02b313e1fb53347299a1b795b3f18e1eae9ab2792cd0054ea7e298c00": 0.2987461632113395,
+        "sample_46e11afcd72dad5ef34eb271621ac79deb1b9226945369e667a1936526150789": 0.2947237963020233,
+        "sample_c1d38f026cf69dae5b2e9520b9996392ce8cd8ea58a0b1d0389706d495e43bc5": 0.2520406663269483,
+        "sample_e879a7760b43c8bec1b88af5d686bda3cada12b1ace5b8038f850ec645d8c620": 0.24560842076193135
+      },
+      "guard": 0.597492326422679
+    },
+    "no_geometry": {
+      "fields": [
+        "layers",
+        "pre_idle",
+        "post_idle"
+      ],
+      "center": [
+        3.0,
+        2.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.5275252316519468,
+        1.5275252316519468
+      ],
+      "beta": [
+        -2.738074149532844,
+        0.10378521345211354,
+        0.032206769509293104,
+        0.10367997239398268
+      ],
+      "bounds": {
+        "layers": [
+          2.0,
+          4.0
+        ],
+        "pre_idle": [
+          1.0,
+          5.0
+        ],
+        "post_idle": [
+          0.0,
+          4.0
+        ]
+      },
+      "group_loo_abs_logit": {
+        "sample_210ba0a02b313e1fb53347299a1b795b3f18e1eae9ab2792cd0054ea7e298c00": 0.2919869943908844,
+        "sample_46e11afcd72dad5ef34eb271621ac79deb1b9226945369e667a1936526150789": 0.1996319565400988,
+        "sample_c1d38f026cf69dae5b2e9520b9996392ce8cd8ea58a0b1d0389706d495e43bc5": 0.18311944223666154,
+        "sample_e879a7760b43c8bec1b88af5d686bda3cada12b1ace5b8038f850ec645d8c620": 0.25898852550420637
+      },
+      "guard": 0.5839739887817688
+    },
+    "no_wait": {
+      "fields": [
+        "layers",
+        "bridge_blocks"
+      ],
+      "center": [
+        3.0,
+        7.0
+      ],
+      "scale": [
+        1.0,
+        2.0
+      ],
+      "beta": [
+        -2.7380741495328436,
+        0.18590098673290767,
+        0.10333205029185162
+      ],
+      "bounds": {
+        "layers": [
+          2.0,
+          4.0
+        ],
+        "bridge_blocks": [
+          5.0,
+          9.0
+        ]
+      },
+      "group_loo_abs_logit": {
+        "sample_210ba0a02b313e1fb53347299a1b795b3f18e1eae9ab2792cd0054ea7e298c00": 0.16381952886260187,
+        "sample_46e11afcd72dad5ef34eb271621ac79deb1b9226945369e667a1936526150789": 0.09501960690021116,
+        "sample_c1d38f026cf69dae5b2e9520b9996392ce8cd8ea58a0b1d0389706d495e43bc5": 0.2053769063972699,
+        "sample_e879a7760b43c8bec1b88af5d686bda3cada12b1ace5b8038f850ec645d8c620": 0.06674155318541386
+      },
+      "guard": 0.4107538127945398
+    },
+    "full": {
+      "fields": [
+        "layers",
+        "bridge_blocks",
+        "pre_idle",
+        "post_idle"
+      ],
+      "center": [
+        3.0,
+        7.0,
+        2.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        2.0,
+        1.5275252316519468,
+        1.5275252316519468
+      ],
+      "beta": [
+        -2.738074149532844,
+        0.10378521345211339,
+        0.10333205029185169,
+        0.03220676950929321,
+        0.10367997239398281
+      ],
+      "bounds": {
+        "layers": [
+          2.0,
+          4.0
+        ],
+        "bridge_blocks": [
+          5.0,
+          9.0
+        ],
+        "pre_idle": [
+          1.0,
+          5.0
+        ],
+        "post_idle": [
+          0.0,
+          4.0
+        ]
+      },
+      "group_loo_abs_logit": {
+        "sample_210ba0a02b313e1fb53347299a1b795b3f18e1eae9ab2792cd0054ea7e298c00": 0.1481925421743484,
+        "sample_46e11afcd72dad5ef34eb271621ac79deb1b9226945369e667a1936526150789": 0.02530631167661035,
+        "sample_c1d38f026cf69dae5b2e9520b9996392ce8cd8ea58a0b1d0389706d495e43bc5": 0.09941893468506224,
+        "sample_e879a7760b43c8bec1b88af5d686bda3cada12b1ace5b8038f850ec645d8c620": 0.08707884979910396
+      },
+      "guard": 0.2963850843486968
+    }
+  },
+  "candidates": [
+    {
+      "id": "bell4_s3_anchor_first",
+      "source": "bell4",
+      "source_sha256": "b421437dbd7b8ebebdd6e4de780a277ebf9da3b28fa6dfb57a90cb1432fa638d",
+      "features": {
+        "layers": 3,
+        "bridge_blocks": 5,
+        "pre_idle": 1,
+        "post_idle": 2,
+        "other_incident_cx": 0
+      },
+      "spacing": 3,
+      "plan": {
+        "mode": "exact_h_first_pool_v1",
+        "spacing": 3,
+        "layers": [
+          {
+            "operation_ids": [
+              0,
+              2
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              1
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              3
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              4
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              5,
+              6,
+              7,
+              8
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          }
+        ]
+      },
+      "logit_predictions": {
+        "depth_only": -2.7380741495328436,
+        "no_geometry": -2.6912839549071257,
+        "no_wait": -2.841406199824695,
+        "full": -2.7946160051989772
+      },
+      "domain_supported": true
+    },
+    {
+      "id": "bell4_s3_anchor_last",
+      "source": "bell4",
+      "source_sha256": "b421437dbd7b8ebebdd6e4de780a277ebf9da3b28fa6dfb57a90cb1432fa638d",
+      "features": {
+        "layers": 3,
+        "bridge_blocks": 5,
+        "pre_idle": 3,
+        "post_idle": 0,
+        "other_incident_cx": 0
+      },
+      "spacing": 3,
+      "plan": {
+        "mode": "exact_h_first_pool_v1",
+        "spacing": 3,
+        "layers": [
+          {
+            "operation_ids": [
+              0,
+              2
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              3
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              1
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              4
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              5,
+              6,
+              7,
+              8
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          }
+        ]
+      },
+      "logit_predictions": {
+        "depth_only": -2.7380741495328436,
+        "no_geometry": -2.7848643441585623,
+        "no_wait": -2.841406199824695,
+        "full": -2.888196394450414
+      },
+      "domain_supported": true
+    },
+    {
+      "id": "bell4_s3_parallel",
+      "source": "bell4",
+      "source_sha256": "b421437dbd7b8ebebdd6e4de780a277ebf9da3b28fa6dfb57a90cb1432fa638d",
+      "features": {
+        "layers": 2,
+        "bridge_blocks": 5,
+        "pre_idle": 1,
+        "post_idle": 0,
+        "other_incident_cx": 0
+      },
+      "spacing": 3,
+      "plan": {
+        "mode": "exact_h_first_pool_v1",
+        "spacing": 3,
+        "layers": [
+          {
+            "operation_ids": [
+              0,
+              2
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              1,
+              3
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              4
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              5,
+              6,
+              7,
+              8
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          }
+        ]
+      },
+      "logit_predictions": {
+        "depth_only": -2.923975136265751,
+        "no_geometry": -2.9308181173724845,
+        "no_wait": -3.0273071865576027,
+        "full": -3.034150167664336
+      },
+      "domain_supported": true
+    },
+    {
+      "id": "cat4_s3_chain",
+      "source": "cat4",
+      "source_sha256": "caa882935bb73087db2edbee2aa77133965bdda3aec9687166f9e96b9a2ef8ff",
+      "features": {
+        "layers": 4,
+        "bridge_blocks": 5,
+        "pre_idle": 1,
+        "post_idle": 3,
+        "other_incident_cx": 1
+      },
+      "spacing": 3,
+      "plan": {
+        "mode": "exact_h_first_pool_v1",
+        "spacing": 3,
+        "layers": [
+          {
+            "operation_ids": [
+              0
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              1
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              4
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              2
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              5
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              3
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              6,
+              7
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      "logit_predictions": {
+        "depth_only": -2.552173162799936,
+        "no_geometry": -2.51962426694839,
+        "no_wait": -2.6555052130917876,
+        "full": -2.622956317240241
+      },
+      "domain_supported": false
+    },
+    {
+      "id": "bell4_s5_anchor_first",
+      "source": "bell4",
+      "source_sha256": "b421437dbd7b8ebebdd6e4de780a277ebf9da3b28fa6dfb57a90cb1432fa638d",
+      "features": {
+        "layers": 3,
+        "bridge_blocks": 9,
+        "pre_idle": 1,
+        "post_idle": 2,
+        "other_incident_cx": 0
+      },
+      "spacing": 5,
+      "plan": {
+        "mode": "exact_h_first_pool_v1",
+        "spacing": 5,
+        "layers": [
+          {
+            "operation_ids": [
+              0,
+              2
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              1
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              3
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              4
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              5,
+              6,
+              7,
+              8
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          }
+        ]
+      },
+      "logit_predictions": {
+        "depth_only": -2.7380741495328436,
+        "no_geometry": -2.6912839549071257,
+        "no_wait": -2.634742099240992,
+        "full": -2.587951904615274
+      },
+      "domain_supported": true
+    },
+    {
+      "id": "bell4_s5_anchor_last",
+      "source": "bell4",
+      "source_sha256": "b421437dbd7b8ebebdd6e4de780a277ebf9da3b28fa6dfb57a90cb1432fa638d",
+      "features": {
+        "layers": 3,
+        "bridge_blocks": 9,
+        "pre_idle": 3,
+        "post_idle": 0,
+        "other_incident_cx": 0
+      },
+      "spacing": 5,
+      "plan": {
+        "mode": "exact_h_first_pool_v1",
+        "spacing": 5,
+        "layers": [
+          {
+            "operation_ids": [
+              0,
+              2
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              3
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              1
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              4
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              5,
+              6,
+              7,
+              8
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          }
+        ]
+      },
+      "logit_predictions": {
+        "depth_only": -2.7380741495328436,
+        "no_geometry": -2.7848643441585623,
+        "no_wait": -2.634742099240992,
+        "full": -2.6815322938667108
+      },
+      "domain_supported": true
+    },
+    {
+      "id": "bell4_s5_parallel",
+      "source": "bell4",
+      "source_sha256": "b421437dbd7b8ebebdd6e4de780a277ebf9da3b28fa6dfb57a90cb1432fa638d",
+      "features": {
+        "layers": 2,
+        "bridge_blocks": 9,
+        "pre_idle": 1,
+        "post_idle": 0,
+        "other_incident_cx": 0
+      },
+      "spacing": 5,
+      "plan": {
+        "mode": "exact_h_first_pool_v1",
+        "spacing": 5,
+        "layers": [
+          {
+            "operation_ids": [
+              0,
+              2
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              1,
+              3
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              4
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              5,
+              6,
+              7,
+              8
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              1,
+              0
+            ]
+          }
+        ]
+      },
+      "logit_predictions": {
+        "depth_only": -2.923975136265751,
+        "no_geometry": -2.9308181173724845,
+        "no_wait": -2.8206430859738996,
+        "full": -2.827486067080633
+      },
+      "domain_supported": true
+    },
+    {
+      "id": "cat4_s5_chain",
+      "source": "cat4",
+      "source_sha256": "caa882935bb73087db2edbee2aa77133965bdda3aec9687166f9e96b9a2ef8ff",
+      "features": {
+        "layers": 4,
+        "bridge_blocks": 9,
+        "pre_idle": 1,
+        "post_idle": 3,
+        "other_incident_cx": 1
+      },
+      "spacing": 5,
+      "plan": {
+        "mode": "exact_h_first_pool_v1",
+        "spacing": 5,
+        "layers": [
+          {
+            "operation_ids": [
+              0
+            ],
+            "kind": "h",
+            "orientation_before": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              1
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              4
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              2
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              5
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              3
+            ],
+            "kind": "cx",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "operation_ids": [
+              6,
+              7
+            ],
+            "kind": "virtual_or_readout",
+            "orientation_before": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      "logit_predictions": {
+        "depth_only": -2.552173162799936,
+        "no_geometry": -2.51962426694839,
+        "no_wait": -2.4488411125080844,
+        "full": -2.416292216656538
+      },
+      "domain_supported": false
+    }
+  ],
+  "online_bell4_under_one_cx_cap": [
+    {
+      "spacing": 3,
+      "selected": {
+        "progress": "bell4_s3_anchor_first",
+        "depth_only": "bell4_s3_anchor_first",
+        "no_geometry": "bell4_s3_anchor_last",
+        "no_wait": "bell4_s3_anchor_first",
+        "full": "bell4_s3_anchor_last",
+        "guarded": "bell4_s3_anchor_first"
+      },
+      "guard_margin": 0.09358038925143664,
+      "guard_passed_domain": true,
+      "progress_score_now_next": [
+        1,
+        1
+      ],
+      "front_candidates": 2,
+      "rollout_front_evaluations": 2,
+      "candidate_ids": [
+        "bell4_s3_anchor_first",
+        "bell4_s3_anchor_last"
+      ]
+    },
+    {
+      "spacing": 5,
+      "selected": {
+        "progress": "bell4_s5_anchor_first",
+        "depth_only": "bell4_s5_anchor_first",
+        "no_geometry": "bell4_s5_anchor_last",
+        "no_wait": "bell4_s5_anchor_first",
+        "full": "bell4_s5_anchor_last",
+        "guarded": "bell4_s5_anchor_first"
+      },
+      "guard_margin": 0.09358038925143664,
+      "guard_passed_domain": true,
+      "progress_score_now_next": [
+        1,
+        1
+      ],
+      "front_candidates": 2,
+      "rollout_front_evaluations": 2,
+      "candidate_ids": [
+        "bell4_s5_anchor_first",
+        "bell4_s5_anchor_last"
+      ]
+    }
+  ],
+  "source_code_sha256": "65b00c0a90c62da28b40312da154468552b6ea4db6a6d3adf3a72d5bf155ed5c",
+  "fit": "Bell6 spacing3/5 parallel and serial; 12 marginal parities clustered by 4 circuits; ridge lambda=1.",
+  "objective": "Original terminal Z0Z1 parity under full-circuit MWPM, not any-observable failure.",
+  "heldout": "Complete unseen Bell4 instance and distinct QASMBench cat4 source; no held-out labels used.",
+  "guard": "Feature range + no other incident CX + twice leave-one-circuit-out max residual; sensitivity only.",
+  "mu": 0,
+  "distance": 3,
+  "p": 0.001,
+  "shots": 100000,
+  "batch_size": 5000,
+  "noise": "tqec_uniform_depolarizing_circuit_v1",
+  "decoder": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem"
+}

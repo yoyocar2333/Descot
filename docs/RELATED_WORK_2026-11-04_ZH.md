@@ -20,3 +20,7 @@
 ## 下一個可驗證問題
 
 在具有等進度、不同完整 footprint 或等待分布的實際 ready front 上，先固定相同候選池與每 front 預算，使用匹配 observable／noise／geometry 的開發校準，再將純 progress、加風險、加 empirical guard 三種決策凍結於未見來源之前。完整電路解碼提供驗證標籤；不能以孤立 gadget 的 survival 乘積替代。
+
+## 11/5 補充｜CircLS
+
+[作者固定版本](https://github.com/John-YuehanZhang/CircLS/tree/1501f632f28e54188e57042abeaf450c3a300870) 提供較廣的多 patch 物理編譯和對不同幾何的提取政策。其 DASCOT 橋接器用 XX、ZZ、X readout 構成 CNOT，且該橋接實驗明設串行執行。封存 hs4 的 16.96% 同時受串行、旋轉、模板、噪聲等條件影響，不能單獨歸因於旋轉。轉折觸發 diagonal extraction 是此後端的預設政策。DEM decomposition 的拒絕發生在 Stim，MWPF 是作者在該實驗選的 fallback。本案沿用 TQEC 進行具明確相同候選與 observable 的控制，未將 CircLS 重新取樣或跨後端直接競比。

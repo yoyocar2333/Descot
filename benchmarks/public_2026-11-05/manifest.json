@@ -1,0 +1,16 @@
+{
+  "bell4": {
+    "upstream": "https://github.com/munich-quantum-toolkit/bench/blob/8f919416457d76b256930443078334021634236f/src/mqt/bench/benchmarks/bell.py",
+    "generator_git_blob": "9471d32080bec246ed293b4a100fb5eac4c0fc12",
+    "source_generation": "Pinned create_circuit(4) unchanged except registration decorator omitted; Qiskit 2.5.2 QASM2 export.",
+    "path": "benchmarks/public_2026-11-05/bell_n4.qasm",
+    "sha256": "b421437dbd7b8ebebdd6e4de780a277ebf9da3b28fa6dfb57a90cb1432fa638d",
+    "license": "benchmarks/public_2026-11-04/mqt/LICENSE"
+  },
+  "cat4": {
+    "upstream": "https://github.com/pnnl/QASMBench/blob/357b942396d5c2b7cbc1c229c585a6ef5ccaebac/small/cat_state_n4/cat_state_n4.qasm",
+    "path": "benchmarks/public_2026-11-02/qasmbench/cat_state_n4.qasm",
+    "sha256": "caa882935bb73087db2edbee2aa77133965bdda3aec9687166f9e96b9a2ef8ff",
+    "original_audit": "benchmarks/public_2026-11-02/manifest.json"
+  }
+}

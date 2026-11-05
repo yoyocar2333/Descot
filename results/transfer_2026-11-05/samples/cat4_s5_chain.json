@@ -1,0 +1,273 @@
+{
+  "id": "cat4_s5_chain",
+  "source": "cat4",
+  "source_sha256": "caa882935bb73087db2edbee2aa77133965bdda3aec9687166f9e96b9a2ef8ff",
+  "features": {
+    "layers": 4,
+    "bridge_blocks": 9,
+    "pre_idle": 1,
+    "post_idle": 3,
+    "other_incident_cx": 1
+  },
+  "spacing": 5,
+  "logit_predictions": {
+    "depth_only": -2.552173162799936,
+    "no_geometry": -2.51962426694839,
+    "no_wait": -2.4488411125080844,
+    "full": -2.416292216656538
+  },
+  "domain_supported": false,
+  "shots": 100000,
+  "errors": 8499,
+  "rate": 0.08499,
+  "wilson95": [
+    0.08327749884435741,
+    0.08673438480734878
+  ],
+  "any_errors": 20607,
+  "parity_mask": 1,
+  "batch_size": 5000,
+  "batches": [
+    {
+      "shots": 5000,
+      "parity_errors": 426,
+      "any_errors": 1025,
+      "per_observable_errors": [
+        426,
+        384,
+        365
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 409,
+      "any_errors": 1025,
+      "per_observable_errors": [
+        409,
+        392,
+        362
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 412,
+      "any_errors": 1022,
+      "per_observable_errors": [
+        412,
+        406,
+        372
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 438,
+      "any_errors": 1021,
+      "per_observable_errors": [
+        438,
+        408,
+        352
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 434,
+      "any_errors": 1013,
+      "per_observable_errors": [
+        434,
+        395,
+        339
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 394,
+      "any_errors": 994,
+      "per_observable_errors": [
+        394,
+        398,
+        363
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 431,
+      "any_errors": 1066,
+      "per_observable_errors": [
+        431,
+        424,
+        388
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 444,
+      "any_errors": 1032,
+      "per_observable_errors": [
+        444,
+        395,
+        365
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 427,
+      "any_errors": 1014,
+      "per_observable_errors": [
+        427,
+        396,
+        339
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 399,
+      "any_errors": 1022,
+      "per_observable_errors": [
+        399,
+        403,
+        361
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 436,
+      "any_errors": 1103,
+      "per_observable_errors": [
+        436,
+        426,
+        404
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 443,
+      "any_errors": 1016,
+      "per_observable_errors": [
+        443,
+        378,
+        361
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 418,
+      "any_errors": 1070,
+      "per_observable_errors": [
+        418,
+        423,
+        396
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 443,
+      "any_errors": 1064,
+      "per_observable_errors": [
+        443,
+        416,
+        372
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 451,
+      "any_errors": 1063,
+      "per_observable_errors": [
+        451,
+        407,
+        368
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 406,
+      "any_errors": 977,
+      "per_observable_errors": [
+        406,
+        368,
+        362
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 416,
+      "any_errors": 998,
+      "per_observable_errors": [
+        416,
+        404,
+        342
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 432,
+      "any_errors": 1020,
+      "per_observable_errors": [
+        432,
+        381,
+        359
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 409,
+      "any_errors": 995,
+      "per_observable_errors": [
+        409,
+        394,
+        370
+      ]
+    },
+    {
+      "shots": 5000,
+      "parity_errors": 431,
+      "any_errors": 1067,
+      "per_observable_errors": [
+        431,
+        430,
+        374
+      ]
+    }
+  ],
+  "seed": 9290743098706972076,
+  "ideal_sha256": "d80ad24266b3e05b741c7237ce09925e2692cbcb9b3eb6df079a7c9febaaf84c",
+  "noisy_sha256": "4d5bad191b9713b4cd75fed49a7dd393a742b430bb5a88f66a94a93460016db4",
+  "dem_sha256": "2e71b6f43360ac9af22b743649869b5b449fdeeee46d53e88bda1b0b1d64ef77",
+  "distance": 3,
+  "p": 0.001,
+  "model_id": "tqec_uniform_depolarizing_circuit_v1",
+  "decoder_id": "pymatching_ordinary_uncorrelated_mwpm_decomposed_dem",
+  "ticks": 279,
+  "physical_qubits": 865,
+  "timing_and_resources": {
+    "physical_layers": 4,
+    "template_block_z": 12,
+    "cx_routing_steps": 3,
+    "logical_h_layers": 1,
+    "qec_rounds": null,
+    "stim_ticks": null,
+    "data_reservation_block_z": 48,
+    "ancilla_reservation_block_z": 81,
+    "protected_idle_intervals_block_z": [
+      [
+        6
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        6
+      ],
+      [
+        9
+      ]
+    ],
+    "total_protected_idle_block_z": 27,
+    "max_protected_idle_block_z": 9,
+    "squared_protected_idle_block_z2": 171,
+    "cx_recurrence_separations_block_z": [],
+    "cx_gap_squared_block_z2": 0,
+    "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+  }
+}

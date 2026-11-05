@@ -1,0 +1,18 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+  "installed": {
+    "numpy": "2.5.4",
+    "stim": "1.16.0",
+    "pymatching": "2.4.0",
+    "tqec": "0.2.0",
+    "qiskit": "2.5.2",
+    "pytest": "9.2.0"
+  },
+  "tqec": {
+    "method": "pinned local Git tree and installed source byte comparison",
+    "commit": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+    "python_files_checked": 177,
+    "source_fingerprint_sha256": "b8ec733c008548994db2dfa30e996b62d5a227d98ef713d02709d4c72817ed61"
+  }
+}
