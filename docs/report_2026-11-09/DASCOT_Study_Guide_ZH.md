@@ -1,5 +1,14 @@
 # DASCOT 正式報告理解補充
 
+## 第 2 頁的讀表約定
+
+先辨認表格上方的問題，再從左到右讀條件、基準組和比較組。凡標為 Δ，一律算比較組減基準組。負值代表該量下降。路由深度的絕對差用 steps，編譯後電路時長用 Stim TICKs，排程器本身的執行時間用 ms。模板用 block-z 記錄時長，QEC rounds 的整體數量尚未換算。
+
+- 第 4 頁的 −1 step 是先對 24 個配對各自相減，再取中位數。−3.69% 是每組用同預算 one-step 作分母算出相對變化，再取中位數。兩個統計量各自計算。
+- 第 6 頁的 −2.681 pp 是 46.013% − 48.694%。兩個開發例和第 4 頁使用同一個差值方向，分別回答步數、電路時長和指定解碼事件的變化。
+- 第 8、9 頁共用排程、路由步數、電路時長及實體位元欄位。兩頁各自在相同任務和相同 observable 定義內比較。第 8 頁用四個 Z 關聯的任一錯誤，第 9 頁用三個 ZZ 關聯的任一錯誤。
+- 第 10 頁以 hs4 串行固定順序為基準，第 11 頁以 Bell(4) 單 CX 上限下的「目標配對先做」為基準。兩頁顯示的 CI 都屬於錯誤率的差值。
+
 ## 一個 logical block 裡有什麼
 
 在這份研究中，xy 的 data block 對應一個有邊界方向的表面碼 patch。距離 d=3 的旋轉表面碼有 d²=9 顆資料 qubits，此外還有用於症候抽取的實體輔助 qubits。完整電路列的實體 qubit 數也涵蓋橋接位置。xy block 是空間單位，block-z 是模板的時間方向厚度。單一 ancilla block、整個 ancilla bridge、以及物理電路裡的 syndrome ancilla 是三種資源概念。
@@ -25,6 +34,7 @@ Orientation 隨 H 改變，連接端要符合模板使用的面。驗證器逐�
 | Template block-z | 每 H/CX layer 在現行 profile 保留 3 block-z |
 | QEC round | 一輪完整 syndrome extraction。整條電路尚未建立一致轉換，記為 null |
 | Stim TICK | 編譯後電路的 moment boundary，直接計數 |
+| Routing wall time | 以 ms 計排程器執行時間，獨立於物理編譯、取樣和解碼 |
 | Peak ancilla | 任一物理 layer 佔用最多的 ancilla xy blocks |
 | Idle block-z | 各 patch 受保護但未執行 gate 的時間量加總 |
 
