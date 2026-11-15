@@ -1,0 +1,241 @@
+{
+  "revision_date": "2026-11-15",
+  "report_date": "2026-11-16",
+  "parent_commit": "c78ea59c5eb6ee16d7c2b1b541b0813b048df191",
+  "evidence_base_commit": "551aa35646676494391a619dd84847dcb3143360",
+  "source_pptx": {
+    "library_file_id": "libfile_cd61fdd16c888191b7dd5f1593f512cb",
+    "version": 4,
+    "sha256": "8f7b6886e3ac188649c717facc8c8d9e68b8c4fdc333207a5a0bbcc92661dbae"
+  },
+  "new_shots": 0,
+  "new_routing_runs": 0,
+  "slides": {
+    "main": 12,
+    "appendix": 9,
+    "total": 21,
+    "editable_native_tables": 11
+  },
+  "page_map": [
+    {
+      "page": 1,
+      "source_page": 1,
+      "main": true
+    },
+    {
+      "page": 2,
+      "source_page": 2,
+      "main": true
+    },
+    {
+      "page": 3,
+      "source_page": 3,
+      "main": true
+    },
+    {
+      "page": 4,
+      "source_page": 4,
+      "main": true
+    },
+    {
+      "page": 5,
+      "source_page": 5,
+      "main": true
+    },
+    {
+      "page": 6,
+      "source_page": 6,
+      "main": true
+    },
+    {
+      "page": 7,
+      "source_page": 7,
+      "main": true
+    },
+    {
+      "page": 8,
+      "source_page": 9,
+      "main": true
+    },
+    {
+      "page": 9,
+      "source_page": 10,
+      "main": true
+    },
+    {
+      "page": 10,
+      "source_page": 11,
+      "main": true
+    },
+    {
+      "page": 11,
+      "source_page": 12,
+      "main": true
+    },
+    {
+      "page": 12,
+      "source_page": 13,
+      "main": true
+    },
+    {
+      "page": 13,
+      "source_page": 14,
+      "main": false
+    },
+    {
+      "page": 14,
+      "source_page": 15,
+      "main": false
+    },
+    {
+      "page": 15,
+      "source_page": 16,
+      "main": false
+    },
+    {
+      "page": 16,
+      "source_page": 8,
+      "main": false
+    },
+    {
+      "page": 17,
+      "source_page": 17,
+      "main": false
+    },
+    {
+      "page": 18,
+      "source_page": "guard",
+      "main": false
+    },
+    {
+      "page": 19,
+      "source_page": 18,
+      "main": false
+    },
+    {
+      "page": 20,
+      "source_page": 19,
+      "main": false
+    },
+    {
+      "page": 21,
+      "source_page": 20,
+      "main": false
+    }
+  ],
+  "deliverables": [
+    {
+      "name": "DASCOT_Final_EN.pptx",
+      "local_export_sha256": "ccd87b396cfaf0f2b0c1e15486a4d17856b4774add0c745f92ebcbb40ac0c1a5",
+      "local_export_size_bytes": 166704,
+      "library_file_id": "libfile_cd61fdd16c888191b7dd5f1593f512cb",
+      "file_id": "file_00000000bf1481fda5a12edfe0fa0326",
+      "version": 5,
+      "url": "https://chatgpt.com/library?file_id=libfile_cd61fdd16c888191b7dd5f1593f512cb&account_id=personal"
+    },
+    {
+      "name": "DASCOT_Final_EN-2.pdf",
+      "local_export_sha256": "836db172db37f4d335f51dbe30aa6c4c5b1e6a244489e687db384e6a80be5ea8",
+      "local_export_size_bytes": 375662,
+      "library_file_id": "libfile_10d6b3d70a108191bb618381e9d705dc",
+      "file_id": "file_00000000802881fd8f15920c7c96c912",
+      "version": 2,
+      "url": "https://chatgpt.com/library?file_id=libfile_10d6b3d70a108191bb618381e9d705dc&account_id=personal"
+    },
+    {
+      "name": "DASCOT_Speaker_Script_ZH.md",
+      "local_export_sha256": "b48f5888708bd4da7a13d3f42dbe8ca911a62fd70b0214107c37f0c3c3ed166f",
+      "local_export_size_bytes": 7599,
+      "library_file_id": "libfile_015d7e723fe48191a9b22fd7c1969c22",
+      "file_id": "file_00000000984881fd88735bdc0d52785b",
+      "version": 5,
+      "url": "https://chatgpt.com/library?file_id=libfile_015d7e723fe48191a9b22fd7c1969c22&account_id=personal"
+    },
+    {
+      "name": "DASCOT_Study_Guide_ZH.md",
+      "local_export_sha256": "0cbc6230d997a514a31f159aa5dbdd5cbe9b0ce3a829ea293a774ec79d52105b",
+      "local_export_size_bytes": 10974,
+      "library_file_id": "libfile_48b2b1daf8488191b70409f09b812992",
+      "file_id": "file_00000000486081fdb07e68561d86c700",
+      "version": 5,
+      "url": "https://chatgpt.com/library?file_id=libfile_48b2b1daf8488191b70409f09b812992&account_id=personal"
+    },
+    {
+      "name": "DASCOT_QA_ZH.md",
+      "local_export_sha256": "1b38b20498568615c4214b6181fa7d922148346bb08a6b1ab7a2ec9cc083348f",
+      "local_export_size_bytes": 4867,
+      "library_file_id": "libfile_51c07de32c8c8191b1dcc2cbab0f585f",
+      "file_id": "file_00000000ada481fda1f3446b03454f12",
+      "version": 2,
+      "url": "https://chatgpt.com/library?file_id=libfile_51c07de32c8c8191b1dcc2cbab0f585f&account_id=personal"
+    }
+  ],
+  "hash_scope": "Local export bytes before any Library PDF metadata/signature annotations. Scientific evidence hashes below are unchanged.",
+  "frozen_evidence": [
+    {
+      "path": "results/analysis/summary.json",
+      "sha256": "453351eba19fbe7b33074b93437026d6d0ce9eda583ca7f88c4ff17b163e6ee0"
+    },
+    {
+      "path": "results/schedule_pilot_2026-11-02/summary.json",
+      "sha256": "b4e28369d074c00acc306a91bad2380c834362cadbf83ea8966004f062b923b9"
+    },
+    {
+      "path": "results/schedule_pilot_2026-11-02/contrasts.json",
+      "sha256": "c8bb0e8d9f4918e0d63ee2d6376fd93ec14e92a9b4d45da771bb6cb0733c78ae"
+    },
+    {
+      "path": "results/public_hs4_2026-11-02/summary.json",
+      "sha256": "3ffe1346081ac83636dbe492618e1320f713ca278cf055d422957264be00275b"
+    },
+    {
+      "path": "results/public_hs4_2026-11-02/contrasts.json",
+      "sha256": "2ea762d6bbb41a08497a0ad9ba0e5290fae342025a3e89d14979701f96d8fb31"
+    },
+    {
+      "path": "results/public_candidates_2026-11-02/development_pool.json",
+      "sha256": "8a84e2e1fd2863a37c962447f652c5b65e426745c436ca15d29a546275639ee3"
+    },
+    {
+      "path": "results/public_candidates_2026-11-02/development_summary.json",
+      "sha256": "bbf09d707ab40f3958aa60a0e5137295cb3e6320f339bf0a7816f9391fd05c8f"
+    },
+    {
+      "path": "results/public_candidates_2026-11-02/heldout_summary.json",
+      "sha256": "fd986223b10eff7a5ec0a13f64b7ef79aded6b98b9b5271b3450baa4b16c1fb5"
+    },
+    {
+      "path": "results/public_candidates_2026-11-02/evaluation.json",
+      "sha256": "14014c48f6dcf00f5448ebfb62da62074b0e0c3471ee29ae23cad904478f5dad"
+    },
+    {
+      "path": "results/public_bell_2026-11-04/summary.json",
+      "sha256": "e862ce76ae0c70df7e47ec7df6e18e43e44461203b88271d6cddea37c79bd8da"
+    },
+    {
+      "path": "results/public_bell_2026-11-04/evaluation.json",
+      "sha256": "e3c84469becad4978f9f4e9125c660503cd533bac99b0014bbf3c2557260e19d"
+    },
+    {
+      "path": "results/transfer_2026-11-05/summary.json",
+      "sha256": "ef308ba5be6e24e2ea87c3f9655a0270ada1878a7d827c72d097e4d20ce47a1e"
+    },
+    {
+      "path": "results/transfer_2026-11-05/evaluation.json",
+      "sha256": "b9e627d1c3517f53501a4c9c133b9619ea25a0f7bc6c2855bd0595be53c5609d"
+    }
+  ],
+  "validation": {
+    "source_slides_retained": 20,
+    "main_visible_guard_occurrences": 0,
+    "main_script_guard_occurrences": 0,
+    "table_values_and_ci": "exact source comparison passed",
+    "complete_circuit_hashes_in_notes": "preserved",
+    "pdf_table_and_title_coverage": "pass",
+    "layout_findings": 0,
+    "layout_warnings": 0,
+    "package_and_reimport": "pass",
+    "visual_review": "21 pages inspected",
+    "native_powerpoint_opened": false
+  }
+}
