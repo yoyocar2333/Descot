@@ -1,0 +1,235 @@
+{
+  "schema": "post_report_literature_gate_v1",
+  "review_date": "2026-11-16",
+  "base_commit": "92c56d9e2cb276745306da9357c1691af52d01d4",
+  "new_research_shots": 0,
+  "new_routing_measurements": 0,
+  "source_retrieval": "Versioned primary arXiv HTML downloaded via urllib; bytes hashed, full papers not redistributed. Unversioned abs pages checked for latest version. HTML rendering hashes may change without a new manuscript version.",
+  "papers": [
+    {
+      "id": "2401.15829v6",
+      "url": "https://arxiv.org/html/2401.15829v6",
+      "sha256": "1f26b516d844f1d3c063dfebbb159932c4f3285ac212368c57e7d9fb8b20b78f",
+      "bytes": 432017,
+      "authors_short": "Hamada et al.",
+      "title": "Efficient and high-performance routing of lattice-surgery paths on three-dimensional lattice",
+      "reviewed_sections": [
+        "2.4",
+        "3.5.4"
+      ],
+      "overlap": "Instruction-ready lookahead and 3D Dijkstra projection already exist.",
+      "unconfirmed": "Original algorithm not reproduced on a common backend; bounded two-front rollout is not that algorithm.",
+      "abs_url": "https://arxiv.org/abs/2401.15829",
+      "abs_sha256": "3db15ed96accc1613412cf33996b68f0c4f0781b806e1db61f02079c3348e22e",
+      "latest_version": 6,
+      "non_arxiv_github_links": []
+    },
+    {
+      "id": "2604.15099v1",
+      "url": "https://arxiv.org/html/2604.15099v1",
+      "sha256": "2a9f7c376697e66eed7735e42e70911bbdb092a539b1c3e1e66b39620686ba40",
+      "bytes": 222481,
+      "authors_short": "Zhu et al.",
+      "title": "O3LS: Optimizing Lattice Surgery via Automatic Layout Searching and Loose Scheduling",
+      "reviewed_sections": [
+        "III-C Algorithm 2",
+        "IV-A"
+      ],
+      "overlap": "Layout/rotation/routing-time and layer-wise logical-error trade-offs already exist.",
+      "unconfirmed": "No original O3LS implementation run; do not label our proxy as original O3LS.",
+      "abs_url": "https://arxiv.org/abs/2604.15099",
+      "abs_sha256": "2f7ec5c70c91ae2f5f7165a81f3b2c227ff1fa5ad8217115a7c89f6827a59d00",
+      "latest_version": 1,
+      "non_arxiv_github_links": []
+    },
+    {
+      "id": "2504.21854v2",
+      "url": "https://arxiv.org/html/2504.21854v2",
+      "sha256": "500f3be21aabe07e9192dfe719bb92d66c326890bc97e614ba074a43cf291ed7",
+      "bytes": 231986,
+      "authors_short": "Kan et al.",
+      "title": "SPARO: Surface-code Pauli-based Architectural Resource Optimization for Fault-tolerant Quantum Computing",
+      "reviewed_sections": [
+        "4.1 Equation 1",
+        "4.3.2",
+        "4.4"
+      ],
+      "overlap": "Primitive-calibrated PPM/idle/rotation layer recurrence and same-area resource allocation already exist.",
+      "unconfirmed": "Paper says software will be open sourced; artifact URL not verified in reviewed source or searches. This does not prove no artifact exists.",
+      "abs_url": "https://arxiv.org/abs/2504.21854",
+      "abs_sha256": "b82126b837b8cb36261a81e6e84b747ff05dbc742d1786cc62a82db67690b19d",
+      "latest_version": 2,
+      "non_arxiv_github_links": []
+    },
+    {
+      "id": "2506.10258v1",
+      "url": "https://arxiv.org/html/2506.10258v1",
+      "sha256": "841e88029034456dc3c5ae2238a0f3cef1de41cf15e4af16e776f93a5961c0be",
+      "bytes": 391902,
+      "authors_short": "Maurya and Tannu",
+      "title": "Synchronization for Fault-Tolerant Quantum Computers",
+      "reviewed_sections": [
+        "4.1.2",
+        "4.1.3",
+        "4.2"
+      ],
+      "overlap": "Placement of synchronization slack and additional syndrome rounds already affect logical reliability.",
+      "unconfirmed": "No faithful Active/Hybrid implementation in our backend; different noise and time policy require separate controls.",
+      "abs_url": "https://arxiv.org/abs/2506.10258",
+      "abs_sha256": "ee549b77b7048190d3c652c872552b0193fb2d1bf1b669667f5f6084ab7e1f62",
+      "latest_version": 1,
+      "non_arxiv_github_links": []
+    },
+    {
+      "id": "2610.30747v1",
+      "url": "https://arxiv.org/html/2610.30747v1",
+      "sha256": "cfb9b8468a5b8414cc925595ba3226a8cd1d8cec569ab8df1e38cb91e758da64",
+      "bytes": 586308,
+      "authors_short": "Wang et al.",
+      "title": "Demand-Driven Routing Space for Lattice-Surgery Compilation",
+      "reviewed_sections": [
+        "4.1",
+        "4.2 Equation 2",
+        "5.1",
+        "5.2"
+      ],
+      "overlap": "Fixed chip volume, stage movement, lane budgets and criticality/resource-aware frontier routing already exist.",
+      "unconfirmed": "MiniFlash artifact linked by paper but not inspected or reproduced this run; dynamic geometry outside our validated domain.",
+      "abs_url": "https://arxiv.org/abs/2610.30747",
+      "abs_sha256": "4051f83da3df0d7d053faba0f3d4ec8b05c70f5f38cca5d62b1384734fa64e5e",
+      "latest_version": 1,
+      "non_arxiv_github_links": [
+        "https://github.com/Nozidoali/MiniFlash",
+        "https://github.com/tqec/topologiq"
+      ]
+    },
+    {
+      "id": "2610.22112v1",
+      "url": "https://arxiv.org/html/2610.22112v1",
+      "sha256": "1243a1d8effc08a5d1457d75074cfb088823518a0ae26e2427332b1d467b1f87",
+      "bytes": 1375862,
+      "authors_short": "Chamberland et al.",
+      "title": "Patchwork: automated lattice surgery and space-time partitioning for real-time decoding",
+      "reviewed_sections": [
+        "I",
+        "VI",
+        "VII",
+        "VIII and VIII.1",
+        "XII"
+      ],
+      "overlap": "Observable orientation already guides physical gate scheduling via cut lines; observable generation and partitioned decoding already exist.",
+      "unconfirmed": "Paper describes upcoming software; no verified artifact URL. Application-level protected-idle ranking is not demonstrated equivalent or novel by this review.",
+      "abs_url": "https://arxiv.org/abs/2610.22112",
+      "abs_sha256": "d215fc4b8e907fff1bb54974f5a06f98ba19495314b4bb71c0d4680ad1eb17e1",
+      "latest_version": 1,
+      "non_arxiv_github_links": []
+    },
+    {
+      "id": "2601.12509v2",
+      "url": "https://arxiv.org/html/2601.12509v2",
+      "sha256": "34967eaed188cefe8b81bfdbe158a7a74d9f6037fdeae7441bc868b2023a9d3f",
+      "bytes": 531323,
+      "authors_short": "Liu et al.",
+      "title": "AlphaSyndrome: Tackling the Syndrome Measurement Circuit Scheduling Problem for QEC Codes",
+      "reviewed_sections": [
+        "3.1-3.4",
+        "4.1-4.5",
+        "A.3.1"
+      ],
+      "overlap": "Decoder-in-loop MCTS, fault propagation, logical support and simulated multi-observable failure already guide syndrome scheduling.",
+      "unconfirmed": "Paper overall X/Z formula and artifact per-partition reward are distinct; no common-budget reproduction; no novelty claim from application-level change alone.",
+      "abs_url": "https://arxiv.org/abs/2601.12509",
+      "abs_sha256": "21dc3913bc499e33b94a1d81b7603b79e68a96479eea7feb46c71b38045c901f",
+      "latest_version": 2,
+      "non_arxiv_github_links": [
+        "https://github.com/acasta-yhliu/asyndrome.git",
+        "https://github.com/sbravyi/BivariateBicycleCodes"
+      ]
+    },
+    {
+      "id": "2608.11719v1",
+      "url": "https://arxiv.org/html/2608.11719v1",
+      "sha256": "0ad989bef897a7b16793cbd0a4599b9c3326d66054c29f80f5da10f24296c2f3",
+      "bytes": 374362,
+      "authors_short": "Ikari et al.",
+      "title": "Do Not Let CNOTs Overwhelm the Decoder: Scheduling Transversal Gates for Fast FTQC",
+      "reviewed_sections": [
+        "3.5",
+        "5.1-5.3 Algorithm 2",
+        "6.1-6.2"
+      ],
+      "overlap": "PACE searches bounded TCNOT spacing policies under DEM latency, memory and decode capacity constraints.",
+      "unconfirmed": "TCNOT architecture and decoder-capacity objective differ from lattice-surgery output-error ranking; no direct performance comparison.",
+      "abs_url": "https://arxiv.org/abs/2608.11719",
+      "abs_sha256": "28c16e141e54dadeec7a3b8acd8996de73964b4c28dd84b297e32d1b80cc6ab9",
+      "latest_version": 1,
+      "non_arxiv_github_links": []
+    }
+  ],
+  "artifacts": [
+    {
+      "repository": "https://github.com/acasta-yhliu/asyndrome.git",
+      "commit": "f20c4de55eb34028bcbede87f24d16d68d916549",
+      "review": "Static source review only; neither installed nor sampled.",
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "78fcdb9b5cdc8d5b30b8231686f7c837eca82ffd55b4bee1c93031090f64dcf4"
+        },
+        {
+          "path": "asyndrome/treesearch.py",
+          "sha256": "f4be82a5c89d52dc002b2fb8c5101e455070572566c8cbf161aa5964b123f021"
+        },
+        {
+          "path": "asyndrome/scheduler.py",
+          "sha256": "84374a42938080f57241a95bac62e8a4c14d8a3499b18ad0a5de450e5ff3d698"
+        },
+        {
+          "path": "asyndrome/stimcirc.py",
+          "sha256": "159dd2d266c03885f1c61411e13d61632e528b1253d562dabc15cf4d556372a5"
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/John-YuehanZhang/CircLS.git",
+      "commit": "1501f632f28e54188e57042abeaf450c3a300870",
+      "review": "Static source review only; compiler contains lifetime scheduling; bridge serial setting must not be generalized to entire backend.",
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "3665b218754585792170d40d86c43774baa453e7f56b2358b4518027578bac19"
+        },
+        {
+          "path": "circls/compiler/scheduling.py",
+          "sha256": "ee810e43ecc81e6297f7c6d2c880f7bef93ca91b02d7c0ab3764e4cb3b494dfd"
+        },
+        {
+          "path": "experiments/dascot_bridge.py",
+          "sha256": "81f6539a172fbd31f1d4d21def1e0f501d15075c709af1ce230249989bc70335"
+        }
+      ]
+    }
+  ],
+  "search_queries": [
+    "observable-aware scheduling quantum error correction",
+    "decoder-aware scheduling quantum lattice surgery",
+    "Patchwork lattice surgery quantum compiler",
+    "SPARO github quantum",
+    "SPARO Stein artifact quantum",
+    "quantum observable aware scheduling lattice surgery"
+  ],
+  "decision": {
+    "status": "continue_as_evaluation_hypothesis_not_novel_method",
+    "broad_novelty_claim": "rejected",
+    "exact_method_novelty": "unresolved",
+    "next_gate": "complete_public_workload_competition_and_family_split",
+    "method_freeze_allowed": false,
+    "held_out_sampling_allowed": false,
+    "general_scheduler_mu": 0
+  },
+  "remaining": [
+    "Verify missing original artifacts and common-support-domain reproduction; not replaced by our proxies.",
+    "At least development and held-out public families with complete semantics and competing legal physical schedules.",
+    "Define complete readout space and budget-matched selector, then development calibration and freeze before held-out."
+  ]
+}

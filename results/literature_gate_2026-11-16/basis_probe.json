@@ -1,0 +1,104 @@
+{
+  "schema": "readout_basis_mechanism_probe_v1",
+  "new_research_shots": 0,
+  "new_workload_compilations": 0,
+  "new_routing_measurements": 0,
+  "scope": "Exact synthetic algebra/decoder checks; no public workload or performance evidence.",
+  "source_sha256": {
+    "readout_visibility.py": "74008921a027082c6cdd6986367953decccb64eb88d914665fa9fc27c0a5be0b",
+    "probe_readout_basis.py": "1a5a856eb37e5c65aa4071926611819d1bec2078e97a4f429d2620460eb96f75"
+  },
+  "basis_ranking_counterexample": [
+    {
+      "basis": [
+        "ZI",
+        "ZZ"
+      ],
+      "scores": {
+        "A": {
+          "joint_first_order_weight": 0.0011,
+          "marginal_sum_weight": 0.0022,
+          "events": [
+            {
+              "fault": "+X_",
+              "weight": 0.0011,
+              "signature": [
+                true,
+                true
+              ]
+            }
+          ]
+        },
+        "B": {
+          "joint_first_order_weight": 0.001,
+          "marginal_sum_weight": 0.001,
+          "events": [
+            {
+              "fault": "+_X",
+              "weight": 0.001,
+              "signature": [
+                false,
+                true
+              ]
+            }
+          ]
+        }
+      },
+      "marginal_winner": "B",
+      "joint_winner": "B"
+    },
+    {
+      "basis": [
+        "ZZ",
+        "IZ"
+      ],
+      "scores": {
+        "A": {
+          "joint_first_order_weight": 0.0011,
+          "marginal_sum_weight": 0.0011,
+          "events": [
+            {
+              "fault": "+X_",
+              "weight": 0.0011,
+              "signature": [
+                true,
+                false
+              ]
+            }
+          ]
+        },
+        "B": {
+          "joint_first_order_weight": 0.001,
+          "marginal_sum_weight": 0.002,
+          "events": [
+            {
+              "fault": "+_X",
+              "weight": 0.001,
+              "signature": [
+                true,
+                true
+              ]
+            }
+          ]
+        }
+      },
+      "marginal_winner": "A",
+      "joint_winner": "B"
+    }
+  ],
+  "basis_invariance": {
+    "ordered_bases": 168,
+    "paulis_per_basis": 64,
+    "exact_comparisons": 10752,
+    "failures": 0
+  },
+  "decoder_counterexample": {
+    "syndrome": [
+      1
+    ],
+    "raw_observable_flip": 1,
+    "decoder_prediction": 1,
+    "residual_any_error": 0
+  },
+  "decision": "Reject marginal-generator-count as a basis-independent any-error cost. Joint raw visibility passes this necessary condition but remains an uncalibrated proxy."
+}

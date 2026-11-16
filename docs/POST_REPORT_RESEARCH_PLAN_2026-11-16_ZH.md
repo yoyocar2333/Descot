@@ -2,6 +2,8 @@
 
 更新：2026-11-16，Asia/Taipei。正式報告已完成；本計畫是後續研究，不修改已交付簡報。11/5、11/9 是歷史時程，不能當作下一輪截止日。使用者要求「天數壓縮，內容不壓縮」的完整性要求持續有效。
 
+同日後續增量：[文獻門檻與成本必要檢查](RELATED_WORK_2026-11-16_GATE_ZH.md) 已補讀八篇原文及 AlphaSyndrome／CircLS 固定程式。廣義 observable／decoder-aware 排程的新穎性主張不成立；維持方法比較假說，下一門檻為新完整公開家族的競爭排程與 split。精確方法新穎性、原方法重現及部分 artifact 仍未確認，不能開始 held-out。已以 10,752 項精確檢查指出 marginal-generator-count 會受等價 basis 影響；joint raw visibility 也尚非 decoded risk。新增 0 research shots，μ=0，不改既有凍結結果。
+
 ## 一個核心問題
 
 **固定可用空間與編譯預算時，考慮等待對最終讀出的影響，能否比只看深度或總資源的排程，選出完整電路解碼錯誤率較低的合法方案？**

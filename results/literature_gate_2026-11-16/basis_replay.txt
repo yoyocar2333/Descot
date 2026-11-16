@@ -1,0 +1,1 @@
+PASS: 10752 exact basis checks; marginal ranking reversal; decoder counterexample; 0 research shots
