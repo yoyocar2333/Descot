@@ -1,0 +1,23 @@
+{
+  "recorded_on": "2026-11-16",
+  "timezone": "Asia/Taipei",
+  "automations": [
+    {
+      "title": "推進 DASCOT 實驗",
+      "is_enabled": true,
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Taipei:20261116T190000\nRRULE:FREQ=DAILY\nEND:VEVENT",
+      "timing_mode": "flexible_schedule",
+      "default_timezone": "Asia/Taipei",
+      "next_run_time": "2026-11-16T19:00:00+08:00"
+    },
+    {
+      "title": "DASCOT 研究更新",
+      "is_enabled": false,
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Taipei:20261031T190000\nRRULE:FREQ=DAILY;UNTIL=20261105T155959Z\nEND:VEVENT",
+      "timing_mode": "flexible_schedule",
+      "default_timezone": "Asia/Taipei",
+      "next_run_time": null
+    }
+  ],
+  "scope": "Configuration confirmation only; the next scheduled experiment has not run."
+}

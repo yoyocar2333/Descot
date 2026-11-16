@@ -1,0 +1,131 @@
+{
+  "schema": "post_report_planning_audit_v1",
+  "date": "2026-11-16",
+  "evidence_base_commit": "2e629ac245c32569a656bd3ec88c972a85f53aa0",
+  "new_shots": 0,
+  "new_routing_measurements": 0,
+  "operation": "Read-only reanalysis of already observed records; no circuit recompile.",
+  "inputs": [
+    {
+      "path": "results/public_lookahead_2026-11-03/summary.json",
+      "sha256": "f45e8c5c122cd1dc92e9ae60c435401c79a17608b250d3e752b81dab03759427"
+    },
+    {
+      "path": "results/public_bell_2026-11-04/summary.json",
+      "sha256": "e862ce76ae0c70df7e47ec7df6e18e43e44461203b88271d6cddea37c79bd8da"
+    },
+    {
+      "path": "results/public_candidates_2026-11-02/development_pool.json",
+      "sha256": "8a84e2e1fd2863a37c962447f652c5b65e426745c436ca15d29a546275639ee3"
+    },
+    {
+      "path": "results/public_candidates_2026-11-02/evaluation.json",
+      "sha256": "14014c48f6dcf00f5448ebfb62da62074b0e0c3471ee29ae23cad904478f5dad"
+    },
+    {
+      "path": "results/transfer_2026-11-05/evaluation.json",
+      "sha256": "b9e627d1c3517f53501a4c9c133b9619ea25a0f7bc6c2855bd0595be53c5609d"
+    },
+    {
+      "path": "benchmarks/public_2026-11-02/manifest.json",
+      "sha256": "b07c8609393be7a3e2450e9f1a111aaabf9e7b4c46b58a00d94720fec36aa82f"
+    },
+    {
+      "path": "benchmarks/public_2026-11-04/manifest.json",
+      "sha256": "fa3f40bc0229f47847ad9e3853228461cbc18c3b313c9320e3e9b700493ab359"
+    },
+    {
+      "path": "benchmarks/public_2026-11-05/manifest.json",
+      "sha256": "77ea80b0ddfda90ec447fe2253b64811b6ea17bd3a10ea7fb41978b5e341cf1f"
+    }
+  ],
+  "hs4_unrestricted_routes": [
+    {
+      "spacing": 3,
+      "route_settings": 15,
+      "selected_candidates": [
+        "p12"
+      ],
+      "noisy_circuit_sha256": [
+        "70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222"
+      ]
+    },
+    {
+      "spacing": 5,
+      "route_settings": 15,
+      "selected_candidates": [
+        "p12"
+      ],
+      "noisy_circuit_sha256": [
+        "445b9e8f5cc5e3ebac3008b0438fb89425a8724bc9f1655cee8f7c3785d30cdd"
+      ]
+    }
+  ],
+  "hs4_pool": {
+    "candidate_count": 13,
+    "physical_layer_counts": {
+      "9": 1,
+      "12": 2,
+      "13": 4,
+      "16": 6
+    },
+    "minimum_physical_layers": 9,
+    "minimum_candidate_ids": [
+      "p12"
+    ],
+    "serial_matched_candidate_count": 6,
+    "scope": "13 H-first canonical plans, not all possible gate-level schedules."
+  },
+  "bell6_unrestricted_routes": [
+    {
+      "geometry": "spacing3",
+      "route_settings": 15,
+      "reused_sample_ids": [
+        "sample_210ba0a02b313e1fb53347299a1b795b3f18e1eae9ab2792cd0054ea7e298c00"
+      ]
+    },
+    {
+      "geometry": "spacing5",
+      "route_settings": 15,
+      "reused_sample_ids": [
+        "sample_e879a7760b43c8bec1b88af5d686bda3cada12b1ace5b8038f850ec645d8c620"
+      ]
+    }
+  ],
+  "transfer_unrestricted_routes": [
+    {
+      "workload": "bell4",
+      "spacing": 3,
+      "route_settings": 15,
+      "noisy_circuit_sha256": [
+        "baee5966ad019fcebc1afac80012ad1682f819c1a7ed82eabde1399bc5067b49"
+      ]
+    },
+    {
+      "workload": "bell4",
+      "spacing": 5,
+      "route_settings": 15,
+      "noisy_circuit_sha256": [
+        "ca19a57b3200431918eff28e994dad99a197d5d5fdc8c6a26da3c135d2d2c6f6"
+      ]
+    },
+    {
+      "workload": "cat4",
+      "spacing": 3,
+      "route_settings": 15,
+      "noisy_circuit_sha256": [
+        "123543fbecfafed65eab57d08ebc7f577c3fb3ee70f8396d111d0573e389bd13"
+      ]
+    },
+    {
+      "workload": "cat4",
+      "spacing": 5,
+      "route_settings": 15,
+      "noisy_circuit_sha256": [
+        "4d5bad191b9713b4cd75fed49a7dd393a742b430bb5a88f66a94a93460016db4"
+      ]
+    }
+  ],
+  "future_split_policy": "All results observed by 2026-11-16 are development only for new hypotheses.",
+  "conclusion": "Existing unrestricted controls often select identical complete circuits. Use them as convergence controls; require new fully supported workloads with real competing schedules before evaluating a new selection rule."
+}

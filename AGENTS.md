@@ -1,5 +1,13 @@
 # Research continuity
 
+## Post-report instructions (2026-11-16)
+
+The report has finished. Do not revise its slides or recreate its historical deadlines. For continued experiments, read `docs/POST_REPORT_RESEARCH_PLAN_2026-11-16_ZH.md` first, then the historical roadmap, latest updates and actual records. The plan supersedes historical dates below; unresolved research requirements remain in scope. Advance one gated, testable increment per run and commit evidence to the current research branch. Lookahead and guard are controls, not established novel contributions. Check closest primary literature before choosing a new method; novelty and improvement are hypotheses until supported.
+
+For a future presentation explicitly requested by the user: use one research question, explain motivation and comparison methods/metrics before results, show real circuit diagrams, use full chapter-divider slides, and explain what each table measures and why immediately before it. Define symbols and units before use and keep comparisons consistent. Default to no appendix; keep technical details in separate research documents. Do not generate a new presentation during routine experiment runs.
+
+## Historical report requirements
+
 User-facing explanations are in Traditional Chinese. Code, technical tables and final slides may use English. The formal report is on 2026-11-09 (UTC+8).
 
 Read `docs/ROADMAP_2026-11-09_ZH.md`, the latest `docs/updates/` entry and the actual result records before continuing. Complete one bounded, testable increment, then explain what changed, why it matters, the recorded evidence, remaining boundary conditions and the next step. The user advanced the completion deadline on Nov 2: finish development, experiments, figures, the final English slides/PDF, separate Chinese read-aloud script and detailed explanations, Q&A and a reproducible snapshot by Nov 5, 23:59 Asia/Taipei (before Nov 6). The presentation remains Nov 9. Use Markdown and scientific figures for routine updates; prepare final slides on Nov 5, not Nov 8. Nov 6-8 are for the user's rehearsal and explicit corrections; defer no required work to those dates.
