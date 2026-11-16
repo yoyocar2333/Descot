@@ -1,0 +1,282 @@
+{
+  "revision_date": "2026-11-16",
+  "report_date": "2026-11-16",
+  "parent_commit": "81d43b04a0d95c9695ff03115aa6f1e3656e956e",
+  "source_pptx_sha256": "ccd87b396cfaf0f2b0c1e15486a4d17856b4774add0c745f92ebcbb40ac0c1a5",
+  "source_pptx_version": 5,
+  "slides": {
+    "main": 12,
+    "appendix": 11,
+    "total": 23,
+    "scientific_native_tables": 11
+  },
+  "new_shots": 0,
+  "new_routing_runs": 0,
+  "citation_index": {
+    "evidence_revision": "551aa35646676494391a619dd84847dcb3143360",
+    "evidence": [
+      {
+        "id": "E1",
+        "title": "Phase 1 routing and memory study",
+        "path": "docs/phase1/PROGRESS_ZH.md",
+        "zh": "Phase 1 路由與記憶體實驗"
+      },
+      {
+        "id": "E2",
+        "title": "2026-11-02 complete-circuit development checks",
+        "path": "docs/updates/2026-11-02.md",
+        "zh": "11/2 完整電路開發例"
+      },
+      {
+        "id": "E3",
+        "title": "2026-11-02 full hs4 workload integration",
+        "path": "docs/updates/2026-11-02-public-hs4.md",
+        "zh": "完整 hs4 公開電路整合"
+      },
+      {
+        "id": "E4",
+        "title": "2026-11-04 Bell(6), resources and timing",
+        "path": "docs/updates/2026-11-04.md",
+        "zh": "Bell(6)、資源取捨與計時"
+      },
+      {
+        "id": "E5",
+        "title": "2026-11-02 hs4 risk calibration and geometry holdout",
+        "path": "docs/updates/2026-11-02-risk-pilot.md",
+        "zh": "hs4 風險校準與新幾何測試"
+      },
+      {
+        "id": "E6",
+        "title": "2026-11-05 parity transfer and support checks",
+        "path": "docs/updates/2026-11-05.md",
+        "zh": "共同 parity 轉移與支援域檢查"
+      },
+      {
+        "id": "E7",
+        "title": "2026-11-04 related-work comparison",
+        "path": "docs/RELATED_WORK_2026-11-04_ZH.md",
+        "zh": "相關工作差異整理"
+      },
+      {
+        "id": "E8",
+        "title": "2026-11-03 fair full-workload routing controls",
+        "path": "docs/updates/2026-11-03.md",
+        "zh": "完整 workload 公平路由對照"
+      }
+    ],
+    "papers": [
+      {
+        "id": "1",
+        "authors": "A. Molavi, A. Xu, S. Tannu and A. Albarghouthi",
+        "year": 2025,
+        "title": "Dependency-Aware Compilation for Surface Code Quantum Architectures",
+        "venue": "OOPSLA 2025",
+        "doi": "10.1145/3720416",
+        "url": "https://doi.org/10.1145/3720416",
+        "verified_url": "https://arxiv.org/abs/2311.18042",
+        "role": "DASCOT dependency-aware compilation baseline"
+      },
+      {
+        "id": "2",
+        "authors": "A. Suau et al.",
+        "year": 2026,
+        "title": "tqec: A Python package for topological quantum error correction",
+        "venue": "Journal of Open Source Software 11(120), 9142",
+        "doi": "10.21105/joss.09142",
+        "url": "https://doi.org/10.21105/joss.09142",
+        "verified_url": "https://joss.theoj.org/papers/10.21105/joss.09142",
+        "role": "Physical templates and compilation backend"
+      },
+      {
+        "id": "3",
+        "authors": "C. Gidney",
+        "year": 2021,
+        "title": "Stim: a fast stabilizer circuit simulator",
+        "venue": "Quantum 5, 497",
+        "doi": "10.22331/q-2021-07-06-497",
+        "url": "https://doi.org/10.22331/q-2021-07-06-497",
+        "verified_url": "https://quantum-journal.org/papers/q-2021-07-06-497/",
+        "role": "Stabilizer simulation and circuit sampling"
+      },
+      {
+        "id": "4",
+        "authors": "O. Higgott and C. Gidney",
+        "year": 2025,
+        "title": "Sparse Blossom: correcting a million errors per core second with minimum-weight matching",
+        "venue": "Quantum 9, 1600",
+        "doi": "10.22331/q-2025-01-20-1600",
+        "url": "https://doi.org/10.22331/q-2025-01-20-1600",
+        "verified_url": "https://quantum-journal.org/papers/q-2025-01-20-1600/",
+        "role": "PyMatching v2 minimum-weight matching decoder"
+      },
+      {
+        "id": "5",
+        "authors": "A. Li, S. Stein, S. Krishnamoorthy and J. Ang",
+        "year": 2023,
+        "title": "QASMBench: A Low-Level Quantum Benchmark Suite for NISQ Evaluation and Simulation",
+        "venue": "ACM Transactions on Quantum Computing 4(2), Article 10",
+        "doi": "10.1145/3550488",
+        "url": "https://doi.org/10.1145/3550488",
+        "verified_url": "https://doi.org/10.1145/3550488",
+        "role": "hs4 and cat public benchmark source"
+      },
+      {
+        "id": "6",
+        "authors": "N. Quetschlich, L. Burgholzer and R. Wille",
+        "year": 2023,
+        "title": "MQT Bench: Benchmarking Software and Design Automation Tools for Quantum Computing",
+        "venue": "Quantum 7, 1062",
+        "doi": "10.22331/q-2023-07-20-1062",
+        "url": "https://doi.org/10.22331/q-2023-07-20-1062",
+        "verified_url": "https://quantum-journal.org/papers/q-2023-07-20-1062/",
+        "role": "Bell benchmark source"
+      },
+      {
+        "id": "7",
+        "authors": "S. Maurya and S. Tannu",
+        "year": 2025,
+        "title": "Synchronization for Fault-Tolerant Quantum Computers",
+        "venue": "ISCA 2025",
+        "doi": "10.1145/3695053.3730991",
+        "url": "https://arxiv.org/abs/2506.10258v1",
+        "verified_url": "https://arxiv.org/abs/2506.10258",
+        "role": "Related work on synchronization and waiting policies"
+      },
+      {
+        "id": "8",
+        "authors": "K. Hamada, Y. Suzuki and Y. Tokunaga",
+        "year": 2026,
+        "title": "Efficient and high-performance routing of lattice-surgery paths on three-dimensional lattice",
+        "venue": "Quantum 10, 2061",
+        "doi": "10.22331/q-2026-04-13-2061",
+        "url": "https://doi.org/10.22331/q-2026-04-13-2061",
+        "verified_url": "https://quantum-journal.org/papers/q-2026-04-13-2061/",
+        "role": "Related work on lookahead and 3D lattice-surgery routing"
+      }
+    ],
+    "software": [
+      {
+        "id": "S1",
+        "title": "CircLS author repository",
+        "url": "https://github.com/John-YuehanZhang/CircLS/tree/1501f632f28e54188e57042abeaf450c3a300870",
+        "revision": "1501f632f28e54188e57042abeaf450c3a300870",
+        "role": "Fixed software source used for related-work audit; not a matched experimental baseline"
+      }
+    ]
+  },
+  "deliverables": [
+    {
+      "name": "DASCOT_Final_EN.pptx",
+      "library_file_id": "libfile_cd61fdd16c888191b7dd5f1593f512cb",
+      "file_id": "file_000000000d1081fd9abbe101b0fc87ac",
+      "version": 6,
+      "local_export_sha256": "dd238d92f95f022fdb4b470518dd7986dd2ffe6aa4a06527f4988e9d79043397",
+      "local_export_size_bytes": 184808,
+      "url": "https://chatgpt.com/library?file_id=libfile_cd61fdd16c888191b7dd5f1593f512cb&account_id=personal"
+    },
+    {
+      "name": "DASCOT_Final_EN-2.pdf",
+      "library_file_id": "libfile_10d6b3d70a108191bb618381e9d705dc",
+      "file_id": "file_00000000b50481fdb74995a757474713",
+      "version": 3,
+      "local_export_sha256": "92ff444e2b0fe48fe7363232a003c9e94496a68c07f5c971ca66debe1326aae2",
+      "local_export_size_bytes": 415362,
+      "url": "https://chatgpt.com/library?file_id=libfile_10d6b3d70a108191bb618381e9d705dc&account_id=personal"
+    },
+    {
+      "name": "DASCOT_Speaker_Script_ZH.md",
+      "library_file_id": "libfile_015d7e723fe48191a9b22fd7c1969c22",
+      "file_id": "file_0000000088048230aacae7a868a360f7",
+      "version": 6,
+      "local_export_sha256": "8367f2ec03617f14f131d89f01f3f6595f48160a5828d8d19bd85766eddfad7b",
+      "local_export_size_bytes": 7813,
+      "url": "https://chatgpt.com/library?file_id=libfile_015d7e723fe48191a9b22fd7c1969c22&account_id=personal"
+    },
+    {
+      "name": "DASCOT_Study_Guide_ZH.md",
+      "library_file_id": "libfile_48b2b1daf8488191b70409f09b812992",
+      "file_id": "file_0000000089b881fdac0f053c3dbbc69b",
+      "version": 6,
+      "local_export_sha256": "85ea9c4f188ce6fd28de1834407e49994b761bf6b149ca18285c2db4d251f2a1",
+      "local_export_size_bytes": 16785,
+      "url": "https://chatgpt.com/library?file_id=libfile_48b2b1daf8488191b70409f09b812992&account_id=personal"
+    },
+    {
+      "name": "DASCOT_QA_ZH.md",
+      "library_file_id": "libfile_51c07de32c8c8191b1dcc2cbab0f585f",
+      "file_id": "file_000000009a4c81fda2bd1436e38b1ff4",
+      "version": 3,
+      "local_export_sha256": "26bb607fbbf7e5e9bc5de3ea271fa2910d1312f9b1afc2e6fb77810ec02470c9",
+      "local_export_size_bytes": 5327,
+      "url": "https://chatgpt.com/library?file_id=libfile_51c07de32c8c8191b1dcc2cbab0f585f&account_id=personal"
+    }
+  ],
+  "hash_scope": "Local export bytes before Library PDF metadata/signature annotations.",
+  "frozen_evidence": [
+    {
+      "path": "results/analysis/summary.json",
+      "sha256": "453351eba19fbe7b33074b93437026d6d0ce9eda583ca7f88c4ff17b163e6ee0"
+    },
+    {
+      "path": "results/schedule_pilot_2026-11-02/summary.json",
+      "sha256": "b4e28369d074c00acc306a91bad2380c834362cadbf83ea8966004f062b923b9"
+    },
+    {
+      "path": "results/schedule_pilot_2026-11-02/contrasts.json",
+      "sha256": "c8bb0e8d9f4918e0d63ee2d6376fd93ec14e92a9b4d45da771bb6cb0733c78ae"
+    },
+    {
+      "path": "results/public_hs4_2026-11-02/summary.json",
+      "sha256": "3ffe1346081ac83636dbe492618e1320f713ca278cf055d422957264be00275b"
+    },
+    {
+      "path": "results/public_hs4_2026-11-02/contrasts.json",
+      "sha256": "2ea762d6bbb41a08497a0ad9ba0e5290fae342025a3e89d14979701f96d8fb31"
+    },
+    {
+      "path": "results/public_candidates_2026-11-02/development_pool.json",
+      "sha256": "8a84e2e1fd2863a37c962447f652c5b65e426745c436ca15d29a546275639ee3"
+    },
+    {
+      "path": "results/public_candidates_2026-11-02/development_summary.json",
+      "sha256": "bbf09d707ab40f3958aa60a0e5137295cb3e6320f339bf0a7816f9391fd05c8f"
+    },
+    {
+      "path": "results/public_candidates_2026-11-02/heldout_summary.json",
+      "sha256": "fd986223b10eff7a5ec0a13f64b7ef79aded6b98b9b5271b3450baa4b16c1fb5"
+    },
+    {
+      "path": "results/public_candidates_2026-11-02/evaluation.json",
+      "sha256": "14014c48f6dcf00f5448ebfb62da62074b0e0c3471ee29ae23cad904478f5dad"
+    },
+    {
+      "path": "results/public_bell_2026-11-04/summary.json",
+      "sha256": "e862ce76ae0c70df7e47ec7df6e18e43e44461203b88271d6cddea37c79bd8da"
+    },
+    {
+      "path": "results/public_bell_2026-11-04/evaluation.json",
+      "sha256": "e3c84469becad4978f9f4e9125c660503cd533bac99b0014bbf3c2557260e19d"
+    },
+    {
+      "path": "results/transfer_2026-11-05/summary.json",
+      "sha256": "ef308ba5be6e24e2ea87c3f9655a0270ada1878a7d827c72d097e4d20ce47a1e"
+    },
+    {
+      "path": "results/transfer_2026-11-05/evaluation.json",
+      "sha256": "b9e627d1c3517f53501a4c9c133b9619ea25a0f7bc6c2855bd0595be53c5609d"
+    }
+  ],
+  "validation": {
+    "original_scientific_tables": "all values and CIs unchanged",
+    "original_body_pages_1_to_20": "unchanged except citation footers and page-5 legend",
+    "original_circuit_hashes_in_notes": "preserved",
+    "defined_study_records": 8,
+    "defined_external_papers": 8,
+    "defined_software_sources": 1,
+    "pdf_uri_annotations_checked": 17,
+    "package_and_reimport": "pass",
+    "layout_findings": 0,
+    "layout_warnings": 0,
+    "native_powerpoint_opened": false
+  }
+}
