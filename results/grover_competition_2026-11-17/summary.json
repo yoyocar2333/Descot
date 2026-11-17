@@ -1,0 +1,84 @@
+{
+  "protocol": {
+    "id": "complete_grover_competition_20261117_v1",
+    "distance": 3,
+    "physical_p": 0.001,
+    "spacing_blocks": 3,
+    "cx_concurrency_cap": null,
+    "enumeration_safety_bound": 4096,
+    "enumeration_scope": "All nonempty ready homogeneous H/CX subsets, eager virtual/readout closure; no mixed H/CX layers. Fail rather than truncate.",
+    "physical_selection": "All global minimum physical-layer plans from the complete declared logical pool; retain full pool and H-first parallel reference. No noisy labels used.",
+    "noise": "TQEC uniform-depolarizing circuit noise, existing add_noise",
+    "decoder": "ordinary uncorrelated PyMatching MWPM, decomposed DEM; construction only",
+    "shots": 0,
+    "seeds": [],
+    "sampling_stop_rule": "No sampling authorized at this feasibility gate",
+    "complete_readout": "Both original Z output bits with original classical mapping; require full rank 2 deterministic correlation basis, not one selected parity",
+    "split": "grover_search family is development; second independent held-out family not yet eligible",
+    "mu": 0,
+    "timing": "Pool construction/features before physical tasks. Main compilation, exact validation, validation-generator compilation, noise/DEM construction separate. Two concurrent physical workers: wall accounting, not an independent compiler-performance benchmark."
+  },
+  "source_manifest": {
+    "repository": "https://github.com/pnnl/QASMBench",
+    "commit": "357b942396d5c2b7cbc1c229c585a6ef5ccaebac",
+    "retrieved_date": "2026-11-17",
+    "source_policy": "Complete unchanged upstream Grover instance. No gate deletion, H cancellation, parameter change, output modification or extracted kernel.",
+    "files": [
+      {
+        "path": "benchmarks/public_2026-11-17/qasmbench/grover_n2.qasm",
+        "upstream_path": "small/grover_n2/grover_n2.qasm",
+        "git_blob_sha": "d52ad89fa94aecd0c40357907a4d569e4bbfa40d",
+        "sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+        "bytes": 291
+      },
+      {
+        "path": "benchmarks/public_2026-11-17/qasmbench/README.md",
+        "upstream_path": "small/grover_n2/README.md",
+        "git_blob_sha": "ec3945f854b8dde0802ffc550dcf683d97645d5e",
+        "sha256": "6533d65d5c4f647f69ef8346362275e42db2b5aa13f14478f3fb0b391e8aa65a",
+        "bytes": 488
+      }
+    ],
+    "license_paths": [
+      "benchmarks/public_2026-11-02/qasmbench/LICENSE",
+      "benchmarks/public_2026-11-02/qasmbench/NOTICE"
+    ],
+    "family": "grover_search",
+    "split": "development",
+    "held_out_family": null,
+    "selection_policy": "Pre-noisy-outcome semantic support and minimum-layer competition. All prior observed families remain development. A second eligible independent family is still required."
+  },
+  "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+  "candidate_pool_size": 175,
+  "historical_h_first_pool_size": 1,
+  "minimum_physical_layers": 9,
+  "minimum_plan_count": 12,
+  "compiled_minimum_candidate_ids": [
+    "g122",
+    "g124",
+    "g127",
+    "g129",
+    "g137",
+    "g139",
+    "g157",
+    "g159",
+    "g162",
+    "g164",
+    "g172",
+    "g174"
+  ],
+  "unique_noisy_circuits": 12,
+  "unique_minimum_wait_profiles": 2,
+  "full_original_output_little_endian": [
+    1,
+    1
+  ],
+  "pool_construction_seconds": 0.01749182399998972,
+  "feature_construction_seconds": 0.015446105999899373,
+  "complete_application_compilations": 12,
+  "generator_validation_compilations": 48,
+  "new_shots": 0,
+  "sampler_calls": 0,
+  "held_out_family": null,
+  "gate_status": "One new development family physically integrated; two-family/split gate still incomplete. No selector efficacy or novelty claim."
+}

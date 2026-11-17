@@ -1,0 +1,30 @@
+{
+  "python": "3.12.14",
+  "source_base_commit": "95279bcdfcf0f74b2a49b2c13c186d3637be06a4",
+  "source_files_sha256": {
+    "run_grover_competition.py": "e5309f336b8b75c62ac5717e9fca2f44a9a6e2f5e4c7ff0c6e55b2f8ec9bdd1d",
+    "public_gate_pool.py": "4e7261ec378d1c355f015f399e0c06a37bb88b2eb6f45051113d8173ebf7c35b",
+    "exact_program_validation.py": "aed04bbe2d37fded9690b66d4b06cd337a57de757dccccd00ecb72250eb71959",
+    "public_clifford.py": "bc3c68c183ec07cc95dea32fdf14f2290d0c082bd005d86b8a5a01296bce7ee5",
+    "public_candidate_pool.py": "4696ded929e46dc3ce34042d53fb3ca6b5d72c3635f9ab287c8d34589350d6e3",
+    "run_public_audit.py": "98a866e7ce1403b93715756d3af369e66728e97f7f6ad225923b156c62d1ad0a",
+    "schedule_circuit.py": "86508aa305ac346a04ff9d931bcfb17cc3f3976dbd16694d7a850584c4d63a60",
+    "surgery.py": "ee67e6691f7da5b48dd788b4e886348fbd70fd370154ef5de2ecee9b90d11e0b",
+    "requirements-lock.txt": "140e7ad5273ee3ac59347cd775c49bdcd2b1e978936e56bc7e1ab205eccaebf9"
+  },
+  "packages": {
+    "stim": "1.16.0",
+    "tqec": "0.2.0",
+    "pymatching": "2.4.0",
+    "qiskit": "2.5.2",
+    "numpy": "2.5.4"
+  },
+  "tqec_direct_url": {
+    "url": "https://github.com/tqec/tqec.git",
+    "vcs_info": {
+      "vcs": "git",
+      "commit_id": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+      "requested_revision": "50fa2210597632a79bd266b56a5fb8d9b00747bb"
+    }
+  }
+}

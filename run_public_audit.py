@@ -10,8 +10,26 @@ import re
 from qiskit import qasm2
 from qiskit.converters import circuit_to_dag
 import stim
+import numpy as np
 
 ROOT = Path(__file__).resolve().parent
+
+
+def is_clifford_matrix(matrix):
+    """Require a matrix round trip, not just acceptance by a tableau parser.
+
+    The pinned Stim build accepts some small non-Clifford rotations as a
+    nearby tableau. That is insufficient for lossless benchmark admission.
+    """
+    try:
+        tableau = stim.Tableau.from_unitary_matrix(matrix, endian="little")
+    except ValueError:
+        return False
+    original = np.asarray(matrix, dtype=complex)
+    reconstructed = tableau.to_unitary_matrix(endian="little").astype(complex)
+    phase = np.vdot(reconstructed, original) / len(original)
+    return bool(np.isclose(abs(phase), 1, atol=1e-7, rtol=0)
+                and np.allclose(original, phase * reconstructed, atol=1e-7, rtol=0))
 
 
 def inspect_qasm(path):
@@ -52,9 +70,7 @@ def inspect_qasm(path):
         except (AttributeError, TypeError):
             dynamic_or_opaque.add(name)
             continue
-        try:
-            stim.Tableau.from_unitary_matrix(matrix, endian="little")
-        except ValueError:
+        if not is_clifford_matrix(matrix):
             non_clifford.add(name)
     remaining, done, fronts, ancestors = set(range(len(nodes))), set(), [], {}
     while remaining:

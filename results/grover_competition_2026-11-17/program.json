@@ -1,0 +1,364 @@
+{
+  "name": "grover_n2",
+  "logical_qubits": 2,
+  "classical_bits": 2,
+  "expanded_custom_gates": [],
+  "operation_counts": {
+    "cx": 2,
+    "h": 10,
+    "measure": 2,
+    "x": 4
+  },
+  "operations": [
+    {
+      "id": 0,
+      "name": "h",
+      "qubits": [
+        0
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": []
+    },
+    {
+      "id": 1,
+      "name": "h",
+      "qubits": [
+        1
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": []
+    },
+    {
+      "id": 2,
+      "name": "h",
+      "qubits": [
+        1
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "name": "cx",
+      "qubits": [
+        0,
+        1
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        0,
+        2
+      ]
+    },
+    {
+      "id": 4,
+      "name": "h",
+      "qubits": [
+        1
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        3
+      ]
+    },
+    {
+      "id": 5,
+      "name": "h",
+      "qubits": [
+        0
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        3
+      ]
+    },
+    {
+      "id": 6,
+      "name": "h",
+      "qubits": [
+        1
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        4
+      ]
+    },
+    {
+      "id": 7,
+      "name": "x",
+      "qubits": [
+        0
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        5
+      ]
+    },
+    {
+      "id": 8,
+      "name": "x",
+      "qubits": [
+        1
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        6
+      ]
+    },
+    {
+      "id": 9,
+      "name": "h",
+      "qubits": [
+        1
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        8
+      ]
+    },
+    {
+      "id": 10,
+      "name": "cx",
+      "qubits": [
+        0,
+        1
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        7,
+        9
+      ]
+    },
+    {
+      "id": 11,
+      "name": "h",
+      "qubits": [
+        1
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        10
+      ]
+    },
+    {
+      "id": 12,
+      "name": "x",
+      "qubits": [
+        0
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        10
+      ]
+    },
+    {
+      "id": 13,
+      "name": "x",
+      "qubits": [
+        1
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        11
+      ]
+    },
+    {
+      "id": 14,
+      "name": "h",
+      "qubits": [
+        0
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        12
+      ]
+    },
+    {
+      "id": 15,
+      "name": "h",
+      "qubits": [
+        1
+      ],
+      "clbits": [],
+      "params": [],
+      "predecessors": [
+        13
+      ]
+    },
+    {
+      "id": 16,
+      "name": "measure",
+      "qubits": [
+        0
+      ],
+      "clbits": [
+        0
+      ],
+      "params": [],
+      "predecessors": [
+        14
+      ]
+    },
+    {
+      "id": 17,
+      "name": "measure",
+      "qubits": [
+        1
+      ],
+      "clbits": [
+        1
+      ],
+      "params": [],
+      "predecessors": [
+        15
+      ]
+    }
+  ],
+  "dag_fronts": [
+    {
+      "operation_ids": [
+        0,
+        1
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        2
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        3
+      ],
+      "cx_ids": [
+        3
+      ],
+      "cx_pairs": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        4,
+        5
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        6,
+        7
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        8
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        9
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        10
+      ],
+      "cx_ids": [
+        10
+      ],
+      "cx_pairs": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "operation_ids": [
+        11,
+        12
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        13,
+        14
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        15,
+        16
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    },
+    {
+      "operation_ids": [
+        17
+      ],
+      "cx_ids": [],
+      "cx_pairs": []
+    }
+  ],
+  "dag_depth_unit": "One original logical instruction, including retained barriers and measurements; not routing steps, QEC cycles, or physical TICKs.",
+  "strict_instruction_depth": 12,
+  "max_ready_cx": 1,
+  "front_metric_scope": "Ready-CX count in the recorded ASAP instruction fronts; not the maximum over all delayed schedules. Incomparable CX pairs separately capture other legal choices.",
+  "incomparable_cx_pairs": [],
+  "terminal_readout": [
+    {
+      "qubit": 0,
+      "classical_bit": 0
+    },
+    {
+      "qubit": 1,
+      "classical_bit": 1
+    }
+  ],
+  "all_unitaries_clifford": true,
+  "non_clifford_operation_names": [],
+  "dynamic_or_opaque_names": [],
+  "full_physical_profile_supported": false,
+  "physical_rejection_reasons": [
+    "Current homogeneous-basis CNOT profile does not preserve these original operations: h, x"
+  ],
+  "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+  "semantics_policy": "All original operations and classical dependencies retained; custom definitions expanded without deleting gates. No CNOT-only projection is called a full benchmark."
+}

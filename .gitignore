@@ -29,3 +29,5 @@ results/public_bell_2026-11-04/samples/*.dem
 results/transfer_2026-11-05/samples/*.stim
 results/transfer_2026-11-05/samples/*.dem
 results/transfer_2026-11-05/certificates/
+
+results/grover_competition_2026-11-17/circuits/

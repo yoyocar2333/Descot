@@ -4,6 +4,8 @@
 
 同日後續增量：[文獻門檻與成本必要檢查](RELATED_WORK_2026-11-16_GATE_ZH.md) 已補讀八篇原文及 AlphaSyndrome／CircLS 固定程式。廣義 observable／decoder-aware 排程的新穎性主張不成立；維持方法比較假說，下一門檻為新完整公開家族的競爭排程與 split。精確方法新穎性、原方法重現及部分 artifact 仍未確認，不能開始 held-out。已以 10,752 項精確檢查指出 marginal-generator-count 會受等價 basis 影響；joint raw visibility 也尚非 decoded risk。新增 0 research shots，μ=0，不改既有凍結結果。
 
+11/17 增量：[完整公開 Grover 競爭候選](updates/2026-11-17-grover-competition.md) 已保留全 18 指令，175 個合法 plans 中的 12 個全域最短方案全部完成物理／完整讀出／Clifford generator／distance 驗證，形成 12 個不同 noisy circuits；同 310-site footprint、636 TICK、9 layers、總 protected idle=12 block-z，等待分段有兩種。Grover 固定為 development；**第二個獨立家族與有效 held-out split 仍未通過**，不跳到校準／取樣。新增 0 research shots，148 項測試通過，μ=0。這是實際公開物理整合，不是以 33 來源盤點取代 benchmark；較深候選和原方法對照仍保留待完成。
+
 ## 一個核心問題
 
 **固定可用空間與編譯預算時，考慮等待對最終讀出的影響，能否比只看深度或總資源的排程，選出完整電路解碼錯誤率較低的合法方案？**

@@ -1,0 +1,19 @@
+{
+  "id": "complete_grover_competition_20261117_v1",
+  "distance": 3,
+  "physical_p": 0.001,
+  "spacing_blocks": 3,
+  "cx_concurrency_cap": null,
+  "enumeration_safety_bound": 4096,
+  "enumeration_scope": "All nonempty ready homogeneous H/CX subsets, eager virtual/readout closure; no mixed H/CX layers. Fail rather than truncate.",
+  "physical_selection": "All global minimum physical-layer plans from the complete declared logical pool; retain full pool and H-first parallel reference. No noisy labels used.",
+  "noise": "TQEC uniform-depolarizing circuit noise, existing add_noise",
+  "decoder": "ordinary uncorrelated PyMatching MWPM, decomposed DEM; construction only",
+  "shots": 0,
+  "seeds": [],
+  "sampling_stop_rule": "No sampling authorized at this feasibility gate",
+  "complete_readout": "Both original Z output bits with original classical mapping; require full rank 2 deterministic correlation basis, not one selected parity",
+  "split": "grover_search family is development; second independent held-out family not yet eligible",
+  "mu": 0,
+  "timing": "Pool construction/features before physical tasks. Main compilation, exact validation, validation-generator compilation, noise/DEM construction separate. Two concurrent physical workers: wall accounting, not an independent compiler-performance benchmark."
+}

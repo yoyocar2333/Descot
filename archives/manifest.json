@@ -76,5 +76,11 @@
       "base_commit": "2009762a24ccd052feae8e81d2e57ca76aeb33ed"
     },
     "description": "Prospective matched marginal parity pilot, eight complete Bell(4) and cat(4) circuits, 800000 new shots; frozen decision ablations, Stim, DEM, counts, physical checks and standalone scoring timings."
+  },
+  "grover_competition_2026-11-17.zip": {
+    "sha256": "dc5c0abf4bda6f0a123dd636d534d1e5e2764150814a260cbfe8f15fbd7cd3c0",
+    "bytes": 2834040,
+    "result_prefix": "results/grover_competition_2026-11-17",
+    "description": "Complete public Grover candidate and generator ideal/noisy/DEM text; 0 Monte Carlo shots."
   }
 }

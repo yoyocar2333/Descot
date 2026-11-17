@@ -1,0 +1,588 @@
+{
+  "repository": "https://github.com/pnnl/QASMBench",
+  "commit": "357b942396d5c2b7cbc1c229c585a6ef5ccaebac",
+  "scope": "33 original small/*.qasm instances with filename n<=6, excluding transpiled files and alternate basis_test; semantic pre-screen only. Only Grover newly physically integrated.",
+  "records": [
+    {
+      "name": "adder_n4",
+      "source_sha256": "30f0be9eb50d37ab2de7c87676e32ff7c66bc67eff32dfeafa0cf69951d92438",
+      "upstream_path": "small/adder_n4/adder_n4.qasm",
+      "logical_qubits": 4,
+      "operation_counts": {
+        "cx": 10,
+        "h": 2,
+        "measure": 4,
+        "s": 1,
+        "t": 4,
+        "tdg": 4,
+        "x": 2
+      },
+      "non_clifford_operation_names": [
+        "t",
+        "tdg"
+      ],
+      "dynamic_or_opaque_names": [],
+      "incomparable_cx_pairs": 7
+    },
+    {
+      "name": "basis_change_n3",
+      "source_sha256": "2d998840327e516c71142442f6d9c2924962a8fad2e12e70a2c90d53a78be851",
+      "upstream_path": "small/basis_change_n3/basis_change_n3.qasm",
+      "logical_qubits": 3,
+      "operation_counts": {
+        "cz": 10,
+        "measure": 3,
+        "u3": 23
+      },
+      "non_clifford_operation_names": [
+        "u3"
+      ],
+      "dynamic_or_opaque_names": [],
+      "incomparable_cx_pairs": 0
+    },
+    {
+      "name": "basis_trotter_n4",
+      "source_sha256": "9ead0e7d5f41cb6675c19457d4e414b77cf90c78cea3e0412bcccdc3f9f73dd5",
+      "upstream_path": "small/basis_trotter_n4/basis_trotter_n4.qasm",
+      "logical_qubits": 4,
+      "operation_counts": {
+        "cx": 402,
+        "h": 120,
+        "measure": 4,
+        "rx": 162,
+        "ry": 54,
+        "rz": 462,
+        "swap": 60,
+        "u3": 216,
+        "z": 30
+      },
+      "non_clifford_operation_names": [
+        "rx",
+        "rz",
+        "u3"
+      ],
+      "dynamic_or_opaque_names": [],
+      "incomparable_cx_pairs": 402
+    },
+    {
+      "name": "bell_n4",
+      "source_sha256": "1f3a1115385d87f6a444189776e521d6bba1d300f96454e85cb58bb3e297bf81",
+      "upstream_path": "small/bell_n4/bell_n4.qasm",
+      "logical_qubits": 4,
+      "operation_counts": {
+        "cx": 7,
+        "h": 3,
+        "measure": 4,
+        "rx": 7,
+        "ry": 6,
+        "rz": 2,
+        "u3": 8
+      },
+      "non_clifford_operation_names": [
+        "rx",
+        "u3"
+      ],
+      "dynamic_or_opaque_names": [],
+      "incomparable_cx_pairs": 9
+    },
+    {
+      "name": "cat_state_n4",
+      "source_sha256": "caa882935bb73087db2edbee2aa77133965bdda3aec9687166f9e96b9a2ef8ff",
+      "upstream_path": "small/cat_state_n4/cat_state_n4.qasm",
+      "logical_qubits": 4,
+      "operation_counts": {
+        "cx": 3,
+        "h": 1,
+        "measure": 4
+      },
+      "non_clifford_operation_names": [],
+      "dynamic_or_opaque_names": [],
+      "incomparable_cx_pairs": 0
+    },
+    {
+      "name": "deutsch_n2",
+      "source_sha256": "56a7b3389495fb497df1a331abb7d4f64ac57d397aaa1c1169d0ac33a10889cd",
+      "upstream_path": "small/deutsch_n2/deutsch_n2.qasm",
+      "logical_qubits": 2,
+      "operation_counts": {
+        "cx": 1,
+        "h": 3,
+        "measure": 2,
+        "x": 1
+      },
+      "non_clifford_operation_names": [],
+      "dynamic_or_opaque_names": [],
+      "incomparable_cx_pairs": 0
+    },
+    {
+      "name": "dnn_n2",
+      "source_sha256": "ce0359edb654e5dd1f54035e07cec177d2f50ae1ecd45b651ba71637854b7921",
+      "upstream_path": "small/dnn_n2/dnn_n2.qasm",
+      "logical_qubits": 2,
+      "operation_counts": {
+        "cx": 42,
+        "measure": 2,
+        "rx": 58,
+        "ry": 32,
+        "rz": 38,
+        "u3": 56
+      },
+      "non_clifford_operation_names": [
+        "rx",
+        "ry",
+        "rz",
+        "u3"
+      ],
+      "dynamic_or_opaque_names": [],
+      "incomparable_cx_pairs": 0
+    },
+    {
+      "name": "error_correctiond3_n5",
+      "source_sha256": "c33b5a03491bceb26ca6d494632936614df035a352d437369eca28087ae72ff5",
+      "upstream_path": "small/error_correctiond3_n5/error_correctiond3_n5.qasm",
+      "logical_qubits": 5,
+      "operation_counts": {
+        "cx": 49,
+        "h": 62,
+        "id": 1,
+        "measure": 5,
+        "sdg": 2
+      },
+      "non_clifford_operation_names": [],
+      "dynamic_or_opaque_names": [],
+      "incomparable_cx_pairs": 3
+    },
+    {
+      "name": "fredkin_n3",
+      "source_sha256": "5ede0e9d4cdc723afcdb515f16f984bf47cf53423e12fcafc10ee03bd9577996",
+      "upstream_path": "small/fredkin_n3/fredkin_n3.qasm",
+      "logical_qubits": 3,
+      "operation_counts": {
+        "cx": 8,
+        "h": 2,
+        "measure": 3,
+        "t": 4,
+        "tdg": 3,
+        "x": 2
+      },
+      "non_clifford_operation_names": [
+        "t",
+        "tdg"
+      ],
+      "dynamic_or_opaque_names": [],
+      "incomparable_cx_pairs": 0
+    },
+    {
+      "name": "grover_n2",
+      "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+      "upstream_path": "small/grover_n2/grover_n2.qasm",
+      "logical_qubits": 2,
+      "operation_counts": {
+        "cx": 2,
+        "h": 10,
+        "measure": 2,
+        "x": 4
+      },
+      "non_clifford_operation_names": [],
+      "dynamic_or_opaque_names": [],
+      "incomparable_cx_pairs": 0
+    },
+    {
+      "name": "hs4_n4",
+      "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+      "upstream_path": "small/hs4_n4/hs4_n4.qasm",
+      "logical_qubits": 4,
+      "operation_counts": {
+        "cx": 4,
+        "h": 20,
+        "measure": 4,
+        "x": 4
+      },
+      "non_clifford_operation_names": [],
+      "dynamic_or_opaque_names": [],
+      "incomparable_cx_pairs": 4
+    },
+    {
+      "name": "inverseqft_n4",
+      "source_sha256": "2b950bb566ea547918adcea27b13defb3ad31fb10bf3b4ccb25d51e91b5527b1",
+      "upstream_path": "small/inverseqft_n4/inverseqft_n4.qasm",
+      "logical_qubits": 4,
+      "operation_counts": {
+        "barrier": 1,
+        "h": 8,
+        "if_else": 6,
+        "measure": 4
+      },
+      "non_clifford_operation_names": [],
+      "dynamic_or_opaque_names": [
+        "if_else"
+      ],
+      "incomparable_cx_pairs": 0
+    },
+    {
+      "name": "ipea_n2",
+      "source_sha256": "78a11d6fadec00a0a119d9e40641124a40fd8b4eebacfb36e81ed525775e4ee8",
+      "upstream_path": "small/ipea_n2/ipea_n2.qasm",
+      "logical_qubits": 2,
+      "operation_counts": {
+        "cx": 30,
+        "h": 8,
+        "if_else": 11,
+        "measure": 4,
+        "reset": 3,
+        "u1": 30
+      },
+      "non_clifford_operation_names": [
+        "u1"
+      ],
+      "dynamic_or_opaque_names": [
+        "if_else",
+        "reset"
+      ],
+      "incomparable_cx_pairs": 0
+    },
+    {
+      "name": "iswap_n2",
+      "source_sha256": "0c6d4dffaeb32c5758511cb51d5f89bcb6c97f3f60c1f5e3cbbeabb53c53ed50",
+      "upstream_path": "small/iswap_n2/iswap_n2.qasm",
+      "logical_qubits": 2,
+      "operation_counts": {
+        "cx": 2,
+        "h": 4,
+        "measure": 2,
+        "s": 2,
+        "x": 1
+      },
+      "non_clifford_operation_names": [],
+      "dynamic_or_opaque_names": [],
+      "incomparable_cx_pairs": 0
+    },
+    {
+      "name": "linearsolver_n3",
+      "source_sha256": "ad98aaab04fdd11eed43b6839122909c568ff848dd0b97ed09c11346dd592c42",
+      "upstream_path": "small/linearsolver_n3/linearsolver_n3.qasm",
+      "logical_qubits": 3,
+      "operation_counts": {
+        "cx": 4,
+        "h": 12,
+        "measure": 3,
+        "u3": 2,
+        "x": 1
+      },
+      "non_clifford_operation_names": [
+        "u3"
+      ],
+      "dynamic_or_opaque_names": [],
+      "incomparable_cx_pairs": 0
+    },
+    {
+      "name": "lpn_n5",
+      "source_sha256": "4216e9b4fdf9f22e6ae4f92a67aac8c634209093db4e3f0290f5413165b4de87",
+      "upstream_path": "small/lpn_n5/lpn_n5.qasm",
+      "logical_qubits": 5,
+      "operation_counts": {
+        "cx": 2,
+        "h": 9,
+        "measure": 5
+      },
+      "non_clifford_operation_names": [],
+      "dynamic_or_opaque_names": [],
+      "incomparable_cx_pairs": 0
+    },
+    {
+      "name": "pea_n5",
+      "source_sha256": "0ab8129a30be0350c68704b5fcd91f2dfb4c868303c5ad761af411f277f91660",
+      "upstream_path": "small/pea_n5/pea_n5.qasm",
+      "logical_qubits": 5,
+      "operation_counts": {
+        "cu1": 6,
+        "cx": 30,
+        "h": 8,
+        "measure": 4,
+        "u1": 30
+      },
+      "non_clifford_operation_names": [
+        "cu1",
+        "u1"
+      ],
+      "dynamic_or_opaque_names": [],
+      "incomparable_cx_pairs": 0
+    },
+    {
+      "name": "qaoa_n3",
+      "source_sha256": "4dc17a12b187cc3cf02962cf023a36de4cc48ed3923343ab9ef84e3daf89f5c7",
+      "upstream_path": "small/qaoa_n3/qaoa_n3.qasm",
+      "logical_qubits": 3,
+      "operation_counts": {
+        "cx": 6,
+        "h": 3,
+        "measure": 3,
+        "rx": 3,
+        "rz": 3
+      },
+      "non_clifford_operation_names": [
+        "rx",
+        "rz"
+      ],
+      "dynamic_or_opaque_names": [],
+      "incomparable_cx_pairs": 0
+    },
+    {
+      "name": "qaoa_n6",
+      "source_sha256": "fde5eff21c334ef02430bbfa8ea38f9287625cab3ffbd45d92d79590ee27dcc9",
+      "upstream_path": "small/qaoa_n6/qaoa_n6.qasm",
+      "logical_qubits": 6,
+      "operation_counts": {
+        "cx": 54,
+        "h": 6,
+        "measure": 6,
+        "rx": 66,
+        "ry": 18,
+        "rz": 54,
+        "u3": 72
+      },
+      "non_clifford_operation_names": [
+        "rx",
+        "rz",
+        "u3"
+      ],
+      "dynamic_or_opaque_names": [],
+      "incomparable_cx_pairs": 189
+    },
+    {
+      "name": "qec_en_n5",
+      "source_sha256": "d7b95967326b65050c5e645c180f2361f8cb3513dae7936de0e0cf53a63fec58",
+      "upstream_path": "small/qec_en_n5/qec_en_n5.qasm",
+      "logical_qubits": 5,
+      "operation_counts": {
+        "cx": 10,
+        "h": 14,
+        "measure": 5,
+        "t": 1
+      },
+      "non_clifford_operation_names": [
+        "t"
+      ],
+      "dynamic_or_opaque_names": [],
+      "incomparable_cx_pairs": 0
+    },
+    {
+      "name": "qec_sm_n5",
+      "source_sha256": "dcf8d069188a5cf96a04aaaed23ff6f78e3663523c429609676e066a90332598",
+      "upstream_path": "small/qec_sm_n5/qec_sm_n5.qasm",
+      "logical_qubits": 5,
+      "operation_counts": {
+        "barrier": 1,
+        "cx": 4,
+        "if_else": 3,
+        "measure": 5,
+        "x": 1
+      },
+      "non_clifford_operation_names": [],
+      "dynamic_or_opaque_names": [
+        "if_else"
+      ],
+      "incomparable_cx_pairs": 0
+    },
+    {
+      "name": "qft_n4",
+      "source_sha256": "62c6c8c7ddd95ac2b5367420b9925dbf82d6fb45725f089f01619a639621ad60",
+      "upstream_path": "small/qft_n4/qft_n4.qasm",
+      "logical_qubits": 4,
+      "operation_counts": {
+        "barrier": 1,
+        "cu1": 6,
+        "h": 4,
+        "measure": 4,
+        "x": 2
+      },
+      "non_clifford_operation_names": [
+        "cu1"
+      ],
+      "dynamic_or_opaque_names": [],
+      "incomparable_cx_pairs": 0
+    },
+    {
+      "name": "qrng_n4",
+      "source_sha256": "627d604f685cebe71f4d079cea6a9266a8d6a136279b6199b32cbc010079a184",
+      "upstream_path": "small/qrng_n4/qrng_n4.qasm",
+      "logical_qubits": 4,
+      "operation_counts": {
+        "h": 4,
+        "measure": 4
+      },
+      "non_clifford_operation_names": [],
+      "dynamic_or_opaque_names": [],
+      "incomparable_cx_pairs": 0
+    },
+    {
+      "name": "quantumwalks_n2",
+      "source_sha256": "dea93828107b2b17f6381ed75cb8d985bc8790be74a7378179b441932a84e80b",
+      "upstream_path": "small/quantumwalks_n2/quantumwalks_n2.qasm",
+      "logical_qubits": 2,
+      "operation_counts": {
+        "cx": 3,
+        "measure": 2,
+        "u3": 8
+      },
+      "non_clifford_operation_names": [
+        "u3"
+      ],
+      "dynamic_or_opaque_names": [],
+      "incomparable_cx_pairs": 0
+    },
+    {
+      "name": "shor_n5",
+      "source_sha256": "e4dace5c3769f934e9c94786e9e12e5b2106960792a0812816cce36bc3b1a615",
+      "upstream_path": "small/shor_n5/shor_n5.qasm",
+      "logical_qubits": 5,
+      "operation_counts": {
+        "cswap": 3,
+        "cx": 6,
+        "h": 6,
+        "if_else": 4,
+        "measure": 3,
+        "reset": 2,
+        "x": 1
+      },
+      "non_clifford_operation_names": [
+        "cswap"
+      ],
+      "dynamic_or_opaque_names": [
+        "if_else",
+        "reset"
+      ],
+      "incomparable_cx_pairs": 0
+    },
+    {
+      "name": "simon_n6",
+      "source_sha256": "756eee6bf939d1b5879da3ff1bae66cfd2599b9b96515f336ecde6f9ca512fc9",
+      "upstream_path": "small/simon_n6/simon_n6.qasm",
+      "logical_qubits": 6,
+      "operation_counts": {
+        "barrier": 2,
+        "ccx": 2,
+        "cx": 2,
+        "h": 6,
+        "measure": 6,
+        "x": 6
+      },
+      "non_clifford_operation_names": [
+        "ccx"
+      ],
+      "dynamic_or_opaque_names": [],
+      "incomparable_cx_pairs": 0
+    },
+    {
+      "name": "teleportation_n3",
+      "source_sha256": "71891c017af93f74cf72b1f222b26d02650ec23242ba9c96b0e8c34da93a5bd6",
+      "upstream_path": "small/teleportation_n3/teleportation_n3.qasm",
+      "logical_qubits": 3,
+      "operation_counts": {
+        "cx": 2,
+        "h": 4,
+        "measure": 3,
+        "s": 1,
+        "t": 1
+      },
+      "non_clifford_operation_names": [
+        "t"
+      ],
+      "dynamic_or_opaque_names": [],
+      "incomparable_cx_pairs": 0
+    },
+    {
+      "name": "toffoli_n3",
+      "source_sha256": "3cd72f83491b25a3c7c94fa826f85fe13f1af28079268b2c34e144299380968f",
+      "upstream_path": "small/toffoli_n3/toffoli_n3.qasm",
+      "logical_qubits": 3,
+      "operation_counts": {
+        "cx": 6,
+        "h": 2,
+        "measure": 3,
+        "s": 1,
+        "t": 3,
+        "tdg": 4,
+        "x": 2
+      },
+      "non_clifford_operation_names": [
+        "t",
+        "tdg"
+      ],
+      "dynamic_or_opaque_names": [],
+      "incomparable_cx_pairs": 0
+    },
+    {
+      "name": "variational_n4",
+      "source_sha256": "df4ced794da7fd4ca56eb2b02bce53ee77207bec77286cb4626115c6a9b6357d",
+      "upstream_path": "small/variational_n4/variational_n4.qasm",
+      "logical_qubits": 4,
+      "operation_counts": {
+        "cx": 16,
+        "h": 8,
+        "measure": 4,
+        "rz": 28,
+        "x": 2
+      },
+      "non_clifford_operation_names": [
+        "rz"
+      ],
+      "dynamic_or_opaque_names": [],
+      "incomparable_cx_pairs": 16
+    },
+    {
+      "name": "vqe_n4",
+      "source_sha256": "f6777e4fdd8eadcbc8a85a5135e797a96d3b91b3f494593a5b8c9fdcd37530c6",
+      "upstream_path": "small/vqe_n4/vqe_n4.qasm",
+      "logical_qubits": 4,
+      "operation_counts": {
+        "barrier": 1,
+        "cx": 9,
+        "measure": 4,
+        "rz": 48,
+        "sx": 32
+      },
+      "non_clifford_operation_names": [
+        "rz"
+      ],
+      "dynamic_or_opaque_names": [],
+      "incomparable_cx_pairs": 2
+    },
+    {
+      "name": "vqe_uccsd_n4",
+      "source_sha256": "be59c8aa33b7cc3b997187e09c24e5f59223cfe79a0c38016d3615d828fed1dd",
+      "upstream_path": "small/vqe_uccsd_n4/vqe_uccsd_n4.qasm",
+      "parse_error": "\"vqe_uccsd_n4.qasm:225,8: 'q' is not defined in this scope\""
+    },
+    {
+      "name": "vqe_uccsd_n6",
+      "source_sha256": "f80361ccbdb3c333ba29a5efce4d1f0b1c018b4a63d40e9c2976df2144747fea",
+      "upstream_path": "small/vqe_uccsd_n6/vqe_uccsd_n6.qasm",
+      "parse_error": "\"vqe_uccsd_n6.qasm:2286,8: 'q' is not defined in this scope\""
+    },
+    {
+      "name": "wstate_n3",
+      "source_sha256": "9077432a88fea0f3da2c3b24558333c1a329261b20836ba82b253418d8c7b0dd",
+      "upstream_path": "small/wstate_n3/wstate_n3.qasm",
+      "logical_qubits": 3,
+      "operation_counts": {
+        "ccx": 1,
+        "cx": 3,
+        "h": 3,
+        "measure": 3,
+        "s": 2,
+        "sdg": 1,
+        "t": 2,
+        "u3": 1,
+        "x": 3
+      },
+      "non_clifford_operation_names": [
+        "ccx",
+        "t",
+        "u3"
+      ],
+      "dynamic_or_opaque_names": [],
+      "incomparable_cx_pairs": 0
+    }
+  ]
+}
