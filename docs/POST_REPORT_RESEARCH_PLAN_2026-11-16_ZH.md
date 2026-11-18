@@ -6,6 +6,8 @@
 
 11/17 增量：[完整公開 Grover 競爭候選](updates/2026-11-17-grover-competition.md) 已保留全 18 指令，175 個合法 plans 中的 12 個全域最短方案全部完成物理／完整讀出／Clifford generator／distance 驗證，形成 12 個不同 noisy circuits；同 310-site footprint、636 TICK、9 layers、總 protected idle=12 block-z，等待分段有兩種。Grover 固定為 development；**第二個獨立家族與有效 held-out split 仍未通過**，不跳到校準／取樣。新增 0 research shots，148 項測試通過，μ=0。這是實際公開物理整合，不是以 33 來源盤點取代 benchmark；較深候選和原方法對照仍保留待完成。
 
+11/18 最新增量：[第二公開生成家族與隔離](updates/2026-11-18-linear-family.md) 已完成 Qiskit X/CX 受限生成 benchmark 的三個完整最短候選，全部 rank-4 原輸出、8 個 X/Z generators、16 組 signed inputs、distance=3 通過；同 613-site footprint／272 TICK／4 layers／總等待 18 block-z，三種等待分布與三個 noisy hashes。這是公開生成器特化實例，不冒充命名應用或 generic Clifford。已固定 [family split](../benchmarks/POST_REPORT_FAMILY_SPLIT_2026-11-18.json)：Grover／既有資料為 development，Qiskit 生成家族 reserved held-out；noisy labels 封存，**取樣權限仍為 false，評估設計凍結尚未完成**。此宣告支援域的兩家族 workload qualification 已具備；下一門檻為共同 pool／budget 的方法、必要原方法對照／消融與 development 校準。新增 0 research shots，153 項測試通過，μ=0；未完成的公開應用整合、較深候選及原方法對照繼續保留。
+
 ## 一個核心問題
 
 **固定可用空間與編譯預算時，考慮等待對最終讀出的影響，能否比只看深度或總資源的排程，選出完整電路解碼錯誤率較低的合法方案？**

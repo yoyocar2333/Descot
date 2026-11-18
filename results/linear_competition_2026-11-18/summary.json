@@ -1,0 +1,153 @@
+{
+  "protocol": {
+    "id": "public_xcx_linear_family_gate_20261118_v1",
+    "family": "qiskit_xcx_linear_reversible",
+    "role": "reserved held-out family; qualification only; no noisy labels observed",
+    "distance": 3,
+    "physical_p": 0.001,
+    "spacing_blocks": 3,
+    "cx_concurrency_cap": null,
+    "selection": "All minimum-layer candidates from the full source-DAG pool, retaining the unrestricted parallel reference; no noisy outcome selection",
+    "complete_readout": "All four original wrapper-defined terminal Z bits, rank-four independent correlation basis, original classical mapping",
+    "noise": "Existing TQEC uniform-depolarizing circuit noise",
+    "decoder": "Ordinary uncorrelated PyMatching MWPM on decomposed DEM, construction only",
+    "shots": 0,
+    "sampling_seeds": [],
+    "stop_rule": "Do not sample at this qualification gate",
+    "candidate_scope": "Nonempty homogeneous H/CX subsets with eager virtual closure; this source has no H",
+    "units": "CX layers, H layers, block-z, Stim TICK separate; QEC round conversion unverified/null",
+    "timing": "Construction/features before physical work; reuse validated compile_one accounting with two physical workers; accounting only, not a standalone timing benchmark",
+    "mu": 0
+  },
+  "source_manifest": {
+    "repository": "https://github.com/Qiskit/qiskit",
+    "tag": "2.5.2",
+    "commit": "c1c01ada399af13e495c27b9b22b4ff942bbad7e",
+    "source_kind": "Complete public-generator specialization plus explicit all-output measurement wrapper",
+    "upstream_generator_path": "qiskit/circuit/random/utils.py",
+    "source_spec": {
+      "family": "qiskit_xcx_linear_reversible",
+      "public_api": "qiskit.circuit.random.random_clifford_circuit",
+      "qiskit_version": "2.5.2",
+      "num_qubits": 4,
+      "num_gates": 10,
+      "gates": [
+        "x",
+        "cx"
+      ],
+      "seed_search_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "spacing_blocks": 3,
+      "pool_safety_bound": 4096,
+      "eligibility": "First complete source accepted unchanged by the existing forward H/X/CX physical profile, with >=2 global-minimum plans and >=2 protected-idle profiles. No noisy labels, no wire relabeling, no gate deletion.",
+      "wrapper": "QuantumCircuit.measure_all(): one terminal barrier and all four Z measurements into original generated meas register. The public generator itself is unitary; this explicit wrapper defines the complete classical-output benchmark.",
+      "role": "prospective held-out family; ideal/support checks permitted, all noisy labels sealed until separate evaluation-design freeze"
+    },
+    "files": [
+      {
+        "path": "benchmarks/public_2026-11-18/qiskit/LICENSE.txt",
+        "bytes": 11418,
+        "sha256": "0a7558bc0c5a5bcac5e2bdc5e5367f3550b0c3b45b7e6f5a81b4f9fde6693374",
+        "git_blob_sha": "d28ab50675adfee30058fce658aa804c6c4d164c"
+      },
+      {
+        "path": "benchmarks/public_2026-11-18/qiskit/linear_seed00.qasm",
+        "bytes": 294,
+        "sha256": "c0197fe6e014d0c2c3c88dd2df056d6eba1e6b23e2c636505eb720cac8b87a66",
+        "git_blob_sha": "87c1bbdc5ec5630adcde2734178fa84551ae61c8"
+      },
+      {
+        "path": "benchmarks/public_2026-11-18/qiskit/linear_seed01.qasm",
+        "bytes": 300,
+        "sha256": "103e6466038fb4220ea85f72e3f58489592162d023868899b9f5fd4a2580bdbf",
+        "git_blob_sha": "5fa65e2ca093c8c0919ede9636084e6720be0508"
+      },
+      {
+        "path": "benchmarks/public_2026-11-18/qiskit/utils.py",
+        "bytes": 31025,
+        "sha256": "17aa535f5861d03722dd31b74f098cbd8e08113b6da48034a6ae5cc33bf04cad",
+        "git_blob_sha": "fb0283491389b6f2809071ee87b6908e811ef755"
+      }
+    ],
+    "seed_search": [
+      {
+        "seed": 0,
+        "path": "benchmarks/public_2026-11-18/qiskit/linear_seed00.qasm",
+        "source_sha256": "c0197fe6e014d0c2c3c88dd2df056d6eba1e6b23e2c636505eb720cac8b87a66",
+        "eligible": false,
+        "rejection": "Only forward CNOTs supported"
+      },
+      {
+        "seed": 1,
+        "path": "benchmarks/public_2026-11-18/qiskit/linear_seed01.qasm",
+        "source_sha256": "103e6466038fb4220ea85f72e3f58489592162d023868899b9f5fd4a2580bdbf",
+        "pool_size": 7,
+        "minimum_layers": 4,
+        "minimum_plans": 3,
+        "minimum_wait_profiles": 3,
+        "eligible": true
+      }
+    ],
+    "selected_seed": 1,
+    "selected_path": "benchmarks/public_2026-11-18/qiskit/linear_seed01.qasm",
+    "selected_source_sha256": "103e6466038fb4220ea85f72e3f58489592162d023868899b9f5fd4a2580bdbf",
+    "source_adapter_sha256": "46223f545c5aaac36c6ab0dc36a9ea35acb03859452d7d33bb04c4f6acc1637d",
+    "new_shots": 0
+  },
+  "source_sha256": "103e6466038fb4220ea85f72e3f58489592162d023868899b9f5fd4a2580bdbf",
+  "candidate_pool_size": 7,
+  "minimum_layers": 4,
+  "minimum_plans": 3,
+  "candidate_ids": [
+    "l002",
+    "l004",
+    "l006"
+  ],
+  "unique_noisy_circuits": 3,
+  "unique_wait_profiles": 3,
+  "complete_z_output_little_endian": [
+    1,
+    1,
+    0,
+    1
+  ],
+  "main_compilations": 3,
+  "generator_validation_compilations": 24,
+  "pool_construction_seconds": 0.027623392000009517,
+  "feature_construction_seconds": 0.0005182019999665499,
+  "new_shots": 0,
+  "sampler_calls": 0,
+  "decision": "Second public generated benchmark family physically qualified. Family labels remain sealed; model, original-method comparisons and evaluation-design freeze still pending."
+}

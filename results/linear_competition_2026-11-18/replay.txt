@@ -1,0 +1,1 @@
+PASS: 7 full plans; 3 complete physical minimum candidates; archived hashes; 0 shots

@@ -82,5 +82,11 @@
     "bytes": 2834040,
     "result_prefix": "results/grover_competition_2026-11-17",
     "description": "Complete public Grover candidate and generator ideal/noisy/DEM text; 0 Monte Carlo shots."
+  },
+  "linear_competition_2026-11-18.zip": {
+    "sha256": "64937b27627b1a558702453e95e2995074c3d50884bf67c4061e5ff4d2ec0508",
+    "bytes": 1186559,
+    "result_prefix": "results/linear_competition_2026-11-18",
+    "description": "Full public Qiskit X/CX generated benchmark, all minimum candidates and generator ideal/noisy/DEM artifacts; zero shots"
   }
 }

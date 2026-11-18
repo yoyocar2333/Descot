@@ -1,0 +1,1671 @@
+[
+  {
+    "candidate_id": "l000",
+    "plan": {
+      "mode": "exact_h_cx_subsets_v1",
+      "spacing": 3,
+      "layers": [
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            0
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            1
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            4
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            5
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            2
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            3
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            6
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            7
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            8,
+            9
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            10
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "plan_sha256": "0d0dd976b76c77002c1f5fa8ef1c5d71bb9a803c718420ea2b8250a5f98ecc29",
+    "features": {
+      "physical_layers": 5,
+      "template_block_z": 15,
+      "cx_routing_steps": 5,
+      "logical_h_layers": 0,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 60,
+      "ancilla_reservation_block_z": 93,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          3
+        ],
+        [
+          3
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          6,
+          3
+        ]
+      ],
+      "total_protected_idle_block_z": 30,
+      "max_protected_idle_block_z": 9,
+      "squared_protected_idle_block_z2": 162,
+      "cx_recurrence_separations_block_z": [
+        0,
+        3
+      ],
+      "cx_gap_squared_block_z2": 9,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    }
+  },
+  {
+    "candidate_id": "l001",
+    "plan": {
+      "mode": "exact_h_cx_subsets_v1",
+      "spacing": 3,
+      "layers": [
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            0
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            1
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            4
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            5
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            2
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            3
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            7
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            8,
+            9
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            6
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            10
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "plan_sha256": "3fb6b174ad7e75122c9e59297af29350984405ffa66e56ad60d7f3b50ea52e2b",
+    "features": {
+      "physical_layers": 5,
+      "template_block_z": 15,
+      "cx_routing_steps": 5,
+      "logical_h_layers": 0,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 60,
+      "ancilla_reservation_block_z": 93,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          3
+        ],
+        [
+          3
+        ],
+        [
+          12
+        ],
+        [
+          9
+        ]
+      ],
+      "total_protected_idle_block_z": 30,
+      "max_protected_idle_block_z": 12,
+      "squared_protected_idle_block_z2": 252,
+      "cx_recurrence_separations_block_z": [
+        0,
+        0
+      ],
+      "cx_gap_squared_block_z2": 0,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    }
+  },
+  {
+    "candidate_id": "l002",
+    "plan": {
+      "mode": "exact_h_cx_subsets_v1",
+      "spacing": 3,
+      "layers": [
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            0
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            1
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            4
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            5
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            2
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            3
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            6,
+            7
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            8,
+            9
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            10
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "plan_sha256": "225397ed5037987f81942af3301167abb61fbb83a69d596950dea983be4b2b6f",
+    "features": {
+      "physical_layers": 4,
+      "template_block_z": 12,
+      "cx_routing_steps": 4,
+      "logical_h_layers": 0,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 48,
+      "ancilla_reservation_block_z": 93,
+      "protected_idle_intervals_block_z": [
+        [
+          3
+        ],
+        [],
+        [
+          9
+        ],
+        [
+          6
+        ]
+      ],
+      "total_protected_idle_block_z": 18,
+      "max_protected_idle_block_z": 9,
+      "squared_protected_idle_block_z2": 126,
+      "cx_recurrence_separations_block_z": [
+        0,
+        0
+      ],
+      "cx_gap_squared_block_z2": 0,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    }
+  },
+  {
+    "candidate_id": "l003",
+    "plan": {
+      "mode": "exact_h_cx_subsets_v1",
+      "spacing": 3,
+      "layers": [
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            0
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            1
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            4
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            5
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            2
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            6
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            3
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            7
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            8,
+            9
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            10
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "plan_sha256": "5e303d1de92be76ffab837d2229295fbbb58d0526eaf4f3b8294acbb394ba7b9",
+    "features": {
+      "physical_layers": 5,
+      "template_block_z": 15,
+      "cx_routing_steps": 5,
+      "logical_h_layers": 0,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 60,
+      "ancilla_reservation_block_z": 93,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          3
+        ],
+        [
+          3
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "total_protected_idle_block_z": 30,
+      "max_protected_idle_block_z": 6,
+      "squared_protected_idle_block_z2": 144,
+      "cx_recurrence_separations_block_z": [
+        3,
+        0
+      ],
+      "cx_gap_squared_block_z2": 9,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    }
+  },
+  {
+    "candidate_id": "l004",
+    "plan": {
+      "mode": "exact_h_cx_subsets_v1",
+      "spacing": 3,
+      "layers": [
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            0
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            1
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            4
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            5
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            2
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            3,
+            6
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            7
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            8,
+            9
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            10
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "plan_sha256": "f8adce7ec05be3f3bb87f6aff7b7d18920198b78724e48e1197c9d705bb9d74a",
+    "features": {
+      "physical_layers": 4,
+      "template_block_z": 12,
+      "cx_routing_steps": 4,
+      "logical_h_layers": 0,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 48,
+      "ancilla_reservation_block_z": 93,
+      "protected_idle_intervals_block_z": [
+        [
+          3
+        ],
+        [],
+        [
+          6,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "total_protected_idle_block_z": 18,
+      "max_protected_idle_block_z": 6,
+      "squared_protected_idle_block_z2": 72,
+      "cx_recurrence_separations_block_z": [
+        0,
+        0
+      ],
+      "cx_gap_squared_block_z2": 0,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    }
+  },
+  {
+    "candidate_id": "l005",
+    "plan": {
+      "mode": "exact_h_cx_subsets_v1",
+      "spacing": 3,
+      "layers": [
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            0
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            1
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            4
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            5
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            6
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            2
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            3
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            7
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            8,
+            9
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            10
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "plan_sha256": "a9b4aa4cdd7648354bf2ac2136b3a1f1e18be3a3fffd9642baa050cec56550af",
+    "features": {
+      "physical_layers": 5,
+      "template_block_z": 15,
+      "cx_routing_steps": 5,
+      "logical_h_layers": 0,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 60,
+      "ancilla_reservation_block_z": 93,
+      "protected_idle_intervals_block_z": [
+        [
+          6
+        ],
+        [
+          3
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          9
+        ]
+      ],
+      "total_protected_idle_block_z": 30,
+      "max_protected_idle_block_z": 9,
+      "squared_protected_idle_block_z2": 216,
+      "cx_recurrence_separations_block_z": [
+        0,
+        0
+      ],
+      "cx_gap_squared_block_z2": 0,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    }
+  },
+  {
+    "candidate_id": "l006",
+    "plan": {
+      "mode": "exact_h_cx_subsets_v1",
+      "spacing": 3,
+      "layers": [
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            0
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            1
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            4
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            5
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            2,
+            6
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            3
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            7
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            8,
+            9
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            10
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "orientation_before": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "plan_sha256": "4b164c5c7033ef31e61afc571f72d2044c2ece5ba05f177945de1480cd96148b",
+    "features": {
+      "physical_layers": 4,
+      "template_block_z": 12,
+      "cx_routing_steps": 4,
+      "logical_h_layers": 0,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 48,
+      "ancilla_reservation_block_z": 93,
+      "protected_idle_intervals_block_z": [
+        [
+          3
+        ],
+        [],
+        [
+          3,
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "total_protected_idle_block_z": 18,
+      "max_protected_idle_block_z": 6,
+      "squared_protected_idle_block_z2": 90,
+      "cx_recurrence_separations_block_z": [
+        0,
+        0
+      ],
+      "cx_gap_squared_block_z2": 0,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    }
+  }
+]

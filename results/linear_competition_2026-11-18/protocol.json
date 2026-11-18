@@ -1,0 +1,20 @@
+{
+  "id": "public_xcx_linear_family_gate_20261118_v1",
+  "family": "qiskit_xcx_linear_reversible",
+  "role": "reserved held-out family; qualification only; no noisy labels observed",
+  "distance": 3,
+  "physical_p": 0.001,
+  "spacing_blocks": 3,
+  "cx_concurrency_cap": null,
+  "selection": "All minimum-layer candidates from the full source-DAG pool, retaining the unrestricted parallel reference; no noisy outcome selection",
+  "complete_readout": "All four original wrapper-defined terminal Z bits, rank-four independent correlation basis, original classical mapping",
+  "noise": "Existing TQEC uniform-depolarizing circuit noise",
+  "decoder": "Ordinary uncorrelated PyMatching MWPM on decomposed DEM, construction only",
+  "shots": 0,
+  "sampling_seeds": [],
+  "stop_rule": "Do not sample at this qualification gate",
+  "candidate_scope": "Nonempty homogeneous H/CX subsets with eager virtual closure; this source has no H",
+  "units": "CX layers, H layers, block-z, Stim TICK separate; QEC round conversion unverified/null",
+  "timing": "Construction/features before physical work; reuse validated compile_one accounting with two physical workers; accounting only, not a standalone timing benchmark",
+  "mu": 0
+}
