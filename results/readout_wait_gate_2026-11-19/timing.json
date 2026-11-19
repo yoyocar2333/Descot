@@ -1,0 +1,12 @@
+{
+  "pool_construction_and_features_seconds": 0.051172577999977875,
+  "scorer_only_seconds": 0.38501161800002137,
+  "offline_selector_all_metrics_seconds": 0.029531248000012056,
+  "routing_controls_construction_seconds": 0.002267016000132571,
+  "routing_benchmark_seconds": null,
+  "calibration_seconds": null,
+  "compile_seconds": null,
+  "monte_carlo_seconds": null,
+  "decode_seconds": null,
+  "note": "Single-run stage accounting, not an independent performance benchmark. Physical timings remain in prior certificates."
+}

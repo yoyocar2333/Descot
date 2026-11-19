@@ -1,0 +1,283 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "exact_pin_count": 58,
+  "pins": [
+    {
+      "name": "asttokens",
+      "version": "3.0.2"
+    },
+    {
+      "name": "comm",
+      "version": "0.2.3"
+    },
+    {
+      "name": "contourpy",
+      "version": "1.4.0"
+    },
+    {
+      "name": "cycler",
+      "version": "0.12.1"
+    },
+    {
+      "name": "dill",
+      "version": "0.4.1"
+    },
+    {
+      "name": "executing",
+      "version": "2.3.0"
+    },
+    {
+      "name": "fonttools",
+      "version": "4.68.0"
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.1"
+    },
+    {
+      "name": "ipython",
+      "version": "9.18.0"
+    },
+    {
+      "name": "ipython-pygments-lexers",
+      "version": "1.1.1"
+    },
+    {
+      "name": "ipywidgets",
+      "version": "8.1.9"
+    },
+    {
+      "name": "jedi",
+      "version": "0.20.1"
+    },
+    {
+      "name": "jupyterlab-widgets",
+      "version": "3.0.17"
+    },
+    {
+      "name": "kiwisolver",
+      "version": "1.5.1"
+    },
+    {
+      "name": "lark",
+      "version": "1.3.1"
+    },
+    {
+      "name": "markdown-it-py",
+      "version": "4.2.0"
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.11.2"
+    },
+    {
+      "name": "matplotlib-inline",
+      "version": "0.2.2"
+    },
+    {
+      "name": "mdurl",
+      "version": "0.1.2"
+    },
+    {
+      "name": "networkx",
+      "version": "3.7"
+    },
+    {
+      "name": "numpy",
+      "version": "2.5.4"
+    },
+    {
+      "name": "packaging",
+      "version": "26.3"
+    },
+    {
+      "name": "parso",
+      "version": "0.8.7"
+    },
+    {
+      "name": "pexpect",
+      "version": "4.9.0"
+    },
+    {
+      "name": "pillow",
+      "version": "13.0.0"
+    },
+    {
+      "name": "platformdirs",
+      "version": "4.14.0"
+    },
+    {
+      "name": "pluggy",
+      "version": "1.7.0"
+    },
+    {
+      "name": "prompt-toolkit",
+      "version": "3.0.53"
+    },
+    {
+      "name": "psutil",
+      "version": "7.2.2"
+    },
+    {
+      "name": "ptyprocess",
+      "version": "0.7.0"
+    },
+    {
+      "name": "pure-eval",
+      "version": "0.2.4"
+    },
+    {
+      "name": "pycollada",
+      "version": "0.9.3"
+    },
+    {
+      "name": "pygments",
+      "version": "2.21.0"
+    },
+    {
+      "name": "pymatching",
+      "version": "2.4.0"
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.3.3"
+    },
+    {
+      "name": "pyperclip",
+      "version": "1.11.0"
+    },
+    {
+      "name": "pytest",
+      "version": "9.2.0"
+    },
+    {
+      "name": "python-dateutil",
+      "version": "3.0.0"
+    },
+    {
+      "name": "python-sat",
+      "version": "1.9.dev15"
+    },
+    {
+      "name": "pyzx",
+      "version": "0.10.7"
+    },
+    {
+      "name": "qiskit",
+      "version": "2.5.2"
+    },
+    {
+      "name": "rich",
+      "version": "15.0.0"
+    },
+    {
+      "name": "rustworkx",
+      "version": "0.18.1"
+    },
+    {
+      "name": "scipy",
+      "version": "1.18.1"
+    },
+    {
+      "name": "semver",
+      "version": "3.1.0"
+    },
+    {
+      "name": "sinter",
+      "version": "1.16.0"
+    },
+    {
+      "name": "six",
+      "version": "1.17.0"
+    },
+    {
+      "name": "stack-data",
+      "version": "0.6.3"
+    },
+    {
+      "name": "stevedore",
+      "version": "5.9.1"
+    },
+    {
+      "name": "stim",
+      "version": "1.16.0"
+    },
+    {
+      "name": "svg-py",
+      "version": "1.10.0"
+    },
+    {
+      "name": "tqdm",
+      "version": "4.70.1"
+    },
+    {
+      "name": "tqecd",
+      "version": "0.2.1"
+    },
+    {
+      "name": "traitlets",
+      "version": "5.16.1"
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.16.0"
+    },
+    {
+      "name": "tzdata",
+      "version": "2026.6"
+    },
+    {
+      "name": "wcwidth",
+      "version": "0.9.4"
+    },
+    {
+      "name": "widgetsnbextension",
+      "version": "4.0.16"
+    }
+  ],
+  "tqec": {
+    "url": "https://github.com/tqec/tqec.git",
+    "vcs_info": {
+      "vcs": "git",
+      "commit_id": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+      "requested_revision": "50fa2210597632a79bd266b56a5fb8d9b00747bb"
+    }
+  },
+  "general_scheduler_mu": 0,
+  "new_research_shots": 0,
+  "new_compilations": 0,
+  "sampler_calls": 0,
+  "validation_scope": "Development mechanism gate only; held-out labels sealed; no sampling freeze",
+  "tests_source_sha256": "32819b2dab29de337e001293483886026215819ef72ff515cabff4635451e69f",
+  "old_results": "Grover archive/physical evidence replayed; prior frozen results unchanged",
+  "wisq_worktree_clean": true,
+  "total_distinct_tests": 161,
+  "test_results": [
+    {
+      "scope": "Complete suite including first seven new tests, before final unsupported-gate test/guard and cache-accounting metadata change",
+      "passed": 160,
+      "seconds": 322.07,
+      "raw": "full_tests.txt"
+    },
+    {
+      "scope": "Final source, all eight new tests including unsupported-gate refusal",
+      "passed": 8,
+      "seconds": 1.76,
+      "raw": "final_targeted_tests.txt"
+    }
+  ],
+  "test_collection": "161 current tests; all 153 prior tests unchanged, final eight new tests passed",
+  "checks": {
+    "complete_cost_pool_replay": "Replayed 175 costs, 12 qualified minima, 7 selectors and 9 routing controls; 0 new shots",
+    "prior_physical_archive_replay": "PASS: 175 legal plans; 12 complete physical minimum candidates; archived hashes; 0 shots",
+    "pip_check": "No broken requirements found."
+  },
+  "test_results_sha256": {
+    "full_tests.txt": "4a7b58f5e273b7bac5a7e08d31cb872ae3c91d0f1bdff1a2ffa7145b5b21f054",
+    "final_targeted_tests.txt": "c37f27a8e134d749e98018afaf911f170025a8a1905246cf06b331a2f68508b4",
+    "test_collection.txt": "130ce5a3654f7e55cb971fcd36411b0f601f864232778fb3d4fd9ab89c6a3b82",
+    "replay.txt": "289fb3544a2bf52bade82e232ef6710021051e155e51fba2fbd014b45a1913f2",
+    "grover_replay.txt": "c56c39e404c5646a81308faddaefd90337a018956adc9c49858b3337e9605df6",
+    "dependencies.txt": "9261363b733079a641c2e4cc9bc46ffa1d8336945a87f807b6cf68847dbc9b09"
+  }
+}

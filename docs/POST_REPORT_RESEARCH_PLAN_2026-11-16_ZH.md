@@ -8,6 +8,8 @@
 
 11/18 最新增量：[第二公開生成家族與隔離](updates/2026-11-18-linear-family.md) 已完成 Qiskit X/CX 受限生成 benchmark 的三個完整最短候選，全部 rank-4 原輸出、8 個 X/Z generators、16 組 signed inputs、distance=3 通過；同 613-site footprint／272 TICK／4 layers／總等待 18 block-z，三種等待分布與三個 noisy hashes。這是公開生成器特化實例，不冒充命名應用或 generic Clifford。已固定 [family split](../benchmarks/POST_REPORT_FAMILY_SPLIT_2026-11-18.json)：Grover／既有資料為 development，Qiskit 生成家族 reserved held-out；noisy labels 封存，**取樣權限仍為 false，評估設計凍結尚未完成**。此宣告支援域的兩家族 workload qualification 已具備；下一門檻為共同 pool／budget 的方法、必要原方法對照／消融與 development 校準。新增 0 research shots，153 項測試通過，μ=0；未完成的公開應用整合、較深候選及原方法對照繼續保留。
 
+11/19 最新增量：[一階讀出等待成本的停止判定](updates/2026-11-19-readout-wait-gate.md) 已在共同 175-plan Grover development 池實作完整 suffix Pauli 成本、七種多階段選擇規則及消融，保留全部 12 個物理資格化最短候選。它們的 joint raw 成本均為 10 weighted block-z，沒有同深度排序訊號，因此**停止此 raw equal-Pauli v1，不進入校準／held-out 取樣**；不等於完整解碼率持平或整個核心問題失敗。分段平方 heuristic 可切換，但無 decoded 收益證據。九次既有 author／one／two-step 控制都回到同一 g174；H-first 搜尋域／成本與離線全池分開。必要原方法重現仍待完成，方法門檻未全通過；下一次先補共同支援域對照，再決定一次有依據的 development 修訂。0 new shots、0 新編譯，held-out labels 仍 sealed、sampling permission=false、μ=0。
+
 ## 一個核心問題
 
 **固定可用空間與編譯預算時，考慮等待對最終讀出的影響，能否比只看深度或總資源的排程，選出完整電路解碼錯誤率較低的合法方案？**
