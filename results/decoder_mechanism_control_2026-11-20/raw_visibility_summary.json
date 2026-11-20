@@ -1,0 +1,90 @@
+{
+  "derivation": "For each raw JSONL row [i,truth,prediction,residual], count nonzero masks; reproducible from the committed per-candidate raw records without any new decoding.",
+  "records": [
+    {
+      "candidate_id": "g122",
+      "mechanisms": 32824,
+      "raw_any_observable_flip_mechanisms": 10818,
+      "nonzero_decoder_prediction_mechanisms": 10818,
+      "decoded_any_mismatch_mechanisms": 0
+    },
+    {
+      "candidate_id": "g124",
+      "mechanisms": 32824,
+      "raw_any_observable_flip_mechanisms": 10818,
+      "nonzero_decoder_prediction_mechanisms": 10818,
+      "decoded_any_mismatch_mechanisms": 0
+    },
+    {
+      "candidate_id": "g127",
+      "mechanisms": 32824,
+      "raw_any_observable_flip_mechanisms": 10818,
+      "nonzero_decoder_prediction_mechanisms": 10818,
+      "decoded_any_mismatch_mechanisms": 0
+    },
+    {
+      "candidate_id": "g129",
+      "mechanisms": 32824,
+      "raw_any_observable_flip_mechanisms": 10818,
+      "nonzero_decoder_prediction_mechanisms": 10818,
+      "decoded_any_mismatch_mechanisms": 0
+    },
+    {
+      "candidate_id": "g137",
+      "mechanisms": 32824,
+      "raw_any_observable_flip_mechanisms": 10818,
+      "nonzero_decoder_prediction_mechanisms": 10818,
+      "decoded_any_mismatch_mechanisms": 0
+    },
+    {
+      "candidate_id": "g139",
+      "mechanisms": 32824,
+      "raw_any_observable_flip_mechanisms": 10818,
+      "nonzero_decoder_prediction_mechanisms": 10818,
+      "decoded_any_mismatch_mechanisms": 0
+    },
+    {
+      "candidate_id": "g157",
+      "mechanisms": 32824,
+      "raw_any_observable_flip_mechanisms": 10818,
+      "nonzero_decoder_prediction_mechanisms": 10818,
+      "decoded_any_mismatch_mechanisms": 0
+    },
+    {
+      "candidate_id": "g159",
+      "mechanisms": 32824,
+      "raw_any_observable_flip_mechanisms": 10818,
+      "nonzero_decoder_prediction_mechanisms": 10818,
+      "decoded_any_mismatch_mechanisms": 0
+    },
+    {
+      "candidate_id": "g162",
+      "mechanisms": 32824,
+      "raw_any_observable_flip_mechanisms": 10818,
+      "nonzero_decoder_prediction_mechanisms": 10818,
+      "decoded_any_mismatch_mechanisms": 0
+    },
+    {
+      "candidate_id": "g164",
+      "mechanisms": 32824,
+      "raw_any_observable_flip_mechanisms": 10818,
+      "nonzero_decoder_prediction_mechanisms": 10818,
+      "decoded_any_mismatch_mechanisms": 0
+    },
+    {
+      "candidate_id": "g172",
+      "mechanisms": 32824,
+      "raw_any_observable_flip_mechanisms": 10818,
+      "nonzero_decoder_prediction_mechanisms": 10818,
+      "decoded_any_mismatch_mechanisms": 0
+    },
+    {
+      "candidate_id": "g174",
+      "mechanisms": 32824,
+      "raw_any_observable_flip_mechanisms": 10818,
+      "nonzero_decoder_prediction_mechanisms": 10818,
+      "decoded_any_mismatch_mechanisms": 0
+    }
+  ],
+  "raw_visibility_is_not_decoded_failure": true
+}

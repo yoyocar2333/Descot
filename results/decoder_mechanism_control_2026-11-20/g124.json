@@ -1,0 +1,67 @@
+{
+  "result": {
+    "mechanisms": 32824,
+    "decoded_any_mismatch_mechanisms": 0,
+    "decoded_mismatch_mechanisms_per_observable": [
+      0,
+      0
+    ],
+    "original_function_sha256": "bae0577dd5e8d048cd6858a6aa58e9a1e3bd9d88d48b89f94a57150aa60f2289",
+    "author_trace_agree": true,
+    "raw_record_columns": [
+      "flattened_error_ordinal",
+      "true_observable_mask",
+      "decoder_prediction_mask",
+      "decoded_residual_mask"
+    ],
+    "num_detectors": 1838,
+    "num_observables": 2,
+    "shots": 0,
+    "counts": null,
+    "confidence_interval": null,
+    "note": "Exhaustive single-DEM-mechanism diagnostic, not circuit LER, original physical-fault counts, or a candidate rejection rule",
+    "candidate_id": "g124",
+    "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+    "plan_sha256": "274cc1f0872b4745777414ef6a8ad94e9f3da14e9b06dde4ad79b27eae0ff506",
+    "ideal_sha256": "142386c4ec68a42511c1ac66cf29ce080d139d4f14f95692276bb68d26f07238",
+    "noisy_sha256": "51afb7711b0f73cfc6907cb85b172e3dd2749f57b13875f6902603d64cb2e1a4",
+    "dem_sha256": "af0e5adb5a197fa25c0d37dbbaa35d6ee0795487c8bc55291b0036062394fbe9",
+    "features": {
+      "physical_layers": 9,
+      "template_block_z": 27,
+      "cx_routing_steps": 2,
+      "logical_h_layers": 7,
+      "qec_rounds": null,
+      "stim_ticks": 636,
+      "data_reservation_block_z": 54,
+      "ancilla_reservation_block_z": 30,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          6,
+          3
+        ],
+        []
+      ],
+      "total_protected_idle_block_z": 12,
+      "max_protected_idle_block_z": 6,
+      "squared_protected_idle_block_z2": 54,
+      "cx_recurrence_separations_block_z": [
+        9
+      ],
+      "cx_gap_squared_block_z2": 81,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "num_qubits": 310,
+    "raw_records": "g124.jsonl.gz",
+    "raw_records_sha256": "6e802b6102b143fcb1a728e99c1e78eb50ec5534cb06ef905c3a5b9af629dc64",
+    "compressed_records_sha256": "3557669a572cc3888a14cf889ffa58497ead412c5c73246f1f9133fbbc8099a4"
+  },
+  "timing": {
+    "original_diagnostic_seconds": 34.83856674500004,
+    "additional_trace_decode_and_record_seconds": 34.573101081999994,
+    "dem_construction_seconds": null,
+    "note": "Original timing includes matching construction and complete mechanism decoding; trace includes parsing/encoding. Cached full DEM, no compilation or Monte Carlo.",
+    "archive_hash_load_seconds": 0.02294285700003229
+  }
+}

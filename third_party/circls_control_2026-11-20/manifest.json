@@ -1,0 +1,30 @@
+{
+  "repository": "https://github.com/John-YuehanZhang/CircLS",
+  "commit": "1501f632f28e54188e57042abeaf450c3a300870",
+  "license": "Apache-2.0",
+  "files": [
+    {
+      "path": "experiments/formula_deviation.py",
+      "sha256": "41a9090f1cfc50b5c8065e3d5855c55ff661cb705a6322f18a57e09e3f1081c6",
+      "bytes": 20565
+    },
+    {
+      "path": "experiments/compare_tqec.py",
+      "sha256": "5927801a63afea2bf0a61161259ec2788703372f20c1d1ef9e33fccf95c60391",
+      "bytes": 8320
+    },
+    {
+      "path": "experiments/ler.py",
+      "sha256": "4d7f26919dee7ce79ae281fca66e448dedf6a3ab8a278ece4ca0b4b9b090d855",
+      "bytes": 9246
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "a8c22be280fcf33c00958ec5352056f6cbcc7bf0c6e78b452c18cfdf00edbe8e",
+      "bytes": 9965
+    }
+  ],
+  "executed_function": "experiments/formula_deviation.py::_faithful_audit",
+  "execution_policy": "Compile the unmodified AST function alone with its original numpy/pymatching globals; do not execute top-level experiment/import/sampling harness. Auxiliary original files retained to document different diagnostic/gate/fallback policies; not executed.",
+  "changes": "None in vendored upstream files"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "circls_original_dem_diagnostic_grover_20261120_v1",
+  "family": "grover_search development",
+  "sampling_allowed": false,
+  "held_out_access": "none; family registry unchanged",
+  "input_policy": "All 12 qualified global minimum-depth candidates of frozen 175-plan full source-DAG pool. No concurrency cap, no candidate deletion or fallback.",
+  "author": "CircLS 1501f632f28e54188e57042abeaf450c3a300870, experiments/formula_deviation.py::_faithful_audit; diagnostic policy, not rejection gate",
+  "author_input": "FrozenCircuitDEM adapter exposes certified archived complete decomposed DEM; unmodified author function and original numpy/PyMatching. No native CircLS physical compilation or scheduling claimed.",
+  "decoder": "ordinary uncorrelated PyMatching MWPM, same decomposed DEM as physical certificate",
+  "distance": 3,
+  "physical_p": 0.001,
+  "noise": "existing TQEC uniform-depolarizing; no new noise pass",
+  "observables": "all 2 independent original terminal Z correlations, complete rank-2 certificate",
+  "budget": "Exhaustive whole flattened DEM error instructions for every candidate, no truncation. Author and added trace decode the same mechanism set; report actual counts. This is a diagnostic control, not a same-budget scheduler efficacy comparison.",
+  "workers": 2,
+  "trace_chunk": 1024,
+  "seeds": [],
+  "shots": 0,
+  "stop_rule": "Complete all 12; retain and report mismatches, do not reject candidates or change decoder. No Monte Carlo authorized.",
+  "mu": 0
+}

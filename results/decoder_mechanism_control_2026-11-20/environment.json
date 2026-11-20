@@ -1,0 +1,26 @@
+{
+  "python": "3.12.14",
+  "base_commit": "697b12f554353c431a7272960f520481c9399c35",
+  "packages": {
+    "numpy": "2.5.4",
+    "stim": "1.16.0",
+    "pymatching": "2.4.0"
+  },
+  "files_sha256": {
+    "decoder_mechanism_control.py": "629063220864ecf538fdc6454e27ab53e9e83e8ef264326d1659b2b535b590f9",
+    "run_decoder_mechanism_control.py": "2f10c40c93ae96c447e517428debb215bfae3cd0baabddeca609c4cce7f26f24",
+    "tests/test_decoder_mechanism_control.py": "0cc6842f2c4a0d1b219c499defa75718a87b2c2ec4d34c8988ebcdc86cc7030e",
+    "requirements-lock.txt": "140e7ad5273ee3ac59347cd775c49bdcd2b1e978936e56bc7e1ab205eccaebf9",
+    "third_party/circls_control_2026-11-20/LICENSE": "a8c22be280fcf33c00958ec5352056f6cbcc7bf0c6e78b452c18cfdf00edbe8e",
+    "third_party/circls_control_2026-11-20/NOTICE.md": "d3eedd7a34adcd5bee626bb79ac739f560a200ab773ec6026ba08dcb48cd2433",
+    "third_party/circls_control_2026-11-20/experiments/compare_tqec.py": "5927801a63afea2bf0a61161259ec2788703372f20c1d1ef9e33fccf95c60391",
+    "third_party/circls_control_2026-11-20/experiments/formula_deviation.py": "41a9090f1cfc50b5c8065e3d5855c55ff661cb705a6322f18a57e09e3f1081c6",
+    "third_party/circls_control_2026-11-20/experiments/ler.py": "4d7f26919dee7ce79ae281fca66e448dedf6a3ab8a278ece4ca0b4b9b090d855",
+    "third_party/circls_control_2026-11-20/manifest.json": "c08d2ac21602f05498985a3f209561f3975ce3901eb08862421db2d64d54eb0a",
+    "results/grover_competition_2026-11-17/candidate_pool.json": "4bd28c68a09768e263b3c619a5e6a0cf4e81852dceae2d7a9a0924d045d93227",
+    "results/grover_competition_2026-11-17/physical_index.json": "56adcff3d9bbbd0a035c9aa74c96d8199a32cf48ee3f029806b7a7bd3cd123a7",
+    "results/grover_competition_2026-11-17/resource_certificate.json": "848e418db8ecb0e48a8ec69fb63366089158041421443c97f0e74eadb41a76d2",
+    "benchmarks/POST_REPORT_FAMILY_SPLIT_2026-11-18.json": "a1e3461a100ca15d764724a58461ec984c45bc19fa9afd84830d21c1e1784e9b",
+    "archives/grover_competition_2026-11-17.zip": "dc5c0abf4bda6f0a123dd636d534d1e5e2764150814a260cbfe8f15fbd7cd3c0"
+  }
+}

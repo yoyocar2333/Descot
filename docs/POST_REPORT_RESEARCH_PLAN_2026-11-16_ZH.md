@@ -10,6 +10,8 @@
 
 11/19 最新增量：[一階讀出等待成本的停止判定](updates/2026-11-19-readout-wait-gate.md) 已在共同 175-plan Grover development 池實作完整 suffix Pauli 成本、七種多階段選擇規則及消融，保留全部 12 個物理資格化最短候選。它們的 joint raw 成本均為 10 weighted block-z，沒有同深度排序訊號，因此**停止此 raw equal-Pauli v1，不進入校準／held-out 取樣**；不等於完整解碼率持平或整個核心問題失敗。分段平方 heuristic 可切換，但無 decoded 收益證據。九次既有 author／one／two-step 控制都回到同一 g174；H-first 搜尋域／成本與離線全池分開。必要原方法重現仍待完成，方法門檻未全通過；下一次先補共同支援域對照，再決定一次有依據的 development 修訂。0 new shots、0 新編譯，held-out labels 仍 sealed、sampling permission=false、μ=0。
 
+11/20 最新增量：[CircLS 原作者的完整 DEM 解碼控制](updates/2026-11-20-circls-decoder-control.md) 已實際執行固定作者 `_faithful_audit`，全部 12 個 Grover 最短候選各 32,824 個 DEM 機制，合計 393,888 個；原函式與 trace 的完整兩輸出 any-error mismatch 均為 0，逐機制 raw records／全部 hashes 已保存。每候選 10,818 個 raw-flip 機制仍被 decoder 正確修正；**不是完整 circuit LER=0、不是新 selector，也不是已完成 CircLS 原排程／frontend 對照**。不使用作者其他腳本的拒絕或串行 fallback，全部候選保留。補讀 CircLS 2608.23819v2 §3／§6.4–6.5，承認 lifetime 與完整 composition 對照已有先例；近期 Hamada 2606.21192v1 artifact 只是待固定／待讀的新線索，不能替代原 2401.15829v6。完整 169 項測試通過，0 new shots、0 新物理編譯；raw v1 維持停止、必要原排程共同支援域及 development 修訂／校準仍待完成，held-out labels sealed、sampling permission=false、μ=0。
+
 ## 一個核心問題
 
 **固定可用空間與編譯預算時，考慮等待對最終讀出的影響，能否比只看深度或總資源的排程，選出完整電路解碼錯誤率較低的合法方案？**

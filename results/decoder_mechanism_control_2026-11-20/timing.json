@@ -1,0 +1,95 @@
+{
+  "worker_stage_timings": {
+    "g122": {
+      "original_diagnostic_seconds": 34.907157794,
+      "additional_trace_decode_and_record_seconds": 35.746313003999944,
+      "dem_construction_seconds": null,
+      "note": "Original timing includes matching construction and complete mechanism decoding; trace includes parsing/encoding. Cached full DEM, no compilation or Monte Carlo.",
+      "archive_hash_load_seconds": 0.02520566300000837
+    },
+    "g124": {
+      "original_diagnostic_seconds": 34.83856674500004,
+      "additional_trace_decode_and_record_seconds": 34.573101081999994,
+      "dem_construction_seconds": null,
+      "note": "Original timing includes matching construction and complete mechanism decoding; trace includes parsing/encoding. Cached full DEM, no compilation or Monte Carlo.",
+      "archive_hash_load_seconds": 0.02294285700003229
+    },
+    "g127": {
+      "original_diagnostic_seconds": 33.63778171900003,
+      "additional_trace_decode_and_record_seconds": 35.50438348199998,
+      "dem_construction_seconds": null,
+      "note": "Original timing includes matching construction and complete mechanism decoding; trace includes parsing/encoding. Cached full DEM, no compilation or Monte Carlo.",
+      "archive_hash_load_seconds": 0.022798330000000533
+    },
+    "g129": {
+      "original_diagnostic_seconds": 34.61778110599994,
+      "additional_trace_decode_and_record_seconds": 35.97600830800002,
+      "dem_construction_seconds": null,
+      "note": "Original timing includes matching construction and complete mechanism decoding; trace includes parsing/encoding. Cached full DEM, no compilation or Monte Carlo.",
+      "archive_hash_load_seconds": 0.016056567999953586
+    },
+    "g137": {
+      "original_diagnostic_seconds": 35.50998191499991,
+      "additional_trace_decode_and_record_seconds": 38.18969897399995,
+      "dem_construction_seconds": null,
+      "note": "Original timing includes matching construction and complete mechanism decoding; trace includes parsing/encoding. Cached full DEM, no compilation or Monte Carlo.",
+      "archive_hash_load_seconds": 0.01470166199999312
+    },
+    "g139": {
+      "original_diagnostic_seconds": 35.217055020999965,
+      "additional_trace_decode_and_record_seconds": 37.63468088399998,
+      "dem_construction_seconds": null,
+      "note": "Original timing includes matching construction and complete mechanism decoding; trace includes parsing/encoding. Cached full DEM, no compilation or Monte Carlo.",
+      "archive_hash_load_seconds": 0.014330179000012322
+    },
+    "g157": {
+      "original_diagnostic_seconds": 35.00513809400002,
+      "additional_trace_decode_and_record_seconds": 36.256892038000046,
+      "dem_construction_seconds": null,
+      "note": "Original timing includes matching construction and complete mechanism decoding; trace includes parsing/encoding. Cached full DEM, no compilation or Monte Carlo.",
+      "archive_hash_load_seconds": 0.014106308000009449
+    },
+    "g159": {
+      "original_diagnostic_seconds": 35.86354895599993,
+      "additional_trace_decode_and_record_seconds": 36.293017287,
+      "dem_construction_seconds": null,
+      "note": "Original timing includes matching construction and complete mechanism decoding; trace includes parsing/encoding. Cached full DEM, no compilation or Monte Carlo.",
+      "archive_hash_load_seconds": 0.015443399999981011
+    },
+    "g162": {
+      "original_diagnostic_seconds": 35.95302755,
+      "additional_trace_decode_and_record_seconds": 34.5068536,
+      "dem_construction_seconds": null,
+      "note": "Original timing includes matching construction and complete mechanism decoding; trace includes parsing/encoding. Cached full DEM, no compilation or Monte Carlo.",
+      "archive_hash_load_seconds": 0.022632533000091826
+    },
+    "g164": {
+      "original_diagnostic_seconds": 35.735828427,
+      "additional_trace_decode_and_record_seconds": 33.48960133799994,
+      "dem_construction_seconds": null,
+      "note": "Original timing includes matching construction and complete mechanism decoding; trace includes parsing/encoding. Cached full DEM, no compilation or Monte Carlo.",
+      "archive_hash_load_seconds": 0.018589486999985638
+    },
+    "g172": {
+      "original_diagnostic_seconds": 31.846683998999993,
+      "additional_trace_decode_and_record_seconds": 35.03468580499998,
+      "dem_construction_seconds": null,
+      "note": "Original timing includes matching construction and complete mechanism decoding; trace includes parsing/encoding. Cached full DEM, no compilation or Monte Carlo.",
+      "archive_hash_load_seconds": 0.01472752099994068
+    },
+    "g174": {
+      "original_diagnostic_seconds": 30.511485120999964,
+      "additional_trace_decode_and_record_seconds": 35.20933752799999,
+      "dem_construction_seconds": null,
+      "note": "Original timing includes matching construction and complete mechanism decoding; trace includes parsing/encoding. Cached full DEM, no compilation or Monte Carlo.",
+      "archive_hash_load_seconds": 0.014170972000101756
+    }
+  },
+  "process_wall_seconds": 422.051140439,
+  "routing_seconds": null,
+  "scorer_seconds": null,
+  "calibration_seconds": null,
+  "compile_seconds": null,
+  "monte_carlo_seconds": null,
+  "note": "Two-worker diagnostic wall accounting, not independent routing/scorer/compile/Monte Carlo timing. Mechanism decode is deterministic and reported separately inside worker timings."
+}
