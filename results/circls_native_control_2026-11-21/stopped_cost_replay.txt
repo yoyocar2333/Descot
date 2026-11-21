@@ -1,0 +1,1 @@
+Replayed 175 costs, 12 qualified minima, 7 selectors and 9 routing controls; 0 new shots

@@ -1,0 +1,31 @@
+{
+  "id": "original_circls_full_source_compiler_control_20261121_v1",
+  "family": "grover_search development only",
+  "author_commit": "1501f632f28e54188e57042abeaf450c3a300870",
+  "distance": 3,
+  "physical_p": 0.001,
+  "candidate_pool": "All 12 previously qualified minimum plans, from frozen full 175-plan pool; retain unrestricted parallel reference",
+  "configs": [
+    "full",
+    "no_sched"
+  ],
+  "config_source": "Unmodified experiments/ablation.py::compile_kwargs; case grover_public_development, no consumable tags",
+  "primary_target": "All 2 original terminal classical bits; complete rank-2 literal physical-record basis",
+  "scope": "Native compiler reference, not the same gate-preserving routing/template/budget experiment",
+  "noise": "CircLS inject_uniform_noise, distinct model ID from existing TQEC add_noise; no cross-model LER comparison",
+  "decoder": "ordinary uncorrelated PyMatching MWPM construction on complete 2-output annotated view; no sampling",
+  "source_policy": "Every original H/X/CX/readout supplied once, same full unitary before native lowering; only existing common-end terminal-readout deferral",
+  "signed_inputs": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "physical_validation": "Exact reference trajectory, deterministic DEM, full output signs and final physical-X readout response; no verify()/sampler API",
+  "shots": 0,
+  "seeds": [],
+  "counts": null,
+  "confidence_interval": null,
+  "mu": 0,
+  "stop_rule": "Compile both configs for all 12, plus 3 nonzero signed input probes per config. Report collapse/inadmissibility rather than claim speed or LER improvement."
+}

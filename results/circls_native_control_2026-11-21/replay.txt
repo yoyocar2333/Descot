@@ -1,0 +1,1 @@
+Replayed 30 native compiler records, all 12 minima retained, artifact hashes and complete literal outputs; 0 shots. No recompile or MWPM sampling.

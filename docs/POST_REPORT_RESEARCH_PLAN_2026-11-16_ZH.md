@@ -12,6 +12,8 @@
 
 11/20 最新增量：[CircLS 原作者的完整 DEM 解碼控制](updates/2026-11-20-circls-decoder-control.md) 已實際執行固定作者 `_faithful_audit`，全部 12 個 Grover 最短候選各 32,824 個 DEM 機制，合計 393,888 個；原函式與 trace 的完整兩輸出 any-error mismatch 均為 0，逐機制 raw records／全部 hashes 已保存。每候選 10,818 個 raw-flip 機制仍被 decoder 正確修正；**不是完整 circuit LER=0、不是新 selector，也不是已完成 CircLS 原排程／frontend 對照**。不使用作者其他腳本的拒絕或串行 fallback，全部候選保留。補讀 CircLS 2608.23819v2 §3／§6.4–6.5，承認 lifetime 與完整 composition 對照已有先例；近期 Hamada 2606.21192v1 artifact 只是待固定／待讀的新線索，不能替代原 2401.15829v6。完整 169 項測試通過，0 new shots、0 新物理編譯；raw v1 維持停止、必要原排程共同支援域及 development 修訂／校準仍待完成，held-out labels sealed、sampling permission=false、μ=0。
 
+11/21 最新增量：[CircLS 原生完整 compiler control](updates/2026-11-21-circls-native-control.md) 已在隔離 Python3.12／固定額外 wheels 執行原作者 `full`／`no_sched`：全部 12 個最短來源各兩種設定，另補全 signed inputs，主批次 30 次 native physical compilations（探索性 4 次另列，合計 34）；0 new shots。24 主條件皆同一 ideal／noisy hash，因完整 Clifford source 在 native frontend 化為兩個 signed terminal Z measurements、0 joint PPM steps。Literal 原輸出 rank=2、完整 signs／physical fault response／distance3 通過，原生 4 rows 與兩原輸出 rows 的 span 相同；沒有以作者的 p=0 常數 tracker 冒充 noisy readout。**這完成原生 compiler reference，不是同 gate-preserving pool／budget 的原排程效能比較，不以 34-qubit／8-TICK 對 310／636 宣稱收益，也不增加 benchmark 覆蓋或家族數。** 主鎖／所有舊候選與凍結結果保留，178 項完整測試及隔離 9 項測試通過。此控制 scope 已釐清，下一步回到共同 lowering／footprint／lifetime／search budget 的必要原排程支援域，不重複 native Grover 盤點；成本 v1 維持停止，校準／held-out 門檻未通過，sampling permission=false、μ=0。
+
 ## 一個核心問題
 
 **固定可用空間與編譯預算時，考慮等待對最終讀出的影響，能否比只看深度或總資源的排程，選出完整電路解碼錯誤率較低的合法方案？**

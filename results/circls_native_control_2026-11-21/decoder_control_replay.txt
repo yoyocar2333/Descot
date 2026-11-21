@@ -1,0 +1,1 @@
+Replayed archived full DEM/records: 12 candidates, 393888 mechanisms, 0 mismatches; 0 shots. Hash/count replay, not a new MWPM run.

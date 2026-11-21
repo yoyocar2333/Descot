@@ -1,0 +1,4 @@
+# CPython 3.12, Linux x86_64 wheels, overlay on unchanged requirements-lock.txt.
+# No transitive upgrades: install with --no-deps --require-hashes.
+nwqec==0.1.2 --hash=sha256:28696724adc54c297a83051978c7d1c30eea585f4442ca3fb6ff37e03d8077f9
+pandas==3.1.1 --hash=sha256:028490c8ac2e03e18c9b08b7f3612e149b03570209bcf741d23833a7a5377ab2

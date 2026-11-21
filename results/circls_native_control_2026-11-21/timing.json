@@ -1,0 +1,12 @@
+{
+  "compile_seconds": 0.1946666850000156,
+  "exact_validation_seconds": 0.06634048399962467,
+  "noise_dem_decoder_construction_seconds": 0.15523217100030706,
+  "distance_seconds": 0.012327239000114787,
+  "routing_seconds": null,
+  "scorer_seconds": null,
+  "calibration_seconds": null,
+  "monte_carlo_seconds": null,
+  "decode_seconds": null,
+  "note": "Sums of 30 sequential native calls; compile includes original frontend/scheduling/placement/build. Stage accounting, not an independent performance benchmark or fair cross-backend overhead estimate."
+}

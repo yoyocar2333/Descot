@@ -1,0 +1,48 @@
+{
+  "native_ideal_sha256": "d34b9f8d34635e086998cb983002c517547da05f84ed0be4fd9442a1f9f74738",
+  "absolute_record_rows": {
+    "0": [
+      17,
+      18,
+      19
+    ],
+    "1": [
+      26,
+      27,
+      28
+    ],
+    "2": [
+      26,
+      27,
+      28
+    ],
+    "3": [
+      17,
+      18,
+      19
+    ]
+  },
+  "literal_specs": [
+    [
+      [
+        26,
+        27,
+        28
+      ],
+      1
+    ],
+    [
+      [
+        17,
+        18,
+        19
+      ],
+      1
+    ]
+  ],
+  "native_observable_count": 4,
+  "native_record_rank": 2,
+  "literal_output_rank": 2,
+  "combined_rank": 2,
+  "interpretation": "The 4 native observable rows and the 2 full original output rows span the same rank-2 physical-record space. The separate basis view drops no independent readout relation in this observed domain."
+}

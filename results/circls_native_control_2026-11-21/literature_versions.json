@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-21",
+  "records": [
+    {
+      "id": "2401.15829v6",
+      "url": "https://arxiv.org/abs/2401.15829",
+      "abs_sha256": "3db15ed96accc1613412cf33996b68f0c4f0781b806e1db61f02079c3348e22e",
+      "recorded_version": 6,
+      "current_latest_version": 6,
+      "unchanged": true
+    },
+    {
+      "id": "2604.15099v1",
+      "url": "https://arxiv.org/abs/2604.15099",
+      "abs_sha256": "2f7ec5c70c91ae2f5f7165a81f3b2c227ff1fa5ad8217115a7c89f6827a59d00",
+      "recorded_version": 1,
+      "current_latest_version": 1,
+      "unchanged": true
+    },
+    {
+      "id": "2504.21854v2",
+      "url": "https://arxiv.org/abs/2504.21854",
+      "abs_sha256": "58016025e020481a5ce029b89475915c4b72d3a0178e37be15c9a1b58068bd7f",
+      "recorded_version": 2,
+      "current_latest_version": 2,
+      "unchanged": true
+    },
+    {
+      "id": "2506.10258v1",
+      "url": "https://arxiv.org/abs/2506.10258",
+      "abs_sha256": "6f3faf4703fcdda331bd5dec7bff46b5167e56165170637031210bc6df31ab8a",
+      "recorded_version": 1,
+      "current_latest_version": 1,
+      "unchanged": true
+    },
+    {
+      "id": "2610.30747v1",
+      "url": "https://arxiv.org/abs/2610.30747",
+      "abs_sha256": "f05d1ea25c878eb0e03657f0d2900c530052de23d89dde6c88785e8b8ea4a977",
+      "recorded_version": 1,
+      "current_latest_version": 1,
+      "unchanged": true
+    },
+    {
+      "id": "2610.22112v1",
+      "url": "https://arxiv.org/abs/2610.22112",
+      "abs_sha256": "d215fc4b8e907fff1bb54974f5a06f98ba19495314b4bb71c0d4680ad1eb17e1",
+      "recorded_version": 1,
+      "current_latest_version": 1,
+      "unchanged": true
+    },
+    {
+      "id": "2601.12509v2",
+      "url": "https://arxiv.org/abs/2601.12509",
+      "abs_sha256": "95071f17e78340e703f08825a5c696c3813319e9e9235b66c8f5dc4254b5742e",
+      "recorded_version": 2,
+      "current_latest_version": 2,
+      "unchanged": true
+    },
+    {
+      "id": "2608.11719v1",
+      "url": "https://arxiv.org/abs/2608.11719",
+      "abs_sha256": "6a2f06e544483a895bff21f23b745d975c37cd49aa04c121873b45f4cac76dee",
+      "recorded_version": 1,
+      "current_latest_version": 1,
+      "unchanged": true
+    },
+    {
+      "id": "2608.23819v2",
+      "url": "https://arxiv.org/abs/2608.23819",
+      "abs_sha256": "c05f72d7b69bb858b7eb57fb4c7ec81554a711c829430371c416ec113e57f405",
+      "recorded_version": 2,
+      "current_latest_version": 2,
+      "unchanged": true
+    }
+  ],
+  "method_review": "CircLS 2608.23819v2 sections 3,6.4-6.5 and fixed original README/frontend.py/pipeline.py/ablation.py/reporting.py/measure_reduce.py read for native configuration and original output rules. Other eight primary method overlaps/unconfirmed artifacts retained from docs/RELATED_WORK_2026-11-16_GATE_ZH.md, not claimed newly reproduced.",
+  "author_commit": "1501f632f28e54188e57042abeaf450c3a300870",
+  "unconfirmed": "Hamada original lookahead and newer 2606.21192 artifact, O3LS/SPARO original execution, Patchwork artifact remain pending; native compiler lowering is known Clifford propagation, not a novel scheduler.",
+  "fixed_circls_primary_html_sha256": "92e612bb7761d3f232ae905b5d5d6bca0b2dc9bc3ea22bdd1c5212b334bde673",
+  "primary_reading_scope": "CircLS 2608.23819v2 sections 3.1-3.3,6.4-6.5 selected text re-read; original source policy/readout code and README at fixed commit. Known Clifford backward-observable lowering is not a new scheduler."
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "name": "nwqec",
+    "version": "0.1.2",
+    "url": "https://files.pythonhosted.org/packages/70/d8/85a003b74e662a2407c3c234563135e3c0f54c9de210b7e6e96fa26f43d4/nwqec-0.1.2-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+    "sha256": "28696724adc54c297a83051978c7d1c30eea585f4442ca3fb6ff37e03d8077f9"
+  },
+  {
+    "name": "pandas",
+    "version": "3.1.1",
+    "url": "https://files.pythonhosted.org/packages/0b/b6/f9c0c52f7a2fcd828e336dd143001b0bcbc1276c90187dfa104458528e2e/pandas-3.1.1-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+    "sha256": "028490c8ac2e03e18c9b08b7f3612e149b03570209bcf741d23833a7a5377ab2"
+  }
+]

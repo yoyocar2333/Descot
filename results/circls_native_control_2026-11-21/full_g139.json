@@ -1,0 +1,458 @@
+{
+  "candidate_id": "g139",
+  "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+  "plan_sha256": "3bf23cf9d7bad19ae2696e269835cd82b5fd163414e06c2a0873c824831586cf",
+  "config": "full",
+  "compile_kwargs": {
+    "assignment": "optimized",
+    "measure_reduction": true,
+    "first_use_init": true,
+    "step_scheduling": true,
+    "parallel_steps": true,
+    "liveness": true,
+    "keep_patches": []
+  },
+  "input_mask": 0,
+  "serialized_qasm_sha256": "c8a89ef6b0f1f40d59e6ed5764e825c199582e36687182b41c630bf380883a0e",
+  "serialized_qasm": "OPENQASM 2.0;\ninclude \"qelib1.inc\";\nqreg q[2];\ncreg c[2];\nh q[1];\nh q[0];\nh q[1];\ncx q[0],q[1];\nh q[1];\nh q[0];\nx q[0];\nh q[1];\nx q[1];\nh q[1];\ncx q[0],q[1];\nx q[0];\nh q[1];\nh q[0];\nx q[1];\nh q[1];\nmeasure q[0] -> c[0];\nmeasure q[1] -> c[1];\n",
+  "original_instruction_trace": [
+    1,
+    0,
+    2,
+    3,
+    4,
+    5,
+    7,
+    6,
+    8,
+    9,
+    10,
+    12,
+    11,
+    14,
+    13,
+    16,
+    15,
+    17
+  ],
+  "original_operation_counts": {
+    "cx": 2,
+    "h": 10,
+    "measure": 2,
+    "x": 4
+  },
+  "input_prefix_x_count": 0,
+  "original_unitary_tableau": "+-xz-xz-\n| -- --\n| Z_ XZ\n| XZ Z_",
+  "native_input_observables": [
+    "-_Z",
+    "-Z_"
+  ],
+  "native_program": {
+    "num_data": 2,
+    "ops": [
+      {
+        "kind": "mpp",
+        "targets": {
+          "1": "Z"
+        }
+      },
+      {
+        "kind": "mpp",
+        "targets": {
+          "0": "Z"
+        }
+      }
+    ],
+    "gadgets": [],
+    "out_bits": [
+      {
+        "rec": 0,
+        "flip": 1,
+        "gadgets": []
+      },
+      {
+        "rec": 1,
+        "flip": 1,
+        "gadgets": []
+      }
+    ]
+  },
+  "native_m_load_trace": [
+    0,
+    1
+  ],
+  "native_reconstruction": {
+    "support": [
+      [
+        0
+      ],
+      [
+        1
+      ]
+    ],
+    "inverse": [
+      [
+        0
+      ],
+      [
+        1
+      ]
+    ],
+    "const": [
+      0,
+      0
+    ]
+  },
+  "native_observable_mapping": {
+    "0": 2,
+    "1": 3
+  },
+  "literal_output_specs": [
+    [
+      [
+        26,
+        27,
+        28
+      ],
+      1
+    ],
+    [
+      [
+        17,
+        18,
+        19
+      ],
+      1
+    ]
+  ],
+  "p0_tracker_specs": [
+    [
+      [],
+      1
+    ],
+    [
+      [],
+      1
+    ]
+  ],
+  "expected_qubit_outputs": [
+    1,
+    1
+  ],
+  "original_classical_outputs": [
+    1,
+    1
+  ],
+  "final_physical_fault_responses": [
+    {
+      "output_qubit": 0,
+      "original_bits": [
+        0,
+        1
+      ]
+    },
+    {
+      "output_qubit": 1,
+      "original_bits": [
+        1,
+        0
+      ]
+    }
+  ],
+  "complete_original_output_basis_rank": 2,
+  "native_num_observables": 4,
+  "basis_view_num_observables": 2,
+  "graphlike_distance": 3,
+  "native_ppm_steps": 0,
+  "native_stats": {
+    "S1_tiles_bbox": 3,
+    "S2_tiles_touched": 2,
+    "S3_tiles_peak": 2,
+    "S4_qubits_active": 34,
+    "S5_qubits_allocated": 34,
+    "T1_rounds": 2,
+    "T2_logical_timesteps": 0.6666666666666666,
+    "T4_compile_seconds": null,
+    "V1_volume_blocks": 1.3333333333333333,
+    "V2_qubit_rounds": 52,
+    "V3_bbox_volume_blocks": 2.0,
+    "L1_live_tile_rounds": 4,
+    "L2_utilization": 1.0,
+    "L4_reuse_rate": null,
+    "d": 3,
+    "internal": {
+      "ticks": 8,
+      "tile_rounds": 4,
+      "qubit_rounds_span": 52,
+      "qubits_per_tile_round": 13.0,
+      "num_detectors": 16,
+      "num_observables": 4
+    },
+    "sanity_notes": []
+  },
+  "native_physical_site_catalogue": [
+    [
+      0,
+      [
+        10.0,
+        8.0
+      ]
+    ],
+    [
+      1,
+      [
+        9.0,
+        9.0
+      ]
+    ],
+    [
+      2,
+      [
+        11.0,
+        9.0
+      ]
+    ],
+    [
+      3,
+      [
+        13.0,
+        9.0
+      ]
+    ],
+    [
+      4,
+      [
+        10.0,
+        10.0
+      ]
+    ],
+    [
+      5,
+      [
+        14.0,
+        10.0
+      ]
+    ],
+    [
+      6,
+      [
+        12.0,
+        10.0
+      ]
+    ],
+    [
+      7,
+      [
+        9.0,
+        11.0
+      ]
+    ],
+    [
+      8,
+      [
+        11.0,
+        11.0
+      ]
+    ],
+    [
+      9,
+      [
+        13.0,
+        11.0
+      ]
+    ],
+    [
+      10,
+      [
+        8.0,
+        12.0
+      ]
+    ],
+    [
+      11,
+      [
+        12.0,
+        12.0
+      ]
+    ],
+    [
+      12,
+      [
+        10.0,
+        12.0
+      ]
+    ],
+    [
+      13,
+      [
+        9.0,
+        13.0
+      ]
+    ],
+    [
+      14,
+      [
+        11.0,
+        13.0
+      ]
+    ],
+    [
+      15,
+      [
+        13.0,
+        13.0
+      ]
+    ],
+    [
+      16,
+      [
+        12.0,
+        14.0
+      ]
+    ],
+    [
+      17,
+      [
+        26.0,
+        8.0
+      ]
+    ],
+    [
+      18,
+      [
+        25.0,
+        9.0
+      ]
+    ],
+    [
+      19,
+      [
+        27.0,
+        9.0
+      ]
+    ],
+    [
+      20,
+      [
+        29.0,
+        9.0
+      ]
+    ],
+    [
+      21,
+      [
+        26.0,
+        10.0
+      ]
+    ],
+    [
+      22,
+      [
+        30.0,
+        10.0
+      ]
+    ],
+    [
+      23,
+      [
+        28.0,
+        10.0
+      ]
+    ],
+    [
+      24,
+      [
+        25.0,
+        11.0
+      ]
+    ],
+    [
+      25,
+      [
+        27.0,
+        11.0
+      ]
+    ],
+    [
+      26,
+      [
+        29.0,
+        11.0
+      ]
+    ],
+    [
+      27,
+      [
+        24.0,
+        12.0
+      ]
+    ],
+    [
+      28,
+      [
+        28.0,
+        12.0
+      ]
+    ],
+    [
+      29,
+      [
+        26.0,
+        12.0
+      ]
+    ],
+    [
+      30,
+      [
+        25.0,
+        13.0
+      ]
+    ],
+    [
+      31,
+      [
+        27.0,
+        13.0
+      ]
+    ],
+    [
+      32,
+      [
+        29.0,
+        13.0
+      ]
+    ],
+    [
+      33,
+      [
+        28.0,
+        14.0
+      ]
+    ]
+  ],
+  "native_routes": [],
+  "native_lifetimes": {},
+  "timing": {
+    "compile_seconds": 0.006457877999991979,
+    "exact_validation_seconds": 0.0018512259999852176,
+    "noise_dem_decoder_construction_seconds": 0.004995623000013438,
+    "distance_seconds": 0.00035927700002957863,
+    "routing_seconds": null,
+    "scorer_seconds": null,
+    "calibration_seconds": null,
+    "monte_carlo_seconds": null,
+    "decode_seconds": null
+  },
+  "shots": 0,
+  "counts": null,
+  "confidence_interval": null,
+  "sampler_calls": 0,
+  "gate_preserving_pool_admissible": false,
+  "inadmissibility": "Native frontend folds source Clifford unitary into terminal Pauli measurements; not the same preserved H/CX layer pool, lifetime policy, template, noise model or compilation budget",
+  "native_ideal_sha256": "d34b9f8d34635e086998cb983002c517547da05f84ed0be4fd9442a1f9f74738",
+  "native_noisy_sha256": "137bc788e1adf9cf49108098e407a97af455885fd317a6cd32b3442324761b5c",
+  "native_dem_sha256": "cdd24a2909fff319ef1eb5b82b77abc7416bc02f4fe2d28af34a09cdb8e9be8e",
+  "basis_ideal_sha256": "2a1e9c5f607af2da7b0da993b6c1f3ce2c694451adc39c892aa610cab395330f",
+  "basis_noisy_sha256": "c028374a04dad0843a5301626a67d2e4620815507d610563c27382e290d149a3",
+  "basis_dem_sha256": "d3b67c511263831dba3a1d7e06b7d1c7b44f1f833bb9d992fc2df1a1a8c9143e"
+}

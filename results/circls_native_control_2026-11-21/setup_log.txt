@@ -1,0 +1,8 @@
+Collecting nwqec==0.1.2 (from -r /workspace/scratch/a67f4ef18340/Descot/requirements-circls-extra-2026-11-21.txt (line 3))
+  Using cached nwqec-0.1.2-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (1.7 MB)
+Collecting pandas==3.1.1 (from -r /workspace/scratch/a67f4ef18340/Descot/requirements-circls-extra-2026-11-21.txt (line 4))
+  Using cached pandas-3.1.1-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (12.0 MB)
+Installing collected packages: pandas, nwqec
+Successfully installed nwqec-0.1.2 pandas-3.1.1
+No broken requirements found.
+/workspace/scratch/a67f4ef18340/circls_replay_env_20261121/bin/python
