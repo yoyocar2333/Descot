@@ -1,0 +1,15 @@
+{
+  "routing_construction_seconds": {
+    "paper_alg2_fixed_template": 0.00018539699999564618,
+    "one_step": 0.0004258330000084243,
+    "two_step": 0.0004246390000162137
+  },
+  "cpp_oracle_build_seconds": 2.408106891999978,
+  "cpp_dag_check_seconds": 0.003630124999972395,
+  "scorer_seconds": null,
+  "calibration_seconds": null,
+  "physical_compile_seconds": null,
+  "monte_carlo_seconds": null,
+  "decode_seconds": null,
+  "note": "Single-run separated stage accounting, not an independent routing-time benchmark. Native oracle process/startup is not router time."
+}

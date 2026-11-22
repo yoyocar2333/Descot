@@ -1,0 +1,1 @@
+Replayed full 18-instruction policy, 3 same-circuit controls, original C++ ready-state oracle; 175 plans/12 minima retained; 0 new shots

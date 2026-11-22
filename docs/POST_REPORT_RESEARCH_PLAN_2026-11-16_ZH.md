@@ -14,6 +14,8 @@
 
 11/21 最新增量：[CircLS 原生完整 compiler control](updates/2026-11-21-circls-native-control.md) 已在隔離 Python3.12／固定額外 wheels 執行原作者 `full`／`no_sched`：全部 12 個最短來源各兩種設定，另補全 signed inputs，主批次 30 次 native physical compilations（探索性 4 次另列，合計 34）；0 new shots。24 主條件皆同一 ideal／noisy hash，因完整 Clifford source 在 native frontend 化為兩個 signed terminal Z measurements、0 joint PPM steps。Literal 原輸出 rank=2、完整 signs／physical fault response／distance3 通過，原生 4 rows 與兩原輸出 rows 的 span 相同；沒有以作者的 p=0 常數 tracker 冒充 noisy readout。**這完成原生 compiler reference，不是同 gate-preserving pool／budget 的原排程效能比較，不以 34-qubit／8-TICK 對 310／636 宣稱收益，也不增加 benchmark 覆蓋或家族數。** 主鎖／所有舊候選與凍結結果保留，178 項完整測試及隔離 9 項測試通過。此控制 scope 已釐清，下一步回到共同 lowering／footprint／lifetime／search budget 的必要原排程支援域，不重複 native Grover 盤點；成本 v1 維持停止，校準／held-out 門檻未通過，sampling permission=false、μ=0。
 
+11/22 最新增量：[Hamada ready-order 的共同物理支援域控制](updates/2026-11-22-hamada-ready-control.md) 已從 2401.15829v6 Algorithm 2 重現 ready 快照／原順序／greedy reservation 政策，明示改用既有 TQEC 完整 footprint 與 H-first 時間政策；實際編譯固定作者 C++ dependency manager，核對完整 Grover 的 14 次 ready-set 查詢、18 個 source instructions。取得的 arxiv_ver1 release 對應新論文 2606.21192v1，不冒充舊論文 artifact。政策／one-step／two-step 的兩個 CX fronts 都是 singleton，均精確對應既有 g174，沒有新的 decoded 收益證據；175 plans／12 最短候選和無 cap 基準全保留。**這是部分政策控制，不是已完成原 BFS path search／3D Dijkstra／原方法比較門檻**；下一步處理原路徑搜尋與完整幾何 composition 的實質支援，不能重複 singleton 盤點或改名替代。完整 185 項測試通過；0 new research shots、0 新物理編譯（既有 suite 的 p=0 測試另列），raw v1 維持停止，held-out labels sealed、sampling permission=false、μ=0；校準／凍結／未見資料門檻仍待完成。
+
 ## 一個核心問題
 
 **固定可用空間與編譯預算時，考慮等待對最終讀出的影響，能否比只看深度或總資源的排程，選出完整電路解碼錯誤率較低的合法方案？**

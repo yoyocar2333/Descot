@@ -1,0 +1,38 @@
+{
+  "python": "3.12.14",
+  "base_commit": "4bbc7fc82e3bf2a930e1f72923879dcc6c65eeec",
+  "packages": {
+    "stim": "1.16.0",
+    "qiskit": "2.5.2",
+    "numpy": "2.5.4",
+    "pymatching": "2.4.0"
+  },
+  "gxx": "g++ (Debian 14.2.0-19) 14.2.0\nCopyright (C) 2024 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+  "build_flags": [
+    "-std=c++17",
+    "-O2",
+    "-Wall",
+    "-Wextra"
+  ],
+  "binary_sha256": "58e4491d4147ea5edf1a3e9df44dd8b445d4b63c0eeb9b6a9049070b375ae306",
+  "files_sha256": {
+    "hamada_ready_control.py": "36fc9db5673de42bc64f17f636ef9d8dcf50983ba2075ff4ade14fbbd0386a1f",
+    "hamada_dependency_oracle.cpp": "b0cdff5b5cf01c98e77630766e7fe8f1ba362bdbe6251e94c8066264638c803b",
+    "run_hamada_ready_control.py": "29ad6ec19627b15b0bd914345ca47015b5e482d1fbb6749338f4eb2bf1ca366a",
+    "tests/test_hamada_ready_control.py": "d58d4d5ffe30f55ebc23194d9791808d8feea2d372862fd63e65ed280f334295",
+    "public_lookahead.py": "b3e20326bd4ad5862a9d208808bf58ed198faacd0b2c9e86555323d5cf39db10",
+    "public_clifford.py": "bc3c68c183ec07cc95dea32fdf14f2290d0c082bd005d86b8a5a01296bce7ee5",
+    "lookahead.py": "66a0abd1d24288ba49b3427ce1921548b6760ec86ae56fcb8a49f166b7ab2a21",
+    "requirements-lock.txt": "140e7ad5273ee3ac59347cd775c49bdcd2b1e978936e56bc7e1ab205eccaebf9",
+    "third_party/hamada_dependency_2026-11-22/LICENSE": "409611d275067d77d888a3847ff415c05dbae5337085b82bf5fe6606d958555a",
+    "third_party/hamada_dependency_2026-11-22/manifest.json": "848ba1ebfbf8c3f1618de9b6a2ae3fbf37f704c12f505e76f1bf500c25057a02",
+    "third_party/hamada_dependency_2026-11-22/src/cpp/util/constants.hpp": "276a3876301f8e5f8f1ccb3b091eb1a6a17333a518ba59606b04e685f0c4ca2a",
+    "third_party/hamada_dependency_2026-11-22/src/cpp/util/instruction.hpp": "4da9f49f457045cce15ec49065017e1400e80141bd8d6c0385930a7f227673cb",
+    "third_party/hamada_dependency_2026-11-22/src/cpp/util/instructionDependencyManager.hpp": "93a0397100deab5ff03705765d0916ad6ed28df0a7cf8d25dbe4d412f5e7dd38",
+    "third_party/hamada_dependency_2026-11-22/src/cpp/util/problem.hpp": "fbb2e630ad359f3f08e37b13ce1c3e62ae611708502955098a098671e58cf61a",
+    "benchmarks/POST_REPORT_FAMILY_SPLIT_2026-11-18.json": "a1e3461a100ca15d764724a58461ec984c45bc19fa9afd84830d21c1e1784e9b",
+    "results/grover_competition_2026-11-17/candidate_pool.json": "4bd28c68a09768e263b3c619a5e6a0cf4e81852dceae2d7a9a0924d045d93227",
+    "results/grover_competition_2026-11-17/physical_index.json": "56adcff3d9bbbd0a035c9aa74c96d8199a32cf48ee3f029806b7a7bd3cd123a7",
+    "archives/grover_competition_2026-11-17.zip": "dc5c0abf4bda6f0a123dd636d534d1e5e2764150814a260cbfe8f15fbd7cd3c0"
+  }
+}

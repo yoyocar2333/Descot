@@ -1,0 +1,19 @@
+{
+  "id": "hamada_alg2_common_profile_control_20261122_v1",
+  "paper": "2401.15829v6 Algorithm 2",
+  "author_code_release": "2606.21192v1 arxiv_ver1 dcaa249878ff365162cf4df930a367dca5fcf5a4",
+  "code_scope": "Unmodified author dependency manager is an independent DAG oracle, NOT original 2401 router implementation",
+  "policy": "Snapshot all ready CX indices in ascending original source order; greedy complete footprints, then next physical layer",
+  "adaptation": "Common eager virtual/readout and H-first closure, explicit 3 block-z H/CX layers. Replace BFS path search with existing complete oriented TQEC template footprint. No 3D path embedding/reordering.",
+  "family": "grover_search development only",
+  "pool": "Frozen 175 legal plans; retain all 12 certified minima, no concurrency cap",
+  "front_budget": 48,
+  "one_two_order_cap": 24,
+  "seed": 1,
+  "shots": 0,
+  "counts": null,
+  "confidence_interval": null,
+  "complete_output_basis": "Both original Z output bits, certified rank 2, same source/plan/ideal/noisy/DEM hashes",
+  "mu": 0,
+  "stop_rule": "No Monte Carlo. Record convergence honestly; no claim of full original BFS/Dijkstra reproduction or risk improvement."
+}

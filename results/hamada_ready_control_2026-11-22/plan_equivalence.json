@@ -1,0 +1,23 @@
+[
+  {
+    "method": "paper_alg2_fixed_template",
+    "adapted_plan_sha256": "4300189019b1b5ee96570113442d5ff4634e3389992922c4e2c7c6f18589ce9a",
+    "frozen_physical_plan_sha256": "ed80ada35a9d41e0dd4b1c5b50fc0b0f44cf266124e1cddd0c345eee1244ab01",
+    "candidate_id": "g174",
+    "equivalence": "All ordered layer kinds/operation IDs/orientations and spacing are equal; only plan mode label differs. Reuse exact full circuit certificate, not routed-depth-only equivalence."
+  },
+  {
+    "method": "one_step",
+    "adapted_plan_sha256": "38d4e657feb679bbfa8ad740b2658cad716f5b06ee3ea329d85fa90ae7db99ca",
+    "frozen_physical_plan_sha256": "ed80ada35a9d41e0dd4b1c5b50fc0b0f44cf266124e1cddd0c345eee1244ab01",
+    "candidate_id": "g174",
+    "equivalence": "All ordered layer kinds/operation IDs/orientations and spacing are equal; only plan mode label differs. Reuse exact full circuit certificate, not routed-depth-only equivalence."
+  },
+  {
+    "method": "two_step",
+    "adapted_plan_sha256": "55c51562ebf22e182605f723c968176de1c953c4525743c3b6c1a84084b3e1ee",
+    "frozen_physical_plan_sha256": "ed80ada35a9d41e0dd4b1c5b50fc0b0f44cf266124e1cddd0c345eee1244ab01",
+    "candidate_id": "g174",
+    "equivalence": "All ordered layer kinds/operation IDs/orientations and spacing are equal; only plan mode label differs. Reuse exact full circuit certificate, not routed-depth-only equivalence."
+  }
+]
