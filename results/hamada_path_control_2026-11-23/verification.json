@@ -1,0 +1,82 @@
+{
+  "research_shots": 0,
+  "research_sampler_calls": 0,
+  "research_counts": null,
+  "research_ci": null,
+  "main_compilations": 12,
+  "generator_compilations": 48,
+  "exploratory_main_compilations": 1,
+  "full_tests": {
+    "passed": 197,
+    "seconds": 751.72,
+    "legacy_p0_test_trajectories": 2600,
+    "legacy_test_trajectories_are_research_labels": false
+  },
+  "snapshot_assets_verified": 175,
+  "archive_sha256": "b217156c4ad55fc3ec83a505ef6a5a0c85790292b603c533b9f8930e078824e0",
+  "physical_coordinate_checks": [
+    {
+      "candidate_id": "mitm_g122",
+      "stim_num_qubits": 309,
+      "coordinate_count": 309
+    },
+    {
+      "candidate_id": "mitm_g124",
+      "stim_num_qubits": 309,
+      "coordinate_count": 309
+    },
+    {
+      "candidate_id": "mitm_g127",
+      "stim_num_qubits": 309,
+      "coordinate_count": 309
+    },
+    {
+      "candidate_id": "mitm_g129",
+      "stim_num_qubits": 309,
+      "coordinate_count": 309
+    },
+    {
+      "candidate_id": "mitm_g137",
+      "stim_num_qubits": 309,
+      "coordinate_count": 309
+    },
+    {
+      "candidate_id": "mitm_g139",
+      "stim_num_qubits": 309,
+      "coordinate_count": 309
+    },
+    {
+      "candidate_id": "mitm_g157",
+      "stim_num_qubits": 309,
+      "coordinate_count": 309
+    },
+    {
+      "candidate_id": "mitm_g159",
+      "stim_num_qubits": 309,
+      "coordinate_count": 309
+    },
+    {
+      "candidate_id": "mitm_g162",
+      "stim_num_qubits": 309,
+      "coordinate_count": 309
+    },
+    {
+      "candidate_id": "mitm_g164",
+      "stim_num_qubits": 309,
+      "coordinate_count": 309
+    },
+    {
+      "candidate_id": "mitm_g172",
+      "stim_num_qubits": 309,
+      "coordinate_count": 309
+    },
+    {
+      "candidate_id": "mitm_g174",
+      "stim_num_qubits": 309,
+      "coordinate_count": 309
+    }
+  ],
+  "held_out_labels": "sealed",
+  "sampling_permission": false,
+  "mu": 0
+}

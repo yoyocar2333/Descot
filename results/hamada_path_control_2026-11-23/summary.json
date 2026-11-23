@@ -1,0 +1,152 @@
+{
+  "protocol_id": "hamada_bfs_mitm_geometry_20261123_v1",
+  "new_shots": 0,
+  "sampler_calls": 0,
+  "new_physical_compilations": 60,
+  "main_compilations": 12,
+  "generator_compilations": 48,
+  "exploratory_main_compilations": 1,
+  "exploratory_note": "Before this frozen batch, one g174 exact main-readout smoke compilation, 0 shots; not counted twice in candidate pool.",
+  "preserved_base_pool_size": 175,
+  "preserved_old_physical_count": 12,
+  "new_physical_candidates": 12,
+  "unique_new_noisy_hashes": 12,
+  "new_noisy_hashes_not_in_old": 12,
+  "all_source_instructions": 18,
+  "all_original_outputs": [
+    {
+      "qubit": 0,
+      "classical_bit": 0
+    },
+    {
+      "qubit": 1,
+      "classical_bit": 1
+    }
+  ],
+  "author_kernel_calls": 24,
+  "old_vs_new": [
+    {
+      "base_candidate_id": "g122",
+      "old_qubits": 310,
+      "new_qubits": 309,
+      "same_noisy_hash": false,
+      "stim_ticks": 636,
+      "protected_idle_block_z": 12,
+      "ancilla_reserved_block_z": 30
+    },
+    {
+      "base_candidate_id": "g124",
+      "old_qubits": 310,
+      "new_qubits": 309,
+      "same_noisy_hash": false,
+      "stim_ticks": 636,
+      "protected_idle_block_z": 12,
+      "ancilla_reserved_block_z": 30
+    },
+    {
+      "base_candidate_id": "g127",
+      "old_qubits": 310,
+      "new_qubits": 309,
+      "same_noisy_hash": false,
+      "stim_ticks": 636,
+      "protected_idle_block_z": 12,
+      "ancilla_reserved_block_z": 30
+    },
+    {
+      "base_candidate_id": "g129",
+      "old_qubits": 310,
+      "new_qubits": 309,
+      "same_noisy_hash": false,
+      "stim_ticks": 636,
+      "protected_idle_block_z": 12,
+      "ancilla_reserved_block_z": 30
+    },
+    {
+      "base_candidate_id": "g137",
+      "old_qubits": 310,
+      "new_qubits": 309,
+      "same_noisy_hash": false,
+      "stim_ticks": 636,
+      "protected_idle_block_z": 12,
+      "ancilla_reserved_block_z": 30
+    },
+    {
+      "base_candidate_id": "g139",
+      "old_qubits": 310,
+      "new_qubits": 309,
+      "same_noisy_hash": false,
+      "stim_ticks": 636,
+      "protected_idle_block_z": 12,
+      "ancilla_reserved_block_z": 30
+    },
+    {
+      "base_candidate_id": "g157",
+      "old_qubits": 310,
+      "new_qubits": 309,
+      "same_noisy_hash": false,
+      "stim_ticks": 636,
+      "protected_idle_block_z": 12,
+      "ancilla_reserved_block_z": 30
+    },
+    {
+      "base_candidate_id": "g159",
+      "old_qubits": 310,
+      "new_qubits": 309,
+      "same_noisy_hash": false,
+      "stim_ticks": 636,
+      "protected_idle_block_z": 12,
+      "ancilla_reserved_block_z": 30
+    },
+    {
+      "base_candidate_id": "g162",
+      "old_qubits": 310,
+      "new_qubits": 309,
+      "same_noisy_hash": false,
+      "stim_ticks": 636,
+      "protected_idle_block_z": 12,
+      "ancilla_reserved_block_z": 30
+    },
+    {
+      "base_candidate_id": "g164",
+      "old_qubits": 310,
+      "new_qubits": 309,
+      "same_noisy_hash": false,
+      "stim_ticks": 636,
+      "protected_idle_block_z": 12,
+      "ancilla_reserved_block_z": 30
+    },
+    {
+      "base_candidate_id": "g172",
+      "old_qubits": 310,
+      "new_qubits": 309,
+      "same_noisy_hash": false,
+      "stim_ticks": 636,
+      "protected_idle_block_z": 12,
+      "ancilla_reserved_block_z": 30
+    },
+    {
+      "base_candidate_id": "g174",
+      "old_qubits": 310,
+      "new_qubits": 309,
+      "same_noisy_hash": false,
+      "stim_ticks": 636,
+      "protected_idle_block_z": 12,
+      "ancilla_reserved_block_z": 30
+    }
+  ],
+  "timing": {
+    "author_oracle_build_seconds": 3.8408825980000074,
+    "route_construction_including_subprocess_seconds": 0.07921593399987614,
+    "physical_batch_wall_seconds": 855.8988532570002,
+    "workers": 2,
+    "independent_timing_benchmark": false,
+    "scorer_seconds": null,
+    "calibration_seconds": null,
+    "monte_carlo_seconds": null,
+    "decode_seconds": null
+  },
+  "status": "Two-slice author path-kernel control physically qualified. Full native Hamada/3D Dijkstra, O3LS common method, development revision/calibration/freeze and held-out remain open.",
+  "held_out_labels": "sealed",
+  "sampling_permission": false,
+  "mu": 0
+}

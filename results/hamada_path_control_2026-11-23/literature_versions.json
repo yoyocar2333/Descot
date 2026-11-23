@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-23",
+  "records": [
+    {
+      "id": "2401.15829v6",
+      "url": "https://arxiv.org/abs/2401.15829",
+      "abs_sha256": "3db15ed96accc1613412cf33996b68f0c4f0781b806e1db61f02079c3348e22e",
+      "current_latest_version": 6,
+      "recorded_version": 6,
+      "verified": true
+    },
+    {
+      "id": "2604.15099v1",
+      "url": "https://arxiv.org/abs/2604.15099",
+      "abs_sha256": "2f7ec5c70c91ae2f5f7165a81f3b2c227ff1fa5ad8217115a7c89f6827a59d00",
+      "current_latest_version": 1,
+      "recorded_version": 1,
+      "verified": true
+    },
+    {
+      "id": "2504.21854v2",
+      "url": "https://arxiv.org/abs/2504.21854",
+      "abs_sha256": "58016025e020481a5ce029b89475915c4b72d3a0178e37be15c9a1b58068bd7f",
+      "current_latest_version": 2,
+      "recorded_version": 2,
+      "verified": true
+    },
+    {
+      "id": "2506.10258v1",
+      "url": "https://arxiv.org/abs/2506.10258",
+      "abs_sha256": "ee549b77b7048190d3c652c872552b0193fb2d1bf1b669667f5f6084ab7e1f62",
+      "current_latest_version": 1,
+      "recorded_version": 1,
+      "verified": true
+    },
+    {
+      "id": "2610.30747v1",
+      "url": "https://arxiv.org/abs/2610.30747",
+      "abs_sha256": "f05d1ea25c878eb0e03657f0d2900c530052de23d89dde6c88785e8b8ea4a977",
+      "current_latest_version": 1,
+      "recorded_version": 1,
+      "verified": true
+    },
+    {
+      "id": "2610.22112v1",
+      "url": "https://arxiv.org/abs/2610.22112",
+      "abs_sha256": "d215fc4b8e907fff1bb54974f5a06f98ba19495314b4bb71c0d4680ad1eb17e1",
+      "current_latest_version": 1,
+      "recorded_version": 1,
+      "verified": true
+    },
+    {
+      "id": "2601.12509v2",
+      "url": "https://arxiv.org/abs/2601.12509",
+      "abs_sha256": "95071f17e78340e703f08825a5c696c3813319e9e9235b66c8f5dc4254b5742e",
+      "current_latest_version": 2,
+      "recorded_version": 2,
+      "verified": true
+    },
+    {
+      "id": "2608.11719v1",
+      "url": "https://arxiv.org/abs/2608.11719",
+      "abs_sha256": "28c16e141e54dadeec7a3b8acd8996de73964b4c28dd84b297e32d1b80cc6ab9",
+      "current_latest_version": 1,
+      "recorded_version": 1,
+      "verified": true
+    },
+    {
+      "id": "2608.23819v2",
+      "url": "https://arxiv.org/abs/2608.23819",
+      "abs_sha256": "c05f72d7b69bb858b7eb57fb4c7ec81554a711c829430371c416ec113e57f405",
+      "current_latest_version": 2,
+      "recorded_version": 2,
+      "verified": true
+    }
+  ],
+  "reading": "2401.15829v6 sections 2.3-2.4, 3.3, 3.5.5, 4.3; fixed 2606.21192v1 author SingleTimeSliceScheduler BFS/MITM code and Problem adjacency/kink definitions. Other method overlaps carried forward, not reread in full.",
+  "coordinate_boundary": "The release third spatial layer coordinate is explicitly repurposed as two TQEC temporal slices; original endpoint directions adapted to H orientation. Full native methods and old artifact identity remain unconfirmed.",
+  "scope": "No first-invention claim. Path/geometry qualification only; raw equal-Pauli v1 stays stopped. O3LS/SPARO/Patchwork and native Dijkstra remain open.",
+  "fixed_release_paper": {
+    "id": "2606.21192v1",
+    "url": "https://arxiv.org/abs/2606.21192",
+    "abs_sha256": "86b6d395face069a34a34213767de52fef796aa5b21b466d51630ea2715ed92e",
+    "current_latest_version": 1,
+    "verified": true,
+    "artifact_version": 1
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "python": "3.12.14",
+  "base_commit": "92bddab134dbeca507f8988081c6426df12d28be",
+  "source_sha256": {
+    "hamada_path_control.py": "f641bb59f8fdeffb4f8ff2ee6e5cab30550a9725eeee67f81e8f6c6335de895c",
+    "hamada_path_oracle.cpp": "36ace0873b9a8a48c1bf965fe9e6dcb5bc7f635699b0f2ad7e78475c8b1c9ce3",
+    "run_hamada_path_control.py": "b35d7fd3cc4aef5239ba04ed9584105246e2d82c6c2c2397a1ca2881b6eacc4b",
+    "public_clifford.py": "bc3c68c183ec07cc95dea32fdf14f2290d0c082bd005d86b8a5a01296bce7ee5",
+    "exact_program_validation.py": "aed04bbe2d37fded9690b66d4b06cd337a57de757dccccd00ecb72250eb71959",
+    "public_candidate_pool.py": "4696ded929e46dc3ce34042d53fb3ca6b5d72c3635f9ab287c8d34589350d6e3",
+    "schedule_circuit.py": "86508aa305ac346a04ff9d931bcfb17cc3f3976dbd16694d7a850584c4d63a60",
+    "surgery.py": "ee67e6691f7da5b48dd788b4e886348fbd70fd370154ef5de2ecee9b90d11e0b",
+    "requirements-lock.txt": "140e7ad5273ee3ac59347cd775c49bdcd2b1e978936e56bc7e1ab205eccaebf9",
+    "results/grover_competition_2026-11-17/candidate_pool.json": "4bd28c68a09768e263b3c619a5e6a0cf4e81852dceae2d7a9a0924d045d93227",
+    "results/grover_competition_2026-11-17/physical_index.json": "56adcff3d9bbbd0a035c9aa74c96d8199a32cf48ee3f029806b7a7bd3cd123a7",
+    "benchmarks/POST_REPORT_FAMILY_SPLIT_2026-11-18.json": "a1e3461a100ca15d764724a58461ec984c45bc19fa9afd84830d21c1e1784e9b",
+    "third_party/hamada_path_2026-11-23/manifest.json": "5315912d5189c6ed466c98850ea3767991e61c90fc825854ba044192f397294d",
+    "third_party/hamada_path_2026-11-23/src/cpp/scheduler/routingError.hpp": "9a225f947259d5d10c6a8f5d09a54a5a6a35f307db6ea11e401b5a3672370006",
+    "third_party/hamada_path_2026-11-23/src/cpp/scheduler/scheduleResult.hpp": "27a970efa9980e4bc88b2d71a5656929d172c5b7d468b545fad5a9d99bbf839d",
+    "third_party/hamada_path_2026-11-23/src/cpp/scheduler/singleTimeSlice.hpp": "ce6cdfd604f5f681c46a430960fb717934bbddcc11e628ce1330b6165667e753",
+    "third_party/hamada_path_2026-11-23/src/cpp/util/LifetimeArray.hpp": "eb6941c82a1a365418bf01aacdde1e15115e8f67539a3207ef61d3582797cf6d",
+    "third_party/hamada_path_2026-11-23/src/cpp/util/constants.hpp": "276a3876301f8e5f8f1ccb3b091eb1a6a17333a518ba59606b04e685f0c4ca2a",
+    "third_party/hamada_path_2026-11-23/src/cpp/util/instruction.hpp": "4da9f49f457045cce15ec49065017e1400e80141bd8d6c0385930a7f227673cb",
+    "third_party/hamada_path_2026-11-23/src/cpp/util/instructionDependencyManager.hpp": "93a0397100deab5ff03705765d0916ad6ed28df0a7cf8d25dbe4d412f5e7dd38",
+    "third_party/hamada_path_2026-11-23/src/cpp/util/problem.hpp": "fbb2e630ad359f3f08e37b13ce1c3e62ae611708502955098a098671e58cf61a",
+    "third_party/hamada_path_2026-11-23/LICENSE": "409611d275067d77d888a3847ff415c05dbae5337085b82bf5fe6606d958555a"
+  },
+  "packages": {
+    "tqec": "0.2.0",
+    "stim": "1.16.0",
+    "pymatching": "2.4.0",
+    "numpy": "2.5.4"
+  },
+  "tqec_direct_url": {
+    "url": "https://github.com/tqec/tqec.git",
+    "vcs_info": {
+      "vcs": "git",
+      "commit_id": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+      "requested_revision": "50fa2210597632a79bd266b56a5fb8d9b00747bb"
+    }
+  },
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "compiler_flags": [
+    "-std=c++17",
+    "-O2",
+    "-Wall",
+    "-Wextra"
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "python": "3.12.14",
+  "exact_pins": [
+    {
+      "package": "asttokens",
+      "expected": "3.0.2",
+      "actual": "3.0.2"
+    },
+    {
+      "package": "comm",
+      "expected": "0.2.3",
+      "actual": "0.2.3"
+    },
+    {
+      "package": "contourpy",
+      "expected": "1.4.0",
+      "actual": "1.4.0"
+    },
+    {
+      "package": "cycler",
+      "expected": "0.12.1",
+      "actual": "0.12.1"
+    },
+    {
+      "package": "dill",
+      "expected": "0.4.1",
+      "actual": "0.4.1"
+    },
+    {
+      "package": "executing",
+      "expected": "2.3.0",
+      "actual": "2.3.0"
+    },
+    {
+      "package": "fonttools",
+      "expected": "4.68.0",
+      "actual": "4.68.0"
+    },
+    {
+      "package": "iniconfig",
+      "expected": "2.3.1",
+      "actual": "2.3.1"
+    },
+    {
+      "package": "ipython",
+      "expected": "9.18.0",
+      "actual": "9.18.0"
+    },
+    {
+      "package": "ipython-pygments-lexers",
+      "expected": "1.1.1",
+      "actual": "1.1.1"
+    },
+    {
+      "package": "ipywidgets",
+      "expected": "8.1.9",
+      "actual": "8.1.9"
+    },
+    {
+      "package": "jedi",
+      "expected": "0.20.1",
+      "actual": "0.20.1"
+    },
+    {
+      "package": "jupyterlab-widgets",
+      "expected": "3.0.17",
+      "actual": "3.0.17"
+    },
+    {
+      "package": "kiwisolver",
+      "expected": "1.5.1",
+      "actual": "1.5.1"
+    },
+    {
+      "package": "lark",
+      "expected": "1.3.1",
+      "actual": "1.3.1"
+    },
+    {
+      "package": "markdown-it-py",
+      "expected": "4.2.0",
+      "actual": "4.2.0"
+    },
+    {
+      "package": "matplotlib",
+      "expected": "3.11.2",
+      "actual": "3.11.2"
+    },
+    {
+      "package": "matplotlib-inline",
+      "expected": "0.2.2",
+      "actual": "0.2.2"
+    },
+    {
+      "package": "mdurl",
+      "expected": "0.1.2",
+      "actual": "0.1.2"
+    },
+    {
+      "package": "networkx",
+      "expected": "3.7",
+      "actual": "3.7"
+    },
+    {
+      "package": "numpy",
+      "expected": "2.5.4",
+      "actual": "2.5.4"
+    },
+    {
+      "package": "packaging",
+      "expected": "26.3",
+      "actual": "26.3"
+    },
+    {
+      "package": "parso",
+      "expected": "0.8.7",
+      "actual": "0.8.7"
+    },
+    {
+      "package": "pexpect",
+      "expected": "4.9.0",
+      "actual": "4.9.0"
+    },
+    {
+      "package": "pillow",
+      "expected": "13.0.0",
+      "actual": "13.0.0"
+    },
+    {
+      "package": "platformdirs",
+      "expected": "4.14.0",
+      "actual": "4.14.0"
+    },
+    {
+      "package": "pluggy",
+      "expected": "1.7.0",
+      "actual": "1.7.0"
+    },
+    {
+      "package": "prompt-toolkit",
+      "expected": "3.0.53",
+      "actual": "3.0.53"
+    },
+    {
+      "package": "psutil",
+      "expected": "7.2.2",
+      "actual": "7.2.2"
+    },
+    {
+      "package": "ptyprocess",
+      "expected": "0.7.0",
+      "actual": "0.7.0"
+    },
+    {
+      "package": "pure-eval",
+      "expected": "0.2.4",
+      "actual": "0.2.4"
+    },
+    {
+      "package": "pycollada",
+      "expected": "0.9.3",
+      "actual": "0.9.3"
+    },
+    {
+      "package": "pygments",
+      "expected": "2.21.0",
+      "actual": "2.21.0"
+    },
+    {
+      "package": "pymatching",
+      "expected": "2.4.0",
+      "actual": "2.4.0"
+    },
+    {
+      "package": "pyparsing",
+      "expected": "3.3.3",
+      "actual": "3.3.3"
+    },
+    {
+      "package": "pyperclip",
+      "expected": "1.11.0",
+      "actual": "1.11.0"
+    },
+    {
+      "package": "pytest",
+      "expected": "9.2.0",
+      "actual": "9.2.0"
+    },
+    {
+      "package": "python-dateutil",
+      "expected": "3.0.0",
+      "actual": "3.0.0"
+    },
+    {
+      "package": "python-sat",
+      "expected": "1.9.dev15",
+      "actual": "1.9.dev15"
+    },
+    {
+      "package": "pyzx",
+      "expected": "0.10.7",
+      "actual": "0.10.7"
+    },
+    {
+      "package": "qiskit",
+      "expected": "2.5.2",
+      "actual": "2.5.2"
+    },
+    {
+      "package": "rich",
+      "expected": "15.0.0",
+      "actual": "15.0.0"
+    },
+    {
+      "package": "rustworkx",
+      "expected": "0.18.1",
+      "actual": "0.18.1"
+    },
+    {
+      "package": "scipy",
+      "expected": "1.18.1",
+      "actual": "1.18.1"
+    },
+    {
+      "package": "semver",
+      "expected": "3.1.0",
+      "actual": "3.1.0"
+    },
+    {
+      "package": "sinter",
+      "expected": "1.16.0",
+      "actual": "1.16.0"
+    },
+    {
+      "package": "six",
+      "expected": "1.17.0",
+      "actual": "1.17.0"
+    },
+    {
+      "package": "stack-data",
+      "expected": "0.6.3",
+      "actual": "0.6.3"
+    },
+    {
+      "package": "stevedore",
+      "expected": "5.9.1",
+      "actual": "5.9.1"
+    },
+    {
+      "package": "stim",
+      "expected": "1.16.0",
+      "actual": "1.16.0"
+    },
+    {
+      "package": "svg-py",
+      "expected": "1.10.0",
+      "actual": "1.10.0"
+    },
+    {
+      "package": "tqdm",
+      "expected": "4.70.1",
+      "actual": "4.70.1"
+    },
+    {
+      "package": "tqecd",
+      "expected": "0.2.1",
+      "actual": "0.2.1"
+    },
+    {
+      "package": "traitlets",
+      "expected": "5.16.1",
+      "actual": "5.16.1"
+    },
+    {
+      "package": "typing-extensions",
+      "expected": "4.16.0",
+      "actual": "4.16.0"
+    },
+    {
+      "package": "tzdata",
+      "expected": "2026.6",
+      "actual": "2026.6"
+    },
+    {
+      "package": "wcwidth",
+      "expected": "0.9.4",
+      "actual": "0.9.4"
+    },
+    {
+      "package": "widgetsnbextension",
+      "expected": "4.0.16",
+      "actual": "4.0.16"
+    }
+  ],
+  "tqec_direct_url": {
+    "url": "https://github.com/tqec/tqec.git",
+    "vcs_info": {
+      "vcs": "git",
+      "commit_id": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+      "requested_revision": "50fa2210597632a79bd266b56a5fb8d9b00747bb"
+    }
+  },
+  "all_match": true
+}

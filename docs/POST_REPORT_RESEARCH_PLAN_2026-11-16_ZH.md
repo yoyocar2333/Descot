@@ -16,6 +16,8 @@
 
 11/22 最新增量：[Hamada ready-order 的共同物理支援域控制](updates/2026-11-22-hamada-ready-control.md) 已從 2401.15829v6 Algorithm 2 重現 ready 快照／原順序／greedy reservation 政策，明示改用既有 TQEC 完整 footprint 與 H-first 時間政策；實際編譯固定作者 C++ dependency manager，核對完整 Grover 的 14 次 ready-set 查詢、18 個 source instructions。取得的 arxiv_ver1 release 對應新論文 2606.21192v1，不冒充舊論文 artifact。政策／one-step／two-step 的兩個 CX fronts 都是 singleton，均精確對應既有 g174，沒有新的 decoded 收益證據；175 plans／12 最短候選和無 cap 基準全保留。**這是部分政策控制，不是已完成原 BFS path search／3D Dijkstra／原方法比較門檻**；下一步處理原路徑搜尋與完整幾何 composition 的實質支援，不能重複 singleton 盤點或改名替代。完整 185 項測試通過；0 new research shots、0 新物理編譯（既有 suite 的 p=0 測試另列），raw v1 維持停止，held-out labels sealed、sampling permission=false、μ=0；校準／凍結／未見資料門檻仍待完成。
 
+11/23 最新增量：[作者路徑搜尋與完整物理幾何](updates/2026-11-23-hamada-path-geometry.md) 已執行固定新 release 的原 BFS/MITM kernel，透過明示的兩切片座標適配，為全部 12 個最短 Grover plans 各增加一份完整物理版本。24 次 kernel calls、60 次主批 physical compilations（12 main＋48 generators），另 1 次探索性 smoke compile；全部完整 rank-2 原讀出／四組 signed inputs／4 個 X/Z generators／final faults／distance3 通過。新增 12 個互異 noisy hashes，與舊 12 個全異；18 指令、175 plans、無 cap 及所有舊結果保留。**這是受限原 path-kernel 的 physical control，不是完整 native Hamada／舊 3D Dijkstra 原方法比較完成，也不增加獨立家族數。** 兩者同 9 layers／636 TICK／總 protected idle=12 block-z，310→309 sites 不能當解碼收益；共同 4×4 board 是既有 backend 包絡，實際硬體 cap／sweep 尚待推導。197 項完整測試通過，0 new research shots（既有 suite p=0 軌跡另列）、counts／CI=null，raw v1 繼續停止、held-out sealed／sampling permission=false、μ=0。下一門檻是保留 operand heights／kink constraints 的完整原排程／projection 搜尋與物理 composition，不再重複局部 kernel qualification；其後才評估 development 修訂、pilot／校準／凍結及未見取樣。
+
 ## 一個核心問題
 
 **固定可用空間與編譯預算時，考慮等待對最終讀出的影響，能否比只看深度或總資源的排程，選出完整電路解碼錯誤率較低的合法方案？**

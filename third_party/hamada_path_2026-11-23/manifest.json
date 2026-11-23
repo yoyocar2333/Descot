@@ -1,0 +1,45 @@
+{
+  "repository": "https://github.com/quantum-programming/lattice_surgery",
+  "commit": "dcaa249878ff365162cf4df930a367dca5fcf5a4",
+  "release": "arxiv_ver1",
+  "paper": "2606.21192v1",
+  "scope": "Unmodified SingleTimeSliceScheduler::find_path<MeetInTheMiddle> kernel. Harness maps its third spatial axis to two TQEC block slices. Not native full scheduling or old 2401.15829v6 artifact equivalence.",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "409611d275067d77d888a3847ff415c05dbae5337085b82bf5fe6606d958555a"
+    },
+    {
+      "path": "src/cpp/util/problem.hpp",
+      "sha256": "fbb2e630ad359f3f08e37b13ce1c3e62ae611708502955098a098671e58cf61a"
+    },
+    {
+      "path": "src/cpp/util/instruction.hpp",
+      "sha256": "4da9f49f457045cce15ec49065017e1400e80141bd8d6c0385930a7f227673cb"
+    },
+    {
+      "path": "src/cpp/util/constants.hpp",
+      "sha256": "276a3876301f8e5f8f1ccb3b091eb1a6a17333a518ba59606b04e685f0c4ca2a"
+    },
+    {
+      "path": "src/cpp/util/instructionDependencyManager.hpp",
+      "sha256": "93a0397100deab5ff03705765d0916ad6ed28df0a7cf8d25dbe4d412f5e7dd38"
+    },
+    {
+      "path": "src/cpp/util/LifetimeArray.hpp",
+      "sha256": "eb6941c82a1a365418bf01aacdde1e15115e8f67539a3207ef61d3582797cf6d"
+    },
+    {
+      "path": "src/cpp/scheduler/singleTimeSlice.hpp",
+      "sha256": "ce6cdfd604f5f681c46a430960fb717934bbddcc11e628ce1330b6165667e753"
+    },
+    {
+      "path": "src/cpp/scheduler/scheduleResult.hpp",
+      "sha256": "27a970efa9980e4bc88b2d71a5656929d172c5b7d468b545fad5a9d99bbf839d"
+    },
+    {
+      "path": "src/cpp/scheduler/routingError.hpp",
+      "sha256": "9a225f947259d5d10c6a8f5d09a54a5a6a35f307db6ea11e401b5a3672370006"
+    }
+  ]
+}

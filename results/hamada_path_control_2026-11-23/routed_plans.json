@@ -1,0 +1,3826 @@
+[
+  {
+    "candidate_id": "mitm_g122",
+    "routed": {
+      "base_plan": {
+        "mode": "exact_h_cx_subsets_v1",
+        "spacing": 3,
+        "layers": [
+          {
+            "kind": "h",
+            "operation_ids": [
+              1
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              0,
+              2
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "cx",
+            "operation_ids": [
+              3
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              4
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              6
+            ],
+            "orientation_before": [
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              8
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              5,
+              9
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              7
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "cx",
+            "operation_ids": [
+              10
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              12
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              11
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              13
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              14,
+              15
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              16,
+              17
+            ],
+            "orientation_before": [
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "paths": {
+        "3": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            2,
+            0
+          ],
+          [
+            2,
+            3,
+            0
+          ],
+          [
+            2,
+            3,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ],
+        "10": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ]
+      },
+      "board_xy": [
+        4,
+        4
+      ],
+      "calls": [
+        {
+          "layer_index": 2,
+          "operation_id": 3,
+          "stdin": "4 4 2 0 1 0\n0 0 1\n3 3 0\n",
+          "stdout": "8 1\n0 0 0\n1 0 0\n2 0 0\n2 1 0\n2 2 0\n2 3 0\n2 3 1\n3 3 1\n",
+          "subprocess_seconds": 0.005277751999983593,
+          "author_kinks": 1,
+          "path_vertices": 8
+        },
+        {
+          "layer_index": 8,
+          "operation_id": 10,
+          "stdin": "4 4 2 0 1 0\n0 0 0\n3 3 1\n",
+          "stdout": "8 1\n0 0 0\n0 1 0\n1 1 0\n1 1 1\n1 2 1\n2 2 1\n3 2 1\n3 3 1\n",
+          "subprocess_seconds": 0.004465518999950291,
+          "author_kinks": 1,
+          "path_vertices": 8
+        }
+      ],
+      "scope": "Author BFS/MITM path kernel, two-slice coordinate adapter; full XY reservation. Not original native scheduler/3D Dijkstra.",
+      "mu": 0
+    }
+  },
+  {
+    "candidate_id": "mitm_g124",
+    "routed": {
+      "base_plan": {
+        "mode": "exact_h_cx_subsets_v1",
+        "spacing": 3,
+        "layers": [
+          {
+            "kind": "h",
+            "operation_ids": [
+              1
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              0,
+              2
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "cx",
+            "operation_ids": [
+              3
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              4
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              6
+            ],
+            "orientation_before": [
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              8
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              5,
+              9
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              7
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "cx",
+            "operation_ids": [
+              10
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              12
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              11,
+              14
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              13,
+              16
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              15
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              17
+            ],
+            "orientation_before": [
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "paths": {
+        "3": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            2,
+            0
+          ],
+          [
+            2,
+            3,
+            0
+          ],
+          [
+            2,
+            3,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ],
+        "10": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ]
+      },
+      "board_xy": [
+        4,
+        4
+      ],
+      "calls": [
+        {
+          "layer_index": 2,
+          "operation_id": 3,
+          "stdin": "4 4 2 0 1 0\n0 0 1\n3 3 0\n",
+          "stdout": "8 1\n0 0 0\n1 0 0\n2 0 0\n2 1 0\n2 2 0\n2 3 0\n2 3 1\n3 3 1\n",
+          "subprocess_seconds": 0.0027091859999472945,
+          "author_kinks": 1,
+          "path_vertices": 8
+        },
+        {
+          "layer_index": 8,
+          "operation_id": 10,
+          "stdin": "4 4 2 0 1 0\n0 0 0\n3 3 1\n",
+          "stdout": "8 1\n0 0 0\n0 1 0\n1 1 0\n1 1 1\n1 2 1\n2 2 1\n3 2 1\n3 3 1\n",
+          "subprocess_seconds": 0.003261292999923171,
+          "author_kinks": 1,
+          "path_vertices": 8
+        }
+      ],
+      "scope": "Author BFS/MITM path kernel, two-slice coordinate adapter; full XY reservation. Not original native scheduler/3D Dijkstra.",
+      "mu": 0
+    }
+  },
+  {
+    "candidate_id": "mitm_g127",
+    "routed": {
+      "base_plan": {
+        "mode": "exact_h_cx_subsets_v1",
+        "spacing": 3,
+        "layers": [
+          {
+            "kind": "h",
+            "operation_ids": [
+              1
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              0,
+              2
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "cx",
+            "operation_ids": [
+              3
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              4
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              5,
+              6
+            ],
+            "orientation_before": [
+              1,
+              1
+            ],
+            "orientation_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              7,
+              8
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              9
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "cx",
+            "operation_ids": [
+              10
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              12
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              11
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              13
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              14,
+              15
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              16,
+              17
+            ],
+            "orientation_before": [
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "paths": {
+        "3": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            2,
+            0
+          ],
+          [
+            2,
+            3,
+            0
+          ],
+          [
+            2,
+            3,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ],
+        "10": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ]
+      },
+      "board_xy": [
+        4,
+        4
+      ],
+      "calls": [
+        {
+          "layer_index": 2,
+          "operation_id": 3,
+          "stdin": "4 4 2 0 1 0\n0 0 1\n3 3 0\n",
+          "stdout": "8 1\n0 0 0\n1 0 0\n2 0 0\n2 1 0\n2 2 0\n2 3 0\n2 3 1\n3 3 1\n",
+          "subprocess_seconds": 0.003271750999829237,
+          "author_kinks": 1,
+          "path_vertices": 8
+        },
+        {
+          "layer_index": 7,
+          "operation_id": 10,
+          "stdin": "4 4 2 0 1 0\n0 0 0\n3 3 1\n",
+          "stdout": "8 1\n0 0 0\n0 1 0\n1 1 0\n1 1 1\n1 2 1\n2 2 1\n3 2 1\n3 3 1\n",
+          "subprocess_seconds": 0.0035323409999818978,
+          "author_kinks": 1,
+          "path_vertices": 8
+        }
+      ],
+      "scope": "Author BFS/MITM path kernel, two-slice coordinate adapter; full XY reservation. Not original native scheduler/3D Dijkstra.",
+      "mu": 0
+    }
+  },
+  {
+    "candidate_id": "mitm_g129",
+    "routed": {
+      "base_plan": {
+        "mode": "exact_h_cx_subsets_v1",
+        "spacing": 3,
+        "layers": [
+          {
+            "kind": "h",
+            "operation_ids": [
+              1
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              0,
+              2
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "cx",
+            "operation_ids": [
+              3
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              4
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              5,
+              6
+            ],
+            "orientation_before": [
+              1,
+              1
+            ],
+            "orientation_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              7,
+              8
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              9
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "cx",
+            "operation_ids": [
+              10
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              12
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              11,
+              14
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              13,
+              16
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              15
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              17
+            ],
+            "orientation_before": [
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "paths": {
+        "3": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            2,
+            0
+          ],
+          [
+            2,
+            3,
+            0
+          ],
+          [
+            2,
+            3,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ],
+        "10": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ]
+      },
+      "board_xy": [
+        4,
+        4
+      ],
+      "calls": [
+        {
+          "layer_index": 2,
+          "operation_id": 3,
+          "stdin": "4 4 2 0 1 0\n0 0 1\n3 3 0\n",
+          "stdout": "8 1\n0 0 0\n1 0 0\n2 0 0\n2 1 0\n2 2 0\n2 3 0\n2 3 1\n3 3 1\n",
+          "subprocess_seconds": 0.0032425910001165903,
+          "author_kinks": 1,
+          "path_vertices": 8
+        },
+        {
+          "layer_index": 7,
+          "operation_id": 10,
+          "stdin": "4 4 2 0 1 0\n0 0 0\n3 3 1\n",
+          "stdout": "8 1\n0 0 0\n0 1 0\n1 1 0\n1 1 1\n1 2 1\n2 2 1\n3 2 1\n3 3 1\n",
+          "subprocess_seconds": 0.003884835999997449,
+          "author_kinks": 1,
+          "path_vertices": 8
+        }
+      ],
+      "scope": "Author BFS/MITM path kernel, two-slice coordinate adapter; full XY reservation. Not original native scheduler/3D Dijkstra.",
+      "mu": 0
+    }
+  },
+  {
+    "candidate_id": "mitm_g137",
+    "routed": {
+      "base_plan": {
+        "mode": "exact_h_cx_subsets_v1",
+        "spacing": 3,
+        "layers": [
+          {
+            "kind": "h",
+            "operation_ids": [
+              1
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              0,
+              2
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "cx",
+            "operation_ids": [
+              3
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              4,
+              5
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              7
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              6
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              8
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              9
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "cx",
+            "operation_ids": [
+              10
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              12
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              11
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              13
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              14,
+              15
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              16,
+              17
+            ],
+            "orientation_before": [
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "paths": {
+        "3": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            2,
+            0
+          ],
+          [
+            2,
+            3,
+            0
+          ],
+          [
+            2,
+            3,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ],
+        "10": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ]
+      },
+      "board_xy": [
+        4,
+        4
+      ],
+      "calls": [
+        {
+          "layer_index": 2,
+          "operation_id": 3,
+          "stdin": "4 4 2 0 1 0\n0 0 1\n3 3 0\n",
+          "stdout": "8 1\n0 0 0\n1 0 0\n2 0 0\n2 1 0\n2 2 0\n2 3 0\n2 3 1\n3 3 1\n",
+          "subprocess_seconds": 0.0028076600001440966,
+          "author_kinks": 1,
+          "path_vertices": 8
+        },
+        {
+          "layer_index": 8,
+          "operation_id": 10,
+          "stdin": "4 4 2 0 1 0\n0 0 0\n3 3 1\n",
+          "stdout": "8 1\n0 0 0\n0 1 0\n1 1 0\n1 1 1\n1 2 1\n2 2 1\n3 2 1\n3 3 1\n",
+          "subprocess_seconds": 0.002933246000111467,
+          "author_kinks": 1,
+          "path_vertices": 8
+        }
+      ],
+      "scope": "Author BFS/MITM path kernel, two-slice coordinate adapter; full XY reservation. Not original native scheduler/3D Dijkstra.",
+      "mu": 0
+    }
+  },
+  {
+    "candidate_id": "mitm_g139",
+    "routed": {
+      "base_plan": {
+        "mode": "exact_h_cx_subsets_v1",
+        "spacing": 3,
+        "layers": [
+          {
+            "kind": "h",
+            "operation_ids": [
+              1
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              0,
+              2
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "cx",
+            "operation_ids": [
+              3
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              4,
+              5
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              7
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              6
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              8
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              9
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "cx",
+            "operation_ids": [
+              10
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              12
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              11,
+              14
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              13,
+              16
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              15
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              17
+            ],
+            "orientation_before": [
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "paths": {
+        "3": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            2,
+            0
+          ],
+          [
+            2,
+            3,
+            0
+          ],
+          [
+            2,
+            3,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ],
+        "10": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ]
+      },
+      "board_xy": [
+        4,
+        4
+      ],
+      "calls": [
+        {
+          "layer_index": 2,
+          "operation_id": 3,
+          "stdin": "4 4 2 0 1 0\n0 0 1\n3 3 0\n",
+          "stdout": "8 1\n0 0 0\n1 0 0\n2 0 0\n2 1 0\n2 2 0\n2 3 0\n2 3 1\n3 3 1\n",
+          "subprocess_seconds": 0.0029409270000542165,
+          "author_kinks": 1,
+          "path_vertices": 8
+        },
+        {
+          "layer_index": 8,
+          "operation_id": 10,
+          "stdin": "4 4 2 0 1 0\n0 0 0\n3 3 1\n",
+          "stdout": "8 1\n0 0 0\n0 1 0\n1 1 0\n1 1 1\n1 2 1\n2 2 1\n3 2 1\n3 3 1\n",
+          "subprocess_seconds": 0.0037310180000531545,
+          "author_kinks": 1,
+          "path_vertices": 8
+        }
+      ],
+      "scope": "Author BFS/MITM path kernel, two-slice coordinate adapter; full XY reservation. Not original native scheduler/3D Dijkstra.",
+      "mu": 0
+    }
+  },
+  {
+    "candidate_id": "mitm_g157",
+    "routed": {
+      "base_plan": {
+        "mode": "exact_h_cx_subsets_v1",
+        "spacing": 3,
+        "layers": [
+          {
+            "kind": "h",
+            "operation_ids": [
+              0,
+              1
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              2
+            ],
+            "orientation_before": [
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "cx",
+            "operation_ids": [
+              3
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              4
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              6
+            ],
+            "orientation_before": [
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              8
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              5,
+              9
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              7
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "cx",
+            "operation_ids": [
+              10
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              12
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              11
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              13
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              14,
+              15
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              16,
+              17
+            ],
+            "orientation_before": [
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "paths": {
+        "3": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            2,
+            0
+          ],
+          [
+            2,
+            3,
+            0
+          ],
+          [
+            2,
+            3,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ],
+        "10": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ]
+      },
+      "board_xy": [
+        4,
+        4
+      ],
+      "calls": [
+        {
+          "layer_index": 2,
+          "operation_id": 3,
+          "stdin": "4 4 2 0 1 0\n0 0 1\n3 3 0\n",
+          "stdout": "8 1\n0 0 0\n1 0 0\n2 0 0\n2 1 0\n2 2 0\n2 3 0\n2 3 1\n3 3 1\n",
+          "subprocess_seconds": 0.0028929300001436786,
+          "author_kinks": 1,
+          "path_vertices": 8
+        },
+        {
+          "layer_index": 8,
+          "operation_id": 10,
+          "stdin": "4 4 2 0 1 0\n0 0 0\n3 3 1\n",
+          "stdout": "8 1\n0 0 0\n0 1 0\n1 1 0\n1 1 1\n1 2 1\n2 2 1\n3 2 1\n3 3 1\n",
+          "subprocess_seconds": 0.002446307999889541,
+          "author_kinks": 1,
+          "path_vertices": 8
+        }
+      ],
+      "scope": "Author BFS/MITM path kernel, two-slice coordinate adapter; full XY reservation. Not original native scheduler/3D Dijkstra.",
+      "mu": 0
+    }
+  },
+  {
+    "candidate_id": "mitm_g159",
+    "routed": {
+      "base_plan": {
+        "mode": "exact_h_cx_subsets_v1",
+        "spacing": 3,
+        "layers": [
+          {
+            "kind": "h",
+            "operation_ids": [
+              0,
+              1
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              2
+            ],
+            "orientation_before": [
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "cx",
+            "operation_ids": [
+              3
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              4
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              6
+            ],
+            "orientation_before": [
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              8
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              5,
+              9
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              7
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "cx",
+            "operation_ids": [
+              10
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              12
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              11,
+              14
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              13,
+              16
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              15
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              17
+            ],
+            "orientation_before": [
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "paths": {
+        "3": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            2,
+            0
+          ],
+          [
+            2,
+            3,
+            0
+          ],
+          [
+            2,
+            3,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ],
+        "10": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ]
+      },
+      "board_xy": [
+        4,
+        4
+      ],
+      "calls": [
+        {
+          "layer_index": 2,
+          "operation_id": 3,
+          "stdin": "4 4 2 0 1 0\n0 0 1\n3 3 0\n",
+          "stdout": "8 1\n0 0 0\n1 0 0\n2 0 0\n2 1 0\n2 2 0\n2 3 0\n2 3 1\n3 3 1\n",
+          "subprocess_seconds": 0.0023952240001108294,
+          "author_kinks": 1,
+          "path_vertices": 8
+        },
+        {
+          "layer_index": 8,
+          "operation_id": 10,
+          "stdin": "4 4 2 0 1 0\n0 0 0\n3 3 1\n",
+          "stdout": "8 1\n0 0 0\n0 1 0\n1 1 0\n1 1 1\n1 2 1\n2 2 1\n3 2 1\n3 3 1\n",
+          "subprocess_seconds": 0.002580266999984815,
+          "author_kinks": 1,
+          "path_vertices": 8
+        }
+      ],
+      "scope": "Author BFS/MITM path kernel, two-slice coordinate adapter; full XY reservation. Not original native scheduler/3D Dijkstra.",
+      "mu": 0
+    }
+  },
+  {
+    "candidate_id": "mitm_g162",
+    "routed": {
+      "base_plan": {
+        "mode": "exact_h_cx_subsets_v1",
+        "spacing": 3,
+        "layers": [
+          {
+            "kind": "h",
+            "operation_ids": [
+              0,
+              1
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              2
+            ],
+            "orientation_before": [
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "cx",
+            "operation_ids": [
+              3
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              4
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              5,
+              6
+            ],
+            "orientation_before": [
+              1,
+              1
+            ],
+            "orientation_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              7,
+              8
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              9
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "cx",
+            "operation_ids": [
+              10
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              12
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              11
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              13
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              14,
+              15
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              16,
+              17
+            ],
+            "orientation_before": [
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "paths": {
+        "3": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            2,
+            0
+          ],
+          [
+            2,
+            3,
+            0
+          ],
+          [
+            2,
+            3,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ],
+        "10": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ]
+      },
+      "board_xy": [
+        4,
+        4
+      ],
+      "calls": [
+        {
+          "layer_index": 2,
+          "operation_id": 3,
+          "stdin": "4 4 2 0 1 0\n0 0 1\n3 3 0\n",
+          "stdout": "8 1\n0 0 0\n1 0 0\n2 0 0\n2 1 0\n2 2 0\n2 3 0\n2 3 1\n3 3 1\n",
+          "subprocess_seconds": 0.0031514080001215916,
+          "author_kinks": 1,
+          "path_vertices": 8
+        },
+        {
+          "layer_index": 7,
+          "operation_id": 10,
+          "stdin": "4 4 2 0 1 0\n0 0 0\n3 3 1\n",
+          "stdout": "8 1\n0 0 0\n0 1 0\n1 1 0\n1 1 1\n1 2 1\n2 2 1\n3 2 1\n3 3 1\n",
+          "subprocess_seconds": 0.0029480519999651733,
+          "author_kinks": 1,
+          "path_vertices": 8
+        }
+      ],
+      "scope": "Author BFS/MITM path kernel, two-slice coordinate adapter; full XY reservation. Not original native scheduler/3D Dijkstra.",
+      "mu": 0
+    }
+  },
+  {
+    "candidate_id": "mitm_g164",
+    "routed": {
+      "base_plan": {
+        "mode": "exact_h_cx_subsets_v1",
+        "spacing": 3,
+        "layers": [
+          {
+            "kind": "h",
+            "operation_ids": [
+              0,
+              1
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              2
+            ],
+            "orientation_before": [
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "cx",
+            "operation_ids": [
+              3
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              4
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              5,
+              6
+            ],
+            "orientation_before": [
+              1,
+              1
+            ],
+            "orientation_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              7,
+              8
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              9
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "cx",
+            "operation_ids": [
+              10
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              12
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              11,
+              14
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              13,
+              16
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              15
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              17
+            ],
+            "orientation_before": [
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "paths": {
+        "3": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            2,
+            0
+          ],
+          [
+            2,
+            3,
+            0
+          ],
+          [
+            2,
+            3,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ],
+        "10": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ]
+      },
+      "board_xy": [
+        4,
+        4
+      ],
+      "calls": [
+        {
+          "layer_index": 2,
+          "operation_id": 3,
+          "stdin": "4 4 2 0 1 0\n0 0 1\n3 3 0\n",
+          "stdout": "8 1\n0 0 0\n1 0 0\n2 0 0\n2 1 0\n2 2 0\n2 3 0\n2 3 1\n3 3 1\n",
+          "subprocess_seconds": 0.0038487970000460336,
+          "author_kinks": 1,
+          "path_vertices": 8
+        },
+        {
+          "layer_index": 7,
+          "operation_id": 10,
+          "stdin": "4 4 2 0 1 0\n0 0 0\n3 3 1\n",
+          "stdout": "8 1\n0 0 0\n0 1 0\n1 1 0\n1 1 1\n1 2 1\n2 2 1\n3 2 1\n3 3 1\n",
+          "subprocess_seconds": 0.002965490999940812,
+          "author_kinks": 1,
+          "path_vertices": 8
+        }
+      ],
+      "scope": "Author BFS/MITM path kernel, two-slice coordinate adapter; full XY reservation. Not original native scheduler/3D Dijkstra.",
+      "mu": 0
+    }
+  },
+  {
+    "candidate_id": "mitm_g172",
+    "routed": {
+      "base_plan": {
+        "mode": "exact_h_cx_subsets_v1",
+        "spacing": 3,
+        "layers": [
+          {
+            "kind": "h",
+            "operation_ids": [
+              0,
+              1
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              2
+            ],
+            "orientation_before": [
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "cx",
+            "operation_ids": [
+              3
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              4,
+              5
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              7
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              6
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              8
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              9
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "cx",
+            "operation_ids": [
+              10
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              12
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              11
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              13
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              14,
+              15
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              16,
+              17
+            ],
+            "orientation_before": [
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "paths": {
+        "3": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            2,
+            0
+          ],
+          [
+            2,
+            3,
+            0
+          ],
+          [
+            2,
+            3,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ],
+        "10": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ]
+      },
+      "board_xy": [
+        4,
+        4
+      ],
+      "calls": [
+        {
+          "layer_index": 2,
+          "operation_id": 3,
+          "stdin": "4 4 2 0 1 0\n0 0 1\n3 3 0\n",
+          "stdout": "8 1\n0 0 0\n1 0 0\n2 0 0\n2 1 0\n2 2 0\n2 3 0\n2 3 1\n3 3 1\n",
+          "subprocess_seconds": 0.002833746999840514,
+          "author_kinks": 1,
+          "path_vertices": 8
+        },
+        {
+          "layer_index": 8,
+          "operation_id": 10,
+          "stdin": "4 4 2 0 1 0\n0 0 0\n3 3 1\n",
+          "stdout": "8 1\n0 0 0\n0 1 0\n1 1 0\n1 1 1\n1 2 1\n2 2 1\n3 2 1\n3 3 1\n",
+          "subprocess_seconds": 0.0023505209999257204,
+          "author_kinks": 1,
+          "path_vertices": 8
+        }
+      ],
+      "scope": "Author BFS/MITM path kernel, two-slice coordinate adapter; full XY reservation. Not original native scheduler/3D Dijkstra.",
+      "mu": 0
+    }
+  },
+  {
+    "candidate_id": "mitm_g174",
+    "routed": {
+      "base_plan": {
+        "mode": "exact_h_cx_subsets_v1",
+        "spacing": 3,
+        "layers": [
+          {
+            "kind": "h",
+            "operation_ids": [
+              0,
+              1
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              2
+            ],
+            "orientation_before": [
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "cx",
+            "operation_ids": [
+              3
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              4,
+              5
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              7
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              6
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              8
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              9
+            ],
+            "orientation_before": [
+              0,
+              0
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "cx",
+            "operation_ids": [
+              10
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              12
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              11,
+              14
+            ],
+            "orientation_before": [
+              0,
+              1
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              13,
+              16
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "h",
+            "operation_ids": [
+              15
+            ],
+            "orientation_before": [
+              1,
+              0
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "kind": "virtual_or_readout",
+            "operation_ids": [
+              17
+            ],
+            "orientation_before": [
+              1,
+              1
+            ],
+            "orientation_after": [
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "paths": {
+        "3": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            2,
+            0
+          ],
+          [
+            2,
+            3,
+            0
+          ],
+          [
+            2,
+            3,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ],
+        "10": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ]
+      },
+      "board_xy": [
+        4,
+        4
+      ],
+      "calls": [
+        {
+          "layer_index": 2,
+          "operation_id": 3,
+          "stdin": "4 4 2 0 1 0\n0 0 1\n3 3 0\n",
+          "stdout": "8 1\n0 0 0\n1 0 0\n2 0 0\n2 1 0\n2 2 0\n2 3 0\n2 3 1\n3 3 1\n",
+          "subprocess_seconds": 0.0024718429999666114,
+          "author_kinks": 1,
+          "path_vertices": 8
+        },
+        {
+          "layer_index": 8,
+          "operation_id": 10,
+          "stdin": "4 4 2 0 1 0\n0 0 0\n3 3 1\n",
+          "stdout": "8 1\n0 0 0\n0 1 0\n1 1 0\n1 1 1\n1 2 1\n2 2 1\n3 2 1\n3 3 1\n",
+          "subprocess_seconds": 0.002719651999996131,
+          "author_kinks": 1,
+          "path_vertices": 8
+        }
+      ],
+      "scope": "Author BFS/MITM path kernel, two-slice coordinate adapter; full XY reservation. Not original native scheduler/3D Dijkstra.",
+      "mu": 0
+    }
+  }
+]

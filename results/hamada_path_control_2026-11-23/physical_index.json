@@ -1,0 +1,690 @@
+[
+  {
+    "candidate_id": "mitm_g122",
+    "base_candidate_id": "g122",
+    "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+    "base_plan_sha256": "fa9a5135322caf461c5cd73ea3ce91a90207b69a2d11cb9fc8d62fa21099628b",
+    "plan_sha256": "7fe2f3473bffabb2c9faf772d87660fef36a091395468bd0dbdc91518352422f",
+    "ideal_sha256": "b1a7d26774e7677ecd9478cc510b9e7ede54bebb71b2b74a0062028ec276b1e8",
+    "noisy_sha256": "b3be25d391e977349ac09968a5c591ac53c5c951a7b67d3d97c1abfc00cd450f",
+    "dem_sha256": "fc82ca917b8182b0d4924bcf9efd3b7d862d0bb85ffb624217d3bbba7c93ea48",
+    "num_qubits": 309,
+    "num_detectors": 1836,
+    "num_observables": 2,
+    "graphlike_distance": 3,
+    "features": {
+      "physical_layers": 9,
+      "template_block_z": 27,
+      "cx_routing_steps": 2,
+      "logical_h_layers": 7,
+      "qec_rounds": null,
+      "stim_ticks": 636,
+      "data_reservation_block_z": 54,
+      "ancilla_reservation_block_z": 30,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          6,
+          3
+        ],
+        []
+      ],
+      "total_protected_idle_block_z": 12,
+      "max_protected_idle_block_z": 6,
+      "squared_protected_idle_block_z2": 54,
+      "cx_recurrence_separations_block_z": [
+        9
+      ],
+      "cx_gap_squared_block_z2": 81,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "shots": 0,
+    "counts": null,
+    "confidence_interval": null,
+    "timing": {
+      "main_compile_seconds": 20.978866288000063,
+      "exact_validation_seconds": 0.5022300360001282,
+      "generator_compile_seconds": 92.95177364799997,
+      "generator_validation_seconds": 1.357124055000213,
+      "noise_seconds": 2.8295424549999098,
+      "dem_seconds": 0.3077138539999851,
+      "decoder_construction_seconds": 0.08163111299995762,
+      "distance_search_seconds": 0.4025596169999517,
+      "scorer_seconds": null,
+      "calibration_seconds": null,
+      "monte_carlo_seconds": null,
+      "decode_seconds": null
+    }
+  },
+  {
+    "candidate_id": "mitm_g124",
+    "base_candidate_id": "g124",
+    "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+    "base_plan_sha256": "274cc1f0872b4745777414ef6a8ad94e9f3da14e9b06dde4ad79b27eae0ff506",
+    "plan_sha256": "732a9701f65b64b7ed0b9e3827011d107daa304f5c38752b7b864f0f560d3bd0",
+    "ideal_sha256": "fcb79f42d149d68e5f123f989c12f1d251ad0b5398d4b539da534b2413170891",
+    "noisy_sha256": "fc01d29440a1cdfa0123d1001f8c27ce35ac5dba16bd9658077634aba915bfc1",
+    "dem_sha256": "79d6d0be759b454cc2163e80f14f7f8fdeb2129c219ca967569d622c2f22e00c",
+    "num_qubits": 309,
+    "num_detectors": 1836,
+    "num_observables": 2,
+    "graphlike_distance": 3,
+    "features": {
+      "physical_layers": 9,
+      "template_block_z": 27,
+      "cx_routing_steps": 2,
+      "logical_h_layers": 7,
+      "qec_rounds": null,
+      "stim_ticks": 636,
+      "data_reservation_block_z": 54,
+      "ancilla_reservation_block_z": 30,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          6,
+          3
+        ],
+        []
+      ],
+      "total_protected_idle_block_z": 12,
+      "max_protected_idle_block_z": 6,
+      "squared_protected_idle_block_z2": 54,
+      "cx_recurrence_separations_block_z": [
+        9
+      ],
+      "cx_gap_squared_block_z2": 81,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "shots": 0,
+    "counts": null,
+    "confidence_interval": null,
+    "timing": {
+      "main_compile_seconds": 21.179945737000025,
+      "exact_validation_seconds": 0.5935959160001403,
+      "generator_compile_seconds": 94.3724627879999,
+      "generator_validation_seconds": 1.2775167999998303,
+      "noise_seconds": 4.321585329000072,
+      "dem_seconds": 0.5024125509999067,
+      "decoder_construction_seconds": 0.08592699099995116,
+      "distance_search_seconds": 0.4729295509998792,
+      "scorer_seconds": null,
+      "calibration_seconds": null,
+      "monte_carlo_seconds": null,
+      "decode_seconds": null
+    }
+  },
+  {
+    "candidate_id": "mitm_g127",
+    "base_candidate_id": "g127",
+    "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+    "base_plan_sha256": "8eeb460cc2e6c2bacdb65fdb5cc59c1bd3791b9a80d32635422f5a222c58583d",
+    "plan_sha256": "2efd4ed7358b786dce11f773473448718aefadc1a822f655736c593c651d0a63",
+    "ideal_sha256": "813b7dfcc8a24972e73904941370cba708e68c7ac45bd7ed68c2a527658ac8d2",
+    "noisy_sha256": "5eb97b103434460193cb61d4f919ed9b7a0c2bcab0359e80b6cd952fbc6f6fc7",
+    "dem_sha256": "c175be95b15d09668fe1c7a7a183b26141e1ea42df13de0505b800b65f86ca5c",
+    "num_qubits": 309,
+    "num_detectors": 1836,
+    "num_observables": 2,
+    "graphlike_distance": 3,
+    "features": {
+      "physical_layers": 9,
+      "template_block_z": 27,
+      "cx_routing_steps": 2,
+      "logical_h_layers": 7,
+      "qec_rounds": null,
+      "stim_ticks": 636,
+      "data_reservation_block_z": 54,
+      "ancilla_reservation_block_z": 30,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          3,
+          3,
+          3
+        ],
+        []
+      ],
+      "total_protected_idle_block_z": 12,
+      "max_protected_idle_block_z": 3,
+      "squared_protected_idle_block_z2": 36,
+      "cx_recurrence_separations_block_z": [
+        9
+      ],
+      "cx_gap_squared_block_z2": 81,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "shots": 0,
+    "counts": null,
+    "confidence_interval": null,
+    "timing": {
+      "main_compile_seconds": 25.9154307660001,
+      "exact_validation_seconds": 0.7950754520002192,
+      "generator_compile_seconds": 102.51247954899986,
+      "generator_validation_seconds": 1.6787485500001367,
+      "noise_seconds": 2.802367054000115,
+      "dem_seconds": 0.33701181500009625,
+      "decoder_construction_seconds": 0.07100132599998688,
+      "distance_search_seconds": 0.38239780200001405,
+      "scorer_seconds": null,
+      "calibration_seconds": null,
+      "monte_carlo_seconds": null,
+      "decode_seconds": null
+    }
+  },
+  {
+    "candidate_id": "mitm_g129",
+    "base_candidate_id": "g129",
+    "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+    "base_plan_sha256": "92ea335e873bb44b1fc51b34dcf8173c93e83c5938ba18f1f54c89df7484b0f5",
+    "plan_sha256": "ab626956ac3f8c6bee3384a0e10efd262bc019cad8cbddb1ecc3d7766721e426",
+    "ideal_sha256": "e75b5626c097d83fbb141339e3ff0b70b4346be2142c88001381935c235afaf6",
+    "noisy_sha256": "46b727cc3e974d6581de3d920cd21c96b0fac0c28e6e58854b7c4d328b091e32",
+    "dem_sha256": "60d543b12430542990bdfa5af445399da5a85ac751556ecdb2427018812e1fbb",
+    "num_qubits": 309,
+    "num_detectors": 1836,
+    "num_observables": 2,
+    "graphlike_distance": 3,
+    "features": {
+      "physical_layers": 9,
+      "template_block_z": 27,
+      "cx_routing_steps": 2,
+      "logical_h_layers": 7,
+      "qec_rounds": null,
+      "stim_ticks": 636,
+      "data_reservation_block_z": 54,
+      "ancilla_reservation_block_z": 30,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          3,
+          3,
+          3
+        ],
+        []
+      ],
+      "total_protected_idle_block_z": 12,
+      "max_protected_idle_block_z": 3,
+      "squared_protected_idle_block_z2": 36,
+      "cx_recurrence_separations_block_z": [
+        9
+      ],
+      "cx_gap_squared_block_z2": 81,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "shots": 0,
+    "counts": null,
+    "confidence_interval": null,
+    "timing": {
+      "main_compile_seconds": 25.55172137699992,
+      "exact_validation_seconds": 0.6992613570000685,
+      "generator_compile_seconds": 103.7460362280001,
+      "generator_validation_seconds": 1.577132383999924,
+      "noise_seconds": 4.167061844999807,
+      "dem_seconds": 0.4589750659999936,
+      "decoder_construction_seconds": 0.08931456999994225,
+      "distance_search_seconds": 0.7220150919999924,
+      "scorer_seconds": null,
+      "calibration_seconds": null,
+      "monte_carlo_seconds": null,
+      "decode_seconds": null
+    }
+  },
+  {
+    "candidate_id": "mitm_g137",
+    "base_candidate_id": "g137",
+    "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+    "base_plan_sha256": "09cc964cba6f8ab125ecc891c025b0429ece347aa6806ac351d26aa480b8bed5",
+    "plan_sha256": "e5989cb43393535964ab382c85ee1ed5174bd8bac1696b94fdfec52e3556d1b7",
+    "ideal_sha256": "dbaf7ec311a7a3ad1b80d393dd6e85922edefe7430d50d6fc5ccd0c14e2e8d86",
+    "noisy_sha256": "ca591ad29655df100e74f8220689b29e21e351a329012c7010f9bed8476abc58",
+    "dem_sha256": "1eeb7c06b7ccb7135036af4b241d817f9d122f38fc699d5e173f571514e86c96",
+    "num_qubits": 309,
+    "num_detectors": 1836,
+    "num_observables": 2,
+    "graphlike_distance": 3,
+    "features": {
+      "physical_layers": 9,
+      "template_block_z": 27,
+      "cx_routing_steps": 2,
+      "logical_h_layers": 7,
+      "qec_rounds": null,
+      "stim_ticks": 636,
+      "data_reservation_block_z": 54,
+      "ancilla_reservation_block_z": 30,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          6,
+          3
+        ],
+        []
+      ],
+      "total_protected_idle_block_z": 12,
+      "max_protected_idle_block_z": 6,
+      "squared_protected_idle_block_z2": 54,
+      "cx_recurrence_separations_block_z": [
+        9
+      ],
+      "cx_gap_squared_block_z2": 81,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "shots": 0,
+    "counts": null,
+    "confidence_interval": null,
+    "timing": {
+      "main_compile_seconds": 22.777041904000043,
+      "exact_validation_seconds": 0.7290114879999692,
+      "generator_compile_seconds": 111.74066478099985,
+      "generator_validation_seconds": 1.6198752899999818,
+      "noise_seconds": 3.333389913000019,
+      "dem_seconds": 0.46468681900000774,
+      "decoder_construction_seconds": 0.06072381000012683,
+      "distance_search_seconds": 0.44296982300011223,
+      "scorer_seconds": null,
+      "calibration_seconds": null,
+      "monte_carlo_seconds": null,
+      "decode_seconds": null
+    }
+  },
+  {
+    "candidate_id": "mitm_g139",
+    "base_candidate_id": "g139",
+    "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+    "base_plan_sha256": "3bf23cf9d7bad19ae2696e269835cd82b5fd163414e06c2a0873c824831586cf",
+    "plan_sha256": "ee14b821ee175483e74d2e4e0a99fdf6f95122b92823c8258f6178c087d5e3ec",
+    "ideal_sha256": "cb83719883a627d733d965ee338ffcbad2fcd3e137def6de3080dcf7c042c083",
+    "noisy_sha256": "a359fc80df42c169ad67fc2c69f4564075e079fb84b70ae9db85cf2382d22f0d",
+    "dem_sha256": "cc42285aecd4569b0199c624d912680f6e95a8f1f0eb085c2a0e62a3b9e8d420",
+    "num_qubits": 309,
+    "num_detectors": 1836,
+    "num_observables": 2,
+    "graphlike_distance": 3,
+    "features": {
+      "physical_layers": 9,
+      "template_block_z": 27,
+      "cx_routing_steps": 2,
+      "logical_h_layers": 7,
+      "qec_rounds": null,
+      "stim_ticks": 636,
+      "data_reservation_block_z": 54,
+      "ancilla_reservation_block_z": 30,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          6,
+          3
+        ],
+        []
+      ],
+      "total_protected_idle_block_z": 12,
+      "max_protected_idle_block_z": 6,
+      "squared_protected_idle_block_z2": 54,
+      "cx_recurrence_separations_block_z": [
+        9
+      ],
+      "cx_gap_squared_block_z2": 81,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "shots": 0,
+    "counts": null,
+    "confidence_interval": null,
+    "timing": {
+      "main_compile_seconds": 26.94946820700011,
+      "exact_validation_seconds": 0.4939338399999542,
+      "generator_compile_seconds": 117.42515887699983,
+      "generator_validation_seconds": 1.6690157149998868,
+      "noise_seconds": 3.046063097000115,
+      "dem_seconds": 0.4610404039999594,
+      "decoder_construction_seconds": 0.10361653899985868,
+      "distance_search_seconds": 0.5542434720000529,
+      "scorer_seconds": null,
+      "calibration_seconds": null,
+      "monte_carlo_seconds": null,
+      "decode_seconds": null
+    }
+  },
+  {
+    "candidate_id": "mitm_g157",
+    "base_candidate_id": "g157",
+    "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+    "base_plan_sha256": "ae4566d8e65968f94d38351de4361d0aaea037361ff5ccab1e5c0bcafa9f088b",
+    "plan_sha256": "78efc3963598247f3780a1ec3158cf6730f7361152d13a72f4f37e40ad985ff6",
+    "ideal_sha256": "b2e05f5090a6bfb1f0740dde14d817f88e41c876015ed5d83a3837289e2fd2b7",
+    "noisy_sha256": "815d85f8a2e2e5b7c81338ede92c68e54077f834a2c75d466c92bdf086f1ae91",
+    "dem_sha256": "a217f5750da261765f3f24e5e0971b0ba9b80d672a105f278a47f864b03cc1ec",
+    "num_qubits": 309,
+    "num_detectors": 1836,
+    "num_observables": 2,
+    "graphlike_distance": 3,
+    "features": {
+      "physical_layers": 9,
+      "template_block_z": 27,
+      "cx_routing_steps": 2,
+      "logical_h_layers": 7,
+      "qec_rounds": null,
+      "stim_ticks": 636,
+      "data_reservation_block_z": 54,
+      "ancilla_reservation_block_z": 30,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          6,
+          3
+        ],
+        []
+      ],
+      "total_protected_idle_block_z": 12,
+      "max_protected_idle_block_z": 6,
+      "squared_protected_idle_block_z2": 54,
+      "cx_recurrence_separations_block_z": [
+        9
+      ],
+      "cx_gap_squared_block_z2": 81,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "shots": 0,
+    "counts": null,
+    "confidence_interval": null,
+    "timing": {
+      "main_compile_seconds": 37.71131808899986,
+      "exact_validation_seconds": 1.008698362000132,
+      "generator_compile_seconds": 121.4925109679998,
+      "generator_validation_seconds": 1.440501258000495,
+      "noise_seconds": 4.6343807039997955,
+      "dem_seconds": 0.49575819199981197,
+      "decoder_construction_seconds": 0.08615384600034304,
+      "distance_search_seconds": 0.5570856179997463,
+      "scorer_seconds": null,
+      "calibration_seconds": null,
+      "monte_carlo_seconds": null,
+      "decode_seconds": null
+    }
+  },
+  {
+    "candidate_id": "mitm_g159",
+    "base_candidate_id": "g159",
+    "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+    "base_plan_sha256": "d05d8f9fd6acff5e7a2057308c13828a9b65c9e60cf4f36b8b0358f5abcd48cc",
+    "plan_sha256": "88cd6d2acdb4d64daecc185137060c0f2f0d79a68555fe922d98b65c337aa463",
+    "ideal_sha256": "7cfd975398179cd7be1698072fbda03692519cf763cfd24091b58d7bbda5df2b",
+    "noisy_sha256": "5ec4d8fb7af576f1c814360496fd4195d3bfde8365a92878e8cc88bec287b74f",
+    "dem_sha256": "88bf1a0c120218f8126cc81915c9226645aca70c87abf31e3e6e2aac26aa2b10",
+    "num_qubits": 309,
+    "num_detectors": 1836,
+    "num_observables": 2,
+    "graphlike_distance": 3,
+    "features": {
+      "physical_layers": 9,
+      "template_block_z": 27,
+      "cx_routing_steps": 2,
+      "logical_h_layers": 7,
+      "qec_rounds": null,
+      "stim_ticks": 636,
+      "data_reservation_block_z": 54,
+      "ancilla_reservation_block_z": 30,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          6,
+          3
+        ],
+        []
+      ],
+      "total_protected_idle_block_z": 12,
+      "max_protected_idle_block_z": 6,
+      "squared_protected_idle_block_z2": 54,
+      "cx_recurrence_separations_block_z": [
+        9
+      ],
+      "cx_gap_squared_block_z2": 81,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "shots": 0,
+    "counts": null,
+    "confidence_interval": null,
+    "timing": {
+      "main_compile_seconds": 40.353855874000146,
+      "exact_validation_seconds": 0.8355366480000157,
+      "generator_compile_seconds": 117.85604735799939,
+      "generator_validation_seconds": 1.389392861000033,
+      "noise_seconds": 2.954786960000092,
+      "dem_seconds": 0.4175319189998845,
+      "decoder_construction_seconds": 0.07536510500040094,
+      "distance_search_seconds": 0.4379861659999733,
+      "scorer_seconds": null,
+      "calibration_seconds": null,
+      "monte_carlo_seconds": null,
+      "decode_seconds": null
+    }
+  },
+  {
+    "candidate_id": "mitm_g162",
+    "base_candidate_id": "g162",
+    "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+    "base_plan_sha256": "81e232fd27fdebf2719f74c5be0668f7d0a96c3240549bcd9c64a97ea960a253",
+    "plan_sha256": "dc9e3cc0f0b7e71edc8ba2088d0202117a8c6084aa3eb74ca5fb06f5a5b65359",
+    "ideal_sha256": "9b69c289f879c6b1649b40c9607e9a066211cd8bd3cb067b99a4d05e36150caf",
+    "noisy_sha256": "ba72edbb5684c927d388c4bb27fa84813339a8294c5904368c120789c6204142",
+    "dem_sha256": "cfd8f22f6e0bfbb2ce8bd6bc9040a8acb2989589aa6a8577e334c3fc745eb8bd",
+    "num_qubits": 309,
+    "num_detectors": 1836,
+    "num_observables": 2,
+    "graphlike_distance": 3,
+    "features": {
+      "physical_layers": 9,
+      "template_block_z": 27,
+      "cx_routing_steps": 2,
+      "logical_h_layers": 7,
+      "qec_rounds": null,
+      "stim_ticks": 636,
+      "data_reservation_block_z": 54,
+      "ancilla_reservation_block_z": 30,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          3,
+          3,
+          3
+        ],
+        []
+      ],
+      "total_protected_idle_block_z": 12,
+      "max_protected_idle_block_z": 3,
+      "squared_protected_idle_block_z2": 36,
+      "cx_recurrence_separations_block_z": [
+        9
+      ],
+      "cx_gap_squared_block_z2": 81,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "shots": 0,
+    "counts": null,
+    "confidence_interval": null,
+    "timing": {
+      "main_compile_seconds": 24.896982377999848,
+      "exact_validation_seconds": 0.7623866290000478,
+      "generator_compile_seconds": 116.51048848900018,
+      "generator_validation_seconds": 1.5093607270000575,
+      "noise_seconds": 3.2991404160002276,
+      "dem_seconds": 0.4333725520000371,
+      "decoder_construction_seconds": 0.044613615999878675,
+      "distance_search_seconds": 0.45254019300000436,
+      "scorer_seconds": null,
+      "calibration_seconds": null,
+      "monte_carlo_seconds": null,
+      "decode_seconds": null
+    }
+  },
+  {
+    "candidate_id": "mitm_g164",
+    "base_candidate_id": "g164",
+    "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+    "base_plan_sha256": "b6ede90cb82d175c0893c7b1d9591368e08bc278aa2d9de57ede817d45ee4499",
+    "plan_sha256": "a0434ff850fc1035cb71f3c0db12b7e6608f1d9df0b24e5c633370ac865f94a3",
+    "ideal_sha256": "9baccf2b487fe63536da7afed19c7ed084c3a98ff7c9d13f10694cb30cb5f7b1",
+    "noisy_sha256": "be9613e3b4ec5f462ab90ffe81f2f299b70a7731d8ae5bceaaaac0af03c1460f",
+    "dem_sha256": "17b0c166ce753a64a4296e65eb9d57d7094325dbbe7d336e563038945352e5c3",
+    "num_qubits": 309,
+    "num_detectors": 1836,
+    "num_observables": 2,
+    "graphlike_distance": 3,
+    "features": {
+      "physical_layers": 9,
+      "template_block_z": 27,
+      "cx_routing_steps": 2,
+      "logical_h_layers": 7,
+      "qec_rounds": null,
+      "stim_ticks": 636,
+      "data_reservation_block_z": 54,
+      "ancilla_reservation_block_z": 30,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          3,
+          3,
+          3
+        ],
+        []
+      ],
+      "total_protected_idle_block_z": 12,
+      "max_protected_idle_block_z": 3,
+      "squared_protected_idle_block_z2": 36,
+      "cx_recurrence_separations_block_z": [
+        9
+      ],
+      "cx_gap_squared_block_z2": 81,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "shots": 0,
+    "counts": null,
+    "confidence_interval": null,
+    "timing": {
+      "main_compile_seconds": 30.589763388999927,
+      "exact_validation_seconds": 0.6098531799998455,
+      "generator_compile_seconds": 112.9412015339999,
+      "generator_validation_seconds": 1.5312926860001426,
+      "noise_seconds": 2.1298269610001626,
+      "dem_seconds": 0.3300867500001914,
+      "decoder_construction_seconds": 0.12798916900010227,
+      "distance_search_seconds": 0.4790920659997937,
+      "scorer_seconds": null,
+      "calibration_seconds": null,
+      "monte_carlo_seconds": null,
+      "decode_seconds": null
+    }
+  },
+  {
+    "candidate_id": "mitm_g172",
+    "base_candidate_id": "g172",
+    "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+    "base_plan_sha256": "d340474bfa28d86a92f9a58b551a030f57af7153f54706b2fdc239b97f80b8b3",
+    "plan_sha256": "44d5e76a7a95cdf5b3b60f2cc097b460e636f0c29123b3ee19a967143d86a1d6",
+    "ideal_sha256": "75f9f31f77c7ddfdd57bd0496339b4c7a7c0ffca248bb9f368b512cc0488983e",
+    "noisy_sha256": "6e7f07f2bc0cdf0606758cea0aa7915f14bee6257411a77ec6c024d337b55b05",
+    "dem_sha256": "c3e9bb606edbca34fb62c9c0cfe444675fd8b9da4a6e9d199533149b94f73ebb",
+    "num_qubits": 309,
+    "num_detectors": 1836,
+    "num_observables": 2,
+    "graphlike_distance": 3,
+    "features": {
+      "physical_layers": 9,
+      "template_block_z": 27,
+      "cx_routing_steps": 2,
+      "logical_h_layers": 7,
+      "qec_rounds": null,
+      "stim_ticks": 636,
+      "data_reservation_block_z": 54,
+      "ancilla_reservation_block_z": 30,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          6,
+          3
+        ],
+        []
+      ],
+      "total_protected_idle_block_z": 12,
+      "max_protected_idle_block_z": 6,
+      "squared_protected_idle_block_z2": 54,
+      "cx_recurrence_separations_block_z": [
+        9
+      ],
+      "cx_gap_squared_block_z2": 81,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "shots": 0,
+    "counts": null,
+    "confidence_interval": null,
+    "timing": {
+      "main_compile_seconds": 27.419495877999907,
+      "exact_validation_seconds": 0.48199385399993844,
+      "generator_compile_seconds": 104.84130797999978,
+      "generator_validation_seconds": 1.3269758419996833,
+      "noise_seconds": 2.936327456000072,
+      "dem_seconds": 0.35266552399980355,
+      "decoder_construction_seconds": 0.06964733799986789,
+      "distance_search_seconds": 0.5080246210000041,
+      "scorer_seconds": null,
+      "calibration_seconds": null,
+      "monte_carlo_seconds": null,
+      "decode_seconds": null
+    }
+  },
+  {
+    "candidate_id": "mitm_g174",
+    "base_candidate_id": "g174",
+    "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+    "base_plan_sha256": "ed80ada35a9d41e0dd4b1c5b50fc0b0f44cf266124e1cddd0c345eee1244ab01",
+    "plan_sha256": "0d42b3292b1707be164903c9fd1fce09166d47201bf21296014339aae2ae140d",
+    "ideal_sha256": "c9ef5422b737a8f4dcb64fea778e0b3ffee6e1b3f2b1526ab5ed5102d7067182",
+    "noisy_sha256": "9b853b12097aa966eeeb44041e50ace786ceec137d519f10fe5244c2818d5b5b",
+    "dem_sha256": "b81e880b75f9d4b0cf2a9669fdfbbaabb08dc5f0ab2a4b46468f9811c8725611",
+    "num_qubits": 309,
+    "num_detectors": 1836,
+    "num_observables": 2,
+    "graphlike_distance": 3,
+    "features": {
+      "physical_layers": 9,
+      "template_block_z": 27,
+      "cx_routing_steps": 2,
+      "logical_h_layers": 7,
+      "qec_rounds": null,
+      "stim_ticks": 636,
+      "data_reservation_block_z": 54,
+      "ancilla_reservation_block_z": 30,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          6,
+          3
+        ],
+        []
+      ],
+      "total_protected_idle_block_z": 12,
+      "max_protected_idle_block_z": 6,
+      "squared_protected_idle_block_z2": 54,
+      "cx_recurrence_separations_block_z": [
+        9
+      ],
+      "cx_gap_squared_block_z2": 81,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "shots": 0,
+    "counts": null,
+    "confidence_interval": null,
+    "timing": {
+      "main_compile_seconds": 31.107748252999954,
+      "exact_validation_seconds": 1.2460637499998484,
+      "generator_compile_seconds": 95.0632274049999,
+      "generator_validation_seconds": 1.250031116000173,
+      "noise_seconds": 2.339528628000153,
+      "dem_seconds": 0.3264044620000277,
+      "decoder_construction_seconds": 0.05622142799984431,
+      "distance_search_seconds": 0.39198433299998214,
+      "scorer_seconds": null,
+      "calibration_seconds": null,
+      "monte_carlo_seconds": null,
+      "decode_seconds": null
+    }
+  }
+]

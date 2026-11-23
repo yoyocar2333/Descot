@@ -1,0 +1,1 @@
+PASS: all 12 original path replays, complete geometry, archived full outputs, generator hashes, distance3; 0 new shots
