@@ -1,0 +1,1 @@
+PASS: 175 legal plans; 12 complete physical minimum candidates; archived hashes; 0 shots

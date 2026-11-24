@@ -1,0 +1,9 @@
+projection_00 310 587 distance 3 accepted True 0 shots
+Traceback (most recent call last):
+  File "/workspace/scratch/a67f4ef18340/Descot/run_hamada_projection_control.py", line 185, in <module>
+    else:print(json.dumps(run(a.output),indent=2))
+                          ^^^^^^^^^^^^^
+  File "/workspace/scratch/a67f4ef18340/Descot/run_hamada_projection_control.py", line 141, in run
+    files=FILES+[str(p.relative_to(ROOT)) for p in VENDOR.rglob('*') if p.is_file()]
+                                                   ^^^^^^
+NameError: name 'VENDOR' is not defined

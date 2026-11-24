@@ -1,0 +1,9281 @@
+{
+  "candidate_id": "projection_00",
+  "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+  "plan_sha256": "4bb1d7124f5629c30b7146b9c3ba63671e9da6e37b28d088d02a44679cbaa050",
+  "ideal_sha256": "fa0c3082e3109c5c1198bffa9bb200ce0fa6893db6530aa0014d6322102230d2",
+  "noisy_sha256": "6beb84355a2ebd4dd84501d1c8f0aedd97967286e37b9b060ceb3f071c511ec4",
+  "dem_sha256": "2a561d4ba0f76a132f762b31cce2243d72a8e9e7568d307aca8afcc8b518a11f",
+  "graphlike_distance": 3,
+  "accepted": true,
+  "num_qubits": 310,
+  "num_detectors": 2558,
+  "num_observables": 2,
+  "stim_ticks": 587,
+  "backend_meta": {
+    "profile_id": "full_source_height_projection_v1",
+    "logical_qubits": 2,
+    "distance": 3,
+    "logical_block_xy": [
+      [
+        0,
+        0
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "input_bases": "zz",
+    "output_bases": "zz",
+    "input_z": 0,
+    "output_z": 24,
+    "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+    "operation_counts": {
+      "cx": 2,
+      "h": 10,
+      "measure": 2,
+      "x": 4
+    },
+    "instruction_trace": [
+      {
+        "id": 0,
+        "name": "h",
+        "qubits": [
+          0
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [],
+        "start_block_z": 0,
+        "end_block_z": 3,
+        "endpoint_heights": [],
+        "frame_x_after": [
+          0,
+          0
+        ],
+        "frame_z_after": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": 1,
+        "name": "h",
+        "qubits": [
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [],
+        "start_block_z": 0,
+        "end_block_z": 3,
+        "endpoint_heights": [],
+        "frame_x_after": [
+          0,
+          0
+        ],
+        "frame_z_after": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": 2,
+        "name": "h",
+        "qubits": [
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          1
+        ],
+        "start_block_z": 3,
+        "end_block_z": 6,
+        "endpoint_heights": [],
+        "frame_x_after": [
+          0,
+          0
+        ],
+        "frame_z_after": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": 3,
+        "name": "cx",
+        "qubits": [
+          0,
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          0,
+          2
+        ],
+        "start_block_z": 6,
+        "end_block_z": 7,
+        "endpoint_heights": [
+          3,
+          6
+        ],
+        "frame_x_after": [
+          0,
+          0
+        ],
+        "frame_z_after": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": 4,
+        "name": "h",
+        "qubits": [
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          3
+        ],
+        "start_block_z": 7,
+        "end_block_z": 10,
+        "endpoint_heights": [],
+        "frame_x_after": [
+          0,
+          0
+        ],
+        "frame_z_after": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": 5,
+        "name": "h",
+        "qubits": [
+          0
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          3
+        ],
+        "start_block_z": 4,
+        "end_block_z": 7,
+        "endpoint_heights": [],
+        "frame_x_after": [
+          0,
+          0
+        ],
+        "frame_z_after": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": 6,
+        "name": "h",
+        "qubits": [
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          4
+        ],
+        "start_block_z": 10,
+        "end_block_z": 13,
+        "endpoint_heights": [],
+        "frame_x_after": [
+          0,
+          0
+        ],
+        "frame_z_after": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": 7,
+        "name": "x",
+        "qubits": [
+          0
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          5
+        ],
+        "start_block_z": 7,
+        "end_block_z": 7,
+        "endpoint_heights": [],
+        "frame_x_after": [
+          1,
+          0
+        ],
+        "frame_z_after": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": 8,
+        "name": "x",
+        "qubits": [
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          6
+        ],
+        "start_block_z": 13,
+        "end_block_z": 13,
+        "endpoint_heights": [],
+        "frame_x_after": [
+          1,
+          1
+        ],
+        "frame_z_after": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": 9,
+        "name": "h",
+        "qubits": [
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          8
+        ],
+        "start_block_z": 13,
+        "end_block_z": 16,
+        "endpoint_heights": [],
+        "frame_x_after": [
+          1,
+          0
+        ],
+        "frame_z_after": [
+          0,
+          1
+        ]
+      },
+      {
+        "id": 10,
+        "name": "cx",
+        "qubits": [
+          0,
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          7,
+          9
+        ],
+        "start_block_z": 16,
+        "end_block_z": 17,
+        "endpoint_heights": [
+          7,
+          16
+        ],
+        "frame_x_after": [
+          1,
+          1
+        ],
+        "frame_z_after": [
+          1,
+          1
+        ]
+      },
+      {
+        "id": 11,
+        "name": "h",
+        "qubits": [
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          10
+        ],
+        "start_block_z": 17,
+        "end_block_z": 20,
+        "endpoint_heights": [],
+        "frame_x_after": [
+          1,
+          1
+        ],
+        "frame_z_after": [
+          1,
+          1
+        ]
+      },
+      {
+        "id": 12,
+        "name": "x",
+        "qubits": [
+          0
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          10
+        ],
+        "start_block_z": 8,
+        "end_block_z": 8,
+        "endpoint_heights": [],
+        "frame_x_after": [
+          0,
+          1
+        ],
+        "frame_z_after": [
+          1,
+          1
+        ]
+      },
+      {
+        "id": 13,
+        "name": "x",
+        "qubits": [
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          11
+        ],
+        "start_block_z": 20,
+        "end_block_z": 20,
+        "endpoint_heights": [],
+        "frame_x_after": [
+          0,
+          0
+        ],
+        "frame_z_after": [
+          1,
+          1
+        ]
+      },
+      {
+        "id": 14,
+        "name": "h",
+        "qubits": [
+          0
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          12
+        ],
+        "start_block_z": 8,
+        "end_block_z": 11,
+        "endpoint_heights": [],
+        "frame_x_after": [
+          1,
+          0
+        ],
+        "frame_z_after": [
+          0,
+          1
+        ]
+      },
+      {
+        "id": 15,
+        "name": "h",
+        "qubits": [
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          13
+        ],
+        "start_block_z": 20,
+        "end_block_z": 23,
+        "endpoint_heights": [],
+        "frame_x_after": [
+          1,
+          1
+        ],
+        "frame_z_after": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": 16,
+        "name": "measure",
+        "qubits": [
+          0
+        ],
+        "clbits": [
+          0
+        ],
+        "params": [],
+        "predecessors": [
+          14
+        ],
+        "start_block_z": 24,
+        "end_block_z": 24,
+        "endpoint_heights": [],
+        "frame_x_after": [
+          1,
+          1
+        ],
+        "frame_z_after": [
+          0,
+          0
+        ],
+        "source_ready_block_z": 11
+      },
+      {
+        "id": 17,
+        "name": "measure",
+        "qubits": [
+          1
+        ],
+        "clbits": [
+          1
+        ],
+        "params": [],
+        "predecessors": [
+          15
+        ],
+        "start_block_z": 24,
+        "end_block_z": 24,
+        "endpoint_heights": [],
+        "frame_x_after": [
+          1,
+          1
+        ],
+        "frame_z_after": [
+          0,
+          0
+        ],
+        "source_ready_block_z": 23
+      }
+    ],
+    "routed_geometry": [
+      {
+        "operation_id": 3,
+        "path_block_xyz": [
+          [
+            0,
+            0,
+            4
+          ],
+          [
+            1,
+            0,
+            4
+          ],
+          [
+            1,
+            0,
+            3
+          ],
+          [
+            1,
+            0,
+            2
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            2,
+            3,
+            1
+          ],
+          [
+            2,
+            3,
+            2
+          ],
+          [
+            2,
+            3,
+            3
+          ],
+          [
+            2,
+            3,
+            4
+          ],
+          [
+            2,
+            3,
+            5
+          ],
+          [
+            2,
+            3,
+            6
+          ],
+          [
+            2,
+            3,
+            7
+          ],
+          [
+            3,
+            3,
+            7
+          ]
+        ],
+        "cube_kinds": [
+          "XZX",
+          "XZX",
+          "XZX",
+          "XZX",
+          "XZZ",
+          "XXZ",
+          "XXZ",
+          "XXZ",
+          "ZXZ",
+          "ZXX",
+          "ZXX",
+          "ZXX",
+          "ZXX",
+          "ZXX",
+          "ZXZ",
+          "ZXZ"
+        ],
+        "native_kinks": 1
+      },
+      {
+        "operation_id": 10,
+        "path_block_xyz": [
+          [
+            0,
+            0,
+            8
+          ],
+          [
+            0,
+            1,
+            8
+          ],
+          [
+            0,
+            1,
+            7
+          ],
+          [
+            0,
+            1,
+            6
+          ],
+          [
+            0,
+            1,
+            5
+          ],
+          [
+            0,
+            1,
+            4
+          ],
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            1,
+            2
+          ],
+          [
+            2,
+            1,
+            2
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            3,
+            2,
+            2
+          ],
+          [
+            3,
+            2,
+            3
+          ],
+          [
+            3,
+            2,
+            4
+          ],
+          [
+            3,
+            2,
+            5
+          ],
+          [
+            3,
+            2,
+            6
+          ],
+          [
+            3,
+            2,
+            7
+          ],
+          [
+            3,
+            2,
+            8
+          ],
+          [
+            3,
+            2,
+            9
+          ],
+          [
+            3,
+            2,
+            10
+          ],
+          [
+            3,
+            2,
+            11
+          ],
+          [
+            3,
+            2,
+            12
+          ],
+          [
+            3,
+            2,
+            13
+          ],
+          [
+            3,
+            2,
+            14
+          ],
+          [
+            3,
+            2,
+            15
+          ],
+          [
+            3,
+            2,
+            16
+          ],
+          [
+            3,
+            2,
+            17
+          ],
+          [
+            3,
+            3,
+            17
+          ]
+        ],
+        "cube_kinds": [
+          "ZXX",
+          "ZXX",
+          "ZXX",
+          "ZXX",
+          "ZXX",
+          "ZXX",
+          "ZXX",
+          "ZXZ",
+          "XXZ",
+          "ZXZ",
+          "ZXX",
+          "ZZX",
+          "XZX",
+          "XZX",
+          "XZX",
+          "XZX",
+          "XZX",
+          "XZX",
+          "XZX",
+          "XZX",
+          "XZX",
+          "XZX",
+          "XZX",
+          "XZX",
+          "XZX",
+          "XZX",
+          "XZX",
+          "XZX",
+          "XZZ",
+          "XZZ"
+        ],
+        "native_kinks": 3
+      }
+    ],
+    "frame_x": [
+      1,
+      1
+    ],
+    "frame_z": [
+      0,
+      0
+    ],
+    "terminal_readout": [
+      {
+        "qubit": 0,
+        "classical_bit": 0
+      },
+      {
+        "qubit": 1,
+        "classical_bit": 1
+      }
+    ],
+    "final_orientations": [
+      1,
+      1
+    ],
+    "tqec_commit": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+    "projection_plan": {
+      "policy": "source_order",
+      "spacing": 3,
+      "events": [
+        {
+          "operation_id": 0,
+          "start": 0,
+          "path": [],
+          "kinks": 0,
+          "heights_before": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "heights_after": [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "operation_id": 1,
+          "start": 0,
+          "path": [],
+          "kinks": 0,
+          "heights_before": [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "heights_after": [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "operation_id": 2,
+          "start": 3,
+          "path": [],
+          "kinks": 0,
+          "heights_before": [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3
+          ],
+          "heights_after": [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            6
+          ]
+        },
+        {
+          "operation_id": 3,
+          "start": 6,
+          "path": [
+            [
+              0,
+              0,
+              3
+            ],
+            [
+              1,
+              0,
+              3
+            ],
+            [
+              1,
+              0,
+              2
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              2,
+              0
+            ],
+            [
+              1,
+              3,
+              0
+            ],
+            [
+              2,
+              3,
+              0
+            ],
+            [
+              2,
+              3,
+              1
+            ],
+            [
+              2,
+              3,
+              2
+            ],
+            [
+              2,
+              3,
+              3
+            ],
+            [
+              2,
+              3,
+              4
+            ],
+            [
+              2,
+              3,
+              5
+            ],
+            [
+              2,
+              3,
+              6
+            ],
+            [
+              3,
+              3,
+              6
+            ]
+          ],
+          "kinks": 1,
+          "heights_before": [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            6
+          ],
+          "heights_after": [
+            4,
+            4,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            7,
+            7
+          ]
+        },
+        {
+          "operation_id": 4,
+          "start": 7,
+          "path": [],
+          "kinks": 0,
+          "heights_before": [
+            4,
+            4,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            7,
+            7
+          ],
+          "heights_after": [
+            4,
+            4,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            7,
+            10
+          ]
+        },
+        {
+          "operation_id": 5,
+          "start": 4,
+          "path": [],
+          "kinks": 0,
+          "heights_before": [
+            4,
+            4,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            7,
+            10
+          ],
+          "heights_after": [
+            7,
+            4,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            7,
+            10
+          ]
+        },
+        {
+          "operation_id": 6,
+          "start": 10,
+          "path": [],
+          "kinks": 0,
+          "heights_before": [
+            7,
+            4,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            7,
+            10
+          ],
+          "heights_after": [
+            7,
+            4,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            7,
+            13
+          ]
+        },
+        {
+          "operation_id": 7,
+          "start": 7,
+          "path": [],
+          "kinks": 0,
+          "heights_before": [
+            7,
+            4,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            7,
+            13
+          ],
+          "heights_after": [
+            7,
+            4,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            7,
+            13
+          ]
+        },
+        {
+          "operation_id": 8,
+          "start": 13,
+          "path": [],
+          "kinks": 0,
+          "heights_before": [
+            7,
+            4,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            7,
+            13
+          ],
+          "heights_after": [
+            7,
+            4,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            7,
+            13
+          ]
+        },
+        {
+          "operation_id": 9,
+          "start": 13,
+          "path": [],
+          "kinks": 0,
+          "heights_before": [
+            7,
+            4,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            7,
+            13
+          ],
+          "heights_after": [
+            7,
+            4,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            7,
+            16
+          ]
+        },
+        {
+          "operation_id": 10,
+          "start": 16,
+          "path": [
+            [
+              0,
+              0,
+              7
+            ],
+            [
+              0,
+              1,
+              7
+            ],
+            [
+              0,
+              1,
+              6
+            ],
+            [
+              0,
+              1,
+              5
+            ],
+            [
+              0,
+              1,
+              4
+            ],
+            [
+              0,
+              1,
+              3
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              2,
+              1,
+              1
+            ],
+            [
+              2,
+              1,
+              0
+            ],
+            [
+              2,
+              2,
+              0
+            ],
+            [
+              3,
+              2,
+              0
+            ],
+            [
+              3,
+              2,
+              1
+            ],
+            [
+              3,
+              2,
+              2
+            ],
+            [
+              3,
+              2,
+              3
+            ],
+            [
+              3,
+              2,
+              4
+            ],
+            [
+              3,
+              2,
+              5
+            ],
+            [
+              3,
+              2,
+              6
+            ],
+            [
+              3,
+              2,
+              7
+            ],
+            [
+              3,
+              2,
+              8
+            ],
+            [
+              3,
+              2,
+              9
+            ],
+            [
+              3,
+              2,
+              10
+            ],
+            [
+              3,
+              2,
+              11
+            ],
+            [
+              3,
+              2,
+              12
+            ],
+            [
+              3,
+              2,
+              13
+            ],
+            [
+              3,
+              2,
+              14
+            ],
+            [
+              3,
+              2,
+              15
+            ],
+            [
+              3,
+              2,
+              16
+            ],
+            [
+              3,
+              3,
+              16
+            ]
+          ],
+          "kinks": 3,
+          "heights_before": [
+            7,
+            4,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            7,
+            16
+          ],
+          "heights_after": [
+            8,
+            4,
+            0,
+            0,
+            8,
+            2,
+            2,
+            0,
+            0,
+            1,
+            1,
+            17,
+            0,
+            1,
+            7,
+            17
+          ]
+        },
+        {
+          "operation_id": 11,
+          "start": 17,
+          "path": [],
+          "kinks": 0,
+          "heights_before": [
+            8,
+            4,
+            0,
+            0,
+            8,
+            2,
+            2,
+            0,
+            0,
+            1,
+            1,
+            17,
+            0,
+            1,
+            7,
+            17
+          ],
+          "heights_after": [
+            8,
+            4,
+            0,
+            0,
+            8,
+            2,
+            2,
+            0,
+            0,
+            1,
+            1,
+            17,
+            0,
+            1,
+            7,
+            20
+          ]
+        },
+        {
+          "operation_id": 12,
+          "start": 8,
+          "path": [],
+          "kinks": 0,
+          "heights_before": [
+            8,
+            4,
+            0,
+            0,
+            8,
+            2,
+            2,
+            0,
+            0,
+            1,
+            1,
+            17,
+            0,
+            1,
+            7,
+            20
+          ],
+          "heights_after": [
+            8,
+            4,
+            0,
+            0,
+            8,
+            2,
+            2,
+            0,
+            0,
+            1,
+            1,
+            17,
+            0,
+            1,
+            7,
+            20
+          ]
+        },
+        {
+          "operation_id": 13,
+          "start": 20,
+          "path": [],
+          "kinks": 0,
+          "heights_before": [
+            8,
+            4,
+            0,
+            0,
+            8,
+            2,
+            2,
+            0,
+            0,
+            1,
+            1,
+            17,
+            0,
+            1,
+            7,
+            20
+          ],
+          "heights_after": [
+            8,
+            4,
+            0,
+            0,
+            8,
+            2,
+            2,
+            0,
+            0,
+            1,
+            1,
+            17,
+            0,
+            1,
+            7,
+            20
+          ]
+        },
+        {
+          "operation_id": 14,
+          "start": 8,
+          "path": [],
+          "kinks": 0,
+          "heights_before": [
+            8,
+            4,
+            0,
+            0,
+            8,
+            2,
+            2,
+            0,
+            0,
+            1,
+            1,
+            17,
+            0,
+            1,
+            7,
+            20
+          ],
+          "heights_after": [
+            11,
+            4,
+            0,
+            0,
+            8,
+            2,
+            2,
+            0,
+            0,
+            1,
+            1,
+            17,
+            0,
+            1,
+            7,
+            20
+          ]
+        },
+        {
+          "operation_id": 15,
+          "start": 20,
+          "path": [],
+          "kinks": 0,
+          "heights_before": [
+            11,
+            4,
+            0,
+            0,
+            8,
+            2,
+            2,
+            0,
+            0,
+            1,
+            1,
+            17,
+            0,
+            1,
+            7,
+            20
+          ],
+          "heights_after": [
+            11,
+            4,
+            0,
+            0,
+            8,
+            2,
+            2,
+            0,
+            0,
+            1,
+            1,
+            17,
+            0,
+            1,
+            7,
+            23
+          ]
+        },
+        {
+          "operation_id": 16,
+          "start": 11,
+          "path": [],
+          "kinks": 0,
+          "heights_before": [
+            11,
+            4,
+            0,
+            0,
+            8,
+            2,
+            2,
+            0,
+            0,
+            1,
+            1,
+            17,
+            0,
+            1,
+            7,
+            23
+          ],
+          "heights_after": [
+            11,
+            4,
+            0,
+            0,
+            8,
+            2,
+            2,
+            0,
+            0,
+            1,
+            1,
+            17,
+            0,
+            1,
+            7,
+            23
+          ]
+        },
+        {
+          "operation_id": 17,
+          "start": 23,
+          "path": [],
+          "kinks": 0,
+          "heights_before": [
+            11,
+            4,
+            0,
+            0,
+            8,
+            2,
+            2,
+            0,
+            0,
+            1,
+            1,
+            17,
+            0,
+            1,
+            7,
+            23
+          ],
+          "heights_after": [
+            11,
+            4,
+            0,
+            0,
+            8,
+            2,
+            2,
+            0,
+            0,
+            1,
+            1,
+            17,
+            0,
+            1,
+            7,
+            23
+          ]
+        }
+      ],
+      "elapsed_height": 23,
+      "mu": 0
+    },
+    "mu": 0,
+    "timing_policy": "Projection heights map explicitly to block-z vertices; H consumes 3 block-z, X virtual; readouts at common final boundary. Not native code beats or inferred QEC rounds/TICKs.",
+    "external_flows": [
+      "ZIIZ",
+      "IZZI"
+    ],
+    "num_qubits": 310,
+    "num_ticks": 587,
+    "num_observables": 2,
+    "num_detectors": 2558
+  },
+  "validation": {
+    "exact": true,
+    "sampler_calls": 0,
+    "signed_inputs": [
+      {
+        "input_signs": [
+          0,
+          0
+        ],
+        "observable_parities": [
+          0,
+          0
+        ]
+      },
+      {
+        "input_signs": [
+          0,
+          1
+        ],
+        "observable_parities": [
+          0,
+          1
+        ]
+      },
+      {
+        "input_signs": [
+          1,
+          0
+        ],
+        "observable_parities": [
+          1,
+          0
+        ]
+      },
+      {
+        "input_signs": [
+          1,
+          1
+        ],
+        "observable_parities": [
+          1,
+          1
+        ]
+      }
+    ],
+    "final_faults": [
+      {
+        "qubit": 0,
+        "observable_flips": [
+          0,
+          1
+        ]
+      },
+      {
+        "qubit": 1,
+        "observable_flips": [
+          1,
+          0
+        ]
+      }
+    ],
+    "detector_checks": 2558,
+    "logical_relations": [
+      {
+        "input": "+Z_",
+        "output": "-_Z"
+      },
+      {
+        "input": "+_Z",
+        "output": "-Z_"
+      }
+    ],
+    "checker": "DEM determinism plus exact tableau reference signs; no sampler",
+    "full_z_readout_rank": 2
+  },
+  "generators": [
+    {
+      "generator": "X0",
+      "input_bases": "xz",
+      "output_bases": "zx",
+      "target_flow": "+X_ZX",
+      "span": [
+        0
+      ],
+      "ideal_sha256": "f2d3a9e43cc6627e823005ebf020ff3d16c051c78f3dccfbc65108ea85a5781b",
+      "validation": {
+        "exact": true,
+        "sampler_calls": 0,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0
+            ]
+          },
+          {
+            "input_signs": [
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              0
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              1
+            ]
+          }
+        ],
+        "final_faults": [],
+        "detector_checks": 2558,
+        "logical_relations": [
+          {
+            "input": "+X_",
+            "output": "-ZX"
+          },
+          {
+            "input": "+_Z",
+            "output": "-Z_"
+          }
+        ],
+        "checker": "DEM determinism plus exact tableau reference signs; no sampler",
+        "full_z_readout_rank": null
+      },
+      "backend_meta": {
+        "profile_id": "full_source_height_projection_v1",
+        "logical_qubits": 2,
+        "distance": 3,
+        "logical_block_xy": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "input_bases": "xz",
+        "output_bases": "zx",
+        "input_z": 0,
+        "output_z": 24,
+        "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+        "operation_counts": {
+          "cx": 2,
+          "h": 10,
+          "measure": 2,
+          "x": 4
+        },
+        "instruction_trace": [
+          {
+            "id": 0,
+            "name": "h",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [],
+            "start_block_z": 0,
+            "end_block_z": 3,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 1,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [],
+            "start_block_z": 0,
+            "end_block_z": 3,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 2,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              1
+            ],
+            "start_block_z": 3,
+            "end_block_z": 6,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 3,
+            "name": "cx",
+            "qubits": [
+              0,
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              0,
+              2
+            ],
+            "start_block_z": 6,
+            "end_block_z": 7,
+            "endpoint_heights": [
+              3,
+              6
+            ],
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 4,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              3
+            ],
+            "start_block_z": 7,
+            "end_block_z": 10,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 5,
+            "name": "h",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              3
+            ],
+            "start_block_z": 4,
+            "end_block_z": 7,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 6,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              4
+            ],
+            "start_block_z": 10,
+            "end_block_z": 13,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 7,
+            "name": "x",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              5
+            ],
+            "start_block_z": 7,
+            "end_block_z": 7,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              1,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 8,
+            "name": "x",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              6
+            ],
+            "start_block_z": 13,
+            "end_block_z": 13,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 9,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              8
+            ],
+            "start_block_z": 13,
+            "end_block_z": 16,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              1,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": 10,
+            "name": "cx",
+            "qubits": [
+              0,
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              7,
+              9
+            ],
+            "start_block_z": 16,
+            "end_block_z": 17,
+            "endpoint_heights": [
+              7,
+              16
+            ],
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "id": 11,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              10
+            ],
+            "start_block_z": 17,
+            "end_block_z": 20,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "id": 12,
+            "name": "x",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              10
+            ],
+            "start_block_z": 8,
+            "end_block_z": 8,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              0,
+              1
+            ],
+            "frame_z_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "id": 13,
+            "name": "x",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              11
+            ],
+            "start_block_z": 20,
+            "end_block_z": 20,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "id": 14,
+            "name": "h",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              12
+            ],
+            "start_block_z": 8,
+            "end_block_z": 11,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              1,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": 15,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              13
+            ],
+            "start_block_z": 20,
+            "end_block_z": 23,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 16,
+            "name": "measure",
+            "qubits": [
+              0
+            ],
+            "clbits": [
+              0
+            ],
+            "params": [],
+            "predecessors": [
+              14
+            ],
+            "start_block_z": 24,
+            "end_block_z": 24,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ],
+            "source_ready_block_z": 11
+          },
+          {
+            "id": 17,
+            "name": "measure",
+            "qubits": [
+              1
+            ],
+            "clbits": [
+              1
+            ],
+            "params": [],
+            "predecessors": [
+              15
+            ],
+            "start_block_z": 24,
+            "end_block_z": 24,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ],
+            "source_ready_block_z": 23
+          }
+        ],
+        "routed_geometry": [
+          {
+            "operation_id": 3,
+            "path_block_xyz": [
+              [
+                0,
+                0,
+                4
+              ],
+              [
+                1,
+                0,
+                4
+              ],
+              [
+                1,
+                0,
+                3
+              ],
+              [
+                1,
+                0,
+                2
+              ],
+              [
+                1,
+                0,
+                1
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                1,
+                2,
+                1
+              ],
+              [
+                1,
+                3,
+                1
+              ],
+              [
+                2,
+                3,
+                1
+              ],
+              [
+                2,
+                3,
+                2
+              ],
+              [
+                2,
+                3,
+                3
+              ],
+              [
+                2,
+                3,
+                4
+              ],
+              [
+                2,
+                3,
+                5
+              ],
+              [
+                2,
+                3,
+                6
+              ],
+              [
+                2,
+                3,
+                7
+              ],
+              [
+                3,
+                3,
+                7
+              ]
+            ],
+            "cube_kinds": [
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZZ",
+              "XXZ",
+              "XXZ",
+              "XXZ",
+              "ZXZ",
+              "ZXX",
+              "ZXX",
+              "ZXX",
+              "ZXX",
+              "ZXX",
+              "ZXZ",
+              "ZXZ"
+            ],
+            "native_kinks": 1
+          },
+          {
+            "operation_id": 10,
+            "path_block_xyz": [
+              [
+                0,
+                0,
+                8
+              ],
+              [
+                0,
+                1,
+                8
+              ],
+              [
+                0,
+                1,
+                7
+              ],
+              [
+                0,
+                1,
+                6
+              ],
+              [
+                0,
+                1,
+                5
+              ],
+              [
+                0,
+                1,
+                4
+              ],
+              [
+                0,
+                1,
+                3
+              ],
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                1,
+                1,
+                2
+              ],
+              [
+                2,
+                1,
+                2
+              ],
+              [
+                2,
+                1,
+                1
+              ],
+              [
+                2,
+                2,
+                1
+              ],
+              [
+                3,
+                2,
+                1
+              ],
+              [
+                3,
+                2,
+                2
+              ],
+              [
+                3,
+                2,
+                3
+              ],
+              [
+                3,
+                2,
+                4
+              ],
+              [
+                3,
+                2,
+                5
+              ],
+              [
+                3,
+                2,
+                6
+              ],
+              [
+                3,
+                2,
+                7
+              ],
+              [
+                3,
+                2,
+                8
+              ],
+              [
+                3,
+                2,
+                9
+              ],
+              [
+                3,
+                2,
+                10
+              ],
+              [
+                3,
+                2,
+                11
+              ],
+              [
+                3,
+                2,
+                12
+              ],
+              [
+                3,
+                2,
+                13
+              ],
+              [
+                3,
+                2,
+                14
+              ],
+              [
+                3,
+                2,
+                15
+              ],
+              [
+                3,
+                2,
+                16
+              ],
+              [
+                3,
+                2,
+                17
+              ],
+              [
+                3,
+                3,
+                17
+              ]
+            ],
+            "cube_kinds": [
+              "ZXX",
+              "ZXX",
+              "ZXX",
+              "ZXX",
+              "ZXX",
+              "ZXX",
+              "ZXX",
+              "ZXZ",
+              "XXZ",
+              "ZXZ",
+              "ZXX",
+              "ZZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZZ",
+              "XZZ"
+            ],
+            "native_kinks": 3
+          }
+        ],
+        "frame_x": [
+          1,
+          1
+        ],
+        "frame_z": [
+          0,
+          0
+        ],
+        "terminal_readout": [
+          {
+            "qubit": 0,
+            "classical_bit": 0
+          },
+          {
+            "qubit": 1,
+            "classical_bit": 1
+          }
+        ],
+        "final_orientations": [
+          1,
+          1
+        ],
+        "tqec_commit": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+        "projection_plan": {
+          "policy": "source_order",
+          "spacing": 3,
+          "events": [
+            {
+              "operation_id": 0,
+              "start": 0,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "heights_after": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "operation_id": 1,
+              "start": 0,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "heights_after": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3
+              ]
+            },
+            {
+              "operation_id": 2,
+              "start": 3,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3
+              ],
+              "heights_after": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                6
+              ]
+            },
+            {
+              "operation_id": 3,
+              "start": 6,
+              "path": [
+                [
+                  0,
+                  0,
+                  3
+                ],
+                [
+                  1,
+                  0,
+                  3
+                ],
+                [
+                  1,
+                  0,
+                  2
+                ],
+                [
+                  1,
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  2,
+                  0
+                ],
+                [
+                  1,
+                  3,
+                  0
+                ],
+                [
+                  2,
+                  3,
+                  0
+                ],
+                [
+                  2,
+                  3,
+                  1
+                ],
+                [
+                  2,
+                  3,
+                  2
+                ],
+                [
+                  2,
+                  3,
+                  3
+                ],
+                [
+                  2,
+                  3,
+                  4
+                ],
+                [
+                  2,
+                  3,
+                  5
+                ],
+                [
+                  2,
+                  3,
+                  6
+                ],
+                [
+                  3,
+                  3,
+                  6
+                ]
+              ],
+              "kinks": 1,
+              "heights_before": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                6
+              ],
+              "heights_after": [
+                4,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                7
+              ]
+            },
+            {
+              "operation_id": 4,
+              "start": 7,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                4,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                7
+              ],
+              "heights_after": [
+                4,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                10
+              ]
+            },
+            {
+              "operation_id": 5,
+              "start": 4,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                4,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                10
+              ],
+              "heights_after": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                10
+              ]
+            },
+            {
+              "operation_id": 6,
+              "start": 10,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                10
+              ],
+              "heights_after": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                13
+              ]
+            },
+            {
+              "operation_id": 7,
+              "start": 7,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                13
+              ],
+              "heights_after": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                13
+              ]
+            },
+            {
+              "operation_id": 8,
+              "start": 13,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                13
+              ],
+              "heights_after": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                13
+              ]
+            },
+            {
+              "operation_id": 9,
+              "start": 13,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                13
+              ],
+              "heights_after": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                16
+              ]
+            },
+            {
+              "operation_id": 10,
+              "start": 16,
+              "path": [
+                [
+                  0,
+                  0,
+                  7
+                ],
+                [
+                  0,
+                  1,
+                  7
+                ],
+                [
+                  0,
+                  1,
+                  6
+                ],
+                [
+                  0,
+                  1,
+                  5
+                ],
+                [
+                  0,
+                  1,
+                  4
+                ],
+                [
+                  0,
+                  1,
+                  3
+                ],
+                [
+                  0,
+                  1,
+                  2
+                ],
+                [
+                  0,
+                  1,
+                  1
+                ],
+                [
+                  1,
+                  1,
+                  1
+                ],
+                [
+                  2,
+                  1,
+                  1
+                ],
+                [
+                  2,
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  2,
+                  0
+                ],
+                [
+                  3,
+                  2,
+                  0
+                ],
+                [
+                  3,
+                  2,
+                  1
+                ],
+                [
+                  3,
+                  2,
+                  2
+                ],
+                [
+                  3,
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  2,
+                  4
+                ],
+                [
+                  3,
+                  2,
+                  5
+                ],
+                [
+                  3,
+                  2,
+                  6
+                ],
+                [
+                  3,
+                  2,
+                  7
+                ],
+                [
+                  3,
+                  2,
+                  8
+                ],
+                [
+                  3,
+                  2,
+                  9
+                ],
+                [
+                  3,
+                  2,
+                  10
+                ],
+                [
+                  3,
+                  2,
+                  11
+                ],
+                [
+                  3,
+                  2,
+                  12
+                ],
+                [
+                  3,
+                  2,
+                  13
+                ],
+                [
+                  3,
+                  2,
+                  14
+                ],
+                [
+                  3,
+                  2,
+                  15
+                ],
+                [
+                  3,
+                  2,
+                  16
+                ],
+                [
+                  3,
+                  3,
+                  16
+                ]
+              ],
+              "kinks": 3,
+              "heights_before": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                16
+              ],
+              "heights_after": [
+                8,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                17
+              ]
+            },
+            {
+              "operation_id": 11,
+              "start": 17,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                8,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                17
+              ],
+              "heights_after": [
+                8,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                20
+              ]
+            },
+            {
+              "operation_id": 12,
+              "start": 8,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                8,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                20
+              ],
+              "heights_after": [
+                8,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                20
+              ]
+            },
+            {
+              "operation_id": 13,
+              "start": 20,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                8,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                20
+              ],
+              "heights_after": [
+                8,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                20
+              ]
+            },
+            {
+              "operation_id": 14,
+              "start": 8,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                8,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                20
+              ],
+              "heights_after": [
+                11,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                20
+              ]
+            },
+            {
+              "operation_id": 15,
+              "start": 20,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                11,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                20
+              ],
+              "heights_after": [
+                11,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                23
+              ]
+            },
+            {
+              "operation_id": 16,
+              "start": 11,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                11,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                23
+              ],
+              "heights_after": [
+                11,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                23
+              ]
+            },
+            {
+              "operation_id": 17,
+              "start": 23,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                11,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                23
+              ],
+              "heights_after": [
+                11,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                23
+              ]
+            }
+          ],
+          "elapsed_height": 23,
+          "mu": 0
+        },
+        "mu": 0,
+        "timing_policy": "Projection heights map explicitly to block-z vertices; H consumes 3 block-z, X virtual; readouts at common final boundary. Not native code beats or inferred QEC rounds/TICKs.",
+        "external_flows": [
+          "XIZX",
+          "IZZI"
+        ],
+        "num_qubits": 310,
+        "num_ticks": 587,
+        "num_observables": 2,
+        "num_detectors": 2558
+      },
+      "compile_seconds": 21.478000970999915,
+      "exact_seconds": 0.2898669219999874
+    },
+    {
+      "generator": "X1",
+      "input_bases": "zx",
+      "output_bases": "xz",
+      "target_flow": "+_XXZ",
+      "span": [
+        1
+      ],
+      "ideal_sha256": "0878ae5b6c2a16524907d45223b79df9d4670f7d90356ad63d84afefa3735042",
+      "validation": {
+        "exact": true,
+        "sampler_calls": 0,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0
+            ]
+          },
+          {
+            "input_signs": [
+              0,
+              1
+            ],
+            "observable_parities": [
+              1,
+              1
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              0
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1
+            ]
+          }
+        ],
+        "final_faults": [],
+        "detector_checks": 2558,
+        "logical_relations": [
+          {
+            "input": "+ZX",
+            "output": "+X_"
+          },
+          {
+            "input": "+_X",
+            "output": "-XZ"
+          }
+        ],
+        "checker": "DEM determinism plus exact tableau reference signs; no sampler",
+        "full_z_readout_rank": null
+      },
+      "backend_meta": {
+        "profile_id": "full_source_height_projection_v1",
+        "logical_qubits": 2,
+        "distance": 3,
+        "logical_block_xy": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "input_bases": "zx",
+        "output_bases": "xz",
+        "input_z": 0,
+        "output_z": 24,
+        "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+        "operation_counts": {
+          "cx": 2,
+          "h": 10,
+          "measure": 2,
+          "x": 4
+        },
+        "instruction_trace": [
+          {
+            "id": 0,
+            "name": "h",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [],
+            "start_block_z": 0,
+            "end_block_z": 3,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 1,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [],
+            "start_block_z": 0,
+            "end_block_z": 3,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 2,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              1
+            ],
+            "start_block_z": 3,
+            "end_block_z": 6,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 3,
+            "name": "cx",
+            "qubits": [
+              0,
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              0,
+              2
+            ],
+            "start_block_z": 6,
+            "end_block_z": 7,
+            "endpoint_heights": [
+              3,
+              6
+            ],
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 4,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              3
+            ],
+            "start_block_z": 7,
+            "end_block_z": 10,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 5,
+            "name": "h",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              3
+            ],
+            "start_block_z": 4,
+            "end_block_z": 7,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 6,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              4
+            ],
+            "start_block_z": 10,
+            "end_block_z": 13,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 7,
+            "name": "x",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              5
+            ],
+            "start_block_z": 7,
+            "end_block_z": 7,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              1,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 8,
+            "name": "x",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              6
+            ],
+            "start_block_z": 13,
+            "end_block_z": 13,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 9,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              8
+            ],
+            "start_block_z": 13,
+            "end_block_z": 16,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              1,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": 10,
+            "name": "cx",
+            "qubits": [
+              0,
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              7,
+              9
+            ],
+            "start_block_z": 16,
+            "end_block_z": 17,
+            "endpoint_heights": [
+              7,
+              16
+            ],
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "id": 11,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              10
+            ],
+            "start_block_z": 17,
+            "end_block_z": 20,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "id": 12,
+            "name": "x",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              10
+            ],
+            "start_block_z": 8,
+            "end_block_z": 8,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              0,
+              1
+            ],
+            "frame_z_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "id": 13,
+            "name": "x",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              11
+            ],
+            "start_block_z": 20,
+            "end_block_z": 20,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "id": 14,
+            "name": "h",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              12
+            ],
+            "start_block_z": 8,
+            "end_block_z": 11,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              1,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": 15,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              13
+            ],
+            "start_block_z": 20,
+            "end_block_z": 23,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 16,
+            "name": "measure",
+            "qubits": [
+              0
+            ],
+            "clbits": [
+              0
+            ],
+            "params": [],
+            "predecessors": [
+              14
+            ],
+            "start_block_z": 24,
+            "end_block_z": 24,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ],
+            "source_ready_block_z": 11
+          },
+          {
+            "id": 17,
+            "name": "measure",
+            "qubits": [
+              1
+            ],
+            "clbits": [
+              1
+            ],
+            "params": [],
+            "predecessors": [
+              15
+            ],
+            "start_block_z": 24,
+            "end_block_z": 24,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ],
+            "source_ready_block_z": 23
+          }
+        ],
+        "routed_geometry": [
+          {
+            "operation_id": 3,
+            "path_block_xyz": [
+              [
+                0,
+                0,
+                4
+              ],
+              [
+                1,
+                0,
+                4
+              ],
+              [
+                1,
+                0,
+                3
+              ],
+              [
+                1,
+                0,
+                2
+              ],
+              [
+                1,
+                0,
+                1
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                1,
+                2,
+                1
+              ],
+              [
+                1,
+                3,
+                1
+              ],
+              [
+                2,
+                3,
+                1
+              ],
+              [
+                2,
+                3,
+                2
+              ],
+              [
+                2,
+                3,
+                3
+              ],
+              [
+                2,
+                3,
+                4
+              ],
+              [
+                2,
+                3,
+                5
+              ],
+              [
+                2,
+                3,
+                6
+              ],
+              [
+                2,
+                3,
+                7
+              ],
+              [
+                3,
+                3,
+                7
+              ]
+            ],
+            "cube_kinds": [
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZZ",
+              "XXZ",
+              "XXZ",
+              "XXZ",
+              "ZXZ",
+              "ZXX",
+              "ZXX",
+              "ZXX",
+              "ZXX",
+              "ZXX",
+              "ZXZ",
+              "ZXZ"
+            ],
+            "native_kinks": 1
+          },
+          {
+            "operation_id": 10,
+            "path_block_xyz": [
+              [
+                0,
+                0,
+                8
+              ],
+              [
+                0,
+                1,
+                8
+              ],
+              [
+                0,
+                1,
+                7
+              ],
+              [
+                0,
+                1,
+                6
+              ],
+              [
+                0,
+                1,
+                5
+              ],
+              [
+                0,
+                1,
+                4
+              ],
+              [
+                0,
+                1,
+                3
+              ],
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                1,
+                1,
+                2
+              ],
+              [
+                2,
+                1,
+                2
+              ],
+              [
+                2,
+                1,
+                1
+              ],
+              [
+                2,
+                2,
+                1
+              ],
+              [
+                3,
+                2,
+                1
+              ],
+              [
+                3,
+                2,
+                2
+              ],
+              [
+                3,
+                2,
+                3
+              ],
+              [
+                3,
+                2,
+                4
+              ],
+              [
+                3,
+                2,
+                5
+              ],
+              [
+                3,
+                2,
+                6
+              ],
+              [
+                3,
+                2,
+                7
+              ],
+              [
+                3,
+                2,
+                8
+              ],
+              [
+                3,
+                2,
+                9
+              ],
+              [
+                3,
+                2,
+                10
+              ],
+              [
+                3,
+                2,
+                11
+              ],
+              [
+                3,
+                2,
+                12
+              ],
+              [
+                3,
+                2,
+                13
+              ],
+              [
+                3,
+                2,
+                14
+              ],
+              [
+                3,
+                2,
+                15
+              ],
+              [
+                3,
+                2,
+                16
+              ],
+              [
+                3,
+                2,
+                17
+              ],
+              [
+                3,
+                3,
+                17
+              ]
+            ],
+            "cube_kinds": [
+              "ZXX",
+              "ZXX",
+              "ZXX",
+              "ZXX",
+              "ZXX",
+              "ZXX",
+              "ZXX",
+              "ZXZ",
+              "XXZ",
+              "ZXZ",
+              "ZXX",
+              "ZZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZZ",
+              "XZZ"
+            ],
+            "native_kinks": 3
+          }
+        ],
+        "frame_x": [
+          1,
+          1
+        ],
+        "frame_z": [
+          0,
+          0
+        ],
+        "terminal_readout": [
+          {
+            "qubit": 0,
+            "classical_bit": 0
+          },
+          {
+            "qubit": 1,
+            "classical_bit": 1
+          }
+        ],
+        "final_orientations": [
+          1,
+          1
+        ],
+        "tqec_commit": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+        "projection_plan": {
+          "policy": "source_order",
+          "spacing": 3,
+          "events": [
+            {
+              "operation_id": 0,
+              "start": 0,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "heights_after": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "operation_id": 1,
+              "start": 0,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "heights_after": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3
+              ]
+            },
+            {
+              "operation_id": 2,
+              "start": 3,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3
+              ],
+              "heights_after": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                6
+              ]
+            },
+            {
+              "operation_id": 3,
+              "start": 6,
+              "path": [
+                [
+                  0,
+                  0,
+                  3
+                ],
+                [
+                  1,
+                  0,
+                  3
+                ],
+                [
+                  1,
+                  0,
+                  2
+                ],
+                [
+                  1,
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  2,
+                  0
+                ],
+                [
+                  1,
+                  3,
+                  0
+                ],
+                [
+                  2,
+                  3,
+                  0
+                ],
+                [
+                  2,
+                  3,
+                  1
+                ],
+                [
+                  2,
+                  3,
+                  2
+                ],
+                [
+                  2,
+                  3,
+                  3
+                ],
+                [
+                  2,
+                  3,
+                  4
+                ],
+                [
+                  2,
+                  3,
+                  5
+                ],
+                [
+                  2,
+                  3,
+                  6
+                ],
+                [
+                  3,
+                  3,
+                  6
+                ]
+              ],
+              "kinks": 1,
+              "heights_before": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                6
+              ],
+              "heights_after": [
+                4,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                7
+              ]
+            },
+            {
+              "operation_id": 4,
+              "start": 7,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                4,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                7
+              ],
+              "heights_after": [
+                4,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                10
+              ]
+            },
+            {
+              "operation_id": 5,
+              "start": 4,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                4,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                10
+              ],
+              "heights_after": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                10
+              ]
+            },
+            {
+              "operation_id": 6,
+              "start": 10,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                10
+              ],
+              "heights_after": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                13
+              ]
+            },
+            {
+              "operation_id": 7,
+              "start": 7,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                13
+              ],
+              "heights_after": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                13
+              ]
+            },
+            {
+              "operation_id": 8,
+              "start": 13,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                13
+              ],
+              "heights_after": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                13
+              ]
+            },
+            {
+              "operation_id": 9,
+              "start": 13,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                13
+              ],
+              "heights_after": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                16
+              ]
+            },
+            {
+              "operation_id": 10,
+              "start": 16,
+              "path": [
+                [
+                  0,
+                  0,
+                  7
+                ],
+                [
+                  0,
+                  1,
+                  7
+                ],
+                [
+                  0,
+                  1,
+                  6
+                ],
+                [
+                  0,
+                  1,
+                  5
+                ],
+                [
+                  0,
+                  1,
+                  4
+                ],
+                [
+                  0,
+                  1,
+                  3
+                ],
+                [
+                  0,
+                  1,
+                  2
+                ],
+                [
+                  0,
+                  1,
+                  1
+                ],
+                [
+                  1,
+                  1,
+                  1
+                ],
+                [
+                  2,
+                  1,
+                  1
+                ],
+                [
+                  2,
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  2,
+                  0
+                ],
+                [
+                  3,
+                  2,
+                  0
+                ],
+                [
+                  3,
+                  2,
+                  1
+                ],
+                [
+                  3,
+                  2,
+                  2
+                ],
+                [
+                  3,
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  2,
+                  4
+                ],
+                [
+                  3,
+                  2,
+                  5
+                ],
+                [
+                  3,
+                  2,
+                  6
+                ],
+                [
+                  3,
+                  2,
+                  7
+                ],
+                [
+                  3,
+                  2,
+                  8
+                ],
+                [
+                  3,
+                  2,
+                  9
+                ],
+                [
+                  3,
+                  2,
+                  10
+                ],
+                [
+                  3,
+                  2,
+                  11
+                ],
+                [
+                  3,
+                  2,
+                  12
+                ],
+                [
+                  3,
+                  2,
+                  13
+                ],
+                [
+                  3,
+                  2,
+                  14
+                ],
+                [
+                  3,
+                  2,
+                  15
+                ],
+                [
+                  3,
+                  2,
+                  16
+                ],
+                [
+                  3,
+                  3,
+                  16
+                ]
+              ],
+              "kinks": 3,
+              "heights_before": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                16
+              ],
+              "heights_after": [
+                8,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                17
+              ]
+            },
+            {
+              "operation_id": 11,
+              "start": 17,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                8,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                17
+              ],
+              "heights_after": [
+                8,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                20
+              ]
+            },
+            {
+              "operation_id": 12,
+              "start": 8,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                8,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                20
+              ],
+              "heights_after": [
+                8,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                20
+              ]
+            },
+            {
+              "operation_id": 13,
+              "start": 20,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                8,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                20
+              ],
+              "heights_after": [
+                8,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                20
+              ]
+            },
+            {
+              "operation_id": 14,
+              "start": 8,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                8,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                20
+              ],
+              "heights_after": [
+                11,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                20
+              ]
+            },
+            {
+              "operation_id": 15,
+              "start": 20,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                11,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                20
+              ],
+              "heights_after": [
+                11,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                23
+              ]
+            },
+            {
+              "operation_id": 16,
+              "start": 11,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                11,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                23
+              ],
+              "heights_after": [
+                11,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                23
+              ]
+            },
+            {
+              "operation_id": 17,
+              "start": 23,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                11,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                23
+              ],
+              "heights_after": [
+                11,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                23
+              ]
+            }
+          ],
+          "elapsed_height": 23,
+          "mu": 0
+        },
+        "mu": 0,
+        "timing_policy": "Projection heights map explicitly to block-z vertices; H consumes 3 block-z, X virtual; readouts at common final boundary. Not native code beats or inferred QEC rounds/TICKs.",
+        "external_flows": [
+          "ZXXI",
+          "IXXZ"
+        ],
+        "num_qubits": 310,
+        "num_ticks": 587,
+        "num_observables": 2,
+        "num_detectors": 2558
+      },
+      "compile_seconds": 18.831195791999903,
+      "exact_seconds": 0.3739972429999625
+    },
+    {
+      "generator": "Z0",
+      "input_bases": "zz",
+      "output_bases": "zz",
+      "target_flow": "+Z__Z",
+      "span": [
+        0
+      ],
+      "ideal_sha256": "fa0c3082e3109c5c1198bffa9bb200ce0fa6893db6530aa0014d6322102230d2",
+      "validation": {
+        "exact": true,
+        "sampler_calls": 0,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0
+            ]
+          },
+          {
+            "input_signs": [
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              0
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              1
+            ]
+          }
+        ],
+        "final_faults": [],
+        "detector_checks": 2558,
+        "logical_relations": [
+          {
+            "input": "+Z_",
+            "output": "-_Z"
+          },
+          {
+            "input": "+_Z",
+            "output": "-Z_"
+          }
+        ],
+        "checker": "DEM determinism plus exact tableau reference signs; no sampler",
+        "full_z_readout_rank": null
+      },
+      "backend_meta": {
+        "profile_id": "full_source_height_projection_v1",
+        "logical_qubits": 2,
+        "distance": 3,
+        "logical_block_xy": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "input_bases": "zz",
+        "output_bases": "zz",
+        "input_z": 0,
+        "output_z": 24,
+        "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+        "operation_counts": {
+          "cx": 2,
+          "h": 10,
+          "measure": 2,
+          "x": 4
+        },
+        "instruction_trace": [
+          {
+            "id": 0,
+            "name": "h",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [],
+            "start_block_z": 0,
+            "end_block_z": 3,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 1,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [],
+            "start_block_z": 0,
+            "end_block_z": 3,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 2,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              1
+            ],
+            "start_block_z": 3,
+            "end_block_z": 6,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 3,
+            "name": "cx",
+            "qubits": [
+              0,
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              0,
+              2
+            ],
+            "start_block_z": 6,
+            "end_block_z": 7,
+            "endpoint_heights": [
+              3,
+              6
+            ],
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 4,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              3
+            ],
+            "start_block_z": 7,
+            "end_block_z": 10,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 5,
+            "name": "h",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              3
+            ],
+            "start_block_z": 4,
+            "end_block_z": 7,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 6,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              4
+            ],
+            "start_block_z": 10,
+            "end_block_z": 13,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 7,
+            "name": "x",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              5
+            ],
+            "start_block_z": 7,
+            "end_block_z": 7,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              1,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 8,
+            "name": "x",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              6
+            ],
+            "start_block_z": 13,
+            "end_block_z": 13,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 9,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              8
+            ],
+            "start_block_z": 13,
+            "end_block_z": 16,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              1,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": 10,
+            "name": "cx",
+            "qubits": [
+              0,
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              7,
+              9
+            ],
+            "start_block_z": 16,
+            "end_block_z": 17,
+            "endpoint_heights": [
+              7,
+              16
+            ],
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "id": 11,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              10
+            ],
+            "start_block_z": 17,
+            "end_block_z": 20,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "id": 12,
+            "name": "x",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              10
+            ],
+            "start_block_z": 8,
+            "end_block_z": 8,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              0,
+              1
+            ],
+            "frame_z_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "id": 13,
+            "name": "x",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              11
+            ],
+            "start_block_z": 20,
+            "end_block_z": 20,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "id": 14,
+            "name": "h",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              12
+            ],
+            "start_block_z": 8,
+            "end_block_z": 11,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              1,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": 15,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              13
+            ],
+            "start_block_z": 20,
+            "end_block_z": 23,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 16,
+            "name": "measure",
+            "qubits": [
+              0
+            ],
+            "clbits": [
+              0
+            ],
+            "params": [],
+            "predecessors": [
+              14
+            ],
+            "start_block_z": 24,
+            "end_block_z": 24,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ],
+            "source_ready_block_z": 11
+          },
+          {
+            "id": 17,
+            "name": "measure",
+            "qubits": [
+              1
+            ],
+            "clbits": [
+              1
+            ],
+            "params": [],
+            "predecessors": [
+              15
+            ],
+            "start_block_z": 24,
+            "end_block_z": 24,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ],
+            "source_ready_block_z": 23
+          }
+        ],
+        "routed_geometry": [
+          {
+            "operation_id": 3,
+            "path_block_xyz": [
+              [
+                0,
+                0,
+                4
+              ],
+              [
+                1,
+                0,
+                4
+              ],
+              [
+                1,
+                0,
+                3
+              ],
+              [
+                1,
+                0,
+                2
+              ],
+              [
+                1,
+                0,
+                1
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                1,
+                2,
+                1
+              ],
+              [
+                1,
+                3,
+                1
+              ],
+              [
+                2,
+                3,
+                1
+              ],
+              [
+                2,
+                3,
+                2
+              ],
+              [
+                2,
+                3,
+                3
+              ],
+              [
+                2,
+                3,
+                4
+              ],
+              [
+                2,
+                3,
+                5
+              ],
+              [
+                2,
+                3,
+                6
+              ],
+              [
+                2,
+                3,
+                7
+              ],
+              [
+                3,
+                3,
+                7
+              ]
+            ],
+            "cube_kinds": [
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZZ",
+              "XXZ",
+              "XXZ",
+              "XXZ",
+              "ZXZ",
+              "ZXX",
+              "ZXX",
+              "ZXX",
+              "ZXX",
+              "ZXX",
+              "ZXZ",
+              "ZXZ"
+            ],
+            "native_kinks": 1
+          },
+          {
+            "operation_id": 10,
+            "path_block_xyz": [
+              [
+                0,
+                0,
+                8
+              ],
+              [
+                0,
+                1,
+                8
+              ],
+              [
+                0,
+                1,
+                7
+              ],
+              [
+                0,
+                1,
+                6
+              ],
+              [
+                0,
+                1,
+                5
+              ],
+              [
+                0,
+                1,
+                4
+              ],
+              [
+                0,
+                1,
+                3
+              ],
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                1,
+                1,
+                2
+              ],
+              [
+                2,
+                1,
+                2
+              ],
+              [
+                2,
+                1,
+                1
+              ],
+              [
+                2,
+                2,
+                1
+              ],
+              [
+                3,
+                2,
+                1
+              ],
+              [
+                3,
+                2,
+                2
+              ],
+              [
+                3,
+                2,
+                3
+              ],
+              [
+                3,
+                2,
+                4
+              ],
+              [
+                3,
+                2,
+                5
+              ],
+              [
+                3,
+                2,
+                6
+              ],
+              [
+                3,
+                2,
+                7
+              ],
+              [
+                3,
+                2,
+                8
+              ],
+              [
+                3,
+                2,
+                9
+              ],
+              [
+                3,
+                2,
+                10
+              ],
+              [
+                3,
+                2,
+                11
+              ],
+              [
+                3,
+                2,
+                12
+              ],
+              [
+                3,
+                2,
+                13
+              ],
+              [
+                3,
+                2,
+                14
+              ],
+              [
+                3,
+                2,
+                15
+              ],
+              [
+                3,
+                2,
+                16
+              ],
+              [
+                3,
+                2,
+                17
+              ],
+              [
+                3,
+                3,
+                17
+              ]
+            ],
+            "cube_kinds": [
+              "ZXX",
+              "ZXX",
+              "ZXX",
+              "ZXX",
+              "ZXX",
+              "ZXX",
+              "ZXX",
+              "ZXZ",
+              "XXZ",
+              "ZXZ",
+              "ZXX",
+              "ZZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZZ",
+              "XZZ"
+            ],
+            "native_kinks": 3
+          }
+        ],
+        "frame_x": [
+          1,
+          1
+        ],
+        "frame_z": [
+          0,
+          0
+        ],
+        "terminal_readout": [
+          {
+            "qubit": 0,
+            "classical_bit": 0
+          },
+          {
+            "qubit": 1,
+            "classical_bit": 1
+          }
+        ],
+        "final_orientations": [
+          1,
+          1
+        ],
+        "tqec_commit": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+        "projection_plan": {
+          "policy": "source_order",
+          "spacing": 3,
+          "events": [
+            {
+              "operation_id": 0,
+              "start": 0,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "heights_after": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "operation_id": 1,
+              "start": 0,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "heights_after": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3
+              ]
+            },
+            {
+              "operation_id": 2,
+              "start": 3,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3
+              ],
+              "heights_after": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                6
+              ]
+            },
+            {
+              "operation_id": 3,
+              "start": 6,
+              "path": [
+                [
+                  0,
+                  0,
+                  3
+                ],
+                [
+                  1,
+                  0,
+                  3
+                ],
+                [
+                  1,
+                  0,
+                  2
+                ],
+                [
+                  1,
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  2,
+                  0
+                ],
+                [
+                  1,
+                  3,
+                  0
+                ],
+                [
+                  2,
+                  3,
+                  0
+                ],
+                [
+                  2,
+                  3,
+                  1
+                ],
+                [
+                  2,
+                  3,
+                  2
+                ],
+                [
+                  2,
+                  3,
+                  3
+                ],
+                [
+                  2,
+                  3,
+                  4
+                ],
+                [
+                  2,
+                  3,
+                  5
+                ],
+                [
+                  2,
+                  3,
+                  6
+                ],
+                [
+                  3,
+                  3,
+                  6
+                ]
+              ],
+              "kinks": 1,
+              "heights_before": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                6
+              ],
+              "heights_after": [
+                4,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                7
+              ]
+            },
+            {
+              "operation_id": 4,
+              "start": 7,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                4,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                7
+              ],
+              "heights_after": [
+                4,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                10
+              ]
+            },
+            {
+              "operation_id": 5,
+              "start": 4,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                4,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                10
+              ],
+              "heights_after": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                10
+              ]
+            },
+            {
+              "operation_id": 6,
+              "start": 10,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                10
+              ],
+              "heights_after": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                13
+              ]
+            },
+            {
+              "operation_id": 7,
+              "start": 7,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                13
+              ],
+              "heights_after": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                13
+              ]
+            },
+            {
+              "operation_id": 8,
+              "start": 13,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                13
+              ],
+              "heights_after": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                13
+              ]
+            },
+            {
+              "operation_id": 9,
+              "start": 13,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                13
+              ],
+              "heights_after": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                16
+              ]
+            },
+            {
+              "operation_id": 10,
+              "start": 16,
+              "path": [
+                [
+                  0,
+                  0,
+                  7
+                ],
+                [
+                  0,
+                  1,
+                  7
+                ],
+                [
+                  0,
+                  1,
+                  6
+                ],
+                [
+                  0,
+                  1,
+                  5
+                ],
+                [
+                  0,
+                  1,
+                  4
+                ],
+                [
+                  0,
+                  1,
+                  3
+                ],
+                [
+                  0,
+                  1,
+                  2
+                ],
+                [
+                  0,
+                  1,
+                  1
+                ],
+                [
+                  1,
+                  1,
+                  1
+                ],
+                [
+                  2,
+                  1,
+                  1
+                ],
+                [
+                  2,
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  2,
+                  0
+                ],
+                [
+                  3,
+                  2,
+                  0
+                ],
+                [
+                  3,
+                  2,
+                  1
+                ],
+                [
+                  3,
+                  2,
+                  2
+                ],
+                [
+                  3,
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  2,
+                  4
+                ],
+                [
+                  3,
+                  2,
+                  5
+                ],
+                [
+                  3,
+                  2,
+                  6
+                ],
+                [
+                  3,
+                  2,
+                  7
+                ],
+                [
+                  3,
+                  2,
+                  8
+                ],
+                [
+                  3,
+                  2,
+                  9
+                ],
+                [
+                  3,
+                  2,
+                  10
+                ],
+                [
+                  3,
+                  2,
+                  11
+                ],
+                [
+                  3,
+                  2,
+                  12
+                ],
+                [
+                  3,
+                  2,
+                  13
+                ],
+                [
+                  3,
+                  2,
+                  14
+                ],
+                [
+                  3,
+                  2,
+                  15
+                ],
+                [
+                  3,
+                  2,
+                  16
+                ],
+                [
+                  3,
+                  3,
+                  16
+                ]
+              ],
+              "kinks": 3,
+              "heights_before": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                16
+              ],
+              "heights_after": [
+                8,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                17
+              ]
+            },
+            {
+              "operation_id": 11,
+              "start": 17,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                8,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                17
+              ],
+              "heights_after": [
+                8,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                20
+              ]
+            },
+            {
+              "operation_id": 12,
+              "start": 8,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                8,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                20
+              ],
+              "heights_after": [
+                8,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                20
+              ]
+            },
+            {
+              "operation_id": 13,
+              "start": 20,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                8,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                20
+              ],
+              "heights_after": [
+                8,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                20
+              ]
+            },
+            {
+              "operation_id": 14,
+              "start": 8,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                8,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                20
+              ],
+              "heights_after": [
+                11,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                20
+              ]
+            },
+            {
+              "operation_id": 15,
+              "start": 20,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                11,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                20
+              ],
+              "heights_after": [
+                11,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                23
+              ]
+            },
+            {
+              "operation_id": 16,
+              "start": 11,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                11,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                23
+              ],
+              "heights_after": [
+                11,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                23
+              ]
+            },
+            {
+              "operation_id": 17,
+              "start": 23,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                11,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                23
+              ],
+              "heights_after": [
+                11,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                23
+              ]
+            }
+          ],
+          "elapsed_height": 23,
+          "mu": 0
+        },
+        "mu": 0,
+        "timing_policy": "Projection heights map explicitly to block-z vertices; H consumes 3 block-z, X virtual; readouts at common final boundary. Not native code beats or inferred QEC rounds/TICKs.",
+        "external_flows": [
+          "ZIIZ",
+          "IZZI"
+        ],
+        "num_qubits": 310,
+        "num_ticks": 587,
+        "num_observables": 2,
+        "num_detectors": 2558
+      },
+      "compile_seconds": 18.73120524600006,
+      "exact_seconds": 0.35656330500000877
+    },
+    {
+      "generator": "Z1",
+      "input_bases": "zz",
+      "output_bases": "zz",
+      "target_flow": "+_ZZ_",
+      "span": [
+        1
+      ],
+      "ideal_sha256": "fa0c3082e3109c5c1198bffa9bb200ce0fa6893db6530aa0014d6322102230d2",
+      "validation": {
+        "exact": true,
+        "sampler_calls": 0,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0
+            ]
+          },
+          {
+            "input_signs": [
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              0
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              1
+            ]
+          }
+        ],
+        "final_faults": [],
+        "detector_checks": 2558,
+        "logical_relations": [
+          {
+            "input": "+Z_",
+            "output": "-_Z"
+          },
+          {
+            "input": "+_Z",
+            "output": "-Z_"
+          }
+        ],
+        "checker": "DEM determinism plus exact tableau reference signs; no sampler",
+        "full_z_readout_rank": null
+      },
+      "backend_meta": {
+        "profile_id": "full_source_height_projection_v1",
+        "logical_qubits": 2,
+        "distance": 3,
+        "logical_block_xy": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "input_bases": "zz",
+        "output_bases": "zz",
+        "input_z": 0,
+        "output_z": 24,
+        "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+        "operation_counts": {
+          "cx": 2,
+          "h": 10,
+          "measure": 2,
+          "x": 4
+        },
+        "instruction_trace": [
+          {
+            "id": 0,
+            "name": "h",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [],
+            "start_block_z": 0,
+            "end_block_z": 3,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 1,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [],
+            "start_block_z": 0,
+            "end_block_z": 3,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 2,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              1
+            ],
+            "start_block_z": 3,
+            "end_block_z": 6,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 3,
+            "name": "cx",
+            "qubits": [
+              0,
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              0,
+              2
+            ],
+            "start_block_z": 6,
+            "end_block_z": 7,
+            "endpoint_heights": [
+              3,
+              6
+            ],
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 4,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              3
+            ],
+            "start_block_z": 7,
+            "end_block_z": 10,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 5,
+            "name": "h",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              3
+            ],
+            "start_block_z": 4,
+            "end_block_z": 7,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 6,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              4
+            ],
+            "start_block_z": 10,
+            "end_block_z": 13,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 7,
+            "name": "x",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              5
+            ],
+            "start_block_z": 7,
+            "end_block_z": 7,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              1,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 8,
+            "name": "x",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              6
+            ],
+            "start_block_z": 13,
+            "end_block_z": 13,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 9,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              8
+            ],
+            "start_block_z": 13,
+            "end_block_z": 16,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              1,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": 10,
+            "name": "cx",
+            "qubits": [
+              0,
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              7,
+              9
+            ],
+            "start_block_z": 16,
+            "end_block_z": 17,
+            "endpoint_heights": [
+              7,
+              16
+            ],
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "id": 11,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              10
+            ],
+            "start_block_z": 17,
+            "end_block_z": 20,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "id": 12,
+            "name": "x",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              10
+            ],
+            "start_block_z": 8,
+            "end_block_z": 8,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              0,
+              1
+            ],
+            "frame_z_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "id": 13,
+            "name": "x",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              11
+            ],
+            "start_block_z": 20,
+            "end_block_z": 20,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "id": 14,
+            "name": "h",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              12
+            ],
+            "start_block_z": 8,
+            "end_block_z": 11,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              1,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": 15,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              13
+            ],
+            "start_block_z": 20,
+            "end_block_z": 23,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 16,
+            "name": "measure",
+            "qubits": [
+              0
+            ],
+            "clbits": [
+              0
+            ],
+            "params": [],
+            "predecessors": [
+              14
+            ],
+            "start_block_z": 24,
+            "end_block_z": 24,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ],
+            "source_ready_block_z": 11
+          },
+          {
+            "id": 17,
+            "name": "measure",
+            "qubits": [
+              1
+            ],
+            "clbits": [
+              1
+            ],
+            "params": [],
+            "predecessors": [
+              15
+            ],
+            "start_block_z": 24,
+            "end_block_z": 24,
+            "endpoint_heights": [],
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ],
+            "source_ready_block_z": 23
+          }
+        ],
+        "routed_geometry": [
+          {
+            "operation_id": 3,
+            "path_block_xyz": [
+              [
+                0,
+                0,
+                4
+              ],
+              [
+                1,
+                0,
+                4
+              ],
+              [
+                1,
+                0,
+                3
+              ],
+              [
+                1,
+                0,
+                2
+              ],
+              [
+                1,
+                0,
+                1
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                1,
+                2,
+                1
+              ],
+              [
+                1,
+                3,
+                1
+              ],
+              [
+                2,
+                3,
+                1
+              ],
+              [
+                2,
+                3,
+                2
+              ],
+              [
+                2,
+                3,
+                3
+              ],
+              [
+                2,
+                3,
+                4
+              ],
+              [
+                2,
+                3,
+                5
+              ],
+              [
+                2,
+                3,
+                6
+              ],
+              [
+                2,
+                3,
+                7
+              ],
+              [
+                3,
+                3,
+                7
+              ]
+            ],
+            "cube_kinds": [
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZZ",
+              "XXZ",
+              "XXZ",
+              "XXZ",
+              "ZXZ",
+              "ZXX",
+              "ZXX",
+              "ZXX",
+              "ZXX",
+              "ZXX",
+              "ZXZ",
+              "ZXZ"
+            ],
+            "native_kinks": 1
+          },
+          {
+            "operation_id": 10,
+            "path_block_xyz": [
+              [
+                0,
+                0,
+                8
+              ],
+              [
+                0,
+                1,
+                8
+              ],
+              [
+                0,
+                1,
+                7
+              ],
+              [
+                0,
+                1,
+                6
+              ],
+              [
+                0,
+                1,
+                5
+              ],
+              [
+                0,
+                1,
+                4
+              ],
+              [
+                0,
+                1,
+                3
+              ],
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                1,
+                1,
+                2
+              ],
+              [
+                2,
+                1,
+                2
+              ],
+              [
+                2,
+                1,
+                1
+              ],
+              [
+                2,
+                2,
+                1
+              ],
+              [
+                3,
+                2,
+                1
+              ],
+              [
+                3,
+                2,
+                2
+              ],
+              [
+                3,
+                2,
+                3
+              ],
+              [
+                3,
+                2,
+                4
+              ],
+              [
+                3,
+                2,
+                5
+              ],
+              [
+                3,
+                2,
+                6
+              ],
+              [
+                3,
+                2,
+                7
+              ],
+              [
+                3,
+                2,
+                8
+              ],
+              [
+                3,
+                2,
+                9
+              ],
+              [
+                3,
+                2,
+                10
+              ],
+              [
+                3,
+                2,
+                11
+              ],
+              [
+                3,
+                2,
+                12
+              ],
+              [
+                3,
+                2,
+                13
+              ],
+              [
+                3,
+                2,
+                14
+              ],
+              [
+                3,
+                2,
+                15
+              ],
+              [
+                3,
+                2,
+                16
+              ],
+              [
+                3,
+                2,
+                17
+              ],
+              [
+                3,
+                3,
+                17
+              ]
+            ],
+            "cube_kinds": [
+              "ZXX",
+              "ZXX",
+              "ZXX",
+              "ZXX",
+              "ZXX",
+              "ZXX",
+              "ZXX",
+              "ZXZ",
+              "XXZ",
+              "ZXZ",
+              "ZXX",
+              "ZZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZX",
+              "XZZ",
+              "XZZ"
+            ],
+            "native_kinks": 3
+          }
+        ],
+        "frame_x": [
+          1,
+          1
+        ],
+        "frame_z": [
+          0,
+          0
+        ],
+        "terminal_readout": [
+          {
+            "qubit": 0,
+            "classical_bit": 0
+          },
+          {
+            "qubit": 1,
+            "classical_bit": 1
+          }
+        ],
+        "final_orientations": [
+          1,
+          1
+        ],
+        "tqec_commit": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+        "projection_plan": {
+          "policy": "source_order",
+          "spacing": 3,
+          "events": [
+            {
+              "operation_id": 0,
+              "start": 0,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "heights_after": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "operation_id": 1,
+              "start": 0,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "heights_after": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3
+              ]
+            },
+            {
+              "operation_id": 2,
+              "start": 3,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3
+              ],
+              "heights_after": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                6
+              ]
+            },
+            {
+              "operation_id": 3,
+              "start": 6,
+              "path": [
+                [
+                  0,
+                  0,
+                  3
+                ],
+                [
+                  1,
+                  0,
+                  3
+                ],
+                [
+                  1,
+                  0,
+                  2
+                ],
+                [
+                  1,
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  2,
+                  0
+                ],
+                [
+                  1,
+                  3,
+                  0
+                ],
+                [
+                  2,
+                  3,
+                  0
+                ],
+                [
+                  2,
+                  3,
+                  1
+                ],
+                [
+                  2,
+                  3,
+                  2
+                ],
+                [
+                  2,
+                  3,
+                  3
+                ],
+                [
+                  2,
+                  3,
+                  4
+                ],
+                [
+                  2,
+                  3,
+                  5
+                ],
+                [
+                  2,
+                  3,
+                  6
+                ],
+                [
+                  3,
+                  3,
+                  6
+                ]
+              ],
+              "kinks": 1,
+              "heights_before": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                6
+              ],
+              "heights_after": [
+                4,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                7
+              ]
+            },
+            {
+              "operation_id": 4,
+              "start": 7,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                4,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                7
+              ],
+              "heights_after": [
+                4,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                10
+              ]
+            },
+            {
+              "operation_id": 5,
+              "start": 4,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                4,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                10
+              ],
+              "heights_after": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                10
+              ]
+            },
+            {
+              "operation_id": 6,
+              "start": 10,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                10
+              ],
+              "heights_after": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                13
+              ]
+            },
+            {
+              "operation_id": 7,
+              "start": 7,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                13
+              ],
+              "heights_after": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                13
+              ]
+            },
+            {
+              "operation_id": 8,
+              "start": 13,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                13
+              ],
+              "heights_after": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                13
+              ]
+            },
+            {
+              "operation_id": 9,
+              "start": 13,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                13
+              ],
+              "heights_after": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                16
+              ]
+            },
+            {
+              "operation_id": 10,
+              "start": 16,
+              "path": [
+                [
+                  0,
+                  0,
+                  7
+                ],
+                [
+                  0,
+                  1,
+                  7
+                ],
+                [
+                  0,
+                  1,
+                  6
+                ],
+                [
+                  0,
+                  1,
+                  5
+                ],
+                [
+                  0,
+                  1,
+                  4
+                ],
+                [
+                  0,
+                  1,
+                  3
+                ],
+                [
+                  0,
+                  1,
+                  2
+                ],
+                [
+                  0,
+                  1,
+                  1
+                ],
+                [
+                  1,
+                  1,
+                  1
+                ],
+                [
+                  2,
+                  1,
+                  1
+                ],
+                [
+                  2,
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  2,
+                  0
+                ],
+                [
+                  3,
+                  2,
+                  0
+                ],
+                [
+                  3,
+                  2,
+                  1
+                ],
+                [
+                  3,
+                  2,
+                  2
+                ],
+                [
+                  3,
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  2,
+                  4
+                ],
+                [
+                  3,
+                  2,
+                  5
+                ],
+                [
+                  3,
+                  2,
+                  6
+                ],
+                [
+                  3,
+                  2,
+                  7
+                ],
+                [
+                  3,
+                  2,
+                  8
+                ],
+                [
+                  3,
+                  2,
+                  9
+                ],
+                [
+                  3,
+                  2,
+                  10
+                ],
+                [
+                  3,
+                  2,
+                  11
+                ],
+                [
+                  3,
+                  2,
+                  12
+                ],
+                [
+                  3,
+                  2,
+                  13
+                ],
+                [
+                  3,
+                  2,
+                  14
+                ],
+                [
+                  3,
+                  2,
+                  15
+                ],
+                [
+                  3,
+                  2,
+                  16
+                ],
+                [
+                  3,
+                  3,
+                  16
+                ]
+              ],
+              "kinks": 3,
+              "heights_before": [
+                7,
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                7,
+                16
+              ],
+              "heights_after": [
+                8,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                17
+              ]
+            },
+            {
+              "operation_id": 11,
+              "start": 17,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                8,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                17
+              ],
+              "heights_after": [
+                8,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                20
+              ]
+            },
+            {
+              "operation_id": 12,
+              "start": 8,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                8,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                20
+              ],
+              "heights_after": [
+                8,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                20
+              ]
+            },
+            {
+              "operation_id": 13,
+              "start": 20,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                8,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                20
+              ],
+              "heights_after": [
+                8,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                20
+              ]
+            },
+            {
+              "operation_id": 14,
+              "start": 8,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                8,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                20
+              ],
+              "heights_after": [
+                11,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                20
+              ]
+            },
+            {
+              "operation_id": 15,
+              "start": 20,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                11,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                20
+              ],
+              "heights_after": [
+                11,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                23
+              ]
+            },
+            {
+              "operation_id": 16,
+              "start": 11,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                11,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                23
+              ],
+              "heights_after": [
+                11,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                23
+              ]
+            },
+            {
+              "operation_id": 17,
+              "start": 23,
+              "path": [],
+              "kinks": 0,
+              "heights_before": [
+                11,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                23
+              ],
+              "heights_after": [
+                11,
+                4,
+                0,
+                0,
+                8,
+                2,
+                2,
+                0,
+                0,
+                1,
+                1,
+                17,
+                0,
+                1,
+                7,
+                23
+              ]
+            }
+          ],
+          "elapsed_height": 23,
+          "mu": 0
+        },
+        "mu": 0,
+        "timing_policy": "Projection heights map explicitly to block-z vertices; H consumes 3 block-z, X virtual; readouts at common final boundary. Not native code beats or inferred QEC rounds/TICKs.",
+        "external_flows": [
+          "ZIIZ",
+          "IZZI"
+        ],
+        "num_qubits": 310,
+        "num_ticks": 587,
+        "num_observables": 2,
+        "num_detectors": 2558
+      },
+      "compile_seconds": 21.34550645200011,
+      "exact_seconds": 0.28073102400003336
+    }
+  ],
+  "shots": 0,
+  "counts": null,
+  "confidence_interval": null,
+  "timing": {
+    "main_compile_seconds": 20.08011623999994,
+    "exact_seconds": 0.7301775560000578,
+    "generator_compile_seconds": 80.38590846099999,
+    "generator_exact_seconds": 1.301158493999992,
+    "noise_seconds": 1.9583971759999486,
+    "dem_seconds": 0.396065543000077,
+    "decoder_construction_seconds": 0.07003076499995586,
+    "distance_search_seconds": 0.4751573370000415,
+    "scorer_seconds": null,
+    "calibration_seconds": null,
+    "monte_carlo_seconds": null,
+    "decode_seconds": null
+  }
+}

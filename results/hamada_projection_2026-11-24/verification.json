@@ -1,0 +1,23 @@
+{
+  "new_research_shots": 0,
+  "research_sampler_calls": 0,
+  "counts": null,
+  "ci": null,
+  "main_compilations": 1,
+  "generator_compilations": 4,
+  "exploratory_main_compilations": 1,
+  "precompile_geometry_rejection": 1,
+  "source_controls": 2,
+  "unique_noisy_circuits": 1,
+  "full_suite": {
+    "passed": 208,
+    "seconds": 487.76,
+    "legacy_p0_test_trajectories": 2600,
+    "legacy_test_trajectories_count_as_research_labels": false
+  },
+  "snapshot_assets_verified": 115,
+  "archive_sha256": "e39e15e2d1f53d5ad9335c7bbbfa13fda30d71de6d543db37162ec0ed9c11ec0",
+  "held_out_labels": "sealed",
+  "sampling_permission": false,
+  "mu": 0
+}

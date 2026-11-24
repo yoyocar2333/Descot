@@ -1,0 +1,26 @@
+{
+  "id": "complete_source_projection_geometry_20261124_v1",
+  "date": "2026-11-24",
+  "shots": 0,
+  "seeds": [],
+  "counts": null,
+  "ci": null,
+  "mu": 0,
+  "source": "Pinned complete public Grover: 18 instructions and both original terminal measurements; no removed H/X/classical mappings",
+  "controls": [
+    "source_order",
+    "height_priority"
+  ],
+  "native_components": "Fixed dcaa249 ProjectiveScheduler::find_path<CareKinkParity>, height/kink projection routines, PrioritizedInstructionDependencyManager",
+  "adapter": "Full H/X/readout DAG loop; H=3 block-z, X virtual, terminal readout at common end, native height coordinates retained including backwards edges. Activate children after height update, following old paper rather than new release full-loop ordering.",
+  "geometry": "Native path (x,y,t) -> (x,y,t+1) in block graph; all data lifetimes; ordinary no-H route pipes, deterministic six-ZX-cube matching-wall inference. No flattening or route fallback.",
+  "resources": "Common existing diagonal layout envelope, 4x4 logical cells. Not an inferred real hardware cap; no concurrency cap and all old 175/12+12 candidates retained.",
+  "scope": "Complete source projection policy/geometry reference in declared adapter, not bit-for-bit native whole compiler nor same old 175-plan pool/budget algorithm performance comparison.",
+  "noise": "d=3, p=0.001, fixed TQEC uniform depolarizing add_noise",
+  "decoder": "ordinary uncorrelated PyMatching MWPM; decomposed DEM construction only",
+  "acceptance": "Complete rank-2 original output, all signed inputs, 4 X/Z generators with original Pauli frame, final logical faults, graphlike distance3. Stop/reject if physical tests fail; do not tune on results.",
+  "calibration": null,
+  "held_out_labels": "sealed",
+  "sampling_permission": false,
+  "stopping_rule": "No research sampling at this geometry gate; no held-out access"
+}

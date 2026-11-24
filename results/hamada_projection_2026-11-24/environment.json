@@ -1,0 +1,47 @@
+{
+  "python": "3.12.14",
+  "base_commit": "0fa28ebd548c1c12c7398793ca12fd01cc21e229",
+  "files_sha256": {
+    "hamada_projection_control.py": "fc6fccf86ced6d6ae43b3f1f49b2c0fce0b60e9dfa278c9fddcfff4320f46a19",
+    "hamada_projection_driver.cpp": "793bac09598f0cac4240ad26cd6f026a9eb4006ac518721e6d7affc574667172",
+    "run_hamada_projection_control.py": "1ccc3bf84e23083ab9b96eec9099e671ea4204e175781c5785705e15fa2bd60c",
+    "public_clifford.py": "bc3c68c183ec07cc95dea32fdf14f2290d0c082bd005d86b8a5a01296bce7ee5",
+    "public_candidate_pool.py": "4696ded929e46dc3ce34042d53fb3ca6b5d72c3635f9ab287c8d34589350d6e3",
+    "schedule_circuit.py": "86508aa305ac346a04ff9d931bcfb17cc3f3976dbd16694d7a850584c4d63a60",
+    "exact_program_validation.py": "aed04bbe2d37fded9690b66d4b06cd337a57de757dccccd00ecb72250eb71959",
+    "surgery.py": "ee67e6691f7da5b48dd788b4e886348fbd70fd370154ef5de2ecee9b90d11e0b",
+    "run_public_audit.py": "98a866e7ce1403b93715756d3af369e66728e97f7f6ad225923b156c62d1ad0a",
+    "requirements-lock.txt": "140e7ad5273ee3ac59347cd775c49bdcd2b1e978936e56bc7e1ab205eccaebf9",
+    "benchmarks/POST_REPORT_FAMILY_SPLIT_2026-11-18.json": "a1e3461a100ca15d764724a58461ec984c45bc19fa9afd84830d21c1e1784e9b",
+    "third_party/hamada_projection_2026-11-24/LICENSE": "409611d275067d77d888a3847ff415c05dbae5337085b82bf5fe6606d958555a",
+    "third_party/hamada_projection_2026-11-24/manifest.json": "53e1747ceb3ce728f334129eded84e6b70b82a6c7d33dc3e86109807698aa4a4",
+    "third_party/hamada_projection_2026-11-24/src/cpp/scheduler/routingError.hpp": "9a225f947259d5d10c6a8f5d09a54a5a6a35f307db6ea11e401b5a3672370006",
+    "third_party/hamada_projection_2026-11-24/src/cpp/scheduler/scheduleResult.hpp": "27a970efa9980e4bc88b2d71a5656929d172c5b7d468b545fad5a9d99bbf839d",
+    "third_party/hamada_projection_2026-11-24/src/cpp/scheduler/projective.hpp": "f1353feb99d00b549d28f19cb13853901386253ab8b7fa0b0b9d9ebfddabd4b5",
+    "third_party/hamada_projection_2026-11-24/src/cpp/util/problem.hpp": "fbb2e630ad359f3f08e37b13ce1c3e62ae611708502955098a098671e58cf61a",
+    "third_party/hamada_projection_2026-11-24/src/cpp/util/constants.hpp": "276a3876301f8e5f8f1ccb3b091eb1a6a17333a518ba59606b04e685f0c4ca2a",
+    "third_party/hamada_projection_2026-11-24/src/cpp/util/instruction.hpp": "4da9f49f457045cce15ec49065017e1400e80141bd8d6c0385930a7f227673cb",
+    "third_party/hamada_projection_2026-11-24/src/cpp/util/instructionDependencyManager.hpp": "93a0397100deab5ff03705765d0916ad6ed28df0a7cf8d25dbe4d412f5e7dd38"
+  },
+  "packages": {
+    "tqec": "0.2.0",
+    "stim": "1.16.0",
+    "numpy": "2.5.4",
+    "pymatching": "2.4.0"
+  },
+  "tqec_direct_url": {
+    "url": "https://github.com/tqec/tqec.git",
+    "vcs_info": {
+      "vcs": "git",
+      "commit_id": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+      "requested_revision": "50fa2210597632a79bd266b56a5fb8d9b00747bb"
+    }
+  },
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "compiler_flags": [
+    "-std=c++17",
+    "-O2",
+    "-Wall",
+    "-Wextra"
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+  "metric_code_sha256": "9356a42794e732090cfe63d86003297e1a2ba9756f3f3cf52b81eed9a5490cbe",
+  "control_file_sha256": "6ff37c47734bdb3e81f82f0330759f3fd511148d7bc55d39e838d19439186d39",
+  "rows": [
+    {
+      "id": "fixed_g174",
+      "plan_sha256": "ed80ada35a9d41e0dd4b1c5b50fc0b0f44cf266124e1cddd0c345eee1244ab01",
+      "input_boundary_block_z": 0,
+      "output_boundary_block_z": 27,
+      "template_block_z": 27,
+      "data_lifetime_block_z": 54,
+      "ancilla_voxel_count": 12,
+      "ancilla_lifetime_block_z": 12,
+      "ancilla_lifetime_segments": [
+        {
+          "x": 0,
+          "y": 1,
+          "first_cube_z": 19,
+          "last_cube_z": 20,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "first_cube_z": 7,
+          "last_cube_z": 8,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "first_cube_z": 8,
+          "last_cube_z": 8,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        }
+      ],
+      "distinct_ancilla_xy": 9,
+      "complete_graph_cubes": 68,
+      "complete_graph_pipes": 68,
+      "note": "Exact connected same-XY timelike block segments; each ancilla cube contributes one block-z. Disconnected reuse is split even if consecutive z. Data duration is boundary separation. No QEC-round/TICK conversion."
+    },
+    {
+      "id": "source_order",
+      "plan_sha256": "4bb1d7124f5629c30b7146b9c3ba63671e9da6e37b28d088d02a44679cbaa050",
+      "input_boundary_block_z": 0,
+      "output_boundary_block_z": 24,
+      "template_block_z": 24,
+      "data_lifetime_block_z": 48,
+      "ancilla_voxel_count": 42,
+      "ancilla_lifetime_block_z": 42,
+      "ancilla_lifetime_segments": [
+        {
+          "x": 0,
+          "y": 1,
+          "first_cube_z": 2,
+          "last_cube_z": 8,
+          "native_voxels": 7,
+          "lifetime_block_z": 7,
+          "temporal_pipe_count": 6
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "first_cube_z": 1,
+          "last_cube_z": 4,
+          "native_voxels": 4,
+          "lifetime_block_z": 4,
+          "temporal_pipe_count": 3
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 1,
+          "last_cube_z": 1,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 2,
+          "last_cube_z": 2,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "first_cube_z": 1,
+          "last_cube_z": 1,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "first_cube_z": 1,
+          "last_cube_z": 1,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "first_cube_z": 1,
+          "last_cube_z": 2,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 2,
+          "y": 2,
+          "first_cube_z": 1,
+          "last_cube_z": 1,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "first_cube_z": 1,
+          "last_cube_z": 7,
+          "native_voxels": 7,
+          "lifetime_block_z": 7,
+          "temporal_pipe_count": 6
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "first_cube_z": 1,
+          "last_cube_z": 17,
+          "native_voxels": 17,
+          "lifetime_block_z": 17,
+          "temporal_pipe_count": 16
+        }
+      ],
+      "distinct_ancilla_xy": 9,
+      "complete_graph_cubes": 92,
+      "complete_graph_pipes": 92,
+      "note": "Exact connected same-XY timelike block segments; each ancilla cube contributes one block-z. Disconnected reuse is split even if consecutive z. Data duration is boundary separation. No QEC-round/TICK conversion."
+    },
+    {
+      "id": "height_priority",
+      "plan_sha256": "26a98dc910c14d257731545fd764a062cb22871bed8611ca103ec4198673ac3c",
+      "input_boundary_block_z": 0,
+      "output_boundary_block_z": 24,
+      "template_block_z": 24,
+      "data_lifetime_block_z": 48,
+      "ancilla_voxel_count": 42,
+      "ancilla_lifetime_block_z": 42,
+      "ancilla_lifetime_segments": [
+        {
+          "x": 0,
+          "y": 1,
+          "first_cube_z": 2,
+          "last_cube_z": 8,
+          "native_voxels": 7,
+          "lifetime_block_z": 7,
+          "temporal_pipe_count": 6
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "first_cube_z": 1,
+          "last_cube_z": 4,
+          "native_voxels": 4,
+          "lifetime_block_z": 4,
+          "temporal_pipe_count": 3
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 1,
+          "last_cube_z": 1,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 2,
+          "last_cube_z": 2,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "first_cube_z": 1,
+          "last_cube_z": 1,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "first_cube_z": 1,
+          "last_cube_z": 1,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "first_cube_z": 1,
+          "last_cube_z": 2,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 2,
+          "y": 2,
+          "first_cube_z": 1,
+          "last_cube_z": 1,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "first_cube_z": 1,
+          "last_cube_z": 7,
+          "native_voxels": 7,
+          "lifetime_block_z": 7,
+          "temporal_pipe_count": 6
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "first_cube_z": 1,
+          "last_cube_z": 17,
+          "native_voxels": 17,
+          "lifetime_block_z": 17,
+          "temporal_pipe_count": 16
+        }
+      ],
+      "distinct_ancilla_xy": 9,
+      "complete_graph_cubes": 92,
+      "complete_graph_pipes": 92,
+      "note": "Exact connected same-XY timelike block segments; each ancilla cube contributes one block-z. Disconnected reuse is split even if consecutive z. Data duration is boundary separation. No QEC-round/TICK conversion."
+    }
+  ],
+  "common_domain": "Logical block geometry only. Native asynchronous reference differs from old homogeneous candidate pool; no hardware-cap, rate or speedup claim."
+}

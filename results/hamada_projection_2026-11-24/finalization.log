@@ -1,0 +1,241 @@
+{
+  "protocol_id": "complete_source_projection_geometry_20261124_v1",
+  "controls": 2,
+  "unique_geometries": 1,
+  "unique_noisy_hashes": 1,
+  "main_compilations": 1,
+  "generator_compilations": 4,
+  "exploratory_main_compilations": 1,
+  "exploratory_graph_rejection_before_compilation": 1,
+  "new_research_shots": 0,
+  "sampler_calls": 0,
+  "counts": null,
+  "confidence_interval": null,
+  "accepted": true,
+  "control_summary": [
+    {
+      "policy": "source_order",
+      "plan_sha256": "4bb1d7124f5629c30b7146b9c3ba63671e9da6e37b28d088d02a44679cbaa050",
+      "geometry_sha256": "43fa835a3acf7d24fc8d88039ebf681a96bae00b1a3294ffab83f5325a27b36c",
+      "resources": {
+        "template_block_z": 24,
+        "qec_rounds": null,
+        "stim_ticks": 587,
+        "routing_steps": null,
+        "physical_layers": null,
+        "source_cx_count": 2,
+        "source_h_count": 10,
+        "distinct_h_start_times": 9,
+        "data_lifetime_block_z": 48,
+        "protected_idle_intervals_block_z": [
+          [
+            13
+          ],
+          [
+            1
+          ]
+        ],
+        "total_protected_idle_block_z": 14,
+        "ancilla_native_voxels": 42,
+        "ancilla_conservative_lifetime_block_z": 42,
+        "ancilla_lifetimes": [
+          {
+            "x": 0,
+            "y": 1,
+            "start_block_z": 1,
+            "end_block_z": 8,
+            "lifetime_block_z": 7,
+            "native_voxel_count": 7
+          },
+          {
+            "x": 1,
+            "y": 0,
+            "start_block_z": 0,
+            "end_block_z": 4,
+            "lifetime_block_z": 4,
+            "native_voxel_count": 4
+          },
+          {
+            "x": 1,
+            "y": 1,
+            "start_block_z": 0,
+            "end_block_z": 2,
+            "lifetime_block_z": 2,
+            "native_voxel_count": 2
+          },
+          {
+            "x": 1,
+            "y": 2,
+            "start_block_z": 0,
+            "end_block_z": 1,
+            "lifetime_block_z": 1,
+            "native_voxel_count": 1
+          },
+          {
+            "x": 1,
+            "y": 3,
+            "start_block_z": 0,
+            "end_block_z": 1,
+            "lifetime_block_z": 1,
+            "native_voxel_count": 1
+          },
+          {
+            "x": 2,
+            "y": 1,
+            "start_block_z": 0,
+            "end_block_z": 2,
+            "lifetime_block_z": 2,
+            "native_voxel_count": 2
+          },
+          {
+            "x": 2,
+            "y": 2,
+            "start_block_z": 0,
+            "end_block_z": 1,
+            "lifetime_block_z": 1,
+            "native_voxel_count": 1
+          },
+          {
+            "x": 2,
+            "y": 3,
+            "start_block_z": 0,
+            "end_block_z": 7,
+            "lifetime_block_z": 7,
+            "native_voxel_count": 7
+          },
+          {
+            "x": 3,
+            "y": 2,
+            "start_block_z": 0,
+            "end_block_z": 17,
+            "lifetime_block_z": 17,
+            "native_voxel_count": 17
+          }
+        ],
+        "geometry_sha256": "43fa835a3acf7d24fc8d88039ebf681a96bae00b1a3294ffab83f5325a27b36c",
+        "note": "Projection has asynchronous endpoint events, not homogeneous 3-block H/CX layers; routing_steps/physical_layers null. Lifetime envelope is conservative if a site has disjoint native intervals. No code-beat/QEC-round/TICK conversion assumed."
+      },
+      "certificate_id": "projection_00"
+    },
+    {
+      "policy": "height_priority",
+      "plan_sha256": "26a98dc910c14d257731545fd764a062cb22871bed8611ca103ec4198673ac3c",
+      "geometry_sha256": "43fa835a3acf7d24fc8d88039ebf681a96bae00b1a3294ffab83f5325a27b36c",
+      "resources": {
+        "template_block_z": 24,
+        "qec_rounds": null,
+        "stim_ticks": 587,
+        "routing_steps": null,
+        "physical_layers": null,
+        "source_cx_count": 2,
+        "source_h_count": 10,
+        "distinct_h_start_times": 9,
+        "data_lifetime_block_z": 48,
+        "protected_idle_intervals_block_z": [
+          [
+            13
+          ],
+          [
+            1
+          ]
+        ],
+        "total_protected_idle_block_z": 14,
+        "ancilla_native_voxels": 42,
+        "ancilla_conservative_lifetime_block_z": 42,
+        "ancilla_lifetimes": [
+          {
+            "x": 0,
+            "y": 1,
+            "start_block_z": 1,
+            "end_block_z": 8,
+            "lifetime_block_z": 7,
+            "native_voxel_count": 7
+          },
+          {
+            "x": 1,
+            "y": 0,
+            "start_block_z": 0,
+            "end_block_z": 4,
+            "lifetime_block_z": 4,
+            "native_voxel_count": 4
+          },
+          {
+            "x": 1,
+            "y": 1,
+            "start_block_z": 0,
+            "end_block_z": 2,
+            "lifetime_block_z": 2,
+            "native_voxel_count": 2
+          },
+          {
+            "x": 1,
+            "y": 2,
+            "start_block_z": 0,
+            "end_block_z": 1,
+            "lifetime_block_z": 1,
+            "native_voxel_count": 1
+          },
+          {
+            "x": 1,
+            "y": 3,
+            "start_block_z": 0,
+            "end_block_z": 1,
+            "lifetime_block_z": 1,
+            "native_voxel_count": 1
+          },
+          {
+            "x": 2,
+            "y": 1,
+            "start_block_z": 0,
+            "end_block_z": 2,
+            "lifetime_block_z": 2,
+            "native_voxel_count": 2
+          },
+          {
+            "x": 2,
+            "y": 2,
+            "start_block_z": 0,
+            "end_block_z": 1,
+            "lifetime_block_z": 1,
+            "native_voxel_count": 1
+          },
+          {
+            "x": 2,
+            "y": 3,
+            "start_block_z": 0,
+            "end_block_z": 7,
+            "lifetime_block_z": 7,
+            "native_voxel_count": 7
+          },
+          {
+            "x": 3,
+            "y": 2,
+            "start_block_z": 0,
+            "end_block_z": 17,
+            "lifetime_block_z": 17,
+            "native_voxel_count": 17
+          }
+        ],
+        "geometry_sha256": "43fa835a3acf7d24fc8d88039ebf681a96bae00b1a3294ffab83f5325a27b36c",
+        "note": "Projection has asynchronous endpoint events, not homogeneous 3-block H/CX layers; routing_steps/physical_layers null. Lifetime envelope is conservative if a site has disjoint native intervals. No code-beat/QEC-round/TICK conversion assumed."
+      },
+      "certificate_id": "projection_00"
+    }
+  ],
+  "timing": {
+    "driver_build_seconds": null,
+    "routing_seconds_including_subprocess": [
+      0.004726310000023659,
+      0.00783836000005067
+    ],
+    "scorer_seconds": null,
+    "calibration_seconds": null,
+    "monte_carlo_seconds": null,
+    "decode_seconds": null,
+    "independent_performance_benchmark": false
+  },
+  "comparison_scope": "New asynchronous projection geometry reference; old 175 plans and 24 complete physical candidates retained. Different admissible lowering/search domain; no same-pool/budget speedup or LER claim.",
+  "held_out_labels": "sealed",
+  "sampling_permission": false,
+  "mu": 0
+}

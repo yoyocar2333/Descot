@@ -1,0 +1,24 @@
+{
+  "physical_hadamards": [
+    {
+      "policy": "source_order",
+      "physical_hadamard_pipes": 10,
+      "retained_h_source_count": 10
+    },
+    {
+      "policy": "height_priority",
+      "physical_hadamard_pipes": 10,
+      "retained_h_source_count": 10
+    }
+  ],
+  "old_unique_noisy_count": 24,
+  "new_noisy_hash_not_in_old": true,
+  "metadata_recovery": {
+    "initial_runner_sha256": "afc292fa9bf26c41a9a413e7c90fc979bf2771d5b29d3ffbaddb472d4d0d01c2",
+    "final_runner_sha256": "1ccc3bf84e23083ab9b96eec9099e671ea4204e175781c5785705e15fa2bd60c",
+    "scientific_batches_repeated": false,
+    "driver_build_elapsed_recovered": false
+  },
+  "research_shots": 0,
+  "mu": 0
+}

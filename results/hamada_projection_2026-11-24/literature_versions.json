@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-24",
+  "records": [
+    {
+      "id": "2401.15829v6",
+      "url": "https://arxiv.org/abs/2401.15829",
+      "abs_sha256": "3db15ed96accc1613412cf33996b68f0c4f0781b806e1db61f02079c3348e22e",
+      "latest_version": 6,
+      "verified": true
+    },
+    {
+      "id": "2604.15099v1",
+      "url": "https://arxiv.org/abs/2604.15099",
+      "abs_sha256": "2f7ec5c70c91ae2f5f7165a81f3b2c227ff1fa5ad8217115a7c89f6827a59d00",
+      "latest_version": 1,
+      "verified": true
+    },
+    {
+      "id": "2504.21854v2",
+      "url": "https://arxiv.org/abs/2504.21854",
+      "abs_sha256": "58016025e020481a5ce029b89475915c4b72d3a0178e37be15c9a1b58068bd7f",
+      "latest_version": 2,
+      "verified": true
+    },
+    {
+      "id": "2506.10258v1",
+      "url": "https://arxiv.org/abs/2506.10258",
+      "abs_sha256": "ee549b77b7048190d3c652c872552b0193fb2d1bf1b669667f5f6084ab7e1f62",
+      "latest_version": 1,
+      "verified": true
+    },
+    {
+      "id": "2610.30747v1",
+      "url": "https://arxiv.org/abs/2610.30747",
+      "abs_sha256": "f05d1ea25c878eb0e03657f0d2900c530052de23d89dde6c88785e8b8ea4a977",
+      "latest_version": 1,
+      "verified": true
+    },
+    {
+      "id": "2610.22112v1",
+      "url": "https://arxiv.org/abs/2610.22112",
+      "abs_sha256": "d215fc4b8e907fff1bb54974f5a06f98ba19495314b4bb71c0d4680ad1eb17e1",
+      "latest_version": 1,
+      "verified": true
+    },
+    {
+      "id": "2601.12509v2",
+      "url": "https://arxiv.org/abs/2601.12509",
+      "abs_sha256": "95071f17e78340e703f08825a5c696c3813319e9e9235b66c8f5dc4254b5742e",
+      "latest_version": 2,
+      "verified": true
+    },
+    {
+      "id": "2608.11719v1",
+      "url": "https://arxiv.org/abs/2608.11719",
+      "abs_sha256": "6a2f06e544483a895bff21f23b745d975c37cd49aa04c121873b45f4cac76dee",
+      "latest_version": 1,
+      "verified": true
+    },
+    {
+      "id": "2608.23819v2",
+      "url": "https://arxiv.org/abs/2608.23819",
+      "abs_sha256": "c05f72d7b69bb858b7eb57fb4c7ec81554a711c829430371c416ec113e57f405",
+      "latest_version": 2,
+      "verified": true
+    },
+    {
+      "id": "2606.21192v1",
+      "url": "https://arxiv.org/abs/2606.21192",
+      "abs_sha256": "961b85a7ed3fd88f994b2021ea1c1819f9d6e67bb6b978b1d3b3c95cda79d9d2",
+      "latest_version": 1,
+      "verified": true
+    }
+  ],
+  "primary_reading": "2401.15829v6 sections 3.3,3.5.3-3.5.5 / Algorithm4 and exact fixed release projective.hpp, prioritized dependency manager, validator. Fresh other-paper metadata checks; method overlaps carried from prior source-backed matrix, not all reread today.",
+  "native_version_boundary": "dcaa249 is release for 2606.21192v1, not verified old 2401.15829v6 artifact. Core height-weight search, lifting and kink repair used unmodified.",
+  "full_loop_difference": "Old paper activates dependencies after height updates. New release look_ahead_schedule calls process_instruction before route/height updates. Our explicit H/source adapter follows old paper timing; no bit-for-bit native whole-loop or impact-on-author-results claim.",
+  "unconfirmed": "O3LS common lowering, SPARO/Patchwork artifacts, independent same-budget method comparison, calibration and held-out remain unexecuted. Broad readout/decoder-aware novelty not claimed."
+}

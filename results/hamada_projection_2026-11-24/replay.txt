@@ -1,0 +1,1 @@
+PASS: full-source native projection replay, unflattened geometry, complete original output and all generator checks; no new shots
