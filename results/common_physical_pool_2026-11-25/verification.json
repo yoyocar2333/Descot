@@ -1,0 +1,21 @@
+{
+  "new_research_shots": 0,
+  "physical_compilations": 0,
+  "normalized_main_circuits": 25,
+  "normalized_generator_experiments": 100,
+  "exact_main_dem_equivalence_checks": 50,
+  "counts": null,
+  "ci": null,
+  "full_suite": {
+    "passed": 219,
+    "seconds": 402.99,
+    "legacy_p0_test_trajectories": 2600,
+    "legacy_tests_are_research_labels": false
+  },
+  "snapshot_assets_verified": 278,
+  "archive_bytes": 6266700,
+  "archive_sha256": "5fdb235cb597ba6f80a2c126c11b2bb7bc55ecc31d80820e4a88f1f739c017bf",
+  "held_out_labels": "sealed",
+  "sampling_permission": false,
+  "mu": 0
+}

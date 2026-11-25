@@ -1,0 +1,1 @@
+PASS: all 25 complete physical candidates, same 378-site device and complete readout, 100 generators, unchanged DEMs and all equal-budget selectors; 0 new shots

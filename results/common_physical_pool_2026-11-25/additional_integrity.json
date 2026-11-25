@@ -1,0 +1,11 @@
+{
+  "unique_original_noisy_hashes": 25,
+  "unique_normalized_noisy_hashes": 25,
+  "all_original_noisy_dem_hashes_unchanged": true,
+  "available_sites": 378,
+  "pool_rows": 25,
+  "full_source_main_checks": 25,
+  "generator_checks": 100,
+  "source_compilations": 0,
+  "research_shots": 0
+}

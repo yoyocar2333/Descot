@@ -1,0 +1,65 @@
+{
+  "python": "3.12.14",
+  "base_commit": "591379f94f4e711d48279fc9edde4bfc05783bd8",
+  "source_files_sha256": {
+    "common_physical_pool.py": "b4056a9c2af51879162a17fe2a62e1e46140fa717957c9b2478cb2bf85c037d9",
+    "run_common_physical_pool.py": "f754299ce1055047567cf3f428e15a2b686df77e5d85e22c10514945613628e9",
+    "projection_geometry_metrics.py": "9356a42794e732090cfe63d86003297e1a2ba9756f3f3cf52b81eed9a5490cbe",
+    "exact_program_validation.py": "aed04bbe2d37fded9690b66d4b06cd337a57de757dccccd00ecb72250eb71959",
+    "public_clifford.py": "bc3c68c183ec07cc95dea32fdf14f2290d0c082bd005d86b8a5a01296bce7ee5",
+    "public_candidate_pool.py": "4696ded929e46dc3ce34042d53fb3ca6b5d72c3635f9ab287c8d34589350d6e3",
+    "hamada_path_control.py": "f641bb59f8fdeffb4f8ff2ee6e5cab30550a9725eeee67f81e8f6c6335de895c",
+    "hamada_projection_control.py": "fc6fccf86ced6d6ae43b3f1f49b2c0fce0b60e9dfa278c9fddcfff4320f46a19",
+    "schedule_circuit.py": "86508aa305ac346a04ff9d931bcfb17cc3f3976dbd16694d7a850584c4d63a60",
+    "surgery.py": "ee67e6691f7da5b48dd788b4e886348fbd70fd370154ef5de2ecee9b90d11e0b",
+    "run_public_audit.py": "98a866e7ce1403b93715756d3af369e66728e97f7f6ad225923b156c62d1ad0a",
+    "requirements-lock.txt": "140e7ad5273ee3ac59347cd775c49bdcd2b1e978936e56bc7e1ab205eccaebf9",
+    "benchmarks/POST_REPORT_FAMILY_SPLIT_2026-11-18.json": "a1e3461a100ca15d764724a58461ec984c45bc19fa9afd84830d21c1e1784e9b"
+  },
+  "input_files_sha256": {
+    "results/grover_competition_2026-11-17/certificates/g122.json": "14cf1174d399b8817b7669717c84830555d8ba4690750c2f3d41612393e56cb2",
+    "results/grover_competition_2026-11-17/certificates/g124.json": "321ed9da57a5d8c86dbe23f9d8c00209d662742e759984f12c6217f754246dba",
+    "results/grover_competition_2026-11-17/certificates/g127.json": "de9f828c6e6667822926bc4b1866834b54e76fe25aa047a5da791f0645925915",
+    "results/grover_competition_2026-11-17/certificates/g129.json": "d47fc57590cd68fc752a4907ea1bf0c71a33435583f7ef988a1551c84e8ea656",
+    "results/grover_competition_2026-11-17/certificates/g137.json": "ca42ddfef88f53019c9ea9caf46e3f110207dd0d03d05e5fe10df993a3abb6d2",
+    "results/grover_competition_2026-11-17/certificates/g139.json": "78a0b8f249995a7473b99621215bd2f1f1f220a094dfdf2fe4493ce148b5b857",
+    "results/grover_competition_2026-11-17/certificates/g157.json": "b92eb510b5d58659a1f2a1d6c43e79392cddc00b8e68f7f85ccc34cb2efa5c1a",
+    "results/grover_competition_2026-11-17/certificates/g159.json": "52cdbb48681cee99f38c2b987cb65b8b283edc958ff2b48cfe7ca6730796758c",
+    "results/grover_competition_2026-11-17/certificates/g162.json": "3c69175fc0d547db974ae38974c824fffae2c0c08711cc3bb469d8587f1dd241",
+    "results/grover_competition_2026-11-17/certificates/g164.json": "c570525b6232f64c8059087d323deaee6d2e0beab22b53c71781759806826fb0",
+    "results/grover_competition_2026-11-17/certificates/g172.json": "1b8d2070d2b3bb77b7d4fc15a7fa6d4c48fa068554ee75e7c487dbf9d6874618",
+    "results/grover_competition_2026-11-17/certificates/g174.json": "dbaded5e20313aab894743cc97bf4fa29855c99ced3aa3e655838e7c7192879a",
+    "results/hamada_path_control_2026-11-23/certificates/mitm_g122.json": "1b58a2a956b261eb51a5e2fb3977d74cf40b07b119fa86479cf4c1f2ac6daca7",
+    "results/hamada_path_control_2026-11-23/certificates/mitm_g124.json": "efbc7a627de5b56ab5b2469c07444310bc0f457f19f1a404a6a331404d1a9fe8",
+    "results/hamada_path_control_2026-11-23/certificates/mitm_g127.json": "09f83fe59496aea940058a7234fc72673bf59098264ea5e50aa3b539e9284859",
+    "results/hamada_path_control_2026-11-23/certificates/mitm_g129.json": "ec37fad278ed3c8157242684fe541b60e2243b6a9f32aeeebd7c4e67e5650e4b",
+    "results/hamada_path_control_2026-11-23/certificates/mitm_g137.json": "10b99a44c3e50ed36e22f972f12bd827c25d64033d592e9897d221b3d9b4b499",
+    "results/hamada_path_control_2026-11-23/certificates/mitm_g139.json": "e1455948f8757c0143cd183022375b219ccf6e563994ef01ac3dadd3432499a7",
+    "results/hamada_path_control_2026-11-23/certificates/mitm_g157.json": "4bb0ea6541268220431e134337a7ba8c56f3b186937ab53335c2b70278233965",
+    "results/hamada_path_control_2026-11-23/certificates/mitm_g159.json": "c14eb050f82e47e552f12b1884e48d52a9c12b33bca10b04324766b2b0c777ee",
+    "results/hamada_path_control_2026-11-23/certificates/mitm_g162.json": "f40f54860b318708188eacef0ebf897407c8571ce707cc17e9dc41f87df229f2",
+    "results/hamada_path_control_2026-11-23/certificates/mitm_g164.json": "53f8303c9dcc7bd67409c1378f7c0e97215cdbc5a6b73d8ee23efe99c3bc4e12",
+    "results/hamada_path_control_2026-11-23/certificates/mitm_g172.json": "844188b8c06b14252b05135d8d11f655f87deaf394f83c3fa9f20352edb5ec6f",
+    "results/hamada_path_control_2026-11-23/certificates/mitm_g174.json": "07238db2c88769ff8b63e2ac897a24062e3a929222988d90cd454d0a7c3eed97",
+    "results/hamada_projection_2026-11-24/certificates/projection_00.json": "f6e94f485f98fd1c23b26e780a372c6c0ada375bf5f1f95449d52cd0b005037d",
+    "archives/grover_competition_2026-11-17.zip": "dc5c0abf4bda6f0a123dd636d534d1e5e2764150814a260cbfe8f15fbd7cd3c0",
+    "archives/hamada_path_control_2026-11-23.zip": "b217156c4ad55fc3ec83a505ef6a5a0c85790292b603c533b9f8930e078824e0",
+    "archives/hamada_projection_2026-11-24.zip": "e39e15e2d1f53d5ad9335c7bbbfa13fda30d71de6d543db37162ec0ed9c11ec0",
+    "results/grover_competition_2026-11-17/candidate_pool.json": "4bd28c68a09768e263b3c619a5e6a0cf4e81852dceae2d7a9a0924d045d93227",
+    "results/grover_competition_2026-11-17/resource_certificate.json": "848e418db8ecb0e48a8ec69fb63366089158041421443c97f0e74eadb41a76d2"
+  },
+  "packages": {
+    "tqec": "0.2.0",
+    "stim": "1.16.0",
+    "numpy": "2.5.4",
+    "pymatching": "2.4.0"
+  },
+  "tqec_direct_url": {
+    "url": "https://github.com/tqec/tqec.git",
+    "vcs_info": {
+      "vcs": "git",
+      "commit_id": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+      "requested_revision": "50fa2210597632a79bd266b56a5fb8d9b00747bb"
+    }
+  }
+}

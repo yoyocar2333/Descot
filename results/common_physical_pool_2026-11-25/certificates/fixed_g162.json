@@ -1,0 +1,981 @@
+{
+  "candidate": {
+    "candidate_id": "fixed:g162",
+    "lowering_id": "complete_hxcx_oriented_diagonal_v1",
+    "device_sha256": "3b5c8f09be9ede3cdcdaab0a72cfe29ba965d7455b7d5a269862f431d8f05eda",
+    "outside_device_sites": 0,
+    "required_sites_outside_prior_310": 0,
+    "outside_prior_coordinates": [],
+    "qualified_complete_output": true,
+    "external_flows": [
+      "ZIIZ",
+      "IZZI"
+    ],
+    "features": {
+      "template_block_z": 27,
+      "data_lifetime_block_z": 54,
+      "ancilla_lifetime_block_z": 12,
+      "total_lifetime_block_z": 66,
+      "plain_data_storage_cubes": 28,
+      "plain_data_storage_detail": [
+        {
+          "qubit": 0,
+          "cube_z": [
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            15,
+            16,
+            17,
+            18,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "count": 18
+        },
+        {
+          "qubit": 1,
+          "cube_z": [
+            3,
+            6,
+            7,
+            9,
+            12,
+            15,
+            18,
+            19,
+            21,
+            24
+          ],
+          "count": 10
+        }
+      ],
+      "ancilla_lifetime_segments": [
+        {
+          "x": 0,
+          "y": 1,
+          "first_cube_z": 19,
+          "last_cube_z": 20,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "first_cube_z": 7,
+          "last_cube_z": 8,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "first_cube_z": 8,
+          "last_cube_z": 8,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        }
+      ],
+      "geometry_cubes": 68,
+      "storage_definition": "Internal data cube with exactly two ordinary temporal pipes and no spatial branch; geometry feature, not the old profile-specific logical protected idle or calibrated error risk.",
+      "stim_ticks": 636,
+      "qec_rounds": null,
+      "static_site_ticks": 240408,
+      "active_physical_sites": 310,
+      "device_physical_sites": 378
+    },
+    "profile_specific_protected_idle_block_z": 12,
+    "profile_routing_steps": 2,
+    "profile_h_layers": 7,
+    "profile_physical_layers": 9,
+    "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+    "plan_sha256": "81e232fd27fdebf2719f74c5be0668f7d0a96c3240549bcd9c64a97ea960a253",
+    "original_artifacts": {
+      "ideal_sha256": "efea68aabeb739401a9f747d57f8bd6913d1a3e534ebcaf49228465be9346a6c",
+      "noisy_sha256": "c023b9c65949b0ba6c030b3f44d7db48d7e20de1e163165b37c0bf9641a59605",
+      "dem_sha256": "aa29ba6f570ab5e276fbb20e89f200937459bc5fcab1f591efb478cc7c5b4f63"
+    },
+    "normalized_artifacts": {
+      "ideal_sha256": "dcd3b49571f6cd68ee33fd54aa86b635343c400e4ef7967028e307598f18896c",
+      "noisy_sha256": "521bdb243ed5440111f43bbded7e43297e18a8e8bd445d27532cee6dd3ef3dfc",
+      "dem_sha256": "aa29ba6f570ab5e276fbb20e89f200937459bc5fcab1f591efb478cc7c5b4f63"
+    },
+    "original_certificate": "results/grover_competition_2026-11-17/certificates/g162.json",
+    "original_certificate_sha256": "3c69175fc0d547db974ae38974c824fffae2c0c08711cc3bb469d8587f1dd241",
+    "full_original_readout_order": [
+      1,
+      0
+    ],
+    "graphlike_distance": 3,
+    "shots": 0,
+    "counts": null,
+    "confidence_interval": null
+  },
+  "source_complete_proofs": [
+    {
+      "kind": "complete_main",
+      "metadata": {
+        "logical_qubits": 2,
+        "distance": 3,
+        "logical_block_xy": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "input_bases": "zz",
+        "output_bases": "zz",
+        "frame_x": [
+          1,
+          1
+        ],
+        "frame_z": [
+          0,
+          0
+        ],
+        "external_flows": [
+          "ZIIZ",
+          "IZZI"
+        ]
+      },
+      "validation": {
+        "exact": true,
+        "sampler_calls": 0,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0
+            ]
+          },
+          {
+            "input_signs": [
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              0
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              1
+            ]
+          }
+        ],
+        "final_faults": [
+          {
+            "qubit": 0,
+            "observable_flips": [
+              0,
+              1
+            ]
+          },
+          {
+            "qubit": 1,
+            "observable_flips": [
+              1,
+              0
+            ]
+          }
+        ],
+        "detector_checks": 1838,
+        "logical_relations": [
+          {
+            "input": "+Z_",
+            "output": "-_Z"
+          },
+          {
+            "input": "+_Z",
+            "output": "-Z_"
+          }
+        ],
+        "checker": "DEM determinism plus exact tableau reference signs; no sampler",
+        "full_z_readout_rank": 2
+      }
+    },
+    {
+      "kind": "X0",
+      "original_ideal_sha256": "0db694e25f7f2c7fa427023e96ef2dd65e408de6d5c74f68da5fe9c30ec49c56",
+      "ideal_sha256": "184458b6e9d98608169743fb729df008c40964ac9e18ce88163773a215f22c67",
+      "metadata": {
+        "logical_qubits": 2,
+        "distance": 3,
+        "logical_block_xy": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "input_bases": "xz",
+        "output_bases": "zx",
+        "frame_x": [
+          1,
+          1
+        ],
+        "frame_z": [
+          0,
+          0
+        ],
+        "external_flows": [
+          "XIZX",
+          "XZIX"
+        ]
+      },
+      "validation": {
+        "exact": true,
+        "sampler_calls": 0,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0
+            ]
+          },
+          {
+            "input_signs": [
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              1
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              0
+            ]
+          }
+        ],
+        "final_faults": [],
+        "detector_checks": 1838,
+        "logical_relations": [
+          {
+            "input": "+X_",
+            "output": "-ZX"
+          },
+          {
+            "input": "+XZ",
+            "output": "+_X"
+          }
+        ],
+        "checker": "DEM determinism plus exact tableau reference signs; no sampler",
+        "full_z_readout_rank": null
+      }
+    },
+    {
+      "kind": "X1",
+      "original_ideal_sha256": "618d2df02773b3cbaa5a2af6055ef1d6e591a7d211ea0d0336512dd1dc971ab4",
+      "ideal_sha256": "1ef056d9ab63c8e5118da5ed1bf7ecf1b75aee4c1714e10442a483c9e8ffbf1b",
+      "metadata": {
+        "logical_qubits": 2,
+        "distance": 3,
+        "logical_block_xy": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "input_bases": "zx",
+        "output_bases": "xz",
+        "frame_x": [
+          1,
+          1
+        ],
+        "frame_z": [
+          0,
+          0
+        ],
+        "external_flows": [
+          "ZXXI",
+          "IXXZ"
+        ]
+      },
+      "validation": {
+        "exact": true,
+        "sampler_calls": 0,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0
+            ]
+          },
+          {
+            "input_signs": [
+              0,
+              1
+            ],
+            "observable_parities": [
+              1,
+              1
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              0
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1
+            ]
+          }
+        ],
+        "final_faults": [],
+        "detector_checks": 1838,
+        "logical_relations": [
+          {
+            "input": "+ZX",
+            "output": "+X_"
+          },
+          {
+            "input": "+_X",
+            "output": "-XZ"
+          }
+        ],
+        "checker": "DEM determinism plus exact tableau reference signs; no sampler",
+        "full_z_readout_rank": null
+      }
+    },
+    {
+      "kind": "Z0",
+      "original_ideal_sha256": "efea68aabeb739401a9f747d57f8bd6913d1a3e534ebcaf49228465be9346a6c",
+      "ideal_sha256": "dcd3b49571f6cd68ee33fd54aa86b635343c400e4ef7967028e307598f18896c",
+      "metadata": {
+        "logical_qubits": 2,
+        "distance": 3,
+        "logical_block_xy": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "input_bases": "zz",
+        "output_bases": "zz",
+        "frame_x": [
+          1,
+          1
+        ],
+        "frame_z": [
+          0,
+          0
+        ],
+        "external_flows": [
+          "ZIIZ",
+          "IZZI"
+        ]
+      },
+      "validation": {
+        "exact": true,
+        "sampler_calls": 0,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0
+            ]
+          },
+          {
+            "input_signs": [
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              0
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              1
+            ]
+          }
+        ],
+        "final_faults": [],
+        "detector_checks": 1838,
+        "logical_relations": [
+          {
+            "input": "+Z_",
+            "output": "-_Z"
+          },
+          {
+            "input": "+_Z",
+            "output": "-Z_"
+          }
+        ],
+        "checker": "DEM determinism plus exact tableau reference signs; no sampler",
+        "full_z_readout_rank": null
+      }
+    },
+    {
+      "kind": "Z1",
+      "original_ideal_sha256": "efea68aabeb739401a9f747d57f8bd6913d1a3e534ebcaf49228465be9346a6c",
+      "ideal_sha256": "dcd3b49571f6cd68ee33fd54aa86b635343c400e4ef7967028e307598f18896c",
+      "metadata": {
+        "logical_qubits": 2,
+        "distance": 3,
+        "logical_block_xy": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "input_bases": "zz",
+        "output_bases": "zz",
+        "frame_x": [
+          1,
+          1
+        ],
+        "frame_z": [
+          0,
+          0
+        ],
+        "external_flows": [
+          "ZIIZ",
+          "IZZI"
+        ]
+      },
+      "validation": {
+        "exact": true,
+        "sampler_calls": 0,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0
+            ]
+          },
+          {
+            "input_signs": [
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              0
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              1
+            ]
+          }
+        ],
+        "final_faults": [],
+        "detector_checks": 1838,
+        "logical_relations": [
+          {
+            "input": "+Z_",
+            "output": "-_Z"
+          },
+          {
+            "input": "+_Z",
+            "output": "-Z_"
+          }
+        ],
+        "checker": "DEM determinism plus exact tableau reference signs; no sampler",
+        "full_z_readout_rank": null
+      }
+    }
+  ],
+  "qubit_mapping": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "8": 8,
+    "9": 9,
+    "10": 10,
+    "11": 11,
+    "12": 12,
+    "13": 13,
+    "14": 14,
+    "15": 15,
+    "16": 16,
+    "17": 17,
+    "18": 18,
+    "19": 19,
+    "20": 20,
+    "21": 21,
+    "22": 22,
+    "23": 23,
+    "24": 24,
+    "25": 25,
+    "26": 26,
+    "27": 27,
+    "28": 28,
+    "29": 29,
+    "30": 30,
+    "31": 31,
+    "32": 32,
+    "33": 33,
+    "34": 34,
+    "35": 35,
+    "36": 36,
+    "37": 37,
+    "38": 38,
+    "39": 39,
+    "40": 40,
+    "41": 41,
+    "42": 42,
+    "43": 43,
+    "44": 44,
+    "45": 45,
+    "46": 46,
+    "47": 47,
+    "48": 48,
+    "49": 49,
+    "50": 50,
+    "51": 51,
+    "52": 52,
+    "53": 53,
+    "54": 54,
+    "55": 55,
+    "56": 56,
+    "57": 57,
+    "58": 58,
+    "59": 59,
+    "60": 60,
+    "61": 61,
+    "62": 62,
+    "63": 63,
+    "64": 64,
+    "65": 65,
+    "66": 66,
+    "67": 67,
+    "68": 68,
+    "69": 69,
+    "70": 70,
+    "71": 71,
+    "72": 72,
+    "73": 73,
+    "74": 74,
+    "75": 75,
+    "76": 76,
+    "77": 77,
+    "78": 78,
+    "79": 79,
+    "80": 80,
+    "81": 81,
+    "82": 82,
+    "83": 83,
+    "84": 84,
+    "85": 85,
+    "86": 86,
+    "87": 87,
+    "88": 88,
+    "89": 89,
+    "90": 90,
+    "91": 91,
+    "92": 92,
+    "93": 93,
+    "94": 94,
+    "95": 95,
+    "96": 96,
+    "97": 97,
+    "98": 98,
+    "99": 99,
+    "100": 100,
+    "101": 101,
+    "102": 102,
+    "103": 103,
+    "104": 104,
+    "105": 105,
+    "106": 106,
+    "107": 107,
+    "108": 108,
+    "109": 109,
+    "110": 110,
+    "111": 111,
+    "112": 112,
+    "113": 113,
+    "114": 114,
+    "115": 115,
+    "116": 116,
+    "117": 117,
+    "118": 118,
+    "119": 119,
+    "120": 120,
+    "121": 121,
+    "122": 122,
+    "123": 123,
+    "124": 124,
+    "125": 125,
+    "126": 126,
+    "127": 127,
+    "128": 128,
+    "129": 129,
+    "130": 130,
+    "131": 131,
+    "132": 132,
+    "133": 133,
+    "134": 134,
+    "135": 135,
+    "136": 136,
+    "137": 137,
+    "138": 138,
+    "139": 139,
+    "140": 140,
+    "141": 141,
+    "142": 142,
+    "143": 143,
+    "144": 144,
+    "145": 145,
+    "146": 146,
+    "147": 147,
+    "148": 148,
+    "149": 149,
+    "150": 150,
+    "151": 151,
+    "152": 152,
+    "153": 153,
+    "154": 154,
+    "155": 155,
+    "156": 156,
+    "157": 157,
+    "158": 158,
+    "159": 159,
+    "160": 160,
+    "161": 161,
+    "162": 162,
+    "163": 163,
+    "164": 164,
+    "165": 165,
+    "166": 166,
+    "167": 167,
+    "168": 171,
+    "169": 172,
+    "170": 173,
+    "171": 177,
+    "172": 178,
+    "173": 179,
+    "174": 184,
+    "175": 185,
+    "176": 186,
+    "177": 187,
+    "178": 192,
+    "179": 193,
+    "180": 194,
+    "181": 195,
+    "182": 200,
+    "183": 201,
+    "184": 202,
+    "185": 208,
+    "186": 209,
+    "187": 210,
+    "188": 215,
+    "189": 216,
+    "190": 217,
+    "191": 218,
+    "192": 223,
+    "193": 224,
+    "194": 225,
+    "195": 226,
+    "196": 231,
+    "197": 232,
+    "198": 233,
+    "199": 239,
+    "200": 240,
+    "201": 241,
+    "202": 246,
+    "203": 247,
+    "204": 248,
+    "205": 249,
+    "206": 254,
+    "207": 255,
+    "208": 256,
+    "209": 257,
+    "210": 262,
+    "211": 263,
+    "212": 264,
+    "213": 270,
+    "214": 271,
+    "215": 272,
+    "216": 277,
+    "217": 278,
+    "218": 279,
+    "219": 280,
+    "220": 285,
+    "221": 286,
+    "222": 287,
+    "223": 288,
+    "224": 289,
+    "225": 290,
+    "226": 291,
+    "227": 295,
+    "228": 296,
+    "229": 297,
+    "230": 298,
+    "231": 299,
+    "232": 300,
+    "233": 301,
+    "234": 302,
+    "235": 303,
+    "236": 304,
+    "237": 305,
+    "238": 306,
+    "239": 307,
+    "240": 308,
+    "241": 309,
+    "242": 310,
+    "243": 311,
+    "244": 312,
+    "245": 313,
+    "246": 314,
+    "247": 315,
+    "248": 316,
+    "249": 317,
+    "250": 318,
+    "251": 319,
+    "252": 320,
+    "253": 321,
+    "254": 322,
+    "255": 323,
+    "256": 324,
+    "257": 325,
+    "258": 326,
+    "259": 327,
+    "260": 328,
+    "261": 329,
+    "262": 330,
+    "263": 331,
+    "264": 332,
+    "265": 333,
+    "266": 334,
+    "267": 335,
+    "268": 336,
+    "269": 337,
+    "270": 338,
+    "271": 339,
+    "272": 340,
+    "273": 341,
+    "274": 342,
+    "275": 343,
+    "276": 344,
+    "277": 345,
+    "278": 346,
+    "279": 347,
+    "280": 348,
+    "281": 349,
+    "282": 350,
+    "283": 351,
+    "284": 352,
+    "285": 353,
+    "286": 354,
+    "287": 355,
+    "288": 356,
+    "289": 357,
+    "290": 358,
+    "291": 359,
+    "292": 360,
+    "293": 361,
+    "294": 362,
+    "295": 363,
+    "296": 364,
+    "297": 365,
+    "298": 366,
+    "299": 367,
+    "300": 368,
+    "301": 369,
+    "302": 370,
+    "303": 371,
+    "304": 372,
+    "305": 373,
+    "306": 374,
+    "307": 375,
+    "308": 376,
+    "309": 377
+  }
+}

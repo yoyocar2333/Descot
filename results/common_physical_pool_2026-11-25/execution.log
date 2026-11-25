@@ -1,0 +1,59 @@
+fixed:g122 full output+4 generators+unchanged DEM passed 310 active sites; 0 outside prior catalogue; 0 shots
+fixed:g124 full output+4 generators+unchanged DEM passed 310 active sites; 0 outside prior catalogue; 0 shots
+fixed:g127 full output+4 generators+unchanged DEM passed 310 active sites; 0 outside prior catalogue; 0 shots
+fixed:g129 full output+4 generators+unchanged DEM passed 310 active sites; 0 outside prior catalogue; 0 shots
+fixed:g137 full output+4 generators+unchanged DEM passed 310 active sites; 0 outside prior catalogue; 0 shots
+fixed:g139 full output+4 generators+unchanged DEM passed 310 active sites; 0 outside prior catalogue; 0 shots
+fixed:g157 full output+4 generators+unchanged DEM passed 310 active sites; 0 outside prior catalogue; 0 shots
+fixed:g159 full output+4 generators+unchanged DEM passed 310 active sites; 0 outside prior catalogue; 0 shots
+fixed:g162 full output+4 generators+unchanged DEM passed 310 active sites; 0 outside prior catalogue; 0 shots
+fixed:g164 full output+4 generators+unchanged DEM passed 310 active sites; 0 outside prior catalogue; 0 shots
+fixed:g172 full output+4 generators+unchanged DEM passed 310 active sites; 0 outside prior catalogue; 0 shots
+fixed:g174 full output+4 generators+unchanged DEM passed 310 active sites; 0 outside prior catalogue; 0 shots
+mitm:g122 full output+4 generators+unchanged DEM passed 309 active sites; 68 outside prior catalogue; 0 shots
+mitm:g124 full output+4 generators+unchanged DEM passed 309 active sites; 68 outside prior catalogue; 0 shots
+mitm:g127 full output+4 generators+unchanged DEM passed 309 active sites; 68 outside prior catalogue; 0 shots
+mitm:g129 full output+4 generators+unchanged DEM passed 309 active sites; 68 outside prior catalogue; 0 shots
+mitm:g137 full output+4 generators+unchanged DEM passed 309 active sites; 68 outside prior catalogue; 0 shots
+mitm:g139 full output+4 generators+unchanged DEM passed 309 active sites; 68 outside prior catalogue; 0 shots
+mitm:g157 full output+4 generators+unchanged DEM passed 309 active sites; 68 outside prior catalogue; 0 shots
+mitm:g159 full output+4 generators+unchanged DEM passed 309 active sites; 68 outside prior catalogue; 0 shots
+mitm:g162 full output+4 generators+unchanged DEM passed 309 active sites; 68 outside prior catalogue; 0 shots
+mitm:g164 full output+4 generators+unchanged DEM passed 309 active sites; 68 outside prior catalogue; 0 shots
+mitm:g172 full output+4 generators+unchanged DEM passed 309 active sites; 68 outside prior catalogue; 0 shots
+mitm:g174 full output+4 generators+unchanged DEM passed 309 active sites; 68 outside prior catalogue; 0 shots
+projection:00 full output+4 generators+unchanged DEM passed 310 active sites; 31 outside prior catalogue; 0 shots
+{
+  "protocol_id": "shared_device_physical_pool_20261125_v1",
+  "qualified_physical_pool": 25,
+  "unique_physical_noisy_circuits": 25,
+  "common_available_physical_sites": 378,
+  "retained_abstract_gate_plans": 175,
+  "abstract_plan_qualification_note": "Only the previously certified 12 shortest fixed plans, their 12 MITM variants and one asynchronous reference are in this physical selector. Deeper abstract plans remain pending, not deleted or declared inferior in decoded error.",
+  "original_catalogue_310": {
+    "feasible": 12,
+    "infeasible": 13,
+    "selection": "Not run on silently reduced pool"
+  },
+  "full_output_exact_checks": 25,
+  "generator_exact_checks": 100,
+  "unchanged_main_ideal_and_noisy_dem_checks": 50,
+  "normalized_representations_are_new_physical_compilations": false,
+  "new_physical_compilations": 0,
+  "new_research_shots": 0,
+  "sampler_calls": 0,
+  "counts": null,
+  "confidence_interval": null,
+  "retired_readout_v1": "STOPPED",
+  "new_readout_cost_revision": false,
+  "held_out_labels": "sealed",
+  "sampling_permission": false,
+  "mu": 0,
+  "gates_remaining": [
+    "O3LS original implementation/common supported physical lowering",
+    "online original methods vs same search budget",
+    "readout-sensitive revision and development pilot/calibration",
+    "complete evaluation freeze before held-out"
+  ],
+  "decision": "Shared device/readout/features/offline-budget contract achieved for declared 25 physical candidates. Actual selectors disagree on time vs volume. No decoded-circuit improvement or original-method completion claim."
+}

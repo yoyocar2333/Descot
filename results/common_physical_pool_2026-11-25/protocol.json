@@ -1,0 +1,32 @@
+{
+  "id": "shared_device_physical_pool_20261125_v1",
+  "date": "2026-11-25",
+  "family": "grover_search development only",
+  "shots": 0,
+  "seeds": [],
+  "counts": null,
+  "confidence_interval": null,
+  "mu": 0,
+  "pool": "All 12 fixed-route, all 12 MITM variants, one full-source projection. Original 175 abstract plans retained; this is not the exhaustive gate-level physical pool.",
+  "device": "Exact union of static XY physical coordinate sets of all 25 original main circuits; freeze before selector evaluation. Experimental device catalogue, not a measured chip or a manufactured concurrency cap.",
+  "coordinate_policy": "Preserve all gates, noise, record indices, repeats, TICKs, detector/observable annotations and coordinates. Relabel qubits injectively; add only metadata for unused device sites, holding no logical state and receiving no fabricated noise.",
+  "complete_observables": "Unchanged ordered complete basis: Z on original q1/c1 then Z on q0/c0. External flows ZIIZ, IZZI, exact signs and rank2 validated. No parity subset or basis optimization.",
+  "validation": "All main original outputs/signed inputs/final faults and all four independent generator experiments per candidate; exact unchanged ideal/noisy DEM after relabeling. No sampling.",
+  "selectors": [
+    "duration_then_volume",
+    "volume_then_duration",
+    "plain_storage_then_duration",
+    "static_sites_tick_then_volume"
+  ],
+  "reference": "fixed:g174",
+  "budget_per_selector": 25,
+  "tie_rule": "preserve reference if optimum, otherwise lexicographic candidate ID",
+  "retired_candidate": "Raw equiprobable readout-wait v1 stays STOPPED; no new readout cost or calibration here.",
+  "geometry_cost": "Actual connected time-pipe block volume, common block-z duration, plain data storage cubes, static common sites*TICK; profile-specific logical protected idle separately retained and not ranked across lowerings.",
+  "noise": "Unchanged d3, p0.001 TQEC uniform-depolarizing physical artifacts",
+  "decoder": "ordinary uncorrelated PyMatching MWPM/decomposed DEM construction only",
+  "timing": "31 isolated selector repetitions after 3 warmups on common cached features, fixed policy order rotated. Pool/resource normalization/DEM/exact verification separate. Equal 25 row costs are not equal router calls/CPU.",
+  "held_out_labels": "sealed",
+  "sampling_permission": false,
+  "stopping_rule": "No samples; fail rather than remove any unqualified, out-of-device, basis-changing or missing candidate"
+}
