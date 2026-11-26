@@ -1,0 +1,43 @@
+{
+  "records": [
+    {
+      "family": "deutsch_jozsa",
+      "url": "https://raw.githubusercontent.com/pnnl/QASMBench/357b942396d5c2b7cbc1c229c585a6ef5ccaebac/small/deutsch_n2/deutsch_n2.qasm",
+      "source_revision": "357b942396d5c2b7cbc1c229c585a6ef5ccaebac",
+      "source_sha256": "56a7b3389495fb497df1a331abb7d4f64ac57d397aaa1c1169d0ac33a10889cd",
+      "operation_counts": {
+        "cx": 1,
+        "h": 3,
+        "measure": 2,
+        "x": 1
+      },
+      "exact_terminal_z_expectations": [
+        -1,
+        0
+      ],
+      "status": "Gate set accepted by H/X/CX frontend, but not the current full-rank deterministic two-Z-output contract. Original q1 measurement retained; no compilation, qualification or shots. A complete random-output metric/physical basis contract is needed before application claims.",
+      "direct_source_bytes_verified": true,
+      "role_for_new_hypotheses": "development only; do not allocate inspected source/family as new held-out data"
+    },
+    {
+      "family": "simon",
+      "source_path": "benchmarks/public_2026-11-02/qasmbench/simon_n6.qasm",
+      "source_revision": "357b942396d5c2b7cbc1c229c585a6ef5ccaebac",
+      "source_sha256": "756eee6bf939d1b5879da3ff1bae66cfd2599b9b96515f336ecde6f9ca512fc9",
+      "operation_counts": {
+        "barrier": 2,
+        "ccx": 2,
+        "cx": 2,
+        "h": 6,
+        "measure": 6,
+        "x": 6
+      },
+      "status": "Existing fixed source, not a new family discovery. Contains two unsupported CCX; preserve whole source, do not strip gates to qualify.",
+      "role_for_new_hypotheses": "development only; do not allocate inspected source/family as new held-out data"
+    }
+  ],
+  "new_qualified_families": 0,
+  "new_physical_compilations": 0,
+  "new_shots": 0,
+  "interpretation": "Bounded follow-up leads only; not a substitute for the actual52 complete public workload physical compilations in this increment. No new held-out allocation or benchmark denominator change."
+}

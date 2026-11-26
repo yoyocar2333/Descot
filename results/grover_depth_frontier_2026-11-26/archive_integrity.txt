@@ -1,0 +1,1 @@
+PASS: archive SHA256 and all646 assets; 0 new shots

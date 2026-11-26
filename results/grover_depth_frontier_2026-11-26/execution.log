@@ -1,0 +1,80 @@
+g034 main+4 generators, rank2, d3, same device/DEM PASS 1/52; 0 shots
+g024 main+4 generators, rank2, d3, same device/DEM PASS 2/52; 0 shots
+g032 main+4 generators, rank2, d3, same device/DEM PASS 3/52; 0 shots
+g054 main+4 generators, rank2, d3, same device/DEM PASS 4/52; 0 shots
+g019 main+4 generators, rank2, d3, same device/DEM PASS 5/52; 0 shots
+g052 main+4 generators, rank2, d3, same device/DEM PASS 6/52; 0 shots
+g022 main+4 generators, rank2, d3, same device/DEM PASS 7/52; 0 shots
+g017 main+4 generators, rank2, d3, same device/DEM PASS 8/52; 0 shots
+g057 main+4 generators, rank2, d3, same device/DEM PASS 9/52; 0 shots
+g087 main+4 generators, rank2, d3, same device/DEM PASS 10/52; 0 shots
+g089 main+4 generators, rank2, d3, same device/DEM PASS 11/52; 0 shots
+g069 main+4 generators, rank2, d3, same device/DEM PASS 12/52; 0 shots
+g067 main+4 generators, rank2, d3, same device/DEM PASS 13/52; 0 shots
+g059 main+4 generators, rank2, d3, same device/DEM PASS 14/52; 0 shots
+g094 main+4 generators, rank2, d3, same device/DEM PASS 15/52; 0 shots
+g092 main+4 generators, rank2, d3, same device/DEM PASS 16/52; 0 shots
+g104 main+4 generators, rank2, d3, same device/DEM PASS 17/52; 0 shots
+g102 main+4 generators, rank2, d3, same device/DEM PASS 18/52; 0 shots
+g114 main+4 generators, rank2, d3, same device/DEM PASS 19/52; 0 shots
+g112 main+4 generators, rank2, d3, same device/DEM PASS 20/52; 0 shots
+g107 main+4 generators, rank2, d3, same device/DEM PASS 21/52; 0 shots
+g117 main+4 generators, rank2, d3, same device/DEM PASS 22/52; 0 shots
+g119 main+4 generators, rank2, d3, same device/DEM PASS 23/52; 0 shots
+g109 main+4 generators, rank2, d3, same device/DEM PASS 24/52; 0 shots
+g121 main+4 generators, rank2, d3, same device/DEM PASS 25/52; 0 shots
+g128 main+4 generators, rank2, d3, same device/DEM PASS 26/52; 0 shots
+g120 main+4 generators, rank2, d3, same device/DEM PASS 27/52; 0 shots
+g123 main+4 generators, rank2, d3, same device/DEM PASS 28/52; 0 shots
+g125 main+4 generators, rank2, d3, same device/DEM PASS 29/52; 0 shots
+g132 main+4 generators, rank2, d3, same device/DEM PASS 30/52; 0 shots
+g126 main+4 generators, rank2, d3, same device/DEM PASS 31/52; 0 shots
+g134 main+4 generators, rank2, d3, same device/DEM PASS 32/52; 0 shots
+g136 main+4 generators, rank2, d3, same device/DEM PASS 33/52; 0 shots
+g135 main+4 generators, rank2, d3, same device/DEM PASS 34/52; 0 shots
+g138 main+4 generators, rank2, d3, same device/DEM PASS 35/52; 0 shots
+g142 main+4 generators, rank2, d3, same device/DEM PASS 36/52; 0 shots
+g144 main+4 generators, rank2, d3, same device/DEM PASS 37/52; 0 shots
+g149 main+4 generators, rank2, d3, same device/DEM PASS 38/52; 0 shots
+g147 main+4 generators, rank2, d3, same device/DEM PASS 39/52; 0 shots
+g152 main+4 generators, rank2, d3, same device/DEM PASS 40/52; 0 shots
+g154 main+4 generators, rank2, d3, same device/DEM PASS 41/52; 0 shots
+g161 main+4 generators, rank2, d3, same device/DEM PASS 42/52; 0 shots
+g155 main+4 generators, rank2, d3, same device/DEM PASS 43/52; 0 shots
+g156 main+4 generators, rank2, d3, same device/DEM PASS 44/52; 0 shots
+g158 main+4 generators, rank2, d3, same device/DEM PASS 45/52; 0 shots
+g163 main+4 generators, rank2, d3, same device/DEM PASS 46/52; 0 shots
+g160 main+4 generators, rank2, d3, same device/DEM PASS 47/52; 0 shots
+g167 main+4 generators, rank2, d3, same device/DEM PASS 48/52; 0 shots
+g169 main+4 generators, rank2, d3, same device/DEM PASS 49/52; 0 shots
+g171 main+4 generators, rank2, d3, same device/DEM PASS 50/52; 0 shots
+g170 main+4 generators, rank2, d3, same device/DEM PASS 51/52; 0 shots
+g173 main+4 generators, rank2, d3, same device/DEM PASS 52/52; 0 shots
+{
+  "protocol_id": "complete_next_depth_frontier_20261126_v1",
+  "retained_logical_plans": 175,
+  "newly_qualified_fixed_plans": 52,
+  "total_qualified_fixed_plans": 64,
+  "remaining_fixed_plans": 111,
+  "full_physical_portfolio": 77,
+  "common_device_sites": 378,
+  "main_physical_compilations": 52,
+  "generator_physical_compilations": 208,
+  "exploratory_physical_compilations": 0,
+  "new_physical_compilations": 260,
+  "unique_new_noisy_circuits": 52,
+  "unique_total_normalized_noisy_circuits": 77,
+  "full_main_exact_checks": 52,
+  "generator_exact_checks": 208,
+  "main_dem_equivalence_checks": 104,
+  "new_research_shots": 0,
+  "sampler_calls": 0,
+  "counts": null,
+  "confidence_interval": null,
+  "mu": 0,
+  "held_out_labels": "sealed",
+  "sampling_permission": false,
+  "raw_v1": "STOPPED",
+  "risk_revision": false,
+  "decision": "Complete next depth frontier added, without noise-label pruning. This is not all175 physical plans or an online original-method budget comparison; no decoded efficacy conclusion."
+}

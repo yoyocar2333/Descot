@@ -1,0 +1,5299 @@
+{
+  "candidate_id": "g109",
+  "plan_sha256": "ab6e77c60227971dfd759cf45f362e766ac41f275045d28ad4040372aa49ad06",
+  "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+  "features": {
+    "physical_layers": 10,
+    "template_block_z": 30,
+    "cx_routing_steps": 2,
+    "logical_h_layers": 8,
+    "qec_rounds": null,
+    "stim_ticks": 706,
+    "data_reservation_block_z": 60,
+    "ancilla_reservation_block_z": 30,
+    "protected_idle_intervals_block_z": [
+      [
+        3,
+        3,
+        6,
+        3
+      ],
+      [
+        3
+      ]
+    ],
+    "total_protected_idle_block_z": 18,
+    "max_protected_idle_block_z": 6,
+    "squared_protected_idle_block_z2": 72,
+    "cx_recurrence_separations_block_z": [
+      12
+    ],
+    "cx_gap_squared_block_z2": 144,
+    "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+  },
+  "ideal_sha256": "0309028c36cb031267d917c0e086b4f3d779d63a5985475799fcff52722c0413",
+  "noisy_sha256": "421c3576b6bcaa914bd47f16d5045e66658197333977c9ce97e480b25e0ab1a9",
+  "dem_sha256": "7f28df56d9dd7285b3000c94ddac9c7a6ef1826aa81ab0d525c07c6e0bcce876",
+  "num_qubits": 310,
+  "num_detectors": 1998,
+  "num_observables": 2,
+  "shortest_graphlike_error": 3,
+  "shots": 0,
+  "counts": null,
+  "confidence_interval": null,
+  "timing": {
+    "main_compile_seconds": 70.56854172099997,
+    "exact_validation_seconds": 1.3761706400000548,
+    "generator_compile_seconds": 272.37362195499986,
+    "generator_exact_validation_seconds": 3.2594536759997936,
+    "noise_dem_decoder_construction_seconds": 5.226106452000067,
+    "distance_search_seconds": 0.6267334010001377,
+    "scorer_seconds": null,
+    "calibration_seconds": null,
+    "routing_benchmark_seconds": null,
+    "monte_carlo_seconds": null,
+    "decode_seconds": null
+  },
+  "validation": {
+    "exact": true,
+    "sampler_calls": 0,
+    "signed_inputs": [
+      {
+        "input_signs": [
+          0,
+          0
+        ],
+        "observable_parities": [
+          0,
+          0
+        ]
+      },
+      {
+        "input_signs": [
+          0,
+          1
+        ],
+        "observable_parities": [
+          0,
+          1
+        ]
+      },
+      {
+        "input_signs": [
+          1,
+          0
+        ],
+        "observable_parities": [
+          1,
+          0
+        ]
+      },
+      {
+        "input_signs": [
+          1,
+          1
+        ],
+        "observable_parities": [
+          1,
+          1
+        ]
+      }
+    ],
+    "final_faults": [
+      {
+        "qubit": 0,
+        "observable_flips": [
+          0,
+          1
+        ]
+      },
+      {
+        "qubit": 1,
+        "observable_flips": [
+          1,
+          0
+        ]
+      }
+    ],
+    "detector_checks": 1998,
+    "logical_relations": [
+      {
+        "input": "+Z_",
+        "output": "-_Z"
+      },
+      {
+        "input": "+_Z",
+        "output": "-Z_"
+      }
+    ],
+    "checker": "DEM determinism plus exact tableau reference signs; no sampler",
+    "full_z_readout_rank": 2
+  },
+  "generators": [
+    {
+      "input_generator": "X0",
+      "target_flow": "XIZX",
+      "ideal_sha256": "ee55eae81758cea929c97e164760d8a29a226f45424f834ebe00114e274ff5df",
+      "backend_meta": {
+        "profile_id": "complete_hxcx_oriented_diagonal_v1",
+        "distance": 3,
+        "logical_qubits": 2,
+        "logical_block_xy": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "input_bases": "xz",
+        "output_bases": "zx",
+        "final_orientations": [
+          1,
+          1
+        ],
+        "input_z": 0,
+        "output_z": 30,
+        "physical_layers": 10,
+        "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+        "operation_counts": {
+          "cx": 2,
+          "h": 10,
+          "measure": 2,
+          "x": 4
+        },
+        "instruction_trace": [
+          {
+            "id": 1,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [],
+            "start_block_z": 0,
+            "end_block_z": 3,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 0,
+            "name": "h",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [],
+            "start_block_z": 3,
+            "end_block_z": 6,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 2,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              1
+            ],
+            "start_block_z": 3,
+            "end_block_z": 6,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 3,
+            "name": "cx",
+            "qubits": [
+              0,
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              0,
+              2
+            ],
+            "start_block_z": 6,
+            "end_block_z": 9,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 4,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              3
+            ],
+            "start_block_z": 9,
+            "end_block_z": 12,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 5,
+            "name": "h",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              3
+            ],
+            "start_block_z": 12,
+            "end_block_z": 15,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 7,
+            "name": "x",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              5
+            ],
+            "start_block_z": 15,
+            "end_block_z": 15,
+            "implementation": "Pauli frame (zero physical time)",
+            "frame_x_after": [
+              1,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 6,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              4
+            ],
+            "start_block_z": 15,
+            "end_block_z": 18,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              1,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 8,
+            "name": "x",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              6
+            ],
+            "start_block_z": 18,
+            "end_block_z": 18,
+            "implementation": "Pauli frame (zero physical time)",
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 9,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              8
+            ],
+            "start_block_z": 18,
+            "end_block_z": 21,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              1,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": 10,
+            "name": "cx",
+            "qubits": [
+              0,
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              7,
+              9
+            ],
+            "start_block_z": 21,
+            "end_block_z": 24,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "id": 12,
+            "name": "x",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              10
+            ],
+            "start_block_z": 24,
+            "end_block_z": 24,
+            "implementation": "Pauli frame (zero physical time)",
+            "frame_x_after": [
+              0,
+              1
+            ],
+            "frame_z_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "id": 11,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              10
+            ],
+            "start_block_z": 24,
+            "end_block_z": 27,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              0,
+              1
+            ],
+            "frame_z_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "id": 14,
+            "name": "h",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              12
+            ],
+            "start_block_z": 24,
+            "end_block_z": 27,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": 13,
+            "name": "x",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              11
+            ],
+            "start_block_z": 27,
+            "end_block_z": 27,
+            "implementation": "Pauli frame (zero physical time)",
+            "frame_x_after": [
+              1,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": 16,
+            "name": "measure",
+            "qubits": [
+              0
+            ],
+            "clbits": [
+              0
+            ],
+            "params": [],
+            "predecessors": [
+              14
+            ],
+            "start_block_z": 30,
+            "end_block_z": 30,
+            "implementation": "terminal readout at common end",
+            "frame_x_after": [
+              1,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              1
+            ],
+            "source_ready_block_z": 27
+          },
+          {
+            "id": 15,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              13
+            ],
+            "start_block_z": 27,
+            "end_block_z": 30,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 17,
+            "name": "measure",
+            "qubits": [
+              1
+            ],
+            "clbits": [
+              1
+            ],
+            "params": [],
+            "predecessors": [
+              15
+            ],
+            "start_block_z": 30,
+            "end_block_z": 30,
+            "implementation": "terminal readout at common end",
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ],
+            "source_ready_block_z": 30
+          }
+        ],
+        "gate_footprints": [
+          {
+            "operation_id": 3,
+            "reserved_xy": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "control_arm": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "target_arm": [
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "start_block_z": 6,
+            "end_block_z": 9
+          },
+          {
+            "operation_id": 10,
+            "reserved_xy": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                3,
+                2
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "control_arm": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "target_arm": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                3,
+                2
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "start_block_z": 21,
+            "end_block_z": 24
+          }
+        ],
+        "frame_x": [
+          1,
+          1
+        ],
+        "frame_z": [
+          0,
+          0
+        ],
+        "terminal_readout": [
+          {
+            "qubit": 0,
+            "classical_bit": 0
+          },
+          {
+            "qubit": 1,
+            "classical_bit": 1
+          }
+        ],
+        "tqec_commit": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+        "plan": {
+          "mode": "exact_h_cx_subsets_v1",
+          "spacing": 3,
+          "layers": [
+            {
+              "kind": "h",
+              "operation_ids": [
+                1
+              ],
+              "orientation_before": [
+                0,
+                0
+              ],
+              "orientation_after": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "h",
+              "operation_ids": [
+                0,
+                2
+              ],
+              "orientation_before": [
+                0,
+                1
+              ],
+              "orientation_after": [
+                1,
+                0
+              ]
+            },
+            {
+              "kind": "cx",
+              "operation_ids": [
+                3
+              ],
+              "orientation_before": [
+                1,
+                0
+              ],
+              "orientation_after": [
+                1,
+                0
+              ]
+            },
+            {
+              "kind": "h",
+              "operation_ids": [
+                4
+              ],
+              "orientation_before": [
+                1,
+                0
+              ],
+              "orientation_after": [
+                1,
+                1
+              ]
+            },
+            {
+              "kind": "h",
+              "operation_ids": [
+                5
+              ],
+              "orientation_before": [
+                1,
+                1
+              ],
+              "orientation_after": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "virtual_or_readout",
+              "operation_ids": [
+                7
+              ],
+              "orientation_before": [
+                0,
+                1
+              ],
+              "orientation_after": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "h",
+              "operation_ids": [
+                6
+              ],
+              "orientation_before": [
+                0,
+                1
+              ],
+              "orientation_after": [
+                0,
+                0
+              ]
+            },
+            {
+              "kind": "virtual_or_readout",
+              "operation_ids": [
+                8
+              ],
+              "orientation_before": [
+                0,
+                0
+              ],
+              "orientation_after": [
+                0,
+                0
+              ]
+            },
+            {
+              "kind": "h",
+              "operation_ids": [
+                9
+              ],
+              "orientation_before": [
+                0,
+                0
+              ],
+              "orientation_after": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "cx",
+              "operation_ids": [
+                10
+              ],
+              "orientation_before": [
+                0,
+                1
+              ],
+              "orientation_after": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "virtual_or_readout",
+              "operation_ids": [
+                12
+              ],
+              "orientation_before": [
+                0,
+                1
+              ],
+              "orientation_after": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "h",
+              "operation_ids": [
+                11,
+                14
+              ],
+              "orientation_before": [
+                0,
+                1
+              ],
+              "orientation_after": [
+                1,
+                0
+              ]
+            },
+            {
+              "kind": "virtual_or_readout",
+              "operation_ids": [
+                13,
+                16
+              ],
+              "orientation_before": [
+                1,
+                0
+              ],
+              "orientation_after": [
+                1,
+                0
+              ]
+            },
+            {
+              "kind": "h",
+              "operation_ids": [
+                15
+              ],
+              "orientation_before": [
+                1,
+                0
+              ],
+              "orientation_after": [
+                1,
+                1
+              ]
+            },
+            {
+              "kind": "virtual_or_readout",
+              "operation_ids": [
+                17
+              ],
+              "orientation_before": [
+                1,
+                1
+              ],
+              "orientation_after": [
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        "timing_policy": "Each physical H or CX layer = 3 block-z; X = virtual Pauli frame; terminal measurements share common final boundary. Compiler TICKs counted directly; no assumed conversion to QEC rounds.",
+        "mu": 0,
+        "external_flows": [
+          "XIZX",
+          "XZIX"
+        ],
+        "num_qubits": 310,
+        "num_ticks": 706,
+        "num_observables": 2,
+        "num_detectors": 1998
+      },
+      "compile_seconds": 66.65846826899997,
+      "exact_validation_seconds": 0.7219437819999257,
+      "validation": {
+        "exact": true,
+        "sampler_calls": 0,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0
+            ]
+          },
+          {
+            "input_signs": [
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              1
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              0
+            ]
+          }
+        ],
+        "final_faults": [],
+        "detector_checks": 1998,
+        "logical_relations": [
+          {
+            "input": "+X_",
+            "output": "-ZX"
+          },
+          {
+            "input": "+XZ",
+            "output": "+_X"
+          }
+        ],
+        "checker": "DEM determinism plus exact tableau reference signs; no sampler",
+        "full_z_readout_rank": null
+      }
+    },
+    {
+      "input_generator": "X1",
+      "target_flow": "IXXZ",
+      "ideal_sha256": "62109c4c8d9946276416e82a4d96b86b2717ac36a20a9620dad1b166d07cfa99",
+      "backend_meta": {
+        "profile_id": "complete_hxcx_oriented_diagonal_v1",
+        "distance": 3,
+        "logical_qubits": 2,
+        "logical_block_xy": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "input_bases": "zx",
+        "output_bases": "xz",
+        "final_orientations": [
+          1,
+          1
+        ],
+        "input_z": 0,
+        "output_z": 30,
+        "physical_layers": 10,
+        "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+        "operation_counts": {
+          "cx": 2,
+          "h": 10,
+          "measure": 2,
+          "x": 4
+        },
+        "instruction_trace": [
+          {
+            "id": 1,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [],
+            "start_block_z": 0,
+            "end_block_z": 3,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 0,
+            "name": "h",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [],
+            "start_block_z": 3,
+            "end_block_z": 6,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 2,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              1
+            ],
+            "start_block_z": 3,
+            "end_block_z": 6,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 3,
+            "name": "cx",
+            "qubits": [
+              0,
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              0,
+              2
+            ],
+            "start_block_z": 6,
+            "end_block_z": 9,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 4,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              3
+            ],
+            "start_block_z": 9,
+            "end_block_z": 12,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 5,
+            "name": "h",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              3
+            ],
+            "start_block_z": 12,
+            "end_block_z": 15,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 7,
+            "name": "x",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              5
+            ],
+            "start_block_z": 15,
+            "end_block_z": 15,
+            "implementation": "Pauli frame (zero physical time)",
+            "frame_x_after": [
+              1,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 6,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              4
+            ],
+            "start_block_z": 15,
+            "end_block_z": 18,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              1,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 8,
+            "name": "x",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              6
+            ],
+            "start_block_z": 18,
+            "end_block_z": 18,
+            "implementation": "Pauli frame (zero physical time)",
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 9,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              8
+            ],
+            "start_block_z": 18,
+            "end_block_z": 21,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              1,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": 10,
+            "name": "cx",
+            "qubits": [
+              0,
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              7,
+              9
+            ],
+            "start_block_z": 21,
+            "end_block_z": 24,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "id": 12,
+            "name": "x",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              10
+            ],
+            "start_block_z": 24,
+            "end_block_z": 24,
+            "implementation": "Pauli frame (zero physical time)",
+            "frame_x_after": [
+              0,
+              1
+            ],
+            "frame_z_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "id": 11,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              10
+            ],
+            "start_block_z": 24,
+            "end_block_z": 27,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              0,
+              1
+            ],
+            "frame_z_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "id": 14,
+            "name": "h",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              12
+            ],
+            "start_block_z": 24,
+            "end_block_z": 27,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": 13,
+            "name": "x",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              11
+            ],
+            "start_block_z": 27,
+            "end_block_z": 27,
+            "implementation": "Pauli frame (zero physical time)",
+            "frame_x_after": [
+              1,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": 16,
+            "name": "measure",
+            "qubits": [
+              0
+            ],
+            "clbits": [
+              0
+            ],
+            "params": [],
+            "predecessors": [
+              14
+            ],
+            "start_block_z": 30,
+            "end_block_z": 30,
+            "implementation": "terminal readout at common end",
+            "frame_x_after": [
+              1,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              1
+            ],
+            "source_ready_block_z": 27
+          },
+          {
+            "id": 15,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              13
+            ],
+            "start_block_z": 27,
+            "end_block_z": 30,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 17,
+            "name": "measure",
+            "qubits": [
+              1
+            ],
+            "clbits": [
+              1
+            ],
+            "params": [],
+            "predecessors": [
+              15
+            ],
+            "start_block_z": 30,
+            "end_block_z": 30,
+            "implementation": "terminal readout at common end",
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ],
+            "source_ready_block_z": 30
+          }
+        ],
+        "gate_footprints": [
+          {
+            "operation_id": 3,
+            "reserved_xy": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "control_arm": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "target_arm": [
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "start_block_z": 6,
+            "end_block_z": 9
+          },
+          {
+            "operation_id": 10,
+            "reserved_xy": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                3,
+                2
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "control_arm": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "target_arm": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                3,
+                2
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "start_block_z": 21,
+            "end_block_z": 24
+          }
+        ],
+        "frame_x": [
+          1,
+          1
+        ],
+        "frame_z": [
+          0,
+          0
+        ],
+        "terminal_readout": [
+          {
+            "qubit": 0,
+            "classical_bit": 0
+          },
+          {
+            "qubit": 1,
+            "classical_bit": 1
+          }
+        ],
+        "tqec_commit": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+        "plan": {
+          "mode": "exact_h_cx_subsets_v1",
+          "spacing": 3,
+          "layers": [
+            {
+              "kind": "h",
+              "operation_ids": [
+                1
+              ],
+              "orientation_before": [
+                0,
+                0
+              ],
+              "orientation_after": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "h",
+              "operation_ids": [
+                0,
+                2
+              ],
+              "orientation_before": [
+                0,
+                1
+              ],
+              "orientation_after": [
+                1,
+                0
+              ]
+            },
+            {
+              "kind": "cx",
+              "operation_ids": [
+                3
+              ],
+              "orientation_before": [
+                1,
+                0
+              ],
+              "orientation_after": [
+                1,
+                0
+              ]
+            },
+            {
+              "kind": "h",
+              "operation_ids": [
+                4
+              ],
+              "orientation_before": [
+                1,
+                0
+              ],
+              "orientation_after": [
+                1,
+                1
+              ]
+            },
+            {
+              "kind": "h",
+              "operation_ids": [
+                5
+              ],
+              "orientation_before": [
+                1,
+                1
+              ],
+              "orientation_after": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "virtual_or_readout",
+              "operation_ids": [
+                7
+              ],
+              "orientation_before": [
+                0,
+                1
+              ],
+              "orientation_after": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "h",
+              "operation_ids": [
+                6
+              ],
+              "orientation_before": [
+                0,
+                1
+              ],
+              "orientation_after": [
+                0,
+                0
+              ]
+            },
+            {
+              "kind": "virtual_or_readout",
+              "operation_ids": [
+                8
+              ],
+              "orientation_before": [
+                0,
+                0
+              ],
+              "orientation_after": [
+                0,
+                0
+              ]
+            },
+            {
+              "kind": "h",
+              "operation_ids": [
+                9
+              ],
+              "orientation_before": [
+                0,
+                0
+              ],
+              "orientation_after": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "cx",
+              "operation_ids": [
+                10
+              ],
+              "orientation_before": [
+                0,
+                1
+              ],
+              "orientation_after": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "virtual_or_readout",
+              "operation_ids": [
+                12
+              ],
+              "orientation_before": [
+                0,
+                1
+              ],
+              "orientation_after": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "h",
+              "operation_ids": [
+                11,
+                14
+              ],
+              "orientation_before": [
+                0,
+                1
+              ],
+              "orientation_after": [
+                1,
+                0
+              ]
+            },
+            {
+              "kind": "virtual_or_readout",
+              "operation_ids": [
+                13,
+                16
+              ],
+              "orientation_before": [
+                1,
+                0
+              ],
+              "orientation_after": [
+                1,
+                0
+              ]
+            },
+            {
+              "kind": "h",
+              "operation_ids": [
+                15
+              ],
+              "orientation_before": [
+                1,
+                0
+              ],
+              "orientation_after": [
+                1,
+                1
+              ]
+            },
+            {
+              "kind": "virtual_or_readout",
+              "operation_ids": [
+                17
+              ],
+              "orientation_before": [
+                1,
+                1
+              ],
+              "orientation_after": [
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        "timing_policy": "Each physical H or CX layer = 3 block-z; X = virtual Pauli frame; terminal measurements share common final boundary. Compiler TICKs counted directly; no assumed conversion to QEC rounds.",
+        "mu": 0,
+        "external_flows": [
+          "ZXXI",
+          "IXXZ"
+        ],
+        "num_qubits": 310,
+        "num_ticks": 706,
+        "num_observables": 2,
+        "num_detectors": 1998
+      },
+      "compile_seconds": 68.93246324699999,
+      "exact_validation_seconds": 0.826569845999984,
+      "validation": {
+        "exact": true,
+        "sampler_calls": 0,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0
+            ]
+          },
+          {
+            "input_signs": [
+              0,
+              1
+            ],
+            "observable_parities": [
+              1,
+              1
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              0
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1
+            ]
+          }
+        ],
+        "final_faults": [],
+        "detector_checks": 1998,
+        "logical_relations": [
+          {
+            "input": "+ZX",
+            "output": "+X_"
+          },
+          {
+            "input": "+_X",
+            "output": "-XZ"
+          }
+        ],
+        "checker": "DEM determinism plus exact tableau reference signs; no sampler",
+        "full_z_readout_rank": null
+      }
+    },
+    {
+      "input_generator": "Z0",
+      "target_flow": "ZIIZ",
+      "ideal_sha256": "0309028c36cb031267d917c0e086b4f3d779d63a5985475799fcff52722c0413",
+      "backend_meta": {
+        "profile_id": "complete_hxcx_oriented_diagonal_v1",
+        "distance": 3,
+        "logical_qubits": 2,
+        "logical_block_xy": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "input_bases": "zz",
+        "output_bases": "zz",
+        "final_orientations": [
+          1,
+          1
+        ],
+        "input_z": 0,
+        "output_z": 30,
+        "physical_layers": 10,
+        "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+        "operation_counts": {
+          "cx": 2,
+          "h": 10,
+          "measure": 2,
+          "x": 4
+        },
+        "instruction_trace": [
+          {
+            "id": 1,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [],
+            "start_block_z": 0,
+            "end_block_z": 3,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 0,
+            "name": "h",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [],
+            "start_block_z": 3,
+            "end_block_z": 6,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 2,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              1
+            ],
+            "start_block_z": 3,
+            "end_block_z": 6,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 3,
+            "name": "cx",
+            "qubits": [
+              0,
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              0,
+              2
+            ],
+            "start_block_z": 6,
+            "end_block_z": 9,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 4,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              3
+            ],
+            "start_block_z": 9,
+            "end_block_z": 12,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 5,
+            "name": "h",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              3
+            ],
+            "start_block_z": 12,
+            "end_block_z": 15,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 7,
+            "name": "x",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              5
+            ],
+            "start_block_z": 15,
+            "end_block_z": 15,
+            "implementation": "Pauli frame (zero physical time)",
+            "frame_x_after": [
+              1,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 6,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              4
+            ],
+            "start_block_z": 15,
+            "end_block_z": 18,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              1,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 8,
+            "name": "x",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              6
+            ],
+            "start_block_z": 18,
+            "end_block_z": 18,
+            "implementation": "Pauli frame (zero physical time)",
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 9,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              8
+            ],
+            "start_block_z": 18,
+            "end_block_z": 21,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              1,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": 10,
+            "name": "cx",
+            "qubits": [
+              0,
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              7,
+              9
+            ],
+            "start_block_z": 21,
+            "end_block_z": 24,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "id": 12,
+            "name": "x",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              10
+            ],
+            "start_block_z": 24,
+            "end_block_z": 24,
+            "implementation": "Pauli frame (zero physical time)",
+            "frame_x_after": [
+              0,
+              1
+            ],
+            "frame_z_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "id": 11,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              10
+            ],
+            "start_block_z": 24,
+            "end_block_z": 27,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              0,
+              1
+            ],
+            "frame_z_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "id": 14,
+            "name": "h",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              12
+            ],
+            "start_block_z": 24,
+            "end_block_z": 27,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": 13,
+            "name": "x",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              11
+            ],
+            "start_block_z": 27,
+            "end_block_z": 27,
+            "implementation": "Pauli frame (zero physical time)",
+            "frame_x_after": [
+              1,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": 16,
+            "name": "measure",
+            "qubits": [
+              0
+            ],
+            "clbits": [
+              0
+            ],
+            "params": [],
+            "predecessors": [
+              14
+            ],
+            "start_block_z": 30,
+            "end_block_z": 30,
+            "implementation": "terminal readout at common end",
+            "frame_x_after": [
+              1,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              1
+            ],
+            "source_ready_block_z": 27
+          },
+          {
+            "id": 15,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              13
+            ],
+            "start_block_z": 27,
+            "end_block_z": 30,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 17,
+            "name": "measure",
+            "qubits": [
+              1
+            ],
+            "clbits": [
+              1
+            ],
+            "params": [],
+            "predecessors": [
+              15
+            ],
+            "start_block_z": 30,
+            "end_block_z": 30,
+            "implementation": "terminal readout at common end",
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ],
+            "source_ready_block_z": 30
+          }
+        ],
+        "gate_footprints": [
+          {
+            "operation_id": 3,
+            "reserved_xy": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "control_arm": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "target_arm": [
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "start_block_z": 6,
+            "end_block_z": 9
+          },
+          {
+            "operation_id": 10,
+            "reserved_xy": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                3,
+                2
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "control_arm": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "target_arm": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                3,
+                2
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "start_block_z": 21,
+            "end_block_z": 24
+          }
+        ],
+        "frame_x": [
+          1,
+          1
+        ],
+        "frame_z": [
+          0,
+          0
+        ],
+        "terminal_readout": [
+          {
+            "qubit": 0,
+            "classical_bit": 0
+          },
+          {
+            "qubit": 1,
+            "classical_bit": 1
+          }
+        ],
+        "tqec_commit": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+        "plan": {
+          "mode": "exact_h_cx_subsets_v1",
+          "spacing": 3,
+          "layers": [
+            {
+              "kind": "h",
+              "operation_ids": [
+                1
+              ],
+              "orientation_before": [
+                0,
+                0
+              ],
+              "orientation_after": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "h",
+              "operation_ids": [
+                0,
+                2
+              ],
+              "orientation_before": [
+                0,
+                1
+              ],
+              "orientation_after": [
+                1,
+                0
+              ]
+            },
+            {
+              "kind": "cx",
+              "operation_ids": [
+                3
+              ],
+              "orientation_before": [
+                1,
+                0
+              ],
+              "orientation_after": [
+                1,
+                0
+              ]
+            },
+            {
+              "kind": "h",
+              "operation_ids": [
+                4
+              ],
+              "orientation_before": [
+                1,
+                0
+              ],
+              "orientation_after": [
+                1,
+                1
+              ]
+            },
+            {
+              "kind": "h",
+              "operation_ids": [
+                5
+              ],
+              "orientation_before": [
+                1,
+                1
+              ],
+              "orientation_after": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "virtual_or_readout",
+              "operation_ids": [
+                7
+              ],
+              "orientation_before": [
+                0,
+                1
+              ],
+              "orientation_after": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "h",
+              "operation_ids": [
+                6
+              ],
+              "orientation_before": [
+                0,
+                1
+              ],
+              "orientation_after": [
+                0,
+                0
+              ]
+            },
+            {
+              "kind": "virtual_or_readout",
+              "operation_ids": [
+                8
+              ],
+              "orientation_before": [
+                0,
+                0
+              ],
+              "orientation_after": [
+                0,
+                0
+              ]
+            },
+            {
+              "kind": "h",
+              "operation_ids": [
+                9
+              ],
+              "orientation_before": [
+                0,
+                0
+              ],
+              "orientation_after": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "cx",
+              "operation_ids": [
+                10
+              ],
+              "orientation_before": [
+                0,
+                1
+              ],
+              "orientation_after": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "virtual_or_readout",
+              "operation_ids": [
+                12
+              ],
+              "orientation_before": [
+                0,
+                1
+              ],
+              "orientation_after": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "h",
+              "operation_ids": [
+                11,
+                14
+              ],
+              "orientation_before": [
+                0,
+                1
+              ],
+              "orientation_after": [
+                1,
+                0
+              ]
+            },
+            {
+              "kind": "virtual_or_readout",
+              "operation_ids": [
+                13,
+                16
+              ],
+              "orientation_before": [
+                1,
+                0
+              ],
+              "orientation_after": [
+                1,
+                0
+              ]
+            },
+            {
+              "kind": "h",
+              "operation_ids": [
+                15
+              ],
+              "orientation_before": [
+                1,
+                0
+              ],
+              "orientation_after": [
+                1,
+                1
+              ]
+            },
+            {
+              "kind": "virtual_or_readout",
+              "operation_ids": [
+                17
+              ],
+              "orientation_before": [
+                1,
+                1
+              ],
+              "orientation_after": [
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        "timing_policy": "Each physical H or CX layer = 3 block-z; X = virtual Pauli frame; terminal measurements share common final boundary. Compiler TICKs counted directly; no assumed conversion to QEC rounds.",
+        "mu": 0,
+        "external_flows": [
+          "ZIIZ",
+          "IZZI"
+        ],
+        "num_qubits": 310,
+        "num_ticks": 706,
+        "num_observables": 2,
+        "num_detectors": 1998
+      },
+      "compile_seconds": 72.52348311299988,
+      "exact_validation_seconds": 1.1953449479999563,
+      "validation": {
+        "exact": true,
+        "sampler_calls": 0,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0
+            ]
+          },
+          {
+            "input_signs": [
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              0
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              1
+            ]
+          }
+        ],
+        "final_faults": [],
+        "detector_checks": 1998,
+        "logical_relations": [
+          {
+            "input": "+Z_",
+            "output": "-_Z"
+          },
+          {
+            "input": "+_Z",
+            "output": "-Z_"
+          }
+        ],
+        "checker": "DEM determinism plus exact tableau reference signs; no sampler",
+        "full_z_readout_rank": null
+      }
+    },
+    {
+      "input_generator": "Z1",
+      "target_flow": "IZZI",
+      "ideal_sha256": "0309028c36cb031267d917c0e086b4f3d779d63a5985475799fcff52722c0413",
+      "backend_meta": {
+        "profile_id": "complete_hxcx_oriented_diagonal_v1",
+        "distance": 3,
+        "logical_qubits": 2,
+        "logical_block_xy": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "input_bases": "zz",
+        "output_bases": "zz",
+        "final_orientations": [
+          1,
+          1
+        ],
+        "input_z": 0,
+        "output_z": 30,
+        "physical_layers": 10,
+        "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+        "operation_counts": {
+          "cx": 2,
+          "h": 10,
+          "measure": 2,
+          "x": 4
+        },
+        "instruction_trace": [
+          {
+            "id": 1,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [],
+            "start_block_z": 0,
+            "end_block_z": 3,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 0,
+            "name": "h",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [],
+            "start_block_z": 3,
+            "end_block_z": 6,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 2,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              1
+            ],
+            "start_block_z": 3,
+            "end_block_z": 6,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 3,
+            "name": "cx",
+            "qubits": [
+              0,
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              0,
+              2
+            ],
+            "start_block_z": 6,
+            "end_block_z": 9,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 4,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              3
+            ],
+            "start_block_z": 9,
+            "end_block_z": 12,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 5,
+            "name": "h",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              3
+            ],
+            "start_block_z": 12,
+            "end_block_z": 15,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              0,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 7,
+            "name": "x",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              5
+            ],
+            "start_block_z": 15,
+            "end_block_z": 15,
+            "implementation": "Pauli frame (zero physical time)",
+            "frame_x_after": [
+              1,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 6,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              4
+            ],
+            "start_block_z": 15,
+            "end_block_z": 18,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              1,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 8,
+            "name": "x",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              6
+            ],
+            "start_block_z": 18,
+            "end_block_z": 18,
+            "implementation": "Pauli frame (zero physical time)",
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 9,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              8
+            ],
+            "start_block_z": 18,
+            "end_block_z": 21,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              1,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": 10,
+            "name": "cx",
+            "qubits": [
+              0,
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              7,
+              9
+            ],
+            "start_block_z": 21,
+            "end_block_z": 24,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "id": 12,
+            "name": "x",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              10
+            ],
+            "start_block_z": 24,
+            "end_block_z": 24,
+            "implementation": "Pauli frame (zero physical time)",
+            "frame_x_after": [
+              0,
+              1
+            ],
+            "frame_z_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "id": 11,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              10
+            ],
+            "start_block_z": 24,
+            "end_block_z": 27,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              0,
+              1
+            ],
+            "frame_z_after": [
+              1,
+              1
+            ]
+          },
+          {
+            "id": 14,
+            "name": "h",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              12
+            ],
+            "start_block_z": 24,
+            "end_block_z": 27,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": 13,
+            "name": "x",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              11
+            ],
+            "start_block_z": 27,
+            "end_block_z": 27,
+            "implementation": "Pauli frame (zero physical time)",
+            "frame_x_after": [
+              1,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": 16,
+            "name": "measure",
+            "qubits": [
+              0
+            ],
+            "clbits": [
+              0
+            ],
+            "params": [],
+            "predecessors": [
+              14
+            ],
+            "start_block_z": 30,
+            "end_block_z": 30,
+            "implementation": "terminal readout at common end",
+            "frame_x_after": [
+              1,
+              0
+            ],
+            "frame_z_after": [
+              0,
+              1
+            ],
+            "source_ready_block_z": 27
+          },
+          {
+            "id": 15,
+            "name": "h",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              13
+            ],
+            "start_block_z": 27,
+            "end_block_z": 30,
+            "implementation": "TQEC physical graph",
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": 17,
+            "name": "measure",
+            "qubits": [
+              1
+            ],
+            "clbits": [
+              1
+            ],
+            "params": [],
+            "predecessors": [
+              15
+            ],
+            "start_block_z": 30,
+            "end_block_z": 30,
+            "implementation": "terminal readout at common end",
+            "frame_x_after": [
+              1,
+              1
+            ],
+            "frame_z_after": [
+              0,
+              0
+            ],
+            "source_ready_block_z": 30
+          }
+        ],
+        "gate_footprints": [
+          {
+            "operation_id": 3,
+            "reserved_xy": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "control_arm": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "target_arm": [
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "start_block_z": 6,
+            "end_block_z": 9
+          },
+          {
+            "operation_id": 10,
+            "reserved_xy": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                3,
+                2
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "control_arm": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "target_arm": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                3,
+                2
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "start_block_z": 21,
+            "end_block_z": 24
+          }
+        ],
+        "frame_x": [
+          1,
+          1
+        ],
+        "frame_z": [
+          0,
+          0
+        ],
+        "terminal_readout": [
+          {
+            "qubit": 0,
+            "classical_bit": 0
+          },
+          {
+            "qubit": 1,
+            "classical_bit": 1
+          }
+        ],
+        "tqec_commit": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+        "plan": {
+          "mode": "exact_h_cx_subsets_v1",
+          "spacing": 3,
+          "layers": [
+            {
+              "kind": "h",
+              "operation_ids": [
+                1
+              ],
+              "orientation_before": [
+                0,
+                0
+              ],
+              "orientation_after": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "h",
+              "operation_ids": [
+                0,
+                2
+              ],
+              "orientation_before": [
+                0,
+                1
+              ],
+              "orientation_after": [
+                1,
+                0
+              ]
+            },
+            {
+              "kind": "cx",
+              "operation_ids": [
+                3
+              ],
+              "orientation_before": [
+                1,
+                0
+              ],
+              "orientation_after": [
+                1,
+                0
+              ]
+            },
+            {
+              "kind": "h",
+              "operation_ids": [
+                4
+              ],
+              "orientation_before": [
+                1,
+                0
+              ],
+              "orientation_after": [
+                1,
+                1
+              ]
+            },
+            {
+              "kind": "h",
+              "operation_ids": [
+                5
+              ],
+              "orientation_before": [
+                1,
+                1
+              ],
+              "orientation_after": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "virtual_or_readout",
+              "operation_ids": [
+                7
+              ],
+              "orientation_before": [
+                0,
+                1
+              ],
+              "orientation_after": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "h",
+              "operation_ids": [
+                6
+              ],
+              "orientation_before": [
+                0,
+                1
+              ],
+              "orientation_after": [
+                0,
+                0
+              ]
+            },
+            {
+              "kind": "virtual_or_readout",
+              "operation_ids": [
+                8
+              ],
+              "orientation_before": [
+                0,
+                0
+              ],
+              "orientation_after": [
+                0,
+                0
+              ]
+            },
+            {
+              "kind": "h",
+              "operation_ids": [
+                9
+              ],
+              "orientation_before": [
+                0,
+                0
+              ],
+              "orientation_after": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "cx",
+              "operation_ids": [
+                10
+              ],
+              "orientation_before": [
+                0,
+                1
+              ],
+              "orientation_after": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "virtual_or_readout",
+              "operation_ids": [
+                12
+              ],
+              "orientation_before": [
+                0,
+                1
+              ],
+              "orientation_after": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "h",
+              "operation_ids": [
+                11,
+                14
+              ],
+              "orientation_before": [
+                0,
+                1
+              ],
+              "orientation_after": [
+                1,
+                0
+              ]
+            },
+            {
+              "kind": "virtual_or_readout",
+              "operation_ids": [
+                13,
+                16
+              ],
+              "orientation_before": [
+                1,
+                0
+              ],
+              "orientation_after": [
+                1,
+                0
+              ]
+            },
+            {
+              "kind": "h",
+              "operation_ids": [
+                15
+              ],
+              "orientation_before": [
+                1,
+                0
+              ],
+              "orientation_after": [
+                1,
+                1
+              ]
+            },
+            {
+              "kind": "virtual_or_readout",
+              "operation_ids": [
+                17
+              ],
+              "orientation_before": [
+                1,
+                1
+              ],
+              "orientation_after": [
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        "timing_policy": "Each physical H or CX layer = 3 block-z; X = virtual Pauli frame; terminal measurements share common final boundary. Compiler TICKs counted directly; no assumed conversion to QEC rounds.",
+        "mu": 0,
+        "external_flows": [
+          "ZIIZ",
+          "IZZI"
+        ],
+        "num_qubits": 310,
+        "num_ticks": 706,
+        "num_observables": 2,
+        "num_detectors": 1998
+      },
+      "compile_seconds": 64.25920732600002,
+      "exact_validation_seconds": 0.5155950999999277,
+      "validation": {
+        "exact": true,
+        "sampler_calls": 0,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0
+            ]
+          },
+          {
+            "input_signs": [
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              0
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              1
+            ]
+          }
+        ],
+        "final_faults": [],
+        "detector_checks": 1998,
+        "logical_relations": [
+          {
+            "input": "+Z_",
+            "output": "-_Z"
+          },
+          {
+            "input": "+_Z",
+            "output": "-Z_"
+          }
+        ],
+        "checker": "DEM determinism plus exact tableau reference signs; no sampler",
+        "full_z_readout_rank": null
+      }
+    }
+  ],
+  "backend_meta": {
+    "profile_id": "complete_hxcx_oriented_diagonal_v1",
+    "distance": 3,
+    "logical_qubits": 2,
+    "logical_block_xy": [
+      [
+        0,
+        0
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "input_bases": "zz",
+    "output_bases": "zz",
+    "final_orientations": [
+      1,
+      1
+    ],
+    "input_z": 0,
+    "output_z": 30,
+    "physical_layers": 10,
+    "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+    "operation_counts": {
+      "cx": 2,
+      "h": 10,
+      "measure": 2,
+      "x": 4
+    },
+    "instruction_trace": [
+      {
+        "id": 1,
+        "name": "h",
+        "qubits": [
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [],
+        "start_block_z": 0,
+        "end_block_z": 3,
+        "implementation": "TQEC physical graph",
+        "frame_x_after": [
+          0,
+          0
+        ],
+        "frame_z_after": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": 0,
+        "name": "h",
+        "qubits": [
+          0
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [],
+        "start_block_z": 3,
+        "end_block_z": 6,
+        "implementation": "TQEC physical graph",
+        "frame_x_after": [
+          0,
+          0
+        ],
+        "frame_z_after": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": 2,
+        "name": "h",
+        "qubits": [
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          1
+        ],
+        "start_block_z": 3,
+        "end_block_z": 6,
+        "implementation": "TQEC physical graph",
+        "frame_x_after": [
+          0,
+          0
+        ],
+        "frame_z_after": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": 3,
+        "name": "cx",
+        "qubits": [
+          0,
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          0,
+          2
+        ],
+        "start_block_z": 6,
+        "end_block_z": 9,
+        "implementation": "TQEC physical graph",
+        "frame_x_after": [
+          0,
+          0
+        ],
+        "frame_z_after": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": 4,
+        "name": "h",
+        "qubits": [
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          3
+        ],
+        "start_block_z": 9,
+        "end_block_z": 12,
+        "implementation": "TQEC physical graph",
+        "frame_x_after": [
+          0,
+          0
+        ],
+        "frame_z_after": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": 5,
+        "name": "h",
+        "qubits": [
+          0
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          3
+        ],
+        "start_block_z": 12,
+        "end_block_z": 15,
+        "implementation": "TQEC physical graph",
+        "frame_x_after": [
+          0,
+          0
+        ],
+        "frame_z_after": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": 7,
+        "name": "x",
+        "qubits": [
+          0
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          5
+        ],
+        "start_block_z": 15,
+        "end_block_z": 15,
+        "implementation": "Pauli frame (zero physical time)",
+        "frame_x_after": [
+          1,
+          0
+        ],
+        "frame_z_after": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": 6,
+        "name": "h",
+        "qubits": [
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          4
+        ],
+        "start_block_z": 15,
+        "end_block_z": 18,
+        "implementation": "TQEC physical graph",
+        "frame_x_after": [
+          1,
+          0
+        ],
+        "frame_z_after": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": 8,
+        "name": "x",
+        "qubits": [
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          6
+        ],
+        "start_block_z": 18,
+        "end_block_z": 18,
+        "implementation": "Pauli frame (zero physical time)",
+        "frame_x_after": [
+          1,
+          1
+        ],
+        "frame_z_after": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": 9,
+        "name": "h",
+        "qubits": [
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          8
+        ],
+        "start_block_z": 18,
+        "end_block_z": 21,
+        "implementation": "TQEC physical graph",
+        "frame_x_after": [
+          1,
+          0
+        ],
+        "frame_z_after": [
+          0,
+          1
+        ]
+      },
+      {
+        "id": 10,
+        "name": "cx",
+        "qubits": [
+          0,
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          7,
+          9
+        ],
+        "start_block_z": 21,
+        "end_block_z": 24,
+        "implementation": "TQEC physical graph",
+        "frame_x_after": [
+          1,
+          1
+        ],
+        "frame_z_after": [
+          1,
+          1
+        ]
+      },
+      {
+        "id": 12,
+        "name": "x",
+        "qubits": [
+          0
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          10
+        ],
+        "start_block_z": 24,
+        "end_block_z": 24,
+        "implementation": "Pauli frame (zero physical time)",
+        "frame_x_after": [
+          0,
+          1
+        ],
+        "frame_z_after": [
+          1,
+          1
+        ]
+      },
+      {
+        "id": 11,
+        "name": "h",
+        "qubits": [
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          10
+        ],
+        "start_block_z": 24,
+        "end_block_z": 27,
+        "implementation": "TQEC physical graph",
+        "frame_x_after": [
+          0,
+          1
+        ],
+        "frame_z_after": [
+          1,
+          1
+        ]
+      },
+      {
+        "id": 14,
+        "name": "h",
+        "qubits": [
+          0
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          12
+        ],
+        "start_block_z": 24,
+        "end_block_z": 27,
+        "implementation": "TQEC physical graph",
+        "frame_x_after": [
+          1,
+          1
+        ],
+        "frame_z_after": [
+          0,
+          1
+        ]
+      },
+      {
+        "id": 13,
+        "name": "x",
+        "qubits": [
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          11
+        ],
+        "start_block_z": 27,
+        "end_block_z": 27,
+        "implementation": "Pauli frame (zero physical time)",
+        "frame_x_after": [
+          1,
+          0
+        ],
+        "frame_z_after": [
+          0,
+          1
+        ]
+      },
+      {
+        "id": 16,
+        "name": "measure",
+        "qubits": [
+          0
+        ],
+        "clbits": [
+          0
+        ],
+        "params": [],
+        "predecessors": [
+          14
+        ],
+        "start_block_z": 30,
+        "end_block_z": 30,
+        "implementation": "terminal readout at common end",
+        "frame_x_after": [
+          1,
+          0
+        ],
+        "frame_z_after": [
+          0,
+          1
+        ],
+        "source_ready_block_z": 27
+      },
+      {
+        "id": 15,
+        "name": "h",
+        "qubits": [
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          13
+        ],
+        "start_block_z": 27,
+        "end_block_z": 30,
+        "implementation": "TQEC physical graph",
+        "frame_x_after": [
+          1,
+          1
+        ],
+        "frame_z_after": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": 17,
+        "name": "measure",
+        "qubits": [
+          1
+        ],
+        "clbits": [
+          1
+        ],
+        "params": [],
+        "predecessors": [
+          15
+        ],
+        "start_block_z": 30,
+        "end_block_z": 30,
+        "implementation": "terminal readout at common end",
+        "frame_x_after": [
+          1,
+          1
+        ],
+        "frame_z_after": [
+          0,
+          0
+        ],
+        "source_ready_block_z": 30
+      }
+    ],
+    "gate_footprints": [
+      {
+        "operation_id": 3,
+        "reserved_xy": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "control_arm": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "target_arm": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "start_block_z": 6,
+        "end_block_z": 9
+      },
+      {
+        "operation_id": 10,
+        "reserved_xy": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "control_arm": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "target_arm": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "start_block_z": 21,
+        "end_block_z": 24
+      }
+    ],
+    "frame_x": [
+      1,
+      1
+    ],
+    "frame_z": [
+      0,
+      0
+    ],
+    "terminal_readout": [
+      {
+        "qubit": 0,
+        "classical_bit": 0
+      },
+      {
+        "qubit": 1,
+        "classical_bit": 1
+      }
+    ],
+    "tqec_commit": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+    "plan": {
+      "mode": "exact_h_cx_subsets_v1",
+      "spacing": 3,
+      "layers": [
+        {
+          "kind": "h",
+          "operation_ids": [
+            1
+          ],
+          "orientation_before": [
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1
+          ]
+        },
+        {
+          "kind": "h",
+          "operation_ids": [
+            0,
+            2
+          ],
+          "orientation_before": [
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            3
+          ],
+          "orientation_before": [
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0
+          ]
+        },
+        {
+          "kind": "h",
+          "operation_ids": [
+            4
+          ],
+          "orientation_before": [
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1
+          ]
+        },
+        {
+          "kind": "h",
+          "operation_ids": [
+            5
+          ],
+          "orientation_before": [
+            1,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            7
+          ],
+          "orientation_before": [
+            0,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1
+          ]
+        },
+        {
+          "kind": "h",
+          "operation_ids": [
+            6
+          ],
+          "orientation_before": [
+            0,
+            1
+          ],
+          "orientation_after": [
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            8
+          ],
+          "orientation_before": [
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "h",
+          "operation_ids": [
+            9
+          ],
+          "orientation_before": [
+            0,
+            0
+          ],
+          "orientation_after": [
+            0,
+            1
+          ]
+        },
+        {
+          "kind": "cx",
+          "operation_ids": [
+            10
+          ],
+          "orientation_before": [
+            0,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            12
+          ],
+          "orientation_before": [
+            0,
+            1
+          ],
+          "orientation_after": [
+            0,
+            1
+          ]
+        },
+        {
+          "kind": "h",
+          "operation_ids": [
+            11,
+            14
+          ],
+          "orientation_before": [
+            0,
+            1
+          ],
+          "orientation_after": [
+            1,
+            0
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            13,
+            16
+          ],
+          "orientation_before": [
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            0
+          ]
+        },
+        {
+          "kind": "h",
+          "operation_ids": [
+            15
+          ],
+          "orientation_before": [
+            1,
+            0
+          ],
+          "orientation_after": [
+            1,
+            1
+          ]
+        },
+        {
+          "kind": "virtual_or_readout",
+          "operation_ids": [
+            17
+          ],
+          "orientation_before": [
+            1,
+            1
+          ],
+          "orientation_after": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "timing_policy": "Each physical H or CX layer = 3 block-z; X = virtual Pauli frame; terminal measurements share common final boundary. Compiler TICKs counted directly; no assumed conversion to QEC rounds.",
+    "mu": 0,
+    "external_flows": [
+      "ZIIZ",
+      "IZZI"
+    ],
+    "num_qubits": 310,
+    "num_ticks": 706,
+    "num_observables": 2,
+    "num_detectors": 1998
+  },
+  "common_row": {
+    "candidate_id": "fixed:g109",
+    "lowering_id": "complete_hxcx_oriented_diagonal_v1",
+    "device_sha256": "3b5c8f09be9ede3cdcdaab0a72cfe29ba965d7455b7d5a269862f431d8f05eda",
+    "outside_device_sites": 0,
+    "qualified_complete_output": true,
+    "external_flows": [
+      "ZIIZ",
+      "IZZI"
+    ],
+    "features": {
+      "template_block_z": 30,
+      "data_lifetime_block_z": 60,
+      "ancilla_lifetime_block_z": 12,
+      "total_lifetime_block_z": 72,
+      "plain_data_storage_cubes": 34,
+      "plain_data_storage_detail": [
+        {
+          "qubit": 0,
+          "cube_z": [
+            1,
+            2,
+            3,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            23,
+            24,
+            27,
+            28,
+            29
+          ],
+          "count": 21
+        },
+        {
+          "qubit": 1,
+          "cube_z": [
+            3,
+            6,
+            7,
+            9,
+            12,
+            13,
+            14,
+            15,
+            18,
+            21,
+            22,
+            24,
+            27
+          ],
+          "count": 13
+        }
+      ],
+      "ancilla_lifetime_segments": [
+        {
+          "x": 0,
+          "y": 1,
+          "first_cube_z": 22,
+          "last_cube_z": 23,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 23,
+          "last_cube_z": 23,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "first_cube_z": 7,
+          "last_cube_z": 8,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "first_cube_z": 23,
+          "last_cube_z": 23,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "first_cube_z": 8,
+          "last_cube_z": 8,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "first_cube_z": 23,
+          "last_cube_z": 23,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "first_cube_z": 23,
+          "last_cube_z": 23,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        }
+      ],
+      "geometry_cubes": 74,
+      "storage_definition": "Internal data cube with exactly two ordinary temporal pipes and no spatial branch; geometry feature, not the old profile-specific logical protected idle or calibrated error risk.",
+      "stim_ticks": 706,
+      "qec_rounds": null,
+      "static_site_ticks": 266868,
+      "active_physical_sites": 310,
+      "device_physical_sites": 378
+    },
+    "profile_specific_protected_idle_block_z": 18,
+    "profile_routing_steps": 2,
+    "profile_h_layers": 8,
+    "profile_physical_layers": 10,
+    "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+    "plan_sha256": "ab6e77c60227971dfd759cf45f362e766ac41f275045d28ad4040372aa49ad06",
+    "original_artifacts": {
+      "ideal_sha256": "0309028c36cb031267d917c0e086b4f3d779d63a5985475799fcff52722c0413",
+      "noisy_sha256": "421c3576b6bcaa914bd47f16d5045e66658197333977c9ce97e480b25e0ab1a9",
+      "dem_sha256": "7f28df56d9dd7285b3000c94ddac9c7a6ef1826aa81ab0d525c07c6e0bcce876"
+    },
+    "normalized_artifacts": {
+      "ideal_sha256": "a5d8ccb336f9133ced3e8d77f2824ff3b57cb55e9207c458a258a30e93ca8ee5",
+      "noisy_sha256": "e498ae47d649c41bc7ce1834837716fdf79c3d390265b9fadd58c0a559657cb6",
+      "dem_sha256": "7f28df56d9dd7285b3000c94ddac9c7a6ef1826aa81ab0d525c07c6e0bcce876"
+    },
+    "full_original_readout_order": [
+      1,
+      0
+    ],
+    "graphlike_distance": 3,
+    "shots": 0,
+    "counts": null,
+    "confidence_interval": null
+  },
+  "normalized_proofs": [
+    {
+      "kind": "complete_main",
+      "ideal_sha256": "a5d8ccb336f9133ced3e8d77f2824ff3b57cb55e9207c458a258a30e93ca8ee5",
+      "metadata": {
+        "logical_qubits": 2,
+        "distance": 3,
+        "logical_block_xy": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "input_bases": "zz",
+        "output_bases": "zz",
+        "frame_x": [
+          1,
+          1
+        ],
+        "frame_z": [
+          0,
+          0
+        ],
+        "external_flows": [
+          "ZIIZ",
+          "IZZI"
+        ]
+      },
+      "validation": {
+        "exact": true,
+        "sampler_calls": 0,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0
+            ]
+          },
+          {
+            "input_signs": [
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              0
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              1
+            ]
+          }
+        ],
+        "final_faults": [
+          {
+            "qubit": 0,
+            "observable_flips": [
+              0,
+              1
+            ]
+          },
+          {
+            "qubit": 1,
+            "observable_flips": [
+              1,
+              0
+            ]
+          }
+        ],
+        "detector_checks": 1998,
+        "logical_relations": [
+          {
+            "input": "+Z_",
+            "output": "-_Z"
+          },
+          {
+            "input": "+_Z",
+            "output": "-Z_"
+          }
+        ],
+        "checker": "DEM determinism plus exact tableau reference signs; no sampler",
+        "full_z_readout_rank": 2
+      }
+    },
+    {
+      "kind": "X0",
+      "ideal_sha256": "8fb8e375891f8afb22b483190b4681457b54f9ea880f285ec34f39f69072cc49",
+      "metadata": {
+        "logical_qubits": 2,
+        "distance": 3,
+        "logical_block_xy": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "input_bases": "xz",
+        "output_bases": "zx",
+        "frame_x": [
+          1,
+          1
+        ],
+        "frame_z": [
+          0,
+          0
+        ],
+        "external_flows": [
+          "XIZX",
+          "XZIX"
+        ]
+      },
+      "validation": {
+        "exact": true,
+        "sampler_calls": 0,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0
+            ]
+          },
+          {
+            "input_signs": [
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              1
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              0
+            ]
+          }
+        ],
+        "final_faults": [],
+        "detector_checks": 1998,
+        "logical_relations": [
+          {
+            "input": "+X_",
+            "output": "-ZX"
+          },
+          {
+            "input": "+XZ",
+            "output": "+_X"
+          }
+        ],
+        "checker": "DEM determinism plus exact tableau reference signs; no sampler",
+        "full_z_readout_rank": null
+      }
+    },
+    {
+      "kind": "X1",
+      "ideal_sha256": "fe5f56a081b36c370e809d2eca1ca9fd01a96ce12f8531e637ec1c7335c3ba82",
+      "metadata": {
+        "logical_qubits": 2,
+        "distance": 3,
+        "logical_block_xy": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "input_bases": "zx",
+        "output_bases": "xz",
+        "frame_x": [
+          1,
+          1
+        ],
+        "frame_z": [
+          0,
+          0
+        ],
+        "external_flows": [
+          "ZXXI",
+          "IXXZ"
+        ]
+      },
+      "validation": {
+        "exact": true,
+        "sampler_calls": 0,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0
+            ]
+          },
+          {
+            "input_signs": [
+              0,
+              1
+            ],
+            "observable_parities": [
+              1,
+              1
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              0
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1
+            ]
+          }
+        ],
+        "final_faults": [],
+        "detector_checks": 1998,
+        "logical_relations": [
+          {
+            "input": "+ZX",
+            "output": "+X_"
+          },
+          {
+            "input": "+_X",
+            "output": "-XZ"
+          }
+        ],
+        "checker": "DEM determinism plus exact tableau reference signs; no sampler",
+        "full_z_readout_rank": null
+      }
+    },
+    {
+      "kind": "Z0",
+      "ideal_sha256": "a5d8ccb336f9133ced3e8d77f2824ff3b57cb55e9207c458a258a30e93ca8ee5",
+      "metadata": {
+        "logical_qubits": 2,
+        "distance": 3,
+        "logical_block_xy": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "input_bases": "zz",
+        "output_bases": "zz",
+        "frame_x": [
+          1,
+          1
+        ],
+        "frame_z": [
+          0,
+          0
+        ],
+        "external_flows": [
+          "ZIIZ",
+          "IZZI"
+        ]
+      },
+      "validation": {
+        "exact": true,
+        "sampler_calls": 0,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0
+            ]
+          },
+          {
+            "input_signs": [
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              0
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              1
+            ]
+          }
+        ],
+        "final_faults": [],
+        "detector_checks": 1998,
+        "logical_relations": [
+          {
+            "input": "+Z_",
+            "output": "-_Z"
+          },
+          {
+            "input": "+_Z",
+            "output": "-Z_"
+          }
+        ],
+        "checker": "DEM determinism plus exact tableau reference signs; no sampler",
+        "full_z_readout_rank": null
+      }
+    },
+    {
+      "kind": "Z1",
+      "ideal_sha256": "a5d8ccb336f9133ced3e8d77f2824ff3b57cb55e9207c458a258a30e93ca8ee5",
+      "metadata": {
+        "logical_qubits": 2,
+        "distance": 3,
+        "logical_block_xy": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "input_bases": "zz",
+        "output_bases": "zz",
+        "frame_x": [
+          1,
+          1
+        ],
+        "frame_z": [
+          0,
+          0
+        ],
+        "external_flows": [
+          "ZIIZ",
+          "IZZI"
+        ]
+      },
+      "validation": {
+        "exact": true,
+        "sampler_calls": 0,
+        "signed_inputs": [
+          {
+            "input_signs": [
+              0,
+              0
+            ],
+            "observable_parities": [
+              0,
+              0
+            ]
+          },
+          {
+            "input_signs": [
+              0,
+              1
+            ],
+            "observable_parities": [
+              0,
+              1
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              0
+            ],
+            "observable_parities": [
+              1,
+              0
+            ]
+          },
+          {
+            "input_signs": [
+              1,
+              1
+            ],
+            "observable_parities": [
+              1,
+              1
+            ]
+          }
+        ],
+        "final_faults": [],
+        "detector_checks": 1998,
+        "logical_relations": [
+          {
+            "input": "+Z_",
+            "output": "-_Z"
+          },
+          {
+            "input": "+_Z",
+            "output": "-Z_"
+          }
+        ],
+        "checker": "DEM determinism plus exact tableau reference signs; no sampler",
+        "full_z_readout_rank": null
+      }
+    }
+  ],
+  "normalization_timing": {
+    "graph_features_seconds": 0.049400144000173896,
+    "coordinate_remap_seconds": 13.968506774000161,
+    "dem_equivalence_seconds": 1.772428194999975,
+    "normalized_exact_seconds": 4.373501066000017
+  }
+}

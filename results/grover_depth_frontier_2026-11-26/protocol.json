@@ -1,0 +1,42 @@
+{
+  "id": "complete_next_depth_frontier_20261126_v1",
+  "date": "2026-11-26",
+  "source_family": "QASMBench grover_search development only",
+  "selection": "Every previously uncompiled plan at minimum physical layers + 1; no outcome-dependent subset.",
+  "expected_full_logical_pool": 175,
+  "expected_frontier_plans": 52,
+  "retained_prior_physical_candidates": 25,
+  "expected_expanded_physical_pool": 77,
+  "source_gates": "All 18 source instructions, measurements and classical mapping; no cancellation.",
+  "device": "Unchanged Nov25 378-coordinate experimental catalogue; fail on any outside site. Not a measured chip cap.",
+  "cx_concurrency_cap": null,
+  "retained_deeper_plans": true,
+  "complete_readout": [
+    "ZIIZ",
+    "IZZI"
+  ],
+  "noise": "d3 p0.001 TQEC uniform depolarizing",
+  "decoder": "ordinary uncorrelated PyMatching MWPM/decomposed DEM; construction only",
+  "validation": "Main rank2 + all signed inputs/final faults; four independent generator compilations per plan; graphlike distance3; identical complete DEM under coordinate remap.",
+  "selectors": [
+    "duration_then_volume",
+    "volume_then_duration",
+    "plain_storage_then_duration",
+    "static_sites_tick_then_volume"
+  ],
+  "reference": "fixed:g174",
+  "row_budget_per_selector": 77,
+  "shots": 0,
+  "seeds": [],
+  "counts": null,
+  "confidence_interval": null,
+  "stopping_rule": "No sampling. Any missing/failed candidate aborts whole frontier and all selections; never silently filter.",
+  "risk_revision": false,
+  "raw_v1": "STOPPED",
+  "calibration": false,
+  "held_out_labels": "sealed",
+  "sampling_permission": false,
+  "mu": 0,
+  "timing": "Pool generation, graph/features, main compile, generator compile, exact checks, DEM/decoder construction, normalization, selector separated. Concurrent compile times are throughput records, not independent performance claims. Routing/scorer benchmark/calibration/MC/decode absent.",
+  "method_boundary": "No O3LS/SPARO implementation or online equal-CPU claim. Existing original-method support gaps retained."
+}

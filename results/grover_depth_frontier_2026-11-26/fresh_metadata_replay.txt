@@ -1,0 +1,2 @@
+PASS: geometry/request ledger and isolated selector timing integrity; 0 new shots
+PASS: metadata-only checkout uses archived main circuits; no previous local raw-circuit cache required; 0 new shots

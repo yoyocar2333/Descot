@@ -1,0 +1,7 @@
+{
+  "protocol_sha256": "68d431ffc35d43eaa0c5239812750f713ac1fd30c21768dda4561f2c98789d1d",
+  "selected_frontier_sha256": "9c3bd3b543fc712ad148383d2a37805c036a54c3b430ea64f3967575ac920bec",
+  "environment_sha256": "7c8c0a42e3ae57db0ff06bbdff20c748b7c382fcec006b58e5649c83ea9603b5",
+  "test_code_sha256": "5e0535a2dd1d5e00b0ced852464b0ac97d3bd147d2ee9ebbeae5eae062d45c85",
+  "note": "Recorded while physical batch running, before any noisy sampling. Fixed frontier selected without outcomes. Targeted tests completed before batch start. Research shots 0."
+}

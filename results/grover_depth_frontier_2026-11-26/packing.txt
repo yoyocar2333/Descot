@@ -1,0 +1,7 @@
+{
+  "archive": "archives/grover_depth_frontier_2026-11-26.zip",
+  "sha256": "f2ce2dded69b4fa6e4e7a42fb914e97d5e09782a7cf7628ffb938171892fc496",
+  "bytes": 10713644,
+  "assets": 646,
+  "scope": "Raw complete circuits/DEMs, core records, source/adapters/tests and pinned inputs. Use the committed repository checkout plus pinned dependencies for replay; not an isolated dependency bundle. Research shots0."
+}

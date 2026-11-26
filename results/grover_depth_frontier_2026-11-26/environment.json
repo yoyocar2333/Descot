@@ -1,0 +1,41 @@
+{
+  "python": "3.12.14",
+  "base_commit": "b1560de49006913c50089d050fd7bfd6ae8579f2",
+  "source_files_sha256": {
+    "run_grover_depth_frontier.py": "08412514da5dc215bf7d176017f3712d9574807ab3e0600a1dda19ef45583e8b",
+    "run_grover_competition.py": "e5309f336b8b75c62ac5717e9fca2f44a9a6e2f5e4c7ff0c6e55b2f8ec9bdd1d",
+    "run_common_physical_pool.py": "f754299ce1055047567cf3f428e15a2b686df77e5d85e22c10514945613628e9",
+    "common_physical_pool.py": "b4056a9c2af51879162a17fe2a62e1e46140fa717957c9b2478cb2bf85c037d9",
+    "exact_program_validation.py": "aed04bbe2d37fded9690b66d4b06cd337a57de757dccccd00ecb72250eb71959",
+    "public_clifford.py": "bc3c68c183ec07cc95dea32fdf14f2290d0c082bd005d86b8a5a01296bce7ee5",
+    "public_gate_pool.py": "4e7261ec378d1c355f015f399e0c06a37bb88b2eb6f45051113d8173ebf7c35b",
+    "public_candidate_pool.py": "4696ded929e46dc3ce34042d53fb3ca6b5d72c3635f9ab287c8d34589350d6e3",
+    "projection_geometry_metrics.py": "9356a42794e732090cfe63d86003297e1a2ba9756f3f3cf52b81eed9a5490cbe",
+    "schedule_circuit.py": "86508aa305ac346a04ff9d931bcfb17cc3f3976dbd16694d7a850584c4d63a60",
+    "surgery.py": "ee67e6691f7da5b48dd788b4e886348fbd70fd370154ef5de2ecee9b90d11e0b",
+    "run_public_audit.py": "98a866e7ce1403b93715756d3af369e66728e97f7f6ad225923b156c62d1ad0a",
+    "requirements-lock.txt": "140e7ad5273ee3ac59347cd775c49bdcd2b1e978936e56bc7e1ab205eccaebf9",
+    "benchmarks/POST_REPORT_FAMILY_SPLIT_2026-11-18.json": "a1e3461a100ca15d764724a58461ec984c45bc19fa9afd84830d21c1e1784e9b"
+  },
+  "input_files_sha256": {
+    "results/grover_competition_2026-11-17/candidate_pool.json": "4bd28c68a09768e263b3c619a5e6a0cf4e81852dceae2d7a9a0924d045d93227",
+    "results/common_physical_pool_2026-11-25/candidate_pool.json": "e6a2b1cf62cabcacb92d1dc4fed75148a7bbd9806b29014e5903850f58d22bac",
+    "results/common_physical_pool_2026-11-25/device.json": "da649a2d50863b8893b6cf384d81f6bcac14f2b5c64bf644f6d94c0c95a4cac9",
+    "benchmarks/public_2026-11-17/manifest.json": "c4766ea1fed6c34c895e9ca1d68983d8a997860fcfd1498218de8ee3c0d753da"
+  },
+  "packages": {
+    "stim": "1.16.0",
+    "tqec": "0.2.0",
+    "pymatching": "2.4.0",
+    "numpy": "2.5.4",
+    "qiskit": "2.5.2"
+  },
+  "tqec_direct_url": {
+    "url": "https://github.com/tqec/tqec.git",
+    "vcs_info": {
+      "vcs": "git",
+      "commit_id": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+      "requested_revision": "50fa2210597632a79bd266b56a5fb8d9b00747bb"
+    }
+  }
+}

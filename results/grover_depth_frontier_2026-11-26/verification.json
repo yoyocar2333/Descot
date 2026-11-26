@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-26",
+  "full_tests": {
+    "passed": 230,
+    "wall_seconds": 484.18
+  },
+  "targeted_tests": {
+    "passed": 11,
+    "wall_seconds": 1.61
+  },
+  "full_main_replays": 52,
+  "generator_replays": 208,
+  "unchanged_complete_main_dem_checks": 104,
+  "archive_assets": 646,
+  "archive_sha256": "f2ce2dded69b4fa6e4e7a42fb914e97d5e09782a7cf7628ffb938171892fc496",
+  "archive_bytes": 10713644,
+  "source_trace_and_snapshot_integrity": {
+    "complete_source_traces_verified": 52,
+    "source_instructions_per_trace": 18,
+    "all_original_quantum_classical_fields_preserved": true,
+    "all_four_generator_targets_present": true,
+    "all_104_Z_generator_ideal_hashes_equal_main": true,
+    "all_25_prior_physical_rows_preserved_exactly": true,
+    "pre_batch_protocol_frontier_environment_hashes_unchanged": true,
+    "working_tree_source_assets_equal_frozen_archive": 102,
+    "new_research_shots": 0,
+    "counts": null,
+    "confidence_interval": null,
+    "full_suite_and_replay": "Recorded separately after completion; no premature pass claim"
+  },
+  "fresh_metadata_only_replay": true,
+  "total_qualified_fixed_plans": 64,
+  "retained_logical_plans": 175,
+  "unqualified_deeper_plans_retained": 111,
+  "physical_portfolio": 77,
+  "new_research_physical_compilations": 260,
+  "unique_compiled_ideal_hashes": 156,
+  "repeated_ideal_compilations": 104,
+  "new_research_shots": 0,
+  "legacy_suite_p0_test_trajectories": 2600,
+  "counts": null,
+  "confidence_interval": null,
+  "mu": 0,
+  "held_out_labels": "sealed",
+  "sampling_permission": false,
+  "retired_raw_v1": "STOPPED",
+  "new_risk_revision": false,
+  "log_files_sha256": {
+    "full_tests.txt": "4eb29be267626992c7a5df8169f7f8492ae971554a437005f702752be99769ee",
+    "targeted_tests.txt": "63e49a99060f5b5296d6ca7202bc24cf769b8dc7384eabe50e400378a613fe4a",
+    "replay.txt": "79ee333da9e398f55a421316d7ae0f1b0ba84571864c7cca4958f1481b5e55db",
+    "analysis_replay.txt": "b9e18baf912fab9a4641a2329f70f2533b242e7aa3ae3afe8917ce386c5c5f29",
+    "archive_integrity.txt": "3d9a62058a0b6ef32d2755ab93bbd8a2993ebf6268718c114e6380125a5b5a5b",
+    "fresh_metadata_replay.txt": "18f66c0c63482074cdb5832c34dcda5d1636b1c1fbc3c29853179655efd81e1a",
+    "dependencies.txt": "bf0867f5751d605cb0d665a7de54c6e1354079383ae143f7c6121abda1e82e3e",
+    "execution.log": "5ec42069967e3abd87eef05969edf6b210fc1dd84ae122ec61355f20dc9f8dda"
+  },
+  "scope": "Complete next depth frontier physical qualification and same77-row offline baseline evaluation. Not an online original-method CPU comparison, evaluation freeze, pilot, calibration, held-out sample or decoded improvement conclusion."
+}

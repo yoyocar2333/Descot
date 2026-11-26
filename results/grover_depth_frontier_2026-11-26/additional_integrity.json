@@ -1,0 +1,14 @@
+{
+  "complete_source_traces_verified": 52,
+  "source_instructions_per_trace": 18,
+  "all_original_quantum_classical_fields_preserved": true,
+  "all_four_generator_targets_present": true,
+  "all_104_Z_generator_ideal_hashes_equal_main": true,
+  "all_25_prior_physical_rows_preserved_exactly": true,
+  "pre_batch_protocol_frontier_environment_hashes_unchanged": true,
+  "working_tree_source_assets_equal_frozen_archive": 102,
+  "new_research_shots": 0,
+  "counts": null,
+  "confidence_interval": null,
+  "full_suite_and_replay": "Recorded separately after completion; no premature pass claim"
+}

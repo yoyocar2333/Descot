@@ -1,0 +1,117 @@
+[
+  {
+    "policy": "duration_then_volume",
+    "stages": [
+      "template_block_z",
+      "total_lifetime_block_z"
+    ],
+    "candidate_id": "projection:00",
+    "tied_optima": [
+      "projection:00"
+    ],
+    "optimum": [
+      24,
+      90
+    ],
+    "reference_id": "fixed:g174",
+    "switched": true,
+    "pool_size": 77,
+    "row_evaluations": 77,
+    "budget": 77,
+    "pool_sha256": "f046d43cb7bfa87007843990c189e02a877de8710c13ff1e376fd2c8bc3fa469",
+    "mu": 0,
+    "interpretation": "Offline selector on shared preconstructed physical pool. Equal row counts are not equal route-search calls/CPU; no LER or novelty claim."
+  },
+  {
+    "policy": "volume_then_duration",
+    "stages": [
+      "total_lifetime_block_z",
+      "template_block_z"
+    ],
+    "candidate_id": "fixed:g174",
+    "tied_optima": [
+      "fixed:g122",
+      "fixed:g124",
+      "fixed:g127",
+      "fixed:g129",
+      "fixed:g137",
+      "fixed:g139",
+      "fixed:g157",
+      "fixed:g159",
+      "fixed:g162",
+      "fixed:g164",
+      "fixed:g172",
+      "fixed:g174",
+      "mitm:g122",
+      "mitm:g124",
+      "mitm:g127",
+      "mitm:g129",
+      "mitm:g137",
+      "mitm:g139",
+      "mitm:g157",
+      "mitm:g159",
+      "mitm:g162",
+      "mitm:g164",
+      "mitm:g172",
+      "mitm:g174"
+    ],
+    "optimum": [
+      66,
+      27
+    ],
+    "reference_id": "fixed:g174",
+    "switched": false,
+    "pool_size": 77,
+    "row_evaluations": 77,
+    "budget": 77,
+    "pool_sha256": "f046d43cb7bfa87007843990c189e02a877de8710c13ff1e376fd2c8bc3fa469",
+    "mu": 0,
+    "interpretation": "Offline selector on shared preconstructed physical pool. Equal row counts are not equal route-search calls/CPU; no LER or novelty claim."
+  },
+  {
+    "policy": "plain_storage_then_duration",
+    "stages": [
+      "plain_data_storage_cubes",
+      "template_block_z"
+    ],
+    "candidate_id": "projection:00",
+    "tied_optima": [
+      "projection:00"
+    ],
+    "optimum": [
+      22,
+      24
+    ],
+    "reference_id": "fixed:g174",
+    "switched": true,
+    "pool_size": 77,
+    "row_evaluations": 77,
+    "budget": 77,
+    "pool_sha256": "f046d43cb7bfa87007843990c189e02a877de8710c13ff1e376fd2c8bc3fa469",
+    "mu": 0,
+    "interpretation": "Offline selector on shared preconstructed physical pool. Equal row counts are not equal route-search calls/CPU; no LER or novelty claim."
+  },
+  {
+    "policy": "static_sites_tick_then_volume",
+    "stages": [
+      "static_site_ticks",
+      "total_lifetime_block_z"
+    ],
+    "candidate_id": "projection:00",
+    "tied_optima": [
+      "projection:00"
+    ],
+    "optimum": [
+      221886,
+      90
+    ],
+    "reference_id": "fixed:g174",
+    "switched": true,
+    "pool_size": 77,
+    "row_evaluations": 77,
+    "budget": 77,
+    "pool_sha256": "f046d43cb7bfa87007843990c189e02a877de8710c13ff1e376fd2c8bc3fa469",
+    "mu": 0,
+    "interpretation": "Offline selector on shared preconstructed physical pool. Equal row counts are not equal route-search calls/CPU; no LER or novelty claim."
+  }
+]

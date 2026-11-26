@@ -1,0 +1,1 @@
+PASS: geometry/request ledger and isolated selector timing integrity; 0 new shots

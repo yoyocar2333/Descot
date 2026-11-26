@@ -1,0 +1,12 @@
+{
+  "pool_generation_verification_seconds": 0.033135829999991984,
+  "physical_batch_wall_seconds": 2359.225052972,
+  "physical_workers": 8,
+  "final_pool_and_four_selections_seconds": 0.021116050999808067,
+  "routing_benchmark_seconds": null,
+  "scorer_benchmark_seconds": null,
+  "calibration_seconds": null,
+  "monte_carlo_seconds": null,
+  "decode_seconds": null,
+  "note": "Per-candidate main/generator compile and exact/noise/DEM stages in physical_index; concurrent throughput, not isolated compiler/routing benchmark."
+}
