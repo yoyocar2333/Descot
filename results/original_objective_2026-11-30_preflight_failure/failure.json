@@ -1,0 +1,7 @@
+{
+  "status": "failed_before_first_record_save",
+  "reason": "Duplicate schedule_sha256 keyword in result assembly; fixed before successful batch.",
+  "completed_routing_executions": 3,
+  "physical_compilations": 0,
+  "new_shots": 0
+}

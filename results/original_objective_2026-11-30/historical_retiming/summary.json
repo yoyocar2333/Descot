@@ -1,0 +1,28 @@
+{
+  "configurations": 72,
+  "executions": 216,
+  "all_depths_match_frozen": true,
+  "comparisons": [
+    {
+      "baseline": "original",
+      "pairs": 24,
+      "median_paired_time_ratio": 0.9519727422055437,
+      "median_depth_change_percent": -2.4245128662799345,
+      "wins": 13,
+      "ties": 9,
+      "losses": 2
+    },
+    {
+      "baseline": "one_budget48",
+      "pairs": 24,
+      "median_paired_time_ratio": 0.907516385609439,
+      "median_depth_change_percent": -3.694021368492839,
+      "wins": 16,
+      "ties": 8,
+      "losses": 0
+    }
+  ],
+  "timing": "Serial method-rotated three repeats; routing-only wall time, mapping/source validation/physical compile/MC excluded. Shared host, no claim of paper machine reproduction.",
+  "code_sha256": "7ef6951d1efcf02834433205908724c23c57c37a297f1f517179d82a89db4a02",
+  "new_shots": 0
+}

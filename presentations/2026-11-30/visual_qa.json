@@ -1,0 +1,134 @@
+{
+  "slides": 20,
+  "status": "PASS",
+  "slide_numbers_one_based": true,
+  "checks": [
+    "All 20 final slides rendered and individually viewed",
+    "Source circuit matches all 36 operations",
+    "Real route paths match frozen witness",
+    "Corrected chart bounds cover all 24 points",
+    "Titles, tables, legends, footers and labels readable; no visible clipping"
+  ],
+  "records": [
+    {
+      "slide": 1,
+      "sha256": "319ce854aad4b029549b1f709d648969751b5051c7643565e649d2f3539c1c60",
+      "bytes": 46901,
+      "full_size_visual_inspection": "PASS"
+    },
+    {
+      "slide": 2,
+      "sha256": "88cee2f88a0ddcc1c3de81c3683e59c2c739e2fae679ff6e7753bf646aea53e1",
+      "bytes": 31928,
+      "full_size_visual_inspection": "PASS"
+    },
+    {
+      "slide": 3,
+      "sha256": "abb3a400c8e91ff78f3ca92fd0128d3217863094e95a10e85e1647b961fb4829",
+      "bytes": 80319,
+      "full_size_visual_inspection": "PASS"
+    },
+    {
+      "slide": 4,
+      "sha256": "2f397c6c32953f7d1c5d96cd107306d4a1b51345a73a018dc86d7bc4e8867d3a",
+      "bytes": 68131,
+      "full_size_visual_inspection": "PASS"
+    },
+    {
+      "slide": 5,
+      "sha256": "35c662df5ebf466994d9efeabca3fe87abbd6a10758cfa11e33806a209099514",
+      "bytes": 74023,
+      "full_size_visual_inspection": "PASS"
+    },
+    {
+      "slide": 6,
+      "sha256": "400dd0d1ff7bc13ed6a7245b0f0583165001d483e39783f7bac2fdb95820cc6d",
+      "bytes": 75316,
+      "full_size_visual_inspection": "PASS"
+    },
+    {
+      "slide": 7,
+      "sha256": "644fa3f3e872c8d0386ec4a6af64c5499e5a75eb0df15220326ab0bc8cdc8826",
+      "bytes": 31245,
+      "full_size_visual_inspection": "PASS"
+    },
+    {
+      "slide": 8,
+      "sha256": "a5a54db043f05749d4f8e67d804d37181e17b55b21fa53f71151aa19690049db",
+      "bytes": 78297,
+      "full_size_visual_inspection": "PASS"
+    },
+    {
+      "slide": 9,
+      "sha256": "15d881eac7528bf3e4c13e0168fa254074f1362989df945195d81006e3334333",
+      "bytes": 71313,
+      "full_size_visual_inspection": "PASS"
+    },
+    {
+      "slide": 10,
+      "sha256": "0886294614b4df5a9dc6e3d368a4473911cee85e98b22fe849511be253361c10",
+      "bytes": 82518,
+      "full_size_visual_inspection": "PASS"
+    },
+    {
+      "slide": 11,
+      "sha256": "dc0a28d880fd49bcb6416232dda8385682508581483d5911d770bacd3f5d5038",
+      "bytes": 30208,
+      "full_size_visual_inspection": "PASS"
+    },
+    {
+      "slide": 12,
+      "sha256": "e0b5cb9341b9e337c0bb30ac7ab117b820b7e5c7c9701811c2f95d032e3eb162",
+      "bytes": 84343,
+      "full_size_visual_inspection": "PASS"
+    },
+    {
+      "slide": 13,
+      "sha256": "ba16d40a4b706989b11567c89cf0f8e882e68964a1a396c20ae5363fae528025",
+      "bytes": 69139,
+      "full_size_visual_inspection": "PASS"
+    },
+    {
+      "slide": 14,
+      "sha256": "8ba45556275a78f14fdac4b1ece501216438d6723f9327f17161108087d4e170",
+      "bytes": 87801,
+      "full_size_visual_inspection": "PASS"
+    },
+    {
+      "slide": 15,
+      "sha256": "84cac3ca271e95d0b6ff21783c4a1a10f72a4a43a54a4dad63b6a9c23196961f",
+      "bytes": 69376,
+      "full_size_visual_inspection": "PASS"
+    },
+    {
+      "slide": 16,
+      "sha256": "881c26edb52fa48d59c0f260cc5179e7b6ac792e0901256dd5c3314c03e172dd",
+      "bytes": 74322,
+      "full_size_visual_inspection": "PASS"
+    },
+    {
+      "slide": 17,
+      "sha256": "b6b4bbd0191d277781e9aa94d4d7b81c9c8f665d0af8a3a8d0a5b09eade546ec",
+      "bytes": 26398,
+      "full_size_visual_inspection": "PASS"
+    },
+    {
+      "slide": 18,
+      "sha256": "2bfe97478e3f2bd05457d15fd94eb1d6f952ef2a2ef122e81ad47f15c06314e6",
+      "bytes": 89708,
+      "full_size_visual_inspection": "PASS"
+    },
+    {
+      "slide": 19,
+      "sha256": "d55c3188a03b0dbe0582ec3006f3b30206ce3b67e16f7f7efb8d398e4f79982b",
+      "bytes": 81798,
+      "full_size_visual_inspection": "PASS"
+    },
+    {
+      "slide": 20,
+      "sha256": "5bf911cc7d95eb96baaec115c5971670cfa7689e069b7c4bb385fc2eae501de0",
+      "bytes": 101711,
+      "full_size_visual_inspection": "PASS"
+    }
+  ]
+}

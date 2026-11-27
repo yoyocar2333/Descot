@@ -1,0 +1,19 @@
+{
+  "cohorts": {
+    "historical": {
+      "pairs": 24,
+      "identical_schedules": 24,
+      "median_paired_time_ratio": 0.9764463394450691,
+      "median_order_evaluation_ratio": 0.97352591088511
+    },
+    "public": {
+      "pairs": 60,
+      "identical_schedules": 60,
+      "median_paired_time_ratio": 0.968381474829759,
+      "median_order_evaluation_ratio": 0.96
+    }
+  },
+  "executions": 504,
+  "new_shots": 0,
+  "code_sha256": "f08925dd2b1a618aa5e02eed98a637a05a49c819ff3646c7cfc4884c3cb97009"
+}

@@ -1,0 +1,18 @@
+{
+  "python": "3.12.14",
+  "base_commit": "ca6113e20901a76be57546e61d6c5a374ff164b2",
+  "wisq_commit": "97c12a5e22cf16e37288c60a0a5735c58c6fe8ca",
+  "code_sha256": {
+    "run_original_objective.py": "d40f8adf3bf785b945de1a3efb4ec06ece52c82ce416cdf289c022c0ef2a1264",
+    "lookahead.py": "66a0abd1d24288ba49b3427ce1921548b6760ec86ae56fcb8a49f166b7ab2a21",
+    "saturation.py": "6ab5c2e9d520d2d1fb8d9d0cd2b1ea3250cba8c2cad743fec54b147adab10341",
+    "validation.py": "ffdfb4a56aa55d014c8a4afb8cd79d9e0308557787b25928dce00fe64e8cddd3",
+    "core.py": "774c55c9cd3884e992fb72fe880be33c72117fbd178129fee913f23ab1c6920f",
+    "requirements-lock.txt": "140e7ad5273ee3ac59347cd775c49bdcd2b1e978936e56bc7e1ab205eccaebf9"
+  },
+  "source_sha256": {
+    "benchmarks/original_route_2026-11-30/3_17_13.qasm": "37b69d5400fe5ee15f651afbbe291eeb418bc982319efe5ace455041ddb4ad87",
+    "benchmarks/public_2026-11-02/qasmbench/qec_en_n5.qasm": "d7b95967326b65050c5e645c180f2361f8cb3513dae7936de0e0cf53a63fec58",
+    "benchmarks/public_2026-11-02/qasmbench/error_correctiond3_n5.qasm": "c33b5a03491bceb26ca6d494632936614df035a352d437369eca28087ae72ff5"
+  }
+}

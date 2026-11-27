@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "raw_records": 180,
+  "full_source_trace_and_legality": true,
+  "archived_bytes": 449586,
+  "archive_sha256": "d64d09a564d273c066df901c0db7c17ae566b09d346468266e7549708235ef20",
+  "historical_configurations": 72,
+  "stopping_pairs": 84,
+  "successful_routing_executions": 1260,
+  "failed_preflight_routing_executions_separate": 3,
+  "new_shots": 0,
+  "physical_compilations": 0,
+  "ideal_sha256": null,
+  "noisy_sha256": null,
+  "dem_sha256": null,
+  "hashes": {
+    "docs/ORIGINAL_OBJECTIVE_PLAN_2026-11-28_ZH.md": "1913109c26e0d2ff09d249dd6bf47eb85962ebe3c1b0f329c386d29c0e506943",
+    "presentations/2026-11-30/build_deck.mjs": "16044083bd443e852fddfa1d4593de88e7ecaef820f50c9942345a9dc38e430e",
+    "presentations/2026-11-30/evidence.json": "5590e019b4c84349840efce8b911a3d912ee399308985d64abf174d1c8dafbc4",
+    "presentations/2026-11-30/ROUTING_DEMO.html": "8fd0d6148e2cfb4f7a24b968863487adc0a454b646d41d08438595dbd891368e"
+  }
+}

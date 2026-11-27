@@ -1,0 +1,42 @@
+{
+  "id": "original_dascot_objective_20261130_v1",
+  "priority": "Latest TA/professor feedback: improve original paper routing result. Readout-sensitive/DEM work remains archived and leaves the presentation main line.",
+  "source_paths": [
+    "benchmarks/original_route_2026-11-30/3_17_13.qasm",
+    "benchmarks/public_2026-11-02/qasmbench/qec_en_n5.qasm",
+    "benchmarks/public_2026-11-02/qasmbench/error_correctiond3_n5.qasm"
+  ],
+  "methods": [
+    "original",
+    "one_budget48",
+    "two_budget48"
+  ],
+  "mapping_seed": 1001,
+  "routing_seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "repeats": 3,
+  "layouts": [
+    "square_sparse",
+    "compact"
+  ],
+  "fixed_mapping": true,
+  "front_budget": 48,
+  "comparison": "All methods use complete canonical source frontend. One48/Two48 share per-decision evaluation units. Author reference uses original search with controlled state-seeded RNG; not equal-CPU or full232-paper reproduction.",
+  "metric": "Primary routing steps and cost ratio steps / CX-T-TDG dependency depth. Independent routing-only median wall seconds and route calls. Mapping timed separately.",
+  "role": "All seen families/development. Historical24 synthetic test remains a separate frozen result; no reclassification of data.",
+  "full_source": "All operations and dependencies retained in source trace. No arbitrary rotations/feedback discarded. Only original abstract routing, not full physical application compilation.",
+  "shots": 0,
+  "physical_compilations": 0,
+  "mu": 0,
+  "sampling_permission": false
+}

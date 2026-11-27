@@ -1,0 +1,8 @@
+{
+  "method": "Existing frozen saturation.py from Phase1, no new tuning.",
+  "rule": "When a candidate routes every ready gate, positive criticality reaches a local upper bound. Original strict-greater reward retains the first such candidate. Per-state RNG makes later states comparable.",
+  "policy": "Alternate method order by seed/repeat. Same original mapping, route primitive, annealing parameters and per-state RNG. Exact whole schedule equality required.",
+  "scope": "Compiler stopping control on original criticality policy, separate from changing reward to two-step. No gate-order, depth, physics or novelty claim.",
+  "repeats": 3,
+  "new_shots": 0
+}

@@ -1,0 +1,1018 @@
+{
+  "program": {
+    "name": "3_17_13",
+    "logical_qubits": 16,
+    "classical_bits": 16,
+    "expanded_custom_gates": [],
+    "operation_counts": {
+      "cx": 17,
+      "h": 4,
+      "t": 8,
+      "tdg": 6,
+      "x": 1
+    },
+    "operations": [
+      {
+        "id": 0,
+        "name": "x",
+        "qubits": [
+          2
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": []
+      },
+      {
+        "id": 1,
+        "name": "cx",
+        "qubits": [
+          0,
+          2
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          0
+        ]
+      },
+      {
+        "id": 2,
+        "name": "cx",
+        "qubits": [
+          2,
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          1
+        ]
+      },
+      {
+        "id": 3,
+        "name": "h",
+        "qubits": [
+          0
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          1
+        ]
+      },
+      {
+        "id": 4,
+        "name": "t",
+        "qubits": [
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          2
+        ]
+      },
+      {
+        "id": 5,
+        "name": "t",
+        "qubits": [
+          2
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          2
+        ]
+      },
+      {
+        "id": 6,
+        "name": "t",
+        "qubits": [
+          0
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          3
+        ]
+      },
+      {
+        "id": 7,
+        "name": "cx",
+        "qubits": [
+          2,
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          4,
+          5
+        ]
+      },
+      {
+        "id": 8,
+        "name": "cx",
+        "qubits": [
+          0,
+          2
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          6,
+          7
+        ]
+      },
+      {
+        "id": 9,
+        "name": "cx",
+        "qubits": [
+          1,
+          0
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          7,
+          8
+        ]
+      },
+      {
+        "id": 10,
+        "name": "tdg",
+        "qubits": [
+          2
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          8
+        ]
+      },
+      {
+        "id": 11,
+        "name": "cx",
+        "qubits": [
+          1,
+          2
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          9,
+          10
+        ]
+      },
+      {
+        "id": 12,
+        "name": "tdg",
+        "qubits": [
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          11
+        ]
+      },
+      {
+        "id": 13,
+        "name": "tdg",
+        "qubits": [
+          2
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          11
+        ]
+      },
+      {
+        "id": 14,
+        "name": "t",
+        "qubits": [
+          0
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          9
+        ]
+      },
+      {
+        "id": 15,
+        "name": "cx",
+        "qubits": [
+          0,
+          2
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          13,
+          14
+        ]
+      },
+      {
+        "id": 16,
+        "name": "cx",
+        "qubits": [
+          1,
+          0
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          12,
+          15
+        ]
+      },
+      {
+        "id": 17,
+        "name": "cx",
+        "qubits": [
+          2,
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          15,
+          16
+        ]
+      },
+      {
+        "id": 18,
+        "name": "h",
+        "qubits": [
+          0
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          16
+        ]
+      },
+      {
+        "id": 19,
+        "name": "h",
+        "qubits": [
+          2
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          17
+        ]
+      },
+      {
+        "id": 20,
+        "name": "t",
+        "qubits": [
+          0
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          18
+        ]
+      },
+      {
+        "id": 21,
+        "name": "t",
+        "qubits": [
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          17
+        ]
+      },
+      {
+        "id": 22,
+        "name": "t",
+        "qubits": [
+          2
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          19
+        ]
+      },
+      {
+        "id": 23,
+        "name": "cx",
+        "qubits": [
+          1,
+          0
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          20,
+          21
+        ]
+      },
+      {
+        "id": 24,
+        "name": "cx",
+        "qubits": [
+          2,
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          22,
+          23
+        ]
+      },
+      {
+        "id": 25,
+        "name": "cx",
+        "qubits": [
+          0,
+          2
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          23,
+          24
+        ]
+      },
+      {
+        "id": 26,
+        "name": "tdg",
+        "qubits": [
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          24
+        ]
+      },
+      {
+        "id": 27,
+        "name": "cx",
+        "qubits": [
+          0,
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          25,
+          26
+        ]
+      },
+      {
+        "id": 28,
+        "name": "tdg",
+        "qubits": [
+          0
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          27
+        ]
+      },
+      {
+        "id": 29,
+        "name": "tdg",
+        "qubits": [
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          27
+        ]
+      },
+      {
+        "id": 30,
+        "name": "t",
+        "qubits": [
+          2
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          25
+        ]
+      },
+      {
+        "id": 31,
+        "name": "cx",
+        "qubits": [
+          2,
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          29,
+          30
+        ]
+      },
+      {
+        "id": 32,
+        "name": "cx",
+        "qubits": [
+          0,
+          2
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          28,
+          31
+        ]
+      },
+      {
+        "id": 33,
+        "name": "cx",
+        "qubits": [
+          1,
+          0
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          31,
+          32
+        ]
+      },
+      {
+        "id": 34,
+        "name": "h",
+        "qubits": [
+          2
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          32
+        ]
+      },
+      {
+        "id": 35,
+        "name": "cx",
+        "qubits": [
+          1,
+          2
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          33,
+          34
+        ]
+      }
+    ],
+    "dag_fronts": [
+      {
+        "operation_ids": [
+          0
+        ],
+        "cx_ids": [],
+        "cx_pairs": []
+      },
+      {
+        "operation_ids": [
+          1
+        ],
+        "cx_ids": [
+          1
+        ],
+        "cx_pairs": [
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      {
+        "operation_ids": [
+          2,
+          3
+        ],
+        "cx_ids": [
+          2
+        ],
+        "cx_pairs": [
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      {
+        "operation_ids": [
+          4,
+          5,
+          6
+        ],
+        "cx_ids": [],
+        "cx_pairs": []
+      },
+      {
+        "operation_ids": [
+          7
+        ],
+        "cx_ids": [
+          7
+        ],
+        "cx_pairs": [
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      {
+        "operation_ids": [
+          8
+        ],
+        "cx_ids": [
+          8
+        ],
+        "cx_pairs": [
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      {
+        "operation_ids": [
+          9,
+          10
+        ],
+        "cx_ids": [
+          9
+        ],
+        "cx_pairs": [
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "operation_ids": [
+          11,
+          14
+        ],
+        "cx_ids": [
+          11
+        ],
+        "cx_pairs": [
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      {
+        "operation_ids": [
+          12,
+          13
+        ],
+        "cx_ids": [],
+        "cx_pairs": []
+      },
+      {
+        "operation_ids": [
+          15
+        ],
+        "cx_ids": [
+          15
+        ],
+        "cx_pairs": [
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      {
+        "operation_ids": [
+          16
+        ],
+        "cx_ids": [
+          16
+        ],
+        "cx_pairs": [
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "operation_ids": [
+          17,
+          18
+        ],
+        "cx_ids": [
+          17
+        ],
+        "cx_pairs": [
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      {
+        "operation_ids": [
+          19,
+          20,
+          21
+        ],
+        "cx_ids": [],
+        "cx_pairs": []
+      },
+      {
+        "operation_ids": [
+          22,
+          23
+        ],
+        "cx_ids": [
+          23
+        ],
+        "cx_pairs": [
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "operation_ids": [
+          24
+        ],
+        "cx_ids": [
+          24
+        ],
+        "cx_pairs": [
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      {
+        "operation_ids": [
+          25,
+          26
+        ],
+        "cx_ids": [
+          25
+        ],
+        "cx_pairs": [
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      {
+        "operation_ids": [
+          27,
+          30
+        ],
+        "cx_ids": [
+          27
+        ],
+        "cx_pairs": [
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "operation_ids": [
+          28,
+          29
+        ],
+        "cx_ids": [],
+        "cx_pairs": []
+      },
+      {
+        "operation_ids": [
+          31
+        ],
+        "cx_ids": [
+          31
+        ],
+        "cx_pairs": [
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      {
+        "operation_ids": [
+          32
+        ],
+        "cx_ids": [
+          32
+        ],
+        "cx_pairs": [
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      {
+        "operation_ids": [
+          33,
+          34
+        ],
+        "cx_ids": [
+          33
+        ],
+        "cx_pairs": [
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "operation_ids": [
+          35
+        ],
+        "cx_ids": [
+          35
+        ],
+        "cx_pairs": [
+          [
+            1,
+            2
+          ]
+        ]
+      }
+    ],
+    "dag_depth_unit": "One original logical instruction, including retained barriers and measurements; not routing steps, QEC cycles, or physical TICKs.",
+    "strict_instruction_depth": 22,
+    "max_ready_cx": 1,
+    "front_metric_scope": "Ready-CX count in the recorded ASAP instruction fronts; not the maximum over all delayed schedules. Incomparable CX pairs separately capture other legal choices.",
+    "incomparable_cx_pairs": [],
+    "terminal_readout": [],
+    "all_unitaries_clifford": false,
+    "non_clifford_operation_names": [
+      "t",
+      "tdg"
+    ],
+    "dynamic_or_opaque_names": [],
+    "full_physical_profile_supported": false,
+    "physical_rejection_reasons": [
+      "Current homogeneous-basis CNOT profile does not preserve these original operations: h, t, tdg, x",
+      "The physical profile supports 2..6 logical qubits",
+      "Fixed diagonal embedding does not support reverse CNOTs",
+      "Source routing profile requires all declared logical qubits to participate",
+      "Non-Clifford operations: t, tdg"
+    ],
+    "source_sha256": "37b69d5400fe5ee15f651afbbe291eeb418bc982319efe5ace455041ddb4ad87",
+    "semantics_policy": "All original operations and classical dependencies retained; custom definitions expanded without deleting gates. No CNOT-only projection is called a full benchmark.",
+    "routed_source_ids": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      35
+    ],
+    "routing_gates": [
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "routing_operations": [
+      "cx",
+      "cx",
+      "t",
+      "t",
+      "t",
+      "cx",
+      "cx",
+      "cx",
+      "tdg",
+      "cx",
+      "tdg",
+      "tdg",
+      "t",
+      "cx",
+      "cx",
+      "cx",
+      "t",
+      "t",
+      "t",
+      "cx",
+      "cx",
+      "cx",
+      "tdg",
+      "cx",
+      "tdg",
+      "tdg",
+      "t",
+      "cx",
+      "cx",
+      "cx",
+      "cx"
+    ],
+    "routed_active_qubits": [
+      0,
+      1,
+      2
+    ],
+    "model": "Pinned author SCMR abstraction: CX/T/TDG occupy one routed step; local Clifford/readout retained as zero-duration logical events. No physical gate timing/noise claims.",
+    "native_original_text_route_count": 31,
+    "canonical_qasm_sha256": "37b69d5400fe5ee15f651afbbe291eeb418bc982319efe5ace455041ddb4ad87",
+    "native_canonical_route_count": 31
+  },
+  "architecture": {
+    "height": 7,
+    "width": 7,
+    "alg_qubits": [
+      16,
+      18,
+      30,
+      32
+    ],
+    "magic_states": [
+      1,
+      3,
+      5,
+      13,
+      27,
+      41,
+      47,
+      45,
+      43,
+      7,
+      21,
+      35
+    ]
+  },
+  "mapping": [
+    [
+      0,
+      30
+    ],
+    [
+      1,
+      16
+    ],
+    [
+      2,
+      32
+    ]
+  ],
+  "mapping_seconds": 0.6653149340000368,
+  "mapping_proxy": 1,
+  "routing_dependency_depth": 21
+}

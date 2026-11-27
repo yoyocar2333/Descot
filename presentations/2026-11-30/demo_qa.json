@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "scope": "Node VM DOM-stub replay, not a browser rendering test",
+  "replayed_frames": 51,
+  "methods": 2,
+  "witness_routed_gates": 2,
+  "svg_rasterization": "PASS",
+  "browser_test": "BLOCKED: installed /usr/bin/chromium wrapper has no /usr/lib/chromium/chromium executable; Playwright browser download returned HTTP403. On a machine with Chromium use DASCOT_CHROMIUM=/path/to/chrome node verify_demo.mjs.",
+  "new_shots": 0
+}

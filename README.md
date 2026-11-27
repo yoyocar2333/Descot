@@ -1,12 +1,16 @@
-# DASCOT Lookahead Routing and Quantum Calibration
+# Improving DASCOT Routing
 
-Research implementation for our **2026-11-09** report. The repository is named `Descot`; the underlying compilation method is **DASCOT**.
+Current priority: improve the original DASCOT routing result for the **2026-11-30** presentation. [最新繁中計畫](docs/ORIGINAL_OBJECTIVE_PLAN_2026-11-28_ZH.md) · [公開比較與完整新證據](docs/updates/2026-11-28-original-objective.md) · [新版講稿與問答](presentations/2026-11-30/README_ZH.md).
+
+Python3.12.14; 260 tests pass. This increment: 1,260 successful routing executions, **0 new shots**, 0 physical compilations. Public order-search gain is separated from lookahead gains and overhead. Branch: `research/2026-11-16-problem-driven`.
+
+The sections below preserve the historical research and physical/decoder results for the **2026-11-09** report. The repository is named `Descot`; the underlying compilation method is **DASCOT**.
 
 **中文導覽：** [11/4 第二份完整公開電路／隨機輸出與幾何比較](docs/updates/2026-11-04.md) · [11/4 文獻差異](docs/RELATED_WORK_2026-11-04_ZH.md) · [11/3 公平完整 DAG 對照](docs/updates/2026-11-03.md) · [11/2 完整候選與新幾何風險 pilot](docs/updates/2026-11-02-risk-pilot.md) · [11/2 完整公開 hs4_n4 整合](docs/updates/2026-11-02-public-hs4.md) · [11/6 前完成、11/9 報告的進度規劃](docs/ROADMAP_2026-11-09_ZH.md) · [11/2 不同排程的完整電路比較](docs/updates/2026-11-02.md) · [11/2 助教回饋與提前交付](docs/updates/2026-11-02-plan.md) · [公開 benchmark 與創新候選](docs/BENCHMARK_AND_NOVELTY_PLAN_ZH.md) · [11/1 受限路由轉譯](docs/updates/2026-11-01.md) · [10/31 三位元與儲存實測](docs/updates/2026-10-31.md) · [10/30 連續 CNOT](docs/updates/2026-10-30.md) · [Phase 1 詳細講稿與理解補充](docs/phase1/PROGRESS_ZH.md)
 
-**Completion deadline:** all planned research deliverables and final presentation materials are due **2026-11-05 23:59 Asia/Taipei**, before Nov 6. The formal presentation remains Nov 9; Nov 6-8 are reserved for rehearsal and explicit corrections. See the roadmap for evidence gates and acceptance criteria.
+**Historical completion deadline (superseded):** all planned research deliverables and final presentation materials are due **2026-11-05 23:59 Asia/Taipei**, before Nov 6. The formal presentation remains Nov 9; Nov 6-8 are reserved for rehearsal and explicit corrections. See the roadmap for evidence gates and acceptance criteria.
 
-## Current results
+## Historical results (through Nov 9; see current links above)
 
 - **Nov 9 report:** [Final evidence and delivery index](docs/updates/2026-11-05.md) · [TA feedback revision](docs/updates/2026-11-09-ta-feedback.md). The matched parity pilot freezes Bell(6) calibration before eight new complete Bell(4) and QASMBench cat(4) circuits. It tests a capped first-front choice and explicitly abstains on the distinct chain topology.
 - **Routing:** bounded two-step lookahead, explicit score/budget accounting and controlled comparisons. 540 configurations / 1,620 executions; all schedules validated. On 24 held-out synthetic input/layout/seed pairs, median routed depth changes by **-3.69%** versus our one-step control with the same per-decision evaluation budget (16 wins, 8 ties, 0 losses). Versus the pinned author original: -2.42% (13/9/2).
@@ -19,11 +23,15 @@ Research implementation for our **2026-11-09** report. The repository is named `
 - **Offline candidate selector:** all 13 complete hs4 candidates at development spacing3, pre-test-frozen choices and 7 geometry-held-out spacing5 controls; 17 newly sampled circuits / **1,700,000 additional shots**, plus 300k reused development shots. The unguarded waiting feature reduces error by 3.642 percentage points within matched serial controls; the guarded selector ties and all unrestricted selectors choose the same parallel plan. This is not unseen-workload or online DASCOT performance evidence; mu=0. See the linked update for exact scope, CIs, counts and remaining work.
 - **Second complete public workload:** pinned MQT Bench Bell(6), all 3 H / 3 CX / barrier / 6 measurements retained; 13 legal H-first candidate plans. Thirty prospective algorithm settings plus parallel/serial controls at spacing3/5. Random original outputs are preserved; metric is three independent ZZ correlations, not all-bitstring correctness. Full signed inputs, all12 X/Z generators and distance3 validated. See the dated update for counts, confidence intervals, resource trade-offs and remaining risk-calibration work. Total validated source coverage:2/8 across the pinned QASMBench+MQT sets.
 - **Tests:** 124 tests pass locally; GitHub CI and full raw-replay evidence are recorded in the newest update.
-- **Current increment branch:** `research/2026-11-02-public-risk-pilot`; default `main` is unchanged; the research branch contains the full current increments. The exact pre-test local commit is retained in a hash-verified Git bundle.
+- **Historical increment branch:** `research/2026-11-02-public-risk-pilot`; default `main` is unchanged; the research branch contains the full current increments. The exact pre-test local commit is retained in a hash-verified Git bundle.
 
 ![Full-schedule development pilot with 95% Wilson intervals](docs/figures/full_schedule_pilot.png)
 
 The routing and quantum components have separate validated scopes. **The scheduler quantum-risk weight remains zero** until a supported route-to-physical-circuit adapter and complete schedule composition are validated. A TQEC bridge span is not a DASCOT hop count. These rates are basis-specific logical-observable-set failures, not state/process fidelity.
+
+## Current routing evidence replay
+
+See [replay and fresh rerun commands](results/original_objective_2026-11-30/README_ZH.md). `restore_results.py`, `verify_original_objective.py` and the presentation evidence checker replay preserved records with **0 new routing runs and 0 new shots**.
 
 ## Setup and reproduce
 

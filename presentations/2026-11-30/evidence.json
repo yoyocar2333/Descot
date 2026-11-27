@@ -1,0 +1,3927 @@
+{
+  "historical_summary": {
+    "configurations": 72,
+    "executions": 216,
+    "all_depths_match_frozen": true,
+    "comparisons": [
+      {
+        "baseline": "original",
+        "pairs": 24,
+        "median_paired_time_ratio": 0.9519727422055437,
+        "median_depth_change_percent": -2.4245128662799345,
+        "wins": 13,
+        "ties": 9,
+        "losses": 2
+      },
+      {
+        "baseline": "one_budget48",
+        "pairs": 24,
+        "median_paired_time_ratio": 0.907516385609439,
+        "median_depth_change_percent": -3.694021368492839,
+        "wins": 16,
+        "ties": 8,
+        "losses": 0
+      }
+    ],
+    "timing": "Serial method-rotated three repeats; routing-only wall time, mapping/source validation/physical compile/MC excluded. Shared host, no claim of paper machine reproduction.",
+    "code_sha256": "7ef6951d1efcf02834433205908724c23c57c37a297f1f517179d82a89db4a02",
+    "new_shots": 0
+  },
+  "historical_pairs": [
+    {
+      "instance": "held_random24_s41_compact",
+      "seed": 1,
+      "original_depth": 53,
+      "two_depth": 51,
+      "depth_ratio": 0.9622641509433962,
+      "time_ratio": 0.8742750914360509,
+      "original_ms": 385.2660029999697,
+      "two_ms": 336.8284700000004
+    },
+    {
+      "instance": "held_random24_s41_compact",
+      "seed": 2,
+      "original_depth": 55,
+      "two_depth": 51,
+      "depth_ratio": 0.9272727272727272,
+      "time_ratio": 0.9695748912144103,
+      "original_ms": 315.09461699999974,
+      "two_ms": 305.50782900002105
+    },
+    {
+      "instance": "held_random24_s41_compact",
+      "seed": 3,
+      "original_depth": 54,
+      "two_depth": 50,
+      "depth_ratio": 0.9259259259259259,
+      "time_ratio": 0.9246507320087229,
+      "original_ms": 327.4174209999501,
+      "two_ms": 302.74675800001205
+    },
+    {
+      "instance": "held_random24_s41_square_sparse",
+      "seed": 1,
+      "original_depth": 15,
+      "two_depth": 15,
+      "depth_ratio": 1.0,
+      "time_ratio": 0.9160739580361958,
+      "original_ms": 259.06025700010105,
+      "two_ms": 237.31835499995668
+    },
+    {
+      "instance": "held_random24_s41_square_sparse",
+      "seed": 2,
+      "original_depth": 16,
+      "two_depth": 14,
+      "depth_ratio": 0.875,
+      "time_ratio": 0.9238429284817175,
+      "original_ms": 253.50574300000517,
+      "two_ms": 234.1994880000584
+    },
+    {
+      "instance": "held_random24_s41_square_sparse",
+      "seed": 3,
+      "original_depth": 15,
+      "two_depth": 15,
+      "depth_ratio": 1.0,
+      "time_ratio": 0.9580677236932642,
+      "original_ms": 248.1603889999633,
+      "two_ms": 237.75445900002978
+    },
+    {
+      "instance": "held_random24_s53_compact",
+      "seed": 1,
+      "original_depth": 90,
+      "two_depth": 91,
+      "depth_ratio": 1.011111111111111,
+      "time_ratio": 0.9797928945396831,
+      "original_ms": 571.42394899995,
+      "two_ms": 559.8771249999572
+    },
+    {
+      "instance": "held_random24_s53_compact",
+      "seed": 2,
+      "original_depth": 91,
+      "two_depth": 91,
+      "depth_ratio": 1.0,
+      "time_ratio": 0.9364376887040672,
+      "original_ms": 585.6442479999941,
+      "two_ms": 548.419345999946
+    },
+    {
+      "instance": "held_random24_s53_compact",
+      "seed": 3,
+      "original_depth": 91,
+      "two_depth": 91,
+      "depth_ratio": 1.0,
+      "time_ratio": 1.1368081323212895,
+      "original_ms": 565.6021370000417,
+      "two_ms": 642.9811089999475
+    },
+    {
+      "instance": "held_random24_s53_square_sparse",
+      "seed": 1,
+      "original_depth": 22,
+      "two_depth": 21,
+      "depth_ratio": 0.9545454545454546,
+      "time_ratio": 1.0461143963868296,
+      "original_ms": 339.48645600003147,
+      "two_ms": 355.1416689999769
+    },
+    {
+      "instance": "held_random24_s53_square_sparse",
+      "seed": 2,
+      "original_depth": 21,
+      "two_depth": 20,
+      "depth_ratio": 0.9523809523809523,
+      "time_ratio": 0.9516238562220597,
+      "original_ms": 347.93837799998073,
+      "two_ms": 331.1064609999903
+    },
+    {
+      "instance": "held_random24_s53_square_sparse",
+      "seed": 3,
+      "original_depth": 21,
+      "two_depth": 21,
+      "depth_ratio": 1.0,
+      "time_ratio": 0.9435587479885799,
+      "original_ms": 355.5219150000539,
+      "two_ms": 335.4558129999532
+    },
+    {
+      "instance": "held_random36_s67_compact",
+      "seed": 1,
+      "original_depth": 81,
+      "two_depth": 80,
+      "depth_ratio": 0.9876543209876543,
+      "time_ratio": 1.0593149872862755,
+      "original_ms": 746.9258449999643,
+      "two_ms": 791.2297419999277
+    },
+    {
+      "instance": "held_random36_s67_compact",
+      "seed": 2,
+      "original_depth": 82,
+      "two_depth": 79,
+      "depth_ratio": 0.9634146341463414,
+      "time_ratio": 0.989286582101203,
+      "original_ms": 889.330659000052,
+      "two_ms": 879.802887999972
+    },
+    {
+      "instance": "held_random36_s67_compact",
+      "seed": 3,
+      "original_depth": 83,
+      "two_depth": 80,
+      "depth_ratio": 0.963855421686747,
+      "time_ratio": 0.9025951730653343,
+      "original_ms": 923.1859840000425,
+      "two_ms": 833.2632130000093
+    },
+    {
+      "instance": "held_random36_s67_square_sparse",
+      "seed": 1,
+      "original_depth": 20,
+      "two_depth": 19,
+      "depth_ratio": 0.95,
+      "time_ratio": 1.002524237551488,
+      "original_ms": 564.2630580000514,
+      "two_ms": 565.6873919999725
+    },
+    {
+      "instance": "held_random36_s67_square_sparse",
+      "seed": 2,
+      "original_depth": 19,
+      "two_depth": 19,
+      "depth_ratio": 1.0,
+      "time_ratio": 0.919642492799475,
+      "original_ms": 590.1026880000018,
+      "two_ms": 542.6835069999925
+    },
+    {
+      "instance": "held_random36_s67_square_sparse",
+      "seed": 3,
+      "original_depth": 18,
+      "two_depth": 19,
+      "depth_ratio": 1.0555555555555556,
+      "time_ratio": 1.011862363766336,
+      "original_ms": 576.7063069999949,
+      "two_ms": 583.5474069999691
+    },
+    {
+      "instance": "held_ring24_compact",
+      "seed": 1,
+      "original_depth": 62,
+      "two_depth": 55,
+      "depth_ratio": 0.8870967741935484,
+      "time_ratio": 0.915093707779094,
+      "original_ms": 412.0917200000349,
+      "two_ms": 377.1025399998962
+    },
+    {
+      "instance": "held_ring24_compact",
+      "seed": 2,
+      "original_depth": 61,
+      "two_depth": 55,
+      "depth_ratio": 0.9016393442622951,
+      "time_ratio": 0.9822667485321276,
+      "original_ms": 387.7199290000135,
+      "two_ms": 380.8443939999506
+    },
+    {
+      "instance": "held_ring24_compact",
+      "seed": 3,
+      "original_depth": 63,
+      "two_depth": 55,
+      "depth_ratio": 0.873015873015873,
+      "time_ratio": 0.9348683822910762,
+      "original_ms": 403.59815900001195,
+      "two_ms": 377.3111579999977
+    },
+    {
+      "instance": "held_ring24_square_sparse",
+      "seed": 1,
+      "original_depth": 15,
+      "two_depth": 15,
+      "depth_ratio": 1.0,
+      "time_ratio": 0.9523216281890279,
+      "original_ms": 277.39185500001895,
+      "two_ms": 264.1662629999928
+    },
+    {
+      "instance": "held_ring24_square_sparse",
+      "seed": 2,
+      "original_depth": 15,
+      "two_depth": 15,
+      "depth_ratio": 1.0,
+      "time_ratio": 0.9787847772626157,
+      "original_ms": 272.2521970000571,
+      "two_ms": 266.47630599995864
+    },
+    {
+      "instance": "held_ring24_square_sparse",
+      "seed": 3,
+      "original_depth": 15,
+      "two_depth": 15,
+      "depth_ratio": 1.0,
+      "time_ratio": 0.9434197220781894,
+      "original_ms": 288.22500700005094,
+      "two_ms": 271.91715599997224
+    }
+  ],
+  "public_rows": [
+    {
+      "instance": "3_17_13_compact",
+      "source": "3_17_13",
+      "layout": {
+        "height": 5,
+        "width": 5,
+        "alg_qubits": [
+          6,
+          16,
+          8,
+          18
+        ],
+        "magic_states": [
+          1,
+          3,
+          9,
+          19,
+          23,
+          21,
+          5,
+          15
+        ]
+      },
+      "dependency_depth": 21,
+      "source_counts": {
+        "cx": 17,
+        "h": 4,
+        "t": 8,
+        "tdg": 6,
+        "x": 1
+      },
+      "routed_gates": 31,
+      "original": {
+        "mean_depth": 25.6,
+        "median_ms": 5.39035049996528,
+        "relative_time": 1.0,
+        "wins": 0,
+        "ties": 10,
+        "losses": 0
+      },
+      "one_budget48": {
+        "mean_depth": 25,
+        "median_ms": 4.968239999982416,
+        "relative_time": 0.9457413976797238,
+        "wins": 6,
+        "ties": 4,
+        "losses": 0
+      },
+      "two_budget48": {
+        "mean_depth": 25,
+        "median_ms": 7.0468170000026475,
+        "relative_time": 1.3267692874191255,
+        "wins": 6,
+        "ties": 4,
+        "losses": 0
+      }
+    },
+    {
+      "instance": "3_17_13_square_sparse",
+      "source": "3_17_13",
+      "layout": {
+        "height": 7,
+        "width": 7,
+        "alg_qubits": [
+          16,
+          18,
+          30,
+          32
+        ],
+        "magic_states": [
+          1,
+          3,
+          5,
+          13,
+          27,
+          41,
+          47,
+          45,
+          43,
+          7,
+          21,
+          35
+        ]
+      },
+      "dependency_depth": 21,
+      "source_counts": {
+        "cx": 17,
+        "h": 4,
+        "t": 8,
+        "tdg": 6,
+        "x": 1
+      },
+      "routed_gates": 31,
+      "original": {
+        "mean_depth": 21,
+        "median_ms": 7.164108999972996,
+        "relative_time": 1.0,
+        "wins": 0,
+        "ties": 10,
+        "losses": 0
+      },
+      "one_budget48": {
+        "mean_depth": 21,
+        "median_ms": 5.9857289999740715,
+        "relative_time": 0.8338301058276857,
+        "wins": 0,
+        "ties": 10,
+        "losses": 0
+      },
+      "two_budget48": {
+        "mean_depth": 21,
+        "median_ms": 10.570453500065469,
+        "relative_time": 1.4807665038362798,
+        "wins": 0,
+        "ties": 10,
+        "losses": 0
+      }
+    },
+    {
+      "instance": "error_correctiond3_n5_compact",
+      "source": "error_correctiond3_n5",
+      "layout": {
+        "height": 5,
+        "width": 7,
+        "alg_qubits": [
+          8,
+          22,
+          10,
+          24,
+          12,
+          26
+        ],
+        "magic_states": [
+          1,
+          3,
+          5,
+          13,
+          27,
+          33,
+          31,
+          29,
+          7,
+          21
+        ]
+      },
+      "dependency_depth": 48,
+      "source_counts": {
+        "cx": 49,
+        "h": 62,
+        "id": 1,
+        "measure": 5,
+        "sdg": 2
+      },
+      "routed_gates": 49,
+      "original": {
+        "mean_depth": 48,
+        "median_ms": 3.717399999970894,
+        "relative_time": 1.0,
+        "wins": 0,
+        "ties": 10,
+        "losses": 0
+      },
+      "one_budget48": {
+        "mean_depth": 48,
+        "median_ms": 3.3838600000422048,
+        "relative_time": 0.827328566786008,
+        "wins": 0,
+        "ties": 10,
+        "losses": 0
+      },
+      "two_budget48": {
+        "mean_depth": 48,
+        "median_ms": 4.408453499991083,
+        "relative_time": 1.1832103588991598,
+        "wins": 0,
+        "ties": 10,
+        "losses": 0
+      }
+    },
+    {
+      "instance": "error_correctiond3_n5_square_sparse",
+      "source": "error_correctiond3_n5",
+      "layout": {
+        "height": 9,
+        "width": 9,
+        "alg_qubits": [
+          20,
+          22,
+          24,
+          38,
+          40,
+          42,
+          56,
+          58,
+          60
+        ],
+        "magic_states": [
+          1,
+          3,
+          5,
+          7,
+          17,
+          35,
+          53,
+          71,
+          79,
+          77,
+          75,
+          73,
+          9,
+          27,
+          45,
+          63
+        ]
+      },
+      "dependency_depth": 48,
+      "source_counts": {
+        "cx": 49,
+        "h": 62,
+        "id": 1,
+        "measure": 5,
+        "sdg": 2
+      },
+      "routed_gates": 49,
+      "original": {
+        "mean_depth": 48,
+        "median_ms": 5.429108000043925,
+        "relative_time": 1.0,
+        "wins": 0,
+        "ties": 10,
+        "losses": 0
+      },
+      "one_budget48": {
+        "mean_depth": 48,
+        "median_ms": 6.1817045000225335,
+        "relative_time": 1.0943401112889495,
+        "wins": 0,
+        "ties": 10,
+        "losses": 0
+      },
+      "two_budget48": {
+        "mean_depth": 48,
+        "median_ms": 10.731814500047676,
+        "relative_time": 1.5258425596264593,
+        "wins": 0,
+        "ties": 10,
+        "losses": 0
+      }
+    },
+    {
+      "instance": "qec_en_n5_compact",
+      "source": "qec_en_n5",
+      "layout": {
+        "height": 5,
+        "width": 7,
+        "alg_qubits": [
+          8,
+          22,
+          10,
+          24,
+          12,
+          26
+        ],
+        "magic_states": [
+          1,
+          3,
+          5,
+          13,
+          27,
+          33,
+          31,
+          29,
+          7,
+          21
+        ]
+      },
+      "dependency_depth": 11,
+      "source_counts": {
+        "cx": 10,
+        "h": 14,
+        "measure": 5,
+        "t": 1
+      },
+      "routed_gates": 11,
+      "original": {
+        "mean_depth": 11,
+        "median_ms": 0.573425999959909,
+        "relative_time": 1.0,
+        "wins": 0,
+        "ties": 10,
+        "losses": 0
+      },
+      "one_budget48": {
+        "mean_depth": 11,
+        "median_ms": 0.5537920000051599,
+        "relative_time": 0.9778131956183297,
+        "wins": 0,
+        "ties": 10,
+        "losses": 0
+      },
+      "two_budget48": {
+        "mean_depth": 11,
+        "median_ms": 0.8022200000254998,
+        "relative_time": 1.3608053122794002,
+        "wins": 0,
+        "ties": 10,
+        "losses": 0
+      }
+    },
+    {
+      "instance": "qec_en_n5_square_sparse",
+      "source": "qec_en_n5",
+      "layout": {
+        "height": 9,
+        "width": 9,
+        "alg_qubits": [
+          20,
+          22,
+          24,
+          38,
+          40,
+          42,
+          56,
+          58,
+          60
+        ],
+        "magic_states": [
+          1,
+          3,
+          5,
+          7,
+          17,
+          35,
+          53,
+          71,
+          79,
+          77,
+          75,
+          73,
+          9,
+          27,
+          45,
+          63
+        ]
+      },
+      "dependency_depth": 11,
+      "source_counts": {
+        "cx": 10,
+        "h": 14,
+        "measure": 5,
+        "t": 1
+      },
+      "routed_gates": 11,
+      "original": {
+        "mean_depth": 11,
+        "median_ms": 1.1026815000150236,
+        "relative_time": 1.0,
+        "wins": 0,
+        "ties": 10,
+        "losses": 0
+      },
+      "one_budget48": {
+        "mean_depth": 11,
+        "median_ms": 1.0922300000402174,
+        "relative_time": 0.9983932998114651,
+        "wins": 0,
+        "ties": 10,
+        "losses": 0
+      },
+      "two_budget48": {
+        "mean_depth": 11,
+        "median_ms": 1.449745500053723,
+        "relative_time": 1.2623634265287988,
+        "wins": 0,
+        "ties": 10,
+        "losses": 0
+      }
+    }
+  ],
+  "public_witness": {
+    "input": {
+      "program": {
+        "name": "3_17_13",
+        "logical_qubits": 16,
+        "classical_bits": 16,
+        "expanded_custom_gates": [],
+        "operation_counts": {
+          "cx": 17,
+          "h": 4,
+          "t": 8,
+          "tdg": 6,
+          "x": 1
+        },
+        "operations": [
+          {
+            "id": 0,
+            "name": "x",
+            "qubits": [
+              2
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": []
+          },
+          {
+            "id": 1,
+            "name": "cx",
+            "qubits": [
+              0,
+              2
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              0
+            ]
+          },
+          {
+            "id": 2,
+            "name": "cx",
+            "qubits": [
+              2,
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              1
+            ]
+          },
+          {
+            "id": 3,
+            "name": "h",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              1
+            ]
+          },
+          {
+            "id": 4,
+            "name": "t",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              2
+            ]
+          },
+          {
+            "id": 5,
+            "name": "t",
+            "qubits": [
+              2
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              2
+            ]
+          },
+          {
+            "id": 6,
+            "name": "t",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              3
+            ]
+          },
+          {
+            "id": 7,
+            "name": "cx",
+            "qubits": [
+              2,
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              4,
+              5
+            ]
+          },
+          {
+            "id": 8,
+            "name": "cx",
+            "qubits": [
+              0,
+              2
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              6,
+              7
+            ]
+          },
+          {
+            "id": 9,
+            "name": "cx",
+            "qubits": [
+              1,
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              7,
+              8
+            ]
+          },
+          {
+            "id": 10,
+            "name": "tdg",
+            "qubits": [
+              2
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              8
+            ]
+          },
+          {
+            "id": 11,
+            "name": "cx",
+            "qubits": [
+              1,
+              2
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              9,
+              10
+            ]
+          },
+          {
+            "id": 12,
+            "name": "tdg",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              11
+            ]
+          },
+          {
+            "id": 13,
+            "name": "tdg",
+            "qubits": [
+              2
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              11
+            ]
+          },
+          {
+            "id": 14,
+            "name": "t",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              9
+            ]
+          },
+          {
+            "id": 15,
+            "name": "cx",
+            "qubits": [
+              0,
+              2
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              13,
+              14
+            ]
+          },
+          {
+            "id": 16,
+            "name": "cx",
+            "qubits": [
+              1,
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              12,
+              15
+            ]
+          },
+          {
+            "id": 17,
+            "name": "cx",
+            "qubits": [
+              2,
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              15,
+              16
+            ]
+          },
+          {
+            "id": 18,
+            "name": "h",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              16
+            ]
+          },
+          {
+            "id": 19,
+            "name": "h",
+            "qubits": [
+              2
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              17
+            ]
+          },
+          {
+            "id": 20,
+            "name": "t",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              18
+            ]
+          },
+          {
+            "id": 21,
+            "name": "t",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              17
+            ]
+          },
+          {
+            "id": 22,
+            "name": "t",
+            "qubits": [
+              2
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              19
+            ]
+          },
+          {
+            "id": 23,
+            "name": "cx",
+            "qubits": [
+              1,
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              20,
+              21
+            ]
+          },
+          {
+            "id": 24,
+            "name": "cx",
+            "qubits": [
+              2,
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              22,
+              23
+            ]
+          },
+          {
+            "id": 25,
+            "name": "cx",
+            "qubits": [
+              0,
+              2
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              23,
+              24
+            ]
+          },
+          {
+            "id": 26,
+            "name": "tdg",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              24
+            ]
+          },
+          {
+            "id": 27,
+            "name": "cx",
+            "qubits": [
+              0,
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              25,
+              26
+            ]
+          },
+          {
+            "id": 28,
+            "name": "tdg",
+            "qubits": [
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              27
+            ]
+          },
+          {
+            "id": 29,
+            "name": "tdg",
+            "qubits": [
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              27
+            ]
+          },
+          {
+            "id": 30,
+            "name": "t",
+            "qubits": [
+              2
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              25
+            ]
+          },
+          {
+            "id": 31,
+            "name": "cx",
+            "qubits": [
+              2,
+              1
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              29,
+              30
+            ]
+          },
+          {
+            "id": 32,
+            "name": "cx",
+            "qubits": [
+              0,
+              2
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              28,
+              31
+            ]
+          },
+          {
+            "id": 33,
+            "name": "cx",
+            "qubits": [
+              1,
+              0
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              31,
+              32
+            ]
+          },
+          {
+            "id": 34,
+            "name": "h",
+            "qubits": [
+              2
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              32
+            ]
+          },
+          {
+            "id": 35,
+            "name": "cx",
+            "qubits": [
+              1,
+              2
+            ],
+            "clbits": [],
+            "params": [],
+            "predecessors": [
+              33,
+              34
+            ]
+          }
+        ],
+        "dag_fronts": [
+          {
+            "operation_ids": [
+              0
+            ],
+            "cx_ids": [],
+            "cx_pairs": []
+          },
+          {
+            "operation_ids": [
+              1
+            ],
+            "cx_ids": [
+              1
+            ],
+            "cx_pairs": [
+              [
+                0,
+                2
+              ]
+            ]
+          },
+          {
+            "operation_ids": [
+              2,
+              3
+            ],
+            "cx_ids": [
+              2
+            ],
+            "cx_pairs": [
+              [
+                2,
+                1
+              ]
+            ]
+          },
+          {
+            "operation_ids": [
+              4,
+              5,
+              6
+            ],
+            "cx_ids": [],
+            "cx_pairs": []
+          },
+          {
+            "operation_ids": [
+              7
+            ],
+            "cx_ids": [
+              7
+            ],
+            "cx_pairs": [
+              [
+                2,
+                1
+              ]
+            ]
+          },
+          {
+            "operation_ids": [
+              8
+            ],
+            "cx_ids": [
+              8
+            ],
+            "cx_pairs": [
+              [
+                0,
+                2
+              ]
+            ]
+          },
+          {
+            "operation_ids": [
+              9,
+              10
+            ],
+            "cx_ids": [
+              9
+            ],
+            "cx_pairs": [
+              [
+                1,
+                0
+              ]
+            ]
+          },
+          {
+            "operation_ids": [
+              11,
+              14
+            ],
+            "cx_ids": [
+              11
+            ],
+            "cx_pairs": [
+              [
+                1,
+                2
+              ]
+            ]
+          },
+          {
+            "operation_ids": [
+              12,
+              13
+            ],
+            "cx_ids": [],
+            "cx_pairs": []
+          },
+          {
+            "operation_ids": [
+              15
+            ],
+            "cx_ids": [
+              15
+            ],
+            "cx_pairs": [
+              [
+                0,
+                2
+              ]
+            ]
+          },
+          {
+            "operation_ids": [
+              16
+            ],
+            "cx_ids": [
+              16
+            ],
+            "cx_pairs": [
+              [
+                1,
+                0
+              ]
+            ]
+          },
+          {
+            "operation_ids": [
+              17,
+              18
+            ],
+            "cx_ids": [
+              17
+            ],
+            "cx_pairs": [
+              [
+                2,
+                1
+              ]
+            ]
+          },
+          {
+            "operation_ids": [
+              19,
+              20,
+              21
+            ],
+            "cx_ids": [],
+            "cx_pairs": []
+          },
+          {
+            "operation_ids": [
+              22,
+              23
+            ],
+            "cx_ids": [
+              23
+            ],
+            "cx_pairs": [
+              [
+                1,
+                0
+              ]
+            ]
+          },
+          {
+            "operation_ids": [
+              24
+            ],
+            "cx_ids": [
+              24
+            ],
+            "cx_pairs": [
+              [
+                2,
+                1
+              ]
+            ]
+          },
+          {
+            "operation_ids": [
+              25,
+              26
+            ],
+            "cx_ids": [
+              25
+            ],
+            "cx_pairs": [
+              [
+                0,
+                2
+              ]
+            ]
+          },
+          {
+            "operation_ids": [
+              27,
+              30
+            ],
+            "cx_ids": [
+              27
+            ],
+            "cx_pairs": [
+              [
+                0,
+                1
+              ]
+            ]
+          },
+          {
+            "operation_ids": [
+              28,
+              29
+            ],
+            "cx_ids": [],
+            "cx_pairs": []
+          },
+          {
+            "operation_ids": [
+              31
+            ],
+            "cx_ids": [
+              31
+            ],
+            "cx_pairs": [
+              [
+                2,
+                1
+              ]
+            ]
+          },
+          {
+            "operation_ids": [
+              32
+            ],
+            "cx_ids": [
+              32
+            ],
+            "cx_pairs": [
+              [
+                0,
+                2
+              ]
+            ]
+          },
+          {
+            "operation_ids": [
+              33,
+              34
+            ],
+            "cx_ids": [
+              33
+            ],
+            "cx_pairs": [
+              [
+                1,
+                0
+              ]
+            ]
+          },
+          {
+            "operation_ids": [
+              35
+            ],
+            "cx_ids": [
+              35
+            ],
+            "cx_pairs": [
+              [
+                1,
+                2
+              ]
+            ]
+          }
+        ],
+        "dag_depth_unit": "One original logical instruction, including retained barriers and measurements; not routing steps, QEC cycles, or physical TICKs.",
+        "strict_instruction_depth": 22,
+        "max_ready_cx": 1,
+        "front_metric_scope": "Ready-CX count in the recorded ASAP instruction fronts; not the maximum over all delayed schedules. Incomparable CX pairs separately capture other legal choices.",
+        "incomparable_cx_pairs": [],
+        "terminal_readout": [],
+        "all_unitaries_clifford": false,
+        "non_clifford_operation_names": [
+          "t",
+          "tdg"
+        ],
+        "dynamic_or_opaque_names": [],
+        "full_physical_profile_supported": false,
+        "physical_rejection_reasons": [
+          "Current homogeneous-basis CNOT profile does not preserve these original operations: h, t, tdg, x",
+          "The physical profile supports 2..6 logical qubits",
+          "Fixed diagonal embedding does not support reverse CNOTs",
+          "Source routing profile requires all declared logical qubits to participate",
+          "Non-Clifford operations: t, tdg"
+        ],
+        "source_sha256": "37b69d5400fe5ee15f651afbbe291eeb418bc982319efe5ace455041ddb4ad87",
+        "semantics_policy": "All original operations and classical dependencies retained; custom definitions expanded without deleting gates. No CNOT-only projection is called a full benchmark.",
+        "routed_source_ids": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          35
+        ],
+        "routing_gates": [
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            0
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "routing_operations": [
+          "cx",
+          "cx",
+          "t",
+          "t",
+          "t",
+          "cx",
+          "cx",
+          "cx",
+          "tdg",
+          "cx",
+          "tdg",
+          "tdg",
+          "t",
+          "cx",
+          "cx",
+          "cx",
+          "t",
+          "t",
+          "t",
+          "cx",
+          "cx",
+          "cx",
+          "tdg",
+          "cx",
+          "tdg",
+          "tdg",
+          "t",
+          "cx",
+          "cx",
+          "cx",
+          "cx"
+        ],
+        "routed_active_qubits": [
+          0,
+          1,
+          2
+        ],
+        "model": "Pinned author SCMR abstraction: CX/T/TDG occupy one routed step; local Clifford/readout retained as zero-duration logical events. No physical gate timing/noise claims.",
+        "native_original_text_route_count": 31,
+        "canonical_qasm_sha256": "37b69d5400fe5ee15f651afbbe291eeb418bc982319efe5ace455041ddb4ad87",
+        "native_canonical_route_count": 31
+      },
+      "architecture": {
+        "height": 5,
+        "width": 5,
+        "alg_qubits": [
+          6,
+          16,
+          8,
+          18
+        ],
+        "magic_states": [
+          1,
+          3,
+          9,
+          19,
+          23,
+          21,
+          5,
+          15
+        ]
+      },
+      "mapping": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          18
+        ]
+      ],
+      "mapping_seconds": 0.5322621590000836,
+      "mapping_proxy": 1,
+      "routing_dependency_depth": 21
+    },
+    "front_index": 8,
+    "remaining": {
+      "9": [
+        1,
+        2
+      ],
+      "10": [
+        1
+      ],
+      "11": [
+        2
+      ],
+      "12": [
+        0
+      ],
+      "13": [
+        0,
+        2
+      ],
+      "14": [
+        1,
+        0
+      ],
+      "15": [
+        2,
+        1
+      ],
+      "16": [
+        0
+      ],
+      "17": [
+        1
+      ],
+      "18": [
+        2
+      ],
+      "19": [
+        1,
+        0
+      ],
+      "20": [
+        2,
+        1
+      ],
+      "21": [
+        0,
+        2
+      ],
+      "22": [
+        1
+      ],
+      "23": [
+        0,
+        1
+      ],
+      "24": [
+        0
+      ],
+      "25": [
+        1
+      ],
+      "26": [
+        2
+      ],
+      "27": [
+        2,
+        1
+      ],
+      "28": [
+        0,
+        2
+      ],
+      "29": [
+        1,
+        0
+      ],
+      "30": [
+        1,
+        2
+      ]
+    },
+    "front": {
+      "9": [
+        1,
+        2
+      ],
+      "12": [
+        0
+      ]
+    },
+    "author": [
+      [
+        9,
+        [
+          1,
+          2
+        ],
+        [
+          11,
+          12,
+          17
+        ]
+      ]
+    ],
+    "one": [
+      [
+        12,
+        [
+          0
+        ],
+        [
+          13,
+          12,
+          7,
+          2
+        ]
+      ],
+      [
+        9,
+        [
+          1,
+          2
+        ],
+        [
+          11,
+          16,
+          17
+        ]
+      ]
+    ],
+    "author_depth": 26,
+    "one_depth": 25
+  },
+  "lookahead_witness": {
+    "input": {
+      "case": "held_random24_s41",
+      "layout": "square_sparse",
+      "split": "held_out",
+      "gates": [
+        [
+          4,
+          16
+        ],
+        [
+          14,
+          20
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          1,
+          21
+        ],
+        [
+          22,
+          3
+        ],
+        [
+          0,
+          17
+        ],
+        [
+          15,
+          11
+        ],
+        [
+          13,
+          19
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          18,
+          23
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          23,
+          22
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          16,
+          20
+        ],
+        [
+          14,
+          12
+        ],
+        [
+          21,
+          0
+        ],
+        [
+          10,
+          8
+        ],
+        [
+          17,
+          15
+        ],
+        [
+          11,
+          2
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          18,
+          3
+        ],
+        [
+          22,
+          2
+        ],
+        [
+          16,
+          21
+        ],
+        [
+          20,
+          8
+        ],
+        [
+          11,
+          15
+        ],
+        [
+          17,
+          7
+        ],
+        [
+          14,
+          0
+        ],
+        [
+          6,
+          23
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          13,
+          5
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          9,
+          4
+        ],
+        [
+          21,
+          3
+        ],
+        [
+          16,
+          7
+        ],
+        [
+          15,
+          6
+        ],
+        [
+          20,
+          23
+        ],
+        [
+          18,
+          11
+        ],
+        [
+          1,
+          12
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          10,
+          14
+        ],
+        [
+          19,
+          0
+        ],
+        [
+          22,
+          8
+        ],
+        [
+          17,
+          13
+        ],
+        [
+          1,
+          17
+        ],
+        [
+          12,
+          0
+        ],
+        [
+          20,
+          16
+        ],
+        [
+          22,
+          9
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          4,
+          18
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          15,
+          8
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          21,
+          14
+        ],
+        [
+          11,
+          13
+        ],
+        [
+          23,
+          7
+        ],
+        [
+          22,
+          10
+        ],
+        [
+          9,
+          17
+        ],
+        [
+          13,
+          8
+        ],
+        [
+          19,
+          11
+        ],
+        [
+          14,
+          12
+        ],
+        [
+          23,
+          3
+        ],
+        [
+          1,
+          20
+        ],
+        [
+          16,
+          4
+        ],
+        [
+          18,
+          2
+        ],
+        [
+          21,
+          15
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          15
+        ],
+        [
+          14,
+          19
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          17,
+          9
+        ],
+        [
+          8,
+          23
+        ],
+        [
+          1,
+          12
+        ],
+        [
+          11,
+          13
+        ],
+        [
+          22,
+          21
+        ],
+        [
+          16,
+          20
+        ],
+        [
+          4,
+          18
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          14
+        ],
+        [
+          10,
+          16
+        ],
+        [
+          17,
+          22
+        ],
+        [
+          1,
+          20
+        ],
+        [
+          11,
+          21
+        ],
+        [
+          15,
+          23
+        ],
+        [
+          9,
+          13
+        ],
+        [
+          18,
+          8
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          19,
+          12
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          20,
+          16
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          11,
+          5
+        ],
+        [
+          23,
+          19
+        ],
+        [
+          21,
+          6
+        ],
+        [
+          0,
+          17
+        ],
+        [
+          1,
+          12
+        ],
+        [
+          18,
+          22
+        ],
+        [
+          15,
+          7
+        ],
+        [
+          5,
+          19
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          14,
+          11
+        ],
+        [
+          23,
+          13
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          21
+        ],
+        [
+          15,
+          17
+        ],
+        [
+          9,
+          8
+        ],
+        [
+          7,
+          22
+        ],
+        [
+          12,
+          16
+        ],
+        [
+          18,
+          20
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "ops": [
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx",
+        "cx"
+      ],
+      "active_qubits": 24,
+      "declared_qubits": 24,
+      "routing_program_depth": 10,
+      "architecture": {
+        "height": 13,
+        "width": 13,
+        "alg_qubits": [
+          28,
+          30,
+          32,
+          34,
+          36,
+          54,
+          56,
+          58,
+          60,
+          62,
+          80,
+          82,
+          84,
+          86,
+          88,
+          106,
+          108,
+          110,
+          112,
+          114,
+          132,
+          134,
+          136,
+          138,
+          140
+        ],
+        "magic_states": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11,
+          25,
+          51,
+          77,
+          103,
+          129,
+          155,
+          167,
+          165,
+          163,
+          161,
+          159,
+          157,
+          13,
+          39,
+          65,
+          91,
+          117,
+          143
+        ]
+      },
+      "mapping": [
+        [
+          0,
+          88
+        ],
+        [
+          1,
+          36
+        ],
+        [
+          2,
+          108
+        ],
+        [
+          3,
+          54
+        ],
+        [
+          4,
+          62
+        ],
+        [
+          5,
+          138
+        ],
+        [
+          6,
+          84
+        ],
+        [
+          7,
+          132
+        ],
+        [
+          8,
+          30
+        ],
+        [
+          9,
+          114
+        ],
+        [
+          10,
+          28
+        ],
+        [
+          11,
+          86
+        ],
+        [
+          12,
+          34
+        ],
+        [
+          13,
+          60
+        ],
+        [
+          14,
+          32
+        ],
+        [
+          15,
+          110
+        ],
+        [
+          16,
+          58
+        ],
+        [
+          17,
+          112
+        ],
+        [
+          18,
+          82
+        ],
+        [
+          19,
+          136
+        ],
+        [
+          20,
+          56
+        ],
+        [
+          21,
+          80
+        ],
+        [
+          22,
+          106
+        ],
+        [
+          23,
+          134
+        ]
+      ],
+      "mapping_seed": 1001,
+      "mapping_seconds": 0.31592843800001447,
+      "mapping_proxy_cost": 220,
+      "commit": "97c12a5e22cf16e37288c60a0a5735c58c6fe8ca",
+      "workload_seed": 41,
+      "origin": "Frozen specification before evaluation; not used for parameter selection",
+      "input_sha256": "f302d5ff82de7b6af3814f70e65440f70ecf05fc42d125cefecb1a00a5f79d31"
+    },
+    "front_index": 1,
+    "one": [
+      [
+        3,
+        [
+          1,
+          21
+        ],
+        [
+          49,
+          48,
+          47,
+          46,
+          59,
+          72,
+          71,
+          70,
+          69,
+          68,
+          81
+        ]
+      ],
+      [
+        8,
+        [
+          8,
+          9
+        ],
+        [
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          37,
+          50,
+          63,
+          76,
+          89,
+          102,
+          115
+        ]
+      ],
+      [
+        12,
+        [
+          23,
+          22
+        ],
+        [
+          121,
+          120,
+          107
+        ]
+      ],
+      [
+        13,
+        [
+          4,
+          19
+        ],
+        [
+          75,
+          74,
+          87,
+          100,
+          113,
+          126,
+          125,
+          124,
+          137
+        ]
+      ],
+      [
+        14,
+        [
+          5,
+          7
+        ],
+        [
+          151,
+          150,
+          149,
+          148,
+          147,
+          146,
+          133
+        ]
+      ],
+      [
+        15,
+        [
+          16,
+          20
+        ],
+        [
+          45,
+          44,
+          57
+        ]
+      ],
+      [
+        19,
+        [
+          17,
+          15
+        ],
+        [
+          99,
+          98,
+          111
+        ]
+      ],
+      [
+        23,
+        [
+          18,
+          3
+        ],
+        [
+          95,
+          94,
+          93,
+          92,
+          79,
+          66,
+          53
+        ]
+      ]
+    ],
+    "two": [
+      [
+        23,
+        [
+          18,
+          3
+        ],
+        [
+          69,
+          68,
+          55
+        ]
+      ],
+      [
+        20,
+        [
+          11,
+          2
+        ],
+        [
+          99,
+          98,
+          97,
+          96,
+          109
+        ]
+      ],
+      [
+        3,
+        [
+          1,
+          21
+        ],
+        [
+          49,
+          48,
+          47,
+          46,
+          45,
+          44,
+          43,
+          42,
+          41,
+          40,
+          53,
+          66,
+          79
+        ]
+      ],
+      [
+        8,
+        [
+          8,
+          9
+        ],
+        [
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          37,
+          50,
+          63,
+          76,
+          89,
+          102,
+          115
+        ]
+      ],
+      [
+        13,
+        [
+          4,
+          19
+        ],
+        [
+          75,
+          74,
+          87,
+          100,
+          113,
+          126,
+          125,
+          124,
+          137
+        ]
+      ],
+      [
+        12,
+        [
+          23,
+          22
+        ],
+        [
+          121,
+          120,
+          107
+        ]
+      ],
+      [
+        14,
+        [
+          5,
+          7
+        ],
+        [
+          151,
+          150,
+          149,
+          148,
+          147,
+          146,
+          133
+        ]
+      ],
+      [
+        15,
+        [
+          16,
+          20
+        ],
+        [
+          71,
+          70,
+          57
+        ]
+      ]
+    ],
+    "detail": {
+      "instance": "held_random24_s41_square_sparse",
+      "seed": 3,
+      "front_index": 1,
+      "one_step_choice": {
+        "ids": [
+          3,
+          8,
+          12,
+          13,
+          14,
+          15,
+          19,
+          23
+        ],
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "now": 74,
+        "future": 61,
+        "progress": 135,
+        "conflict": 0.0,
+        "score": 135.0
+      },
+      "two_step_choice": {
+        "ids": [
+          23,
+          20,
+          3,
+          8,
+          13,
+          12,
+          14,
+          15
+        ],
+        "order": [
+          9,
+          8,
+          0,
+          1,
+          3,
+          2,
+          4,
+          7,
+          5,
+          6
+        ],
+        "now": 74,
+        "future": 62,
+        "progress": 136,
+        "conflict": 0.0,
+        "score": 136.0
+      },
+      "final_depths": [
+        16,
+        15
+      ],
+      "candidate_pool": "Same first 16 candidate orders at the same state"
+    }
+  },
+  "negative_case": {
+    "instance": "held_random36_s67_square_sparse",
+    "seed": 3,
+    "original_depth": 18,
+    "two_depth": 19,
+    "depth_ratio": 1.0555555555555556,
+    "time_ratio": 1.011862363766336,
+    "original_ms": 576.7063069999949,
+    "two_ms": 583.5474069999691
+  },
+  "source_circuit": {
+    "name": "3_17_13",
+    "logical_qubits": 16,
+    "classical_bits": 16,
+    "expanded_custom_gates": [],
+    "operation_counts": {
+      "cx": 17,
+      "h": 4,
+      "t": 8,
+      "tdg": 6,
+      "x": 1
+    },
+    "operations": [
+      {
+        "id": 0,
+        "name": "x",
+        "qubits": [
+          2
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": []
+      },
+      {
+        "id": 1,
+        "name": "cx",
+        "qubits": [
+          0,
+          2
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          0
+        ]
+      },
+      {
+        "id": 2,
+        "name": "cx",
+        "qubits": [
+          2,
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          1
+        ]
+      },
+      {
+        "id": 3,
+        "name": "h",
+        "qubits": [
+          0
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          1
+        ]
+      },
+      {
+        "id": 4,
+        "name": "t",
+        "qubits": [
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          2
+        ]
+      },
+      {
+        "id": 5,
+        "name": "t",
+        "qubits": [
+          2
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          2
+        ]
+      },
+      {
+        "id": 6,
+        "name": "t",
+        "qubits": [
+          0
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          3
+        ]
+      },
+      {
+        "id": 7,
+        "name": "cx",
+        "qubits": [
+          2,
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          4,
+          5
+        ]
+      },
+      {
+        "id": 8,
+        "name": "cx",
+        "qubits": [
+          0,
+          2
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          6,
+          7
+        ]
+      },
+      {
+        "id": 9,
+        "name": "cx",
+        "qubits": [
+          1,
+          0
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          7,
+          8
+        ]
+      },
+      {
+        "id": 10,
+        "name": "tdg",
+        "qubits": [
+          2
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          8
+        ]
+      },
+      {
+        "id": 11,
+        "name": "cx",
+        "qubits": [
+          1,
+          2
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          9,
+          10
+        ]
+      },
+      {
+        "id": 12,
+        "name": "tdg",
+        "qubits": [
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          11
+        ]
+      },
+      {
+        "id": 13,
+        "name": "tdg",
+        "qubits": [
+          2
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          11
+        ]
+      },
+      {
+        "id": 14,
+        "name": "t",
+        "qubits": [
+          0
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          9
+        ]
+      },
+      {
+        "id": 15,
+        "name": "cx",
+        "qubits": [
+          0,
+          2
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          13,
+          14
+        ]
+      },
+      {
+        "id": 16,
+        "name": "cx",
+        "qubits": [
+          1,
+          0
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          12,
+          15
+        ]
+      },
+      {
+        "id": 17,
+        "name": "cx",
+        "qubits": [
+          2,
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          15,
+          16
+        ]
+      },
+      {
+        "id": 18,
+        "name": "h",
+        "qubits": [
+          0
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          16
+        ]
+      },
+      {
+        "id": 19,
+        "name": "h",
+        "qubits": [
+          2
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          17
+        ]
+      },
+      {
+        "id": 20,
+        "name": "t",
+        "qubits": [
+          0
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          18
+        ]
+      },
+      {
+        "id": 21,
+        "name": "t",
+        "qubits": [
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          17
+        ]
+      },
+      {
+        "id": 22,
+        "name": "t",
+        "qubits": [
+          2
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          19
+        ]
+      },
+      {
+        "id": 23,
+        "name": "cx",
+        "qubits": [
+          1,
+          0
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          20,
+          21
+        ]
+      },
+      {
+        "id": 24,
+        "name": "cx",
+        "qubits": [
+          2,
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          22,
+          23
+        ]
+      },
+      {
+        "id": 25,
+        "name": "cx",
+        "qubits": [
+          0,
+          2
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          23,
+          24
+        ]
+      },
+      {
+        "id": 26,
+        "name": "tdg",
+        "qubits": [
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          24
+        ]
+      },
+      {
+        "id": 27,
+        "name": "cx",
+        "qubits": [
+          0,
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          25,
+          26
+        ]
+      },
+      {
+        "id": 28,
+        "name": "tdg",
+        "qubits": [
+          0
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          27
+        ]
+      },
+      {
+        "id": 29,
+        "name": "tdg",
+        "qubits": [
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          27
+        ]
+      },
+      {
+        "id": 30,
+        "name": "t",
+        "qubits": [
+          2
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          25
+        ]
+      },
+      {
+        "id": 31,
+        "name": "cx",
+        "qubits": [
+          2,
+          1
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          29,
+          30
+        ]
+      },
+      {
+        "id": 32,
+        "name": "cx",
+        "qubits": [
+          0,
+          2
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          28,
+          31
+        ]
+      },
+      {
+        "id": 33,
+        "name": "cx",
+        "qubits": [
+          1,
+          0
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          31,
+          32
+        ]
+      },
+      {
+        "id": 34,
+        "name": "h",
+        "qubits": [
+          2
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          32
+        ]
+      },
+      {
+        "id": 35,
+        "name": "cx",
+        "qubits": [
+          1,
+          2
+        ],
+        "clbits": [],
+        "params": [],
+        "predecessors": [
+          33,
+          34
+        ]
+      }
+    ],
+    "dag_fronts": [
+      {
+        "operation_ids": [
+          0
+        ],
+        "cx_ids": [],
+        "cx_pairs": []
+      },
+      {
+        "operation_ids": [
+          1
+        ],
+        "cx_ids": [
+          1
+        ],
+        "cx_pairs": [
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      {
+        "operation_ids": [
+          2,
+          3
+        ],
+        "cx_ids": [
+          2
+        ],
+        "cx_pairs": [
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      {
+        "operation_ids": [
+          4,
+          5,
+          6
+        ],
+        "cx_ids": [],
+        "cx_pairs": []
+      },
+      {
+        "operation_ids": [
+          7
+        ],
+        "cx_ids": [
+          7
+        ],
+        "cx_pairs": [
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      {
+        "operation_ids": [
+          8
+        ],
+        "cx_ids": [
+          8
+        ],
+        "cx_pairs": [
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      {
+        "operation_ids": [
+          9,
+          10
+        ],
+        "cx_ids": [
+          9
+        ],
+        "cx_pairs": [
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "operation_ids": [
+          11,
+          14
+        ],
+        "cx_ids": [
+          11
+        ],
+        "cx_pairs": [
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      {
+        "operation_ids": [
+          12,
+          13
+        ],
+        "cx_ids": [],
+        "cx_pairs": []
+      },
+      {
+        "operation_ids": [
+          15
+        ],
+        "cx_ids": [
+          15
+        ],
+        "cx_pairs": [
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      {
+        "operation_ids": [
+          16
+        ],
+        "cx_ids": [
+          16
+        ],
+        "cx_pairs": [
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "operation_ids": [
+          17,
+          18
+        ],
+        "cx_ids": [
+          17
+        ],
+        "cx_pairs": [
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      {
+        "operation_ids": [
+          19,
+          20,
+          21
+        ],
+        "cx_ids": [],
+        "cx_pairs": []
+      },
+      {
+        "operation_ids": [
+          22,
+          23
+        ],
+        "cx_ids": [
+          23
+        ],
+        "cx_pairs": [
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "operation_ids": [
+          24
+        ],
+        "cx_ids": [
+          24
+        ],
+        "cx_pairs": [
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      {
+        "operation_ids": [
+          25,
+          26
+        ],
+        "cx_ids": [
+          25
+        ],
+        "cx_pairs": [
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      {
+        "operation_ids": [
+          27,
+          30
+        ],
+        "cx_ids": [
+          27
+        ],
+        "cx_pairs": [
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "operation_ids": [
+          28,
+          29
+        ],
+        "cx_ids": [],
+        "cx_pairs": []
+      },
+      {
+        "operation_ids": [
+          31
+        ],
+        "cx_ids": [
+          31
+        ],
+        "cx_pairs": [
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      {
+        "operation_ids": [
+          32
+        ],
+        "cx_ids": [
+          32
+        ],
+        "cx_pairs": [
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      {
+        "operation_ids": [
+          33,
+          34
+        ],
+        "cx_ids": [
+          33
+        ],
+        "cx_pairs": [
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "operation_ids": [
+          35
+        ],
+        "cx_ids": [
+          35
+        ],
+        "cx_pairs": [
+          [
+            1,
+            2
+          ]
+        ]
+      }
+    ],
+    "dag_depth_unit": "One original logical instruction, including retained barriers and measurements; not routing steps, QEC cycles, or physical TICKs.",
+    "strict_instruction_depth": 22,
+    "max_ready_cx": 1,
+    "front_metric_scope": "Ready-CX count in the recorded ASAP instruction fronts; not the maximum over all delayed schedules. Incomparable CX pairs separately capture other legal choices.",
+    "incomparable_cx_pairs": [],
+    "terminal_readout": [],
+    "all_unitaries_clifford": false,
+    "non_clifford_operation_names": [
+      "t",
+      "tdg"
+    ],
+    "dynamic_or_opaque_names": [],
+    "full_physical_profile_supported": false,
+    "physical_rejection_reasons": [
+      "Current homogeneous-basis CNOT profile does not preserve these original operations: h, t, tdg, x",
+      "The physical profile supports 2..6 logical qubits",
+      "Fixed diagonal embedding does not support reverse CNOTs",
+      "Source routing profile requires all declared logical qubits to participate",
+      "Non-Clifford operations: t, tdg"
+    ],
+    "source_sha256": "37b69d5400fe5ee15f651afbbe291eeb418bc982319efe5ace455041ddb4ad87",
+    "semantics_policy": "All original operations and classical dependencies retained; custom definitions expanded without deleting gates. No CNOT-only projection is called a full benchmark.",
+    "routed_source_ids": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      35
+    ],
+    "routing_gates": [
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "routing_operations": [
+      "cx",
+      "cx",
+      "t",
+      "t",
+      "t",
+      "cx",
+      "cx",
+      "cx",
+      "tdg",
+      "cx",
+      "tdg",
+      "tdg",
+      "t",
+      "cx",
+      "cx",
+      "cx",
+      "t",
+      "t",
+      "t",
+      "cx",
+      "cx",
+      "cx",
+      "tdg",
+      "cx",
+      "tdg",
+      "tdg",
+      "t",
+      "cx",
+      "cx",
+      "cx",
+      "cx"
+    ],
+    "routed_active_qubits": [
+      0,
+      1,
+      2
+    ],
+    "model": "Pinned author SCMR abstraction: CX/T/TDG occupy one routed step; local Clifford/readout retained as zero-duration logical events. No physical gate timing/noise claims.",
+    "native_original_text_route_count": 31,
+    "canonical_qasm_sha256": "37b69d5400fe5ee15f651afbbe291eeb418bc982319efe5ace455041ddb4ad87",
+    "native_canonical_route_count": 31
+  },
+  "stopping": {
+    "cohorts": {
+      "historical": {
+        "pairs": 24,
+        "identical_schedules": 24,
+        "median_paired_time_ratio": 0.9764463394450691,
+        "median_order_evaluation_ratio": 0.97352591088511
+      },
+      "public": {
+        "pairs": 60,
+        "identical_schedules": 60,
+        "median_paired_time_ratio": 0.968381474829759,
+        "median_order_evaluation_ratio": 0.96
+      }
+    },
+    "executions": 504,
+    "new_shots": 0,
+    "code_sha256": "f08925dd2b1a618aa5e02eed98a637a05a49c819ff3646c7cfc4884c3cb97009"
+  },
+  "fixed16_ablation": {
+    "two_pool16_vs_one_pool16": {
+      "median_depth_change_percent": -2.9388083735909842,
+      "wins": 15,
+      "ties": 8,
+      "losses": 1
+    },
+    "guided_budget48_vs_two_pool16": {
+      "median_depth_change_percent": 0.0,
+      "wins": 9,
+      "ties": 12,
+      "losses": 3
+    }
+  }
+}

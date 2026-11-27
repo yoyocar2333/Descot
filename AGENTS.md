@@ -1,5 +1,9 @@
 # Research continuity
 
+## Latest TA/professor priority (2026-11-27; presentation 2026-11-30)
+
+The user relayed an explicit correction from the TA after discussion with the professor: improve the original DASCOT paper's results and prepare a NEW PPT for Monday 2026-11-30. The primary question is now routing depth versus compilation/search cost under the original SCMR abstraction, with fixed mapping/architecture when isolating routing. This supersedes the readout-sensitive-waiting question as the current main project. Preserve the entire physical/DEM/readout branch as archived secondary work; its calibration/held-out gates do not block reporting original-objective routing improvements. Do not relabel abstract routing gains as physical decoded-error gains. Keep source gates and dependencies traceable, native-author controls, fair search/CPU accounting and all negative/tied results. Use `docs/ORIGINAL_OBJECTIVE_PLAN_2026-11-28_ZH.md` and latest user feedback before the historical plan below. The user explicitly authorized a new presentation; preserve older decks. No new fault model or DEM proxy becomes the new main topic without a fresh user request.
+
 ## Post-report instructions (2026-11-16)
 
 The report has finished. Do not revise its slides or recreate its historical deadlines. For continued experiments, read `docs/POST_REPORT_RESEARCH_PLAN_2026-11-16_ZH.md` first, then the historical roadmap, latest updates and actual records. The plan supersedes historical dates below; unresolved research requirements remain in scope. Advance one gated, testable increment per run and commit evidence to the current research branch. Lookahead and guard are controls, not established novel contributions. Check closest primary literature before choosing a new method; novelty and improvement are hypotheses until supported.

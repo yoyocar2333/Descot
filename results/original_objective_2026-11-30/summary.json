@@ -1,0 +1,153 @@
+{
+  "configurations": 180,
+  "routing_executions": 540,
+  "all_legal": true,
+  "paired": [
+    {
+      "instance": "3_17_13_compact",
+      "baseline": "original",
+      "pairs": 10,
+      "median_depth_change_percent": -3.8461538461538463,
+      "mean_baseline_depth": 25.6,
+      "mean_two_depth": 25,
+      "wins": 6,
+      "ties": 4,
+      "losses": 0,
+      "median_time_ratio": 1.3267692874191255
+    },
+    {
+      "instance": "3_17_13_compact",
+      "baseline": "one_budget48",
+      "pairs": 10,
+      "median_depth_change_percent": 0.0,
+      "mean_baseline_depth": 25,
+      "mean_two_depth": 25,
+      "wins": 0,
+      "ties": 10,
+      "losses": 0,
+      "median_time_ratio": 1.477832560929786
+    },
+    {
+      "instance": "3_17_13_square_sparse",
+      "baseline": "original",
+      "pairs": 10,
+      "median_depth_change_percent": 0.0,
+      "mean_baseline_depth": 21,
+      "mean_two_depth": 21,
+      "wins": 0,
+      "ties": 10,
+      "losses": 0,
+      "median_time_ratio": 1.4807665038362798
+    },
+    {
+      "instance": "3_17_13_square_sparse",
+      "baseline": "one_budget48",
+      "pairs": 10,
+      "median_depth_change_percent": 0.0,
+      "mean_baseline_depth": 21,
+      "mean_two_depth": 21,
+      "wins": 0,
+      "ties": 10,
+      "losses": 0,
+      "median_time_ratio": 1.7320905204417674
+    },
+    {
+      "instance": "error_correctiond3_n5_compact",
+      "baseline": "original",
+      "pairs": 10,
+      "median_depth_change_percent": 0.0,
+      "mean_baseline_depth": 48,
+      "mean_two_depth": 48,
+      "wins": 0,
+      "ties": 10,
+      "losses": 0,
+      "median_time_ratio": 1.1832103588991598
+    },
+    {
+      "instance": "error_correctiond3_n5_compact",
+      "baseline": "one_budget48",
+      "pairs": 10,
+      "median_depth_change_percent": 0.0,
+      "mean_baseline_depth": 48,
+      "mean_two_depth": 48,
+      "wins": 0,
+      "ties": 10,
+      "losses": 0,
+      "median_time_ratio": 1.3824712304194302
+    },
+    {
+      "instance": "error_correctiond3_n5_square_sparse",
+      "baseline": "original",
+      "pairs": 10,
+      "median_depth_change_percent": 0.0,
+      "mean_baseline_depth": 48,
+      "mean_two_depth": 48,
+      "wins": 0,
+      "ties": 10,
+      "losses": 0,
+      "median_time_ratio": 1.5258425596264593
+    },
+    {
+      "instance": "error_correctiond3_n5_square_sparse",
+      "baseline": "one_budget48",
+      "pairs": 10,
+      "median_depth_change_percent": 0.0,
+      "mean_baseline_depth": 48,
+      "mean_two_depth": 48,
+      "wins": 0,
+      "ties": 10,
+      "losses": 0,
+      "median_time_ratio": 1.5756688768845881
+    },
+    {
+      "instance": "qec_en_n5_compact",
+      "baseline": "original",
+      "pairs": 10,
+      "median_depth_change_percent": 0.0,
+      "mean_baseline_depth": 11,
+      "mean_two_depth": 11,
+      "wins": 0,
+      "ties": 10,
+      "losses": 0,
+      "median_time_ratio": 1.3608053122794002
+    },
+    {
+      "instance": "qec_en_n5_compact",
+      "baseline": "one_budget48",
+      "pairs": 10,
+      "median_depth_change_percent": 0.0,
+      "mean_baseline_depth": 11,
+      "mean_two_depth": 11,
+      "wins": 0,
+      "ties": 10,
+      "losses": 0,
+      "median_time_ratio": 1.4413501798939357
+    },
+    {
+      "instance": "qec_en_n5_square_sparse",
+      "baseline": "original",
+      "pairs": 10,
+      "median_depth_change_percent": 0.0,
+      "mean_baseline_depth": 11,
+      "mean_two_depth": 11,
+      "wins": 0,
+      "ties": 10,
+      "losses": 0,
+      "median_time_ratio": 1.2623634265287988
+    },
+    {
+      "instance": "qec_en_n5_square_sparse",
+      "baseline": "one_budget48",
+      "pairs": 10,
+      "median_depth_change_percent": 0.0,
+      "mean_baseline_depth": 11,
+      "mean_two_depth": 11,
+      "wins": 0,
+      "ties": 10,
+      "losses": 0,
+      "median_time_ratio": 1.2866675727382713
+    }
+  ],
+  "new_shots": 0,
+  "decision": "Report every case including ties and regressions. No positive outcome guaranteed or used for source selection."
+}

@@ -88,5 +88,12 @@
     "bytes": 1186559,
     "result_prefix": "results/linear_competition_2026-11-18",
     "description": "Full public Qiskit X/CX generated benchmark, all minimum candidates and generator ideal/noisy/DEM artifacts; zero shots"
+  },
+  "original_objective_2026-11-30.zip": {
+    "sha256": "d64d09a564d273c066df901c0db7c17ae566b09d346468266e7549708235ef20",
+    "bytes": 449586,
+    "result_prefix": "results/original_objective_2026-11-30/records",
+    "files": 180,
+    "scope": "180 complete abstract-routing records, full source traces and candidate fronts; no physical circuits, no new shots."
   }
 }

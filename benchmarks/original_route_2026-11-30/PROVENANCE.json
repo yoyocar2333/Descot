@@ -1,0 +1,13 @@
+{
+  "source": "https://github.com/qqq-wisc/wisq",
+  "commit": "97c12a5e22cf16e37288c60a0a5735c58c6fe8ca",
+  "path": "src/wisq/wisq-circuits/3_17_13.qasm",
+  "sha256": "37b69d5400fe5ee15f651afbbe291eeb418bc982319efe5ace455041ddb4ad87",
+  "modifications": "None; original bytes preserved",
+  "license_file": "LICENSE",
+  "declared_qubits": 16,
+  "active_qubits": 3,
+  "source_operations": 36,
+  "routed_operations": 31,
+  "scope": "Original author SCMR routing abstraction; all local gates retained as zero-duration model events. No physical timing/decoder claim."
+}

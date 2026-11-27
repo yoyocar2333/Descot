@@ -53,3 +53,6 @@ results/presentation_fault_demo_2026-11-27/circuits/
 
 # Every original DEM triangle and decoder result is in its hash-verified ZIP.
 /results/dem_ambiguity_review_2026-11-27/raw/
+
+# Complete original-objective routing paths and full source traces in verified ZIP.
+/results/original_objective_2026-11-30/records/

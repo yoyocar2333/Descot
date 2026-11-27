@@ -1,0 +1,2438 @@
+[
+  {
+    "instance": "3_17_13_compact",
+    "cohort": "public",
+    "seed": 1,
+    "depth": 26,
+    "samples": {
+      "original": [
+        0.0069919719999234076,
+        0.00659713400000328,
+        0.006443163999961143
+      ],
+      "saturation": [
+        0.0057386940000014874,
+        0.005540117999998984,
+        0.00617641700000604
+      ]
+    },
+    "median_seconds": {
+      "original": 0.00659713400000328,
+      "saturation": 0.0057386940000014874
+    },
+    "time_ratio": 0.8698768283316111,
+    "order_evaluations": {
+      "original": 61,
+      "saturation": 60
+    },
+    "schedule_sha256": "fc4d74f6718596a1554bd313f7c79efb0140408316f9bfa7706cabcd1a6fb41c",
+    "saturation_stops": 13
+  },
+  {
+    "instance": "3_17_13_compact",
+    "cohort": "public",
+    "seed": 2,
+    "depth": 26,
+    "samples": {
+      "original": [
+        0.0054235110000036,
+        0.004942085000038787,
+        0.004918682999914381
+      ],
+      "saturation": [
+        0.0050331129999676705,
+        0.005597105999981977,
+        0.0051234890000841915
+      ]
+    },
+    "median_seconds": {
+      "original": 0.004942085000038787,
+      "saturation": 0.0051234890000841915
+    },
+    "time_ratio": 1.0367059652037511,
+    "order_evaluations": {
+      "saturation": 60,
+      "original": 61
+    },
+    "schedule_sha256": "3cd6f87425b5de9cdfeda77bc04fffe4243bc43d4f0883e4c256c75094a9c6ac",
+    "saturation_stops": 13
+  },
+  {
+    "instance": "3_17_13_compact",
+    "cohort": "public",
+    "seed": 3,
+    "depth": 25,
+    "samples": {
+      "original": [
+        0.004548684000042158,
+        0.005441655000026913,
+        0.0057871060000707075
+      ],
+      "saturation": [
+        0.004066705000013826,
+        0.004358050000064395,
+        0.005026925000038318
+      ]
+    },
+    "median_seconds": {
+      "original": 0.005441655000026913,
+      "saturation": 0.004358050000064395
+    },
+    "time_ratio": 0.8008684857902314,
+    "order_evaluations": {
+      "original": 56,
+      "saturation": 52
+    },
+    "schedule_sha256": "06eb561c50fa1f9465dc24221e734ea19cb41be69c3304b7248171104ea684cb",
+    "saturation_stops": 14
+  },
+  {
+    "instance": "3_17_13_compact",
+    "cohort": "public",
+    "seed": 4,
+    "depth": 25,
+    "samples": {
+      "original": [
+        0.004528519000018605,
+        0.0051677630000313,
+        0.005562091000001601
+      ],
+      "saturation": [
+        0.004866421999963677,
+        0.004217832999984239,
+        0.006450266999991072
+      ]
+    },
+    "median_seconds": {
+      "original": 0.0051677630000313,
+      "saturation": 0.004866421999963677
+    },
+    "time_ratio": 0.9416883088357965,
+    "order_evaluations": {
+      "saturation": 52,
+      "original": 56
+    },
+    "schedule_sha256": "e1e60c04967ca03387a7cd936489a1bf287658f39a1f0c015f354b15e699aa8b",
+    "saturation_stops": 14
+  },
+  {
+    "instance": "3_17_13_compact",
+    "cohort": "public",
+    "seed": 5,
+    "depth": 25,
+    "samples": {
+      "original": [
+        0.004572316999997383,
+        0.004067678999945201,
+        0.004478798000036477
+      ],
+      "saturation": [
+        0.00447211799996694,
+        0.003933673000005911,
+        0.0047072669999579375
+      ]
+    },
+    "median_seconds": {
+      "original": 0.004478798000036477,
+      "saturation": 0.00447211799996694
+    },
+    "time_ratio": 0.9985085283887591,
+    "order_evaluations": {
+      "original": 54,
+      "saturation": 50
+    },
+    "schedule_sha256": "7655539c8ae6fbd371d307fc0070aba7dfdc05d554f853fd917409e6517c6717",
+    "saturation_stops": 15
+  },
+  {
+    "instance": "3_17_13_compact",
+    "cohort": "public",
+    "seed": 6,
+    "depth": 26,
+    "samples": {
+      "original": [
+        0.004622530999995433,
+        0.004949958999986848,
+        0.0059634479999886025
+      ],
+      "saturation": [
+        0.005673124999930224,
+        0.004572892000055617,
+        0.005097857000009753
+      ]
+    },
+    "median_seconds": {
+      "original": 0.004949958999986848,
+      "saturation": 0.005097857000009753
+    },
+    "time_ratio": 1.0298786313226633,
+    "order_evaluations": {
+      "saturation": 58,
+      "original": 59
+    },
+    "schedule_sha256": "ca3ee41a4ad542a849f11406c1744120976ec4d3f0be49b109b1a6f93e7876d6",
+    "saturation_stops": 14
+  },
+  {
+    "instance": "3_17_13_compact",
+    "cohort": "public",
+    "seed": 7,
+    "depth": 26,
+    "samples": {
+      "original": [
+        0.005724702000065918,
+        0.005498280999972849,
+        0.006002097000077811
+      ],
+      "saturation": [
+        0.0055547229999319825,
+        0.005068047000008846,
+        0.005944068000076186
+      ]
+    },
+    "median_seconds": {
+      "original": 0.005724702000065918,
+      "saturation": 0.0055547229999319825
+    },
+    "time_ratio": 0.9703077994047589,
+    "order_evaluations": {
+      "original": 59,
+      "saturation": 58
+    },
+    "schedule_sha256": "bb7e4b1c401c05ddcb42f1c26a9effbacb3117ff20c3c9061e3c29bbcb7eef36",
+    "saturation_stops": 14
+  },
+  {
+    "instance": "3_17_13_compact",
+    "cohort": "public",
+    "seed": 8,
+    "depth": 25,
+    "samples": {
+      "original": [
+        0.004856758000073569,
+        0.00602676000005431,
+        0.007484858999987409
+      ],
+      "saturation": [
+        0.005062146000000212,
+        0.005080873999986579,
+        0.004067211999995379
+      ]
+    },
+    "median_seconds": {
+      "original": 0.00602676000005431,
+      "saturation": 0.005062146000000212
+    },
+    "time_ratio": 0.8399448459793645,
+    "order_evaluations": {
+      "saturation": 50,
+      "original": 54
+    },
+    "schedule_sha256": "1dd57ed35e5604f466d02203be3cff7929c7e56839391e06d22e441f4619c109",
+    "saturation_stops": 15
+  },
+  {
+    "instance": "3_17_13_compact",
+    "cohort": "public",
+    "seed": 9,
+    "depth": 26,
+    "samples": {
+      "original": [
+        0.006687035000027208,
+        0.004778350999913528,
+        0.005867376999958651
+      ],
+      "saturation": [
+        0.005345486000010169,
+        0.00525382199998603,
+        0.006130488000053447
+      ]
+    },
+    "median_seconds": {
+      "original": 0.005867376999958651,
+      "saturation": 0.005345486000010169
+    },
+    "time_ratio": 0.9110520766004707,
+    "order_evaluations": {
+      "original": 59,
+      "saturation": 58
+    },
+    "schedule_sha256": "11fb19239f3d98f2f65de06ecdf9de60d8fa4ab5c3de121b949a802320d64966",
+    "saturation_stops": 14
+  },
+  {
+    "instance": "3_17_13_compact",
+    "cohort": "public",
+    "seed": 10,
+    "depth": 26,
+    "samples": {
+      "original": [
+        0.006256792999920435,
+        0.005442929000082586,
+        0.005404590000011922
+      ],
+      "saturation": [
+        0.005702573999997185,
+        0.00678788799996255,
+        0.005573263999963274
+      ]
+    },
+    "median_seconds": {
+      "original": 0.005442929000082586,
+      "saturation": 0.005702573999997185
+    },
+    "time_ratio": 1.047703175975777,
+    "order_evaluations": {
+      "saturation": 58,
+      "original": 59
+    },
+    "schedule_sha256": "5758ee01ba07dace984dad5cb163a0d5f6e333f28721224ea02602d6fd6ace89",
+    "saturation_stops": 14
+  },
+  {
+    "instance": "3_17_13_square_sparse",
+    "cohort": "public",
+    "seed": 1,
+    "depth": 21,
+    "samples": {
+      "original": [
+        0.0065674080000235335,
+        0.006019250999997894,
+        0.007163967999986198
+      ],
+      "saturation": [
+        0.0031688609999491746,
+        0.0030164759999706803,
+        0.004704371999991963
+      ]
+    },
+    "median_seconds": {
+      "original": 0.0065674080000235335,
+      "saturation": 0.0031688609999491746
+    },
+    "time_ratio": 0.4825131924098243,
+    "order_evaluations": {
+      "original": 35,
+      "saturation": 21
+    },
+    "schedule_sha256": "86c278a7985fe13862909a9d1e1374668895364c5220bfbe98f904c6433630b0",
+    "saturation_stops": 21
+  },
+  {
+    "instance": "3_17_13_square_sparse",
+    "cohort": "public",
+    "seed": 2,
+    "depth": 21,
+    "samples": {
+      "original": [
+        0.0066452510000090115,
+        0.006293773000038527,
+        0.0076214320000644875
+      ],
+      "saturation": [
+        0.0037213489999885496,
+        0.003602252999939992,
+        0.003181102999974428
+      ]
+    },
+    "median_seconds": {
+      "original": 0.0066452510000090115,
+      "saturation": 0.003602252999939992
+    },
+    "time_ratio": 0.5420792984245603,
+    "order_evaluations": {
+      "saturation": 21,
+      "original": 35
+    },
+    "schedule_sha256": "72219bc3ef548b66b289f579c8009132cb7f295bf409cdd0031ed59ecc623ce5",
+    "saturation_stops": 21
+  },
+  {
+    "instance": "3_17_13_square_sparse",
+    "cohort": "public",
+    "seed": 3,
+    "depth": 21,
+    "samples": {
+      "original": [
+        0.00727819200005797,
+        0.0069213040000022374,
+        0.00891466500002025
+      ],
+      "saturation": [
+        0.0031775250000691813,
+        0.0037034950000816025,
+        0.0036343810000971644
+      ]
+    },
+    "median_seconds": {
+      "original": 0.00727819200005797,
+      "saturation": 0.0036343810000971644
+    },
+    "time_ratio": 0.49935217428562156,
+    "order_evaluations": {
+      "original": 35,
+      "saturation": 21
+    },
+    "schedule_sha256": "31a93d2dddad3489cc3dfce0c7306a329f0064c54ea0b5aff554190c2c2c3bba",
+    "saturation_stops": 21
+  },
+  {
+    "instance": "3_17_13_square_sparse",
+    "cohort": "public",
+    "seed": 4,
+    "depth": 21,
+    "samples": {
+      "original": [
+        0.006848027000046386,
+        0.007499068000015541,
+        0.006569064000018443
+      ],
+      "saturation": [
+        0.003768632000060279,
+        0.0033997919999819715,
+        0.0036572830000523027
+      ]
+    },
+    "median_seconds": {
+      "original": 0.006848027000046386,
+      "saturation": 0.0036572830000523027
+    },
+    "time_ratio": 0.5340637529652744,
+    "order_evaluations": {
+      "saturation": 21,
+      "original": 35
+    },
+    "schedule_sha256": "bcba55c448132dd5d2be4e20271e8c958031b1c3018265f01f0b0e285078dd66",
+    "saturation_stops": 21
+  },
+  {
+    "instance": "3_17_13_square_sparse",
+    "cohort": "public",
+    "seed": 5,
+    "depth": 21,
+    "samples": {
+      "original": [
+        0.010732376999953885,
+        0.00958800799992332,
+        0.008861535000050935
+      ],
+      "saturation": [
+        0.003176474999918355,
+        0.0041053969999893525,
+        0.003508691999968505
+      ]
+    },
+    "median_seconds": {
+      "original": 0.00958800799992332,
+      "saturation": 0.003508691999968505
+    },
+    "time_ratio": 0.36594587739148376,
+    "order_evaluations": {
+      "original": 35,
+      "saturation": 21
+    },
+    "schedule_sha256": "0f73cf02e27802531096f67d1aad915bde38d68840de6a6671e4b3bcd50d34f6",
+    "saturation_stops": 21
+  },
+  {
+    "instance": "3_17_13_square_sparse",
+    "cohort": "public",
+    "seed": 6,
+    "depth": 21,
+    "samples": {
+      "original": [
+        0.008604357999956846,
+        0.007639555999958247,
+        0.008712421999916842
+      ],
+      "saturation": [
+        0.003318152000019836,
+        0.0035802560000774974,
+        0.003206010999974751
+      ]
+    },
+    "median_seconds": {
+      "original": 0.008604357999956846,
+      "saturation": 0.003318152000019836
+    },
+    "time_ratio": 0.38563620900437634,
+    "order_evaluations": {
+      "saturation": 21,
+      "original": 35
+    },
+    "schedule_sha256": "7c7a95e45c2ff185e631cf0d7c38c24946e231ae97b9b4c433d79a860b70e073",
+    "saturation_stops": 21
+  },
+  {
+    "instance": "3_17_13_square_sparse",
+    "cohort": "public",
+    "seed": 7,
+    "depth": 21,
+    "samples": {
+      "original": [
+        0.006639103999987128,
+        0.006247829000017191,
+        0.006322944000089592
+      ],
+      "saturation": [
+        0.0037116869999636037,
+        0.0030091200000015306,
+        0.0038697019999744953
+      ]
+    },
+    "median_seconds": {
+      "original": 0.006322944000089592,
+      "saturation": 0.0037116869999636037
+    },
+    "time_ratio": 0.5870188000891692,
+    "order_evaluations": {
+      "original": 35,
+      "saturation": 21
+    },
+    "schedule_sha256": "7486e810a98f626a7e0c13217f93fbac903c8a8cab188de576d442ebeb1408de",
+    "saturation_stops": 21
+  },
+  {
+    "instance": "3_17_13_square_sparse",
+    "cohort": "public",
+    "seed": 8,
+    "depth": 21,
+    "samples": {
+      "original": [
+        0.007194458999947528,
+        0.006632171999967795,
+        0.007953612999926918
+      ],
+      "saturation": [
+        0.003278307000073255,
+        0.004119607999996333,
+        0.004186997000033443
+      ]
+    },
+    "median_seconds": {
+      "original": 0.007194458999947528,
+      "saturation": 0.004119607999996333
+    },
+    "time_ratio": 0.5726084476993167,
+    "order_evaluations": {
+      "saturation": 21,
+      "original": 35
+    },
+    "schedule_sha256": "641c54319641d790f48e2eac841724ddc5840c0590a863af63818cfb5190aeef",
+    "saturation_stops": 21
+  },
+  {
+    "instance": "3_17_13_square_sparse",
+    "cohort": "public",
+    "seed": 9,
+    "depth": 21,
+    "samples": {
+      "original": [
+        0.00639672799991331,
+        0.007269307999990815,
+        0.007108873999982279
+      ],
+      "saturation": [
+        0.003992062999941481,
+        0.0035575750000589323,
+        0.003406121000011808
+      ]
+    },
+    "median_seconds": {
+      "original": 0.007108873999982279,
+      "saturation": 0.0035575750000589323
+    },
+    "time_ratio": 0.5004414201275477,
+    "order_evaluations": {
+      "original": 35,
+      "saturation": 21
+    },
+    "schedule_sha256": "f5329adb89609fe8dbc89e3d672227978a49dd81b7cc8b18a1fe12ff269d7d60",
+    "saturation_stops": 21
+  },
+  {
+    "instance": "3_17_13_square_sparse",
+    "cohort": "public",
+    "seed": 10,
+    "depth": 21,
+    "samples": {
+      "original": [
+        0.006450240999924972,
+        0.006652073999930508,
+        0.006641850000050908
+      ],
+      "saturation": [
+        0.0035944999999628635,
+        0.003121245999977873,
+        0.0032279219999509223
+      ]
+    },
+    "median_seconds": {
+      "original": 0.006641850000050908,
+      "saturation": 0.0032279219999509223
+    },
+    "time_ratio": 0.48599742540499724,
+    "order_evaluations": {
+      "saturation": 21,
+      "original": 35
+    },
+    "schedule_sha256": "4a2398af0a14639c8faf890d0518e85d67c2df6f3dd1721e82bb98f869e43548",
+    "saturation_stops": 21
+  },
+  {
+    "instance": "error_correctiond3_n5_compact",
+    "cohort": "public",
+    "seed": 1,
+    "depth": 48,
+    "samples": {
+      "original": [
+        0.0032262359999322143,
+        0.002670629000022018,
+        0.0029294810000237703
+      ],
+      "saturation": [
+        0.0028312120000464347,
+        0.0030616819999522704,
+        0.00266354500001853
+      ]
+    },
+    "median_seconds": {
+      "original": 0.0029294810000237703,
+      "saturation": 0.0028312120000464347
+    },
+    "time_ratio": 0.966455150254759,
+    "order_evaluations": {
+      "original": 50,
+      "saturation": 48
+    },
+    "schedule_sha256": "83258390710bed4720554eda3b46875975121d78a04cd530667f4abf9cbcebba",
+    "saturation_stops": 48
+  },
+  {
+    "instance": "error_correctiond3_n5_compact",
+    "cohort": "public",
+    "seed": 2,
+    "depth": 48,
+    "samples": {
+      "original": [
+        0.0033494120000341354,
+        0.00323520099993857,
+        0.0027319639999632273
+      ],
+      "saturation": [
+        0.002784814000051483,
+        0.0033350449999716147,
+        0.0034219699999766817
+      ]
+    },
+    "median_seconds": {
+      "original": 0.00323520099993857,
+      "saturation": 0.0033350449999716147
+    },
+    "time_ratio": 1.0308617609956663,
+    "order_evaluations": {
+      "saturation": 48,
+      "original": 50
+    },
+    "schedule_sha256": "c83c8a9869b201af3595a72615529f529b2dfbc058120f46a882faee580aebc4",
+    "saturation_stops": 48
+  },
+  {
+    "instance": "error_correctiond3_n5_compact",
+    "cohort": "public",
+    "seed": 3,
+    "depth": 48,
+    "samples": {
+      "original": [
+        0.0030309579999538983,
+        0.0027442520000704462,
+        0.002701206999972783
+      ],
+      "saturation": [
+        0.003060359999949469,
+        0.002769611000076111,
+        0.0024164039999732267
+      ]
+    },
+    "median_seconds": {
+      "original": 0.0027442520000704462,
+      "saturation": 0.002769611000076111
+    },
+    "time_ratio": 1.0092407694355379,
+    "order_evaluations": {
+      "original": 50,
+      "saturation": 48
+    },
+    "schedule_sha256": "c83c8a9869b201af3595a72615529f529b2dfbc058120f46a882faee580aebc4",
+    "saturation_stops": 48
+  },
+  {
+    "instance": "error_correctiond3_n5_compact",
+    "cohort": "public",
+    "seed": 4,
+    "depth": 48,
+    "samples": {
+      "original": [
+        0.002680690000033792,
+        0.004133561000003283,
+        0.0030012789999318557
+      ],
+      "saturation": [
+        0.00275550399999247,
+        0.0039665790000071866,
+        0.0027291679999734697
+      ]
+    },
+    "median_seconds": {
+      "original": 0.0030012789999318557,
+      "saturation": 0.00275550399999247
+    },
+    "time_ratio": 0.9181099124923189,
+    "order_evaluations": {
+      "saturation": 48,
+      "original": 50
+    },
+    "schedule_sha256": "83258390710bed4720554eda3b46875975121d78a04cd530667f4abf9cbcebba",
+    "saturation_stops": 48
+  },
+  {
+    "instance": "error_correctiond3_n5_compact",
+    "cohort": "public",
+    "seed": 5,
+    "depth": 48,
+    "samples": {
+      "original": [
+        0.003087787000026765,
+        0.002856665999956931,
+        0.0025780670000585815
+      ],
+      "saturation": [
+        0.00255965600001673,
+        0.002459634999922855,
+        0.0024321679999275148
+      ]
+    },
+    "median_seconds": {
+      "original": 0.002856665999956931,
+      "saturation": 0.002459634999922855
+    },
+    "time_ratio": 0.8610159535486256,
+    "order_evaluations": {
+      "original": 50,
+      "saturation": 48
+    },
+    "schedule_sha256": "83258390710bed4720554eda3b46875975121d78a04cd530667f4abf9cbcebba",
+    "saturation_stops": 48
+  },
+  {
+    "instance": "error_correctiond3_n5_compact",
+    "cohort": "public",
+    "seed": 6,
+    "depth": 48,
+    "samples": {
+      "original": [
+        0.002466390999984469,
+        0.002967778000083854,
+        0.003971351999894068
+      ],
+      "saturation": [
+        0.0024121469999727196,
+        0.0029898209999146275,
+        0.003242570999987038
+      ]
+    },
+    "median_seconds": {
+      "original": 0.002967778000083854,
+      "saturation": 0.0029898209999146275
+    },
+    "time_ratio": 1.0074274422918934,
+    "order_evaluations": {
+      "saturation": 48,
+      "original": 50
+    },
+    "schedule_sha256": "c83c8a9869b201af3595a72615529f529b2dfbc058120f46a882faee580aebc4",
+    "saturation_stops": 48
+  },
+  {
+    "instance": "error_correctiond3_n5_compact",
+    "cohort": "public",
+    "seed": 7,
+    "depth": 48,
+    "samples": {
+      "original": [
+        0.003130655000063598,
+        0.0029892239999753656,
+        0.0031909989999121535
+      ],
+      "saturation": [
+        0.0030006700000058117,
+        0.003515172000106759,
+        0.0033019520000152625
+      ]
+    },
+    "median_seconds": {
+      "original": 0.003130655000063598,
+      "saturation": 0.0033019520000152625
+    },
+    "time_ratio": 1.0547160258630173,
+    "order_evaluations": {
+      "original": 50,
+      "saturation": 48
+    },
+    "schedule_sha256": "83258390710bed4720554eda3b46875975121d78a04cd530667f4abf9cbcebba",
+    "saturation_stops": 48
+  },
+  {
+    "instance": "error_correctiond3_n5_compact",
+    "cohort": "public",
+    "seed": 8,
+    "depth": 48,
+    "samples": {
+      "original": [
+        0.0034161209999865605,
+        0.004673169000056987,
+        0.0027546139999685693
+      ],
+      "saturation": [
+        0.002988946000073156,
+        0.003973192999978892,
+        0.002596263999976145
+      ]
+    },
+    "median_seconds": {
+      "original": 0.0034161209999865605,
+      "saturation": 0.002988946000073156
+    },
+    "time_ratio": 0.8749531998676028,
+    "order_evaluations": {
+      "saturation": 48,
+      "original": 50
+    },
+    "schedule_sha256": "83258390710bed4720554eda3b46875975121d78a04cd530667f4abf9cbcebba",
+    "saturation_stops": 48
+  },
+  {
+    "instance": "error_correctiond3_n5_compact",
+    "cohort": "public",
+    "seed": 9,
+    "depth": 48,
+    "samples": {
+      "original": [
+        0.002832739000041329,
+        0.0026344100000414983,
+        0.00310781300004237
+      ],
+      "saturation": [
+        0.0027070119999734743,
+        0.0027584540000589186,
+        0.00270651200003158
+      ]
+    },
+    "median_seconds": {
+      "original": 0.002832739000041329,
+      "saturation": 0.0027070119999734743
+    },
+    "time_ratio": 0.9556164545812303,
+    "order_evaluations": {
+      "original": 50,
+      "saturation": 48
+    },
+    "schedule_sha256": "c83c8a9869b201af3595a72615529f529b2dfbc058120f46a882faee580aebc4",
+    "saturation_stops": 48
+  },
+  {
+    "instance": "error_correctiond3_n5_compact",
+    "cohort": "public",
+    "seed": 10,
+    "depth": 48,
+    "samples": {
+      "original": [
+        0.0025899729999991905,
+        0.0024921379999796045,
+        0.002489180999987184
+      ],
+      "saturation": [
+        0.003203295999924194,
+        0.00244580000003225,
+        0.0024022520000244185
+      ]
+    },
+    "median_seconds": {
+      "original": 0.0024921379999796045,
+      "saturation": 0.00244580000003225
+    },
+    "time_ratio": 0.9814063266369143,
+    "order_evaluations": {
+      "saturation": 48,
+      "original": 50
+    },
+    "schedule_sha256": "c83c8a9869b201af3595a72615529f529b2dfbc058120f46a882faee580aebc4",
+    "saturation_stops": 48
+  },
+  {
+    "instance": "error_correctiond3_n5_square_sparse",
+    "cohort": "public",
+    "seed": 1,
+    "depth": 48,
+    "samples": {
+      "original": [
+        0.0036442560000296,
+        0.004256929000007403,
+        0.0038444029999027407
+      ],
+      "saturation": [
+        0.0033989840000003824,
+        0.0038015449999875273,
+        0.0042744799999354655
+      ]
+    },
+    "median_seconds": {
+      "original": 0.0038444029999027407,
+      "saturation": 0.0038015449999875273
+    },
+    "time_ratio": 0.9888518451587157,
+    "order_evaluations": {
+      "original": 50,
+      "saturation": 48
+    },
+    "schedule_sha256": "d0d4beb136a7accd3cdb91f581828fa2238c45ec9ae6ef6350353f97b25b3142",
+    "saturation_stops": 48
+  },
+  {
+    "instance": "error_correctiond3_n5_square_sparse",
+    "cohort": "public",
+    "seed": 2,
+    "depth": 48,
+    "samples": {
+      "original": [
+        0.0038410300001032738,
+        0.004522790999999415,
+        0.008077088000050026
+      ],
+      "saturation": [
+        0.005416916000058336,
+        0.010947767000061503,
+        0.005448597999929916
+      ]
+    },
+    "median_seconds": {
+      "original": 0.004522790999999415,
+      "saturation": 0.005448597999929916
+    },
+    "time_ratio": 1.204698160921126,
+    "order_evaluations": {
+      "saturation": 48,
+      "original": 50
+    },
+    "schedule_sha256": "1c46effb08898de4a2b91393a421f721f4ba5e463eec61c28f201ac15386680d",
+    "saturation_stops": 48
+  },
+  {
+    "instance": "error_correctiond3_n5_square_sparse",
+    "cohort": "public",
+    "seed": 3,
+    "depth": 48,
+    "samples": {
+      "original": [
+        0.007609380999952009,
+        0.003867684999931953,
+        0.003735770000048433
+      ],
+      "saturation": [
+        0.00449376000005941,
+        0.004417882999973699,
+        0.0036314660000016374
+      ]
+    },
+    "median_seconds": {
+      "original": 0.003867684999931953,
+      "saturation": 0.004417882999973699
+    },
+    "time_ratio": 1.1422551216170465,
+    "order_evaluations": {
+      "original": 50,
+      "saturation": 48
+    },
+    "schedule_sha256": "1c46effb08898de4a2b91393a421f721f4ba5e463eec61c28f201ac15386680d",
+    "saturation_stops": 48
+  },
+  {
+    "instance": "error_correctiond3_n5_square_sparse",
+    "cohort": "public",
+    "seed": 4,
+    "depth": 48,
+    "samples": {
+      "original": [
+        0.004048734999969383,
+        0.003725625000015498,
+        0.006241210000098363
+      ],
+      "saturation": [
+        0.0035953130000052624,
+        0.003620236999950066,
+        0.005315491000033035
+      ]
+    },
+    "median_seconds": {
+      "original": 0.004048734999969383,
+      "saturation": 0.003620236999950066
+    },
+    "time_ratio": 0.8941649675707208,
+    "order_evaluations": {
+      "saturation": 48,
+      "original": 50
+    },
+    "schedule_sha256": "d0d4beb136a7accd3cdb91f581828fa2238c45ec9ae6ef6350353f97b25b3142",
+    "saturation_stops": 48
+  },
+  {
+    "instance": "error_correctiond3_n5_square_sparse",
+    "cohort": "public",
+    "seed": 5,
+    "depth": 48,
+    "samples": {
+      "original": [
+        0.005332870999950501,
+        0.0042751989999487705,
+        0.006474703999970188
+      ],
+      "saturation": [
+        0.0038532620000069073,
+        0.004331963000026917,
+        0.004448752000030254
+      ]
+    },
+    "median_seconds": {
+      "original": 0.005332870999950501,
+      "saturation": 0.004331963000026917
+    },
+    "time_ratio": 0.8123134799373782,
+    "order_evaluations": {
+      "original": 50,
+      "saturation": 48
+    },
+    "schedule_sha256": "d0d4beb136a7accd3cdb91f581828fa2238c45ec9ae6ef6350353f97b25b3142",
+    "saturation_stops": 48
+  },
+  {
+    "instance": "error_correctiond3_n5_square_sparse",
+    "cohort": "public",
+    "seed": 6,
+    "depth": 48,
+    "samples": {
+      "original": [
+        0.0039973469999949884,
+        0.00476124300007541,
+        0.003704850999952214
+      ],
+      "saturation": [
+        0.005119180999940909,
+        0.003804739000088375,
+        0.0039446170000019265
+      ]
+    },
+    "median_seconds": {
+      "original": 0.0039973469999949884,
+      "saturation": 0.0039446170000019265
+    },
+    "time_ratio": 0.9868087509057563,
+    "order_evaluations": {
+      "saturation": 48,
+      "original": 50
+    },
+    "schedule_sha256": "1c46effb08898de4a2b91393a421f721f4ba5e463eec61c28f201ac15386680d",
+    "saturation_stops": 48
+  },
+  {
+    "instance": "error_correctiond3_n5_square_sparse",
+    "cohort": "public",
+    "seed": 7,
+    "depth": 48,
+    "samples": {
+      "original": [
+        0.0035095209999553845,
+        0.003520051999998941,
+        0.003456832999972903
+      ],
+      "saturation": [
+        0.0035275190000447765,
+        0.0034734209999669474,
+        0.0033633959999406216
+      ]
+    },
+    "median_seconds": {
+      "original": 0.0035095209999553845,
+      "saturation": 0.0034734209999669474
+    },
+    "time_ratio": 0.9897136959747794,
+    "order_evaluations": {
+      "original": 50,
+      "saturation": 48
+    },
+    "schedule_sha256": "d0d4beb136a7accd3cdb91f581828fa2238c45ec9ae6ef6350353f97b25b3142",
+    "saturation_stops": 48
+  },
+  {
+    "instance": "error_correctiond3_n5_square_sparse",
+    "cohort": "public",
+    "seed": 8,
+    "depth": 48,
+    "samples": {
+      "original": [
+        0.003427003000069817,
+        0.0038696169999639096,
+        0.004755333000048267
+      ],
+      "saturation": [
+        0.003357097999924008,
+        0.004895853999983046,
+        0.0038721549999536364
+      ]
+    },
+    "median_seconds": {
+      "original": 0.0038696169999639096,
+      "saturation": 0.0038721549999536364
+    },
+    "time_ratio": 1.000655878860815,
+    "order_evaluations": {
+      "saturation": 48,
+      "original": 50
+    },
+    "schedule_sha256": "d0d4beb136a7accd3cdb91f581828fa2238c45ec9ae6ef6350353f97b25b3142",
+    "saturation_stops": 48
+  },
+  {
+    "instance": "error_correctiond3_n5_square_sparse",
+    "cohort": "public",
+    "seed": 9,
+    "depth": 48,
+    "samples": {
+      "original": [
+        0.004448030000048675,
+        0.00515342200003488,
+        0.004366558000015175
+      ],
+      "saturation": [
+        0.003939931999980217,
+        0.004104979999965508,
+        0.004469881999966674
+      ]
+    },
+    "median_seconds": {
+      "original": 0.004448030000048675,
+      "saturation": 0.004104979999965508
+    },
+    "time_ratio": 0.9228759697935012,
+    "order_evaluations": {
+      "original": 50,
+      "saturation": 48
+    },
+    "schedule_sha256": "1c46effb08898de4a2b91393a421f721f4ba5e463eec61c28f201ac15386680d",
+    "saturation_stops": 48
+  },
+  {
+    "instance": "error_correctiond3_n5_square_sparse",
+    "cohort": "public",
+    "seed": 10,
+    "depth": 48,
+    "samples": {
+      "original": [
+        0.0035619909999695665,
+        0.003992706000076396,
+        0.003786405000028026
+      ],
+      "saturation": [
+        0.0037377959999957966,
+        0.003584560000035708,
+        0.0034944599999562342
+      ]
+    },
+    "median_seconds": {
+      "original": 0.003786405000028026,
+      "saturation": 0.003584560000035708
+    },
+    "time_ratio": 0.946692178995426,
+    "order_evaluations": {
+      "saturation": 48,
+      "original": 50
+    },
+    "schedule_sha256": "1c46effb08898de4a2b91393a421f721f4ba5e463eec61c28f201ac15386680d",
+    "saturation_stops": 48
+  },
+  {
+    "instance": "qec_en_n5_compact",
+    "cohort": "public",
+    "seed": 1,
+    "depth": 11,
+    "samples": {
+      "original": [
+        0.0005511150000074849,
+        0.00046637999992071855,
+        0.0006801349999250306
+      ],
+      "saturation": [
+        0.0006471220000321409,
+        0.000647987999968791,
+        0.0005674770000041462
+      ]
+    },
+    "median_seconds": {
+      "original": 0.0005511150000074849,
+      "saturation": 0.0006471220000321409
+    },
+    "time_ratio": 1.174205020773073,
+    "order_evaluations": {
+      "original": 11,
+      "saturation": 11
+    },
+    "schedule_sha256": "cdf5320d5e08480c2420be74430ce23f3a04687d929fd81c1ccc1c6cae320df5",
+    "saturation_stops": 11
+  },
+  {
+    "instance": "qec_en_n5_compact",
+    "cohort": "public",
+    "seed": 2,
+    "depth": 11,
+    "samples": {
+      "original": [
+        0.0004649720000315938,
+        0.0004984490000197184,
+        0.0006931590000931465
+      ],
+      "saturation": [
+        0.0005244800000809846,
+        0.0005573029999368373,
+        0.0005602149999504036
+      ]
+    },
+    "median_seconds": {
+      "original": 0.0004984490000197184,
+      "saturation": 0.0005573029999368373
+    },
+    "time_ratio": 1.1180742662033443,
+    "order_evaluations": {
+      "saturation": 11,
+      "original": 11
+    },
+    "schedule_sha256": "cdf5320d5e08480c2420be74430ce23f3a04687d929fd81c1ccc1c6cae320df5",
+    "saturation_stops": 11
+  },
+  {
+    "instance": "qec_en_n5_compact",
+    "cohort": "public",
+    "seed": 3,
+    "depth": 11,
+    "samples": {
+      "original": [
+        0.0005744919999415288,
+        0.0004654509999681977,
+        0.0004987190000065311
+      ],
+      "saturation": [
+        0.0006865609999522349,
+        0.000600725000026614,
+        0.0005607340000324257
+      ]
+    },
+    "median_seconds": {
+      "original": 0.0004987190000065311,
+      "saturation": 0.000600725000026614
+    },
+    "time_ratio": 1.2045360213241265,
+    "order_evaluations": {
+      "original": 11,
+      "saturation": 11
+    },
+    "schedule_sha256": "cdf5320d5e08480c2420be74430ce23f3a04687d929fd81c1ccc1c6cae320df5",
+    "saturation_stops": 11
+  },
+  {
+    "instance": "qec_en_n5_compact",
+    "cohort": "public",
+    "seed": 4,
+    "depth": 11,
+    "samples": {
+      "original": [
+        0.0004917889999660474,
+        0.0004958609999903274,
+        0.0004615809999677367
+      ],
+      "saturation": [
+        0.0005129570000690364,
+        0.0005632350000723818,
+        0.0005013019999751123
+      ]
+    },
+    "median_seconds": {
+      "original": 0.0004917889999660474,
+      "saturation": 0.0005129570000690364
+    },
+    "time_ratio": 1.043042849889791,
+    "order_evaluations": {
+      "saturation": 11,
+      "original": 11
+    },
+    "schedule_sha256": "cdf5320d5e08480c2420be74430ce23f3a04687d929fd81c1ccc1c6cae320df5",
+    "saturation_stops": 11
+  },
+  {
+    "instance": "qec_en_n5_compact",
+    "cohort": "public",
+    "seed": 5,
+    "depth": 11,
+    "samples": {
+      "original": [
+        0.000512592999939443,
+        0.0005061770000338583,
+        0.0004686060000267389
+      ],
+      "saturation": [
+        0.0004805639999858613,
+        0.00046942400001626083,
+        0.0004988959999536746
+      ]
+    },
+    "median_seconds": {
+      "original": 0.0005061770000338583,
+      "saturation": 0.0004805639999858613
+    },
+    "time_ratio": 0.949399123140159,
+    "order_evaluations": {
+      "original": 11,
+      "saturation": 11
+    },
+    "schedule_sha256": "cdf5320d5e08480c2420be74430ce23f3a04687d929fd81c1ccc1c6cae320df5",
+    "saturation_stops": 11
+  },
+  {
+    "instance": "qec_en_n5_compact",
+    "cohort": "public",
+    "seed": 6,
+    "depth": 11,
+    "samples": {
+      "original": [
+        0.00048501899993880215,
+        0.0004643310001029022,
+        0.00046181199991224275
+      ],
+      "saturation": [
+        0.00047256599998490856,
+        0.0004984519999879922,
+        0.00046239599998898484
+      ]
+    },
+    "median_seconds": {
+      "original": 0.0004643310001029022,
+      "saturation": 0.00047256599998490856
+    },
+    "time_ratio": 1.0177351929554164,
+    "order_evaluations": {
+      "saturation": 11,
+      "original": 11
+    },
+    "schedule_sha256": "cdf5320d5e08480c2420be74430ce23f3a04687d929fd81c1ccc1c6cae320df5",
+    "saturation_stops": 11
+  },
+  {
+    "instance": "qec_en_n5_compact",
+    "cohort": "public",
+    "seed": 7,
+    "depth": 11,
+    "samples": {
+      "original": [
+        0.0004972430000407257,
+        0.0005117480000080832,
+        0.0004974849999825892
+      ],
+      "saturation": [
+        0.000466106999965632,
+        0.0004926830000613336,
+        0.00047273500001665525
+      ]
+    },
+    "median_seconds": {
+      "original": 0.0004974849999825892,
+      "saturation": 0.00047273500001665525
+    },
+    "time_ratio": 0.9502497563407939,
+    "order_evaluations": {
+      "original": 11,
+      "saturation": 11
+    },
+    "schedule_sha256": "cdf5320d5e08480c2420be74430ce23f3a04687d929fd81c1ccc1c6cae320df5",
+    "saturation_stops": 11
+  },
+  {
+    "instance": "qec_en_n5_compact",
+    "cohort": "public",
+    "seed": 8,
+    "depth": 11,
+    "samples": {
+      "original": [
+        0.00045799500003340654,
+        0.0004585860000361208,
+        0.0005231200000253011
+      ],
+      "saturation": [
+        0.0004970840000169119,
+        0.0004917910000585834,
+        0.0005280999999968117
+      ]
+    },
+    "median_seconds": {
+      "original": 0.0004585860000361208,
+      "saturation": 0.0004970840000169119
+    },
+    "time_ratio": 1.0839493573239452,
+    "order_evaluations": {
+      "saturation": 11,
+      "original": 11
+    },
+    "schedule_sha256": "cdf5320d5e08480c2420be74430ce23f3a04687d929fd81c1ccc1c6cae320df5",
+    "saturation_stops": 11
+  },
+  {
+    "instance": "qec_en_n5_compact",
+    "cohort": "public",
+    "seed": 9,
+    "depth": 11,
+    "samples": {
+      "original": [
+        0.0006100350000224353,
+        0.0005078000000366956,
+        0.0005239939999910348
+      ],
+      "saturation": [
+        0.000493257000016456,
+        0.0007703469999569279,
+        0.0004995470000039859
+      ]
+    },
+    "median_seconds": {
+      "original": 0.0005239939999910348,
+      "saturation": 0.0004995470000039859
+    },
+    "time_ratio": 0.9533448856523793,
+    "order_evaluations": {
+      "original": 11,
+      "saturation": 11
+    },
+    "schedule_sha256": "cdf5320d5e08480c2420be74430ce23f3a04687d929fd81c1ccc1c6cae320df5",
+    "saturation_stops": 11
+  },
+  {
+    "instance": "qec_en_n5_compact",
+    "cohort": "public",
+    "seed": 10,
+    "depth": 11,
+    "samples": {
+      "original": [
+        0.0006200420000368467,
+        0.00047235199997430755,
+        0.0005043720000230678
+      ],
+      "saturation": [
+        0.0005324539999946865,
+        0.0005121450000160621,
+        0.0005086959999971441
+      ]
+    },
+    "median_seconds": {
+      "original": 0.0005043720000230678,
+      "saturation": 0.0005121450000160621
+    },
+    "time_ratio": 1.0154112440671543,
+    "order_evaluations": {
+      "saturation": 11,
+      "original": 11
+    },
+    "schedule_sha256": "cdf5320d5e08480c2420be74430ce23f3a04687d929fd81c1ccc1c6cae320df5",
+    "saturation_stops": 11
+  },
+  {
+    "instance": "qec_en_n5_square_sparse",
+    "cohort": "public",
+    "seed": 1,
+    "depth": 11,
+    "samples": {
+      "original": [
+        0.0009693069999912041,
+        0.0013810350000085236,
+        0.0012615309999546298
+      ],
+      "saturation": [
+        0.0010561099999222279,
+        0.0011278409999704309,
+        0.001339921999942817
+      ]
+    },
+    "median_seconds": {
+      "original": 0.0012615309999546298,
+      "saturation": 0.0011278409999704309
+    },
+    "time_ratio": 0.8940255927210611,
+    "order_evaluations": {
+      "original": 11,
+      "saturation": 11
+    },
+    "schedule_sha256": "4b84068dda646baf8c19c05a4b652abbb48085d5e5469ac6961034824d94b9d0",
+    "saturation_stops": 11
+  },
+  {
+    "instance": "qec_en_n5_square_sparse",
+    "cohort": "public",
+    "seed": 2,
+    "depth": 11,
+    "samples": {
+      "original": [
+        0.0014993419999882462,
+        0.0009806770000295728,
+        0.0011204690000568007
+      ],
+      "saturation": [
+        0.0010281399999030327,
+        0.0011281200000894387,
+        0.0009578789999977744
+      ]
+    },
+    "median_seconds": {
+      "original": 0.0011204690000568007,
+      "saturation": 0.0010281399999030327
+    },
+    "time_ratio": 0.9175978986039885,
+    "order_evaluations": {
+      "saturation": 11,
+      "original": 11
+    },
+    "schedule_sha256": "4b84068dda646baf8c19c05a4b652abbb48085d5e5469ac6961034824d94b9d0",
+    "saturation_stops": 11
+  },
+  {
+    "instance": "qec_en_n5_square_sparse",
+    "cohort": "public",
+    "seed": 3,
+    "depth": 11,
+    "samples": {
+      "original": [
+        0.001061460999949304,
+        0.0012369130000706718,
+        0.0012457749999157386
+      ],
+      "saturation": [
+        0.0011018290000492925,
+        0.0012912019999475888,
+        0.00131381500000316
+      ]
+    },
+    "median_seconds": {
+      "original": 0.0012369130000706718,
+      "saturation": 0.0012912019999475888
+    },
+    "time_ratio": 1.0438907181619201,
+    "order_evaluations": {
+      "original": 11,
+      "saturation": 11
+    },
+    "schedule_sha256": "4b84068dda646baf8c19c05a4b652abbb48085d5e5469ac6961034824d94b9d0",
+    "saturation_stops": 11
+  },
+  {
+    "instance": "qec_en_n5_square_sparse",
+    "cohort": "public",
+    "seed": 4,
+    "depth": 11,
+    "samples": {
+      "original": [
+        0.0013119359999791413,
+        0.0012262569999847983,
+        0.0013704469999993307
+      ],
+      "saturation": [
+        0.0010115449999830162,
+        0.0010328780000463667,
+        0.0010548410000410513
+      ]
+    },
+    "median_seconds": {
+      "original": 0.0013119359999791413,
+      "saturation": 0.0010328780000463667
+    },
+    "time_ratio": 0.787292977754089,
+    "order_evaluations": {
+      "saturation": 11,
+      "original": 11
+    },
+    "schedule_sha256": "4b84068dda646baf8c19c05a4b652abbb48085d5e5469ac6961034824d94b9d0",
+    "saturation_stops": 11
+  },
+  {
+    "instance": "qec_en_n5_square_sparse",
+    "cohort": "public",
+    "seed": 5,
+    "depth": 11,
+    "samples": {
+      "original": [
+        0.0011687740000070335,
+        0.0012414960000342035,
+        0.0010708780000641127
+      ],
+      "saturation": [
+        0.0012094060000436002,
+        0.0013597710000112784,
+        0.00122320299999501
+      ]
+    },
+    "median_seconds": {
+      "original": 0.0011687740000070335,
+      "saturation": 0.00122320299999501
+    },
+    "time_ratio": 1.046569311079515,
+    "order_evaluations": {
+      "original": 11,
+      "saturation": 11
+    },
+    "schedule_sha256": "4b84068dda646baf8c19c05a4b652abbb48085d5e5469ac6961034824d94b9d0",
+    "saturation_stops": 11
+  },
+  {
+    "instance": "qec_en_n5_square_sparse",
+    "cohort": "public",
+    "seed": 6,
+    "depth": 11,
+    "samples": {
+      "original": [
+        0.0012892980000742682,
+        0.0011782679999896573,
+        0.0011624170000459344
+      ],
+      "saturation": [
+        0.0009076559999812162,
+        0.004630488999964655,
+        0.002552490999960355
+      ]
+    },
+    "median_seconds": {
+      "original": 0.0011782679999896573,
+      "saturation": 0.002552490999960355
+    },
+    "time_ratio": 2.166307665134554,
+    "order_evaluations": {
+      "saturation": 11,
+      "original": 11
+    },
+    "schedule_sha256": "4b84068dda646baf8c19c05a4b652abbb48085d5e5469ac6961034824d94b9d0",
+    "saturation_stops": 11
+  },
+  {
+    "instance": "qec_en_n5_square_sparse",
+    "cohort": "public",
+    "seed": 7,
+    "depth": 11,
+    "samples": {
+      "original": [
+        0.002010080999980346,
+        0.001244659999997566,
+        0.001068342000053235
+      ],
+      "saturation": [
+        0.0014284960000168212,
+        0.0014470680000613356,
+        0.0012537800000700372
+      ]
+    },
+    "median_seconds": {
+      "original": 0.001244659999997566,
+      "saturation": 0.0014284960000168212
+    },
+    "time_ratio": 1.147699773447861,
+    "order_evaluations": {
+      "original": 11,
+      "saturation": 11
+    },
+    "schedule_sha256": "4b84068dda646baf8c19c05a4b652abbb48085d5e5469ac6961034824d94b9d0",
+    "saturation_stops": 11
+  },
+  {
+    "instance": "qec_en_n5_square_sparse",
+    "cohort": "public",
+    "seed": 8,
+    "depth": 11,
+    "samples": {
+      "original": [
+        0.0009604330000456685,
+        0.0009029230000123789,
+        0.0009586769999714306
+      ],
+      "saturation": [
+        0.0009714070000654829,
+        0.0011599450000403522,
+        0.0010706750000508691
+      ]
+    },
+    "median_seconds": {
+      "original": 0.0009586769999714306,
+      "saturation": 0.0010706750000508691
+    },
+    "time_ratio": 1.1168255836770635,
+    "order_evaluations": {
+      "saturation": 11,
+      "original": 11
+    },
+    "schedule_sha256": "4b84068dda646baf8c19c05a4b652abbb48085d5e5469ac6961034824d94b9d0",
+    "saturation_stops": 11
+  },
+  {
+    "instance": "qec_en_n5_square_sparse",
+    "cohort": "public",
+    "seed": 9,
+    "depth": 11,
+    "samples": {
+      "original": [
+        0.000962033999940104,
+        0.0009463229999937539,
+        0.0009112469999763562
+      ],
+      "saturation": [
+        0.0009261799999649156,
+        0.0009417850000090766,
+        0.0010499909999452939
+      ]
+    },
+    "median_seconds": {
+      "original": 0.0009463229999937539,
+      "saturation": 0.0009417850000090766
+    },
+    "time_ratio": 0.9952045971780171,
+    "order_evaluations": {
+      "original": 11,
+      "saturation": 11
+    },
+    "schedule_sha256": "4b84068dda646baf8c19c05a4b652abbb48085d5e5469ac6961034824d94b9d0",
+    "saturation_stops": 11
+  },
+  {
+    "instance": "qec_en_n5_square_sparse",
+    "cohort": "public",
+    "seed": 10,
+    "depth": 11,
+    "samples": {
+      "original": [
+        0.0009602410000297823,
+        0.001474885999982689,
+        0.0010252850000824765
+      ],
+      "saturation": [
+        0.0012633049999521972,
+        0.0009749579999152047,
+        0.0010714600000483188
+      ]
+    },
+    "median_seconds": {
+      "original": 0.0010252850000824765,
+      "saturation": 0.0010714600000483188
+    },
+    "time_ratio": 1.0450362581741934,
+    "order_evaluations": {
+      "saturation": 11,
+      "original": 11
+    },
+    "schedule_sha256": "4b84068dda646baf8c19c05a4b652abbb48085d5e5469ac6961034824d94b9d0",
+    "saturation_stops": 11
+  },
+  {
+    "instance": "held_random24_s41_compact",
+    "cohort": "historical",
+    "seed": 1,
+    "depth": 53,
+    "samples": {
+      "original": [
+        0.3614750179999646,
+        0.36094028899992736,
+        0.3552960639999583
+      ],
+      "saturation": [
+        0.363509281000006,
+        0.365291313000057,
+        0.3563040110000202
+      ]
+    },
+    "median_seconds": {
+      "original": 0.36094028899992736,
+      "saturation": 0.363509281000006
+    },
+    "time_ratio": 1.0071174985956726,
+    "order_evaluations": {
+      "original": 2283,
+      "saturation": 2283
+    },
+    "schedule_sha256": "899ffa8847890c34916b5cdd7895da9dc4fafcd94ee69604b923a4e6a0b61844",
+    "saturation_stops": 1
+  },
+  {
+    "instance": "held_random24_s41_compact",
+    "cohort": "historical",
+    "seed": 2,
+    "depth": 55,
+    "samples": {
+      "original": [
+        0.34465582300003916,
+        0.3373106190000499,
+        0.34566023900003984
+      ],
+      "saturation": [
+        0.3455083100000138,
+        0.3640286749999859,
+        0.3466848389999768
+      ]
+    },
+    "median_seconds": {
+      "original": 0.34465582300003916,
+      "saturation": 0.3466848389999768
+    },
+    "time_ratio": 1.0058870788320828,
+    "order_evaluations": {
+      "saturation": 2249,
+      "original": 2249
+    },
+    "schedule_sha256": "b4cd455db87d6328a4d96d692fd29f2da7d35d92379b7bbed6bf6ecec18c1ac9",
+    "saturation_stops": 1
+  },
+  {
+    "instance": "held_random24_s41_compact",
+    "cohort": "historical",
+    "seed": 3,
+    "depth": 54,
+    "samples": {
+      "original": [
+        0.33888165299993034,
+        0.3326865149999776,
+        0.3452884670000458
+      ],
+      "saturation": [
+        0.33956892399999106,
+        0.3483796319999328,
+        0.3428632060000609
+      ]
+    },
+    "median_seconds": {
+      "original": 0.33888165299993034,
+      "saturation": 0.3428632060000609
+    },
+    "time_ratio": 1.0117490957828024,
+    "order_evaluations": {
+      "original": 2288,
+      "saturation": 2288
+    },
+    "schedule_sha256": "6c234bc3dbe9b0974c3e9c7bd692f9901cc3fbd1eecaedadf00b8980eef9d840",
+    "saturation_stops": 1
+  },
+  {
+    "instance": "held_random24_s41_square_sparse",
+    "cohort": "historical",
+    "seed": 1,
+    "depth": 15,
+    "samples": {
+      "original": [
+        0.27462716500008355,
+        0.27571746399996755,
+        0.27513098099996114
+      ],
+      "saturation": [
+        0.23027755099997194,
+        0.23365527500004646,
+        0.2346433600000637
+      ]
+    },
+    "median_seconds": {
+      "original": 0.27513098099996114,
+      "saturation": 0.23365527500004646
+    },
+    "time_ratio": 0.8492510518111352,
+    "order_evaluations": {
+      "original": 675,
+      "saturation": 557
+    },
+    "schedule_sha256": "365b2a5993bf8f9f510dc82cc2c7233f44adb426b4012b50399a8f5b4511dde4",
+    "saturation_stops": 3
+  },
+  {
+    "instance": "held_random24_s41_square_sparse",
+    "cohort": "historical",
+    "seed": 2,
+    "depth": 16,
+    "samples": {
+      "original": [
+        0.2716824419999284,
+        0.27244761699989795,
+        0.2764254080000228
+      ],
+      "saturation": [
+        0.24592722399995637,
+        0.2444723050000448,
+        0.24486425099996723
+      ]
+    },
+    "median_seconds": {
+      "original": 0.27244761699989795,
+      "saturation": 0.24486425099996723
+    },
+    "time_ratio": 0.8987571765036174,
+    "order_evaluations": {
+      "saturation": 588,
+      "original": 676
+    },
+    "schedule_sha256": "78304ffcb3c360fd0fcb44bec58baa7eb07360a680521d83b7ec56af19aa4748",
+    "saturation_stops": 3
+  },
+  {
+    "instance": "held_random24_s41_square_sparse",
+    "cohort": "historical",
+    "seed": 3,
+    "depth": 15,
+    "samples": {
+      "original": [
+        0.27175462900004277,
+        0.2638562810000167,
+        0.2706752430000279
+      ],
+      "saturation": [
+        0.24177619900001446,
+        0.24193565500002023,
+        0.23969701099997565
+      ]
+    },
+    "median_seconds": {
+      "original": 0.2706752430000279,
+      "saturation": 0.24177619900001446
+    },
+    "time_ratio": 0.8932335160034919,
+    "order_evaluations": {
+      "original": 631,
+      "saturation": 573
+    },
+    "schedule_sha256": "dac80ed056cc08f13db6615eeaab3a7a5149edefa1b7b9b44169123b4ec04bf7",
+    "saturation_stops": 4
+  },
+  {
+    "instance": "held_random24_s53_compact",
+    "cohort": "historical",
+    "seed": 1,
+    "depth": 90,
+    "samples": {
+      "original": [
+        0.6262286589999349,
+        0.608926360000055,
+        0.6428208010000844
+      ],
+      "saturation": [
+        0.6389057670000966,
+        0.6222491989999526,
+        0.6333973219999507
+      ]
+    },
+    "median_seconds": {
+      "original": 0.6262286589999349,
+      "saturation": 0.6333973219999507
+    },
+    "time_ratio": 1.0114473569629725,
+    "order_evaluations": {
+      "original": 3886,
+      "saturation": 3886
+    },
+    "schedule_sha256": "886da213cd913fd9dfee74371063776ea1c6319622fb492604e48c7375d12115",
+    "saturation_stops": 1
+  },
+  {
+    "instance": "held_random24_s53_compact",
+    "cohort": "historical",
+    "seed": 2,
+    "depth": 91,
+    "samples": {
+      "original": [
+        0.6436576210001022,
+        0.6475911950000182,
+        0.6463849750000463
+      ],
+      "saturation": [
+        0.6461049270000103,
+        0.6853874720000022,
+        0.6430226339999763
+      ]
+    },
+    "median_seconds": {
+      "original": 0.6463849750000463,
+      "saturation": 0.6461049270000103
+    },
+    "time_ratio": 0.9995667473551099,
+    "order_evaluations": {
+      "saturation": 3993,
+      "original": 3995
+    },
+    "schedule_sha256": "3db6d73b7d9d6a42ea2bf84e5cc7732a0ff298ff4b47b5251ddb459024ea5400",
+    "saturation_stops": 1
+  },
+  {
+    "instance": "held_random24_s53_compact",
+    "cohort": "historical",
+    "seed": 3,
+    "depth": 91,
+    "samples": {
+      "original": [
+        0.6158823119999397,
+        0.6107398460000013,
+        0.6126731670000254
+      ],
+      "saturation": [
+        0.6135627019999674,
+        0.6102569960000892,
+        0.6260693760000322
+      ]
+    },
+    "median_seconds": {
+      "original": 0.6126731670000254,
+      "saturation": 0.6135627019999674
+    },
+    "time_ratio": 1.0014518915595696,
+    "order_evaluations": {
+      "original": 3855,
+      "saturation": 3855
+    },
+    "schedule_sha256": "37824d43ef55da11fea8475c62e0f1186bee5c2a2bb339647901a5749b3b9aa7",
+    "saturation_stops": 1
+  },
+  {
+    "instance": "held_random24_s53_square_sparse",
+    "cohort": "historical",
+    "seed": 1,
+    "depth": 22,
+    "samples": {
+      "original": [
+        0.37172047400008523,
+        0.40185227799997847,
+        0.37772090600003594
+      ],
+      "saturation": [
+        0.2915905319999865,
+        0.32511954999995396,
+        0.3017717249999805
+      ]
+    },
+    "median_seconds": {
+      "original": 0.37772090600003594,
+      "saturation": 0.3017717249999805
+    },
+    "time_ratio": 0.7989277802906462,
+    "order_evaluations": {
+      "original": 908,
+      "saturation": 693
+    },
+    "schedule_sha256": "e9b9c4168569f5784e5f4f6e5ea7f1879adce5acff103def9b862e66216854cb",
+    "saturation_stops": 8
+  },
+  {
+    "instance": "held_random24_s53_square_sparse",
+    "cohort": "historical",
+    "seed": 2,
+    "depth": 21,
+    "samples": {
+      "original": [
+        0.3820653980000088,
+        0.3929407780000247,
+        0.4093591219999553
+      ],
+      "saturation": [
+        0.3543100169999889,
+        0.3609278839999206,
+        0.3530138959999931
+      ]
+    },
+    "median_seconds": {
+      "original": 0.3929407780000247,
+      "saturation": 0.3543100169999889
+    },
+    "time_ratio": 0.9016880833883996,
+    "order_evaluations": {
+      "saturation": 830,
+      "original": 925
+    },
+    "schedule_sha256": "647dffbe6a6822da277c3ed695af4519bd543441aa2ebe7e898f61d73249f762",
+    "saturation_stops": 4
+  },
+  {
+    "instance": "held_random24_s53_square_sparse",
+    "cohort": "historical",
+    "seed": 3,
+    "depth": 21,
+    "samples": {
+      "original": [
+        0.3877816200000552,
+        0.40029132399990885,
+        0.38804195399995933
+      ],
+      "saturation": [
+        0.3406359360000124,
+        0.3089109879999796,
+        0.3103530739999769
+      ]
+    },
+    "median_seconds": {
+      "original": 0.38804195399995933,
+      "saturation": 0.3103530739999769
+    },
+    "time_ratio": 0.7997925760367897,
+    "order_evaluations": {
+      "original": 945,
+      "saturation": 733
+    },
+    "schedule_sha256": "08851fea163efff3249e701bac3ac82ff2238224bbbe2e2c5500bd303b7bc95f",
+    "saturation_stops": 6
+  },
+  {
+    "instance": "held_random36_s67_compact",
+    "cohort": "historical",
+    "seed": 1,
+    "depth": 81,
+    "samples": {
+      "original": [
+        0.8005039140000463,
+        0.7959172250000393,
+        0.8112778320000871
+      ],
+      "saturation": [
+        0.8230029310000191,
+        0.7880294379999668,
+        0.8200421310000365
+      ]
+    },
+    "median_seconds": {
+      "original": 0.8005039140000463,
+      "saturation": 0.8200421310000365
+    },
+    "time_ratio": 1.024407397213537,
+    "order_evaluations": {
+      "original": 3481,
+      "saturation": 3481
+    },
+    "schedule_sha256": "ee3b88fe5ed7f37fe262f98669ae62b466075b8bdb1211c2cdf7903ee81ea834",
+    "saturation_stops": 1
+  },
+  {
+    "instance": "held_random36_s67_compact",
+    "cohort": "historical",
+    "seed": 2,
+    "depth": 82,
+    "samples": {
+      "original": [
+        0.8528134489999957,
+        0.8459528070000033,
+        0.8758699219999926
+      ],
+      "saturation": [
+        0.8320765239999446,
+        0.8376603770000202,
+        0.8538995449999902
+      ]
+    },
+    "median_seconds": {
+      "original": 0.8528134489999957,
+      "saturation": 0.8376603770000202
+    },
+    "time_ratio": 0.9822316685815122,
+    "order_evaluations": {
+      "saturation": 3546,
+      "original": 3546
+    },
+    "schedule_sha256": "38836107a4439c3e426e4e52dd27a3010317e685769b6251978b4c0b872d7a7f",
+    "saturation_stops": 1
+  },
+  {
+    "instance": "held_random36_s67_compact",
+    "cohort": "historical",
+    "seed": 3,
+    "depth": 83,
+    "samples": {
+      "original": [
+        0.9166750269999966,
+        0.9673080000000027,
+        0.9235413059999473
+      ],
+      "saturation": [
+        0.9039874280000504,
+        0.9603665040000351,
+        0.9476599719999967
+      ]
+    },
+    "median_seconds": {
+      "original": 0.9235413059999473,
+      "saturation": 0.9476599719999967
+    },
+    "time_ratio": 1.0261154166504067,
+    "order_evaluations": {
+      "original": 3571,
+      "saturation": 3571
+    },
+    "schedule_sha256": "f67a6c23f6afdd41f7688427a6299b782ae4d04342df84e1922ce14009c87c03",
+    "saturation_stops": 1
+  },
+  {
+    "instance": "held_random36_s67_square_sparse",
+    "cohort": "historical",
+    "seed": 1,
+    "depth": 20,
+    "samples": {
+      "original": [
+        0.5587577760001068,
+        0.5577554210000244,
+        0.5428227339999694
+      ],
+      "saturation": [
+        0.5652000339999859,
+        0.6352717700000312,
+        0.5345033830000148
+      ]
+    },
+    "median_seconds": {
+      "original": 0.5577554210000244,
+      "saturation": 0.5652000339999859
+    },
+    "time_ratio": 1.0133474507278006,
+    "order_evaluations": {
+      "original": 858,
+      "saturation": 813
+    },
+    "schedule_sha256": "8b04860bf8e2ee999f48a9fd32bcb459ed665a96467662a9cf0a37c25c80c604",
+    "saturation_stops": 2
+  },
+  {
+    "instance": "held_random36_s67_square_sparse",
+    "cohort": "historical",
+    "seed": 2,
+    "depth": 19,
+    "samples": {
+      "original": [
+        0.5460229120000122,
+        0.5387595439999586,
+        0.5434851259999505
+      ],
+      "saturation": [
+        0.49275020699997185,
+        0.4783022469999878,
+        0.4820206420000659
+      ]
+    },
+    "median_seconds": {
+      "original": 0.5434851259999505,
+      "saturation": 0.4820206420000659
+    },
+    "time_ratio": 0.8869067780156873,
+    "order_evaluations": {
+      "saturation": 726,
+      "original": 855
+    },
+    "schedule_sha256": "f9f697245456c4e32be8c2931d4454f577a724a687872932721fcd1959b7681d",
+    "saturation_stops": 3
+  },
+  {
+    "instance": "held_random36_s67_square_sparse",
+    "cohort": "historical",
+    "seed": 3,
+    "depth": 18,
+    "samples": {
+      "original": [
+        0.526571982000064,
+        0.569610517000001,
+        0.5636790109999765
+      ],
+      "saturation": [
+        0.48182105100011086,
+        0.5440247689999751,
+        0.5041288779999604
+      ]
+    },
+    "median_seconds": {
+      "original": 0.5636790109999765,
+      "saturation": 0.5041288779999604
+    },
+    "time_ratio": 0.8943545318560414,
+    "order_evaluations": {
+      "original": 810,
+      "saturation": 738
+    },
+    "schedule_sha256": "90495a84452a5b5e25ddc3347a672dcc1fe5b6114464be10445a4dbb61abbeba",
+    "saturation_stops": 2
+  },
+  {
+    "instance": "held_ring24_compact",
+    "cohort": "historical",
+    "seed": 1,
+    "depth": 62,
+    "samples": {
+      "original": [
+        0.42832561199998054,
+        0.3949996619999183,
+        0.3932436410000264
+      ],
+      "saturation": [
+        0.38761803900001723,
+        0.4004923319999989,
+        0.42387694800004283
+      ]
+    },
+    "median_seconds": {
+      "original": 0.3949996619999183,
+      "saturation": 0.4004923319999989
+    },
+    "time_ratio": 1.0139055055699813,
+    "order_evaluations": {
+      "original": 2626,
+      "saturation": 2626
+    },
+    "schedule_sha256": "5630ca6e103c4a3894790f1ffe26a029f036cbd6511b362ee4a5a96ef8d6eb0e",
+    "saturation_stops": 1
+  },
+  {
+    "instance": "held_ring24_compact",
+    "cohort": "historical",
+    "seed": 2,
+    "depth": 61,
+    "samples": {
+      "original": [
+        0.419660229000101,
+        0.3775967699999683,
+        0.3897244969999747
+      ],
+      "saturation": [
+        0.3980182809999633,
+        0.3782903740000165,
+        0.37814823899998373
+      ]
+    },
+    "median_seconds": {
+      "original": 0.3897244969999747,
+      "saturation": 0.3782903740000165
+    },
+    "time_ratio": 0.9706610103086261,
+    "order_evaluations": {
+      "saturation": 2521,
+      "original": 2521
+    },
+    "schedule_sha256": "c24fb7b218b3964100e2937ae62e6c3ad0819f755db98fe5ca8ccbaeeb93a9c1",
+    "saturation_stops": 1
+  },
+  {
+    "instance": "held_ring24_compact",
+    "cohort": "historical",
+    "seed": 3,
+    "depth": 63,
+    "samples": {
+      "original": [
+        0.4472545539999828,
+        0.373799149999968,
+        0.3812060280000651
+      ],
+      "saturation": [
+        0.4869698369999469,
+        0.38825689500004046,
+        0.380998481000006
+      ]
+    },
+    "median_seconds": {
+      "original": 0.3812060280000651,
+      "saturation": 0.38825689500004046
+    },
+    "time_ratio": 1.0184962106632116,
+    "order_evaluations": {
+      "original": 2631,
+      "saturation": 2631
+    },
+    "schedule_sha256": "7550cef844ce3a42e7dff7ddda153b63082cff97324d69aa68a3311361f4fe90",
+    "saturation_stops": 1
+  },
+  {
+    "instance": "held_ring24_square_sparse",
+    "cohort": "historical",
+    "seed": 1,
+    "depth": 15,
+    "samples": {
+      "original": [
+        0.2610242670000389,
+        0.262203975000034,
+        0.2670237369999313
+      ],
+      "saturation": [
+        0.12868511699991814,
+        0.1272591409999677,
+        0.13246591300003274
+      ]
+    },
+    "median_seconds": {
+      "original": 0.262203975000034,
+      "saturation": 0.12868511699991814
+    },
+    "time_ratio": 0.49078247955585513,
+    "order_evaluations": {
+      "original": 637,
+      "saturation": 294
+    },
+    "schedule_sha256": "4932319d5bede372b8c35c5e922ddc8a194c62841aa2cf3fc16fc0077de29d32",
+    "saturation_stops": 9
+  },
+  {
+    "instance": "held_ring24_square_sparse",
+    "cohort": "historical",
+    "seed": 2,
+    "depth": 15,
+    "samples": {
+      "original": [
+        0.2575416969999651,
+        0.25289206900004046,
+        0.26633590400001594
+      ],
+      "saturation": [
+        0.11306506400001126,
+        0.11912596699994538,
+        0.1209055439999247
+      ]
+    },
+    "median_seconds": {
+      "original": 0.2575416969999651,
+      "saturation": 0.11912596699994538
+    },
+    "time_ratio": 0.4625502137619351,
+    "order_evaluations": {
+      "saturation": 264,
+      "original": 637
+    },
+    "schedule_sha256": "042eb9d056c44bd0e8f552b83c82f8a9b95464bcbb98d813f7042747a6a58dec",
+    "saturation_stops": 10
+  },
+  {
+    "instance": "held_ring24_square_sparse",
+    "cohort": "historical",
+    "seed": 3,
+    "depth": 15,
+    "samples": {
+      "original": [
+        0.2780397289999428,
+        0.266108035000002,
+        0.2719046419999813
+      ],
+      "saturation": [
+        0.11317758799998501,
+        0.10991826700001184,
+        0.10894597300000441
+      ]
+    },
+    "median_seconds": {
+      "original": 0.2719046419999813,
+      "saturation": 0.10991826700001184
+    },
+    "time_ratio": 0.40425299910848667,
+    "order_evaluations": {
+      "original": 675,
+      "saturation": 255
+    },
+    "schedule_sha256": "9cb7e08938878cad5dc37c49d85ff225e960ccf7f30ad1ef45813f04b794b4e1",
+    "saturation_stops": 10
+  }
+]
