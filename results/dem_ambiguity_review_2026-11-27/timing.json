@@ -1,0 +1,11 @@
+{
+  "parse_and_topology_seconds": 26.290793473997837,
+  "matching_construction_seconds": 3.867620956995779,
+  "deterministic_decode_seconds": 2.031118007999794,
+  "units": "seconds; summed per-DEM wall stages under concurrent regression workload, not independent online performance",
+  "monte_carlo_seconds": null,
+  "calibration_seconds": null,
+  "routing_seconds": null,
+  "physical_compile_seconds": null,
+  "new_shots": 0
+}

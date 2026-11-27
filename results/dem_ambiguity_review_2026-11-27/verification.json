@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "raw_assets": 77,
+  "archived_full_effect_triangles": 177594,
+  "complete_dem_decoders_replayed": 77,
+  "original_archives_unchanged": true,
+  "seconds": 51.25741942500008,
+  "new_shots": 0,
+  "new_physical_compilations": 0,
+  "note": "Every raw archive byte and all77 actual source mappings; full deterministic MWPM/statistics replay when requested. No unpacked raw directory dependency.",
+  "unpacked_raw_absent": true
+}

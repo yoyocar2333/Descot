@@ -1,0 +1,14 @@
+{
+  "python": "3.12.14",
+  "stim": "1.16.0",
+  "pymatching": "2.4.0",
+  "numpy": "2.5.4",
+  "code_sha256": "7e9b0e2be49b7892f778d97ade322d0ee1eb983e989888f0ba289fa1180d2a83",
+  "lock_sha256": "140e7ad5273ee3ac59347cd775c49bdcd2b1e978936e56bc7e1ab205eccaebf9",
+  "reference_sha256": "38f727c3c891c033a08cbf8379e25aea2a7646e6ac7eba17ed0cdc6d6b763a8e",
+  "archive_sha256": {
+    "old": "5fdb235cb597ba6f80a2c126c11b2bb7bc55ecc31d80820e4a88f1f739c017bf",
+    "frontier": "f2ce2dded69b4fa6e4e7a42fb914e97d5e09782a7cf7628ffb938171892fc496"
+  },
+  "pool_sha256": "9a281b71f84f673fc14231a6b3f3acc7b4c75ca22572899bdc143c862fad6a6a"
+}

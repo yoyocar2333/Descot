@@ -1,0 +1,19 @@
+{
+  "id": "independent_supplied_dem_scan_review_v1",
+  "base_commit": "5bfc38cfdb6ec54bf6f8047bb25adea99a466a73",
+  "role": "Review only; all Grover development. No new hypothesis/model revision/calibration/pilot selection or performance claim.",
+  "all_candidates": 77,
+  "whole_dem_semantics": "Independent whole error instructions; XOR all D/L across separators. Duplicate whole effects retain independent parent IDs/probabilities.",
+  "counted_metric": "Unique full-effect triangles D(A)={a},D(C)={c},D(B)={a,c},L(A)^L(C)!=L(B). AC incidence=sum(p_A*p_C) over matching whole parents; not a probability.",
+  "decoder": "Unchanged full2-output ordinary uncorrelated PyMatching MWPM from each frozen complete DEM. Deterministic patterns, not samples.",
+  "additional_checks": "Decode AC,AB,BC and A,B,C for every triangle; join actual certificate idle/recurrence features. Additional pair families are diagnostics, not a replacement risk score.",
+  "shots": 0,
+  "seeds": [],
+  "counts": null,
+  "confidence_interval": null,
+  "physical_compilations": 0,
+  "mu": 0,
+  "sampling_permission": false,
+  "held_out_labels": "sealed",
+  "risk_revision": false
+}

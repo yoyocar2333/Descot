@@ -1,0 +1,18 @@
+{
+  "circuits": 77,
+  "mapping_mismatches": 0,
+  "numeric_mismatch_rows": 0,
+  "frontier_groups": {
+    "2310": 36,
+    "2430": 16
+  },
+  "all_AC_patterns": 177594,
+  "all_AC_decoded_failure_patterns": 177594,
+  "same_idle_profiles_crossing_groups": 2,
+  "statement": "Adopt verified provenance/topology as a development diagnostic. Reject probability/LER, sole-idle causation, validated-v2 and extreme-only pilot claims. No method or sampling gates bypassed.",
+  "new_shots": 0,
+  "counts": null,
+  "confidence_interval": null,
+  "new_physical_compilations": 0,
+  "mu": 0
+}

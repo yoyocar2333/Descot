@@ -1,0 +1,36 @@
+{
+  "attachments": {
+    "DEM_AMBIGUITY_ANALYSIS_REPORT.md": {
+      "bytes": 3414,
+      "sha256": "5f78b35b1762669a2f3ed7683958fb0d1042f870c8f5481de5d53dd54a8159d6"
+    },
+    "dem_ambiguity_scan_summary.json": {
+      "bytes": 46821,
+      "sha256": "38f727c3c891c033a08cbf8379e25aea2a7646e6ac7eba17ed0cdc6d6b763a8e"
+    }
+  },
+  "reviewed_actual_uploaded_versions": true,
+  "scanner_source_provided": false,
+  "original_uploads_unchanged": true,
+  "original_uploads_not_redistributed_in_repository": true,
+  "null_metadata_counts": {
+    "stim_ticks": 77,
+    "physical_layers": 77,
+    "protected_idle_total": 77,
+    "idle_segment_profile": 77
+  },
+  "definition": "Supplied formula was reconstructed independently and all reported values matched at stored precision; exact original scanner implementation remains unverified.",
+  "primary_sources": [
+    {
+      "url": "https://github.com/quantumlib/Stim/blob/main/doc/file_format_dem_detector_error_model.md",
+      "sections": "Semantics; separator target",
+      "scope": "Independent whole error instructions; XOR of targets; ^ suggested decomposition, not independent occurrence."
+    },
+    {
+      "url": "https://pymatching.readthedocs.io/en/stable/api.html",
+      "section": "from_detector_error_model",
+      "scope": "Official site currently labels docs2.1.0; actual pinned runtime2.4.0 is authoritative for all executed decoder checks."
+    }
+  ],
+  "runtime_matching_source_sha256": "41c8756bf2c6fb62db025371ab8041d45bf05bfc98f28f644a503b96c9f82bdd"
+}

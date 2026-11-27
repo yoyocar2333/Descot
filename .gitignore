@@ -50,3 +50,6 @@ results/presentation_fault_demo_2026-11-27/circuits/
 # Complete public BV raw circuits and proofs live in the verified tar.xz snapshot.
 /results/public_bv_2026-11-27/circuits/
 /results/public_bv_2026-11-27/certificates/
+
+# Every original DEM triangle and decoder result is in its hash-verified ZIP.
+/results/dem_ambiguity_review_2026-11-27/raw/

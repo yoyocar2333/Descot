@@ -1,0 +1,22 @@
+{
+  "python": "3.12.14",
+  "pip_check": "PASS: No broken requirements found.",
+  "targeted": {
+    "command": ".venv/bin/python -m pytest -q tests/test_dem_ambiguity_review.py",
+    "passed": 7,
+    "seconds": 0.94
+  },
+  "full_suite": {
+    "command": ".venv/bin/python -m pytest -q",
+    "passed": 255,
+    "seconds": 501.83,
+    "exit_code": 0,
+    "stdout_sha256": "a4266f059686d242e300129eb4b9702f82973842231543892bbe83860f06ed64"
+  },
+  "replay": "PASS: all77 original DEM decoder/statistic checks and177594 archived triangles; unpacked raw directory absent",
+  "new_research_shots": 0,
+  "new_physical_compilations": 0,
+  "counts": null,
+  "confidence_interval": null,
+  "legacy_tests": "Existing p=0 correctness trajectories are regression tests, not new research data."
+}
