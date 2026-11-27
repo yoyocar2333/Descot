@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "assets": 128,
+  "complete_public_minima": 9,
+  "compile_requests": 63,
+  "journaled_compile_started": 36,
+  "journaled_compile_finished": 36,
+  "unfinished_compilations": 0,
+  "exact_physical_checks_rerun": 0,
+  "signed_input_checks_rerun": 0,
+  "mode": "All archived bytes/source/freeze/coverage and output/remap reconstruction; stored signed proofs checked",
+  "new_shots": 0,
+  "sampler_calls": 0,
+  "unpacked_raw_directories_absent": true,
+  "elapsed_seconds": 5.282198383999912
+}

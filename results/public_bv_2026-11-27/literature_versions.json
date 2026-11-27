@@ -1,0 +1,133 @@
+{
+  "access": [
+    {
+      "method": "Hamada",
+      "pinned_version": "2401.15829v6",
+      "url": "https://arxiv.org/abs/2401.15829",
+      "checked_date": "2026-11-27",
+      "status": "fetched",
+      "bytes": 44028,
+      "sha256": "3db15ed96accc1613412cf33996b68f0c4f0781b806e1db61f02079c3348e22e",
+      "observed_history_versions": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "citation_title": "Efficient and high-performance routing of lattice-surgery paths on three-dimensional lattice"
+    },
+    {
+      "method": "O3LS",
+      "pinned_version": "2604.15099v1",
+      "url": "https://arxiv.org/abs/2604.15099",
+      "checked_date": "2026-11-27",
+      "status": "fetched",
+      "bytes": 42633,
+      "sha256": "2f7ec5c70c91ae2f5f7165a81f3b2c227ff1fa5ad8217115a7c89f6827a59d00",
+      "observed_history_versions": [
+        1
+      ],
+      "citation_title": "O3LS: Optimizing Lattice Surgery via Automatic Layout Searching and Loose Scheduling"
+    },
+    {
+      "method": "SPARO",
+      "pinned_version": "2504.21854v2",
+      "url": "https://arxiv.org/abs/2504.21854",
+      "checked_date": "2026-11-27",
+      "status": "fetched",
+      "bytes": 44289,
+      "sha256": "58016025e020481a5ce029b89475915c4b72d3a0178e37be15c9a1b58068bd7f",
+      "observed_history_versions": [
+        1,
+        2
+      ],
+      "citation_title": "SPARO: Surface-code Pauli-based Architectural Resource Optimization for Fault-tolerant Quantum Computing"
+    },
+    {
+      "method": "Synchronization",
+      "pinned_version": "2506.10258v1",
+      "url": "https://arxiv.org/abs/2506.10258",
+      "checked_date": "2026-11-27",
+      "status": "fetched",
+      "bytes": 44260,
+      "sha256": "ee549b77b7048190d3c652c872552b0193fb2d1bf1b669667f5f6084ab7e1f62",
+      "observed_history_versions": [
+        1
+      ],
+      "citation_title": "Synchronization for Fault-Tolerant Quantum Computers"
+    },
+    {
+      "method": "Demand-Driven",
+      "pinned_version": "2610.30747v1",
+      "url": "https://arxiv.org/abs/2610.30747",
+      "checked_date": "2026-11-27",
+      "status": "fetched",
+      "bytes": 39912,
+      "sha256": "4051f83da3df0d7d053faba0f3d4ec8b05c70f5f38cca5d62b1384734fa64e5e",
+      "observed_history_versions": [
+        1
+      ],
+      "citation_title": "Demand-Driven Routing Space for Lattice-Surgery Compilation"
+    },
+    {
+      "method": "CircLS",
+      "pinned_version": "2608.23819v2",
+      "url": "https://arxiv.org/abs/2608.23819",
+      "checked_date": "2026-11-27",
+      "status": "fetched",
+      "bytes": 39686,
+      "sha256": "c05f72d7b69bb858b7eb57fb4c7ec81554a711c829430371c416ec113e57f405",
+      "observed_history_versions": [
+        1,
+        2
+      ],
+      "citation_title": "CircLS: Compiling Lattice Surgery to Physical Circuits with Dynamic Allocation"
+    },
+    {
+      "method": "Patchwork",
+      "pinned_version": "2610.22112v1",
+      "url": "https://arxiv.org/abs/2610.22112",
+      "checked_date": "2026-11-27",
+      "status": "fetched",
+      "bytes": 40652,
+      "sha256": "d215fc4b8e907fff1bb54974f5a06f98ba19495314b4bb71c0d4680ad1eb17e1",
+      "observed_history_versions": [
+        1
+      ],
+      "citation_title": "Patchwork: automated lattice surgery and space-time partitioning for real-time decoding"
+    },
+    {
+      "method": "AlphaSyndrome",
+      "pinned_version": "2601.12509v2",
+      "url": "https://arxiv.org/abs/2601.12509",
+      "checked_date": "2026-11-27",
+      "status": "fetched",
+      "bytes": 42935,
+      "sha256": "95071f17e78340e703f08825a5c696c3813319e9e9235b66c8f5dc4254b5742e",
+      "observed_history_versions": [
+        1,
+        2
+      ],
+      "citation_title": "AlphaSyndrome: Tackling the Syndrome Measurement Circuit Scheduling Problem for QEC Codes"
+    },
+    {
+      "method": "PACE",
+      "pinned_version": "2608.11719v1",
+      "url": "https://arxiv.org/abs/2608.11719",
+      "checked_date": "2026-11-27",
+      "status": "fetched",
+      "bytes": 43182,
+      "sha256": "6a2f06e544483a895bff21f23b745d975c37cd49aa04c121873b45f4cac76dee",
+      "observed_history_versions": [
+        1
+      ],
+      "citation_title": "Do Not Let CNOTs Overwhelm the Decoder: Scheduling Transversal Gates for Fast FTQC"
+    }
+  ],
+  "reading": "2026-11-27 BV increment: fresh primary Hamada v6 Algorithm2, O3LS v1 II-C, SPARO v2 4.1; Synchronization v1 4.1.2 and AlphaSyndrome v2 3.3-3.4; Demand-Driven v1 3.1 and AppendixE reread. CircLS v2,Patchwork v1,PACE v1 HTML opens failed DisabledError; use previously read pinned method matrix without claiming fresh fulltext verification. Submission-history versions/hashes inherited from earlier same-day checkpoint, not a new fetch.",
+  "overlap": "Demand-Driven 3.1 treats single-qubit Clifford gates as zero routing/execution cost; AppendixE explicitly explores Clifford absorption into multi-qubit Pauli rotations with different routing demand. Our explicit physical H lowering cannot be compared as if native operation costs match. Existing lookahead, calibration, lifetime, observable/decoder-aware precedents remain.",
+  "unresolved": "Original O3LS/SPARO artifacts and full original common IR/rotation/movement/online equal-CPU controls, hardware-derived caps, risk-model revision/calibration/ablation/evaluation freeze and unseen decoding. Native CircLS literal adapter is currently fully-folded-terminal-Z-only; no native BV compilation or native-method qualification claimed.",
+  "new_workload_search": "MQT Bench unchanged static BV generator found at8f919416457d76b256930443078334021634236f,blob e813914a5a7ea7304381bceb06a377c0cdabcdec;3qubits hidden11 retain2CZ/4H/X/2original measurements. Lossless H-CX-H CZ lowering is a known identity; partial readout with full flag lifetime is backend support, not novelty."
+}

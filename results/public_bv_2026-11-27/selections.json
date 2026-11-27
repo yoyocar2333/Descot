@@ -1,0 +1,126 @@
+[
+  {
+    "policy": "duration_then_volume",
+    "stages": [
+      "template_block_z",
+      "total_lifetime_block_z"
+    ],
+    "candidate_id": "b08",
+    "tied_optima": [
+      "b00",
+      "b01",
+      "b02",
+      "b03",
+      "b04",
+      "b05",
+      "b06",
+      "b07",
+      "b08"
+    ],
+    "optimum": [
+      24,
+      90
+    ],
+    "reference_id": "b08",
+    "switched": false,
+    "pool_size": 9,
+    "row_evaluations": 9,
+    "budget": 9,
+    "pool_sha256": "d258ea2a3c6f8e613dfe9607ca9f898eb9beed6382f64342071ca0a8ef84180b",
+    "mu": 0,
+    "interpretation": "Offline selector on shared preconstructed physical pool. Equal row counts are not equal route-search calls/CPU; no LER or novelty claim."
+  },
+  {
+    "policy": "volume_then_duration",
+    "stages": [
+      "total_lifetime_block_z",
+      "template_block_z"
+    ],
+    "candidate_id": "b08",
+    "tied_optima": [
+      "b00",
+      "b01",
+      "b02",
+      "b03",
+      "b04",
+      "b05",
+      "b06",
+      "b07",
+      "b08"
+    ],
+    "optimum": [
+      90,
+      24
+    ],
+    "reference_id": "b08",
+    "switched": false,
+    "pool_size": 9,
+    "row_evaluations": 9,
+    "budget": 9,
+    "pool_sha256": "d258ea2a3c6f8e613dfe9607ca9f898eb9beed6382f64342071ca0a8ef84180b",
+    "mu": 0,
+    "interpretation": "Offline selector on shared preconstructed physical pool. Equal row counts are not equal route-search calls/CPU; no LER or novelty claim."
+  },
+  {
+    "policy": "plain_storage_then_duration",
+    "stages": [
+      "plain_data_storage_cubes",
+      "template_block_z"
+    ],
+    "candidate_id": "b08",
+    "tied_optima": [
+      "b00",
+      "b01",
+      "b02",
+      "b03",
+      "b04",
+      "b05",
+      "b06",
+      "b07",
+      "b08"
+    ],
+    "optimum": [
+      49,
+      24
+    ],
+    "reference_id": "b08",
+    "switched": false,
+    "pool_size": 9,
+    "row_evaluations": 9,
+    "budget": 9,
+    "pool_sha256": "d258ea2a3c6f8e613dfe9607ca9f898eb9beed6382f64342071ca0a8ef84180b",
+    "mu": 0,
+    "interpretation": "Offline selector on shared preconstructed physical pool. Equal row counts are not equal route-search calls/CPU; no LER or novelty claim."
+  },
+  {
+    "policy": "static_sites_tick_then_volume",
+    "stages": [
+      "static_site_ticks",
+      "total_lifetime_block_z"
+    ],
+    "candidate_id": "b08",
+    "tied_optima": [
+      "b00",
+      "b01",
+      "b02",
+      "b03",
+      "b04",
+      "b05",
+      "b06",
+      "b07",
+      "b08"
+    ],
+    "optimum": [
+      251870,
+      90
+    ],
+    "reference_id": "b08",
+    "switched": false,
+    "pool_size": 9,
+    "row_evaluations": 9,
+    "budget": 9,
+    "pool_sha256": "d258ea2a3c6f8e613dfe9607ca9f898eb9beed6382f64342071ca0a8ef84180b",
+    "mu": 0,
+    "interpretation": "Offline selector on shared preconstructed physical pool. Equal row counts are not equal route-search calls/CPU; no LER or novelty claim."
+  }
+]

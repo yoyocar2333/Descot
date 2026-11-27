@@ -3,6 +3,8 @@
 初訂：2026-11-16；最近增量：2026-11-27，Asia/Taipei。正式報告已完成；本計畫是後續研究，不修改已交付簡報。11/5、11/9 是歷史時程，不能當作下一輪截止日。使用者要求「天數壓縮，內容不壓縮」的完整性要求持續有效。
 
 
+11/27本次最新增量：[完整公開BV家族與部分終端讀出](updates/2026-11-27-complete-public-bv-family.md)接上固定MQT Bench原生3-qubit BV生成器（hidden11），保留全部9原指令／2CZ及2原始輸出、完整未量測旗標；已知CZ展開後13指令不取消H。無cap完整計數66個plans，9個八層最短全部full-source／3-qubit generators／signed inputs／原始rank2讀出／distance3／共同ideal與noisy DEM驗證通過，57個較深保留待資格化。9個互異noisy circuits、4種等待分段，全部同445-site catalogue／566TICK／data72+ancilla18 patch·block-z，四個同9-row budget資源selectors全平手並保留無cap基準b08。研究批36次實際編譯、63requests、27exact cache hits，36開始／完成journal可追溯；248完整測試通過。整個BV來源家族固定development，既有生成家族held-out sealed；0newshots、counts/CI=null、raw v1停止、μ=0。這完成新命名公開家族的完整實體整合，不完成原法共同PauliIR／rotation／movement／online同CPU比較或calibration／evaluation freeze；下一步回到這些方法門檻，再決定有機制依據的修訂與pilot，不無差別增編coverage。
+
 11/27後續最新實驗要求與增量：[hs4完整DAG最短池與物理checkpoint](updates/2026-11-27-hs4-minimum-checkpoint.md)以既有完整H/X/CX backend允許延後ready H，精確計數545,893,576,119個homogeneous plans、144個九層最短，修正只有H-first池才有唯一p12的範圍。首批6份完成完整32指令／4輸出／8 generators／signed inputs／distance3，54驗證targets、30次可核對完成編譯（中止in-flight數量另列未知及上界），另有既有p12=h143，整體7/144已合格、137份真正待資格化；不冒充全部144已完成。原13完整circuits與更好的p12全部保留，當前19-row資源baselines均保留p12，0newshots；raw v1停止、held-out sealed、μ=0。已新增逐call journal的bounded續跑入口。本次依最新指示回到研究，不製作／修改簡報；必要原法共同IR／online budget、開發校準／凍結／未見取樣仍未完成。
 
 

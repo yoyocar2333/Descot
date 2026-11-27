@@ -1,0 +1,40 @@
+{
+  "python": "3.12.14",
+  "base_commit": "a653bba8dc033e82cded50da63f168f753fdfa5d",
+  "code_sha256": {
+    "run_bv_public_family.py": "abb2d234449afee0acf5c3330a1d1174ff438a3e2af808afece45d2246a94309",
+    "public_partial_readout.py": "349384a620d209d7d2afaf3195bad9235d4b997ceaca0919ca17270d6dc1c54a",
+    "public_minimum_pool.py": "a0df8c68c62c1d82c7e5f54d5fd891da96a408b8c8645b03de6a67dc8323edbb",
+    "public_clifford.py": "bc3c68c183ec07cc95dea32fdf14f2290d0c082bd005d86b8a5a01296bce7ee5",
+    "public_candidate_pool.py": "4696ded929e46dc3ce34042d53fb3ca6b5d72c3635f9ab287c8d34589350d6e3",
+    "common_physical_pool.py": "b4056a9c2af51879162a17fe2a62e1e46140fa717957c9b2478cb2bf85c037d9",
+    "projection_geometry_metrics.py": "9356a42794e732090cfe63d86003297e1a2ba9756f3f3cf52b81eed9a5490cbe",
+    "exact_compile_cache.py": "85bff78caf29b49fbc80d5cbf03878e3db5c839830f573041683c63f1fcebddd",
+    "exact_program_validation.py": "aed04bbe2d37fded9690b66d4b06cd337a57de757dccccd00ecb72250eb71959",
+    "run_public_audit.py": "98a866e7ce1403b93715756d3af369e66728e97f7f6ad225923b156c62d1ad0a",
+    "schedule_circuit.py": "86508aa305ac346a04ff9d931bcfb17cc3f3976dbd16694d7a850584c4d63a60",
+    "surgery.py": "ee67e6691f7da5b48dd788b4e886348fbd70fd370154ef5de2ecee9b90d11e0b",
+    "requirements-lock.txt": "140e7ad5273ee3ac59347cd775c49bdcd2b1e978936e56bc7e1ab205eccaebf9",
+    "tests/test_public_partial_readout.py": "6b30637411e057305649c49f16edcb238515a5476703115b51240fad7e02a416"
+  },
+  "source_sha256": {
+    "benchmarks/public_2026-11-27/mqt/LICENSE": "42c32f77c8dcde761998d41ff3c05384dc468dee388866c5876a94966a5f9236",
+    "benchmarks/public_2026-11-27/mqt/bv_n3_11.qasm": "837045f834e064c3a0d73c8ac4a85e11e441c84ec3100608c28a2f7279e0c83d",
+    "benchmarks/public_2026-11-27/mqt/bv.py": "ed5fad70c0546f54862a5300449b00441d84728fd9edd6eada842bb7ecd6c6b3"
+  },
+  "packages": {
+    "stim": "1.16.0",
+    "tqec": "0.2.0",
+    "pymatching": "2.4.0",
+    "numpy": "2.5.4",
+    "qiskit": "2.5.2"
+  },
+  "tqec_direct_url": {
+    "url": "https://github.com/tqec/tqec.git",
+    "vcs_info": {
+      "vcs": "git",
+      "commit_id": "50fa2210597632a79bd266b56a5fb8d9b00747bb",
+      "requested_revision": "50fa2210597632a79bd266b56a5fb8d9b00747bb"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{"event": "compile_started", "key": "e81a679509c4610cc26b70507c63797dccc16e5d3549e5a32f7d1272a3376981", "input_bases": "zzz", "output_bases": "zzz"}
+{"event": "compile_finished", "key": "e81a679509c4610cc26b70507c63797dccc16e5d3549e5a32f7d1272a3376981", "seconds": 33.78743275600027, "ideal_sha256": "5da16a8de605e9968a9a8361ec9b8ccc1184a6e912df8c7852f59f6812409a63"}
+{"event": "compile_started", "key": "be4a1c6835d1a84b86d5b6ce644b9ebecc93708d80d09e0421771fb0dd0ab38a", "input_bases": "xzz", "output_bases": "xxx"}
+{"event": "compile_finished", "key": "be4a1c6835d1a84b86d5b6ce644b9ebecc93708d80d09e0421771fb0dd0ab38a", "seconds": 31.345865415999924, "ideal_sha256": "e7b33ff602058a73cb8b8a66149a84e7b5a71c6810dc65dbf435abd56ed2d097"}
+{"event": "compile_started", "key": "ba2ea2df0c691daabdf0c9df882df4c31d6c7d21bcb6af434d45b48374d23815", "input_bases": "zxz", "output_bases": "zxz"}
+{"event": "compile_finished", "key": "ba2ea2df0c691daabdf0c9df882df4c31d6c7d21bcb6af434d45b48374d23815", "seconds": 32.16695455099989, "ideal_sha256": "e87af47c570724c0ac3014444be7025cdcb84bcfdf52b6cb169317a12e8834f3"}
+{"event": "compile_started", "key": "f7348d4a30e19ebef22d052cd9e12eb2c96af83e6f35da2f5943dd972bfc9396", "input_bases": "zzx", "output_bases": "zzx"}
+{"event": "compile_finished", "key": "f7348d4a30e19ebef22d052cd9e12eb2c96af83e6f35da2f5943dd972bfc9396", "seconds": 32.32624390000001, "ideal_sha256": "fbf5de7e3d740c8426466b41da583fd682e68d7c245b53a5b3e67d95a4ed92b6"}

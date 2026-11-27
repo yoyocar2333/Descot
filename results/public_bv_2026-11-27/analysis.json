@@ -1,0 +1,272 @@
+{
+  "summary": {
+    "reference_id": "b08",
+    "original_instructions": 9,
+    "lowered_instructions": 13,
+    "original_outputs": 2,
+    "live_logical_qubits": 3,
+    "qualified_minima": 9,
+    "all_legal_plans": 66,
+    "retained_unqualified_deeper_plans": 57,
+    "unique_common_noisy_circuits": 9,
+    "unique_wait_profiles": 4,
+    "physical_compile_requests": 63,
+    "actual_physical_compilations": 36,
+    "exact_cache_hits": 27,
+    "physical_sites": 445,
+    "role": "New complete Bernstein-Vazirani development family; existing held-out source family remains sealed.",
+    "new_shots": 0,
+    "sampler_calls": 0,
+    "counts": null,
+    "confidence_interval": null,
+    "mu": 0,
+    "risk_revision": "None; raw equal-Pauli v1 remains stopped. No calibrated/decoder performance signal measured."
+  },
+  "wait_profile_groups": [
+    {
+      "candidate_ids": [
+        "b00",
+        "b02",
+        "b06",
+        "b08"
+      ],
+      "intervals_by_logical_qubit": [
+        [
+          6,
+          6,
+          6
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ]
+      ],
+      "total_protected_idle_block_z": 36,
+      "squared_protected_idle_block_z2": 270
+    },
+    {
+      "candidate_ids": [
+        "b01",
+        "b07"
+      ],
+      "intervals_by_logical_qubit": [
+        [
+          6,
+          6,
+          6
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          9
+        ]
+      ],
+      "total_protected_idle_block_z": 36,
+      "squared_protected_idle_block_z2": 234
+    },
+    {
+      "candidate_ids": [
+        "b03",
+        "b05"
+      ],
+      "intervals_by_logical_qubit": [
+        [
+          6,
+          6,
+          6
+        ],
+        [
+          9
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "total_protected_idle_block_z": 36,
+      "squared_protected_idle_block_z2": 234
+    },
+    {
+      "candidate_ids": [
+        "b04"
+      ],
+      "intervals_by_logical_qubit": [
+        [
+          6,
+          6,
+          6
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "total_protected_idle_block_z": 36,
+      "squared_protected_idle_block_z2": 198
+    }
+  ],
+  "original_terminal_pauli_preimages": [
+    {
+      "qubit": 1,
+      "classical_bit": 0,
+      "signed_input_pauli": "-ZZ_"
+    },
+    {
+      "qubit": 2,
+      "classical_bit": 1,
+      "signed_input_pauli": "-Z_Z"
+    }
+  ],
+  "pauli_ir_note": "Known Clifford propagation on the full unchanged source. Both rows include the unmeasured flag. This is an interface target, not an executed native CircLS lowering or new method.",
+  "source_unitary": 3.3306690738754696e-16,
+  "compile_started": 36,
+  "compile_finished": 36,
+  "unfinished_compilations": 0,
+  "compile_cache_hits": 27,
+  "independent_selector_median_seconds": {
+    "duration_then_volume": 0.0011213359998691885,
+    "volume_then_duration": 0.0011713560002135637,
+    "plain_storage_then_duration": 0.0011622609999903943,
+    "static_sites_tick_then_volume": 0.0011961840000367374
+  },
+  "units_rows": [
+    {
+      "candidate_id": "b00",
+      "cx_routing_steps": 2,
+      "h_layers": 6,
+      "template_block_z": 24,
+      "qec_rounds": null,
+      "stim_ticks": 566,
+      "data_lifetime_block_z": 72,
+      "ancilla_lifetime_block_z": 18,
+      "total_lifetime_block_z": 90,
+      "full_footprint_reservation_block_z": 48,
+      "active_physical_sites": 445,
+      "common_device_sites": 445
+    },
+    {
+      "candidate_id": "b01",
+      "cx_routing_steps": 2,
+      "h_layers": 6,
+      "template_block_z": 24,
+      "qec_rounds": null,
+      "stim_ticks": 566,
+      "data_lifetime_block_z": 72,
+      "ancilla_lifetime_block_z": 18,
+      "total_lifetime_block_z": 90,
+      "full_footprint_reservation_block_z": 48,
+      "active_physical_sites": 445,
+      "common_device_sites": 445
+    },
+    {
+      "candidate_id": "b02",
+      "cx_routing_steps": 2,
+      "h_layers": 6,
+      "template_block_z": 24,
+      "qec_rounds": null,
+      "stim_ticks": 566,
+      "data_lifetime_block_z": 72,
+      "ancilla_lifetime_block_z": 18,
+      "total_lifetime_block_z": 90,
+      "full_footprint_reservation_block_z": 48,
+      "active_physical_sites": 445,
+      "common_device_sites": 445
+    },
+    {
+      "candidate_id": "b03",
+      "cx_routing_steps": 2,
+      "h_layers": 6,
+      "template_block_z": 24,
+      "qec_rounds": null,
+      "stim_ticks": 566,
+      "data_lifetime_block_z": 72,
+      "ancilla_lifetime_block_z": 18,
+      "total_lifetime_block_z": 90,
+      "full_footprint_reservation_block_z": 48,
+      "active_physical_sites": 445,
+      "common_device_sites": 445
+    },
+    {
+      "candidate_id": "b04",
+      "cx_routing_steps": 2,
+      "h_layers": 6,
+      "template_block_z": 24,
+      "qec_rounds": null,
+      "stim_ticks": 566,
+      "data_lifetime_block_z": 72,
+      "ancilla_lifetime_block_z": 18,
+      "total_lifetime_block_z": 90,
+      "full_footprint_reservation_block_z": 48,
+      "active_physical_sites": 445,
+      "common_device_sites": 445
+    },
+    {
+      "candidate_id": "b05",
+      "cx_routing_steps": 2,
+      "h_layers": 6,
+      "template_block_z": 24,
+      "qec_rounds": null,
+      "stim_ticks": 566,
+      "data_lifetime_block_z": 72,
+      "ancilla_lifetime_block_z": 18,
+      "total_lifetime_block_z": 90,
+      "full_footprint_reservation_block_z": 48,
+      "active_physical_sites": 445,
+      "common_device_sites": 445
+    },
+    {
+      "candidate_id": "b06",
+      "cx_routing_steps": 2,
+      "h_layers": 6,
+      "template_block_z": 24,
+      "qec_rounds": null,
+      "stim_ticks": 566,
+      "data_lifetime_block_z": 72,
+      "ancilla_lifetime_block_z": 18,
+      "total_lifetime_block_z": 90,
+      "full_footprint_reservation_block_z": 48,
+      "active_physical_sites": 445,
+      "common_device_sites": 445
+    },
+    {
+      "candidate_id": "b07",
+      "cx_routing_steps": 2,
+      "h_layers": 6,
+      "template_block_z": 24,
+      "qec_rounds": null,
+      "stim_ticks": 566,
+      "data_lifetime_block_z": 72,
+      "ancilla_lifetime_block_z": 18,
+      "total_lifetime_block_z": 90,
+      "full_footprint_reservation_block_z": 48,
+      "active_physical_sites": 445,
+      "common_device_sites": 445
+    },
+    {
+      "candidate_id": "b08",
+      "cx_routing_steps": 2,
+      "h_layers": 6,
+      "template_block_z": 24,
+      "qec_rounds": null,
+      "stim_ticks": 566,
+      "data_lifetime_block_z": 72,
+      "ancilla_lifetime_block_z": 18,
+      "total_lifetime_block_z": 90,
+      "full_footprint_reservation_block_z": 48,
+      "active_physical_sites": 445,
+      "common_device_sites": 445
+    }
+  ],
+  "interpretation": "Different full physical circuits and wait segmentation on a new public development family. No decoded labels or new risk model; structural identifiability is not efficacy. All9 minima and uncapped baseline remain;57 deeper plans retained unqualified.",
+  "next_gate": "Original-method common Pauli IR/rotation/movement and online equal-CPU controls; only then decide mechanism-based development revision, calibration/ablation and full sampling freeze.",
+  "new_shots": 0,
+  "mu": 0
+}

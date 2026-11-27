@@ -46,3 +46,7 @@ results/presentation_fault_demo_2026-11-27/circuits/
 # Complete scientific raw assets are stored in the split tar.xz snapshot.
 /results/hs4_minimum_frontier_2026-11-27/circuits/
 /results/hs4_minimum_frontier_2026-11-27/certificates/
+
+# Complete public BV raw circuits and proofs live in the verified tar.xz snapshot.
+/results/public_bv_2026-11-27/circuits/
+/results/public_bv_2026-11-27/certificates/

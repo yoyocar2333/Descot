@@ -1,0 +1,19 @@
+{
+  "python": "3.12.14",
+  "pip_check": "PASS: No broken requirements found.",
+  "targeted": {
+    "command": ".venv/bin/python -m pytest -q tests/test_public_partial_readout.py",
+    "passed": 7,
+    "seconds": 1.35
+  },
+  "full_suite": {
+    "command": ".venv/bin/python -m pytest -q",
+    "passed": 248,
+    "seconds": 652.87,
+    "exit_code": 0,
+    "stdout_sha256": "d5f6866f0eece250d47735317527ff477927db9289f30db4c52808315fa1bd7b"
+  },
+  "executed_code_freeze_intact": true,
+  "research_new_shots": 0,
+  "legacy_tests_note": "Existing p=0 correctness trajectories (including test_surgery noiseless1000 and validate_ideal fixtures) are regression tests, not new noisy research labels. Native source/reference tableau checks do not call a sampler."
+}

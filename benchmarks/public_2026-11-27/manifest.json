@@ -1,0 +1,36 @@
+{
+  "repository": "https://github.com/munich-quantum-toolkit/bench",
+  "revision": "8f919416457d76b256930443078334021634236f",
+  "upstream_path": "src/mqt/bench/benchmarks/bv.py",
+  "upstream_blob_sha": "e813914a5a7ea7304381bceb06a377c0cdabcdec",
+  "license": "MIT",
+  "parameters": {
+    "num_qubits": 3,
+    "dynamic": false,
+    "hidden_string": "11"
+  },
+  "generation": "Unchanged create_circuit function AST/body; registration decorator only omitted; pinned Qiskit2.5.2 qasm2.dumps. No unitary or readout instruction removed.",
+  "family": "bernstein_vazirani",
+  "split": "development",
+  "choice": "Chosen before physical/noisy outcomes: complete2 original outputs,3 live logical qubits,66 legal plans with9 minimum alternatives. Both active oracle CZ retained; hidden11 is an upstream generator parameter.",
+  "files": [
+    {
+      "path": "benchmarks/public_2026-11-27/mqt/LICENSE",
+      "bytes": 1159,
+      "sha256": "42c32f77c8dcde761998d41ff3c05384dc468dee388866c5876a94966a5f9236",
+      "git_blob_sha": "8eada1fb94843ab037cb58655c95c2501c8f8ca6"
+    },
+    {
+      "path": "benchmarks/public_2026-11-27/mqt/bv.py",
+      "bytes": 3122,
+      "sha256": "ed5fad70c0546f54862a5300449b00441d84728fd9edd6eada842bb7ecd6c6b3",
+      "git_blob_sha": "e813914a5a7ea7304381bceb06a377c0cdabcdec"
+    },
+    {
+      "path": "benchmarks/public_2026-11-27/mqt/bv_n3_11.qasm",
+      "bytes": 170,
+      "sha256": "837045f834e064c3a0d73c8ac4a85e11e441c84ec3100608c28a2f7279e0c83d",
+      "git_blob_sha": "1f0b81af6a887aa263cc7785a36ce96f834c614a"
+    }
+  ]
+}

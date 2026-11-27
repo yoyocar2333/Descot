@@ -1,0 +1,61 @@
+{
+  "schema": "post_report_family_split_v2",
+  "date": "2026-11-27",
+  "development_families": [
+    "grover_search",
+    "hidden_shift_hs4",
+    "bell_pairs",
+    "cat_ghz",
+    "all_prior_observed_research_records",
+    "bernstein_vazirani"
+  ],
+  "held_out_families": [
+    "qiskit_xcx_linear_reversible"
+  ],
+  "held_out_instances": [
+    {
+      "path": "benchmarks/public_2026-11-18/qiskit/linear_seed01.qasm",
+      "source_sha256": "103e6466038fb4220ea85f72e3f58489592162d023868899b9f5fd4a2580bdbf",
+      "generator_commit": "c1c01ada399af13e495c27b9b22b4ff942bbad7e",
+      "seed": 1
+    }
+  ],
+  "family_policy": "All instances from this Qiskit random_clifford_circuit generator family, including other seeds/sizes and future gate-alphabet extensions, remain reserved; do not fit on sibling instances. Only the declared X/CX instance is physically qualified here. Existing noisy labels remain development only.",
+  "qualification_status": "complete_for_declared_public_generated_support_domain",
+  "permitted_before_evaluation_freeze": [
+    "source/version validation",
+    "DAG/footprint/cost eligibility",
+    "ideal signed-input and complete-generator verification",
+    "noise/DEM/decoder construction and distance checks without samples"
+  ],
+  "noisy_label_access": {
+    "qiskit_xcx_linear_reversible": "sealed"
+  },
+  "held_out_sampling_allowed": false,
+  "evaluation_freeze_status": "not_started",
+  "required_before_held_out": [
+    "common-pool/budget selectors and original-method controls",
+    "development calibration and ablations",
+    "committed source/model/candidates/complete observables/noise/decoder/seeds/shots/stopping rules"
+  ],
+  "general_scheduler_mu": 0,
+  "interpretation": "One generated held-out instance qualifies a bounded transfer test, not broad cross-family efficacy or a named public application benchmark.",
+  "physical_qualification": {
+    "result": "results/linear_competition_2026-11-18/summary.json",
+    "minimum_candidates": [
+      "l002",
+      "l004",
+      "l006"
+    ],
+    "unique_noisy_circuits": 3,
+    "new_shots": 0
+  },
+  "supersedes": "benchmarks/POST_REPORT_FAMILY_SPLIT_2026-11-18.json",
+  "new_development_family": {
+    "family": "bernstein_vazirani",
+    "source_manifest": "benchmarks/public_2026-11-27/manifest.json",
+    "noisy_label_access": "none;0new shots",
+    "protocol": "results/public_bv_2026-11-27/protocol.json",
+    "held_out_status": "Entire BV source family is development; no sibling size/hidden string may be relabeled as held-out."
+  }
+}

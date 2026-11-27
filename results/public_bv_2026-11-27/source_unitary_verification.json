@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "method": "Independent Qiskit8x8 complex Operator equality and all8 exact statevectors; no sampling",
+  "source_sha256": "837045f834e064c3a0d73c8ac4a85e11e441c84ec3100608c28a2f7279e0c83d",
+  "lowered_operations_sha256": "a5145cea24327a0840589b32a0aaa1ac3c1405c2be75255d193701882a0615d6",
+  "max_abs_matrix_error": 3.3306690738754696e-16,
+  "comparison_atol": 1e-12,
+  "comparison_rtol": 0,
+  "all_computational_inputs": [
+    {
+      "input_basis_index": 0,
+      "full_output_basis_index": 7,
+      "original_classical_bits_c0_c1": [
+        1,
+        1
+      ]
+    },
+    {
+      "input_basis_index": 1,
+      "full_output_basis_index": 0,
+      "original_classical_bits_c0_c1": [
+        0,
+        0
+      ]
+    },
+    {
+      "input_basis_index": 2,
+      "full_output_basis_index": 5,
+      "original_classical_bits_c0_c1": [
+        0,
+        1
+      ]
+    },
+    {
+      "input_basis_index": 3,
+      "full_output_basis_index": 2,
+      "original_classical_bits_c0_c1": [
+        1,
+        0
+      ]
+    },
+    {
+      "input_basis_index": 4,
+      "full_output_basis_index": 3,
+      "original_classical_bits_c0_c1": [
+        1,
+        0
+      ]
+    },
+    {
+      "input_basis_index": 5,
+      "full_output_basis_index": 4,
+      "original_classical_bits_c0_c1": [
+        0,
+        1
+      ]
+    },
+    {
+      "input_basis_index": 6,
+      "full_output_basis_index": 1,
+      "original_classical_bits_c0_c1": [
+        0,
+        0
+      ]
+    },
+    {
+      "input_basis_index": 7,
+      "full_output_basis_index": 6,
+      "original_classical_bits_c0_c1": [
+        1,
+        1
+      ]
+    }
+  ],
+  "new_shots": 0,
+  "sampler_calls": 0
+}

@@ -1,0 +1,199 @@
+{
+  "dp_candidate_construction_seconds": 0.0008158059999914258,
+  "physical_batch_wall_seconds": 631.5091180049999,
+  "workers": 2,
+  "actual_compile_sum_seconds": 1084.263635199,
+  "selector_only_seconds_31_repeats": [
+    {
+      "duration_then_volume": 0.0011174960000062129,
+      "volume_then_duration": 0.0019086369998149166,
+      "plain_storage_then_duration": 0.0013223010000729118,
+      "static_sites_tick_then_volume": 0.001164760999927239
+    },
+    {
+      "duration_then_volume": 0.001212328000292473,
+      "volume_then_duration": 0.0011797860001934168,
+      "plain_storage_then_duration": 0.0011974879998888355,
+      "static_sites_tick_then_volume": 0.0011398950000511832
+    },
+    {
+      "duration_then_volume": 0.001126897000176541,
+      "volume_then_duration": 0.0012446210002963198,
+      "plain_storage_then_duration": 0.0013048660002823453,
+      "static_sites_tick_then_volume": 0.0011961840000367374
+    },
+    {
+      "duration_then_volume": 0.0011364949996277574,
+      "volume_then_duration": 0.0011250530001234438,
+      "plain_storage_then_duration": 0.001279377999708231,
+      "static_sites_tick_then_volume": 0.002181128999836801
+    },
+    {
+      "duration_then_volume": 0.0012958000002072367,
+      "volume_then_duration": 0.0014325819997793587,
+      "plain_storage_then_duration": 0.0013749939998888294,
+      "static_sites_tick_then_volume": 0.0011183280003024265
+    },
+    {
+      "duration_then_volume": 0.0013429280002128507,
+      "volume_then_duration": 0.0014271700001700083,
+      "plain_storage_then_duration": 0.0010397779997219914,
+      "static_sites_tick_then_volume": 0.001198698999814951
+    },
+    {
+      "duration_then_volume": 0.0010410189997855923,
+      "volume_then_duration": 0.0011713560002135637,
+      "plain_storage_then_duration": 0.0011622609999903943,
+      "static_sites_tick_then_volume": 0.0010659310000846745
+    },
+    {
+      "duration_then_volume": 0.0011033110004063928,
+      "volume_then_duration": 0.0010456529998918995,
+      "plain_storage_then_duration": 0.0010218120000899944,
+      "static_sites_tick_then_volume": 0.001060669000253256
+    },
+    {
+      "duration_then_volume": 0.0010278439999638067,
+      "volume_then_duration": 0.0010481519998393196,
+      "plain_storage_then_duration": 0.0010894739998548175,
+      "static_sites_tick_then_volume": 0.001022809000005509
+    },
+    {
+      "duration_then_volume": 0.0010207390000687155,
+      "volume_then_duration": 0.00102119200028028,
+      "plain_storage_then_duration": 0.0013749100003224157,
+      "static_sites_tick_then_volume": 0.0011868940000567818
+    },
+    {
+      "duration_then_volume": 0.001097221000236459,
+      "volume_then_duration": 0.0012110220000067784,
+      "plain_storage_then_duration": 0.0011433620002208045,
+      "static_sites_tick_then_volume": 0.0013612230000035197
+    },
+    {
+      "duration_then_volume": 0.0011459520001153578,
+      "volume_then_duration": 0.001127287000144861,
+      "plain_storage_then_duration": 0.001043869000113773,
+      "static_sites_tick_then_volume": 0.001228782999987743
+    },
+    {
+      "duration_then_volume": 0.0011397539997233253,
+      "volume_then_duration": 0.0010842589999811025,
+      "plain_storage_then_duration": 0.0010463660000823438,
+      "static_sites_tick_then_volume": 0.001118123000196647
+    },
+    {
+      "duration_then_volume": 0.0011213359998691885,
+      "volume_then_duration": 0.0012530829999377602,
+      "plain_storage_then_duration": 0.0012321879999035446,
+      "static_sites_tick_then_volume": 0.0012239510001563758
+    },
+    {
+      "duration_then_volume": 0.0011288020000392862,
+      "volume_then_duration": 0.0010670350002328632,
+      "plain_storage_then_duration": 0.0011091780002061569,
+      "static_sites_tick_then_volume": 0.0012026330000480812
+    },
+    {
+      "duration_then_volume": 0.0011215959998480685,
+      "volume_then_duration": 0.0011461900003268966,
+      "plain_storage_then_duration": 0.0012527140002021042,
+      "static_sites_tick_then_volume": 0.001059561999682046
+    },
+    {
+      "duration_then_volume": 0.0010441200001878315,
+      "volume_then_duration": 0.0012379190002320684,
+      "plain_storage_then_duration": 0.0013462479996633192,
+      "static_sites_tick_then_volume": 0.002616235000004963
+    },
+    {
+      "duration_then_volume": 0.0043795259998660185,
+      "volume_then_duration": 0.0018678910000744509,
+      "plain_storage_then_duration": 0.002563771000041015,
+      "static_sites_tick_then_volume": 0.0012180819999230152
+    },
+    {
+      "duration_then_volume": 0.001097207999919192,
+      "volume_then_duration": 0.0010747169999376638,
+      "plain_storage_then_duration": 0.0012341579999883834,
+      "static_sites_tick_then_volume": 0.0011012760000994604
+    },
+    {
+      "duration_then_volume": 0.0011388819998501276,
+      "volume_then_duration": 0.0011041789998671447,
+      "plain_storage_then_duration": 0.00105124399988199,
+      "static_sites_tick_then_volume": 0.0013080170001558145
+    },
+    {
+      "duration_then_volume": 0.001060404000327253,
+      "volume_then_duration": 0.0013666419999935897,
+      "plain_storage_then_duration": 0.001071072999820899,
+      "static_sites_tick_then_volume": 0.0012846790000367037
+    },
+    {
+      "duration_then_volume": 0.0012013069999738946,
+      "volume_then_duration": 0.0010570740000730439,
+      "plain_storage_then_duration": 0.0011008420001417107,
+      "static_sites_tick_then_volume": 0.0011017189999620314
+    },
+    {
+      "duration_then_volume": 0.001051969999934954,
+      "volume_then_duration": 0.001248886999746901,
+      "plain_storage_then_duration": 0.001492757000050915,
+      "static_sites_tick_then_volume": 0.001679953999882855
+    },
+    {
+      "duration_then_volume": 0.0013236869999673218,
+      "volume_then_duration": 0.001112572999772965,
+      "plain_storage_then_duration": 0.0013230240001576021,
+      "static_sites_tick_then_volume": 0.0012862399998994078
+    },
+    {
+      "duration_then_volume": 0.0011552350001693412,
+      "volume_then_duration": 0.0011015029999725812,
+      "plain_storage_then_duration": 0.0010626989997035707,
+      "static_sites_tick_then_volume": 0.001056215000062366
+    },
+    {
+      "duration_then_volume": 0.0011050210000576044,
+      "volume_then_duration": 0.001206349999847589,
+      "plain_storage_then_duration": 0.0011256810003033024,
+      "static_sites_tick_then_volume": 0.0014033679999556625
+    },
+    {
+      "duration_then_volume": 0.0011417359996812593,
+      "volume_then_duration": 0.0011687769997479336,
+      "plain_storage_then_duration": 0.0010529149999456422,
+      "static_sites_tick_then_volume": 0.0012317069999880914
+    },
+    {
+      "duration_then_volume": 0.0010770079998110305,
+      "volume_then_duration": 0.0010575669998615922,
+      "plain_storage_then_duration": 0.001050911000220367,
+      "static_sites_tick_then_volume": 0.0011370889997124323
+    },
+    {
+      "duration_then_volume": 0.001083884000308899,
+      "volume_then_duration": 0.0012274919999981648,
+      "plain_storage_then_duration": 0.0012342070003796834,
+      "static_sites_tick_then_volume": 0.0013823120002598444
+    },
+    {
+      "duration_then_volume": 0.001072217000000819,
+      "volume_then_duration": 0.0013087139996059705,
+      "plain_storage_then_duration": 0.0011010949997398711,
+      "static_sites_tick_then_volume": 0.0011896390001311374
+    },
+    {
+      "duration_then_volume": 0.0010548619998189679,
+      "volume_then_duration": 0.0014724560001013742,
+      "plain_storage_then_duration": 0.00118681200001447,
+      "static_sites_tick_then_volume": 0.001183160999971733
+    }
+  ],
+  "online_routing_seconds": null,
+  "calibration_seconds": null,
+  "monte_carlo_seconds": null,
+  "decode_seconds": null,
+  "note": "DP construction and independent scorer/selector measurements are separate. Parallel batch wall time is throughput, not equal-CPU native-method speedup."
+}

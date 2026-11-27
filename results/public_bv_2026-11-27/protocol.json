@@ -1,0 +1,39 @@
+{
+  "id": "complete_public_bv_static_n3_hidden11_v1",
+  "source_revision": "8f919416457d76b256930443078334021634236f",
+  "family": "MQT Bench Bernstein-Vazirani; development, distinct from Bell/Grover/hidden_shift",
+  "parameters": {
+    "num_qubits": 3,
+    "dynamic": false,
+    "hidden_string": "11"
+  },
+  "source_policy": "Execute unchanged upstream create_circuit body; registration decorator omitted only. Export QASM with pinned Qiskit. All9 source instructions retained in13 lowered instructions; no cancellation.",
+  "pool_policy": "All9 minima of exact homogeneous H/CX ready-subset search; no H-first or concurrency cap. All66 plans counted,57 deeper plans retained unqualified. Mixed H/CX layers remain outside this profile.",
+  "device_policy": "Union of all9 compiler coordinate catalogues, then injective coordinate relabeling. No outcome-based exclusion. Common experimental envelope, not hardware-derived cap.",
+  "full_output": "Both original classical bits c0=Z(q1),c1=Z(q2), rank2. Internal q0 cleanup excluded only from observable annotations; its full lifetime/gates/detectors/readout remain.",
+  "validation": "Full original/lowered tableau; all3 logical qubits and6 X/Z generators; all8 signed inputs; each3 final logical faults with predicted original-output response; ideal/noisy DEM remap equality; graphlike distance3.",
+  "noise": "TQEC add_noise uniform depolarizing p=0.001, distance3,k1",
+  "decoder": "ordinary uncorrelated PyMatching MWPM from decomposed DEM; construction only",
+  "physical_compile_request_ceiling": 63,
+  "candidate_count": 9,
+  "requests_per_candidate": 7,
+  "compile_cache": "Per-candidate identical full program/plan/bases/compiler requests only; no validation target skipped. Each actual call durably journaled before start.",
+  "selectors": [
+    "duration_then_volume",
+    "volume_then_duration",
+    "plain_storage_then_duration",
+    "static_sites_tick_then_volume"
+  ],
+  "selector_budget_rows": 9,
+  "shots": 0,
+  "seeds": [],
+  "sampler_calls": 0,
+  "counts": null,
+  "confidence_interval": null,
+  "sampling_permission": false,
+  "held_out_labels": "sealed",
+  "mu": 0,
+  "stopping_rule": "Stop on source, DAG, readout, generator, sign, footprint, DEM, distance or budget mismatch; no replacement chosen using noisy outcomes.",
+  "units": "One physical H/CX layer=3 template block-z in this adapter only; routing steps,H layers,block-z,TICK separate; QEC rounds=null.",
+  "scope": "Complete public-family physical integration and offline common-pool resource controls. Not original O3LS/SPARO/CircLS/Hamada equal-CPU comparison, calibrated risk model, held-out evaluation or decoded improvement."
+}

@@ -1,0 +1,23 @@
+{
+  "reference_id": "b08",
+  "original_instructions": 9,
+  "lowered_instructions": 13,
+  "original_outputs": 2,
+  "live_logical_qubits": 3,
+  "qualified_minima": 9,
+  "all_legal_plans": 66,
+  "retained_unqualified_deeper_plans": 57,
+  "unique_common_noisy_circuits": 9,
+  "unique_wait_profiles": 4,
+  "physical_compile_requests": 63,
+  "actual_physical_compilations": 36,
+  "exact_cache_hits": 27,
+  "physical_sites": 445,
+  "role": "New complete Bernstein-Vazirani development family; existing held-out source family remains sealed.",
+  "new_shots": 0,
+  "sampler_calls": 0,
+  "counts": null,
+  "confidence_interval": null,
+  "mu": 0,
+  "risk_revision": "None; raw equal-Pauli v1 remains stopped. No calibrated/decoder performance signal measured."
+}
