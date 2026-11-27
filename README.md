@@ -1,5 +1,7 @@
 # Improving DASCOT Routing
 
+**2026-11-28 presentation references:** [完整書目與逐頁對照](presentations/2026-11-30/REFERENCES_ZH.md) · [21頁新版講稿／問答](presentations/2026-11-30/README_V3_ZH.md) · [引用更新記錄](docs/updates/2026-11-28-presentation-references.md). Three formal papers plus three fixed software/data snapshots; no new experiments.
+
 **2026-11-28 direct native control:** [Author + Two-step result and decision](docs/updates/2026-11-28-author-native-two.md) · [最新方法計畫](docs/AUTHOR_NATIVE_TWO_PLAN_2026-11-28_ZH.md). 504 additional routing executions; 84/84 author schedule hashes reproduced. Native lookahead remains a development control, with no fixed-CPU win established. 0 new shots.
 
 Current priority: improve the original DASCOT routing result for the **2026-11-30** presentation. [最新繁中計畫](docs/ORIGINAL_OBJECTIVE_PLAN_2026-11-28_ZH.md) · [公開比較與完整新證據](docs/updates/2026-11-28-original-objective.md) · [新版講稿與問答](presentations/2026-11-30/README_ZH.md).

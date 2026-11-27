@@ -1,0 +1,76 @@
+{
+  "verified_date": "2026-11-28",
+  "references": [
+    {
+      "id": 1,
+      "kind": "paper",
+      "authors": ["Abtin Molavi", "Amanda Xu", "Swamit Tannu", "Aws Albarghouthi"],
+      "short_authors": "A. Molavi, A. Xu, S. Tannu, and A. Albarghouthi",
+      "title": "Dependency-Aware Compilation for Surface Code Quantum Architectures",
+      "journal": "Proceedings of the ACM on Programming Languages",
+      "volume": "9", "issue": "OOPSLA1", "article": "82", "pages": "1–38", "year": 2025,
+      "doi": "10.1145/3720416", "url": "https://doi.org/10.1145/3720416",
+      "preprint": "https://arxiv.org/abs/2311.18042v3", "preprint_date": "2025-04-28",
+      "verified_sources": ["https://arxiv.org/pdf/2311.18042v3"],
+      "supports": "SCMR abstraction (§3), routing criticality and order search (§4.3), and the known T-first/CNOT-order mechanism (Fig.9). Does not establish our measured improvements."
+    },
+    {
+      "id": 2, "kind": "paper",
+      "authors": ["Kou Hamada", "Yasunari Suzuki", "Yuuki Tokunaga"],
+      "short_authors": "K. Hamada, Y. Suzuki, and Y. Tokunaga",
+      "title": "Efficient and high-performance routing of lattice-surgery paths on three-dimensional lattice",
+      "journal": "Quantum", "volume": "10", "article": "2061", "year": 2026,
+      "doi": "10.22331/q-2026-04-13-2061", "url": "https://doi.org/10.22331/q-2026-04-13-2061",
+      "preprint": "https://arxiv.org/abs/2401.15829v6", "preprint_date": "2026-04-06",
+      "verified_sources": ["https://quantum-journal.org/papers/q-2026-04-13-2061/", "https://arxiv.org/abs/2401.15829v6"],
+      "supports": "Prior look-ahead Dijkstra projection for 3D lattice-surgery routing. Our 2D successor-front reward is not a reproduction of Hamada's full method and has no lookahead-concept novelty claim."
+    },
+    {
+      "id": 3, "kind": "paper",
+      "authors": ["Ang Li", "Samuel Stein", "Sriram Krishnamoorthy", "James Ang"],
+      "short_authors": "A. Li, S. Stein, S. Krishnamoorthy, and J. Ang",
+      "title": "QASMBench: A Low-Level Quantum Benchmark Suite for NISQ Evaluation and Simulation",
+      "journal": "ACM Transactions on Quantum Computing", "volume": "4", "issue": "2", "article": "10", "pages": "1–26", "year": 2023,
+      "doi": "10.1145/3550488", "url": "https://doi.org/10.1145/3550488",
+      "preprint": "https://arxiv.org/abs/2005.13018v3", "preprint_date": "2022-05-09",
+      "preprint_title": "QASMBench: A Low-level QASM Benchmark Suite for NISQ Evaluation and Simulation",
+      "verified_sources": ["https://www.pnnl.gov/publications/qasmbench-low-level-quantum-benchmark-suite-nisq-evaluation-and-simulation", "https://arxiv.org/abs/2005.13018v3"],
+      "supports": "Public workload provenance. This NISQ benchmark paper does not validate our surface-code physical backend or routing results.",
+      "verification_note": "The repository README's sample BibTeX says 2022. The published journal record is volume4 issue2 article10 in2023; use the journal citation and retain the separately identified2022 preprint version."
+    },
+    {
+      "id": 4, "kind": "software",
+      "title": "wisq: author DASCOT implementation and bundled 3_17_13 source",
+      "author": "qqq-wisc / DASCOT authors", "year": 2026,
+      "repository": "https://github.com/qqq-wisc/wisq",
+      "revision": "97c12a5e22cf16e37288c60a0a5735c58c6fe8ca",
+      "url": "https://github.com/qqq-wisc/wisq/tree/97c12a5e22cf16e37288c60a0a5735c58c6fe8ca",
+      "paths": ["src/wisq/sarouting.py", "src/wisq/wisq-circuits/3_17_13.qasm"],
+      "supports": "Exact native driver, enumeration/SA and route primitive, plus the complete public3_17_13 circuit. Year2026 is access/snapshot use, not a claimed software publication date."
+    },
+    {
+      "id": 5, "kind": "dataset",
+      "title": "QASMBench source snapshot", "author": "PNNL QASMBench contributors", "year": 2026,
+      "repository": "https://github.com/pnnl/QASMBench",
+      "revision": "357b942396d5c2b7cbc1c229c585a6ef5ccaebac",
+      "url": "https://github.com/pnnl/QASMBench/tree/357b942396d5c2b7cbc1c229c585a6ef5ccaebac",
+      "paths": ["small/qec_en_n5/qec_en_n5.qasm", "small/error_correctiond3_n5/error_correctiond3_n5.qasm"],
+      "supports": "Actual full QASM source bytes and retained gates/readout, distinguished from the benchmark paper[3]."
+    },
+    {
+      "id": 6, "kind": "research_artifact",
+      "title": "This work: Descot routing implementations and measured research records", "author": "DASCOT project team", "year": 2026,
+      "repository": "https://github.com/yoyocar2333/Descot",
+      "revision": "35142efc13353da524508f5fc41dadcd2d68458a",
+      "url": "https://github.com/yoyocar2333/Descot/tree/35142efc13353da524508f5fc41dadcd2d68458a",
+      "paths": ["results/analysis/summary.json", "archives/phase1_snapshot.zip", "results/original_objective_2026-11-30/", "archives/original_objective_2026-11-30.zip", "results/author_native_two_2026-11-28/", "archives/author_native_two_2026-11-28.zip"],
+      "supports": "All new scores, full-route diagrams, frozen synthetic depths, public comparisons, independent timings, ablations and negative cases shown in this report. These are our experimental records, not numbers reported by papers[1–3]."
+    }
+  ],
+  "citation_map": {
+    "3": [1,4,6], "4": [4], "5": [1,4,6], "6": [1,4], "8": [1,2,4,6], "9": [6], "10": [1,4,6], "12": [6], "13": [6], "14": [3,4,5,6], "15": [6], "16": [6], "18": [6], "19": [1,4,6]
+  },
+  "new_shots": 0,
+  "new_routing_executions": 0,
+  "physical_compilations": 0
+}

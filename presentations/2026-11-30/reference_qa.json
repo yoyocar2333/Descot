@@ -1,0 +1,128 @@
+{
+  "status": "PASS",
+  "verified_date": "2026-11-28",
+  "native_page_id": "page_6c060a5ae73c8191bd4db6c4c8047048",
+  "observed_sequence": 9,
+  "total_slides": 21,
+  "inline_citation_slides": [
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    18,
+    19
+  ],
+  "reference_slides": [
+    20,
+    21
+  ],
+  "references": 6,
+  "changed_slides": [
+    {
+      "slide": 3,
+      "sha256": "bc217d4cc9cb07723d324981e908dce4a059a7c93af9d8059745be51e64c05c6",
+      "visual_inspection": "PASS"
+    },
+    {
+      "slide": 4,
+      "sha256": "74ff8ff7b2ff26a335b184a4ec429dffdc7a626544d618c50584a6a2a3d9678d",
+      "visual_inspection": "PASS"
+    },
+    {
+      "slide": 5,
+      "sha256": "58af7ab06be6657df8217d7b434a5a311a0f9a841549c49c8f9c03e67dd5075f",
+      "visual_inspection": "PASS"
+    },
+    {
+      "slide": 6,
+      "sha256": "cb47c39a19d39f8529486cbfb31421090bc432bc8142aa8a6dae058c6c41c672",
+      "visual_inspection": "PASS"
+    },
+    {
+      "slide": 8,
+      "sha256": "721bc070205471f985307e2663e0c6239d613ed91c4192610e9b9ca8d815a2c1",
+      "visual_inspection": "PASS"
+    },
+    {
+      "slide": 9,
+      "sha256": "8c7f4ac3c89c1fdb1941f4972ba702890f8e24f2320b91f22529e82f73a6f028",
+      "visual_inspection": "PASS"
+    },
+    {
+      "slide": 10,
+      "sha256": "0b388320f0b8c8cb0def04b3eafc4181026c86197343091fdf3943ccd5a147f0",
+      "visual_inspection": "PASS"
+    },
+    {
+      "slide": 12,
+      "sha256": "dc18a6cfdaa27f29c13f75da7a52a7fc96026027f9ec32fec925048d5bcc7c63",
+      "visual_inspection": "PASS"
+    },
+    {
+      "slide": 13,
+      "sha256": "86a91dbbcbe574908789b280a23a12528d209eab079a9a73f9114e52a356f51b",
+      "visual_inspection": "PASS"
+    },
+    {
+      "slide": 14,
+      "sha256": "e18aaada3b8e24a3eb0a8aefe7523dca970c6edf2e96f7247e1d255ea830baa8",
+      "visual_inspection": "PASS"
+    },
+    {
+      "slide": 15,
+      "sha256": "3a8dc1548b20f02ff4f5b2e20d78e51b017e82f6317478505b22255068ba2063",
+      "visual_inspection": "PASS"
+    },
+    {
+      "slide": 16,
+      "sha256": "2fb28a6dc10cb40c354592bb51a335f203be808cb42ca9c70db594dce3155b9c",
+      "visual_inspection": "PASS"
+    },
+    {
+      "slide": 18,
+      "sha256": "f1591432a22dbcb984471d1aa64006a4ba4e50577ec541c06f3ceb7b4df6a3ee",
+      "visual_inspection": "PASS"
+    },
+    {
+      "slide": 19,
+      "sha256": "0afbb4be18b0597fb8507a89b022681d9f78e9f0f22ca6837e4e517617e04321",
+      "visual_inspection": "PASS"
+    },
+    {
+      "slide": 20,
+      "sha256": "8f2dca9316aff10336f53dadafe799806f9a0ff6338a22299828652be730fb22",
+      "visual_inspection": "PASS"
+    },
+    {
+      "slide": 21,
+      "sha256": "263a60c94463c46c03cc8cd2b2a0275f23473bae76452855d943ebb38cad7297",
+      "visual_inspection": "PASS"
+    }
+  ],
+  "notes_expected_citations_pass": true,
+  "notes_fig9_prior_art_boundary_pass": true,
+  "notes_hamada_method_boundary_pass": true,
+  "validation": [
+    "references.json structure and six exact source records",
+    "reference_update.mjs: node --check PASS",
+    "make_reference_companion.py: Python3.12 in-memory compile PASS",
+    "Presenter v3 ZIP: nine files, CRC PASS",
+    "Native slide count and 14 expected note citation maps read back at sequence9",
+    "16 changed slides rendered and individually viewed"
+  ],
+  "preserved_scientific_snapshot": "35142efc13353da524508f5fc41dadcd2d68458a",
+  "new_shots": 0,
+  "new_routing_executions": 0,
+  "physical_compilations": 0,
+  "full_tests_rerun": false,
+  "prior_test_result": "264 passed, retained from scientific increment; no code or data change",
+  "presenter_zip_sha256": "f6fc7ffb0d19ae0efc00187d7240ef7f07b01fc0e2abc6387e6a564e3ba513ea"
+}
