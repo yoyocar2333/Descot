@@ -1,0 +1,7715 @@
+[
+  {
+    "candidate_id": "h000",
+    "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "plan_sha256": "f980292bf8849e0c34b8580b3ce2e508eb1421bc503c348828d9630f269ddfcf",
+    "ideal_sha256": "ae67f81822ee4f334a7dc8683e27596fca14da11ac250dcca195046a33f1ee55",
+    "noisy_sha256": "0bd7fdd24a646ffc1345ac91902e6de9b4cab1123f5d43099c1bd9f16ac9f5b8",
+    "dem_sha256": "e6b81b1fbbd561df438bf47779931574eaca5586feb1a1b66d224f2786d5e996",
+    "compile_requests": [
+      {
+        "key": "c79f48b86b53b2d4fbaf79d6bbaacbf07e7ecb8acf4725b0605e505d09c13d56",
+        "input_bases": "zzzz",
+        "output_bases": "zzzz",
+        "cache_hit": false,
+        "ideal_sha256": "ae67f81822ee4f334a7dc8683e27596fca14da11ac250dcca195046a33f1ee55",
+        "physical_compile_seconds": 88.907703078,
+        "request_seconds": 88.92246066899997
+      },
+      {
+        "key": "a3af1aeb0ffefcc18b44d92d72d956bc7dc371ca7a7d231b575b7b90bd771a3e",
+        "input_bases": "xzzz",
+        "output_bases": "zxzz",
+        "cache_hit": false,
+        "ideal_sha256": "37d6db27f11e87f1bf7012931c1eba7d29afa51712efdb198f1c520d7692e329",
+        "physical_compile_seconds": 90.06911340299996,
+        "request_seconds": 90.07617407600003
+      },
+      {
+        "key": "024772b6d82754308ff631caae83237d8d81869798ff03bf762f6b8d2a1568a4",
+        "input_bases": "zxzz",
+        "output_bases": "xzzz",
+        "cache_hit": false,
+        "ideal_sha256": "af8deb47f6ee305a1ba5418666b5d374c7f1b9d46bde3fb42db935f7ff87dfc2",
+        "physical_compile_seconds": 85.59094848099994,
+        "request_seconds": 85.62187656499998
+      },
+      {
+        "key": "f73ec290fd4ebdac340974fcec088c127903fe1b7a3da31d398889b323c1d48a",
+        "input_bases": "zzxz",
+        "output_bases": "zzzx",
+        "cache_hit": false,
+        "ideal_sha256": "e5fefe94c2920e086b5a38008eacb33164f2c1ca0c4e13cb0de6af69546a7ae5",
+        "physical_compile_seconds": 89.85769213700007,
+        "request_seconds": 89.878709168
+      },
+      {
+        "key": "211e2294a848d2615ed68e85ec9b80ac2b1fb208a90698c359b350664cffc492",
+        "input_bases": "zzzx",
+        "output_bases": "zzxz",
+        "cache_hit": false,
+        "ideal_sha256": "097b12a99a3a3656701d5f26649ec7d5f0c84b40834e5b78d9e62628500da55f",
+        "physical_compile_seconds": 104.749012774,
+        "request_seconds": 104.75512772299999
+      },
+      {
+        "key": "c79f48b86b53b2d4fbaf79d6bbaacbf07e7ecb8acf4725b0605e505d09c13d56",
+        "input_bases": "zzzz",
+        "output_bases": "zzzz",
+        "cache_hit": true,
+        "ideal_sha256": "ae67f81822ee4f334a7dc8683e27596fca14da11ac250dcca195046a33f1ee55",
+        "physical_compile_seconds": null,
+        "request_seconds": 0.00993362100007289
+      },
+      {
+        "key": "c79f48b86b53b2d4fbaf79d6bbaacbf07e7ecb8acf4725b0605e505d09c13d56",
+        "input_bases": "zzzz",
+        "output_bases": "zzzz",
+        "cache_hit": true,
+        "ideal_sha256": "ae67f81822ee4f334a7dc8683e27596fca14da11ac250dcca195046a33f1ee55",
+        "physical_compile_seconds": null,
+        "request_seconds": 0.00396585100008906
+      },
+      {
+        "key": "c79f48b86b53b2d4fbaf79d6bbaacbf07e7ecb8acf4725b0605e505d09c13d56",
+        "input_bases": "zzzz",
+        "output_bases": "zzzz",
+        "cache_hit": true,
+        "ideal_sha256": "ae67f81822ee4f334a7dc8683e27596fca14da11ac250dcca195046a33f1ee55",
+        "physical_compile_seconds": null,
+        "request_seconds": 0.0026423089999525473
+      },
+      {
+        "key": "c79f48b86b53b2d4fbaf79d6bbaacbf07e7ecb8acf4725b0605e505d09c13d56",
+        "input_bases": "zzzz",
+        "output_bases": "zzzz",
+        "cache_hit": true,
+        "ideal_sha256": "ae67f81822ee4f334a7dc8683e27596fca14da11ac250dcca195046a33f1ee55",
+        "physical_compile_seconds": null,
+        "request_seconds": 0.004694490000019869
+      }
+    ],
+    "features": {
+      "template_block_z": 27,
+      "data_lifetime_block_z": 108,
+      "ancilla_lifetime_block_z": 24,
+      "total_lifetime_block_z": 132,
+      "plain_data_storage_cubes": 56,
+      "plain_data_storage_detail": [
+        {
+          "qubit": 0,
+          "cube_z": [
+            1,
+            2,
+            3,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            18,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "count": 18
+        },
+        {
+          "qubit": 1,
+          "cube_z": [
+            3,
+            6,
+            7,
+            9,
+            12,
+            15,
+            18,
+            19,
+            21,
+            24
+          ],
+          "count": 10
+        },
+        {
+          "qubit": 2,
+          "cube_z": [
+            1,
+            2,
+            3,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            18,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "count": 18
+        },
+        {
+          "qubit": 3,
+          "cube_z": [
+            3,
+            6,
+            7,
+            9,
+            12,
+            15,
+            18,
+            19,
+            21,
+            24
+          ],
+          "count": 10
+        }
+      ],
+      "ancilla_lifetime_segments": [
+        {
+          "x": 0,
+          "y": 1,
+          "first_cube_z": 19,
+          "last_cube_z": 20,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "first_cube_z": 7,
+          "last_cube_z": 8,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "first_cube_z": 8,
+          "last_cube_z": 8,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 6,
+          "y": 7,
+          "first_cube_z": 19,
+          "last_cube_z": 20,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 7,
+          "y": 6,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 9,
+          "first_cube_z": 7,
+          "last_cube_z": 8,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 8,
+          "y": 7,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 8,
+          "y": 9,
+          "first_cube_z": 8,
+          "last_cube_z": 8,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 7,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 8,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        }
+      ],
+      "geometry_cubes": 136,
+      "storage_definition": "Internal data cube with exactly two ordinary temporal pipes and no spatial branch; geometry feature, not the old profile-specific logical protected idle or calibrated error risk.",
+      "stim_ticks": 636,
+      "qec_rounds": null,
+      "static_site_ticks": 394320,
+      "active_physical_sites": 620,
+      "device_physical_sites": 620
+    },
+    "profile_features": {
+      "physical_layers": 9,
+      "template_block_z": 27,
+      "cx_routing_steps": 2,
+      "logical_h_layers": 7,
+      "qec_rounds": null,
+      "stim_ticks": 636,
+      "data_reservation_block_z": 108,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          6,
+          3
+        ],
+        [],
+        [
+          3,
+          6,
+          3
+        ],
+        []
+      ],
+      "total_protected_idle_block_z": 24,
+      "max_protected_idle_block_z": 6,
+      "squared_protected_idle_block_z2": 108,
+      "cx_recurrence_separations_block_z": [
+        9,
+        9
+      ],
+      "cx_gap_squared_block_z2": 162,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "qualified_complete_output": true,
+    "outside_device_sites": 0,
+    "external_flows": [
+      "ZIIIIZII",
+      "IZIIZIII",
+      "IIZIIIIZ",
+      "IIIZIIZI"
+    ],
+    "device_sha256": "3c82e7034bd368be5dfa1de5835bc352a6fd335095ebc6269639009cfa1ad8d5",
+    "num_qubits": 620,
+    "num_detectors": 3676,
+    "graphlike_distance": 3,
+    "shots": 0,
+    "counts": null,
+    "confidence_interval": null,
+    "timing": {
+      "actual_physical_compile_seconds": 459.17446987299996,
+      "main_exact_seconds": 4.808924423999997,
+      "generator_exact_seconds": 23.494739984000034,
+      "compile_request_seconds": 459.2755844720001,
+      "geometry_features_seconds": 0.12870240699999158,
+      "noise_dem_decoder_construction_seconds": 8.534633182999983,
+      "distance_search_seconds": 1.2838200999999572,
+      "routing_seconds": null,
+      "scorer_seconds": null,
+      "calibration_seconds": null,
+      "monte_carlo_seconds": null,
+      "decode_seconds": null
+    }
+  },
+  {
+    "candidate_id": "h001",
+    "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "plan_sha256": "21d47b18a8a86a7f735d58cf016292ec2e39e46a3e0a43937ed778f2b37d3233",
+    "ideal_sha256": "ae0a03f119787c0384b0d4a15dc6e0dd99be4b1667ca53f2ecad8f1de55090f4",
+    "noisy_sha256": "c10845a5316458a9630dda60ae645745682a7947020ca5083041d14ae20abd27",
+    "dem_sha256": "67f8f750682e715f41a5e42993e193d2b18aaf296e159e1ede4c014318947603",
+    "compile_requests": [
+      {
+        "key": "3d908858eafded4c3695e655341ccf1ccbd873bcfae02a0ad3c37c292fd09592",
+        "input_bases": "zzzz",
+        "output_bases": "zzzz",
+        "cache_hit": false,
+        "ideal_sha256": "ae0a03f119787c0384b0d4a15dc6e0dd99be4b1667ca53f2ecad8f1de55090f4",
+        "physical_compile_seconds": 92.28777079400004,
+        "request_seconds": 92.29194587100005
+      },
+      {
+        "key": "8d65ef3257a7f08c6935c131517647d5961319294a5332f401070b32ac931861",
+        "input_bases": "xzzz",
+        "output_bases": "zxzz",
+        "cache_hit": false,
+        "ideal_sha256": "ee9b386d0f8a3a0ca1034ec0d4d03828896b89bd5aabc1f8bc6f26081d9168d8",
+        "physical_compile_seconds": 90.80245660399999,
+        "request_seconds": 90.80791176800005
+      },
+      {
+        "key": "542954a14221b0723cfde48efe9216e9a07e3fdc247665ca4b554e9f2964d44e",
+        "input_bases": "zxzz",
+        "output_bases": "xzzz",
+        "cache_hit": false,
+        "ideal_sha256": "431842dab1c634c5b6a90bbb38467eba9ae8bd7d0b33976008bcae8ae9fadc4b",
+        "physical_compile_seconds": 88.55912547700007,
+        "request_seconds": 88.60530921999998
+      },
+      {
+        "key": "0c0cf2cdc8e27377c0ae883fa08ca7532a2715893064017c79ae49f1fe196b6b",
+        "input_bases": "zzxz",
+        "output_bases": "zzzx",
+        "cache_hit": false,
+        "ideal_sha256": "cae2f811a7eb4558d54b7ff916f126ccab82fd7dbd32e3fa50c275c80005c2ff",
+        "physical_compile_seconds": 88.75747623400002,
+        "request_seconds": 88.76526594699999
+      },
+      {
+        "key": "f8a59efde0cd63162b6940738a2017bff0cfc0fdd6ee7ba3d338fc7ed9e5a58b",
+        "input_bases": "zzzx",
+        "output_bases": "zzxz",
+        "cache_hit": false,
+        "ideal_sha256": "869cfe7bd8508cd68ca38b7d52ab3bbd309128e0c4021027ce576f2c0745c716",
+        "physical_compile_seconds": 102.72583635800004,
+        "request_seconds": 102.7330259040001
+      },
+      {
+        "key": "3d908858eafded4c3695e655341ccf1ccbd873bcfae02a0ad3c37c292fd09592",
+        "input_bases": "zzzz",
+        "output_bases": "zzzz",
+        "cache_hit": true,
+        "ideal_sha256": "ae0a03f119787c0384b0d4a15dc6e0dd99be4b1667ca53f2ecad8f1de55090f4",
+        "physical_compile_seconds": null,
+        "request_seconds": 0.006286360000103741
+      },
+      {
+        "key": "3d908858eafded4c3695e655341ccf1ccbd873bcfae02a0ad3c37c292fd09592",
+        "input_bases": "zzzz",
+        "output_bases": "zzzz",
+        "cache_hit": true,
+        "ideal_sha256": "ae0a03f119787c0384b0d4a15dc6e0dd99be4b1667ca53f2ecad8f1de55090f4",
+        "physical_compile_seconds": null,
+        "request_seconds": 0.003596198999957778
+      },
+      {
+        "key": "3d908858eafded4c3695e655341ccf1ccbd873bcfae02a0ad3c37c292fd09592",
+        "input_bases": "zzzz",
+        "output_bases": "zzzz",
+        "cache_hit": true,
+        "ideal_sha256": "ae0a03f119787c0384b0d4a15dc6e0dd99be4b1667ca53f2ecad8f1de55090f4",
+        "physical_compile_seconds": null,
+        "request_seconds": 0.0034622099999523925
+      },
+      {
+        "key": "3d908858eafded4c3695e655341ccf1ccbd873bcfae02a0ad3c37c292fd09592",
+        "input_bases": "zzzz",
+        "output_bases": "zzzz",
+        "cache_hit": true,
+        "ideal_sha256": "ae0a03f119787c0384b0d4a15dc6e0dd99be4b1667ca53f2ecad8f1de55090f4",
+        "physical_compile_seconds": null,
+        "request_seconds": 0.0040265029999773105
+      }
+    ],
+    "features": {
+      "template_block_z": 27,
+      "data_lifetime_block_z": 108,
+      "ancilla_lifetime_block_z": 24,
+      "total_lifetime_block_z": 132,
+      "plain_data_storage_cubes": 56,
+      "plain_data_storage_detail": [
+        {
+          "qubit": 0,
+          "cube_z": [
+            1,
+            2,
+            3,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            18,
+            20,
+            21,
+            24,
+            25,
+            26
+          ],
+          "count": 18
+        },
+        {
+          "qubit": 1,
+          "cube_z": [
+            3,
+            6,
+            7,
+            9,
+            12,
+            15,
+            18,
+            19,
+            21,
+            24
+          ],
+          "count": 10
+        },
+        {
+          "qubit": 2,
+          "cube_z": [
+            1,
+            2,
+            3,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            18,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "count": 18
+        },
+        {
+          "qubit": 3,
+          "cube_z": [
+            3,
+            6,
+            7,
+            9,
+            12,
+            15,
+            18,
+            19,
+            21,
+            24
+          ],
+          "count": 10
+        }
+      ],
+      "ancilla_lifetime_segments": [
+        {
+          "x": 0,
+          "y": 1,
+          "first_cube_z": 19,
+          "last_cube_z": 20,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "first_cube_z": 7,
+          "last_cube_z": 8,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "first_cube_z": 8,
+          "last_cube_z": 8,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 6,
+          "y": 7,
+          "first_cube_z": 19,
+          "last_cube_z": 20,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 7,
+          "y": 6,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 9,
+          "first_cube_z": 7,
+          "last_cube_z": 8,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 8,
+          "y": 7,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 8,
+          "y": 9,
+          "first_cube_z": 8,
+          "last_cube_z": 8,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 7,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 8,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        }
+      ],
+      "geometry_cubes": 136,
+      "storage_definition": "Internal data cube with exactly two ordinary temporal pipes and no spatial branch; geometry feature, not the old profile-specific logical protected idle or calibrated error risk.",
+      "stim_ticks": 636,
+      "qec_rounds": null,
+      "static_site_ticks": 394320,
+      "active_physical_sites": 620,
+      "device_physical_sites": 620
+    },
+    "profile_features": {
+      "physical_layers": 9,
+      "template_block_z": 27,
+      "cx_routing_steps": 2,
+      "logical_h_layers": 7,
+      "qec_rounds": null,
+      "stim_ticks": 636,
+      "data_reservation_block_z": 108,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          6,
+          3
+        ],
+        [],
+        [
+          3,
+          6,
+          3
+        ],
+        []
+      ],
+      "total_protected_idle_block_z": 24,
+      "max_protected_idle_block_z": 6,
+      "squared_protected_idle_block_z2": 108,
+      "cx_recurrence_separations_block_z": [
+        9,
+        9
+      ],
+      "cx_gap_squared_block_z2": 162,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "qualified_complete_output": true,
+    "outside_device_sites": 0,
+    "external_flows": [
+      "ZIIIIZII",
+      "IZIIZIII",
+      "IIZIIIIZ",
+      "IIIZIIZI"
+    ],
+    "device_sha256": "3c82e7034bd368be5dfa1de5835bc352a6fd335095ebc6269639009cfa1ad8d5",
+    "num_qubits": 620,
+    "num_detectors": 3676,
+    "graphlike_distance": 3,
+    "shots": 0,
+    "counts": null,
+    "confidence_interval": null,
+    "timing": {
+      "actual_physical_compile_seconds": 463.13266546700015,
+      "main_exact_seconds": 5.202683395000008,
+      "generator_exact_seconds": 24.859115623000093,
+      "compile_request_seconds": 463.22082998200017,
+      "geometry_features_seconds": 0.10265028300000267,
+      "noise_dem_decoder_construction_seconds": 5.665699157000063,
+      "distance_search_seconds": 0.7830106129999876,
+      "routing_seconds": null,
+      "scorer_seconds": null,
+      "calibration_seconds": null,
+      "monte_carlo_seconds": null,
+      "decode_seconds": null
+    }
+  },
+  {
+    "candidate_id": "h002",
+    "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "plan_sha256": "a25e24c61abf49831606e4901954b00a001beb3fb4031d3c4d5ab3dcac0eff53",
+    "ideal_sha256": "1623f569c369e41f04cf3a15c822e66bf81a2fdfebca154c889acfa6c8b4a9a3",
+    "noisy_sha256": "bb9eea7f586c6c0415fa53593ab19f679680d88e03e7fb009e2a5f07e7f5ac9f",
+    "dem_sha256": "7927725cefbc6f5890a700af1bc516ab749d962bee611411d9b072b8915601cf",
+    "compile_requests": [
+      {
+        "key": "bd39d942ed5e7f267752b87ca8ef159d964eb018e51003bad83d427c83c45eaa",
+        "input_bases": "zzzz",
+        "output_bases": "zzzz",
+        "cache_hit": false,
+        "ideal_sha256": "1623f569c369e41f04cf3a15c822e66bf81a2fdfebca154c889acfa6c8b4a9a3",
+        "physical_compile_seconds": 89.84055252000002,
+        "request_seconds": 89.84518276999995
+      },
+      {
+        "key": "1a7fca518f92bd29c18970f3146e73c352ce903a75fa73b743a17adaf2c675e9",
+        "input_bases": "xzzz",
+        "output_bases": "zxzz",
+        "cache_hit": false,
+        "ideal_sha256": "73bfb7fb9c3a0112a66cbf9af237d7e471c13b94843dd1a63a36e61dff582c67",
+        "physical_compile_seconds": 91.71923427699994,
+        "request_seconds": 91.727481968
+      },
+      {
+        "key": "8eeee8011e18bd0ad6ba20ab260734e637f2b74c3f0fe331a305145b76747120",
+        "input_bases": "zxzz",
+        "output_bases": "xzzz",
+        "cache_hit": false,
+        "ideal_sha256": "965cfb765d21ff3096141576702600cc90c4c5993958ff2ab7a192cc7d552238",
+        "physical_compile_seconds": 87.06647733600005,
+        "request_seconds": 87.076570898
+      },
+      {
+        "key": "f720a69a17850944fd91175467f22464b17c2f8ac530613b9ce3cf6c7c83627f",
+        "input_bases": "zzxz",
+        "output_bases": "zzzx",
+        "cache_hit": false,
+        "ideal_sha256": "c34c40a7b2607d43ce1de7ead7c60d15c45d20917035a041911991dafdc5dcda",
+        "physical_compile_seconds": 87.549963252,
+        "request_seconds": 87.56229015300005
+      },
+      {
+        "key": "3478c4eba0b02932e65a3b3235e9135cf1809fcab8cea59dccf1956d85171d0b",
+        "input_bases": "zzzx",
+        "output_bases": "zzxz",
+        "cache_hit": false,
+        "ideal_sha256": "06c9b5ae1dceec289577d47c7a5d8ecffd98b138379cb4419730f214c384bf7b",
+        "physical_compile_seconds": 96.653353799,
+        "request_seconds": 96.66863029199999
+      },
+      {
+        "key": "bd39d942ed5e7f267752b87ca8ef159d964eb018e51003bad83d427c83c45eaa",
+        "input_bases": "zzzz",
+        "output_bases": "zzzz",
+        "cache_hit": true,
+        "ideal_sha256": "1623f569c369e41f04cf3a15c822e66bf81a2fdfebca154c889acfa6c8b4a9a3",
+        "physical_compile_seconds": null,
+        "request_seconds": 0.0073596350000570965
+      },
+      {
+        "key": "bd39d942ed5e7f267752b87ca8ef159d964eb018e51003bad83d427c83c45eaa",
+        "input_bases": "zzzz",
+        "output_bases": "zzzz",
+        "cache_hit": true,
+        "ideal_sha256": "1623f569c369e41f04cf3a15c822e66bf81a2fdfebca154c889acfa6c8b4a9a3",
+        "physical_compile_seconds": null,
+        "request_seconds": 0.00240306699993198
+      },
+      {
+        "key": "bd39d942ed5e7f267752b87ca8ef159d964eb018e51003bad83d427c83c45eaa",
+        "input_bases": "zzzz",
+        "output_bases": "zzzz",
+        "cache_hit": true,
+        "ideal_sha256": "1623f569c369e41f04cf3a15c822e66bf81a2fdfebca154c889acfa6c8b4a9a3",
+        "physical_compile_seconds": null,
+        "request_seconds": 0.004723845000057736
+      },
+      {
+        "key": "bd39d942ed5e7f267752b87ca8ef159d964eb018e51003bad83d427c83c45eaa",
+        "input_bases": "zzzz",
+        "output_bases": "zzzz",
+        "cache_hit": true,
+        "ideal_sha256": "1623f569c369e41f04cf3a15c822e66bf81a2fdfebca154c889acfa6c8b4a9a3",
+        "physical_compile_seconds": null,
+        "request_seconds": 0.0037479149999626316
+      }
+    ],
+    "features": {
+      "template_block_z": 27,
+      "data_lifetime_block_z": 108,
+      "ancilla_lifetime_block_z": 24,
+      "total_lifetime_block_z": 132,
+      "plain_data_storage_cubes": 56,
+      "plain_data_storage_detail": [
+        {
+          "qubit": 0,
+          "cube_z": [
+            1,
+            2,
+            3,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            18,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "count": 18
+        },
+        {
+          "qubit": 1,
+          "cube_z": [
+            3,
+            6,
+            7,
+            9,
+            12,
+            15,
+            18,
+            19,
+            21,
+            24
+          ],
+          "count": 10
+        },
+        {
+          "qubit": 2,
+          "cube_z": [
+            1,
+            2,
+            3,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            18,
+            20,
+            21,
+            24,
+            25,
+            26
+          ],
+          "count": 18
+        },
+        {
+          "qubit": 3,
+          "cube_z": [
+            3,
+            6,
+            7,
+            9,
+            12,
+            15,
+            18,
+            19,
+            21,
+            24
+          ],
+          "count": 10
+        }
+      ],
+      "ancilla_lifetime_segments": [
+        {
+          "x": 0,
+          "y": 1,
+          "first_cube_z": 19,
+          "last_cube_z": 20,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "first_cube_z": 7,
+          "last_cube_z": 8,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "first_cube_z": 8,
+          "last_cube_z": 8,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 6,
+          "y": 7,
+          "first_cube_z": 19,
+          "last_cube_z": 20,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 7,
+          "y": 6,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 9,
+          "first_cube_z": 7,
+          "last_cube_z": 8,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 8,
+          "y": 7,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 8,
+          "y": 9,
+          "first_cube_z": 8,
+          "last_cube_z": 8,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 7,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 8,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        }
+      ],
+      "geometry_cubes": 136,
+      "storage_definition": "Internal data cube with exactly two ordinary temporal pipes and no spatial branch; geometry feature, not the old profile-specific logical protected idle or calibrated error risk.",
+      "stim_ticks": 636,
+      "qec_rounds": null,
+      "static_site_ticks": 394320,
+      "active_physical_sites": 620,
+      "device_physical_sites": 620
+    },
+    "profile_features": {
+      "physical_layers": 9,
+      "template_block_z": 27,
+      "cx_routing_steps": 2,
+      "logical_h_layers": 7,
+      "qec_rounds": null,
+      "stim_ticks": 636,
+      "data_reservation_block_z": 108,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          6,
+          3
+        ],
+        [],
+        [
+          3,
+          6,
+          3
+        ],
+        []
+      ],
+      "total_protected_idle_block_z": 24,
+      "max_protected_idle_block_z": 6,
+      "squared_protected_idle_block_z2": 108,
+      "cx_recurrence_separations_block_z": [
+        9,
+        9
+      ],
+      "cx_gap_squared_block_z2": 162,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "qualified_complete_output": true,
+    "outside_device_sites": 0,
+    "external_flows": [
+      "ZIIIIZII",
+      "IZIIZIII",
+      "IIZIIIIZ",
+      "IIIZIIZI"
+    ],
+    "device_sha256": "3c82e7034bd368be5dfa1de5835bc352a6fd335095ebc6269639009cfa1ad8d5",
+    "num_qubits": 620,
+    "num_detectors": 3676,
+    "graphlike_distance": 3,
+    "shots": 0,
+    "counts": null,
+    "confidence_interval": null,
+    "timing": {
+      "actual_physical_compile_seconds": 452.829581184,
+      "main_exact_seconds": 2.764430435999998,
+      "generator_exact_seconds": 24.83077536399969,
+      "compile_request_seconds": 452.898390543,
+      "geometry_features_seconds": 0.0700028480000583,
+      "noise_dem_decoder_construction_seconds": 9.161191599999938,
+      "distance_search_seconds": 1.2163555129999395,
+      "routing_seconds": null,
+      "scorer_seconds": null,
+      "calibration_seconds": null,
+      "monte_carlo_seconds": null,
+      "decode_seconds": null
+    }
+  },
+  {
+    "candidate_id": "h003",
+    "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "plan_sha256": "bcae603fbfa646d6ba272bdfe3a0adb8e7a118eba7a1062c75625783a328e918",
+    "ideal_sha256": "648d5f960d8e9c3a1a157718ec87ebfcd5142976f6f95342a834ce3f56db862e",
+    "noisy_sha256": "13efa4c8dd6f493d490958d7b6e5ff6ebc3da978205f1f16984ad2fd7a3af532",
+    "dem_sha256": "834c73d327a0c291ffd774e0124bd88eda7fcc4cffcd5dca778f605e21a3915f",
+    "compile_requests": [
+      {
+        "key": "18008a711ab7afb31364f0f25aec3f8f8c1631781b89ca3e0b6d9bcd10118285",
+        "input_bases": "zzzz",
+        "output_bases": "zzzz",
+        "cache_hit": false,
+        "ideal_sha256": "648d5f960d8e9c3a1a157718ec87ebfcd5142976f6f95342a834ce3f56db862e",
+        "physical_compile_seconds": 88.781045087,
+        "request_seconds": 88.78936578400004
+      },
+      {
+        "key": "ccb354c8613b310cf01b25df6d835b284550881ba558f4a31f3f545e988fd335",
+        "input_bases": "xzzz",
+        "output_bases": "zxzz",
+        "cache_hit": false,
+        "ideal_sha256": "b9cb5333622316050df8f2876140d9b5c93cd74c88387739846024b1e2671a78",
+        "physical_compile_seconds": 86.948428305,
+        "request_seconds": 86.95939874800001
+      },
+      {
+        "key": "f520649b3c74daead59f2e7300ffdff9eeef2c7000d87951f2bdb7623ab1b5b3",
+        "input_bases": "zxzz",
+        "output_bases": "xzzz",
+        "cache_hit": false,
+        "ideal_sha256": "be2d04ad6094fe357ed0b9df5dabc2b66d3a4566893629838eb10a7bc77a2205",
+        "physical_compile_seconds": 83.92990761099998,
+        "request_seconds": 83.93932931899997
+      },
+      {
+        "key": "763f289201d935271bea533b62aff97fc6ef7755bc8bffe9db24a6bb4e2149d1",
+        "input_bases": "zzxz",
+        "output_bases": "zzzx",
+        "cache_hit": false,
+        "ideal_sha256": "45a8ffe3635954a39827e630b3c973b6732462b279e0fbe43a6c5d44903c200f",
+        "physical_compile_seconds": 88.44559857499996,
+        "request_seconds": 88.45209342099997
+      },
+      {
+        "key": "986ed0bb27ede37606b64043046a1f90287aab4d5f3aa790da3004864e56ab82",
+        "input_bases": "zzzx",
+        "output_bases": "zzxz",
+        "cache_hit": false,
+        "ideal_sha256": "de613f7d0202a6e22005ac00ee38181fd3f6357f26d761cdd381f81e383d00eb",
+        "physical_compile_seconds": 99.97920760800002,
+        "request_seconds": 99.98604278700009
+      },
+      {
+        "key": "18008a711ab7afb31364f0f25aec3f8f8c1631781b89ca3e0b6d9bcd10118285",
+        "input_bases": "zzzz",
+        "output_bases": "zzzz",
+        "cache_hit": true,
+        "ideal_sha256": "648d5f960d8e9c3a1a157718ec87ebfcd5142976f6f95342a834ce3f56db862e",
+        "physical_compile_seconds": null,
+        "request_seconds": 0.00931565199994111
+      },
+      {
+        "key": "18008a711ab7afb31364f0f25aec3f8f8c1631781b89ca3e0b6d9bcd10118285",
+        "input_bases": "zzzz",
+        "output_bases": "zzzz",
+        "cache_hit": true,
+        "ideal_sha256": "648d5f960d8e9c3a1a157718ec87ebfcd5142976f6f95342a834ce3f56db862e",
+        "physical_compile_seconds": null,
+        "request_seconds": 0.002682459999959974
+      },
+      {
+        "key": "18008a711ab7afb31364f0f25aec3f8f8c1631781b89ca3e0b6d9bcd10118285",
+        "input_bases": "zzzz",
+        "output_bases": "zzzz",
+        "cache_hit": true,
+        "ideal_sha256": "648d5f960d8e9c3a1a157718ec87ebfcd5142976f6f95342a834ce3f56db862e",
+        "physical_compile_seconds": null,
+        "request_seconds": 0.0029369849999056896
+      },
+      {
+        "key": "18008a711ab7afb31364f0f25aec3f8f8c1631781b89ca3e0b6d9bcd10118285",
+        "input_bases": "zzzz",
+        "output_bases": "zzzz",
+        "cache_hit": true,
+        "ideal_sha256": "648d5f960d8e9c3a1a157718ec87ebfcd5142976f6f95342a834ce3f56db862e",
+        "physical_compile_seconds": null,
+        "request_seconds": 0.0027149630000167235
+      }
+    ],
+    "features": {
+      "template_block_z": 27,
+      "data_lifetime_block_z": 108,
+      "ancilla_lifetime_block_z": 24,
+      "total_lifetime_block_z": 132,
+      "plain_data_storage_cubes": 56,
+      "plain_data_storage_detail": [
+        {
+          "qubit": 0,
+          "cube_z": [
+            1,
+            2,
+            3,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            18,
+            20,
+            21,
+            24,
+            25,
+            26
+          ],
+          "count": 18
+        },
+        {
+          "qubit": 1,
+          "cube_z": [
+            3,
+            6,
+            7,
+            9,
+            12,
+            15,
+            18,
+            19,
+            21,
+            24
+          ],
+          "count": 10
+        },
+        {
+          "qubit": 2,
+          "cube_z": [
+            1,
+            2,
+            3,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            18,
+            20,
+            21,
+            24,
+            25,
+            26
+          ],
+          "count": 18
+        },
+        {
+          "qubit": 3,
+          "cube_z": [
+            3,
+            6,
+            7,
+            9,
+            12,
+            15,
+            18,
+            19,
+            21,
+            24
+          ],
+          "count": 10
+        }
+      ],
+      "ancilla_lifetime_segments": [
+        {
+          "x": 0,
+          "y": 1,
+          "first_cube_z": 19,
+          "last_cube_z": 20,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "first_cube_z": 7,
+          "last_cube_z": 8,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "first_cube_z": 8,
+          "last_cube_z": 8,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 6,
+          "y": 7,
+          "first_cube_z": 19,
+          "last_cube_z": 20,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 7,
+          "y": 6,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 9,
+          "first_cube_z": 7,
+          "last_cube_z": 8,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 8,
+          "y": 7,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 8,
+          "y": 9,
+          "first_cube_z": 8,
+          "last_cube_z": 8,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 7,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 8,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        }
+      ],
+      "geometry_cubes": 136,
+      "storage_definition": "Internal data cube with exactly two ordinary temporal pipes and no spatial branch; geometry feature, not the old profile-specific logical protected idle or calibrated error risk.",
+      "stim_ticks": 636,
+      "qec_rounds": null,
+      "static_site_ticks": 394320,
+      "active_physical_sites": 620,
+      "device_physical_sites": 620
+    },
+    "profile_features": {
+      "physical_layers": 9,
+      "template_block_z": 27,
+      "cx_routing_steps": 2,
+      "logical_h_layers": 7,
+      "qec_rounds": null,
+      "stim_ticks": 636,
+      "data_reservation_block_z": 108,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          6,
+          3
+        ],
+        [],
+        [
+          3,
+          6,
+          3
+        ],
+        []
+      ],
+      "total_protected_idle_block_z": 24,
+      "max_protected_idle_block_z": 6,
+      "squared_protected_idle_block_z2": 108,
+      "cx_recurrence_separations_block_z": [
+        9,
+        9
+      ],
+      "cx_gap_squared_block_z2": 162,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "qualified_complete_output": true,
+    "outside_device_sites": 0,
+    "external_flows": [
+      "ZIIIIZII",
+      "IZIIZIII",
+      "IIZIIIIZ",
+      "IIIZIIZI"
+    ],
+    "device_sha256": "3c82e7034bd368be5dfa1de5835bc352a6fd335095ebc6269639009cfa1ad8d5",
+    "num_qubits": 620,
+    "num_detectors": 3676,
+    "graphlike_distance": 3,
+    "shots": 0,
+    "counts": null,
+    "confidence_interval": null,
+    "timing": {
+      "actual_physical_compile_seconds": 448.08418718599995,
+      "main_exact_seconds": 4.477596651999988,
+      "generator_exact_seconds": 28.853420274999962,
+      "compile_request_seconds": 448.1438801189999,
+      "geometry_features_seconds": 0.08397203899994565,
+      "noise_dem_decoder_construction_seconds": 9.019804990000011,
+      "distance_search_seconds": 1.2956917349999912,
+      "routing_seconds": null,
+      "scorer_seconds": null,
+      "calibration_seconds": null,
+      "monte_carlo_seconds": null,
+      "decode_seconds": null
+    }
+  },
+  {
+    "candidate_id": "h004",
+    "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "plan_sha256": "dfc97f06095d5b4973bfee315db2b05d461e8ab7b32528c7b867f02d1f3b02f3",
+    "ideal_sha256": "80b0076cf56b148c67b5b978d738dfee49386893367a7aa0383b429e7093cc8e",
+    "noisy_sha256": "b3d495aac667dbf9b33b648980fa8ba7c319d87f9ec751b4c116daf18cdabf6f",
+    "dem_sha256": "ae126c5eb52d6b2e2bbf82946b8968fb094edaa6e8ec132d92a3ca92c4fc1551",
+    "compile_requests": [
+      {
+        "key": "d7321565aba2288a7a6d4430f15b27a37fe84aa239c64a298bea81797f7ed989",
+        "input_bases": "zzzz",
+        "output_bases": "zzzz",
+        "cache_hit": false,
+        "ideal_sha256": "80b0076cf56b148c67b5b978d738dfee49386893367a7aa0383b429e7093cc8e",
+        "physical_compile_seconds": 92.004364425,
+        "request_seconds": 92.01143740599997
+      },
+      {
+        "key": "8e40ac55a1d8f29a72a3475c4015cfc5ec1dbba559692c031f94ae8e2ef37d16",
+        "input_bases": "xzzz",
+        "output_bases": "zxzz",
+        "cache_hit": false,
+        "ideal_sha256": "b953922c445564ebe60d694e639270cf09db13325eb4084593ca95a689ee3cc3",
+        "physical_compile_seconds": 90.82918411900005,
+        "request_seconds": 90.839324358
+      },
+      {
+        "key": "1ec3e6d43426f1d78b22bd95cf569ba655381831fd305a889495d04f802d1190",
+        "input_bases": "zxzz",
+        "output_bases": "xzzz",
+        "cache_hit": false,
+        "ideal_sha256": "a846ce4c81c3b3356f779c510175a45f00487befb2e512ce6c16d730d3f7d4c2",
+        "physical_compile_seconds": 86.27610970599994,
+        "request_seconds": 86.29753970800004
+      },
+      {
+        "key": "e42e4d0360a66fd7685eefea33e8d9281fcb3488e018d451124b156dbdab5288",
+        "input_bases": "zzxz",
+        "output_bases": "zzzx",
+        "cache_hit": false,
+        "ideal_sha256": "115c569bdacc33912ce6b9c96f38892dc5c0e4b670b5d09c59fdfebd6171bc1f",
+        "physical_compile_seconds": 89.72997575300008,
+        "request_seconds": 89.76102975599997
+      },
+      {
+        "key": "52b10e1d965a53023aae8925e7c9e0481f6f24380c8eba2fe7b936c84388f171",
+        "input_bases": "zzzx",
+        "output_bases": "zzxz",
+        "cache_hit": false,
+        "ideal_sha256": "9715ae083bcdc64453f669026a54df004c759105e71b684a24ca0ccac5a7780a",
+        "physical_compile_seconds": 100.67162602799999,
+        "request_seconds": 100.6784356369999
+      },
+      {
+        "key": "d7321565aba2288a7a6d4430f15b27a37fe84aa239c64a298bea81797f7ed989",
+        "input_bases": "zzzz",
+        "output_bases": "zzzz",
+        "cache_hit": true,
+        "ideal_sha256": "80b0076cf56b148c67b5b978d738dfee49386893367a7aa0383b429e7093cc8e",
+        "physical_compile_seconds": null,
+        "request_seconds": 0.011118538000005174
+      },
+      {
+        "key": "d7321565aba2288a7a6d4430f15b27a37fe84aa239c64a298bea81797f7ed989",
+        "input_bases": "zzzz",
+        "output_bases": "zzzz",
+        "cache_hit": true,
+        "ideal_sha256": "80b0076cf56b148c67b5b978d738dfee49386893367a7aa0383b429e7093cc8e",
+        "physical_compile_seconds": null,
+        "request_seconds": 0.002674873999922056
+      },
+      {
+        "key": "d7321565aba2288a7a6d4430f15b27a37fe84aa239c64a298bea81797f7ed989",
+        "input_bases": "zzzz",
+        "output_bases": "zzzz",
+        "cache_hit": true,
+        "ideal_sha256": "80b0076cf56b148c67b5b978d738dfee49386893367a7aa0383b429e7093cc8e",
+        "physical_compile_seconds": null,
+        "request_seconds": 0.005100233999996817
+      },
+      {
+        "key": "d7321565aba2288a7a6d4430f15b27a37fe84aa239c64a298bea81797f7ed989",
+        "input_bases": "zzzz",
+        "output_bases": "zzzz",
+        "cache_hit": true,
+        "ideal_sha256": "80b0076cf56b148c67b5b978d738dfee49386893367a7aa0383b429e7093cc8e",
+        "physical_compile_seconds": null,
+        "request_seconds": 0.0029794129999345387
+      }
+    ],
+    "features": {
+      "template_block_z": 27,
+      "data_lifetime_block_z": 108,
+      "ancilla_lifetime_block_z": 24,
+      "total_lifetime_block_z": 132,
+      "plain_data_storage_cubes": 56,
+      "plain_data_storage_detail": [
+        {
+          "qubit": 0,
+          "cube_z": [
+            1,
+            2,
+            3,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            15,
+            16,
+            17,
+            18,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "count": 18
+        },
+        {
+          "qubit": 1,
+          "cube_z": [
+            3,
+            6,
+            7,
+            9,
+            12,
+            15,
+            18,
+            19,
+            21,
+            24
+          ],
+          "count": 10
+        },
+        {
+          "qubit": 2,
+          "cube_z": [
+            1,
+            2,
+            3,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            18,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "count": 18
+        },
+        {
+          "qubit": 3,
+          "cube_z": [
+            3,
+            6,
+            7,
+            9,
+            12,
+            15,
+            18,
+            19,
+            21,
+            24
+          ],
+          "count": 10
+        }
+      ],
+      "ancilla_lifetime_segments": [
+        {
+          "x": 0,
+          "y": 1,
+          "first_cube_z": 19,
+          "last_cube_z": 20,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "first_cube_z": 7,
+          "last_cube_z": 8,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "first_cube_z": 8,
+          "last_cube_z": 8,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 6,
+          "y": 7,
+          "first_cube_z": 19,
+          "last_cube_z": 20,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 7,
+          "y": 6,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 9,
+          "first_cube_z": 7,
+          "last_cube_z": 8,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 8,
+          "y": 7,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 8,
+          "y": 9,
+          "first_cube_z": 8,
+          "last_cube_z": 8,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 7,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 8,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        }
+      ],
+      "geometry_cubes": 136,
+      "storage_definition": "Internal data cube with exactly two ordinary temporal pipes and no spatial branch; geometry feature, not the old profile-specific logical protected idle or calibrated error risk.",
+      "stim_ticks": 636,
+      "qec_rounds": null,
+      "static_site_ticks": 394320,
+      "active_physical_sites": 620,
+      "device_physical_sites": 620
+    },
+    "profile_features": {
+      "physical_layers": 9,
+      "template_block_z": 27,
+      "cx_routing_steps": 2,
+      "logical_h_layers": 7,
+      "qec_rounds": null,
+      "stim_ticks": 636,
+      "data_reservation_block_z": 108,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          3,
+          3,
+          3
+        ],
+        [],
+        [
+          3,
+          6,
+          3
+        ],
+        []
+      ],
+      "total_protected_idle_block_z": 24,
+      "max_protected_idle_block_z": 6,
+      "squared_protected_idle_block_z2": 90,
+      "cx_recurrence_separations_block_z": [
+        9,
+        9
+      ],
+      "cx_gap_squared_block_z2": 162,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "qualified_complete_output": true,
+    "outside_device_sites": 0,
+    "external_flows": [
+      "ZIIIIZII",
+      "IZIIZIII",
+      "IIZIIIIZ",
+      "IIIZIIZI"
+    ],
+    "device_sha256": "3c82e7034bd368be5dfa1de5835bc352a6fd335095ebc6269639009cfa1ad8d5",
+    "num_qubits": 620,
+    "num_detectors": 3676,
+    "graphlike_distance": 3,
+    "shots": 0,
+    "counts": null,
+    "confidence_interval": null,
+    "timing": {
+      "actual_physical_compile_seconds": 459.51126003100006,
+      "main_exact_seconds": 4.870338715999992,
+      "generator_exact_seconds": 24.891676937000057,
+      "compile_request_seconds": 459.60963992399974,
+      "geometry_features_seconds": 0.2444852200000014,
+      "noise_dem_decoder_construction_seconds": 9.123525970999935,
+      "distance_search_seconds": 1.8661295490001066,
+      "routing_seconds": null,
+      "scorer_seconds": null,
+      "calibration_seconds": null,
+      "monte_carlo_seconds": null,
+      "decode_seconds": null
+    }
+  },
+  {
+    "candidate_id": "h005",
+    "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "plan_sha256": "0c6d32a2d55c82b0ec7a233e0f08e21e6153cfd2de2a18568978caf537880fcc",
+    "ideal_sha256": "feadace73047275a6aae38c85c5770eeb22f0737fcfdcba20f2c017e866700c8",
+    "noisy_sha256": "f60d59098d7e87c1c014a594ceabcccc6dfc62038deebdf5ce2998e7b7a263f5",
+    "dem_sha256": "2f03221c79853512141fd41a4a41e79e359590b237f8d7a39e766048863f4028",
+    "compile_requests": [
+      {
+        "key": "2e6369d54a18c426a5c82881604998e2e76a056bd84dd5513d8fc4effc8fea6a",
+        "input_bases": "zzzz",
+        "output_bases": "zzzz",
+        "cache_hit": false,
+        "ideal_sha256": "feadace73047275a6aae38c85c5770eeb22f0737fcfdcba20f2c017e866700c8",
+        "physical_compile_seconds": 90.34124541599999,
+        "request_seconds": 90.35005785100003
+      },
+      {
+        "key": "77a159664af882995b22bee40077d78a76af8f71e9f5dbbe2e2ef173f6edeb1d",
+        "input_bases": "xzzz",
+        "output_bases": "zxzz",
+        "cache_hit": false,
+        "ideal_sha256": "4e4fec456487406bb5814f4a85d9a22f18a0df1b88597c77a4b9ba1409466163",
+        "physical_compile_seconds": 87.8593396839999,
+        "request_seconds": 87.86361860299996
+      },
+      {
+        "key": "01e1237fda2d29bc9928fc78bb8f048bfd93b2f6bea7b3c016fb154865c81216",
+        "input_bases": "zxzz",
+        "output_bases": "xzzz",
+        "cache_hit": false,
+        "ideal_sha256": "ae7b44ce61405c7332ba185b9b7b4f4adf171956273caa5ea078fce97e424794",
+        "physical_compile_seconds": 86.75384004599994,
+        "request_seconds": 86.76857113999995
+      },
+      {
+        "key": "b70e85e9a565108b1561229c8391f2755becefff982f93ee56dbb50bada12705",
+        "input_bases": "zzxz",
+        "output_bases": "zzzx",
+        "cache_hit": false,
+        "ideal_sha256": "9cd180c6ac83b7e658e5bada73779cb3ef79dde8881def658bc0c0eb56c08d4e",
+        "physical_compile_seconds": 89.76257545199996,
+        "request_seconds": 89.76800428299998
+      },
+      {
+        "key": "b2b6cfd3a56080c8eead1a5cfc1257360e53790b0ae1894c0c1ebfea40c3a655",
+        "input_bases": "zzzx",
+        "output_bases": "zzxz",
+        "cache_hit": false,
+        "ideal_sha256": "da81064404e2c1c838d840ac147e4e18fb683309c4806653784204d82b77a3d4",
+        "physical_compile_seconds": 99.45386720399995,
+        "request_seconds": 99.46725112600006
+      },
+      {
+        "key": "2e6369d54a18c426a5c82881604998e2e76a056bd84dd5513d8fc4effc8fea6a",
+        "input_bases": "zzzz",
+        "output_bases": "zzzz",
+        "cache_hit": true,
+        "ideal_sha256": "feadace73047275a6aae38c85c5770eeb22f0737fcfdcba20f2c017e866700c8",
+        "physical_compile_seconds": null,
+        "request_seconds": 0.008543684999949619
+      },
+      {
+        "key": "2e6369d54a18c426a5c82881604998e2e76a056bd84dd5513d8fc4effc8fea6a",
+        "input_bases": "zzzz",
+        "output_bases": "zzzz",
+        "cache_hit": true,
+        "ideal_sha256": "feadace73047275a6aae38c85c5770eeb22f0737fcfdcba20f2c017e866700c8",
+        "physical_compile_seconds": null,
+        "request_seconds": 0.002820834999965882
+      },
+      {
+        "key": "2e6369d54a18c426a5c82881604998e2e76a056bd84dd5513d8fc4effc8fea6a",
+        "input_bases": "zzzz",
+        "output_bases": "zzzz",
+        "cache_hit": true,
+        "ideal_sha256": "feadace73047275a6aae38c85c5770eeb22f0737fcfdcba20f2c017e866700c8",
+        "physical_compile_seconds": null,
+        "request_seconds": 0.0027525259999947593
+      },
+      {
+        "key": "2e6369d54a18c426a5c82881604998e2e76a056bd84dd5513d8fc4effc8fea6a",
+        "input_bases": "zzzz",
+        "output_bases": "zzzz",
+        "cache_hit": true,
+        "ideal_sha256": "feadace73047275a6aae38c85c5770eeb22f0737fcfdcba20f2c017e866700c8",
+        "physical_compile_seconds": null,
+        "request_seconds": 0.0029061740000315694
+      }
+    ],
+    "features": {
+      "template_block_z": 27,
+      "data_lifetime_block_z": 108,
+      "ancilla_lifetime_block_z": 24,
+      "total_lifetime_block_z": 132,
+      "plain_data_storage_cubes": 56,
+      "plain_data_storage_detail": [
+        {
+          "qubit": 0,
+          "cube_z": [
+            1,
+            2,
+            3,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            15,
+            16,
+            17,
+            18,
+            20,
+            21,
+            24,
+            25,
+            26
+          ],
+          "count": 18
+        },
+        {
+          "qubit": 1,
+          "cube_z": [
+            3,
+            6,
+            7,
+            9,
+            12,
+            15,
+            18,
+            19,
+            21,
+            24
+          ],
+          "count": 10
+        },
+        {
+          "qubit": 2,
+          "cube_z": [
+            1,
+            2,
+            3,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            18,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "count": 18
+        },
+        {
+          "qubit": 3,
+          "cube_z": [
+            3,
+            6,
+            7,
+            9,
+            12,
+            15,
+            18,
+            19,
+            21,
+            24
+          ],
+          "count": 10
+        }
+      ],
+      "ancilla_lifetime_segments": [
+        {
+          "x": 0,
+          "y": 1,
+          "first_cube_z": 19,
+          "last_cube_z": 20,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "first_cube_z": 7,
+          "last_cube_z": 8,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "first_cube_z": 8,
+          "last_cube_z": 8,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 6,
+          "y": 7,
+          "first_cube_z": 19,
+          "last_cube_z": 20,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 7,
+          "y": 6,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 9,
+          "first_cube_z": 7,
+          "last_cube_z": 8,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 8,
+          "y": 7,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 8,
+          "y": 9,
+          "first_cube_z": 8,
+          "last_cube_z": 8,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 7,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 8,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        }
+      ],
+      "geometry_cubes": 136,
+      "storage_definition": "Internal data cube with exactly two ordinary temporal pipes and no spatial branch; geometry feature, not the old profile-specific logical protected idle or calibrated error risk.",
+      "stim_ticks": 636,
+      "qec_rounds": null,
+      "static_site_ticks": 394320,
+      "active_physical_sites": 620,
+      "device_physical_sites": 620
+    },
+    "profile_features": {
+      "physical_layers": 9,
+      "template_block_z": 27,
+      "cx_routing_steps": 2,
+      "logical_h_layers": 7,
+      "qec_rounds": null,
+      "stim_ticks": 636,
+      "data_reservation_block_z": 108,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          3,
+          3,
+          3
+        ],
+        [],
+        [
+          3,
+          6,
+          3
+        ],
+        []
+      ],
+      "total_protected_idle_block_z": 24,
+      "max_protected_idle_block_z": 6,
+      "squared_protected_idle_block_z2": 90,
+      "cx_recurrence_separations_block_z": [
+        9,
+        9
+      ],
+      "cx_gap_squared_block_z2": 162,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "qualified_complete_output": true,
+    "outside_device_sites": 0,
+    "external_flows": [
+      "ZIIIIZII",
+      "IZIIZIII",
+      "IIZIIIIZ",
+      "IIIZIIZI"
+    ],
+    "device_sha256": "3c82e7034bd368be5dfa1de5835bc352a6fd335095ebc6269639009cfa1ad8d5",
+    "num_qubits": 620,
+    "num_detectors": 3676,
+    "graphlike_distance": 3,
+    "shots": 0,
+    "counts": null,
+    "confidence_interval": null,
+    "timing": {
+      "actual_physical_compile_seconds": 454.17086780199975,
+      "main_exact_seconds": 3.8817870590000894,
+      "generator_exact_seconds": 22.813486996000165,
+      "compile_request_seconds": 454.23452622299993,
+      "geometry_features_seconds": 0.045980250000070555,
+      "noise_dem_decoder_construction_seconds": 5.317953539999962,
+      "distance_search_seconds": 0.71685340800002,
+      "routing_seconds": null,
+      "scorer_seconds": null,
+      "calibration_seconds": null,
+      "monte_carlo_seconds": null,
+      "decode_seconds": null
+    }
+  },
+  {
+    "candidate_id": "old:p00",
+    "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "plan_sha256": "315e18092529d0f324048f02a3feb7a3cc62afdea5a41d3e2d0fd5eb37c7f6e2",
+    "ideal_sha256": "0113e802724d02b34a3c35e6d7a24ee33bc2dfdda87810e1aa43c213dc42e446",
+    "noisy_sha256": "6dc5cea34bd8787ab736292ca710f958ea1ae609e37ae9ef8acd3adcb4a9d05e",
+    "dem_sha256": "313ae58d0071bd3e2159165485229203327f97549b5cf53b70ace7f1d240ff6a",
+    "features": {
+      "template_block_z": 48,
+      "data_lifetime_block_z": 192,
+      "ancilla_lifetime_block_z": 24,
+      "total_lifetime_block_z": 216,
+      "plain_data_storage_cubes": 140,
+      "plain_data_storage_detail": [
+        {
+          "qubit": 0,
+          "cube_z": [
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            32,
+            33,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+          ],
+          "count": 39
+        },
+        {
+          "qubit": 1,
+          "cube_z": [
+            3,
+            6,
+            7,
+            9,
+            12,
+            15,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            33,
+            36,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+          ],
+          "count": 31
+        },
+        {
+          "qubit": 2,
+          "cube_z": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            21,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            41,
+            42,
+            45,
+            46,
+            47
+          ],
+          "count": 39
+        },
+        {
+          "qubit": 3,
+          "cube_z": [
+            3,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            21,
+            24,
+            27,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            42,
+            45
+          ],
+          "count": 31
+        }
+      ],
+      "ancilla_lifetime_segments": [
+        {
+          "x": 0,
+          "y": 1,
+          "first_cube_z": 31,
+          "last_cube_z": 32,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "first_cube_z": 7,
+          "last_cube_z": 8,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "first_cube_z": 8,
+          "last_cube_z": 8,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 6,
+          "y": 7,
+          "first_cube_z": 40,
+          "last_cube_z": 41,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 7,
+          "y": 6,
+          "first_cube_z": 19,
+          "last_cube_z": 19,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 19,
+          "last_cube_z": 19,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 41,
+          "last_cube_z": 41,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "first_cube_z": 19,
+          "last_cube_z": 19,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 9,
+          "first_cube_z": 19,
+          "last_cube_z": 20,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 8,
+          "y": 7,
+          "first_cube_z": 41,
+          "last_cube_z": 41,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 8,
+          "y": 9,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 7,
+          "first_cube_z": 41,
+          "last_cube_z": 41,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 8,
+          "first_cube_z": 41,
+          "last_cube_z": 41,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        }
+      ],
+      "geometry_cubes": 220,
+      "storage_definition": "Internal data cube with exactly two ordinary temporal pipes and no spatial branch; geometry feature, not the old profile-specific logical protected idle or calibrated error risk.",
+      "stim_ticks": 1112,
+      "qec_rounds": null,
+      "static_site_ticks": 689440,
+      "active_physical_sites": 620,
+      "device_physical_sites": 620
+    },
+    "profile_features": {
+      "physical_layers": 16,
+      "template_block_z": 48,
+      "cx_routing_steps": 4,
+      "logical_h_layers": 12,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 192,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          18,
+          12
+        ],
+        [
+          12,
+          9
+        ],
+        [
+          15,
+          15,
+          3
+        ],
+        [
+          12,
+          9
+        ]
+      ],
+      "total_protected_idle_block_z": 108,
+      "max_protected_idle_block_z": 18,
+      "squared_protected_idle_block_z2": 1386,
+      "cx_recurrence_separations_block_z": [
+        21,
+        18
+      ],
+      "cx_gap_squared_block_z2": 765,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "qualified_complete_output": true,
+    "outside_device_sites": 0,
+    "external_flows": [
+      "ZIIIIZII",
+      "IZIIZIII",
+      "IIZIIIIZ",
+      "IIIZIIZI"
+    ],
+    "device_sha256": "3c82e7034bd368be5dfa1de5835bc352a6fd335095ebc6269639009cfa1ad8d5",
+    "qualification": "Frozen original complete physical hs4 certificate and exact archived hashes; no recompile or resampling.",
+    "original_shots": 100000,
+    "new_shots": 0
+  },
+  {
+    "candidate_id": "old:p01",
+    "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "plan_sha256": "0b19a6966ffa377c67466d9ba9905da2d4d1b8ed21245d2cc91ca83ae608928a",
+    "ideal_sha256": "0fd9500d8e189715305f67460b93c34e5d0e788b76a37a094ae41dadfda1957e",
+    "noisy_sha256": "50082f3e22eecb98fca4ecaa89d8db47eef96f9bfc6344ca8d7d2f0485218fd2",
+    "dem_sha256": "da48154ab2285c6a102491f0bc3d1e61a219b5adecd0eb9e9dc92e8e23b82e6d",
+    "features": {
+      "template_block_z": 48,
+      "data_lifetime_block_z": 192,
+      "ancilla_lifetime_block_z": 24,
+      "total_lifetime_block_z": 216,
+      "plain_data_storage_cubes": 140,
+      "plain_data_storage_detail": [
+        {
+          "qubit": 0,
+          "cube_z": [
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            41,
+            42,
+            45,
+            46,
+            47
+          ],
+          "count": 39
+        },
+        {
+          "qubit": 1,
+          "cube_z": [
+            3,
+            6,
+            7,
+            9,
+            12,
+            15,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            42,
+            45
+          ],
+          "count": 31
+        },
+        {
+          "qubit": 2,
+          "cube_z": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            21,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            32,
+            33,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+          ],
+          "count": 39
+        },
+        {
+          "qubit": 3,
+          "cube_z": [
+            3,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            21,
+            24,
+            27,
+            30,
+            31,
+            33,
+            36,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+          ],
+          "count": 31
+        }
+      ],
+      "ancilla_lifetime_segments": [
+        {
+          "x": 0,
+          "y": 1,
+          "first_cube_z": 40,
+          "last_cube_z": 41,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 41,
+          "last_cube_z": 41,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "first_cube_z": 7,
+          "last_cube_z": 8,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "first_cube_z": 41,
+          "last_cube_z": 41,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "first_cube_z": 8,
+          "last_cube_z": 8,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "first_cube_z": 41,
+          "last_cube_z": 41,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "first_cube_z": 41,
+          "last_cube_z": 41,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 6,
+          "y": 7,
+          "first_cube_z": 31,
+          "last_cube_z": 32,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 7,
+          "y": 6,
+          "first_cube_z": 19,
+          "last_cube_z": 19,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 19,
+          "last_cube_z": 19,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "first_cube_z": 19,
+          "last_cube_z": 19,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 9,
+          "first_cube_z": 19,
+          "last_cube_z": 20,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 8,
+          "y": 7,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 8,
+          "y": 9,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 7,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 8,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        }
+      ],
+      "geometry_cubes": 220,
+      "storage_definition": "Internal data cube with exactly two ordinary temporal pipes and no spatial branch; geometry feature, not the old profile-specific logical protected idle or calibrated error risk.",
+      "stim_ticks": 1112,
+      "qec_rounds": null,
+      "static_site_ticks": 689440,
+      "active_physical_sites": 620,
+      "device_physical_sites": 620
+    },
+    "profile_features": {
+      "physical_layers": 16,
+      "template_block_z": 48,
+      "cx_routing_steps": 4,
+      "logical_h_layers": 12,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 192,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          27,
+          3
+        ],
+        [
+          21
+        ],
+        [
+          15,
+          6,
+          12
+        ],
+        [
+          12,
+          9
+        ]
+      ],
+      "total_protected_idle_block_z": 108,
+      "max_protected_idle_block_z": 27,
+      "squared_protected_idle_block_z2": 1818,
+      "cx_recurrence_separations_block_z": [
+        30,
+        9
+      ],
+      "cx_gap_squared_block_z2": 981,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "qualified_complete_output": true,
+    "outside_device_sites": 0,
+    "external_flows": [
+      "ZIIIIZII",
+      "IZIIZIII",
+      "IIZIIIIZ",
+      "IIIZIIZI"
+    ],
+    "device_sha256": "3c82e7034bd368be5dfa1de5835bc352a6fd335095ebc6269639009cfa1ad8d5",
+    "qualification": "Frozen original complete physical hs4 certificate and exact archived hashes; no recompile or resampling.",
+    "original_shots": 100000,
+    "new_shots": 0
+  },
+  {
+    "candidate_id": "old:p02",
+    "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "plan_sha256": "ad6339c1233e410f434aa3491ea32764735e08348773a83643cce2a9c8654e3c",
+    "ideal_sha256": "d90d7fc9295d3652ac69f413fc76e8cfdbc27c3e54ee59e1917be0d726055e22",
+    "noisy_sha256": "34c3830e6c65cdf22744fe01f5d0252a76ff5cdd32380abd9d2d29cf5870f56c",
+    "dem_sha256": "27bc07959c95d1c889ba8df6444747414481dc32cca5d58f0a0ec4038c28255d",
+    "features": {
+      "template_block_z": 39,
+      "data_lifetime_block_z": 156,
+      "ancilla_lifetime_block_z": 24,
+      "total_lifetime_block_z": 180,
+      "plain_data_storage_cubes": 104,
+      "plain_data_storage_detail": [
+        {
+          "qubit": 0,
+          "cube_z": [
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            32,
+            33,
+            36,
+            37,
+            38
+          ],
+          "count": 30
+        },
+        {
+          "qubit": 1,
+          "cube_z": [
+            3,
+            6,
+            7,
+            9,
+            12,
+            15,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            33,
+            36
+          ],
+          "count": 22
+        },
+        {
+          "qubit": 2,
+          "cube_z": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            21,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            32,
+            33,
+            36,
+            37,
+            38
+          ],
+          "count": 30
+        },
+        {
+          "qubit": 3,
+          "cube_z": [
+            3,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            21,
+            24,
+            27,
+            30,
+            31,
+            33,
+            36
+          ],
+          "count": 22
+        }
+      ],
+      "ancilla_lifetime_segments": [
+        {
+          "x": 0,
+          "y": 1,
+          "first_cube_z": 31,
+          "last_cube_z": 32,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "first_cube_z": 7,
+          "last_cube_z": 8,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "first_cube_z": 8,
+          "last_cube_z": 8,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 6,
+          "y": 7,
+          "first_cube_z": 31,
+          "last_cube_z": 32,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 7,
+          "y": 6,
+          "first_cube_z": 19,
+          "last_cube_z": 19,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 19,
+          "last_cube_z": 19,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "first_cube_z": 19,
+          "last_cube_z": 19,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 9,
+          "first_cube_z": 19,
+          "last_cube_z": 20,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 8,
+          "y": 7,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 8,
+          "y": 9,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 7,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 8,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        }
+      ],
+      "geometry_cubes": 184,
+      "storage_definition": "Internal data cube with exactly two ordinary temporal pipes and no spatial branch; geometry feature, not the old profile-specific logical protected idle or calibrated error risk.",
+      "stim_ticks": 909,
+      "qec_rounds": null,
+      "static_site_ticks": 563580,
+      "active_physical_sites": 620,
+      "device_physical_sites": 620
+    },
+    "profile_features": {
+      "physical_layers": 13,
+      "template_block_z": 39,
+      "cx_routing_steps": 3,
+      "logical_h_layers": 10,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 156,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          18,
+          3
+        ],
+        [
+          12
+        ],
+        [
+          15,
+          6,
+          3
+        ],
+        [
+          12
+        ]
+      ],
+      "total_protected_idle_block_z": 72,
+      "max_protected_idle_block_z": 18,
+      "squared_protected_idle_block_z2": 900,
+      "cx_recurrence_separations_block_z": [
+        21,
+        9
+      ],
+      "cx_gap_squared_block_z2": 522,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "qualified_complete_output": true,
+    "outside_device_sites": 0,
+    "external_flows": [
+      "ZIIIIZII",
+      "IZIIZIII",
+      "IIZIIIIZ",
+      "IIIZIIZI"
+    ],
+    "device_sha256": "3c82e7034bd368be5dfa1de5835bc352a6fd335095ebc6269639009cfa1ad8d5",
+    "qualification": "Frozen original complete physical hs4 certificate and exact archived hashes; no recompile or resampling.",
+    "original_shots": 100000,
+    "new_shots": 0
+  },
+  {
+    "candidate_id": "old:p03",
+    "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "plan_sha256": "c3016281dba5a49d2cf19f1d150eff735ec96f8ed6b2cca3779a3bf35442b95f",
+    "ideal_sha256": "836468fcc2c81fbe889597241c025d2163f7dae3370a02491b4e94d10f407c0f",
+    "noisy_sha256": "c8dc96457db44d238549250884f920f590d711629116859a0c8ab64984a49c87",
+    "dem_sha256": "7cacaf219000b85ace4fc0d3226166f346330fa00856f2cdcc3d5a719e92c7b5",
+    "features": {
+      "template_block_z": 48,
+      "data_lifetime_block_z": 192,
+      "ancilla_lifetime_block_z": 24,
+      "total_lifetime_block_z": 216,
+      "plain_data_storage_cubes": 140,
+      "plain_data_storage_detail": [
+        {
+          "qubit": 0,
+          "cube_z": [
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            21,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+          ],
+          "count": 39
+        },
+        {
+          "qubit": 1,
+          "cube_z": [
+            3,
+            6,
+            7,
+            9,
+            12,
+            15,
+            18,
+            19,
+            21,
+            24,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+          ],
+          "count": 31
+        },
+        {
+          "qubit": 2,
+          "cube_z": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            29,
+            30,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            41,
+            42,
+            45,
+            46,
+            47
+          ],
+          "count": 39
+        },
+        {
+          "qubit": 3,
+          "cube_z": [
+            3,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            30,
+            33,
+            36,
+            39,
+            40,
+            42,
+            45
+          ],
+          "count": 31
+        }
+      ],
+      "ancilla_lifetime_segments": [
+        {
+          "x": 0,
+          "y": 1,
+          "first_cube_z": 19,
+          "last_cube_z": 20,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "first_cube_z": 7,
+          "last_cube_z": 8,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "first_cube_z": 8,
+          "last_cube_z": 8,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 6,
+          "y": 7,
+          "first_cube_z": 40,
+          "last_cube_z": 41,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 7,
+          "y": 6,
+          "first_cube_z": 28,
+          "last_cube_z": 28,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 28,
+          "last_cube_z": 28,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 41,
+          "last_cube_z": 41,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "first_cube_z": 28,
+          "last_cube_z": 28,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 9,
+          "first_cube_z": 28,
+          "last_cube_z": 29,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 8,
+          "y": 7,
+          "first_cube_z": 41,
+          "last_cube_z": 41,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 8,
+          "y": 9,
+          "first_cube_z": 29,
+          "last_cube_z": 29,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 7,
+          "first_cube_z": 41,
+          "last_cube_z": 41,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 8,
+          "first_cube_z": 41,
+          "last_cube_z": 41,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        }
+      ],
+      "geometry_cubes": 220,
+      "storage_definition": "Internal data cube with exactly two ordinary temporal pipes and no spatial branch; geometry feature, not the old profile-specific logical protected idle or calibrated error risk.",
+      "stim_ticks": 1112,
+      "qec_rounds": null,
+      "static_site_ticks": 689440,
+      "active_physical_sites": 620,
+      "device_physical_sites": 620
+    },
+    "profile_features": {
+      "physical_layers": 16,
+      "template_block_z": 48,
+      "cx_routing_steps": 4,
+      "logical_h_layers": 12,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 192,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          6,
+          24
+        ],
+        [
+          21
+        ],
+        [
+          24,
+          6,
+          3
+        ],
+        [
+          21
+        ]
+      ],
+      "total_protected_idle_block_z": 108,
+      "max_protected_idle_block_z": 24,
+      "squared_protected_idle_block_z2": 2124,
+      "cx_recurrence_separations_block_z": [
+        9,
+        9
+      ],
+      "cx_gap_squared_block_z2": 162,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "qualified_complete_output": true,
+    "outside_device_sites": 0,
+    "external_flows": [
+      "ZIIIIZII",
+      "IZIIZIII",
+      "IIZIIIIZ",
+      "IIIZIIZI"
+    ],
+    "device_sha256": "3c82e7034bd368be5dfa1de5835bc352a6fd335095ebc6269639009cfa1ad8d5",
+    "qualification": "Frozen original complete physical hs4 certificate and exact archived hashes; no recompile or resampling.",
+    "original_shots": 100000,
+    "new_shots": 0
+  },
+  {
+    "candidate_id": "old:p04",
+    "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "plan_sha256": "4f5e39d0d1a3dd740a413969ff479dbf46995df664c4536bbfa79f843915de3a",
+    "ideal_sha256": "c26261060504a00edc306ee58f492a6dbb4f908024af97cea77e7f3f19353971",
+    "noisy_sha256": "f4bc3d304b8a378930e6fe3d06ef1b50dad03953402ba81d7aba9e074ca14107",
+    "dem_sha256": "040623eb1b232ee6fe0cc2bfdd998c754a12f0819bf8500716d538430dadb169",
+    "features": {
+      "template_block_z": 39,
+      "data_lifetime_block_z": 156,
+      "ancilla_lifetime_block_z": 24,
+      "total_lifetime_block_z": 180,
+      "plain_data_storage_cubes": 104,
+      "plain_data_storage_detail": [
+        {
+          "qubit": 0,
+          "cube_z": [
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            21,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ],
+          "count": 30
+        },
+        {
+          "qubit": 1,
+          "cube_z": [
+            3,
+            6,
+            7,
+            9,
+            12,
+            15,
+            18,
+            19,
+            21,
+            24,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ],
+          "count": 22
+        },
+        {
+          "qubit": 2,
+          "cube_z": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            21,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            32,
+            33,
+            36,
+            37,
+            38
+          ],
+          "count": 30
+        },
+        {
+          "qubit": 3,
+          "cube_z": [
+            3,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            21,
+            24,
+            27,
+            30,
+            31,
+            33,
+            36
+          ],
+          "count": 22
+        }
+      ],
+      "ancilla_lifetime_segments": [
+        {
+          "x": 0,
+          "y": 1,
+          "first_cube_z": 19,
+          "last_cube_z": 20,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "first_cube_z": 7,
+          "last_cube_z": 8,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "first_cube_z": 8,
+          "last_cube_z": 8,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 6,
+          "y": 7,
+          "first_cube_z": 31,
+          "last_cube_z": 32,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 7,
+          "y": 6,
+          "first_cube_z": 19,
+          "last_cube_z": 19,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 19,
+          "last_cube_z": 19,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "first_cube_z": 19,
+          "last_cube_z": 19,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 9,
+          "first_cube_z": 19,
+          "last_cube_z": 20,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 8,
+          "y": 7,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 8,
+          "y": 9,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 7,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 8,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        }
+      ],
+      "geometry_cubes": 184,
+      "storage_definition": "Internal data cube with exactly two ordinary temporal pipes and no spatial branch; geometry feature, not the old profile-specific logical protected idle or calibrated error risk.",
+      "stim_ticks": 909,
+      "qec_rounds": null,
+      "static_site_ticks": 563580,
+      "active_physical_sites": 620,
+      "device_physical_sites": 620
+    },
+    "profile_features": {
+      "physical_layers": 13,
+      "template_block_z": 39,
+      "cx_routing_steps": 3,
+      "logical_h_layers": 10,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 156,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          6,
+          15
+        ],
+        [
+          12
+        ],
+        [
+          15,
+          6,
+          3
+        ],
+        [
+          12
+        ]
+      ],
+      "total_protected_idle_block_z": 72,
+      "max_protected_idle_block_z": 15,
+      "squared_protected_idle_block_z2": 828,
+      "cx_recurrence_separations_block_z": [
+        9,
+        9
+      ],
+      "cx_gap_squared_block_z2": 162,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "qualified_complete_output": true,
+    "outside_device_sites": 0,
+    "external_flows": [
+      "ZIIIIZII",
+      "IZIIZIII",
+      "IIZIIIIZ",
+      "IIIZIIZI"
+    ],
+    "device_sha256": "3c82e7034bd368be5dfa1de5835bc352a6fd335095ebc6269639009cfa1ad8d5",
+    "qualification": "Frozen original complete physical hs4 certificate and exact archived hashes; no recompile or resampling.",
+    "original_shots": 100000,
+    "new_shots": 0
+  },
+  {
+    "candidate_id": "old:p05",
+    "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "plan_sha256": "5d88e8ad9fbdefb8c54b835562a9d0565e918cc2eb7c16c23b6a6c6cfae1b150",
+    "ideal_sha256": "3c74dfa38923dc5a23d839dce7a7f7ac6a827fbb0399eca97bc3f8f247735462",
+    "noisy_sha256": "7d84dd1fc8f786b348991eb6e08c4cde65ba164dffc5140ea120134249ef457d",
+    "dem_sha256": "c0f7d37a0b9743b28bb044d1bf8cd003f2919840a79cfa1802b257a26f83c0be",
+    "features": {
+      "template_block_z": 48,
+      "data_lifetime_block_z": 192,
+      "ancilla_lifetime_block_z": 24,
+      "total_lifetime_block_z": 216,
+      "plain_data_storage_cubes": 140,
+      "plain_data_storage_detail": [
+        {
+          "qubit": 0,
+          "cube_z": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            21,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            32,
+            33,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+          ],
+          "count": 39
+        },
+        {
+          "qubit": 1,
+          "cube_z": [
+            3,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            21,
+            24,
+            27,
+            30,
+            31,
+            33,
+            36,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+          ],
+          "count": 31
+        },
+        {
+          "qubit": 2,
+          "cube_z": [
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            41,
+            42,
+            45,
+            46,
+            47
+          ],
+          "count": 39
+        },
+        {
+          "qubit": 3,
+          "cube_z": [
+            3,
+            6,
+            7,
+            9,
+            12,
+            15,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            42,
+            45
+          ],
+          "count": 31
+        }
+      ],
+      "ancilla_lifetime_segments": [
+        {
+          "x": 0,
+          "y": 1,
+          "first_cube_z": 31,
+          "last_cube_z": 32,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "first_cube_z": 19,
+          "last_cube_z": 19,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 19,
+          "last_cube_z": 19,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "first_cube_z": 19,
+          "last_cube_z": 19,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "first_cube_z": 19,
+          "last_cube_z": 20,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 6,
+          "y": 7,
+          "first_cube_z": 40,
+          "last_cube_z": 41,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 7,
+          "y": 6,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 41,
+          "last_cube_z": 41,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 9,
+          "first_cube_z": 7,
+          "last_cube_z": 8,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 8,
+          "y": 7,
+          "first_cube_z": 41,
+          "last_cube_z": 41,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 8,
+          "y": 9,
+          "first_cube_z": 8,
+          "last_cube_z": 8,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 7,
+          "first_cube_z": 41,
+          "last_cube_z": 41,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 8,
+          "first_cube_z": 41,
+          "last_cube_z": 41,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        }
+      ],
+      "geometry_cubes": 220,
+      "storage_definition": "Internal data cube with exactly two ordinary temporal pipes and no spatial branch; geometry feature, not the old profile-specific logical protected idle or calibrated error risk.",
+      "stim_ticks": 1112,
+      "qec_rounds": null,
+      "static_site_ticks": 689440,
+      "active_physical_sites": 620,
+      "device_physical_sites": 620
+    },
+    "profile_features": {
+      "physical_layers": 16,
+      "template_block_z": 48,
+      "cx_routing_steps": 4,
+      "logical_h_layers": 12,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 192,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          15,
+          6,
+          12
+        ],
+        [
+          12,
+          9
+        ],
+        [
+          3,
+          27,
+          3
+        ],
+        [
+          21
+        ]
+      ],
+      "total_protected_idle_block_z": 108,
+      "max_protected_idle_block_z": 27,
+      "squared_protected_idle_block_z2": 1818,
+      "cx_recurrence_separations_block_z": [
+        30,
+        9
+      ],
+      "cx_gap_squared_block_z2": 981,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "qualified_complete_output": true,
+    "outside_device_sites": 0,
+    "external_flows": [
+      "ZIIIIZII",
+      "IZIIZIII",
+      "IIZIIIIZ",
+      "IIIZIIZI"
+    ],
+    "device_sha256": "3c82e7034bd368be5dfa1de5835bc352a6fd335095ebc6269639009cfa1ad8d5",
+    "qualification": "Frozen original complete physical hs4 certificate and exact archived hashes; no recompile or resampling.",
+    "original_shots": 100000,
+    "new_shots": 0
+  },
+  {
+    "candidate_id": "old:p06",
+    "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "plan_sha256": "3d939b770aced636e2b9c8925ec54740020e65af893c78dc4516062a6aec029c",
+    "ideal_sha256": "ce1ddf2f6b64f60e86ef767e6cc95dad497f93fc481c139fa460ee71f2f7422b",
+    "noisy_sha256": "baa13d86b918da045124e98caed6f26ca59a783fc91cc522430e06ecea20cce6",
+    "dem_sha256": "4508f77dbb1b7b689d5d03f9db7c3ff49890cd46e5fb27fa9b66e1cced6cacbd",
+    "features": {
+      "template_block_z": 48,
+      "data_lifetime_block_z": 192,
+      "ancilla_lifetime_block_z": 24,
+      "total_lifetime_block_z": 216,
+      "plain_data_storage_cubes": 140,
+      "plain_data_storage_detail": [
+        {
+          "qubit": 0,
+          "cube_z": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            21,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            41,
+            42,
+            45,
+            46,
+            47
+          ],
+          "count": 39
+        },
+        {
+          "qubit": 1,
+          "cube_z": [
+            3,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            21,
+            24,
+            27,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            42,
+            45
+          ],
+          "count": 31
+        },
+        {
+          "qubit": 2,
+          "cube_z": [
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            32,
+            33,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+          ],
+          "count": 39
+        },
+        {
+          "qubit": 3,
+          "cube_z": [
+            3,
+            6,
+            7,
+            9,
+            12,
+            15,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            33,
+            36,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+          ],
+          "count": 31
+        }
+      ],
+      "ancilla_lifetime_segments": [
+        {
+          "x": 0,
+          "y": 1,
+          "first_cube_z": 40,
+          "last_cube_z": 41,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "first_cube_z": 19,
+          "last_cube_z": 19,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 19,
+          "last_cube_z": 19,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 41,
+          "last_cube_z": 41,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "first_cube_z": 19,
+          "last_cube_z": 19,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "first_cube_z": 19,
+          "last_cube_z": 20,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "first_cube_z": 41,
+          "last_cube_z": 41,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "first_cube_z": 41,
+          "last_cube_z": 41,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "first_cube_z": 41,
+          "last_cube_z": 41,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 6,
+          "y": 7,
+          "first_cube_z": 31,
+          "last_cube_z": 32,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 7,
+          "y": 6,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 9,
+          "first_cube_z": 7,
+          "last_cube_z": 8,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 8,
+          "y": 7,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 8,
+          "y": 9,
+          "first_cube_z": 8,
+          "last_cube_z": 8,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 7,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 8,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        }
+      ],
+      "geometry_cubes": 220,
+      "storage_definition": "Internal data cube with exactly two ordinary temporal pipes and no spatial branch; geometry feature, not the old profile-specific logical protected idle or calibrated error risk.",
+      "stim_ticks": 1112,
+      "qec_rounds": null,
+      "static_site_ticks": 689440,
+      "active_physical_sites": 620,
+      "device_physical_sites": 620
+    },
+    "profile_features": {
+      "physical_layers": 16,
+      "template_block_z": 48,
+      "cx_routing_steps": 4,
+      "logical_h_layers": 12,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 192,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          15,
+          15,
+          3
+        ],
+        [
+          12,
+          9
+        ],
+        [
+          3,
+          18,
+          12
+        ],
+        [
+          12,
+          9
+        ]
+      ],
+      "total_protected_idle_block_z": 108,
+      "max_protected_idle_block_z": 18,
+      "squared_protected_idle_block_z2": 1386,
+      "cx_recurrence_separations_block_z": [
+        21,
+        18
+      ],
+      "cx_gap_squared_block_z2": 765,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "qualified_complete_output": true,
+    "outside_device_sites": 0,
+    "external_flows": [
+      "ZIIIIZII",
+      "IZIIZIII",
+      "IIZIIIIZ",
+      "IIIZIIZI"
+    ],
+    "device_sha256": "3c82e7034bd368be5dfa1de5835bc352a6fd335095ebc6269639009cfa1ad8d5",
+    "qualification": "Frozen original complete physical hs4 certificate and exact archived hashes; no recompile or resampling.",
+    "original_shots": 100000,
+    "new_shots": 0
+  },
+  {
+    "candidate_id": "old:p07",
+    "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "plan_sha256": "c4fc22198dd2cf61945d33a7c5f5c562e24363dfa9c79e882cdb1193b9ac0859",
+    "ideal_sha256": "f0cafa836c98e17758406d5f424fdafe8922e6720320fb5ab0531f6e671a1825",
+    "noisy_sha256": "f30ec9dd44953a4e1971bff1dc57f052ea77b102101673c5ff6300123ab00688",
+    "dem_sha256": "5ea30436c8dc6b0bc1552f5831513dbb4bd07142eafb7c4c5f34cecf9c267055",
+    "features": {
+      "template_block_z": 39,
+      "data_lifetime_block_z": 156,
+      "ancilla_lifetime_block_z": 24,
+      "total_lifetime_block_z": 180,
+      "plain_data_storage_cubes": 104,
+      "plain_data_storage_detail": [
+        {
+          "qubit": 0,
+          "cube_z": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            21,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            32,
+            33,
+            36,
+            37,
+            38
+          ],
+          "count": 30
+        },
+        {
+          "qubit": 1,
+          "cube_z": [
+            3,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            21,
+            24,
+            27,
+            30,
+            31,
+            33,
+            36
+          ],
+          "count": 22
+        },
+        {
+          "qubit": 2,
+          "cube_z": [
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            32,
+            33,
+            36,
+            37,
+            38
+          ],
+          "count": 30
+        },
+        {
+          "qubit": 3,
+          "cube_z": [
+            3,
+            6,
+            7,
+            9,
+            12,
+            15,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            33,
+            36
+          ],
+          "count": 22
+        }
+      ],
+      "ancilla_lifetime_segments": [
+        {
+          "x": 0,
+          "y": 1,
+          "first_cube_z": 31,
+          "last_cube_z": 32,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "first_cube_z": 19,
+          "last_cube_z": 19,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 19,
+          "last_cube_z": 19,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "first_cube_z": 19,
+          "last_cube_z": 19,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "first_cube_z": 19,
+          "last_cube_z": 20,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 6,
+          "y": 7,
+          "first_cube_z": 31,
+          "last_cube_z": 32,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 7,
+          "y": 6,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 9,
+          "first_cube_z": 7,
+          "last_cube_z": 8,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 8,
+          "y": 7,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 8,
+          "y": 9,
+          "first_cube_z": 8,
+          "last_cube_z": 8,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 7,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 8,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        }
+      ],
+      "geometry_cubes": 184,
+      "storage_definition": "Internal data cube with exactly two ordinary temporal pipes and no spatial branch; geometry feature, not the old profile-specific logical protected idle or calibrated error risk.",
+      "stim_ticks": 909,
+      "qec_rounds": null,
+      "static_site_ticks": 563580,
+      "active_physical_sites": 620,
+      "device_physical_sites": 620
+    },
+    "profile_features": {
+      "physical_layers": 13,
+      "template_block_z": 39,
+      "cx_routing_steps": 3,
+      "logical_h_layers": 10,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 156,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          15,
+          6,
+          3
+        ],
+        [
+          12
+        ],
+        [
+          3,
+          18,
+          3
+        ],
+        [
+          12
+        ]
+      ],
+      "total_protected_idle_block_z": 72,
+      "max_protected_idle_block_z": 18,
+      "squared_protected_idle_block_z2": 900,
+      "cx_recurrence_separations_block_z": [
+        21,
+        9
+      ],
+      "cx_gap_squared_block_z2": 522,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "qualified_complete_output": true,
+    "outside_device_sites": 0,
+    "external_flows": [
+      "ZIIIIZII",
+      "IZIIZIII",
+      "IIZIIIIZ",
+      "IIIZIIZI"
+    ],
+    "device_sha256": "3c82e7034bd368be5dfa1de5835bc352a6fd335095ebc6269639009cfa1ad8d5",
+    "qualification": "Frozen original complete physical hs4 certificate and exact archived hashes; no recompile or resampling.",
+    "original_shots": 100000,
+    "new_shots": 0
+  },
+  {
+    "candidate_id": "old:p08",
+    "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "plan_sha256": "7cafa4a9b0b6448dbd1140911d6cd3a78e08fd7d19221f19553cb5efbb21daea",
+    "ideal_sha256": "f2ade782b5faa0e8ccb64a283b8dcdf328eee0032eba69d53f30105389deb9c4",
+    "noisy_sha256": "16d2dc4a4793e2173d6bd2936d503ef7d91824a8a74233de7286afa578f6d34f",
+    "dem_sha256": "2c1c4e7b25c5a4c11631bbf940f07e4f0c690d46327cb14ca23d483d31c209d5",
+    "features": {
+      "template_block_z": 48,
+      "data_lifetime_block_z": 192,
+      "ancilla_lifetime_block_z": 24,
+      "total_lifetime_block_z": 216,
+      "plain_data_storage_cubes": 140,
+      "plain_data_storage_detail": [
+        {
+          "qubit": 0,
+          "cube_z": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            29,
+            30,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            41,
+            42,
+            45,
+            46,
+            47
+          ],
+          "count": 39
+        },
+        {
+          "qubit": 1,
+          "cube_z": [
+            3,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            30,
+            33,
+            36,
+            39,
+            40,
+            42,
+            45
+          ],
+          "count": 31
+        },
+        {
+          "qubit": 2,
+          "cube_z": [
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            21,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+          ],
+          "count": 39
+        },
+        {
+          "qubit": 3,
+          "cube_z": [
+            3,
+            6,
+            7,
+            9,
+            12,
+            15,
+            18,
+            19,
+            21,
+            24,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+          ],
+          "count": 31
+        }
+      ],
+      "ancilla_lifetime_segments": [
+        {
+          "x": 0,
+          "y": 1,
+          "first_cube_z": 40,
+          "last_cube_z": 41,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "first_cube_z": 28,
+          "last_cube_z": 28,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 28,
+          "last_cube_z": 28,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 41,
+          "last_cube_z": 41,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "first_cube_z": 28,
+          "last_cube_z": 28,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "first_cube_z": 28,
+          "last_cube_z": 29,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "first_cube_z": 41,
+          "last_cube_z": 41,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "first_cube_z": 29,
+          "last_cube_z": 29,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "first_cube_z": 41,
+          "last_cube_z": 41,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "first_cube_z": 41,
+          "last_cube_z": 41,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 6,
+          "y": 7,
+          "first_cube_z": 19,
+          "last_cube_z": 20,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 7,
+          "y": 6,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 9,
+          "first_cube_z": 7,
+          "last_cube_z": 8,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 8,
+          "y": 7,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 8,
+          "y": 9,
+          "first_cube_z": 8,
+          "last_cube_z": 8,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 7,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 8,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        }
+      ],
+      "geometry_cubes": 220,
+      "storage_definition": "Internal data cube with exactly two ordinary temporal pipes and no spatial branch; geometry feature, not the old profile-specific logical protected idle or calibrated error risk.",
+      "stim_ticks": 1112,
+      "qec_rounds": null,
+      "static_site_ticks": 689440,
+      "active_physical_sites": 620,
+      "device_physical_sites": 620
+    },
+    "profile_features": {
+      "physical_layers": 16,
+      "template_block_z": 48,
+      "cx_routing_steps": 4,
+      "logical_h_layers": 12,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 192,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          24,
+          6,
+          3
+        ],
+        [
+          21
+        ],
+        [
+          3,
+          6,
+          24
+        ],
+        [
+          21
+        ]
+      ],
+      "total_protected_idle_block_z": 108,
+      "max_protected_idle_block_z": 24,
+      "squared_protected_idle_block_z2": 2124,
+      "cx_recurrence_separations_block_z": [
+        9,
+        9
+      ],
+      "cx_gap_squared_block_z2": 162,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "qualified_complete_output": true,
+    "outside_device_sites": 0,
+    "external_flows": [
+      "ZIIIIZII",
+      "IZIIZIII",
+      "IIZIIIIZ",
+      "IIIZIIZI"
+    ],
+    "device_sha256": "3c82e7034bd368be5dfa1de5835bc352a6fd335095ebc6269639009cfa1ad8d5",
+    "qualification": "Frozen original complete physical hs4 certificate and exact archived hashes; no recompile or resampling.",
+    "original_shots": 100000,
+    "new_shots": 0
+  },
+  {
+    "candidate_id": "old:p09",
+    "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "plan_sha256": "f037c91b03f24b0c7c3b345c1bdb4cd97485558bbe613aad61c49b67255392a1",
+    "ideal_sha256": "6a7eaa5a7e61257955ba3413fa753229493815b845fbd58cbbf7dba9c3eb8f73",
+    "noisy_sha256": "ef9f787041050be281e0a13dd43ec12efd2130fb4e9f0e4de60e0f73d4bc1bce",
+    "dem_sha256": "4ffa3842cff835573ca0fa32162e46a8da4fbe1fb1de5202360cb3f733c0342b",
+    "features": {
+      "template_block_z": 39,
+      "data_lifetime_block_z": 156,
+      "ancilla_lifetime_block_z": 24,
+      "total_lifetime_block_z": 180,
+      "plain_data_storage_cubes": 104,
+      "plain_data_storage_detail": [
+        {
+          "qubit": 0,
+          "cube_z": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            21,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            32,
+            33,
+            36,
+            37,
+            38
+          ],
+          "count": 30
+        },
+        {
+          "qubit": 1,
+          "cube_z": [
+            3,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            21,
+            24,
+            27,
+            30,
+            31,
+            33,
+            36
+          ],
+          "count": 22
+        },
+        {
+          "qubit": 2,
+          "cube_z": [
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            21,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ],
+          "count": 30
+        },
+        {
+          "qubit": 3,
+          "cube_z": [
+            3,
+            6,
+            7,
+            9,
+            12,
+            15,
+            18,
+            19,
+            21,
+            24,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ],
+          "count": 22
+        }
+      ],
+      "ancilla_lifetime_segments": [
+        {
+          "x": 0,
+          "y": 1,
+          "first_cube_z": 31,
+          "last_cube_z": 32,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "first_cube_z": 19,
+          "last_cube_z": 19,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 19,
+          "last_cube_z": 19,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "first_cube_z": 19,
+          "last_cube_z": 19,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "first_cube_z": 19,
+          "last_cube_z": 20,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "first_cube_z": 32,
+          "last_cube_z": 32,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 6,
+          "y": 7,
+          "first_cube_z": 19,
+          "last_cube_z": 20,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 7,
+          "y": 6,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 9,
+          "first_cube_z": 7,
+          "last_cube_z": 8,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 8,
+          "y": 7,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 8,
+          "y": 9,
+          "first_cube_z": 8,
+          "last_cube_z": 8,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 7,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 8,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        }
+      ],
+      "geometry_cubes": 184,
+      "storage_definition": "Internal data cube with exactly two ordinary temporal pipes and no spatial branch; geometry feature, not the old profile-specific logical protected idle or calibrated error risk.",
+      "stim_ticks": 909,
+      "qec_rounds": null,
+      "static_site_ticks": 563580,
+      "active_physical_sites": 620,
+      "device_physical_sites": 620
+    },
+    "profile_features": {
+      "physical_layers": 13,
+      "template_block_z": 39,
+      "cx_routing_steps": 3,
+      "logical_h_layers": 10,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 156,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          15,
+          6,
+          3
+        ],
+        [
+          12
+        ],
+        [
+          3,
+          6,
+          15
+        ],
+        [
+          12
+        ]
+      ],
+      "total_protected_idle_block_z": 72,
+      "max_protected_idle_block_z": 15,
+      "squared_protected_idle_block_z2": 828,
+      "cx_recurrence_separations_block_z": [
+        9,
+        9
+      ],
+      "cx_gap_squared_block_z2": 162,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "qualified_complete_output": true,
+    "outside_device_sites": 0,
+    "external_flows": [
+      "ZIIIIZII",
+      "IZIIZIII",
+      "IIZIIIIZ",
+      "IIIZIIZI"
+    ],
+    "device_sha256": "3c82e7034bd368be5dfa1de5835bc352a6fd335095ebc6269639009cfa1ad8d5",
+    "qualification": "Frozen original complete physical hs4 certificate and exact archived hashes; no recompile or resampling.",
+    "original_shots": 100000,
+    "new_shots": 0
+  },
+  {
+    "candidate_id": "old:p10",
+    "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "plan_sha256": "26cfedd5da4c8f8760ef48b436839c71d67fce028982c98ac42395459411fafc",
+    "ideal_sha256": "4095b63203248f6bb39d536fea0b065d5186465d8507095cf25b8f1a420ba411",
+    "noisy_sha256": "4ff9e3f6d19ad65d21de226e7096ae9db7653220a8f8c7e8fff8590064546971",
+    "dem_sha256": "16b98bbb9339ea9882ece489e83005b2a9b70299ad8201225a5e2461c1029610",
+    "features": {
+      "template_block_z": 36,
+      "data_lifetime_block_z": 144,
+      "ancilla_lifetime_block_z": 24,
+      "total_lifetime_block_z": 168,
+      "plain_data_storage_cubes": 92,
+      "plain_data_storage_detail": [
+        {
+          "qubit": 0,
+          "cube_z": [
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            21,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35
+          ],
+          "count": 27
+        },
+        {
+          "qubit": 1,
+          "cube_z": [
+            3,
+            6,
+            7,
+            9,
+            12,
+            15,
+            18,
+            19,
+            21,
+            24,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35
+          ],
+          "count": 19
+        },
+        {
+          "qubit": 2,
+          "cube_z": [
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            29,
+            30,
+            33,
+            34,
+            35
+          ],
+          "count": 27
+        },
+        {
+          "qubit": 3,
+          "cube_z": [
+            3,
+            6,
+            7,
+            9,
+            12,
+            15,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            30,
+            33
+          ],
+          "count": 19
+        }
+      ],
+      "ancilla_lifetime_segments": [
+        {
+          "x": 0,
+          "y": 1,
+          "first_cube_z": 19,
+          "last_cube_z": 20,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "first_cube_z": 7,
+          "last_cube_z": 8,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "first_cube_z": 8,
+          "last_cube_z": 8,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 6,
+          "y": 7,
+          "first_cube_z": 28,
+          "last_cube_z": 29,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 7,
+          "y": 6,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 29,
+          "last_cube_z": 29,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 9,
+          "first_cube_z": 7,
+          "last_cube_z": 8,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 8,
+          "y": 7,
+          "first_cube_z": 29,
+          "last_cube_z": 29,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 8,
+          "y": 9,
+          "first_cube_z": 8,
+          "last_cube_z": 8,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 7,
+          "first_cube_z": 29,
+          "last_cube_z": 29,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 8,
+          "first_cube_z": 29,
+          "last_cube_z": 29,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        }
+      ],
+      "geometry_cubes": 172,
+      "storage_definition": "Internal data cube with exactly two ordinary temporal pipes and no spatial branch; geometry feature, not the old profile-specific logical protected idle or calibrated error risk.",
+      "stim_ticks": 839,
+      "qec_rounds": null,
+      "static_site_ticks": 520180,
+      "active_physical_sites": 620,
+      "device_physical_sites": 620
+    },
+    "profile_features": {
+      "physical_layers": 12,
+      "template_block_z": 36,
+      "cx_routing_steps": 3,
+      "logical_h_layers": 9,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 144,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          6,
+          12
+        ],
+        [
+          9
+        ],
+        [
+          3,
+          15,
+          3
+        ],
+        [
+          9
+        ]
+      ],
+      "total_protected_idle_block_z": 60,
+      "max_protected_idle_block_z": 15,
+      "squared_protected_idle_block_z2": 594,
+      "cx_recurrence_separations_block_z": [
+        9,
+        18
+      ],
+      "cx_gap_squared_block_z2": 405,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "qualified_complete_output": true,
+    "outside_device_sites": 0,
+    "external_flows": [
+      "ZIIIIZII",
+      "IZIIZIII",
+      "IIZIIIIZ",
+      "IIIZIIZI"
+    ],
+    "device_sha256": "3c82e7034bd368be5dfa1de5835bc352a6fd335095ebc6269639009cfa1ad8d5",
+    "qualification": "Frozen original complete physical hs4 certificate and exact archived hashes; no recompile or resampling.",
+    "original_shots": 100000,
+    "new_shots": 0
+  },
+  {
+    "candidate_id": "old:p11",
+    "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "plan_sha256": "8638516e89d5d676d0dd2484e2b1d34d2e0b8635aa47eb6a77dde2e16ff20adc",
+    "ideal_sha256": "606ffcbf564d1645a1ee7ac62409c5bca6d31cd250ee212b9f3c531800f7aaa2",
+    "noisy_sha256": "50d2489632e43d8c145409bb5dcd73c768f6c685d4eb70f8d720a9f6c6208ba8",
+    "dem_sha256": "739010364575ef119c4bef77cfba10835a94213038a24d32371751367fcb387f",
+    "features": {
+      "template_block_z": 36,
+      "data_lifetime_block_z": 144,
+      "ancilla_lifetime_block_z": 24,
+      "total_lifetime_block_z": 168,
+      "plain_data_storage_cubes": 92,
+      "plain_data_storage_detail": [
+        {
+          "qubit": 0,
+          "cube_z": [
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            29,
+            30,
+            33,
+            34,
+            35
+          ],
+          "count": 27
+        },
+        {
+          "qubit": 1,
+          "cube_z": [
+            3,
+            6,
+            7,
+            9,
+            12,
+            15,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            30,
+            33
+          ],
+          "count": 19
+        },
+        {
+          "qubit": 2,
+          "cube_z": [
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            21,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35
+          ],
+          "count": 27
+        },
+        {
+          "qubit": 3,
+          "cube_z": [
+            3,
+            6,
+            7,
+            9,
+            12,
+            15,
+            18,
+            19,
+            21,
+            24,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35
+          ],
+          "count": 19
+        }
+      ],
+      "ancilla_lifetime_segments": [
+        {
+          "x": 0,
+          "y": 1,
+          "first_cube_z": 28,
+          "last_cube_z": 29,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 29,
+          "last_cube_z": 29,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "first_cube_z": 7,
+          "last_cube_z": 8,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "first_cube_z": 29,
+          "last_cube_z": 29,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "first_cube_z": 8,
+          "last_cube_z": 8,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "first_cube_z": 29,
+          "last_cube_z": 29,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "first_cube_z": 29,
+          "last_cube_z": 29,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 6,
+          "y": 7,
+          "first_cube_z": 19,
+          "last_cube_z": 20,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 7,
+          "y": 6,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 9,
+          "first_cube_z": 7,
+          "last_cube_z": 8,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 8,
+          "y": 7,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 8,
+          "y": 9,
+          "first_cube_z": 8,
+          "last_cube_z": 8,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 7,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 8,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        }
+      ],
+      "geometry_cubes": 172,
+      "storage_definition": "Internal data cube with exactly two ordinary temporal pipes and no spatial branch; geometry feature, not the old profile-specific logical protected idle or calibrated error risk.",
+      "stim_ticks": 839,
+      "qec_rounds": null,
+      "static_site_ticks": 520180,
+      "active_physical_sites": 620,
+      "device_physical_sites": 620
+    },
+    "profile_features": {
+      "physical_layers": 12,
+      "template_block_z": 36,
+      "cx_routing_steps": 3,
+      "logical_h_layers": 9,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 144,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          15,
+          3
+        ],
+        [
+          9
+        ],
+        [
+          3,
+          6,
+          12
+        ],
+        [
+          9
+        ]
+      ],
+      "total_protected_idle_block_z": 60,
+      "max_protected_idle_block_z": 15,
+      "squared_protected_idle_block_z2": 594,
+      "cx_recurrence_separations_block_z": [
+        18,
+        9
+      ],
+      "cx_gap_squared_block_z2": 405,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "qualified_complete_output": true,
+    "outside_device_sites": 0,
+    "external_flows": [
+      "ZIIIIZII",
+      "IZIIZIII",
+      "IIZIIIIZ",
+      "IIIZIIZI"
+    ],
+    "device_sha256": "3c82e7034bd368be5dfa1de5835bc352a6fd335095ebc6269639009cfa1ad8d5",
+    "qualification": "Frozen original complete physical hs4 certificate and exact archived hashes; no recompile or resampling.",
+    "original_shots": 100000,
+    "new_shots": 0
+  },
+  {
+    "candidate_id": "old:p12",
+    "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "plan_sha256": "dda588945ac2d89eab033a14f321bfcff4128dd837566edeea4dde546aba4dac",
+    "ideal_sha256": "d7eaa95e6785c8a622ea10f1569a0ceb562ae09bf7e84ffef3ac0a2311f7cef7",
+    "noisy_sha256": "70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222",
+    "dem_sha256": "f1ab439fe76ae1565684e089ce8d1e51f822131682d14d820acd09b168015a90",
+    "features": {
+      "template_block_z": 27,
+      "data_lifetime_block_z": 108,
+      "ancilla_lifetime_block_z": 24,
+      "total_lifetime_block_z": 132,
+      "plain_data_storage_cubes": 56,
+      "plain_data_storage_detail": [
+        {
+          "qubit": 0,
+          "cube_z": [
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            21,
+            24,
+            25,
+            26
+          ],
+          "count": 18
+        },
+        {
+          "qubit": 1,
+          "cube_z": [
+            3,
+            6,
+            7,
+            9,
+            12,
+            15,
+            18,
+            19,
+            21,
+            24
+          ],
+          "count": 10
+        },
+        {
+          "qubit": 2,
+          "cube_z": [
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            21,
+            24,
+            25,
+            26
+          ],
+          "count": 18
+        },
+        {
+          "qubit": 3,
+          "cube_z": [
+            3,
+            6,
+            7,
+            9,
+            12,
+            15,
+            18,
+            19,
+            21,
+            24
+          ],
+          "count": 10
+        }
+      ],
+      "ancilla_lifetime_segments": [
+        {
+          "x": 0,
+          "y": 1,
+          "first_cube_z": 19,
+          "last_cube_z": 20,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "first_cube_z": 7,
+          "last_cube_z": 8,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "first_cube_z": 8,
+          "last_cube_z": 8,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 6,
+          "y": 7,
+          "first_cube_z": 19,
+          "last_cube_z": 20,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 7,
+          "y": 6,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "first_cube_z": 7,
+          "last_cube_z": 7,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 7,
+          "y": 9,
+          "first_cube_z": 7,
+          "last_cube_z": 8,
+          "native_voxels": 2,
+          "lifetime_block_z": 2,
+          "temporal_pipe_count": 1
+        },
+        {
+          "x": 8,
+          "y": 7,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 8,
+          "y": 9,
+          "first_cube_z": 8,
+          "last_cube_z": 8,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 7,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        },
+        {
+          "x": 9,
+          "y": 8,
+          "first_cube_z": 20,
+          "last_cube_z": 20,
+          "native_voxels": 1,
+          "lifetime_block_z": 1,
+          "temporal_pipe_count": 0
+        }
+      ],
+      "geometry_cubes": 136,
+      "storage_definition": "Internal data cube with exactly two ordinary temporal pipes and no spatial branch; geometry feature, not the old profile-specific logical protected idle or calibrated error risk.",
+      "stim_ticks": 636,
+      "qec_rounds": null,
+      "static_site_ticks": 394320,
+      "active_physical_sites": 620,
+      "device_physical_sites": 620
+    },
+    "profile_features": {
+      "physical_layers": 9,
+      "template_block_z": 27,
+      "cx_routing_steps": 2,
+      "logical_h_layers": 7,
+      "qec_rounds": null,
+      "stim_ticks": null,
+      "data_reservation_block_z": 108,
+      "ancilla_reservation_block_z": 60,
+      "protected_idle_intervals_block_z": [
+        [
+          3,
+          6,
+          3
+        ],
+        [],
+        [
+          3,
+          6,
+          3
+        ],
+        []
+      ],
+      "total_protected_idle_block_z": 24,
+      "max_protected_idle_block_z": 6,
+      "squared_protected_idle_block_z2": 108,
+      "cx_recurrence_separations_block_z": [
+        9,
+        9
+      ],
+      "cx_gap_squared_block_z2": 162,
+      "feature_note": "CX recurrence separation includes intervening H, not just protected idle. No QEC-round or TICK inference."
+    },
+    "qualified_complete_output": true,
+    "outside_device_sites": 0,
+    "external_flows": [
+      "ZIIIIZII",
+      "IZIIZIII",
+      "IIZIIIIZ",
+      "IIIZIIZI"
+    ],
+    "device_sha256": "3c82e7034bd368be5dfa1de5835bc352a6fd335095ebc6269639009cfa1ad8d5",
+    "qualification": "Frozen original complete physical hs4 certificate and exact archived hashes; no recompile or resampling.",
+    "original_shots": 100000,
+    "new_shots": 0
+  }
+]

@@ -1,0 +1,1 @@
+PASS: actual frontier next h006..h011 / max54 requests; per-call journal start/finish contract with a compiler stub. 0 physical compilations,0shots. Execution path not run in this check.

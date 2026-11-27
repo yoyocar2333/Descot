@@ -1,0 +1,431 @@
+{
+  "total_complete_physical_pool": 19,
+  "logical_minimum_frontier": 144,
+  "qualified_minima": 6,
+  "pending_minima": 138,
+  "complete_frontier": false,
+  "all_old13_preserved": true,
+  "exact_aliases": [],
+  "full_pool_sha256": "e19a4b7e596fc9b167837647bd4f58da459e6bdb2c8fae2be65f0a75a3955ef7",
+  "selections": [
+    {
+      "policy": "duration_then_volume",
+      "stages": [
+        "template_block_z",
+        "total_lifetime_block_z"
+      ],
+      "candidate_id": "old:p12",
+      "tied_optima": [
+        "h000",
+        "h001",
+        "h002",
+        "h003",
+        "h004",
+        "h005",
+        "old:p12"
+      ],
+      "optimum": [
+        27,
+        132
+      ],
+      "reference_id": "old:p12",
+      "switched": false,
+      "pool_size": 19,
+      "row_evaluations": 19,
+      "budget": 19,
+      "pool_sha256": "e19a4b7e596fc9b167837647bd4f58da459e6bdb2c8fae2be65f0a75a3955ef7",
+      "mu": 0,
+      "interpretation": "Offline selector on shared preconstructed physical pool. Equal row counts are not equal route-search calls/CPU; no LER or novelty claim."
+    },
+    {
+      "policy": "volume_then_duration",
+      "stages": [
+        "total_lifetime_block_z",
+        "template_block_z"
+      ],
+      "candidate_id": "old:p12",
+      "tied_optima": [
+        "h000",
+        "h001",
+        "h002",
+        "h003",
+        "h004",
+        "h005",
+        "old:p12"
+      ],
+      "optimum": [
+        132,
+        27
+      ],
+      "reference_id": "old:p12",
+      "switched": false,
+      "pool_size": 19,
+      "row_evaluations": 19,
+      "budget": 19,
+      "pool_sha256": "e19a4b7e596fc9b167837647bd4f58da459e6bdb2c8fae2be65f0a75a3955ef7",
+      "mu": 0,
+      "interpretation": "Offline selector on shared preconstructed physical pool. Equal row counts are not equal route-search calls/CPU; no LER or novelty claim."
+    },
+    {
+      "policy": "plain_storage_then_duration",
+      "stages": [
+        "plain_data_storage_cubes",
+        "template_block_z"
+      ],
+      "candidate_id": "old:p12",
+      "tied_optima": [
+        "h000",
+        "h001",
+        "h002",
+        "h003",
+        "h004",
+        "h005",
+        "old:p12"
+      ],
+      "optimum": [
+        56,
+        27
+      ],
+      "reference_id": "old:p12",
+      "switched": false,
+      "pool_size": 19,
+      "row_evaluations": 19,
+      "budget": 19,
+      "pool_sha256": "e19a4b7e596fc9b167837647bd4f58da459e6bdb2c8fae2be65f0a75a3955ef7",
+      "mu": 0,
+      "interpretation": "Offline selector on shared preconstructed physical pool. Equal row counts are not equal route-search calls/CPU; no LER or novelty claim."
+    },
+    {
+      "policy": "static_sites_tick_then_volume",
+      "stages": [
+        "static_site_ticks",
+        "total_lifetime_block_z"
+      ],
+      "candidate_id": "old:p12",
+      "tied_optima": [
+        "h000",
+        "h001",
+        "h002",
+        "h003",
+        "h004",
+        "h005",
+        "old:p12"
+      ],
+      "optimum": [
+        394320,
+        132
+      ],
+      "reference_id": "old:p12",
+      "switched": false,
+      "pool_size": 19,
+      "row_evaluations": 19,
+      "budget": 19,
+      "pool_sha256": "e19a4b7e596fc9b167837647bd4f58da459e6bdb2c8fae2be65f0a75a3955ef7",
+      "mu": 0,
+      "interpretation": "Offline selector on shared preconstructed physical pool. Equal row counts are not equal route-search calls/CPU; no LER or novelty claim."
+    }
+  ],
+  "minimum_geometry_distinct": {
+    "template_block_z": 1,
+    "total_lifetime_block_z": 1,
+    "plain_data_storage_cubes": 1,
+    "static_site_ticks": 1
+  },
+  "minimum_geometry_values": {
+    "template_block_z": [
+      27
+    ],
+    "total_lifetime_block_z": [
+      132
+    ],
+    "plain_data_storage_cubes": [
+      56
+    ],
+    "static_site_ticks": [
+      394320
+    ]
+  },
+  "minimum_profile_wait_patterns": 2,
+  "minimum_total_idle_values": [
+    24
+  ],
+  "old_raw_assets": [
+    {
+      "old_id": "p00",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_6dc5cea34bd8787ab736292ca710f958ea1ae609e37ae9ef8acd3adcb4a9d05e_ideal.stim",
+      "bytes_sha256": "e57eb64eaeaf14b2b9e75726f98d2b90994d6d88fd314dbf08b2e516c0c0a541",
+      "canonical_stim_sha256": "0113e802724d02b34a3c35e6d7a24ee33bc2dfdda87810e1aa43c213dc42e446"
+    },
+    {
+      "old_id": "p00",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_6dc5cea34bd8787ab736292ca710f958ea1ae609e37ae9ef8acd3adcb4a9d05e.stim",
+      "bytes_sha256": "87aaafe4625d90bca21b228c135d4fcce9d15fdd5b0bc244e500feac5a7b3975",
+      "canonical_stim_sha256": "6dc5cea34bd8787ab736292ca710f958ea1ae609e37ae9ef8acd3adcb4a9d05e"
+    },
+    {
+      "old_id": "p00",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_6dc5cea34bd8787ab736292ca710f958ea1ae609e37ae9ef8acd3adcb4a9d05e.dem",
+      "bytes_sha256": "b6094ccbf7df46c00c73dadea1ee1f90f4a7c459d7fd008547bd0a8ac78afa95",
+      "canonical_stim_sha256": "313ae58d0071bd3e2159165485229203327f97549b5cf53b70ace7f1d240ff6a"
+    },
+    {
+      "old_id": "p01",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_50082f3e22eecb98fca4ecaa89d8db47eef96f9bfc6344ca8d7d2f0485218fd2_ideal.stim",
+      "bytes_sha256": "eadef6dbddd6ca8b7dc7f9bef36b386c8bae34a826b47f677fb8576a57eda947",
+      "canonical_stim_sha256": "0fd9500d8e189715305f67460b93c34e5d0e788b76a37a094ae41dadfda1957e"
+    },
+    {
+      "old_id": "p01",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_50082f3e22eecb98fca4ecaa89d8db47eef96f9bfc6344ca8d7d2f0485218fd2.stim",
+      "bytes_sha256": "ccd5389a079d875cf73f58c76248b95f58b6a7b07110be70f88bb079e46bf0e2",
+      "canonical_stim_sha256": "50082f3e22eecb98fca4ecaa89d8db47eef96f9bfc6344ca8d7d2f0485218fd2"
+    },
+    {
+      "old_id": "p01",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_50082f3e22eecb98fca4ecaa89d8db47eef96f9bfc6344ca8d7d2f0485218fd2.dem",
+      "bytes_sha256": "348d1fc6f896330bcc055b9c913dfbd408e2e25e06f515efe84d49269eabcbf2",
+      "canonical_stim_sha256": "da48154ab2285c6a102491f0bc3d1e61a219b5adecd0eb9e9dc92e8e23b82e6d"
+    },
+    {
+      "old_id": "p02",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_34c3830e6c65cdf22744fe01f5d0252a76ff5cdd32380abd9d2d29cf5870f56c_ideal.stim",
+      "bytes_sha256": "6cf30eebd35169a3ba7ea601df5a7c092465bbcf87d561b6672a5d3f3c4d6ef6",
+      "canonical_stim_sha256": "d90d7fc9295d3652ac69f413fc76e8cfdbc27c3e54ee59e1917be0d726055e22"
+    },
+    {
+      "old_id": "p02",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_34c3830e6c65cdf22744fe01f5d0252a76ff5cdd32380abd9d2d29cf5870f56c.stim",
+      "bytes_sha256": "e856f2daa783d7a440e2521917193028937e841065d39dfebbd1674cfe0f5fb6",
+      "canonical_stim_sha256": "34c3830e6c65cdf22744fe01f5d0252a76ff5cdd32380abd9d2d29cf5870f56c"
+    },
+    {
+      "old_id": "p02",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_34c3830e6c65cdf22744fe01f5d0252a76ff5cdd32380abd9d2d29cf5870f56c.dem",
+      "bytes_sha256": "6eea6f295d4b6b55e297d81dd58b83ac594cfe1ac0342c9c12deb88ada5881ce",
+      "canonical_stim_sha256": "27bc07959c95d1c889ba8df6444747414481dc32cca5d58f0a0ec4038c28255d"
+    },
+    {
+      "old_id": "p03",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_c8dc96457db44d238549250884f920f590d711629116859a0c8ab64984a49c87_ideal.stim",
+      "bytes_sha256": "f22a5379bed8db0f373e4da33bc4a0afcb7e5fce8641681f68b0a3baea423572",
+      "canonical_stim_sha256": "836468fcc2c81fbe889597241c025d2163f7dae3370a02491b4e94d10f407c0f"
+    },
+    {
+      "old_id": "p03",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_c8dc96457db44d238549250884f920f590d711629116859a0c8ab64984a49c87.stim",
+      "bytes_sha256": "95347650ebd7aa65283bc9075d03ae158ef198b284e57caf84a2811807a3b2b4",
+      "canonical_stim_sha256": "c8dc96457db44d238549250884f920f590d711629116859a0c8ab64984a49c87"
+    },
+    {
+      "old_id": "p03",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_c8dc96457db44d238549250884f920f590d711629116859a0c8ab64984a49c87.dem",
+      "bytes_sha256": "77dbf17b4f155851c9cb451e72ad9a902b010aef94e0630e269321bffa9fee01",
+      "canonical_stim_sha256": "7cacaf219000b85ace4fc0d3226166f346330fa00856f2cdcc3d5a719e92c7b5"
+    },
+    {
+      "old_id": "p04",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_f4bc3d304b8a378930e6fe3d06ef1b50dad03953402ba81d7aba9e074ca14107_ideal.stim",
+      "bytes_sha256": "17d86e0d442b6c21eed524e6e9602ac37142aba4d912e073f052b877e2ab06ee",
+      "canonical_stim_sha256": "c26261060504a00edc306ee58f492a6dbb4f908024af97cea77e7f3f19353971"
+    },
+    {
+      "old_id": "p04",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_f4bc3d304b8a378930e6fe3d06ef1b50dad03953402ba81d7aba9e074ca14107.stim",
+      "bytes_sha256": "6f64e2f44f92093f2ac9a59ea01836bb8ee77b4ec141a7189115423b012f2617",
+      "canonical_stim_sha256": "f4bc3d304b8a378930e6fe3d06ef1b50dad03953402ba81d7aba9e074ca14107"
+    },
+    {
+      "old_id": "p04",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_f4bc3d304b8a378930e6fe3d06ef1b50dad03953402ba81d7aba9e074ca14107.dem",
+      "bytes_sha256": "4c86c5b1f405c73e83f40c11e7c904f6a585afdae9fe33e5ab20a660a6e7fc66",
+      "canonical_stim_sha256": "040623eb1b232ee6fe0cc2bfdd998c754a12f0819bf8500716d538430dadb169"
+    },
+    {
+      "old_id": "p05",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_7d84dd1fc8f786b348991eb6e08c4cde65ba164dffc5140ea120134249ef457d_ideal.stim",
+      "bytes_sha256": "222abeb6596a4473db14a721321d690c7ace603d8859a65b8f3667532b80c986",
+      "canonical_stim_sha256": "3c74dfa38923dc5a23d839dce7a7f7ac6a827fbb0399eca97bc3f8f247735462"
+    },
+    {
+      "old_id": "p05",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_7d84dd1fc8f786b348991eb6e08c4cde65ba164dffc5140ea120134249ef457d.stim",
+      "bytes_sha256": "476be6044da8d33f16f84eea940315b0314401834849db9aced0311ade6a6397",
+      "canonical_stim_sha256": "7d84dd1fc8f786b348991eb6e08c4cde65ba164dffc5140ea120134249ef457d"
+    },
+    {
+      "old_id": "p05",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_7d84dd1fc8f786b348991eb6e08c4cde65ba164dffc5140ea120134249ef457d.dem",
+      "bytes_sha256": "7361c572dbcd0ade2d03811b8441da25ba67f848f255a82cceb6fc0c11f6fc7c",
+      "canonical_stim_sha256": "c0f7d37a0b9743b28bb044d1bf8cd003f2919840a79cfa1802b257a26f83c0be"
+    },
+    {
+      "old_id": "p06",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_baa13d86b918da045124e98caed6f26ca59a783fc91cc522430e06ecea20cce6_ideal.stim",
+      "bytes_sha256": "71ceacb5416a288bc974bbe7e33ff125a44538c7c5f6a51178146617209a30d7",
+      "canonical_stim_sha256": "ce1ddf2f6b64f60e86ef767e6cc95dad497f93fc481c139fa460ee71f2f7422b"
+    },
+    {
+      "old_id": "p06",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_baa13d86b918da045124e98caed6f26ca59a783fc91cc522430e06ecea20cce6.stim",
+      "bytes_sha256": "393c8ba7ebb7a870a19e9cec33eca67b7cb4c32f6eb86794adc7926e4ab44aeb",
+      "canonical_stim_sha256": "baa13d86b918da045124e98caed6f26ca59a783fc91cc522430e06ecea20cce6"
+    },
+    {
+      "old_id": "p06",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_baa13d86b918da045124e98caed6f26ca59a783fc91cc522430e06ecea20cce6.dem",
+      "bytes_sha256": "d04f7db50e16838f45e91f57f3c2bf7d9d94366467b2df1153c1fb7f24d4d5d1",
+      "canonical_stim_sha256": "4508f77dbb1b7b689d5d03f9db7c3ff49890cd46e5fb27fa9b66e1cced6cacbd"
+    },
+    {
+      "old_id": "p07",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_f30ec9dd44953a4e1971bff1dc57f052ea77b102101673c5ff6300123ab00688_ideal.stim",
+      "bytes_sha256": "c29a9dc5e31492e2719a320682be1a16ee9ccea9b524ff287517cdc84d8ef52a",
+      "canonical_stim_sha256": "f0cafa836c98e17758406d5f424fdafe8922e6720320fb5ab0531f6e671a1825"
+    },
+    {
+      "old_id": "p07",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_f30ec9dd44953a4e1971bff1dc57f052ea77b102101673c5ff6300123ab00688.stim",
+      "bytes_sha256": "1a051ff993f6d6b26ad38ea889075affb46d2f55db662c4467e806ad1b0085e6",
+      "canonical_stim_sha256": "f30ec9dd44953a4e1971bff1dc57f052ea77b102101673c5ff6300123ab00688"
+    },
+    {
+      "old_id": "p07",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_f30ec9dd44953a4e1971bff1dc57f052ea77b102101673c5ff6300123ab00688.dem",
+      "bytes_sha256": "712bf457dcdbaec2825aa6c4adbce7d3140b289e1d3caf5e6309f85fb4912427",
+      "canonical_stim_sha256": "5ea30436c8dc6b0bc1552f5831513dbb4bd07142eafb7c4c5f34cecf9c267055"
+    },
+    {
+      "old_id": "p08",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_16d2dc4a4793e2173d6bd2936d503ef7d91824a8a74233de7286afa578f6d34f_ideal.stim",
+      "bytes_sha256": "8aa66adcc2c4f60baf6d51fa49458a94f51699190a2a40924b66b8517969f192",
+      "canonical_stim_sha256": "f2ade782b5faa0e8ccb64a283b8dcdf328eee0032eba69d53f30105389deb9c4"
+    },
+    {
+      "old_id": "p08",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_16d2dc4a4793e2173d6bd2936d503ef7d91824a8a74233de7286afa578f6d34f.stim",
+      "bytes_sha256": "aaa81107fa4d80e687e17761622b76aec0ba7e0d1261ae5833fe161007592b69",
+      "canonical_stim_sha256": "16d2dc4a4793e2173d6bd2936d503ef7d91824a8a74233de7286afa578f6d34f"
+    },
+    {
+      "old_id": "p08",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_16d2dc4a4793e2173d6bd2936d503ef7d91824a8a74233de7286afa578f6d34f.dem",
+      "bytes_sha256": "5bd925ff9ec6426ff0f6bcc6628cf255ce877d124946efe2d2b2ed8594bf0d6b",
+      "canonical_stim_sha256": "2c1c4e7b25c5a4c11631bbf940f07e4f0c690d46327cb14ca23d483d31c209d5"
+    },
+    {
+      "old_id": "p09",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_ef9f787041050be281e0a13dd43ec12efd2130fb4e9f0e4de60e0f73d4bc1bce_ideal.stim",
+      "bytes_sha256": "f548a899fba065cc294d743fb26928d3363b8407ff41ec2ff2a82bf81ad77d5b",
+      "canonical_stim_sha256": "6a7eaa5a7e61257955ba3413fa753229493815b845fbd58cbbf7dba9c3eb8f73"
+    },
+    {
+      "old_id": "p09",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_ef9f787041050be281e0a13dd43ec12efd2130fb4e9f0e4de60e0f73d4bc1bce.stim",
+      "bytes_sha256": "c17ced57b77094116e3566370e089a3ef3cfd2c4e16284b42cf09acbaee0e70d",
+      "canonical_stim_sha256": "ef9f787041050be281e0a13dd43ec12efd2130fb4e9f0e4de60e0f73d4bc1bce"
+    },
+    {
+      "old_id": "p09",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_ef9f787041050be281e0a13dd43ec12efd2130fb4e9f0e4de60e0f73d4bc1bce.dem",
+      "bytes_sha256": "26cb78210302f2d42b70d99b802fbf9365797d088adbf3d707bc6841fe52f3ca",
+      "canonical_stim_sha256": "4ffa3842cff835573ca0fa32162e46a8da4fbe1fb1de5202360cb3f733c0342b"
+    },
+    {
+      "old_id": "p10",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_4ff9e3f6d19ad65d21de226e7096ae9db7653220a8f8c7e8fff8590064546971_ideal.stim",
+      "bytes_sha256": "71e9837a67688bd1adc5f1d6ef0f2d4ce018d14db4dc73c7221fa3ac384c43fb",
+      "canonical_stim_sha256": "4095b63203248f6bb39d536fea0b065d5186465d8507095cf25b8f1a420ba411"
+    },
+    {
+      "old_id": "p10",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_4ff9e3f6d19ad65d21de226e7096ae9db7653220a8f8c7e8fff8590064546971.stim",
+      "bytes_sha256": "c18f925a832038c6bfe6020ba287cba574184b21432ffeaadd3c3a614009b29e",
+      "canonical_stim_sha256": "4ff9e3f6d19ad65d21de226e7096ae9db7653220a8f8c7e8fff8590064546971"
+    },
+    {
+      "old_id": "p10",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_4ff9e3f6d19ad65d21de226e7096ae9db7653220a8f8c7e8fff8590064546971.dem",
+      "bytes_sha256": "f5a3694ebd360c1011bb6576c1baf155f234344a805a3eefee2115f9205d3fa8",
+      "canonical_stim_sha256": "16b98bbb9339ea9882ece489e83005b2a9b70299ad8201225a5e2461c1029610"
+    },
+    {
+      "old_id": "p11",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_50d2489632e43d8c145409bb5dcd73c768f6c685d4eb70f8d720a9f6c6208ba8_ideal.stim",
+      "bytes_sha256": "4aab2862127f2bd19acd66392dcf8776099b82074e86261dd1f3df6349d7d716",
+      "canonical_stim_sha256": "606ffcbf564d1645a1ee7ac62409c5bca6d31cd250ee212b9f3c531800f7aaa2"
+    },
+    {
+      "old_id": "p11",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_50d2489632e43d8c145409bb5dcd73c768f6c685d4eb70f8d720a9f6c6208ba8.stim",
+      "bytes_sha256": "7885c4c300c6de2eda05d6749150b02cd0f1e1da43513049743880ddcd58ac12",
+      "canonical_stim_sha256": "50d2489632e43d8c145409bb5dcd73c768f6c685d4eb70f8d720a9f6c6208ba8"
+    },
+    {
+      "old_id": "p11",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_50d2489632e43d8c145409bb5dcd73c768f6c685d4eb70f8d720a9f6c6208ba8.dem",
+      "bytes_sha256": "5a5c192b561043cc137eb94b73a35ffb1771f9510a856c4e048631a2dbec5f0a",
+      "canonical_stim_sha256": "739010364575ef119c4bef77cfba10835a94213038a24d32371751367fcb387f"
+    },
+    {
+      "old_id": "p12",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222_ideal.stim",
+      "bytes_sha256": "d8a1a51e11b419cf1843ca9bd05987794d2a849fc6a1b67bb17d30fe00a3bdf1",
+      "canonical_stim_sha256": "d7eaa95e6785c8a622ea10f1569a0ceb562ae09bf7e84ffef3ac0a2311f7cef7"
+    },
+    {
+      "old_id": "p12",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222.stim",
+      "bytes_sha256": "d084fdaf166f3ed6d1b7e038c8fc3569151a5422f758d3fd6cda53af7c322041",
+      "canonical_stim_sha256": "70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222"
+    },
+    {
+      "old_id": "p12",
+      "archive": "archives/public_candidates_2026-11-02.zip",
+      "member": "results/public_candidates_2026-11-02/samples/sample_70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222.dem",
+      "bytes_sha256": "5bd80ada5f0640af29b03ba8b46f3fe41f7ab4f523a753bafc78d4c4f38921c9",
+      "canonical_stim_sha256": "f1ab439fe76ae1565684e089ce8d1e51f822131682d14d820acd09b168015a90"
+    }
+  ],
+  "new_shots": 0,
+  "counts": null,
+  "confidence_interval": null,
+  "interpretation": "The former H-first unique minimum is one of144 minima in the larger declared homogeneous pool. No decoded efficacy or novelty inferred. Four resource baselines share the19 currently qualified full circuits; all original13 remain. This is a partial qualification checkpoint, not an all144-minima comparison. Retired raw cost not rerun."
+}

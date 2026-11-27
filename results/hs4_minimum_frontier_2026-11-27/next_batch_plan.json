@@ -1,0 +1,29 @@
+{
+  "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+  "full_logical_pool_sha256": "6f5435231c99bff3b55913c6213ad9a2d787bed31cd02d3fdeebae7ddb6cc8f0",
+  "selected_ids": [
+    "h006",
+    "h007",
+    "h008",
+    "h009",
+    "h010",
+    "h011"
+  ],
+  "complete_ids": [
+    "h000",
+    "h001",
+    "h002",
+    "h003",
+    "h004",
+    "h005"
+  ],
+  "retained_minimum_count": 144,
+  "retained_old13": true,
+  "physical_compile_request_ceiling": 54,
+  "selection": "Next lexical IDs after verified completed certificates; no labels, no candidate deletion or noise-based replacement.",
+  "physical_resource": "Unchanged original620-coordinate/index catalogue. Application concurrency remains uncapped.",
+  "new_shots": 0,
+  "sampling_permission": false,
+  "held_out_labels": "sealed",
+  "mu": 0
+}

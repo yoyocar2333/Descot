@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "python": "3.12.14",
+  "exact_dependency_pins_verified": 58,
+  "pip_check": "No broken requirements found.",
+  "full_suite": {
+    "passed": 241,
+    "seconds": 481.1
+  },
+  "targeted_tests": {
+    "passed": 8,
+    "seconds": 1.13
+  },
+  "complete_logical_minimum_pool": 144,
+  "new_complete_physical_minima": 6,
+  "legacy_minimum_h143": "old:p12",
+  "total_qualified_minima": 7,
+  "unqualified_minima": 137,
+  "retained_original_circuits": 13,
+  "current_complete_physical_pool": 19,
+  "exact_validation_targets": 54,
+  "new_shots": 0,
+  "sampler_calls": 0,
+  "counts": null,
+  "confidence_interval": null,
+  "completed_physical_compile_calls": 30,
+  "aborted_inflight_compile_calls_exact": null,
+  "compile_accounting": "30 completed calls is not the full interrupted-batch total. Unknown in-flight calls and conservative bound remain in run_status.json. No matched-budget speed comparison.",
+  "raw_snapshot_sha256": "9fa49a2556a3c226a06cc7a7a2c79f486fc0b066eb7850bfb08f8396621adf4c",
+  "fresh_replay": "PASS with both new local raw-circuit and certificate directories absent; streamed archive bytes/proofs, no recompile.",
+  "unseen_labels": "sealed",
+  "sampling_permission": false,
+  "mu": 0,
+  "gate": "Logical frontier complete; physical frontier partial7/144. Original methods/common IR/online equalCPU/calibration/freeze/unseen evaluation remain incomplete."
+}

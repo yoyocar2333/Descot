@@ -1,0 +1,13 @@
+{
+  "completed_physical_compile_wall_sum_seconds": 2736.903031543,
+  "completed_exact_validation_seconds": 175.74897586100008,
+  "completed_noise_dem_decoder_seconds": 46.82280844099989,
+  "workers": 6,
+  "full_physical_batch_wall_seconds": null,
+  "routing_benchmark_seconds": null,
+  "scorer_benchmark_seconds": null,
+  "calibration_seconds": null,
+  "monte_carlo_seconds": null,
+  "decode_seconds": null,
+  "note": "Parallel per-call wall sums, not CPU speed. Partial aborted time is not subtracted or claimed as savings; no independent timing benchmark."
+}

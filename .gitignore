@@ -42,3 +42,7 @@ results/common_physical_pool_2026-11-25/circuits/
 results/grover_depth_frontier_2026-11-26/circuits/
 
 results/presentation_fault_demo_2026-11-27/circuits/
+
+# Complete scientific raw assets are stored in the split tar.xz snapshot.
+/results/hs4_minimum_frontier_2026-11-27/circuits/
+/results/hs4_minimum_frontier_2026-11-27/certificates/

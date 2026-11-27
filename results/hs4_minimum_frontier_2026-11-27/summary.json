@@ -1,0 +1,22 @@
+{
+  "reference_id": "old:p12",
+  "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+  "minimum_physical_layers": 9,
+  "full_search_legal_plans": 545893576119,
+  "qualified_minimum_plans": 6,
+  "total_minimum_plans": 144,
+  "pending_minimum_plans": 138,
+  "unique_noisy_circuits": 6,
+  "exact_targets": 54,
+  "compile_requests": 54,
+  "actual_physical_compilations": 30,
+  "exact_cache_hits": 24,
+  "compile_accounting_scope": "Completed certificates only; aborted in-flight unknown and separately bounded in run_status.json.",
+  "original_parallel_hashes_preserved": "Original13 are retained by analysis; no p12 recompile in this checkpoint.",
+  "new_shots": 0,
+  "sampler_calls": 0,
+  "counts": null,
+  "confidence_interval": null,
+  "mu": 0,
+  "qualification_scope": "Partial physical frontier6/144; complete original32-instruction application in each qualified circuit. Not an all144 physical gate pass."
+}

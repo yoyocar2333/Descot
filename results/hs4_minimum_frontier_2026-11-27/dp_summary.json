@@ -1,0 +1,8 @@
+{
+  "minimum_physical_layers": 9,
+  "minimum_plan_count": 144,
+  "all_legal_plan_count": 545893576119,
+  "nonminimum_plan_count": 545893575975,
+  "state_count": 882,
+  "scope": "All homogeneous ready H/CX subsets with eager zero-time closure and existing full oriented footprints. Mixed H/CX layers excluded. No concurrency cap. All deeper plans counted, not deleted."
+}

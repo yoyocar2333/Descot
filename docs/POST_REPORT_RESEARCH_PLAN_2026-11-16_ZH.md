@@ -3,7 +3,10 @@
 初訂：2026-11-16；最近增量：2026-11-27，Asia/Taipei。正式報告已完成；本計畫是後續研究，不修改已交付簡報。11/5、11/9 是歷史時程，不能當作下一輪截止日。使用者要求「天數壓縮，內容不壓縮」的完整性要求持續有效。
 
 
-11/27 最新要求與增量：使用者明確要求製作**新的簡報與必要展示**，此要求優先於例行研究不自動製作簡報的限制；舊報告簡報／凍結結果不變。[完整Grover精確decoder展示](updates/2026-11-27-presentation-decoder-demo.md)新增8個全物理電路Pauli注入子集，B與A+C相同syndrome但解碼完整輸出不同，全部確定性驗證，不估LER、不修訂成本。233項測試與replay通過，0newshots、0新physicalcompile。另製24頁新簡報與繁中講稿／問答／離線展示；raw v1仍停止、原方法共同IR／線上CPU-budget與開發校準／凍結／未見資料門檻仍未通過，μ=0、held-out sealed。
+11/27後續最新實驗要求與增量：[hs4完整DAG最短池與物理checkpoint](updates/2026-11-27-hs4-minimum-checkpoint.md)以既有完整H/X/CX backend允許延後ready H，精確計數545,893,576,119個homogeneous plans、144個九層最短，修正只有H-first池才有唯一p12的範圍。首批6份完成完整32指令／4輸出／8 generators／signed inputs／distance3，54驗證targets、30次可核對完成編譯（中止in-flight數量另列未知及上界），另有既有p12=h143，整體7/144已合格、137份真正待資格化；不冒充全部144已完成。原13完整circuits與更好的p12全部保留，當前19-row資源baselines均保留p12，0newshots；raw v1停止、held-out sealed、μ=0。已新增逐call journal的bounded續跑入口。本次依最新指示回到研究，不製作／修改簡報；必要原法共同IR／online budget、開發校準／凍結／未見取樣仍未完成。
+
+
+11/27較早的簡報要求與增量：使用者明確要求製作**新的簡報與必要展示**，此要求優先於例行研究不自動製作簡報的限制；舊報告簡報／凍結結果不變。[完整Grover精確decoder展示](updates/2026-11-27-presentation-decoder-demo.md)新增8個全物理電路Pauli注入子集，B與A+C相同syndrome但解碼完整輸出不同，全部確定性驗證，不估LER、不修訂成本。233項測試與replay通過，0newshots、0新physicalcompile。另製24頁新簡報與繁中講稿／問答／離線展示；raw v1仍停止、原方法共同IR／線上CPU-budget與開發校準／凍結／未見資料門檻仍未通過，μ=0、held-out sealed。
 
 同日後續增量：[文獻門檻與成本必要檢查](RELATED_WORK_2026-11-16_GATE_ZH.md) 已補讀八篇原文及 AlphaSyndrome／CircLS 固定程式。廣義 observable／decoder-aware 排程的新穎性主張不成立；維持方法比較假說，下一門檻為新完整公開家族的競爭排程與 split。精確方法新穎性、原方法重現及部分 artifact 仍未確認，不能開始 held-out。已以 10,752 項精確檢查指出 marginal-generator-count 會受等價 basis 影響；joint raw visibility 也尚非 decoded risk。新增 0 research shots，μ=0，不改既有凍結結果。
 

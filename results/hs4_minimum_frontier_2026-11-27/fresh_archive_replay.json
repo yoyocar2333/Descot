@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "archive_assets": 84,
+  "complete_minimum_certificates": 6,
+  "exact_validation_targets": 54,
+  "source_signatures_generators_full": true,
+  "new_shots": 0,
+  "replay_scope": "Every raw asset/part hash, all full32-instruction plans, all6 rank4 signed-input/final-fault certificates, all48 generator target/source/16-sign proofs and their complete circuits. Stored exact checks verified; no recompile/resampling or new performance claim."
+}

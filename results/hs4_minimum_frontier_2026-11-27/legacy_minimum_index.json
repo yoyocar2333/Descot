@@ -1,0 +1,13 @@
+[
+  {
+    "candidate_id": "h143",
+    "plan_sha256": "beff0bde387b65a8fd3e6f947b9f26ac0d9054b30fa78dcebf4d3937d4e92271",
+    "source_sha256": "f362ca9ffd7f045f517dfe4d67350794ac998f4eb427586a804eed9379340f63",
+    "qualified_complete_output": true,
+    "noisy_sha256": "70a458e34bcd6030dba418d421cf9ac2cae8078b26913581dfacdf85cc32f222",
+    "ideal_sha256": "d7eaa95e6785c8a622ea10f1569a0ceb562ae09bf7e84ffef3ac0a2311f7cef7",
+    "dem_sha256": "f1ab439fe76ae1565684e089ce8d1e51f822131682d14d820acd09b168015a90",
+    "legacy_id": "old:p12",
+    "proof": "Exact same full32-source layer IDs/orientations/spacing and profile. Plan mode is metadata only. Original complete4-output certificate and canonical archive hashes checked; no recompile."
+  }
+]
