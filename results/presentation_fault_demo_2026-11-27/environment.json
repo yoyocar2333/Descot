@@ -1,0 +1,30 @@
+{
+  "python": "3.12.14",
+  "base_commit": "a35096f2f71aaeeee5c7eb0505d6c03c2a0d825d",
+  "code_sha256": "75284acc21409dbf7b44c5b299cb9374c9aa6b2ac683ead943df39fabbd6754f",
+  "lock_sha256": "140e7ad5273ee3ac59347cd775c49bdcd2b1e978936e56bc7e1ab205eccaebf9",
+  "packages": {
+    "stim": "1.16.0",
+    "pymatching": "2.4.0",
+    "numpy": "2.5.4",
+    "tqec": "0.2.0"
+  },
+  "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+  "plan_sha256": "ed80ada35a9d41e0dd4b1c5b50fc0b0f44cf266124e1cddd0c345eee1244ab01",
+  "original_artifacts": {
+    "ideal_sha256": "18628492f709ffa667800acd74051109b8497d1b9441775f20d973c94e822286",
+    "noisy_sha256": "bda482ec7aa4d3ebc6f6455250a9616f08636ac468f109078915f9e123715842",
+    "dem_sha256": "28b73b94155412f30540332f01174a0467d22cf4608cd14500e06d147d111835"
+  },
+  "normalized_artifacts": {
+    "ideal_sha256": "1ad48f962cf524bc42df300bfa60e739afb5a970117d87910152ea4f5085478c",
+    "noisy_sha256": "48023c2ec49861ae53c5e99a9fb735accea2d7835a49e4a16bc2610d81b3f695",
+    "dem_sha256": "28b73b94155412f30540332f01174a0467d22cf4608cd14500e06d147d111835"
+  },
+  "complete_source_instructions": 18,
+  "complete_observable_basis": [
+    "ZIIZ",
+    "IZZI"
+  ],
+  "prior_introspection": "Physical locations/docstrings inspected before this runner; no sampled labels or decoder-pattern outcomes inspected. Grover remains development."
+}

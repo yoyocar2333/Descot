@@ -1,0 +1,425 @@
+{
+  "protocol_id": "full_grover_exact_decoder_demo_20261127_v1",
+  "candidate_id": "fixed:g174",
+  "source_sha256": "afd134759fa0eefb9f84a88d3e9f156cd54e83b10177d02c33bb6f519c08b813",
+  "plan_sha256": "ed80ada35a9d41e0dd4b1c5b50fc0b0f44cf266124e1cddd0c345eee1244ab01",
+  "base_artifacts": {
+    "ideal_sha256": "1ad48f962cf524bc42df300bfa60e739afb5a970117d87910152ea4f5085478c",
+    "noisy_sha256": "48023c2ec49861ae53c5e99a9fb735accea2d7835a49e4a16bc2610d81b3f695",
+    "dem_sha256": "28b73b94155412f30540332f01174a0467d22cf4608cd14500e06d147d111835"
+  },
+  "flattened_noisy_sha256": "51cb8e0bff6382eb2b710f23445507ecdc9e7a460c0bab5b08b362cf2842f2ff",
+  "complete_output_basis": [
+    "ZIIZ",
+    "IZZI"
+  ],
+  "output_order": "c1 c0",
+  "mechanisms": [
+    {
+      "label": "A",
+      "detector_ids": [
+        0
+      ],
+      "observable_flips": [
+        0,
+        0
+      ],
+      "instruction_offset": 380,
+      "stim_tick_offset": 0,
+      "noise_instruction": "X_ERROR(0.001) 10[coords 1,5]",
+      "physical_trace": "CircuitErrorLocation {\n    flipped_pauli_product: X10[coords 1,5]\n    Circuit location stack trace:\n        (after 0 TICKs)\n        at instruction #381 (X_ERROR) in the circuit\n        at target #3 of the instruction\n        resolving to X_ERROR(0.001) 10[coords 1,5]\n}",
+      "pauli_targets": [
+        {
+          "qubit": 10,
+          "axis": "X",
+          "coords": [
+            1.0,
+            5.0
+          ]
+        }
+      ]
+    },
+    {
+      "label": "B",
+      "detector_ids": [
+        0,
+        4
+      ],
+      "observable_flips": [
+        1,
+        0
+      ],
+      "instruction_offset": 386,
+      "stim_tick_offset": 1,
+      "noise_instruction": "DEPOLARIZE2(0.001) 17[coords 2,4] 9[coords 1,3]",
+      "physical_trace": "CircuitErrorLocation {\n    flipped_pauli_product: X17[coords 2,4]\n    Circuit location stack trace:\n        (after 1 TICKs)\n        at instruction #387 (DEPOLARIZE2) in the circuit\n        at targets #13 to #14 of the instruction\n        resolving to DEPOLARIZE2(0.001) 17[coords 2,4] 9[coords 1,3]\n}",
+      "pauli_targets": [
+        {
+          "qubit": 17,
+          "axis": "X",
+          "coords": [
+            2.0,
+            4.0
+          ]
+        }
+      ]
+    },
+    {
+      "label": "C",
+      "detector_ids": [
+        4
+      ],
+      "observable_flips": [
+        0,
+        0
+      ],
+      "instruction_offset": 392,
+      "stim_tick_offset": 2,
+      "noise_instruction": "DEPOLARIZE1(0.001) 23[coords 3,1]",
+      "physical_trace": "CircuitErrorLocation {\n    flipped_pauli_product: X23[coords 3,1]\n    Circuit location stack trace:\n        (after 2 TICKs)\n        at instruction #393 (DEPOLARIZE1) in the circuit\n        at target #21 of the instruction\n        resolving to DEPOLARIZE1(0.001) 23[coords 3,1]\n}",
+      "pauli_targets": [
+        {
+          "qubit": 23,
+          "axis": "X",
+          "coords": [
+            3.0,
+            1.0
+          ]
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "mask": 0,
+      "selected": [],
+      "detector_ids": [],
+      "observable_flips": [
+        0,
+        0
+      ],
+      "decoder_prediction": [
+        0,
+        0
+      ],
+      "residual_flips": [
+        0,
+        0
+      ],
+      "full_decoded_any_error": false,
+      "ideal_output_c1c0": [
+        1,
+        1
+      ],
+      "raw_output_c1c0": [
+        1,
+        1
+      ],
+      "decoded_output_c1c0": [
+        1,
+        1
+      ],
+      "injected_ideal_sha256": "a5d256b63c5fa11425f53cfbf0b60e45d8f82622b05e759aeb7cf1ed6c2081a5",
+      "reference_measurements_sha256": "ec3e3f34b1ed7f551522cd727ba4e749acd4b5dac1d6a438a91f9cc2ca67620c",
+      "reference_measurements_bits": 2028,
+      "evidence": "Exact reference branch + DEM parity determinism + original full-circuit converter; not Monte Carlo."
+    },
+    {
+      "mask": 1,
+      "selected": [
+        "A"
+      ],
+      "detector_ids": [
+        0
+      ],
+      "observable_flips": [
+        0,
+        0
+      ],
+      "decoder_prediction": [
+        0,
+        0
+      ],
+      "residual_flips": [
+        0,
+        0
+      ],
+      "full_decoded_any_error": false,
+      "ideal_output_c1c0": [
+        1,
+        1
+      ],
+      "raw_output_c1c0": [
+        1,
+        1
+      ],
+      "decoded_output_c1c0": [
+        1,
+        1
+      ],
+      "injected_ideal_sha256": "97d2a70047757100d160402fca744ffef66b9a154ccc9c1fc02893d8343d0c84",
+      "reference_measurements_sha256": "e74db99d795978ad0c5de272cd1bca3888280c7885a5c64aeb46a55080e51544",
+      "reference_measurements_bits": 2028,
+      "evidence": "Exact reference branch + DEM parity determinism + original full-circuit converter; not Monte Carlo."
+    },
+    {
+      "mask": 2,
+      "selected": [
+        "B"
+      ],
+      "detector_ids": [
+        0,
+        4
+      ],
+      "observable_flips": [
+        1,
+        0
+      ],
+      "decoder_prediction": [
+        1,
+        0
+      ],
+      "residual_flips": [
+        0,
+        0
+      ],
+      "full_decoded_any_error": false,
+      "ideal_output_c1c0": [
+        1,
+        1
+      ],
+      "raw_output_c1c0": [
+        0,
+        1
+      ],
+      "decoded_output_c1c0": [
+        1,
+        1
+      ],
+      "injected_ideal_sha256": "3d8c8cd8b37b5cd032b934a66491845d93400bf745ec90045648ea8563e79954",
+      "reference_measurements_sha256": "5c2e749081ad246f567c6787920e131965f4ab5b143141a57de209dd7d069db9",
+      "reference_measurements_bits": 2028,
+      "evidence": "Exact reference branch + DEM parity determinism + original full-circuit converter; not Monte Carlo."
+    },
+    {
+      "mask": 3,
+      "selected": [
+        "A",
+        "B"
+      ],
+      "detector_ids": [
+        4
+      ],
+      "observable_flips": [
+        1,
+        0
+      ],
+      "decoder_prediction": [
+        0,
+        0
+      ],
+      "residual_flips": [
+        1,
+        0
+      ],
+      "full_decoded_any_error": true,
+      "ideal_output_c1c0": [
+        1,
+        1
+      ],
+      "raw_output_c1c0": [
+        0,
+        1
+      ],
+      "decoded_output_c1c0": [
+        0,
+        1
+      ],
+      "injected_ideal_sha256": "b062db73309e635afff3021dbd817ce84f01e11bf974450ecc03bb3bf5a04f9f",
+      "reference_measurements_sha256": "c4d377679a35b9aecbd418939043b1cb6333a0a2b3cd4e177cbaf93b70d0d236",
+      "reference_measurements_bits": 2028,
+      "evidence": "Exact reference branch + DEM parity determinism + original full-circuit converter; not Monte Carlo."
+    },
+    {
+      "mask": 4,
+      "selected": [
+        "C"
+      ],
+      "detector_ids": [
+        4
+      ],
+      "observable_flips": [
+        0,
+        0
+      ],
+      "decoder_prediction": [
+        0,
+        0
+      ],
+      "residual_flips": [
+        0,
+        0
+      ],
+      "full_decoded_any_error": false,
+      "ideal_output_c1c0": [
+        1,
+        1
+      ],
+      "raw_output_c1c0": [
+        1,
+        1
+      ],
+      "decoded_output_c1c0": [
+        1,
+        1
+      ],
+      "injected_ideal_sha256": "8e6edaa8763c58d0ca65e04c857cc91e2139b7df96cfa55f5ddfa7e97fc1f50b",
+      "reference_measurements_sha256": "be91b8c7e33f5a3f6e969868d225a96e79f1bc6fa1929d3e173fcee5574e0d42",
+      "reference_measurements_bits": 2028,
+      "evidence": "Exact reference branch + DEM parity determinism + original full-circuit converter; not Monte Carlo."
+    },
+    {
+      "mask": 5,
+      "selected": [
+        "A",
+        "C"
+      ],
+      "detector_ids": [
+        0,
+        4
+      ],
+      "observable_flips": [
+        0,
+        0
+      ],
+      "decoder_prediction": [
+        1,
+        0
+      ],
+      "residual_flips": [
+        1,
+        0
+      ],
+      "full_decoded_any_error": true,
+      "ideal_output_c1c0": [
+        1,
+        1
+      ],
+      "raw_output_c1c0": [
+        1,
+        1
+      ],
+      "decoded_output_c1c0": [
+        0,
+        1
+      ],
+      "injected_ideal_sha256": "41617f6975c82766d739adff25e376ee66ef455cbc0c771992aafd3b17ae5bbc",
+      "reference_measurements_sha256": "c440f6de5f95164d0e8cbfcf72ac4456520049d3da639957f5eca873fa2c7ad5",
+      "reference_measurements_bits": 2028,
+      "evidence": "Exact reference branch + DEM parity determinism + original full-circuit converter; not Monte Carlo."
+    },
+    {
+      "mask": 6,
+      "selected": [
+        "B",
+        "C"
+      ],
+      "detector_ids": [
+        0
+      ],
+      "observable_flips": [
+        1,
+        0
+      ],
+      "decoder_prediction": [
+        0,
+        0
+      ],
+      "residual_flips": [
+        1,
+        0
+      ],
+      "full_decoded_any_error": true,
+      "ideal_output_c1c0": [
+        1,
+        1
+      ],
+      "raw_output_c1c0": [
+        0,
+        1
+      ],
+      "decoded_output_c1c0": [
+        0,
+        1
+      ],
+      "injected_ideal_sha256": "d441eb0decee3ecea1454ef387164412992ea723b4a15f7ca7df811658b136a9",
+      "reference_measurements_sha256": "a15c6847ddbd77338dcfa9c4e5668c802e5480741640ecd138f0400b08cc0606",
+      "reference_measurements_bits": 2028,
+      "evidence": "Exact reference branch + DEM parity determinism + original full-circuit converter; not Monte Carlo."
+    },
+    {
+      "mask": 7,
+      "selected": [
+        "A",
+        "B",
+        "C"
+      ],
+      "detector_ids": [],
+      "observable_flips": [
+        1,
+        0
+      ],
+      "decoder_prediction": [
+        0,
+        0
+      ],
+      "residual_flips": [
+        1,
+        0
+      ],
+      "full_decoded_any_error": true,
+      "ideal_output_c1c0": [
+        1,
+        1
+      ],
+      "raw_output_c1c0": [
+        0,
+        1
+      ],
+      "decoded_output_c1c0": [
+        0,
+        1
+      ],
+      "injected_ideal_sha256": "bfe18b8a05d73798c7475cc2ef46417f9355e517f31c1d028f021fcba79fad4c",
+      "reference_measurements_sha256": "ce91598611342a4b4910dae558c7587d6dd16aed3222937d9fa12fe0d9607021",
+      "reference_measurements_bits": 2028,
+      "evidence": "Exact reference branch + DEM parity determinism + original full-circuit converter; not Monte Carlo."
+    }
+  ],
+  "demonstration_pair_masks": [
+    2,
+    5
+  ],
+  "exact_physical_patterns": 8,
+  "new_shots": 0,
+  "sampler_calls": 0,
+  "counts": null,
+  "confidence_interval": null,
+  "no_rate_estimate": true,
+  "no_new_physical_compilations": true,
+  "mu": 0,
+  "held_out_labels": "sealed",
+  "sampling_permission": false,
+  "timing": {
+    "physical_location_selection_seconds": 0.3500843709998662,
+    "decoder_construction_seconds": 0.04322006000006695,
+    "physical_injection_exact_validation_seconds": 0.7519552420003492,
+    "matching_decode_seconds": 0.004894055000477238,
+    "routing_seconds": null,
+    "scorer_seconds": null,
+    "calibration_seconds": null,
+    "physical_compile_seconds": null,
+    "monte_carlo_seconds": null
+  },
+  "interpretation": "Same syndrome, different actual logical flips. Ordinary MWPM chooses one correction for both. This is a known, deliberately constructed complete-circuit diagnostic, not an empirical LER/selector benefit or new readout cost."
+}

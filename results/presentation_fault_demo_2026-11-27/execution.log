@@ -1,0 +1,8 @@
+pattern [] D [] raw [0, 0] prediction [0, 0] residual [0, 0]
+pattern ['A'] D [0] raw [0, 0] prediction [0, 0] residual [0, 0]
+pattern ['B'] D [0, 4] raw [1, 0] prediction [1, 0] residual [0, 0]
+pattern ['A', 'B'] D [4] raw [1, 0] prediction [0, 0] residual [1, 0]
+pattern ['C'] D [4] raw [0, 0] prediction [0, 0] residual [0, 0]
+pattern ['A', 'C'] D [0, 4] raw [0, 0] prediction [1, 0] residual [1, 0]
+pattern ['B', 'C'] D [0] raw [1, 0] prediction [0, 0] residual [1, 0]
+pattern ['A', 'B', 'C'] D [] raw [1, 0] prediction [0, 0] residual [1, 0]

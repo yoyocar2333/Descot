@@ -1,0 +1,1 @@
+PASS: all8 complete physical-injection cases, full2-output decoding, canonical records and snapshot hashes; 0 new shots

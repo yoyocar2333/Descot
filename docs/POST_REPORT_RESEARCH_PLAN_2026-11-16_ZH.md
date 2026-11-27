@@ -1,6 +1,9 @@
 # 報告後實驗計畫：由具體問題決定方法
 
-初訂：2026-11-16；最近增量：2026-11-26，Asia/Taipei。正式報告已完成；本計畫是後續研究，不修改已交付簡報。11/5、11/9 是歷史時程，不能當作下一輪截止日。使用者要求「天數壓縮，內容不壓縮」的完整性要求持續有效。
+初訂：2026-11-16；最近增量：2026-11-27，Asia/Taipei。正式報告已完成；本計畫是後續研究，不修改已交付簡報。11/5、11/9 是歷史時程，不能當作下一輪截止日。使用者要求「天數壓縮，內容不壓縮」的完整性要求持續有效。
+
+
+11/27 最新要求與增量：使用者明確要求製作**新的簡報與必要展示**，此要求優先於例行研究不自動製作簡報的限制；舊報告簡報／凍結結果不變。[完整Grover精確decoder展示](updates/2026-11-27-presentation-decoder-demo.md)新增8個全物理電路Pauli注入子集，B與A+C相同syndrome但解碼完整輸出不同，全部確定性驗證，不估LER、不修訂成本。233項測試與replay通過，0newshots、0新physicalcompile。另製24頁新簡報與繁中講稿／問答／離線展示；raw v1仍停止、原方法共同IR／線上CPU-budget與開發校準／凍結／未見資料門檻仍未通過，μ=0、held-out sealed。
 
 同日後續增量：[文獻門檻與成本必要檢查](RELATED_WORK_2026-11-16_GATE_ZH.md) 已補讀八篇原文及 AlphaSyndrome／CircLS 固定程式。廣義 observable／decoder-aware 排程的新穎性主張不成立；維持方法比較假說，下一門檻為新完整公開家族的競爭排程與 split。精確方法新穎性、原方法重現及部分 artifact 仍未確認，不能開始 held-out。已以 10,752 項精確檢查指出 marginal-generator-count 會受等價 basis 影響；joint raw visibility 也尚非 decoded risk。新增 0 research shots，μ=0，不改既有凍結結果。
 

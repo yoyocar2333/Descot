@@ -1,0 +1,409 @@
+{
+  "prepared": "2026-11-27",
+  "artifact": "New 24-slide research presentation",
+  "review": "All24 slides rendered and inspected at full1280x720 plus montage. Edited slides re-rendered and reviewed.",
+  "native_audit": {
+    "slides": [
+      {
+        "number": 1,
+        "shapes": 8,
+        "charts": 0,
+        "tables": 0,
+        "notesLength": 515,
+        "notesHaveSources": true,
+        "boundsOK": true
+      },
+      {
+        "number": 2,
+        "shapes": 9,
+        "charts": 0,
+        "tables": 0,
+        "notesLength": 534,
+        "notesHaveSources": true,
+        "boundsOK": true
+      },
+      {
+        "number": 3,
+        "shapes": 6,
+        "charts": 0,
+        "tables": 0,
+        "notesLength": 435,
+        "notesHaveSources": true,
+        "boundsOK": true
+      },
+      {
+        "number": 4,
+        "shapes": 95,
+        "charts": 0,
+        "tables": 0,
+        "notesLength": 568,
+        "notesHaveSources": true,
+        "boundsOK": true
+      },
+      {
+        "number": 5,
+        "shapes": 12,
+        "charts": 0,
+        "tables": 0,
+        "notesLength": 819,
+        "notesHaveSources": true,
+        "boundsOK": true
+      },
+      {
+        "number": 6,
+        "shapes": 6,
+        "charts": 0,
+        "tables": 1,
+        "notesLength": 901,
+        "notesHaveSources": true,
+        "boundsOK": true
+      },
+      {
+        "number": 7,
+        "shapes": 6,
+        "charts": 0,
+        "tables": 0,
+        "notesLength": 440,
+        "notesHaveSources": true,
+        "boundsOK": true
+      },
+      {
+        "number": 8,
+        "shapes": 12,
+        "charts": 0,
+        "tables": 0,
+        "notesLength": 576,
+        "notesHaveSources": true,
+        "boundsOK": true
+      },
+      {
+        "number": 9,
+        "shapes": 6,
+        "charts": 0,
+        "tables": 1,
+        "notesLength": 942,
+        "notesHaveSources": true,
+        "boundsOK": true
+      },
+      {
+        "number": 10,
+        "shapes": 6,
+        "charts": 0,
+        "tables": 0,
+        "notesLength": 443,
+        "notesHaveSources": true,
+        "boundsOK": true
+      },
+      {
+        "number": 11,
+        "shapes": 7,
+        "charts": 1,
+        "tables": 0,
+        "notesLength": 610,
+        "notesHaveSources": true,
+        "boundsOK": true
+      },
+      {
+        "number": 12,
+        "shapes": 8,
+        "charts": 0,
+        "tables": 1,
+        "notesLength": 588,
+        "notesHaveSources": true,
+        "boundsOK": true
+      },
+      {
+        "number": 13,
+        "shapes": 55,
+        "charts": 0,
+        "tables": 0,
+        "notesLength": 582,
+        "notesHaveSources": true,
+        "boundsOK": true
+      },
+      {
+        "number": 14,
+        "shapes": 10,
+        "charts": 1,
+        "tables": 0,
+        "notesLength": 623,
+        "notesHaveSources": true,
+        "boundsOK": true
+      },
+      {
+        "number": 15,
+        "shapes": 7,
+        "charts": 0,
+        "tables": 1,
+        "notesLength": 576,
+        "notesHaveSources": true,
+        "boundsOK": true
+      },
+      {
+        "number": 16,
+        "shapes": 6,
+        "charts": 0,
+        "tables": 0,
+        "notesLength": 448,
+        "notesHaveSources": true,
+        "boundsOK": true
+      },
+      {
+        "number": 17,
+        "shapes": 24,
+        "charts": 0,
+        "tables": 0,
+        "notesLength": 843,
+        "notesHaveSources": true,
+        "boundsOK": true
+      },
+      {
+        "number": 18,
+        "shapes": 8,
+        "charts": 0,
+        "tables": 1,
+        "notesLength": 858,
+        "notesHaveSources": true,
+        "boundsOK": true
+      },
+      {
+        "number": 19,
+        "shapes": 6,
+        "charts": 0,
+        "tables": 0,
+        "notesLength": 441,
+        "notesHaveSources": true,
+        "boundsOK": true
+      },
+      {
+        "number": 20,
+        "shapes": 13,
+        "charts": 0,
+        "tables": 0,
+        "notesLength": 635,
+        "notesHaveSources": true,
+        "boundsOK": true
+      },
+      {
+        "number": 21,
+        "shapes": 12,
+        "charts": 0,
+        "tables": 0,
+        "notesLength": 590,
+        "notesHaveSources": true,
+        "boundsOK": true
+      },
+      {
+        "number": 22,
+        "shapes": 12,
+        "charts": 0,
+        "tables": 0,
+        "notesLength": 766,
+        "notesHaveSources": true,
+        "boundsOK": true
+      },
+      {
+        "number": 23,
+        "shapes": 12,
+        "charts": 0,
+        "tables": 0,
+        "notesLength": 736,
+        "notesHaveSources": true,
+        "boundsOK": true
+      },
+      {
+        "number": 24,
+        "shapes": 7,
+        "charts": 0,
+        "tables": 0,
+        "notesLength": 556,
+        "notesHaveSources": true,
+        "boundsOK": true
+      }
+    ],
+    "charts": [
+      {
+        "name": "p00 Wilson 95%",
+        "x": [
+          0.5948973524375075,
+          0.6009751232019999
+        ],
+        "y": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "p01 Wilson 95%",
+        "x": [
+          0.5942265516867522,
+          0.6003059754263258
+        ],
+        "y": [
+          1,
+          1
+        ]
+      },
+      {
+        "name": "p02 Wilson 95%",
+        "x": [
+          0.5404912033262085,
+          0.5466654485868986
+        ],
+        "y": [
+          2,
+          2
+        ]
+      },
+      {
+        "name": "p03 Wilson 95%",
+        "x": [
+          0.556110600288565,
+          0.5622648523671674
+        ],
+        "y": [
+          3,
+          3
+        ]
+      },
+      {
+        "name": "p04 Wilson 95%",
+        "x": [
+          0.5144723232596563,
+          0.5206663269035675
+        ],
+        "y": [
+          4,
+          4
+        ]
+      },
+      {
+        "name": "p05 Wilson 95%",
+        "x": [
+          0.5963290812449533,
+          0.6024032845330518
+        ],
+        "y": [
+          5,
+          5
+        ]
+      },
+      {
+        "name": "p06 Wilson 95%",
+        "x": [
+          0.5969898882348519,
+          0.6030624268378446
+        ],
+        "y": [
+          6,
+          6
+        ]
+      },
+      {
+        "name": "p07 Wilson 95%",
+        "x": [
+          0.538550249476532,
+          0.5447265514794521
+        ],
+        "y": [
+          7,
+          7
+        ]
+      },
+      {
+        "name": "p08 Wilson 95%",
+        "x": [
+          0.5576617012050095,
+          0.5638136323700741
+        ],
+        "y": [
+          8,
+          8
+        ]
+      },
+      {
+        "name": "p09 Wilson 95%",
+        "x": [
+          0.5135921701033751,
+          0.5197865476669269
+        ],
+        "y": [
+          9,
+          9
+        ]
+      },
+      {
+        "name": "p10 Wilson 95%",
+        "x": [
+          0.5204636213786968,
+          0.5266545685954382
+        ],
+        "y": [
+          10,
+          10
+        ]
+      },
+      {
+        "name": "p11 Wilson 95%",
+        "x": [
+          0.521853986374321,
+          0.5280440968113611
+        ],
+        "y": [
+          11,
+          11
+        ]
+      },
+      {
+        "name": "p12 Wilson 95%",
+        "x": [
+          0.4519753527068933,
+          0.45814809986366584
+        ],
+        "y": [
+          12,
+          12
+        ]
+      },
+      {
+        "name": "Observed complete any-error",
+        "x": [
+          0.59794,
+          0.59727,
+          0.54358,
+          0.55919,
+          0.51757,
+          0.59937,
+          0.60003,
+          0.54164,
+          0.56074,
+          0.51669,
+          0.52356,
+          0.52495,
+          0.45506
+        ],
+        "y": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "new_shots": 0,
+  "reused_shots": 1300000,
+  "exact_patterns": 8,
+  "all_tests": "233 passed in628.85s",
+  "browser_limit": "Workspace Chromium binary absent; connected-browser file protocol denied; no workaround attempted. Functional DOM contract only. Native slide18 exact-case table is independent fallback.",
+  "powerpoint_validation": "Not performed. Export and actual meeting-machine trial required."
+}

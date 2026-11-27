@@ -1,0 +1,21 @@
+{
+  "id": "full_grover_exact_decoder_demo_20261127_v1",
+  "role": "Constructed development demonstration; no performance/novelty/calibration claim.",
+  "reference": "fixed:g174",
+  "selection": "Native Stim shortest_graphlike_error(ignore_ungraphlike_errors=True, canonicalize_circuit_errors=False). First minimum triple returned by pinned Stim. For each mechanism sort Pauli-only physical locations by (Pauli weight, instruction offset, Pauli text), then choose lexicographically first triple with distinct instruction offsets. No decoder-outcome selection.",
+  "pattern_policy": "All8 subsets, including empty. Retain complete physical gate/measurement/annotation sequence; replace stochastic channels by selected deterministic Pauli faults. Decoder remains the original p0.001 full-circuit matching model.",
+  "target": "Unchanged complete ordered2-output basis ZIIZ, IZZI; L0 corresponds to c1, L1 to c0.",
+  "shots": 0,
+  "seeds": [],
+  "counts": null,
+  "confidence_interval": null,
+  "decoder": "PyMatching ordinary uncorrelated MWPM from original complete decomposed DEM",
+  "source_noise_model": "d3 p0.001 TQEC uniform depolarizing; no stochastic draws in demonstration",
+  "stop_rule": "Abort on any parity/dimension/injection mismatch or absence of the specified one-vs-complement pair ambiguity. Do not search another triple after decoding.",
+  "units": "Native Stim TICK offsets only for physical locations. Routing2, H layers7, physical layers9, template block-z27, QEC rounds null, total Stim TICK636. No tick-to-QEC conversion.",
+  "new_physical_compilations": 0,
+  "mu": 0,
+  "held_out_labels": "sealed",
+  "sampling_permission": false,
+  "methodological_boundary": "Known decoder ambiguity demonstration. Eight constructed patterns are not eight shots or a LER estimate. No waiting score is trained, revised or selected."
+}

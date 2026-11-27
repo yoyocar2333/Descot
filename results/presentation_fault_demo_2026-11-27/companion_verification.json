@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "check": "Functional DOM contract, not visual/browser rendering",
+  "patterns": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "all_geometry_slices": 81,
+  "source_preservation": [
+    {
+      "name": "grover_n2",
+      "operations": 18
+    },
+    {
+      "name": "hs4_n4",
+      "operations": 32
+    }
+  ],
+  "offline": true,
+  "browser_rendering": "Not completed: executable missing; connected browser file protocol denied. Slide18 native table is the offline fallback."
+}
