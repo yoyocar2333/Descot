@@ -1,0 +1,188 @@
+{
+  "status": "complete",
+  "configurations": 168,
+  "routing_executions": 504,
+  "baseline_exact_matches": 84,
+  "cohorts": {
+    "historical_seen_synthetic": {
+      "pairs": 24,
+      "wins": 12,
+      "ties": 6,
+      "losses": 6,
+      "median_depth_change_percent": -0.5494505494505495,
+      "median_paired_time_ratio": 1.1150565058501702,
+      "median_gate_call_ratio": 1.1207592505728
+    },
+    "public_development": {
+      "pairs": 60,
+      "wins": 0,
+      "ties": 60,
+      "losses": 0,
+      "median_depth_change_percent": 0.0,
+      "median_paired_time_ratio": 1.0627996438085567,
+      "median_gate_call_ratio": 1.0188679245283019
+    }
+  },
+  "instances": {
+    "3_17_13_compact": {
+      "pairs": 10,
+      "wins": 0,
+      "ties": 10,
+      "losses": 0,
+      "median_depth_change_percent": 0.0,
+      "median_paired_time_ratio": 1.1636188944475043,
+      "median_gate_call_ratio": 1.2163742690058479
+    },
+    "3_17_13_square_sparse": {
+      "pairs": 10,
+      "wins": 0,
+      "ties": 10,
+      "losses": 0,
+      "median_depth_change_percent": 0.0,
+      "median_paired_time_ratio": 1.2193216595520942,
+      "median_gate_call_ratio": 1.271186440677966
+    },
+    "error_correctiond3_n5_compact": {
+      "pairs": 10,
+      "wins": 0,
+      "ties": 10,
+      "losses": 0,
+      "median_depth_change_percent": 0.0,
+      "median_paired_time_ratio": 1.0314118023896035,
+      "median_gate_call_ratio": 1.0188679245283019
+    },
+    "error_correctiond3_n5_square_sparse": {
+      "pairs": 10,
+      "wins": 0,
+      "ties": 10,
+      "losses": 0,
+      "median_depth_change_percent": 0.0,
+      "median_paired_time_ratio": 0.9725251134975867,
+      "median_gate_call_ratio": 1.0188679245283019
+    },
+    "held_random24_s41_compact": {
+      "pairs": 3,
+      "wins": 3,
+      "ties": 0,
+      "losses": 0,
+      "median_depth_change_percent": -5.555555555555555,
+      "median_paired_time_ratio": 1.0961113376426195,
+      "median_gate_call_ratio": 1.082095598163651
+    },
+    "held_random24_s41_square_sparse": {
+      "pairs": 3,
+      "wins": 1,
+      "ties": 0,
+      "losses": 2,
+      "median_depth_change_percent": 6.666666666666667,
+      "median_paired_time_ratio": 1.3677919181355844,
+      "median_gate_call_ratio": 1.2733531528712252
+    },
+    "held_random24_s53_compact": {
+      "pairs": 3,
+      "wins": 1,
+      "ties": 1,
+      "losses": 1,
+      "median_depth_change_percent": 0.0,
+      "median_paired_time_ratio": 1.017784535786623,
+      "median_gate_call_ratio": 1.010984230560087
+    },
+    "held_random24_s53_square_sparse": {
+      "pairs": 3,
+      "wins": 0,
+      "ties": 1,
+      "losses": 2,
+      "median_depth_change_percent": 4.545454545454546,
+      "median_paired_time_ratio": 1.3391487386794423,
+      "median_gate_call_ratio": 1.2953656512978546
+    },
+    "held_random36_s67_compact": {
+      "pairs": 3,
+      "wins": 3,
+      "ties": 0,
+      "losses": 0,
+      "median_depth_change_percent": -2.4096385542168677,
+      "median_paired_time_ratio": 1.183083187181137,
+      "median_gate_call_ratio": 1.1198224852071006
+    },
+    "held_random36_s67_square_sparse": {
+      "pairs": 3,
+      "wins": 1,
+      "ties": 1,
+      "losses": 1,
+      "median_depth_change_percent": 0.0,
+      "median_paired_time_ratio": 1.3867214347602341,
+      "median_gate_call_ratio": 1.3690780141843972
+    },
+    "held_ring24_compact": {
+      "pairs": 3,
+      "wins": 3,
+      "ties": 0,
+      "losses": 0,
+      "median_depth_change_percent": -9.836065573770492,
+      "median_paired_time_ratio": 1.0785063758939655,
+      "median_gate_call_ratio": 1.0902339398440402
+    },
+    "held_ring24_square_sparse": {
+      "pairs": 3,
+      "wins": 0,
+      "ties": 3,
+      "losses": 0,
+      "median_depth_change_percent": 0.0,
+      "median_paired_time_ratio": 1.112837901091425,
+      "median_gate_call_ratio": 1.1208559373116336
+    },
+    "qec_en_n5_compact": {
+      "pairs": 10,
+      "wins": 0,
+      "ties": 10,
+      "losses": 0,
+      "median_depth_change_percent": 0.0,
+      "median_paired_time_ratio": 1.1184131931069592,
+      "median_gate_call_ratio": 1.0
+    },
+    "qec_en_n5_square_sparse": {
+      "pairs": 10,
+      "wins": 0,
+      "ties": 10,
+      "losses": 0,
+      "median_depth_change_percent": 0.0,
+      "median_paired_time_ratio": 1.0048306795229238,
+      "median_gate_call_ratio": 1.0
+    }
+  },
+  "strongest_depth_gain": {
+    "instance": "held_ring24_compact",
+    "cohort": "historical_seen_synthetic",
+    "seed": 1,
+    "author_depth": 62,
+    "two_depth": 55,
+    "depth_change_percent": -11.290322580645162,
+    "time_ratio": 1.0594062267940023,
+    "author_ms": 522.5526459998946,
+    "two_ms": 553.5955269999704,
+    "gate_call_ratio": 1.0902339398440402,
+    "main_orders_author": 2626,
+    "main_orders_two": 2311,
+    "rollout_orders": 229
+  },
+  "worst_depth_regression": {
+    "instance": "held_random24_s41_square_sparse",
+    "cohort": "historical_seen_synthetic",
+    "seed": 1,
+    "author_depth": 15,
+    "two_depth": 16,
+    "depth_change_percent": 6.666666666666667,
+    "time_ratio": 1.3064233447464701,
+    "author_ms": 283.7068960000124,
+    "two_ms": 370.6413119999752,
+    "gate_call_ratio": 1.234585289514867,
+    "main_orders_author": 675,
+    "main_orders_two": 678,
+    "rollout_orders": 192
+  },
+  "all_legal": true,
+  "new_shots": 0,
+  "physical_compilations": 0,
+  "decision": "Depth and time trade-offs only; same search parameters, not same CPU or fixed pool. No automatic default change."
+}

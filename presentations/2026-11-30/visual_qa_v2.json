@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "total_slides": 20,
+  "changed_slides": [
+    {
+      "slide": 8,
+      "sha256": "b4d5a1e23550edddd053fc11ae7f227cd5a67875074e8628f91acbcd7d6dd8e2",
+      "visual_inspection": "PASS"
+    },
+    {
+      "slide": 10,
+      "sha256": "52dbc4a905104cdbf1b09665c9a1df0038d57e711e80865cf5d78434ebed91dc",
+      "visual_inspection": "PASS"
+    },
+    {
+      "slide": 18,
+      "sha256": "721887188e0fe907ce458e07c23dd8d3d8f502ab1f939e94f536af2497104c85",
+      "visual_inspection": "PASS"
+    },
+    {
+      "slide": 19,
+      "sha256": "6f3adcb60eda8cd492b4321b3f4522e4dad1f8479e87da75dd439c9e60594b5d",
+      "visual_inspection": "PASS"
+    }
+  ],
+  "unchanged_slides_preserved": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    20
+  ],
+  "baseline_qa_sha256": "1fc85a7dec497a88afcfccdcbf3124ec4c23a97bf1ad1d239128cc07ac2f02b9",
+  "scope": "Four updated slides rendered and individually viewed. The other 16 retain the previously inspected native objects and layout; no shared master edits."
+}

@@ -1,8 +1,10 @@
 # Improving DASCOT Routing
 
+**2026-11-28 direct native control:** [Author + Two-step result and decision](docs/updates/2026-11-28-author-native-two.md) · [最新方法計畫](docs/AUTHOR_NATIVE_TWO_PLAN_2026-11-28_ZH.md). 504 additional routing executions; 84/84 author schedule hashes reproduced. Native lookahead remains a development control, with no fixed-CPU win established. 0 new shots.
+
 Current priority: improve the original DASCOT routing result for the **2026-11-30** presentation. [最新繁中計畫](docs/ORIGINAL_OBJECTIVE_PLAN_2026-11-28_ZH.md) · [公開比較與完整新證據](docs/updates/2026-11-28-original-objective.md) · [新版講稿與問答](presentations/2026-11-30/README_ZH.md).
 
-Python3.12.14; 260 tests pass. This increment: 1,260 successful routing executions, **0 new shots**, 0 physical compilations. Public order-search gain is separated from lookahead gains and overhead. Branch: `research/2026-11-16-problem-driven`.
+Python3.12.14; 264 tests pass. The preceding routing increment: 1,260 successful routing executions, **0 new shots**, 0 physical compilations. Public order-search gain is separated from lookahead gains and overhead. Branch: `research/2026-11-16-problem-driven`.
 
 The sections below preserve the historical research and physical/decoder results for the **2026-11-09** report. The repository is named `Descot`; the underlying compilation method is **DASCOT**.
 

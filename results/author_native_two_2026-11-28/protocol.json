@@ -1,0 +1,217 @@
+{
+  "id": "author_native_reward_only_v1",
+  "prepared_utc": "2026-11-27T17:00:01.954188+00:00",
+  "base_commit": "1f4ac2a28a7a79b885e4c2fdca199fd5241dc075",
+  "question": "Does adding one next-front feasibility reward inside native author search improve full routing depth, and at what CPU cost?",
+  "methods": [
+    "author",
+    "author_two"
+  ],
+  "cases": [
+    {
+      "id": "3_17_13_compact",
+      "cohort": "public_development",
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "input_path": "results/original_objective_2026-11-30/inputs/3_17_13_compact.json"
+    },
+    {
+      "id": "3_17_13_square_sparse",
+      "cohort": "public_development",
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "input_path": "results/original_objective_2026-11-30/inputs/3_17_13_square_sparse.json"
+    },
+    {
+      "id": "error_correctiond3_n5_compact",
+      "cohort": "public_development",
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "input_path": "results/original_objective_2026-11-30/inputs/error_correctiond3_n5_compact.json"
+    },
+    {
+      "id": "error_correctiond3_n5_square_sparse",
+      "cohort": "public_development",
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "input_path": "results/original_objective_2026-11-30/inputs/error_correctiond3_n5_square_sparse.json"
+    },
+    {
+      "id": "qec_en_n5_compact",
+      "cohort": "public_development",
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "input_path": "results/original_objective_2026-11-30/inputs/qec_en_n5_compact.json"
+    },
+    {
+      "id": "qec_en_n5_square_sparse",
+      "cohort": "public_development",
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "input_path": "results/original_objective_2026-11-30/inputs/qec_en_n5_square_sparse.json"
+    },
+    {
+      "id": "held_random24_s41_compact",
+      "cohort": "historical_seen_synthetic",
+      "seeds": [
+        1,
+        2,
+        3
+      ],
+      "input_path": "inputs/held_random24_s41_compact/input.json"
+    },
+    {
+      "id": "held_random24_s41_square_sparse",
+      "cohort": "historical_seen_synthetic",
+      "seeds": [
+        1,
+        2,
+        3
+      ],
+      "input_path": "inputs/held_random24_s41_square_sparse/input.json"
+    },
+    {
+      "id": "held_random24_s53_compact",
+      "cohort": "historical_seen_synthetic",
+      "seeds": [
+        1,
+        2,
+        3
+      ],
+      "input_path": "inputs/held_random24_s53_compact/input.json"
+    },
+    {
+      "id": "held_random24_s53_square_sparse",
+      "cohort": "historical_seen_synthetic",
+      "seeds": [
+        1,
+        2,
+        3
+      ],
+      "input_path": "inputs/held_random24_s53_square_sparse/input.json"
+    },
+    {
+      "id": "held_random36_s67_compact",
+      "cohort": "historical_seen_synthetic",
+      "seeds": [
+        1,
+        2,
+        3
+      ],
+      "input_path": "inputs/held_random36_s67_compact/input.json"
+    },
+    {
+      "id": "held_random36_s67_square_sparse",
+      "cohort": "historical_seen_synthetic",
+      "seeds": [
+        1,
+        2,
+        3
+      ],
+      "input_path": "inputs/held_random36_s67_square_sparse/input.json"
+    },
+    {
+      "id": "held_ring24_compact",
+      "cohort": "historical_seen_synthetic",
+      "seeds": [
+        1,
+        2,
+        3
+      ],
+      "input_path": "inputs/held_ring24_compact/input.json"
+    },
+    {
+      "id": "held_ring24_square_sparse",
+      "cohort": "historical_seen_synthetic",
+      "seeds": [
+        1,
+        2,
+        3
+      ],
+      "input_path": "inputs/held_ring24_square_sparse/input.json"
+    }
+  ],
+  "repeats": 3,
+  "mapping": "Reused exact previously frozen author mappings; no new mapping in this pass.",
+  "native_parameters": {
+    "temperature": 10,
+    "cooling_rate": 0.1,
+    "termination_temp": 0.1,
+    "order_fraction": 1,
+    "take_first_ms": false,
+    "timeout_seconds": 300
+  },
+  "rng": "Same existing original-control per-state seeding. No stochastic rollout; criticality then gate-ID order.",
+  "score": "Original: sum criticality now. Two: original score plus one native greedy route of the actual successor front. Weight1, no guard, no tuning.",
+  "successor": "Rebuild from actual current remaining state minus executed IDs; ignore stale remaining argument passed by upstream.",
+  "search": "Unchanged native driver, enumeration/SA proposals and acceptance rule. Reward changes SA acceptance, so later adaptive candidates may differ. Not a fixed-pool comparison.",
+  "budget": "No cap added. Same native search parameters, not equal CPU or equal gate-route calls. Retain uncapped original. Record phase calls and independent timings. No fixed-CPU superiority claim.",
+  "caching": "Within one front, cache successor rollouts by executed IDs. Paths release at the boundary; no cross-step occupancy.",
+  "timing": "Serial alternating method order by seed/repeat. Total=search_other+scorer_exclusive+lookahead_route; scorer inclusive overlaps rollout. Legality/source trace outside route time. Shared host.",
+  "decision": "Report every pair and cohort separately. Depth benefit with overhead is a trade-off, not automatic adoption. No rerouting tuning or new sources after labels. Fixed-CPU and broad unseen-family evidence remain future gates.",
+  "scope": "All seen sources are development. Full source traces retained under original zero-duration local/readout SCMR abstraction; not full physical compilation.",
+  "new_shots": 0,
+  "physical_compilations": 0,
+  "mu": 0,
+  "sampling_permission": false
+}

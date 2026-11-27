@@ -95,5 +95,12 @@
     "result_prefix": "results/original_objective_2026-11-30/records",
     "files": 180,
     "scope": "180 complete abstract-routing records, full source traces and candidate fronts; no physical circuits, no new shots."
+  },
+  "author_native_two_2026-11-28.zip": {
+    "sha256": "b5ee98f5c61f4e627d76aa9482a589bc76489368d3a2fc2e60f3c91b0a20357f",
+    "bytes": 2997106,
+    "result_prefix": "results/author_native_two_2026-11-28",
+    "files": 169,
+    "scope": "168 complete native-author routing records, full source traces, current native order attempts, cached successor routes and frozen inputs. 504 serial measured executions, 0 new shots."
   }
 }

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "code_and_input_freeze": true,
+  "full_native_reference_hash_matches": 84,
+  "records": 168,
+  "journal_completed_executions": 504,
+  "score_entries_checked": 15352,
+  "nonempty_successor_rollouts_checked": 7374,
+  "public_same_entire_schedule_hashes": 50,
+  "old_source_files_preserved": true,
+  "new_shots": 0,
+  "physical_compilations": 0,
+  "ideal_sha256": null,
+  "noisy_sha256": null,
+  "dem_sha256": null
+}

@@ -1,0 +1,18 @@
+{
+  "python": "3.12.14",
+  "wisq_commit": "97c12a5e22cf16e37288c60a0a5735c58c6fe8ca",
+  "upstream_sarouting_sha256": "0217c7b3c19b4f7f36e4832bf2291797fe21c7d905d7085d3ad4de9528d1a762",
+  "cpu_count": 9,
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "code_sha256": {
+    "author_two_step.py": "8d70ffc957d12f6ab387814c006c2bd31980edea1a76c2f85fd761ba1fd818b7",
+    "run_author_native_two.py": "f9ec137e7126f17e7850852b1e243df128b1dd2d0fa148034ac4a25909df76a5",
+    "saturation.py": "6ab5c2e9d520d2d1fb8d9d0cd2b1ea3250cba8c2cad743fec54b147adab10341",
+    "validation.py": "ffdfb4a56aa55d014c8a4afb8cd79d9e0308557787b25928dce00fe64e8cddd3",
+    "run_original_objective.py": "947c38ee1a4293ba389c0282bc470cfdd86af9e2e6837c62da862529fb46b317",
+    "core.py": "774c55c9cd3884e992fb72fe880be33c72117fbd178129fee913f23ab1c6920f",
+    "requirements-lock.txt": "140e7ad5273ee3ac59347cd775c49bdcd2b1e978936e56bc7e1ab205eccaebf9"
+  },
+  "protocol_sha256": "ab3c8da9bc7ee1d0fa3e0fb5a447feca1b74619d262d532fda80d41cbd21c305",
+  "inputs_sha256": "ea5bf0ca323051a147027c7a826ad93a804dc2ea6635e82f7e84a1cec9075f67"
+}

@@ -1,5 +1,9 @@
 # Research continuity
 
+## Direct native-author comparison (2026-11-28)
+
+The user explicitly requested trying two-step directly inside the author search. Read `docs/AUTHOR_NATIVE_TWO_PLAN_2026-11-28_ZH.md` and the latest native-author update before extending it. `author_two_step.py` keeps native enumeration/SA and changes only reward; One48/Two48 remain separate bounded-search ablations. The frozen 84-pair result is weak (synthetic12/6/6, median depth -0.55%, time1.115x; public0/60/0, time1.063x), so keep it as a development control, not default. No new tuning, selector or unrelated experiments to rescue it without a new mechanism. Fixed-CPU superiority remains untested. Preserve all prior source/plan/record hashes; the previous original-objective plan and builder remain frozen.
+
 ## Latest TA/professor priority (2026-11-27; presentation 2026-11-30)
 
 The user relayed an explicit correction from the TA after discussion with the professor: improve the original DASCOT paper's results and prepare a NEW PPT for Monday 2026-11-30. The primary question is now routing depth versus compilation/search cost under the original SCMR abstraction, with fixed mapping/architecture when isolating routing. This supersedes the readout-sensitive-waiting question as the current main project. Preserve the entire physical/DEM/readout branch as archived secondary work; its calibration/held-out gates do not block reporting original-objective routing improvements. Do not relabel abstract routing gains as physical decoded-error gains. Keep source gates and dependencies traceable, native-author controls, fair search/CPU accounting and all negative/tied results. Use `docs/ORIGINAL_OBJECTIVE_PLAN_2026-11-28_ZH.md` and latest user feedback before the historical plan below. The user explicitly authorized a new presentation; preserve older decks. No new fault model or DEM proxy becomes the new main topic without a fresh user request.

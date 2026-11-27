@@ -56,3 +56,7 @@ results/presentation_fault_demo_2026-11-27/circuits/
 
 # Complete original-objective routing paths and full source traces in verified ZIP.
 /results/original_objective_2026-11-30/records/
+
+# Full native-author reward-only traces and frozen inputs are in the verified ZIP.
+/results/author_native_two_2026-11-28/records/
+/results/author_native_two_2026-11-28/inputs.json
