@@ -1,0 +1,20 @@
+{
+  "python": "3.12.14",
+  "dependency_lock": "requirements-lock.txt",
+  "overlay_lock": "requirements-circls-extra-2026-11-21.txt",
+  "targeted_tests": {
+    "passed": 6,
+    "seconds": 0.96
+  },
+  "full_suite": {
+    "passed": 270,
+    "seconds": 326.31
+  },
+  "independent_replay": "independent_verification.json",
+  "native_replay": "verification.json",
+  "main_environment_pip_check": "PASS",
+  "overlay_environment_pip_check": "PASS",
+  "author_worktree": "clean pinned1501f632",
+  "research_shots": 0,
+  "legacy_test_trajectories": "Existing correctness tests may use p=0 trajectories; not new research sampling or LER labels."
+}

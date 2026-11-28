@@ -1,0 +1,15 @@
+{
+  "frontend_seconds": 0.05712872600008723,
+  "physical_compile_seconds": 5.294929541000329,
+  "exact_validation_seconds": 0.9892893710003818,
+  "noise_dem_decoder_construction_seconds": 5.2819511670006705,
+  "distance_seconds": 0.9593008699994243,
+  "original_single_mechanism_diagnostic_seconds": 0.7726659080000218,
+  "independent_single_mechanism_trace_seconds": 0.8824682819999907,
+  "routing_seconds": null,
+  "scorer_seconds": null,
+  "calibration_seconds": null,
+  "monte_carlo_seconds": null,
+  "stochastic_decode_seconds": null,
+  "native_compile_scope": "Serial native physical calls including original internal router and graphlike pass; corrected main overlapped part of full pytest. Instrumented workload accounting only, not isolated performance or equal-CPU evidence."
+}

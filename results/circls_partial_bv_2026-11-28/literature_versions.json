@@ -1,0 +1,102 @@
+{
+  "date": "2026-11-28",
+  "records": [
+    {
+      "method": "DASCOT",
+      "version": "2311.18042v3",
+      "url": "https://arxiv.org/abs/2311.18042v3",
+      "read_scope": "Prior verified \u00a73,\u00a74.3 and Fig9; fresh PDF fetch DisabledError; pinned native wisq source retained.",
+      "retrieval_status": "carried; fresh PDF blocked"
+    },
+    {
+      "method": "Hamada",
+      "version": "2401.15829v6",
+      "url": "https://arxiv.org/abs/2401.15829v6",
+      "read_scope": "Look-ahead BFS/3D Dijkstra projection already known; not this partial-output adapter.",
+      "retrieval_status": "fresh HTML/abstract,latestv6 confirmed"
+    },
+    {
+      "method": "O3LS",
+      "version": "2604.15099v1",
+      "url": "https://arxiv.org/abs/2604.15099v1",
+      "read_scope": "II-C Pauli absorption; III-C Algorithm2 dynamic movement/rotation/routing; IV-A LER proxy. Native executable artifact remains unverified; own adapter is not O3LS.",
+      "retrieval_status": "fresh HTML/abstract,latestv1 confirmed"
+    },
+    {
+      "method": "SPARO",
+      "version": "2504.21854v2",
+      "url": "https://arxiv.org/abs/2504.21854v2",
+      "read_scope": "4.1 calibrated PPM/idle/rotation recurrence;4.3.1 Steiner routing;4.3.2 ordering/coloring;4.4 resource allocation. Original executable artifact still unverified.",
+      "retrieval_status": "fresh HTML/abstract,latestv2 confirmed"
+    },
+    {
+      "method": "Synchronization",
+      "version": "2506.10258v1",
+      "url": "https://arxiv.org/abs/2506.10258v1",
+      "read_scope": "4.1 active slack distribution and4.2 hybrid syndrome policies already handle waiting at a different layer.",
+      "retrieval_status": "fresh HTML/abstract,latestv1 confirmed"
+    },
+    {
+      "method": "Demand-Driven Routing Space",
+      "version": "2610.30747v1",
+      "url": "https://arxiv.org/abs/2610.30747v1",
+      "read_scope": "Prior3.1/E zero-cost Clifford/Pauli and space budget boundary retained.",
+      "retrieval_status": "fresh HTML/abstract/PDF DisabledError; prior fixed version carried"
+    },
+    {
+      "method": "CircLS",
+      "version": "2608.23819v2",
+      "url": "https://arxiv.org/abs/2608.23819v2",
+      "read_scope": "Prior lifetime/Pauli/decoder work retained. Actual pinned documented PPM entry, native frontend/reduction/scheduling and literal joint closures inspected and executed this run.",
+      "retrieval_status": "fresh paper HTML/abstract/PDF DisabledError; complete author artifact cloned and read"
+    },
+    {
+      "method": "Patchwork",
+      "version": "2610.22112v1",
+      "url": "https://arxiv.org/abs/2610.22112v1",
+      "read_scope": "Prior VI\u2013VIII/XII observable-sensitive physical schedule overlap retained; no new artifact confirmation.",
+      "retrieval_status": "fresh HTML/abstract/PDF DisabledError; prior fixed version carried"
+    },
+    {
+      "method": "AlphaSyndrome",
+      "version": "2601.12509v2",
+      "url": "https://arxiv.org/abs/2601.12509v2",
+      "read_scope": "Logical-support/error-propagation/decoder-in-loop scheduling is prior work at syndrome-check layer.",
+      "retrieval_status": "fresh HTML/abstract,latestv2 confirmed"
+    },
+    {
+      "method": "PACE",
+      "version": "2608.11719v1",
+      "url": "https://arxiv.org/abs/2608.11719v1",
+      "read_scope": "Decoder preparation/memory/capacity-aware scheduling prior overlap retained.",
+      "retrieval_status": "fresh abstract/PDF DisabledError; prior fixed version carried"
+    }
+  ],
+  "carried_manifest": "results/common_physical_pool_2026-11-25/literature_versions.json",
+  "carried_manifest_sha256": "bbca83b4ab829b0a0ae61b69c495eeb016ea4bc7008bd41651f03876b32637f1",
+  "original_artifact": {
+    "repository": "https://github.com/John-YuehanZhang/CircLS",
+    "revision": "1501f632f28e54188e57042abeaf450c3a300870",
+    "entry": "circls.pipeline.compile_ppm_sequence",
+    "source_hashes": "freeze.json author_source_sha256",
+    "read_files": [
+      "docs/API_HOOKS.md",
+      "circls/pipeline.py",
+      "circls/interop/nwqec/frontend.py",
+      "circls/interop/ir/gosc_gadgets.py",
+      "circls/compiler/measure_reduce.py",
+      "circls/compiler/scheduling.py",
+      "circls/tools/reporting.py",
+      "experiments/ablation.py",
+      "circls/metrics/report.py",
+      "circls/metrics/circuit_stats.py"
+    ]
+  },
+  "searches": [
+    "SPARO github quantum compiler",
+    "O3LS github lattice surgery"
+  ],
+  "artifact_search_decision": "Primary papers and author-maintained bibliography were found; no executable O3LS/SPARO artifact verified. No inference of nonexistence or novelty.",
+  "novelty": "No new method/Pauli propagation/lookahead/decoder-aware novelty claim. Complete public partial-readout original-control integration only.",
+  "scope": "Not all recent full texts reread; explicit inaccessible versions remain carried, never silently counted as newly verified."
+}

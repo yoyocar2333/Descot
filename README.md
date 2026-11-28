@@ -1,5 +1,7 @@
 # Improving DASCOT Routing
 
+**2026-11-28 research increment:** [完整公開BV的原作者joint-PPM控制](docs/updates/2026-11-28-circls-partial-bv.md). 32 frozen main native compilations preserve both original outputs and the unmeasured flag. Complete literal readout, signed inputs and distance3 pass; 0 new shots. Presentation files and prior results are unchanged.
+
 **2026-11-28 presentation v4:** [成果優先講稿／問答](presentations/2026-11-30/README_V4_ZH.md) · [最新引用對照](presentations/2026-11-30/REFERENCES_V4_ZH.md) · [敘事更新記錄](docs/updates/2026-11-28-presentation-positive-framing.md). The presentation leads with measured routing gains and uses ablations to explain their source. Scientific records are unchanged; 0 new shots.
 
 **2026-11-28 presentation references:** [完整書目與逐頁對照](presentations/2026-11-30/REFERENCES_ZH.md) · [21頁新版講稿／問答](presentations/2026-11-30/README_V3_ZH.md) · [引用更新記錄](docs/updates/2026-11-28-presentation-references.md). Three formal papers plus three fixed software/data snapshots; no new experiments.

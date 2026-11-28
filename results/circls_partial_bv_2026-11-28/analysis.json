@@ -1,0 +1,78 @@
+{
+  "main_compile_calls": 32,
+  "preflight_unit_label_compile_calls": 32,
+  "exploratory_compile_calls": 1,
+  "actual_native_physical_compile_calls_total": 65,
+  "original_qasm_frontend_rejections_before_physical_compile": 1,
+  "main_conditions": 18,
+  "candidate_count": 9,
+  "all_native_ppm_steps": 2,
+  "all_original_input_observables": [
+    [
+      "-ZZ_",
+      "-Z_Z"
+    ]
+  ],
+  "main_ideal_hashes": [
+    "f8723e6caf9c66407984e2cd9d62e607057e99a3e3ecfa568552ecbf3ca537ea"
+  ],
+  "main_noisy_hashes": [
+    "4d7b035f5cdce289972531be950e94bae6bb7192f13a84fea81cd4611b0e4e7a"
+  ],
+  "main_dem_hashes": [
+    "e11ab1da6e529db2e9f9ac9777a5cf11bafaf9a98d3253a728e6029550ccc9fa"
+  ],
+  "native_units": {
+    "cx_routing_steps": null,
+    "h_layers": null,
+    "template_block_z": null,
+    "qec_rounds": null,
+    "native_measurement_layers": 12,
+    "stim_tick": 73
+  },
+  "native_stats": {
+    "S1_tiles_bbox": 12,
+    "S2_tiles_touched": 7,
+    "S3_tiles_peak": 5,
+    "S4_qubits_active": 159,
+    "S5_qubits_allocated": 159,
+    "T1_rounds": 12,
+    "T2_logical_timesteps": 4.0,
+    "T4_compile_seconds": null,
+    "V1_volume_blocks": 13.333333333333334,
+    "V2_qubit_rounds": 721,
+    "V3_bbox_volume_blocks": 48.0,
+    "L1_live_tile_rounds": 24,
+    "L2_utilization": 0.4,
+    "L4_reuse_rate": 0.0,
+    "d": 3,
+    "internal": {
+      "ticks": 73,
+      "tile_rounds": 40,
+      "qubit_rounds_span": 737,
+      "qubits_per_tile_round": 18.025,
+      "num_detectors": 270,
+      "num_observables": 6
+    },
+    "sanity_notes": []
+  },
+  "applied_output_basis": "Original c0=Z(q1),c1=Z(q2); inverse full-source support -Z0Z1,-Z0Z2 at zero signed input. Rank2; flag q0 retained.",
+  "source_program_operations": 9,
+  "lowered_source_operations": 13,
+  "raw_risk_model_status": "stopped unchanged",
+  "calibrated": false,
+  "held_out_sampling_allowed": false,
+  "mu": 0,
+  "new_shots": 0,
+  "counts": null,
+  "confidence_interval": null,
+  "original_methods_remaining": [
+    "same semantic Pauli-IR/lowering for comparisons",
+    "same full footprint/lifetime/protected-idle policy",
+    "hardware-derived spatial limits and uncapped reference",
+    "online search/scorer budget and independent routing timing",
+    "O3LS/SPARO executable original control not verified",
+    "development revision/pilot/calibration and pre-evaluation freeze"
+  ],
+  "decision": "Retain completed native partial-output joint-PPM reference. Do not repeat all9 native-collapse compilations or infer decoded advantage. Advance common-representation/budget contract before a scorer revision or sampling."
+}

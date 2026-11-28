@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "records": 32,
+  "compile_started": 32,
+  "compile_finished": 32,
+  "new_shots": 0,
+  "scope": "Frozen source/author pins, full literal records, exact DEM replay and compile journal; no recompile."
+}

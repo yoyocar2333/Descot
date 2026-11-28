@@ -60,3 +60,10 @@ results/presentation_fault_demo_2026-11-27/circuits/
 # Full native-author reward-only traces and frozen inputs are in the verified ZIP.
 /results/author_native_two_2026-11-28/records/
 /results/author_native_two_2026-11-28/inputs.json
+
+# Complete native partial-output circuits, per-condition records and preflight
+# sources/journals are retained in the two hash-verified milestone ZIPs.
+/results/circls_partial_bv_2026-11-28/artifacts/
+/results/circls_partial_bv_2026-11-28/*_b??_m?.json
+/results/circls_partial_bv_2026-11-28/*.jsonl.gz
+/results/circls_partial_bv_2026-11-28_preflight_units/

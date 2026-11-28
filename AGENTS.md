@@ -1,5 +1,9 @@
 # Research continuity
 
+## Partial-output native PPM control (2026-11-28)
+
+Read `docs/updates/2026-11-28-circls-partial-bv.md` and its frozen records before continuing the readout-method support gate. The complete public BV source now enters pinned CircLS through its documented PPM entry after selecting exactly the original two output rows, with the unmeasured flag retained. All9 minima/full-no_sched converge to one two-joint-PPM circuit; do not repeat this collapse audit or call it equal-pool/equal-CPU scheduling success. Preserve 32 main,32 preflight-unit-label records plus1 exploratory compile accounting. Native T1_rounds counts measurement moments, not validated QEC rounds. Keep raw v1 stopped, held-out sealed and mu=0; next work is a common Pauli-IR/lowering/resource/online-budget contract, not new pilot tuning.
+
 ## Presentation framing (latest user feedback, 2026-11-28)
 
 Lead with completed, measured contributions: Two48 synthetic depth gains and complete-public-circuit order-search improvement. Use ablations to explain the gains. Keep source scope, full comparison data, costs and references accurate, while avoiding repetitive defensive statements in titles, the opening or conclusion. The new 21-slide v4 deck and `presentations/2026-11-30/README_V4_ZH.md` supersede v3 presenter material; preserve earlier artifacts and frozen research decisions.

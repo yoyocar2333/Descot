@@ -1,0 +1,435 @@
+{
+  "circls_partial_bv_2026-11-28.zip": {
+    "sha256": "885c9f6c86ce0d5f280f27f94e95d246ecdb34342ea26c52722b029ba605b01e",
+    "bytes": 111169,
+    "result_prefix": "results/circls_partial_bv_2026-11-28",
+    "files": 37,
+    "scope": "Complete BV native partial-output records, original outputs, ideal/noisy/DEM and single-mechanism traces; zero shots.",
+    "members": [
+      {
+        "path": "results/circls_partial_bv_2026-11-28/artifacts/0ad1e260078fd3707c1c237affbab96fcab0c994012ddf2475536132ea3401a1.stim",
+        "sha256": "0ad1e260078fd3707c1c237affbab96fcab0c994012ddf2475536132ea3401a1",
+        "bytes": 19909
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/artifacts/4d7b035f5cdce289972531be950e94bae6bb7192f13a84fea81cd4611b0e4e7a.stim",
+        "sha256": "4d7b035f5cdce289972531be950e94bae6bb7192f13a84fea81cd4611b0e4e7a",
+        "bytes": 64679
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/artifacts/e11ab1da6e529db2e9f9ac9777a5cf11bafaf9a98d3253a728e6029550ccc9fa.dem",
+        "sha256": "e11ab1da6e529db2e9f9ac9777a5cf11bafaf9a98d3253a728e6029550ccc9fa",
+        "bytes": 234521
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/artifacts/f8723e6caf9c66407984e2cd9d62e607057e99a3e3ecfa568552ecbf3ca537ea.stim",
+        "sha256": "f8723e6caf9c66407984e2cd9d62e607057e99a3e3ecfa568552ecbf3ca537ea",
+        "bytes": 24511
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/e11ab1da6e529db2e9f9ac9777a5cf11bafaf9a98d3253a728e6029550ccc9fa.jsonl.gz",
+        "sha256": "5a0e0f6a9a28ccbdec78d7f1fccb01d7d0db312682a2fd5a07cfb4cbe584c85b",
+        "bytes": 11980
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/full_b00_m0.json",
+        "sha256": "712c776f3b34274aa510a92af5cb2ad470c36495eb26a40093689790c61321d2",
+        "bytes": 5114
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/full_b01_m0.json",
+        "sha256": "989043d8c93b1a3a5b2b285c0a6a9b2dcb3f879a7a255be563f77a93911428ec",
+        "bytes": 5117
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/full_b02_m0.json",
+        "sha256": "201e6f5f7cc125aea0584af96f63daa819bbeb173f3794ffc0a3666711d38bf0",
+        "bytes": 5118
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/full_b03_m0.json",
+        "sha256": "c2d0282eabcc4cb22ff60c09b883fb7222564f6bef6f85d961106bdbc7ab1982",
+        "bytes": 5118
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/full_b04_m0.json",
+        "sha256": "ed60493ceeef5a9a229c73737f2d10b9c0157dc393776f4ee51fb18c31584e93",
+        "bytes": 5117
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/full_b05_m0.json",
+        "sha256": "1bd4edc69f70e22a55a073dc53f4c5cc67f65ab90f50e7e46a073ee087ec6c1c",
+        "bytes": 5117
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/full_b06_m0.json",
+        "sha256": "04d3c457ce376bb7caca58edb6a38c5d76b1dae237be3a8bb5a956a6f476d149",
+        "bytes": 5118
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/full_b07_m0.json",
+        "sha256": "a0fbe83a8ba017e13437eceaf4f6aae20466d0a357aedb0258bd087afdb27cb0",
+        "bytes": 5118
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/full_b08_m0.json",
+        "sha256": "2d53f48f032fddd4e4a605fbca9f3b32d1055a6d8a6ecb2832bcb5aa955fd745",
+        "bytes": 5118
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/full_b08_m1.json",
+        "sha256": "2f8d5681c6cda70600d02bcc95e5d311bef631a939b6ef238f0b840412326257",
+        "bytes": 5126
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/full_b08_m2.json",
+        "sha256": "e40e5dd5e789ebdb92a811cf74fb48cc810939771847efc2719befb5cbee82ba",
+        "bytes": 5125
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/full_b08_m3.json",
+        "sha256": "9552f7886b7adb8c8ea8a2f0cf053958ca033c9ad9f6ec80cdcb12adc36e6026",
+        "bytes": 5137
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/full_b08_m4.json",
+        "sha256": "8ae5741648a7bb440ebfcafdf8ffeb75858b4ecfd8695ba582ad50df7bffb52d",
+        "bytes": 5127
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/full_b08_m5.json",
+        "sha256": "d7fd2dddc51adcd0c004f86a4df256e96e95636d3d016493fbc5bcdec30f1384",
+        "bytes": 5135
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/full_b08_m6.json",
+        "sha256": "97b635f3bf658603969c9cbee1c922828212e56e77709012e3f85ae54d5d8f10",
+        "bytes": 5135
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/full_b08_m7.json",
+        "sha256": "c1c3045136ac6dbabff548f21abff9bd0473f2bf33ba38231989c4aaeb2110b5",
+        "bytes": 5145
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/no_sched_b00_m0.json",
+        "sha256": "a945b3b75c802e20c60d75e1a311c802baa34124ce4a963e4073044905afb22d",
+        "bytes": 5125
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/no_sched_b01_m0.json",
+        "sha256": "c46b2b88b600607bc04a78a81b8928515169627d2d43609e65a163617306283c",
+        "bytes": 5125
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/no_sched_b02_m0.json",
+        "sha256": "32da69ebb52a1893227cc5aa6b9b17edd15fd9585d7c37484d05273447f585a2",
+        "bytes": 5127
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/no_sched_b03_m0.json",
+        "sha256": "b72b7126d91d8987f5bedc26fe931e25d006daa09efb12d5aebd38b4e48852a1",
+        "bytes": 5125
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/no_sched_b04_m0.json",
+        "sha256": "62601765f83aad3564fd7fed65d47e4982c446b0b07702cb8b8d021df8e17fb4",
+        "bytes": 5125
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/no_sched_b05_m0.json",
+        "sha256": "682ac4b15c81c88deab8197a4f03d4de3ff17e77255a256a6c2e41c8c65372c1",
+        "bytes": 5123
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/no_sched_b06_m0.json",
+        "sha256": "3a69b403c6aeee4d93e1e95a393b5e6540737e0ac2ff767e4a1609ebf6afb498",
+        "bytes": 5127
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/no_sched_b07_m0.json",
+        "sha256": "48e000cc7ae64eb0950b5ccb42c37b11ddeeca50a558fbf09fe3d9d4eaae56ac",
+        "bytes": 5125
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/no_sched_b08_m0.json",
+        "sha256": "e3b101d4de5018edee1e6c6167690976c2b9576fada89cb4dec8220d2bfaa7fe",
+        "bytes": 5126
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/no_sched_b08_m1.json",
+        "sha256": "b010dcbf4d7c799f29805867aa7563211ee089a24f6a69703e336698f2242b67",
+        "bytes": 5135
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/no_sched_b08_m2.json",
+        "sha256": "ccb36118651179b6b4e6990b6fe66953c89ab80124a7aec2c89dc141ea2ad44b",
+        "bytes": 5135
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/no_sched_b08_m3.json",
+        "sha256": "5fa743c03097762d67d971a9068fe7cbbaf0168e207e1bd8723ae71ce0455a33",
+        "bytes": 5143
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/no_sched_b08_m4.json",
+        "sha256": "d2253fda5fb1adc969a5b307aa3becf3feaa7ef4aeaf897e8000be4b22505eca",
+        "bytes": 5135
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/no_sched_b08_m5.json",
+        "sha256": "382a25b50147ba98a1461ba34b8beb26e31133b9864f800636a00b16720fbfda",
+        "bytes": 5145
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/no_sched_b08_m6.json",
+        "sha256": "7d70397c65ea8db720812c66ad5eabf483a799635bf20e0e1460aef4abb6980a",
+        "bytes": 5143
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28/no_sched_b08_m7.json",
+        "sha256": "cd0a9208f97e45bcf0ff144d48c3e8713256e784b38ac06f3e34cf3285f4492f",
+        "bytes": 5153
+      }
+    ]
+  },
+  "circls_partial_bv_2026-11-28_preflight_units.zip": {
+    "sha256": "ad1ea09307da0c8f8b32706d4e32186c730c0cde333981afb6d3fa4be7058e83",
+    "bytes": 136980,
+    "result_prefix": "results/circls_partial_bv_2026-11-28_preflight_units",
+    "files": 46,
+    "scope": "All32 preflight records with the original unit-label error, full journal/freeze and frozen source. Preserved workload accounting, not corrected main results.",
+    "members": [
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/README_ZH.md",
+        "sha256": "5d36961b73078f53d505a3ab09e966ef4711144022c33aedea1dde7f7e9b3963",
+        "bytes": 276
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/artifacts/0ad1e260078fd3707c1c237affbab96fcab0c994012ddf2475536132ea3401a1.stim",
+        "sha256": "0ad1e260078fd3707c1c237affbab96fcab0c994012ddf2475536132ea3401a1",
+        "bytes": 19909
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/artifacts/4d7b035f5cdce289972531be950e94bae6bb7192f13a84fea81cd4611b0e4e7a.stim",
+        "sha256": "4d7b035f5cdce289972531be950e94bae6bb7192f13a84fea81cd4611b0e4e7a",
+        "bytes": 64679
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/artifacts/e11ab1da6e529db2e9f9ac9777a5cf11bafaf9a98d3253a728e6029550ccc9fa.dem",
+        "sha256": "e11ab1da6e529db2e9f9ac9777a5cf11bafaf9a98d3253a728e6029550ccc9fa",
+        "bytes": 234521
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/artifacts/f8723e6caf9c66407984e2cd9d62e607057e99a3e3ecfa568552ecbf3ca537ea.stim",
+        "sha256": "f8723e6caf9c66407984e2cd9d62e607057e99a3e3ecfa568552ecbf3ca537ea",
+        "bytes": 24511
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/e11ab1da6e529db2e9f9ac9777a5cf11bafaf9a98d3253a728e6029550ccc9fa.jsonl.gz",
+        "sha256": "92907e9b93672c3f7b7a1f549f568582f590fb438687a5ce017c9de63ffd7f8f",
+        "bytes": 11980
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/freeze.json",
+        "sha256": "2805a03b486fc1365651856b69f287d3c1040da5a6e81eb3ed938982ad2afb0e",
+        "bytes": 29221
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/frozen_source/circls_partial_control.py",
+        "sha256": "b71ab36c1e711529421d1a4d3554ffce2d2630be7c244bbedec30e4da69ef232",
+        "bytes": 6133
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/frozen_source/run_circls_partial_control.py",
+        "sha256": "afe23ab6bc041be7863368f1f046ecea422167fd55346f73900fbe90d89eaa34",
+        "bytes": 12282
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/frozen_source/test_circls_partial_control.py",
+        "sha256": "f889d0ebfaf9a642b986a22bc075d40e9fb755064e72e13fbf92194e5a011618",
+        "bytes": 1869
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/full_b00_m0.json",
+        "sha256": "f55a9c47a40c1310c16df03b5bd723441dcadbf0709a6d5f7e895fb8d7a1852f",
+        "bytes": 5077
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/full_b01_m0.json",
+        "sha256": "41c3bf8a466371f3aed660632931677762bb6831214c87337fb09959287f3383",
+        "bytes": 5077
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/full_b02_m0.json",
+        "sha256": "1b186f632811a337ac7b4d50df379b7ddf8e8dfa018094596893b8ace3a1026d",
+        "bytes": 5079
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/full_b03_m0.json",
+        "sha256": "c93d12a20e27226ca5cb3f4ab7261272da2b16db56470ff9b25e1f25df87d563",
+        "bytes": 5079
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/full_b04_m0.json",
+        "sha256": "51a706daa53d8d3fa5887f0c94d2105608396503fb52d0aaedecb2959a8708a1",
+        "bytes": 5079
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/full_b05_m0.json",
+        "sha256": "7882b8b23af72b9a91a8e764835073f673a3c80f0f4a28994e57f3ec6e9f27b9",
+        "bytes": 5077
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/full_b06_m0.json",
+        "sha256": "ee0073be3bc586cd5f25bee3e26008ba885a02fceb6dabd45952a2c8bb75e8d4",
+        "bytes": 5077
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/full_b07_m0.json",
+        "sha256": "4cb23122d5647e8b89de11e374a9d84f54d9464b92fa6e83c48ce539cecc5b2f",
+        "bytes": 5079
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/full_b08_m0.json",
+        "sha256": "c9da4d0769bb6518f44c0a600395fd0747763cf5c7dc648cb5a57abac2feddf7",
+        "bytes": 5078
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/full_b08_m1.json",
+        "sha256": "3da7458ec79d3c59f5af37a4311df353ff0686e7b4a2c97a5fd446ecd6bab2d7",
+        "bytes": 5088
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/full_b08_m2.json",
+        "sha256": "50d6729a8ba4eef8c43ebb6226e76418dc537bd2e70814832e80c63c94fb4dc2",
+        "bytes": 5086
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/full_b08_m3.json",
+        "sha256": "b59df3d31985a7f373340f2e2bc6fe632c198bdbcb045646ffb7ef72bc77a6a3",
+        "bytes": 5096
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/full_b08_m4.json",
+        "sha256": "f0c00efc05f1c86b0ea0665ae0d016356c3cab103e8f7b2384437bf8618b3cf3",
+        "bytes": 5087
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/full_b08_m5.json",
+        "sha256": "9f57e74f48df1c6f9fa284b37bef424888d26521fd9103b3f801865954f80c01",
+        "bytes": 5097
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/full_b08_m6.json",
+        "sha256": "082dd5c0c04378f2a6a841b3aa819dca324655e7d87554036b964081364a0d27",
+        "bytes": 5097
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/full_b08_m7.json",
+        "sha256": "8189c57fd8d35c1235b7407e199e638ac6cde8b60b6cb8133a211c927604d1d3",
+        "bytes": 5107
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/journal.jsonl",
+        "sha256": "b1efd3cd80351fe2e62bd9bebee329075732beeb47ccd2bb2187d74a654f93c0",
+        "bytes": 7350
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/no_sched_b00_m0.json",
+        "sha256": "8b0b3a8508e597d1fb33322d7db1e248bb5a3136e0e7eedac66699f8f795b11d",
+        "bytes": 5087
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/no_sched_b01_m0.json",
+        "sha256": "0716f17e47d3f869d3c9ad2146111bbcead6efb51c7a3fb0db5280b1072a2ecf",
+        "bytes": 5086
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/no_sched_b02_m0.json",
+        "sha256": "3ad70c2a1076101d5666008170eb4f69926644108ca48ad2b1ef32063c2f3fcb",
+        "bytes": 5086
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/no_sched_b03_m0.json",
+        "sha256": "ee8198b55b98b65f83706b123064b6cf8d03afce459196867f67308747780225",
+        "bytes": 5088
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/no_sched_b04_m0.json",
+        "sha256": "0259e1a521dc18b884585b88c7b816c6492697bda948e988cd73fc97bd97d2e9",
+        "bytes": 5087
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/no_sched_b05_m0.json",
+        "sha256": "6ab090bbd6222d3409fc7245f8c5a03748efdabcbba93a1c138b281eb06a2110",
+        "bytes": 5087
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/no_sched_b06_m0.json",
+        "sha256": "dff3681acc1de10cb074c68205dbe20cd0f9b770264525f892a698811e9fde95",
+        "bytes": 5084
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/no_sched_b07_m0.json",
+        "sha256": "a61bfa069b0fcf0d8e5c9ff3ff52b9e379c3454d2f0c421003383b80cd05d06d",
+        "bytes": 5088
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/no_sched_b08_m0.json",
+        "sha256": "5fa505ea078986ba3006a46c8c556869bcd4e4bcd1c71995af0f2e7e519548ef",
+        "bytes": 5086
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/no_sched_b08_m1.json",
+        "sha256": "22a199b7bb8727ffa5d04926b983ed12e54b5f2eb6f69e49170deaa6e5d7880c",
+        "bytes": 5096
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/no_sched_b08_m2.json",
+        "sha256": "4f8993559199551efc03d5abdd5ff4d8d0e707b2926886f91003707798c3d8f7",
+        "bytes": 5097
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/no_sched_b08_m3.json",
+        "sha256": "b59cd39275e67ce851adb5c3ec993b71d3a2799f9f40f15eaf0f348dfae4fd4e",
+        "bytes": 5103
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/no_sched_b08_m4.json",
+        "sha256": "9c9b4ef7f5196958b6e040bfdb696a521f988ee3299ec269a1ada4c1af0b6ead",
+        "bytes": 5095
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/no_sched_b08_m5.json",
+        "sha256": "5f51d7c4242d378e9f3dd6095449588ef51aee7e58191ee5e340bed4cee3a623",
+        "bytes": 5104
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/no_sched_b08_m6.json",
+        "sha256": "7470eb45eaedd2e4b7deeb0603f4b41499e6e257db2a6c89b8e861b003534bdc",
+        "bytes": 5105
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/no_sched_b08_m7.json",
+        "sha256": "b3c0f09bcbe30fd87649b5f6ac2d7e0ae163881d0a519cc0c71d0188477c169d",
+        "bytes": 5114
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/protocol.json",
+        "sha256": "7aaff6d7a30b827fd136528c80c2e59468596222d0033755240856dda98415e4",
+        "bytes": 1853
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/summary.json",
+        "sha256": "c8e0404b90deb5f1414f5f30c2e317fd3b233b870b20159dd79498ede284cee7",
+        "bytes": 1961
+      },
+      {
+        "path": "results/circls_partial_bv_2026-11-28_preflight_units/verification.json",
+        "sha256": "adf9e41751f800583b2c573ef7e7d718179ff09cecf9add16f06f18a62d885e8",
+        "bytes": 224
+      }
+    ]
+  }
+}

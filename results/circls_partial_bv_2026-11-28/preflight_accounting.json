@@ -1,0 +1,26 @@
+{
+  "direct_source_rejection": {
+    "physical_compiles": 0,
+    "error": "non-identity classical mapping measure q[1] -> c[0]; author frontend rejects partial/permuted terminal measurements"
+  },
+  "exploratory": {
+    "native_physical_compiles": 1,
+    "source": "Complete BV native Z-product IR",
+    "circuit_saved": false,
+    "circuit_hash": null,
+    "used_in_main_results": false
+  },
+  "unit_label_preflight": {
+    "native_physical_compiles": 32,
+    "directory": "circls_partial_bv_2026-11-28_preflight_units",
+    "journal": "all32 starts and32 finishes retained",
+    "issue": "Native T1_rounds is measurement moments, not QEC rounds",
+    "frozen_source_preserved": true
+  },
+  "corrected_main": {
+    "native_physical_compiles": 32,
+    "directory": "circls_partial_bv_2026-11-28"
+  },
+  "actual_physical_compiles_total": 65,
+  "new_shots": 0
+}

@@ -1,0 +1,41 @@
+{
+  "id": "circls_partial_public_bv_native_ppm_v1",
+  "author_commit": "1501f632f28e54188e57042abeaf450c3a300870",
+  "source": "benchmarks/public_2026-11-27/mqt/bv_n3_11.qasm",
+  "source_revision": "8f919416457d76b256930443078334021634236f",
+  "family": "bernstein_vazirani development",
+  "full_source": "All9 original instructions; all13 lowered instruction IDs in each source trace. Original2 measurements become explicit original-output Pauli IR, not deleted or completed to3 application outputs.",
+  "entry": "Documented compile_ppm_sequence after original nwqec pullback, selected original outputs, native re-selection/sweep/schedule passes; not unmodified compile_qasm.",
+  "configs": [
+    "full",
+    "no_sched"
+  ],
+  "plan_count": 9,
+  "signed_input_masks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "main_conditions": "Both configs on all9 minima; all7 nonzero signed inputs on b08 only",
+  "main_compile_ceiling": 32,
+  "noise": "Original CircLS inject_uniform_noise p=0.001; distinct from TQEC noise",
+  "distance": 3,
+  "decoder": "ordinary uncorrelated PyMatching MWPM, complete original2-output basis",
+  "units": "Native T1_rounds is measurement-containing moments, not a validated QEC-round conversion. QEC rounds=null; native measurement layers and Stim TICK recorded separately.",
+  "validation": "All3 source Clifford pullbacks, original output reconstruction/signs, nonempty rank2 actual record basis, physical measurement fault responses, deterministic DEM, graphlike distance3; exhaustive single-DEM-mechanism audit.",
+  "shots": 0,
+  "seeds": [],
+  "counts": null,
+  "confidence_interval": null,
+  "sampler_calls": 0,
+  "calibration": false,
+  "held_out_sampling_allowed": false,
+  "mu": 0,
+  "scope": "Native partial-output compiler/PPM control for a complete public application; not gate-preserving same-pool/equal-CPU scheduler efficacy.",
+  "stop": "Stop on source/pass/record/sign/distance mismatch; preserve all candidates and old results. No noisy sampling or selector tuning."
+}

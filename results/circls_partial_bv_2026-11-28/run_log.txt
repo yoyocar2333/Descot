@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "native_compile_calls": 32,
+  "main_conditions": 18,
+  "candidate_count": 9,
+  "configs": [
+    "full",
+    "no_sched"
+  ],
+  "signed_inputs_per_config": 8,
+  "unique_main_ideal_hashes": 1,
+  "unique_main_noisy_hashes": 1,
+  "native_ppm_steps": 2,
+  "complete_original_outputs": 2,
+  "logical_qubits_including_flag": 3,
+  "mechanism_audits": [
+    {
+      "dem_sha256": "e11ab1da6e529db2e9f9ac9777a5cf11bafaf9a98d3253a728e6029550ccc9fa",
+      "raw_sha256": "5a0e0f6a9a28ccbdec78d7f1fccb01d7d0db312682a2fd5a07cfb4cbe584c85b",
+      "mechanisms": 4666,
+      "decoded_any_mismatch_mechanisms": 0,
+      "decoded_mismatch_mechanisms_per_observable": [
+        0,
+        0
+      ],
+      "original_function_sha256": "bae0577dd5e8d048cd6858a6aa58e9a1e3bd9d88d48b89f94a57150aa60f2289",
+      "author_trace_agree": true,
+      "raw_record_columns": [
+        "flattened_error_ordinal",
+        "true_observable_mask",
+        "decoder_prediction_mask",
+        "decoded_residual_mask"
+      ],
+      "num_detectors": 270,
+      "num_observables": 2,
+      "shots": 0,
+      "counts": null,
+      "confidence_interval": null,
+      "note": "Exhaustive single-DEM-mechanism diagnostic, not circuit LER, original physical-fault counts, or a candidate rejection rule",
+      "timing": {
+        "original_diagnostic_seconds": 0.7726659080000218,
+        "additional_trace_decode_and_record_seconds": 0.8824682819999907,
+        "dem_construction_seconds": null,
+        "note": "Original timing includes matching construction and complete mechanism decoding; trace includes parsing/encoding. Cached full DEM, no compilation or Monte Carlo."
+      }
+    }
+  ],
+  "shots": 0,
+  "counts": null,
+  "confidence_interval": null,
+  "mu": 0,
+  "decision": "Complete public BV now has a literal two-joint-PPM native control via documented entry point. No scheduler/decoded-error superiority inferred; common lowering/space/budget gate remains open."
+}

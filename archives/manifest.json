@@ -102,5 +102,19 @@
     "result_prefix": "results/author_native_two_2026-11-28",
     "files": 169,
     "scope": "168 complete native-author routing records, full source traces, current native order attempts, cached successor routes and frozen inputs. 504 serial measured executions, 0 new shots."
+  },
+  "circls_partial_bv_2026-11-28.zip": {
+    "sha256": "885c9f6c86ce0d5f280f27f94e95d246ecdb34342ea26c52722b029ba605b01e",
+    "bytes": 111169,
+    "result_prefix": "results/circls_partial_bv_2026-11-28",
+    "files": 37,
+    "scope": "Complete BV native partial-output records, original outputs, ideal/noisy/DEM and single-mechanism traces; zero shots."
+  },
+  "circls_partial_bv_2026-11-28_preflight_units.zip": {
+    "sha256": "ad1ea09307da0c8f8b32706d4e32186c730c0cde333981afb6d3fa4be7058e83",
+    "bytes": 136980,
+    "result_prefix": "results/circls_partial_bv_2026-11-28_preflight_units",
+    "files": 46,
+    "scope": "All32 preflight records with the original unit-label error, full journal/freeze and frozen source. Preserved workload accounting, not corrected main results."
   }
 }
