@@ -1,5 +1,9 @@
 # Research continuity
 
+## Presentation framing (latest user feedback, 2026-11-28)
+
+Lead with completed, measured contributions: Two48 synthetic depth gains and complete-public-circuit order-search improvement. Use ablations to explain the gains. Keep source scope, full comparison data, costs and references accurate, while avoiding repetitive defensive statements in titles, the opening or conclusion. The new 21-slide v4 deck and `presentations/2026-11-30/README_V4_ZH.md` supersede v3 presenter material; preserve earlier artifacts and frozen research decisions.
+
 ## Direct native-author comparison (2026-11-28)
 
 The user explicitly requested trying two-step directly inside the author search. Read `docs/AUTHOR_NATIVE_TWO_PLAN_2026-11-28_ZH.md` and the latest native-author update before extending it. `author_two_step.py` keeps native enumeration/SA and changes only reward; One48/Two48 remain separate bounded-search ablations. The frozen 84-pair result is weak (synthetic12/6/6, median depth -0.55%, time1.115x; public0/60/0, time1.063x), so keep it as a development control, not default. No new tuning, selector or unrelated experiments to rescue it without a new mechanism. Fixed-CPU superiority remains untested. Preserve all prior source/plan/record hashes; the previous original-objective plan and builder remain frozen.

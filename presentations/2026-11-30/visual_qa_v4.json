@@ -1,0 +1,352 @@
+{
+  "verified_date": "2026-11-28",
+  "native_page_id": "page_6c060a5ae73c8191bd4db6c4c8047048",
+  "observed_sequence": 11,
+  "total_slides": 21,
+  "changed_slides": [
+    {
+      "slide": 1,
+      "visual_inspection": "PASS",
+      "sha256": "f9c1559e58402b55a32c8c9c92cf342550a5ca4b366c6d04ab484eba45bb88dd"
+    },
+    {
+      "slide": 5,
+      "visual_inspection": "PASS",
+      "sha256": "b683447f437ab2823ab91a15d3a07feeebc23e45bbd8ed8d0f8589fa472b020a"
+    },
+    {
+      "slide": 6,
+      "visual_inspection": "PASS",
+      "sha256": "bc372995df16eebf35b476f67f19fb2a8e139880515ab1cb6c173a82f0d02a30"
+    },
+    {
+      "slide": 7,
+      "visual_inspection": "PASS",
+      "sha256": "6e8c04bc6ea45b91f1ae6385058c7f28fb0bbd170a7652abb182f98b5a996cf0"
+    },
+    {
+      "slide": 8,
+      "visual_inspection": "PASS",
+      "sha256": "9ffaab310794618e8623f29acb867b8c1c70c824958b29ddb776d9a9c4095a5a"
+    },
+    {
+      "slide": 9,
+      "visual_inspection": "PASS",
+      "sha256": "57559a7229c1f07265d9787cc244b49fa323115891f1b7a3b75b35359e8c9e87"
+    },
+    {
+      "slide": 10,
+      "visual_inspection": "PASS",
+      "sha256": "ee60607db32e17edd6d0126e0eb408f1fffaf4b1bf22820fef4152e573ac0848"
+    },
+    {
+      "slide": 11,
+      "visual_inspection": "PASS",
+      "sha256": "5efd06cd32d144d526feb2aad09e7afac7e1c8516fba87de5f6d8c7c88f5486e"
+    },
+    {
+      "slide": 12,
+      "visual_inspection": "PASS",
+      "sha256": "42d6c1a0f9e3b6d7b2f769de7d3b81793e421cb635d522ff3f5a91ac5c0b854c"
+    },
+    {
+      "slide": 13,
+      "visual_inspection": "PASS",
+      "sha256": "2d20b43ccc5afcc98e55d14062f31fc48b8f80a399be5dd78a3fea1f987627c2"
+    },
+    {
+      "slide": 14,
+      "visual_inspection": "PASS",
+      "sha256": "c2a886a41eeb32add9f4191dac072050fb53ad6b09ee1bfc6bbf5d02180852b2"
+    },
+    {
+      "slide": 15,
+      "visual_inspection": "PASS",
+      "sha256": "b518e65424b9a4a6fcb56a4d00f919954aae471cab945a1e0dfdb18e3f4a9682"
+    },
+    {
+      "slide": 16,
+      "visual_inspection": "PASS",
+      "sha256": "9a44282310a3602331bced39296aa7310bc43c3f716ef1a211eee5e11f6764ca"
+    },
+    {
+      "slide": 17,
+      "visual_inspection": "PASS",
+      "sha256": "44a35452159085972a5a23e2abfdd712b12138a745715b54cf3cf1dc774b1769"
+    },
+    {
+      "slide": 18,
+      "visual_inspection": "PASS",
+      "sha256": "db678ac27aa75c6a21b874a46d1b700bdda780bf9bdd2d0c4a85f2703a7d23ae"
+    },
+    {
+      "slide": 19,
+      "visual_inspection": "PASS",
+      "sha256": "92972a97e41cba00e37a4e0cb4c2113fad49e8920b48c809706061cc8b50f427"
+    }
+  ],
+  "readback": {
+    "tables": [
+      {
+        "slide": 9,
+        "text": "Quantity\tOne-step choice\tTwo-step choice\nCurrent reward R₁\t74\t74\nNext-front rollout\t61\t62\nTwo-step score R₂\t135\t136\nFinal complete routing depth\t16 steps\t15 steps"
+      },
+      {
+        "slide": 10,
+        "text": "Method\tSearch setting\tAdditional work\nAuthor\tNative enumeration / SA\tOriginal adaptive count\nAuthor + Two\tSame native parameters\tCached next-front rollouts\nOne48\tUp to 48 current orders\t48 evaluation units\nTwo48\tUp to 24 orders + rollouts\t48 evaluation units"
+      },
+      {
+        "slide": 11,
+        "text": "Paired cohort\tDepth W / T / L\tMedian depth Δ\tMedian time ratio\nSynthetic (24)\t12 / 6 / 6\t-0.55%\t1.115×\nPublic (60)\t0 / 60 / 0\t0.00%\t1.063×"
+      },
+      {
+        "slide": 13,
+        "text": "Comparison\tWins / ties / losses\tMedian depth change\nTwo48 vs. author\t13 / 9 / 2\t−2.42%\nTwo48 vs. One48\t16 / 8 / 0\t−3.69%\nTwo16 vs. One16 (same pool)\t15 / 8 / 1\t−2.94%"
+      },
+      {
+        "slide": 15,
+        "text": "Complete source\tLayout\tAuthor\tOne48\tTwo48\tW / T / L\n3_17_13\tCompact\t25.6\t25.0\t25.0\t6 / 4 / 0\n3_17_13\tSparse\t21.0\t21.0\t21.0\t0 / 10 / 0\nerror_correctiond3\tCompact\t48.0\t48.0\t48.0\t0 / 10 / 0\nerror_correctiond3\tSparse\t48.0\t48.0\t48.0\t0 / 10 / 0\nqec_en\tCompact\t11.0\t11.0\t11.0\t0 / 10 / 0\nqec_en\tSparse\t11.0\t11.0\t11.0\t0 / 10 / 0"
+      },
+      {
+        "slide": 17,
+        "text": "Metric\tAuthor\tTwo48\nComplete routing depth\t18 steps\t19 steps\nRouting-only wall time\t576.7 ms\t583.5 ms"
+      }
+    ],
+    "charts": [
+      {
+        "slide": 14,
+        "series": [
+          {
+            "name": "24 configurations",
+            "values": [
+              0.9622641509433962,
+              0.9272727272727272,
+              0.9259259259259259,
+              1,
+              0.875,
+              1,
+              1.011111111111111,
+              1,
+              1,
+              0.9545454545454546,
+              0.9523809523809523,
+              1,
+              0.9876543209876543,
+              0.9634146341463414,
+              0.963855421686747,
+              0.95,
+              1,
+              1.0555555555555556,
+              0.8870967741935484,
+              0.9016393442622951,
+              0.873015873015873,
+              1,
+              1,
+              1
+            ],
+            "xValues": [
+              0.8742750914360509,
+              0.9695748912144103,
+              0.9246507320087229,
+              0.9160739580361958,
+              0.9238429284817175,
+              0.9580677236932642,
+              0.9797928945396831,
+              0.9364376887040672,
+              1.1368081323212895,
+              1.0461143963868296,
+              0.9516238562220597,
+              0.9435587479885799,
+              1.0593149872862755,
+              0.989286582101203,
+              0.9025951730653343,
+              1.002524237551488,
+              0.919642492799475,
+              1.011862363766336,
+              0.915093707779094,
+              0.9822667485321276,
+              0.9348683822910762,
+              0.9523216281890279,
+              0.9787847772626157,
+              0.9434197220781894
+            ]
+          },
+          {
+            "name": "Same depth",
+            "values": [
+              1,
+              1
+            ],
+            "xValues": [
+              0.8,
+              1.2
+            ]
+          },
+          {
+            "name": "Same time",
+            "values": [
+              0.85,
+              1.1
+            ],
+            "xValues": [
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "slide": 16,
+        "series": [
+          {
+            "name": "One48",
+            "values": [
+              0.9457413976797238,
+              0.8338301058276857,
+              0.827328566786008,
+              1.0943401112889495,
+              0.9778131956183297,
+              0.9983932998114651
+            ],
+            "xValues": []
+          },
+          {
+            "name": "Two48",
+            "values": [
+              1.3267692874191255,
+              1.4807665038362798,
+              1.1832103588991598,
+              1.5258425596264593,
+              1.3608053122794002,
+              1.2623634265287988
+            ],
+            "xValues": []
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "slide": 3,
+        "pass": true
+      },
+      {
+        "slide": 4,
+        "pass": true
+      },
+      {
+        "slide": 5,
+        "pass": true
+      },
+      {
+        "slide": 6,
+        "pass": true
+      },
+      {
+        "slide": 8,
+        "pass": true
+      },
+      {
+        "slide": 9,
+        "pass": true
+      },
+      {
+        "slide": 10,
+        "pass": true
+      },
+      {
+        "slide": 11,
+        "pass": true
+      },
+      {
+        "slide": 13,
+        "pass": true
+      },
+      {
+        "slide": 14,
+        "pass": true
+      },
+      {
+        "slide": 15,
+        "pass": true
+      },
+      {
+        "slide": 16,
+        "pass": true
+      },
+      {
+        "slide": 17,
+        "pass": true
+      },
+      {
+        "slide": 19,
+        "pass": true
+      }
+    ],
+    "total": 21
+  },
+  "baseline_tables_preserved": [
+    {
+      "old_slide": 9,
+      "new_slide": 9,
+      "pass": true
+    },
+    {
+      "old_slide": 10,
+      "new_slide": 10,
+      "pass": true
+    },
+    {
+      "old_slide": 19,
+      "new_slide": 11,
+      "pass": true
+    },
+    {
+      "old_slide": 12,
+      "new_slide": 13,
+      "pass": true
+    },
+    {
+      "old_slide": 14,
+      "new_slide": 15,
+      "pass": true
+    },
+    {
+      "old_slide": 16,
+      "new_slide": 17,
+      "pass": true
+    }
+  ],
+  "new_shots": 0,
+  "new_routing_executions": 0,
+  "physical_compilations": 0,
+  "full_tests_rerun": false,
+  "prior_full_test_count": 264,
+  "chart_data_preserved": true,
+  "status": "PASS",
+  "checks": [
+    "Six scientific/budget tables exactly match v3 readback text",
+    "24 scatter points and both six-value bar series exactly match frozen evidence",
+    "Headline values match original synthetic and public summaries",
+    "16 changed pages rendered and individually viewed",
+    "14 expected reference note mappings read back",
+    "JS syntax, JSON parse, Python3.12 generator execution and ZIP CRC checked"
+  ],
+  "unchanged_slides": [
+    2,
+    3,
+    4,
+    20,
+    21
+  ],
+  "frozen_file_hashes": {
+    "build_deck.mjs": "16044083bd443e852fddfa1d4593de88e7ecaef820f50c9942345a9dc38e430e",
+    "author_native_update.mjs": "b41a2f52fc1d12d66f767f360fc939b63612dfb46f5c7480d79af135a1a20b64",
+    "reference_update.mjs": "24282ac8947f3be5853e6b3cf4392863e616875d024e2e77cb89849753c90fc0",
+    "evidence.json": "5590e019b4c84349840efce8b911a3d912ee399308985d64abf174d1c8dafbc4",
+    "author_native_evidence.json": "aba7f5f970b9bc83c3b9feef641deb383a74f375e64086616a285be8153cb910",
+    "references.json": "c3ebf041ff3e15e956d1df521090d01f4e3fbf228ab29491355453203d712860"
+  },
+  "presenter_script_seconds": 792,
+  "presenter_zip_sha256": "299ed9630c8dc0f68cfe5348341c27cd34f64bec7cb27c0e3146dbe921123b4b"
+}
